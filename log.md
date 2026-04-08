@@ -145,3 +145,7 @@
 ## [2026-04-09] ingest | Duke Nukem 3D 开源游戏 wiki note
 - Created: open-source-game/duke-nukem-3d.md (3D Realms 经典 FPS 源码，Build Engine 驱动，Ken Silverman Sector/Portal 渲染，GPLv2 开源)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Shadow Warrior 开源游戏 wiki note
+- Created: open-source-game/shadow-warrior.md (3D Realms 经典 FPS，Build 引擎，118K LOC C，GPL+商业数据双许可，Lo Wang 中国忍者)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

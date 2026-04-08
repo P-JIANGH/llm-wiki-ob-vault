@@ -44,6 +44,7 @@
 >[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
 - [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，支持多游戏IWAD，~67K LOC C++，CMake+SDL2
 - [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译
+- [[open-source-game/shadow-warrior]] — 3D Realms 经典 FPS，Build 引擎，1997 年发行 2005 年开源，118K LOC C，GPL+商业数据双许可
 
 ## Concepts
 

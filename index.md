@@ -41,7 +41,8 @@
 ||>[[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统
 ||>[[open-source-game/wolfenstein-3d]] — id Software 1992 经典 FPS 源码，Borland C++ 3.0 + 80x86 汇编，Raycasting 渲染，DOS 16位时代遗产，教育用途许可
 ||>[[open-source-game/akhenaten]] — Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，GNU AGPL
-||>[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
+|||>[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
+- [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，支持多游戏IWAD，~67K LOC C++，CMake+SDL2
 
 ## Concepts
 

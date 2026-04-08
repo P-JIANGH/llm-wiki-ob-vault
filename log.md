@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | ECWolf Wolfenstein 3D 增强源码端口 wiki note
+- Created: open-source-game/ecwolf.md (Wolf4SDL/ZDoom 混合体验，软件 Raycasting，多游戏IWAD支持，无限推墙/Things，~67K LOC C++，CMake+SDL2)
+- Updated: index.md (total pages: 42), open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | Chocolate Doom 开源 Doom 源码端口 wiki note
 - Created: open-source-game/chocolate-doom.md (精准还原 DOS Doom 的源码端口，Bug-Compatible 设计哲学，SDL2 跨平台，支持 Doom/Heretic/Hexen/Strife 多游戏，GPL)
 - Updated: index.md (total pages: 41), open-source-games-learning-checklist.md, log.md

@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | DOOM64-RE 开源游戏逆向工程 wiki note
+- Created: open-source-game/doom-64-re.md (Doom 64 N64 完全逆向工程、C+MIPS汇编、N64 SDK交叉编译、WESS音频库、三阶段软件渲染管线、恢复锁定功能)
+- Updated: index.md (total pages: 41), open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | Wolfenstein 3D 开源 FPS 源码 wiki note
 - Created: open-source-game/wolfenstein-3d.md (Raycasting渲染、Borland C++3.0+80x86汇编、DOS 16位定点数系统、John Carmack 2012代码点评)
 - Updated: index.md (total pages: 40), open-source-games-learning-checklist.md, log.md

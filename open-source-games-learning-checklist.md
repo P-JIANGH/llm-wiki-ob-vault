@@ -53,7 +53,7 @@
 - [2026-04-09] **Quake II** | `https://github.com/id-Software/Quake-2`
 - [2026-04-09] **Quake III Arena** | `https://github.com/id-Software/Quake-III-Arena`
 - [2026-04-09] **Wolfenstein 3D** | `https://github.com/id-Software/wolf3d`
-- [ ] **DOOM64-RE** — Doom 64 反向工程 | `https://github.com/Erick194/DOOM64-RE`
+- [2026-04-09] **DOOM64-RE** — Doom 64 反向工程 | `https://github.com/Erick194/DOOM64-RE`
 
 ### Source Ports — Doom
 - [ ] **Chocolate Doom** — 精准还原 90 年代体验 | `https://github.com/chocolate-doom/chocolate-doom`
@@ -322,8 +322,7 @@
 | 23 | 2026-04-09 | Quake II | 双渲染器架构(ref_gl OpenGL + ref_soft Software并行)，143K LOC C，模块化client/server/game三层分离，DLL游戏逻辑热加载，CTF模组支持，多平台Win32/Linux/IRIX |
 | 24 | 2026-04-09 | Quake III Arena | QVM虚拟机架构（game/cgame/q3_ui三模块分离），lcc编译器C→字节码，BOT AI路由编译(botlib+32K LOC)，MD3模型格式，纯多人无单人关卡 |
 | 25 | 2026-04-09 | Wolfenstein 3D | Raycasting渲染(DDA)、Borland C++3.0+80x86汇编、16位DOS定点数系统(farmapylookup预计算)、动态编译缩放(现代CPU cache thrashing)、John Carmack 2012代码点评 |
-| 26 | | | |
-| 26 | | | |
+| 26 | 2026-04-09 | DOOM64-RE | N64完全逆向工程(~50K LOC C)、WESS音频库(Mortal Kombat Trilogy移植)、三阶段软件渲染管线(r_phase1/2/3)、F3DEX_GBI微代码、N64 SDK交叉编译 |
 | 27 | | | |
 | 28 | | | |
 | 29 | | | |

@@ -27,7 +27,7 @@
 
 - [2026-04-09] **CorsixTH** — Theme Hospital 开源克隆 | `https://github.com/CorsixTH/CorsixTH`
 - [2026-04-09] **OpenLoco** — Chris Sawyer's Locomotion 开源复刻 | `https://github.com/OpenLoco/OpenLoco`
-- [ ] **OpenRCT2** — RollerCoaster Tycoon 2 开源复刻 | `https://github.com/OpenRCT2/OpenRCT2`
+- [2026-04-09] **OpenRCT2** — RollerCoaster Tycoon 2 开源复刻 | `https://github.com/OpenRCT2/OpenRCT2`
 - [ ] **OpenTTD** — Transport Tycoon Deluxe 开源复刻 | `https://github.com/OpenTTD/OpenTTD`
 - [ ] **Hurry Curry!** — 合作快节奏多人烹饪游戏 | `https://codeberg.org/hurrycurry/hurrycurry`
 
@@ -306,7 +306,7 @@
 | 7 | 2026-04-09 | Dead Ascend | Qt/QML 组件化架构（Area/Object/Inventory等QML组件），TMX 地图编辑器关卡设计，跨平台 Qt Quick 2.0，手绘美术资源打包 QRC |
 | 8 | 2026-04-09 | CorsixTH | C++/Lua 混合架构（49cpp+327lua），SDL 渲染原版资源复用，Lua 数据驱动游戏逻辑完全开放mod，完整战役可通关 |
 | 9 | 2026-04-09 | OpenLoco | C++ 清洁室逆向（400cpp+358h），SDL3+OpenAL 跨平台，模块化 src/ 子系统，vcpkg 依赖管理，完成主体重实现并主攻多人网络 |
-| 10 | | | |
+| 10 | 2026-04-09 | OpenRCT2 | 模块化架构(openrct2-ui/cli/data分离)、Duktape嵌入式JS插件+热重载、TCP/IP多人Tick同步、资源包CMake下载验证(RCT2文件兼容层) |
 | 11 | | | |
 | 12 | | | |
 | 13 | | | |

@@ -53,3 +53,6 @@
 ## [2026-04-09] ingest | OpenLoco 开源游戏 wiki note
 - Created: open-source-game/openloco.md (Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，模块化架构，vcpkg 依赖管理，运输帝国经营模拟)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-09] ingest | OpenRCT2 开源游戏 wiki note
+- Created: open-source-game/openrct2.md (RollerCoaster Tycoon 2 开源重实现，游乐园建造管理，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

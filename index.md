@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 34
+> Last updated: 2026-04-09 | Total pages: 35
 
 ## Entities
 ||[[ksanadock]] — 游戏开发商，时空码头
@@ -28,6 +28,7 @@
 >[[open-source-game/egregoria]] — Cities: Skylines 风格 Rust 城市建造，模拟/渲染分离架构，确定性锁步网络，PBR wgpu 渲染器，混合 Factorio+自由市场经济模型
 >[[open-source-game/julius]] — Caesar III 清洁室重实现，SDL2 跨平台复刻，100% 存档兼容，约93K LOC C代码
 >[[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统
+>[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
 
 ## Concepts
 

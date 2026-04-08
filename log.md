@@ -79,3 +79,7 @@
 ## [2026-04-09] ingest | Unknown Horizons 开源游戏 wiki note（补全）
 - Indexed: open-source-game/unknown-horizons.md（由前次运行创建）
 - Updated: open-source-games-learning-checklist.md, index.md, log.md
+
+## [2026-04-09] ingest | Citybound 开源游戏 wiki note
+- Created: open-source-game/citybound.md (微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

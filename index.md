@@ -1,0 +1,32 @@
+# Wiki Index
+
+> Content catalog. Every wiki page listed under its type with a one-line summary.
+> Read this first to find relevant pages for any query.
+> Last updated: 2026-04-08 | Total pages: 16
+
+## Entities
+[[ksanadock]] — 游戏开发商，时空码头
+[[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏
+[[microverse-code-structure]] — Microverse 代码结构 / 模块解析
+
+## Concepts
+
+### Engine & Language
+[[godot-4]] — Godot 4 引擎：GDScript、Jolt Physics、XR、版本历史
+[[gdscript-patterns]] — GDScript 10 种设计模式（单例/Signal/Lambda/寻路/物理检测）
+[[godot-animation-system]] — AnimatedSprite2D 帧动画 + CharacterController 状态机
+
+### AI & LLM
+[[llm-integration]] — 9 个 LLM Provider 统一接入（OpenAI/Claude/Gemini/DeepSeek 等）
+[[multi-agent-ai-simulation]] — 多智能体 AI 通用概念：记忆/任务/感知/决策
+[[multi-agent-ai-game-impl]] — Microverse 实现：感知→决策→记忆→任务→对话完整链路
+[[persistent-memory-system]] — AI 角色长期记忆持久化（ChatHistory + 时间戳）
+[[microverse-dialog-system]] — DialogService/ConversationManager/BackgroundStoryManager
+[[stanford-generative-agents]] — Stanford Generative Agents（AI Town）Memory/Reflection/Planning
+
+### Game Features
+[[microverse-character-system]] — 8 角色人格/职位/说话风格（CharacterPersonality）
+[[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态）
+
+### Comparison
+[[godot-vs-unity-unreal]] — Godot vs Unity vs Unreal：许可/2D/3D/选型指南

@@ -44,3 +44,6 @@
 ## [2026-04-09] ingest | Zelda3 开源游戏 wiki note
 - Created: open-source-game/zelda3.md (Zelda A Link to the Past 完全重实现，70-80kLOC C，SNES 仿真层+逐帧 RAM 验证)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-09] ingest | Dead Ascend 开源游戏 wiki note
+- Created: open-source-game/dead-ascend.md (Qt/QML 手绘点击冒险，僵尸塔楼密室解谜，Tiled TMX 地图格式)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

@@ -19,7 +19,7 @@
 - [2026-04-08] **ScummVM** — 经典图形冒险/RPG游戏模拟器 | `https://github.com/scummvm/scummvm`
 - [2026-04-09] **The Legend of Zelda: Twilight Princess** — Wii GC Zelda TP 反向工程 | `https://github.com/zeldaret/tp`
 - [2026-04-09] **Zelda 3** — Zelda A Link to the Past 反向工程克隆 | `https://github.com/snesrev/zelda3`
-- [ ] **Dead Ascend** — 僵尸密室解谜 | `https://github.com/larpon/DeadAscend`
+- [2026-04-09] **Dead Ascend** — 僵尸密室解谜 | `https://github.com/larpon/DeadAscend`
 
 ---
 
@@ -303,7 +303,7 @@
 | 4 | 2026-04-08 | ScummVM | 141插件引擎架构、AdvancedDetector自动检测、跨平台后端抽象层、多游戏存档统一管理 |
 | 5 | 2026-04-09 | The Legend of Zelda: Twilight Princess | 多版本条件编译架构（12+版本）、objdiff逐对象对比工具、CC0无版权限制 |
 | 6 | 2026-04-09 | Zelda 3 | SNES全系统仿真（CPU/PPU/APU/DSP/DMA）、70-80kLOC C重实现、逐帧RAM验证架构、快照Turbo回放系统 |
-| 7 | | | |
+| 7 | 2026-04-09 | Dead Ascend | Qt/QML 组件化架构（Area/Object/Inventory等QML组件），TMX 地图编辑器关卡设计，跨平台 Qt Quick 2.0，手绘美术资源打包 QRC |
 | 8 | | | |
 | 9 | | | |
 | 10 | | | |

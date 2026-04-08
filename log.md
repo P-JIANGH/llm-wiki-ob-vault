@@ -28,6 +28,9 @@
 - Updated: index.md, log.md
 ## [2026-04-08] ingest | Claude Code Game Studios 研究
 - Captured: raw/articles/claude-code-game-studios-2026.md (克隆自 github.com/Donchitos/Claude-Code-Game-Studios)
+## [2026-04-08] ingest | ScummVM 经典冒险引擎 wiki note
+- Created: open-source-game/scummvm.md (141引擎插件架构、AdvancedDetector、跨平台后端抽象)
+- Updated: index.md, log.md
 - Created: entities/claude-code-game-studios.md (项目概览：49 agents, 72 skills, MIT license, 协作模式)
 - Created: concepts/claude-code-game-studio-architecture.md (Agent 层级结构、Model Tier、五大协调规则、Subagents vs Agent Teams)
 - Created: concepts/claude-code-game-studio-collaboration-protocol.md (Question→Options→Decision→Draft→Approval 协议、文件写入规则、决策 UI 模式)

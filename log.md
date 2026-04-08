@@ -94,3 +94,7 @@
 ## [2026-04-09] ingest | micropolisJS 开源游戏 wiki note
 - Created: open-source-game/micropolisjs.md (SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度数据追踪，jQuery 最小依赖，GPLv3)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Doom 3 BFG Edition 开源游戏 wiki note
+- Created: open-source-game/doom-3-bfg.md (id Tech 4 引擎源码，Portal 渲染架构，Lua 脚本，doomclassic Doom 1 重制，BFG Edition 收录)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

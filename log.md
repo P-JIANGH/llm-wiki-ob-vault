@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | EDuke32 Build Engine 端口 wiki note
+- Created: open-source-game/eduke32.md (多游戏 Build 端口(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，GPLv2)
+- Updated: index.md (total pages: 43), open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | ECWolf Wolfenstein 3D 增强源码端口 wiki note
 - Created: open-source-game/ecwolf.md (Wolf4SDL/ZDoom 混合体验，软件 Raycasting，多游戏IWAD支持，无限推墙/Things，~67K LOC C++，CMake+SDL2)
 - Updated: index.md (total pages: 42), open-source-games-learning-checklist.md, log.md

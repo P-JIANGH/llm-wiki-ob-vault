@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 41
+> Last updated: 2026-04-09 | Total pages: 43
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -45,6 +45,7 @@
 - [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，支持多游戏IWAD，~67K LOC C++，CMake+SDL2
 - [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译
 - [[open-source-game/shadow-warrior]] — 3D Realms 经典 FPS，Build 引擎，1997 年发行 2005 年开源，118K LOC C，GPL+商业数据双许可
+- [[open-source-game/eduke32]] — 先进 Build Engine 端口，多游戏支持(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，GPLv2
 
 ## Concepts
 

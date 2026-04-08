@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 40
+> Last updated: 2026-04-09 | Total pages: 41
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -43,6 +43,7 @@
 ||>[[open-source-game/akhenaten]] — Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，GNU AGPL
 |||>[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
 - [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，支持多游戏IWAD，~67K LOC C++，CMake+SDL2
+- [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译
 
 ## Concepts
 

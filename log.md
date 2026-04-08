@@ -137,3 +137,7 @@
 ## [2026-04-09] ingest | FTEQW 开源游戏 wiki note
 - Created: open-source-game/fteqw.md (先进可移植 Quake 引擎，多后端渲染、插件系统、自研 FTEQCC 编译器，GPL-2.0)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Wolf4SDL 开源游戏 wiki note
+- Created: open-source-game/wolf4sdl.md (Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器 GPL/MAME 切换，version.h 多版本条件编译)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

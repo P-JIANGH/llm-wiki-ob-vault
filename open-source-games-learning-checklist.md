@@ -65,7 +65,7 @@
 
 ### Source Ports — Wolfenstein
 - [2026-04-09] **ECWolf** | `https://bitbucket.org/ecwolf/ecwolf`
-- [ ] **Wolf4SDL** | `https://github.com/lazd/wolf4sdl`
+- [2026-04-09] **Wolf4SDL** | `https://github.com/lazd/wolf4sdl`
 
 ---
 
@@ -328,6 +328,7 @@
 | 29 | 2026-04-09 | Chocolate Quake | Bug-compatible设计哲学（保留原版bug），纯软件渲染无硬件加速，SDL2+CMake模块化架构，Audio支持MP3/OGG/FLAC，跨平台Win/Linux/Mac |
 | 30 | 2026-04-09 | FTEQW | 多后端渲染(OpenGL/Vulkan/Software/D3D)、插件系统(bullet/openxr/cef)、自研FTEQCC编译器、ModAPI、多游戏格式支持、6K+ commits |
 | 31 | 2026-04-09 | ECWolf | Wolf4SDL/ZDoom混合体验、单一二进制支持多游戏IWAD（Wolf3D/ROTT/Corridor7等）、无限推墙/Things、无需源码Mod制作、高分辨率宽屏+Raycasting、~67K LOC C++ |
+| 32 | 2026-04-09 | Wolf4SDL | Wolfenstein 3D SDL移植版、id_*.cpp原始代码复用、version.h多版本条件编译、OPL2双模拟器(dosbox/dbopl+mame/fmopl) GPL切换、SDL跨平台层设计 |
 
 ---
 

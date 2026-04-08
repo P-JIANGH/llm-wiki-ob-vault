@@ -16,8 +16,9 @@
 ## Open Source Games
 |>[[open-source-game/doom]] — id Software 经典 FPS 源码，1997年 Carmack 开源，BSP 树渲染架构，GPLv2，约 54K LOC C 代码
 |>[[open-source-game/doom-3-bfg]] — id Tech 4 引擎源码，GPL，含 Portal 渲染、Lua 脚本、BFG Edition 收录 Doom Classic 重制版
-|>[[open-source-game/quake]] — 1996 年 3D FPS 里程碑源码，WinQuake 软件渲染+GLQuake OpenGL+QuakeWorld 多人网络，GPLv2，约 87K LOC C
-||>[[open-source-game/hurry-curry]] — 合作式 3D 多人烹饪游戏，Godot 4.5 + Rust 混合架构，WebSocket JSON 协议三层移动实现（客户端预测+服务端校验）
+>[[open-source-game/quake]] — 1996 年 3D FPS 里程碑源码，WinQuake 软件渲染+GLQuake OpenGL+QuakeWorld 多人网络，GPLv2，约 87K LOC C
+>[[open-source-game/quake-2]] — 1997 年 3D FPS 源码，双渲染器架构（OpenGL + Software），143K LOC C，GPLv2
+![[open-source-game/hurry-curry]]
 |>[[open-source-game/micropolisjs]] — SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度数据追踪，jQuery 最小依赖，GPLv3
 |>[[open-source-game/openttd]] — Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展，AI Script 双引擎
 |>[[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑，完整战役可通关

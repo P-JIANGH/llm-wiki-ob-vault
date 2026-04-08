@@ -78,7 +78,7 @@
 - [2026-04-09] **NBlood** — Blood 反向工程端口 | `https://github.com/NBlood/NBlood`
 - [2026-04-09] **JFDuke3D** — Duke Nukem 3D 端口 | `https://github.com/jonof/jfduke3d`
 - [2026-04-09] **JFShadowWarrior** — Shadow Warrior 端口 | `https://github.com/jonof/jfsw`
-- [ ] **BuildGDX** | `https://github.com/vogonsorg/BuildGDX`
+- [2026-04-09] **BuildGDX** | `https://github.com/vogonsorg/BuildGDX`
 - [ ] **NuBuildGDX** — BuildGDX 分支，稳定优先 | `https://github.com/atsb/NuBuildGDX`
 
 ---
@@ -329,7 +329,8 @@
 | 30 | 2026-04-09 | FTEQW | 多后端渲染(OpenGL/Vulkan/Software/D3D)、插件系统(bullet/openxr/cef)、自研FTEQCC编译器、ModAPI、多游戏格式支持、6K+ commits |
 | 31 | 2026-04-09 | ECWolf | Wolf4SDL/ZDoom混合体验、单一二进制支持多游戏IWAD（Wolf3D/ROTT/Corridor7等）、无限推墙/Things、无需源码Mod制作、高分辨率宽屏+Raycasting、~67K LOC C++ |
 | 32 | 2026-04-09 | Wolf4SDL | Wolfenstein 3D SDL移植版、id_*.cpp原始代码复用、version.h多版本条件编译、OPL2双模拟器(dosbox/dbopl+mame/fmopl) GPL切换、SDL跨平台层设计 |
-| 34 | 2026-04-09 | Duke Nukem 3D | Build Engine 驱动 Sector/Portal 渲染(MAXSECTORS=1024/MAXWALLS=8192/MAXSPRITES=4096)，预编译.OBJ 引擎+游戏源码分离，Jim Dose 音频库(Audiolib)，多人 IPX 原始包交换，Open Watcom 编译，GPLv2 |
+| 33 | 2026-04-09 | Duke Nukem 3D | Build Engine 驱动 Sector/Portal 渲染(MAXSECTORS=1024/MAXWALLS=8192/MAXSPRITES=4096)，预编译.OBJ 引擎+游戏源码分离，Jim Dose 音频库(Audiolib)，多人 IPX 原始包交换，Open Watcom 编译，GPLv2 |
+| 34 | 2026-04-09 | BuildGDX | Java/LibGDX 跨平台 Build Engine 移植，三渲染器(Polymost+软件+GL)架构，~74K LOC Java，LWJGL3+GLFW 桌面后端+Android 支持，支持 Duke3D/Shadow Warrior/Blood 等多游戏 |
 | 35 | 2026-04-09 | Shadow Warrior | Build Engine 同 Duke Nukem 3D，118K LOC C(75c+81h)，Ken Silverman Build 引擎+Jim Dose 音频库，Open Watcom 编译 DOS32，原型 Lo Wang 中国忍者武士刀+枪械，GPL+游戏数据双许可模式 |
 | 36 | 2026-04-09 | EDuke32 | 多游戏 Build 端口(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，与 FTEQW 同仓库(monorepo)，FURY=1 构建配置 Ion Fury 原生支持，GPLv2 |
 | 37 | 2026-04-09 | Raze | Build engine 多游戏合一，GZDoom 技术栈（ Duke/Blood/Redneck/SW/Exhumed），三渲染器 GL/GLES/Vulkan 共享 hwrenderer 抽象，~578K LOC C++，games/ 子目录隔离各游戏源码 |

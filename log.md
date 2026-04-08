@@ -170,3 +170,7 @@
 ## [2026-04-09] ingest | JFShadowWarrior 开源游戏 wiki note
 - Created: open-source-game/jfshadowwarrior.md (Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost OpenGL/GLES2，多平台，GTK+ UI 可选)
 - Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | BuildGDX 开源游戏 wiki note
+- Created: open-source-game/buildgdx.md (Java/LibGDX 跨平台 Build Engine 移植，三渲染器(Polymost+软件+GL)架构，~74K LOC Java，LWJGL3+GLFW 桌面后端+Android 支持，支持 Duke3D/Shadow Warrior/Blood 等多游戏)
+- Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md

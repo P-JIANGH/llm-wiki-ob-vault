@@ -50,6 +50,7 @@
 - [[open-source-game/raze]] — Build engine 多游戏合一引擎，GZDoom 技术栈，支持 Duke/Blood/Redneck/SW/Exhumed，三渲染器架构(GL/GLES/Vulkan)，~578K LOC C++
 - [[open-source-game/jfduke3d]] — Jonathon Fowler 的 Duke Nukem 3D 开源移植版，基于 Ken Silverman Build 引擎（jfbuild），SDL2 跨平台，Polymost OpenGL 渲染，GPLv2
 - [[open-source-game/jfshadowwarrior]] — Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost OpenGL/GLES2，多平台（Linux/Mac/Win/BSD），GTK+ UI 可选，GPLv2
+- [[open-source-game/buildgdx]] — Build Engine 的 Java/LibGDX 跨平台移植，Polymost+软件+GL三渲染器，支持 Duke3D/Shadow Warrior/Blood 等，~74K LOC Java，GPLv3
 
 ## Concepts
 

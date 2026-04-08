@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-08 | Total pages: 18
+> Last updated: 2026-04-08 | Total pages: 19
 
 ## Entities
 |[[ksanadock]] — 游戏开发商，时空码头
@@ -19,7 +19,8 @@
 [[godot-animation-system]] — AnimatedSprite2D 帧动画 + CharacterController 状态机
 
 ### AI & LLM
-[[llm-integration]] — 9 个 LLM Provider 统一接入（OpenAI/Claude/Gemini/DeepSeek 等）
+|[[llm-integration]] — 9 个 LLM Provider 统一接入（OpenAI/Claude/Gemini/DeepSeek 等）
+|[[VoxCPM local deployment|VoxCPM 本地部署]] — VoxCPM 2 本地部署配置：Python/CUDA/GPU 显存要求及快速运行示例
 [[multi-agent-ai-simulation]] — 多智能体 AI 通用概念：记忆/任务/感知/决策
 [[multi-agent-ai-game-impl]] — Microverse 实现：感知→决策→记忆→任务→对话完整链路
 [[persistent-memory-system]] — AI 角色长期记忆持久化（ChatHistory + 时间戳）

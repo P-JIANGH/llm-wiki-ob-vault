@@ -122,3 +122,7 @@
 - Created: open-source-game/quake-iii-arena.md (id Software 竞技场射击源码，QVM 虚拟机架构驱动游戏逻辑，BOT AI 路由编译，纯多人竞技，GPL)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
 
+
+## [2026-04-09] ingest | UZDoom 开源游戏 wiki note
+- Created: open-source-game/uzdoom.md (GZDoom/ZDoom 延续，现代 DOOM 源码端口，双渲染器架构，ZScript VM，~592K LOC C++)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

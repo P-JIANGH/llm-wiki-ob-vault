@@ -126,3 +126,6 @@
 ## [2026-04-09] ingest | UZDoom 开源游戏 wiki note
 - Created: open-source-game/uzdoom.md (GZDoom/ZDoom 延续，现代 DOOM 源码端口，双渲染器架构，ZScript VM，~592K LOC C++)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-09] ingest | Chocolate Quake 开源游戏 wiki note
+- Created: open-source-game/chocolate-quake.md (精准还原 Quake v1.09 DOS 体验的极简源码端口，Bug 兼容优先，纯软件渲染无硬件加速，C99+CMake)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Wolfenstein 3D 开源 FPS 源码 wiki note
+- Created: open-source-game/wolfenstein-3d.md (Raycasting渲染、Borland C++3.0+80x86汇编、DOS 16位定点数系统、John Carmack 2012代码点评)
+- Updated: index.md (total pages: 40), open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | Quake 2 开源 FPS 源码 wiki note
 - Created: open-source-game/quake-2.md (双渲染器架构、143K LOC C、ref_gl+ref_soft并行、模块化client/server/game分离)
 - Updated: index.md (total pages: 38), log.md

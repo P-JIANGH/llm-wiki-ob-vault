@@ -153,3 +153,7 @@
 ## [2026-04-09] ingest | Shadow Warrior 开源游戏 wiki note
 - Created: open-source-game/shadow-warrior.md (3D Realms 经典 FPS，Build 引擎，118K LOC C，GPL+商业数据双许可，Lo Wang 中国忍者)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Raze Build engine 多游戏合一引擎 wiki note
+- Created: open-source-game/raze.md (Build engine 多游戏合一，GZDoom 技术栈，支持 Duke/Blood/Redneck/SW/Exhumed，三渲染器 GL/GLES/Vulkan，~578K LOC C++)
+- Updated: index.md (total pages: 44), open-source-games-learning-checklist.md, log.md

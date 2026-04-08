@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 30
+> Last updated: 2026-04-09 | Total pages: 31
 
 ## Entities
 ||[[ksanadock]] — 游戏开发商，时空码头
@@ -24,6 +24,7 @@
 >[[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗
 >[[open-source-game/openloco]] — Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，运输帝国经营模拟，正在开发多人网络模式
 >[[open-source-game/openrct2]] — RollerCoaster Tycoon 2 开源重实现，游乐园建造管理模拟，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作
+>[[open-source-game/cytopia]] — 复古像素艺术城市建造游戏，自定义 SDL2 等距渲染引擎，JSON TileData 数据驱动模组系统，libnoise 程序化地形生成
 
 ## Concepts
 

@@ -64,3 +64,7 @@
 ## [2026-04-09] ingest | Hurry Curry! 开源游戏 wiki note
 - Created: open-source-game/hurry-curry.md (合作式 3D 多人烹饪游戏，Godot 4.5 + Rust 混合架构，WebSocket JSON 协议三层移动实现（客户端预测+服务端校验），YAML ASCII-art 地图数据驱动)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Cytopia 开源游戏 wiki note
+- Created: open-source-game/cytopia.md (复古像素城市建造，自定义 SDL2 等距渲染引擎，JSON TileData 数据驱动模组系统，libnoise 程序化地形生成，Conan/CMake 依赖管理)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

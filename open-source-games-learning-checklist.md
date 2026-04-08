@@ -15,7 +15,7 @@
 ## Adventure (6)
 
 - [2026-04-08] **Endless Sky** — 太空探索+贸易+战斗 | `https://github.com/endless-sky/endless-sky`
-- [ ] **Pioneer** — 太空冒险，33世纪银河背景 | `https://github.com/pioneerspacesim/pioneer`
+- [2026-04-08] **Pioneer** — 太空冒险，33世纪银河背景 | `https://github.com/pioneerspacesim/pioneer`
 - [ ] **ScummVM** — 经典图形冒险/RPG游戏模拟器 | `https://github.com/scummvm/scummvm`
 - [ ] **The Legend of Zelda: Twilight Princess** — Wii GC Zelda TP 反向工程 | `https://github.com/zeldaret/tp`
 - [ ] **Zelda 3** — Zelda A Link to the Past 反向工程克隆 | `https://github.com/snesrev/zelda3`
@@ -299,7 +299,7 @@
 |---|------|--------|---------|
 | 1 | 2026-04-08 | Hypersomnia | 纯 C++ 无引擎、确定性锁步网络、自定义 ECS、ImGui 地图编辑器、浮点一致性处理 |
 | 2 | 2026-04-08 | Endless Sky | 纯 C++20 无引擎、数据驱动 txt 内容系统、OpenGL3+自研 Shader、vcpkg 轻量依赖、mod 友好 |
-| 3 | | | |
+| 3 | 2026-04-08 | Pioneer | 程序化银河生成、数百万恒星系统、派系经济、Lua脚本、OpenGL渲染
 | 4 | | | |
 | 5 | | | |
 | 6 | | | |

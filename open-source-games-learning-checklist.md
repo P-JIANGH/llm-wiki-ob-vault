@@ -17,7 +17,7 @@
 - [2026-04-08] **Endless Sky** — 太空探索+贸易+战斗 | `https://github.com/endless-sky/endless-sky`
 - [2026-04-08] **Pioneer** — 太空冒险，33世纪银河背景 | `https://github.com/pioneerspacesim/pioneer`
 - [2026-04-08] **ScummVM** — 经典图形冒险/RPG游戏模拟器 | `https://github.com/scummvm/scummvm`
-- [ ] **The Legend of Zelda: Twilight Princess** — Wii GC Zelda TP 反向工程 | `https://github.com/zeldaret/tp`
+- [2026-04-09] **The Legend of Zelda: Twilight Princess** — Wii GC Zelda TP 反向工程 | `https://github.com/zeldaret/tp`
 - [ ] **Zelda 3** — Zelda A Link to the Past 反向工程克隆 | `https://github.com/snesrev/zelda3`
 - [ ] **Dead Ascend** — 僵尸密室解谜 | `https://github.com/larpon/DeadAscend`
 
@@ -301,7 +301,7 @@
 | 2 | 2026-04-08 | Endless Sky | 纯 C++20 无引擎、数据驱动 txt 内容系统、OpenGL3+自研 Shader、vcpkg 轻量依赖、mod 友好 |
 | 3 | 2026-04-08 | Pioneer | 程序化银河生成、数百万恒星系统、派系经济、Lua脚本、OpenGL渲染
 | 4 | 2026-04-08 | ScummVM | 141插件引擎架构、AdvancedDetector自动检测、跨平台后端抽象层、多游戏存档统一管理 |
-| 5 | | | |
+| 5 | 2026-04-09 | The Legend of Zelda: Twilight Princess | 多版本条件编译架构（12+版本）、objdiff逐对象对比工具、CC0无版权限制 |
 | 6 | | | |
 | 7 | | | |
 | 8 | | | |

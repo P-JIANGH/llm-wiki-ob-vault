@@ -8,7 +8,7 @@
 
 ## Action (1)
 
-- [ ] **Hypersomnia** — 竞技向顶视角射击，像素复古，内置地图编辑器 | `https://github.com/TeamHypersomnia/Hypersomnia`
+- [2026-04-08] **Hypersomnia** — 竞技向顶视角射击，像素复古，内置地图编辑器 | `https://github.com/TeamHypersomnia/Hypersomnia`
 
 ---
 
@@ -297,7 +297,7 @@
 
 | # | 日期 | 项目名 | 关键发现 |
 |---|------|--------|---------|
-| 1 | | | |
+| 1 | 2026-04-08 | Hypersomnia | 纯 C++ 无引擎、确定性锁步网络、自定义 ECS、ImGui 地图编辑器、浮点一致性处理 |
 | 2 | | | |
 | 3 | | | |
 | 4 | | | |

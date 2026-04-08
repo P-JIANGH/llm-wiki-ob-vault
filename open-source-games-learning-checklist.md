@@ -25,7 +25,7 @@
 
 ## Business & Tycoon (5)
 
-- [ ] **CorsixTH** — Theme Hospital 开源克隆 | `https://github.com/CorsixTH/CorsixTH`
+- [2026-04-09] **CorsixTH** — Theme Hospital 开源克隆 | `https://github.com/CorsixTH/CorsixTH`
 - [ ] **OpenLoco** — Chris Sawyer's Locomotion 开源复刻 | `https://github.com/OpenLoco/OpenLoco`
 - [ ] **OpenRCT2** — RollerCoaster Tycoon 2 开源复刻 | `https://github.com/OpenRCT2/OpenRCT2`
 - [ ] **OpenTTD** — Transport Tycoon Deluxe 开源复刻 | `https://github.com/OpenTTD/OpenTTD`
@@ -304,7 +304,7 @@
 | 5 | 2026-04-09 | The Legend of Zelda: Twilight Princess | 多版本条件编译架构（12+版本）、objdiff逐对象对比工具、CC0无版权限制 |
 | 6 | 2026-04-09 | Zelda 3 | SNES全系统仿真（CPU/PPU/APU/DSP/DMA）、70-80kLOC C重实现、逐帧RAM验证架构、快照Turbo回放系统 |
 | 7 | 2026-04-09 | Dead Ascend | Qt/QML 组件化架构（Area/Object/Inventory等QML组件），TMX 地图编辑器关卡设计，跨平台 Qt Quick 2.0，手绘美术资源打包 QRC |
-| 8 | | | |
+| 8 | 2026-04-09 | CorsixTH | C++/Lua 混合架构（49cpp+327lua），SDL 渲染原版资源复用，Lua 数据驱动游戏逻辑完全开放mod，完整战役可通关 |
 | 9 | | | |
 | 10 | | | |
 | 11 | | | |

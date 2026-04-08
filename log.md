@@ -47,3 +47,6 @@
 ## [2026-04-09] ingest | Dead Ascend 开源游戏 wiki note
 - Created: open-source-game/dead-ascend.md (Qt/QML 手绘点击冒险，僵尸塔楼密室解谜，Tiled TMX 地图格式)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-09] ingest | CorsixTH 开源游戏 wiki note
+- Created: open-source-game/corsixth.md (Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

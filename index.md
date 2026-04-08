@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-08 | Total pages: 21
+> Last updated: 2026-04-08 | Total pages: 23
 
 ## Entities
 ||[[ksanadock]] — 游戏开发商，时空码头
@@ -11,6 +11,7 @@
 ||[[VoxCPM]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言
 ||[[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织
 >[[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源
+>[[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/ Roguelike/城市建造等），含源码链接
 
 ## Concepts
 
@@ -37,4 +38,5 @@
 [[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态）
 
 ### Comparison
-[[godot-vs-unity-unreal]] — Godot vs Unity vs Unreal：许可/2D/3D/选型指南
+|[[godot-vs-unity-unreal]] — Godot vs Unity vs Unreal：许可/2D/3D/选型指南
+|[[open-source-game-engines-comparison]] — 开源游戏引擎对比：Godot/Bevy/CUBE/Spring/OpenMW，含公司项目推荐

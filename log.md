@@ -141,3 +141,7 @@
 ## [2026-04-09] ingest | Wolf4SDL 开源游戏 wiki note
 - Created: open-source-game/wolf4sdl.md (Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器 GPL/MAME 切换，version.h 多版本条件编译)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Duke Nukem 3D 开源游戏 wiki note
+- Created: open-source-game/duke-nukem-3d.md (3D Realms 经典 FPS 源码，Build Engine 驱动，Ken Silverman Sector/Portal 渲染，GPLv2 开源)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

@@ -71,7 +71,7 @@
 
 ## First-Person Shooter — Build Engine (9)
 
-- [ ] **Duke Nukem 3D** | `https://github.com/videogamepreservation/dukenukem3d`
+- [2026-04-09] **Duke Nukem 3D** | `https://github.com/videogamepreservation/dukenukem3d`
 - [ ] **Shadow Warrior** | `https://github.com/Azarien/shadow-warrior`
 - [ ] **EDuke32** — 官方 Build 端口，支持 Ion Fury | `https://github.com/voidpoint-io/eduke32`
 - [ ] **Raze** — GZDoom 技术，支持 Duke/Blood/Shadow Warrior 等 | `https://github.com/ZDoom/Raze`
@@ -329,6 +329,7 @@
 | 30 | 2026-04-09 | FTEQW | 多后端渲染(OpenGL/Vulkan/Software/D3D)、插件系统(bullet/openxr/cef)、自研FTEQCC编译器、ModAPI、多游戏格式支持、6K+ commits |
 | 31 | 2026-04-09 | ECWolf | Wolf4SDL/ZDoom混合体验、单一二进制支持多游戏IWAD（Wolf3D/ROTT/Corridor7等）、无限推墙/Things、无需源码Mod制作、高分辨率宽屏+Raycasting、~67K LOC C++ |
 | 32 | 2026-04-09 | Wolf4SDL | Wolfenstein 3D SDL移植版、id_*.cpp原始代码复用、version.h多版本条件编译、OPL2双模拟器(dosbox/dbopl+mame/fmopl) GPL切换、SDL跨平台层设计 |
+| 33 | 2026-04-09 | Duke Nukem 3D | Build Engine驱动Sector/Portal渲染(MAXSECTORS=1024/MAXWALLS=8192/MAXSPRITES=4096)，预编译.OBJ引擎+游戏源码分离，Jim Dose音频库(Audiolib)，多人IPX原始包交换，Open Watcom编译，GPLv2 |
 
 ---
 

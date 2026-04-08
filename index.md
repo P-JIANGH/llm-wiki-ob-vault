@@ -27,21 +27,21 @@
 |>[[open-source-game/micropolisjs]] — SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度数据追踪，jQuery 最小依赖，GPLv3
 |>[[open-source-game/openttd]] — Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展，AI Script 双引擎
 |>[[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑，完整战役可通关
-|>[[open-source-game/dead-ascend]] — Qt/QML 手绘点击冒险游戏，僵尸塔楼密室解谜，Tiled TMX 地图格式，跨平台（Linux/Mac/Win/Android/iOS）
-|>[[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C 代码，SNES 仿真层+逐帧 RAM 验证
-|>[[open-source-game/chocolate-doom]] — 精准还原 DOS Doom（含 bug）的开源源码端口，SDL2 跨平台，支持 Heretic/Hexen/Strife，GPL
-|>[[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构（Ninja构建）
-|>[[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+
-|>[[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗
-|>[[open-source-game/openloco]] — Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，运输帝国经营模拟，正在开发多人网络模式
-|>[[open-source-game/openrct2]] — RollerCoaster Tycoon 2 开源重实现，游乐园建造管理模拟，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作
-|>[[open-source-game/cytopia]] — 复古像素艺术城市建造游戏，自定义 SDL2 等距渲染引擎，JSON TileData 数据驱动模组系统，libnoise 程序化地形生成
-|>[[open-source-game/egregoria]] — Cities: Skylines 风格 Rust 城市建造，模拟/渲染分离架构，确定性锁步网络，PBR wgpu 渲染器，混合 Factorio+自由市场经济模型
-|>[[open-source-game/julius]] — Caesar III 清洁室重实现，SDL2 跨平台复刻，100% 存档兼容，约93K LOC C代码
-||>[[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统
-||>[[open-source-game/wolfenstein-3d]] — id Software 1992 经典 FPS 源码，Borland C++ 3.0 + 80x86 汇编，Raycasting 渲染，DOS 16位时代遗产，教育用途许可
-||>[[open-source-game/akhenaten]] — Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，GNU AGPL
-|||>[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
+>[[open-source-game/dead-ascend]] — Qt/QML 手绘点击冒险游戏，僵尸塔楼密室解谜，Tiled TMX 地图格式，跨平台（Linux/Mac/Win/Android/iOS）
+>- [[open-source-game/duke-nukem-3d]] — 3D Realms 经典 FPS 源码，Build Engine 驱动，GPLv2 开源，Ken Silverman Sector/Portal 渲染，最多 16 人多人网络
+>[[open-source-game/openloco]] — Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，运输帝国经营模拟，正在开发多人网络模式
+>[[open-source-game/openrct2]] — RollerCoaster Tycoon 2 开源重实现，游乐园建造管理模拟，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作
+>[[open-source-game/chocolate-doom]] — 精准还原 DOS Doom（含 bug）的开源源码端口，SDL2 跨平台，支持 Heretic/Hexen/Strife，GPL
+>[[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构（Ninja构建）
+>[[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+
+>[[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗
+>[[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C 代码，SNES 仿真层+逐帧 RAM 验证
+>[[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统
+>[[open-source-game/egregoria]] — Cities: Skylines 风格 Rust 城市建造，模拟/渲染分离架构，确定性锁步网络，PBR wgpu 渲染器，混合 Factorio+自由市场经济模型
+>[[open-source-game/julius]] — Caesar III 清洁室重实现，SDL2 跨平台复刻，100% 存档兼容，约93K LOC C代码
+>[[open-source-game/wolfenstein-3d]] — id Software 1992 经典 FPS 源码，Borland C++ 3.0 + 80x86 汇编，Raycasting 渲染，DOS 16位时代遗产，教育用途许可
+>[[open-source-game/akhenaten]] — Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，GNU AGPL
+>[[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式
 - [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，支持多游戏IWAD，~67K LOC C++，CMake+SDL2
 - [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译
 

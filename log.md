@@ -105,3 +105,8 @@
 ## [2026-04-09] ingest | Quake 开源游戏 wiki note
 - Created: open-source-game/quake.md (1996年3D FPS里程碑，WinQuake软件渲染+GLQuake OpenGL+QuakeWorld多人网络，BSP树+PVS，约87K LOC C，GPLv2)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Quake III Arena 开源游戏 wiki note
+- Created: open-source-game/quake-iii-arena.md (id Software 竞技场射击源码，QVM 虚拟机架构驱动游戏逻辑，BOT AI 路由编译，纯多人竞技，GPL)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md
+

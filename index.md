@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 38
+> Last updated: 2026-04-09 | Total pages: 39
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -17,8 +17,9 @@
 |>[[open-source-game/doom]] — id Software 经典 FPS 源码，1997年 Carmack 开源，BSP 树渲染架构，GPLv2，约 54K LOC C 代码
 |>[[open-source-game/doom-3-bfg]] — id Tech 4 引擎源码，GPL，含 Portal 渲染、Lua 脚本、BFG Edition 收录 Doom Classic 重制版
 >[[open-source-game/quake]] — 1996 年 3D FPS 里程碑源码，WinQuake 软件渲染+GLQuake OpenGL+QuakeWorld 多人网络，GPLv2，约 87K LOC C
->[[open-source-game/quake-2]] — 1997 年 3D FPS 源码，双渲染器架构（OpenGL + Software），143K LOC C，GPLv2
-![[open-source-game/hurry-curry]]
+|>[[open-source-game/quake-2]] — 1997 年 3D FPS 源码，双渲染器架构（OpenGL + Software），143K LOC C，GPLv2
+|>[[open-source-game/quake-iii-arena]] — id Software 竞技场射击源码，QVM 虚拟机架构（BOT AI/路由编译），纯多人竞技，GPL
+|![[open-source-game/hurry-curry]]
 |>[[open-source-game/micropolisjs]] — SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度数据追踪，jQuery 最小依赖，GPLv3
 |>[[open-source-game/openttd]] — Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展，AI Script 双引擎
 |>[[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑，完整战役可通关

@@ -51,7 +51,7 @@
 - [2026-04-09] **Doom 3 BFG Edition** | `https://github.com/id-Software/DOOM-3-BFG`
 - [2026-04-09] **Quake** | `https://github.com/id-Software/Quake`
 - [2026-04-09] **Quake II** | `https://github.com/id-Software/Quake-2`
-- [ ] **Quake III Arena** | `https://github.com/id-Software/Quake-III-Arena`
+- [2026-04-09] **Quake III Arena** | `https://github.com/id-Software/Quake-III-Arena`
 - [ ] **Wolfenstein 3D** | `https://github.com/id-Software/wolf3d`
 - [ ] **DOOM64-RE** — Doom 64 反向工程 | `https://github.com/Erick194/DOOM64-RE`
 
@@ -320,7 +320,7 @@
 | 21 | 2026-04-09 | Doom 3 BFG Edition | Portal 渲染架构（区别于Doom BSP树）、id Tech 4模块化设计（renderer/framework/game分离）、doomclassic Doom 1重制收录、第三方库嵌入式（jpeg-6/zlib）、GPL但无游戏数据 |
 | 22 | 2026-04-09 | Quake | BSP树渲染架构（先墙后地后sprite），p_*模块化敌人AI/碰撞/关卡加载，info.c 128K+状态机数据驱动，WAD资源打包分离，d_net.c原始IPX包交换网络，GPLv2 |
 | 23 | 2026-04-09 | Quake II | 双渲染器架构(ref_gl OpenGL + ref_soft Software并行)，143K LOC C，模块化client/server/game三层分离，DLL游戏逻辑热加载，CTF模组支持，多平台Win32/Linux/IRIX |
-| 24 | | | |
+| 24 | 2026-04-09 | Quake III Arena | QVM虚拟机架构（game/cgame/q3_ui三模块分离），lcc编译器C→字节码，BOT AI路由编译(botlib+32K LOC)，MD3模型格式，纯多人无单人关卡 |
 | 25 | | | |
 | 26 | | | |
 | 27 | | | |

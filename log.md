@@ -75,3 +75,7 @@
 ## [2026-04-09] ingest | Julius 开源游戏 wiki note
 - Created: open-source-game/julius.md (Caesar III 清洁室重实现，SDL2 跨平台复刻，100% 存档兼容，约93K LOC C代码)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Unknown Horizons 开源游戏 wiki note（补全）
+- Indexed: open-source-game/unknown-horizons.md（由前次运行创建）
+- Updated: open-source-games-learning-checklist.md, index.md, log.md

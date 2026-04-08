@@ -47,7 +47,7 @@
 
 ## First-Person Shooter — id Software (7)
 
-- [ ] **Doom** (id Software) | `https://github.com/id-Software/DOOM`
+- [2026-04-09] **Doom** (id Software) | `https://github.com/id-Software/DOOM`
 - [ ] **Doom 3 BFG Edition** | `https://github.com/id-Software/DOOM-3-BFG`
 - [ ] **Quake** | `https://github.com/id-Software/Quake`
 - [ ] **Quake II** | `https://github.com/id-Software/Quake-2`
@@ -316,7 +316,7 @@
 | 17 | 2026-04-09 | Citybound | Rust Actor模型(kay crate)、微观城市仿真、协作规划理念、浏览器WebGL UI+双终端开发模式 |
 | 18 | 2026-04-09 | Akhenaten | Julius/Augustus 分支 fork，SDL2 跨平台渲染（Windows/Linux/macOS/Android/Web），MUJS JS 脚本热重载，CMake FetchContent 自包含依赖，约140K LOC C++，100% 原版存档兼容 |
 | 19 | 2026-04-09 | micropolisJS | BlockMap 多维度城市追踪系统（污染/犯罪/土地价值等13种Map），EventEmitter 解耦组件，Sprite 动画框架，jQuery 最小依赖，工具/窗口模块化模式 |
-| 20 | | | |
+| 20 | 2026-04-09 | Doom | BSP树渲染架构（先墙后地后sprite），p_*模块化敌人AI/碰撞/关卡加载，info.c 128K+状态机数据驱动，WAD资源打包分离，d_net.c原始IPX包交换网络，GPLv2 |
 | 21 | | | |
 | 22 | | | |
 | 23 | | | |

@@ -5,6 +5,9 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Doom (id Software) 开源 FPS 源码 wiki note
+- Created: open-source-game/doom.md (BSP渲染架构、模块子系统分析、54K LOC C、info.c状态机数据驱动)
+- Updated: index.md (total pages: 37), log.md
 ## [2026-04-08] create | Wiki initialized
 ## [2026-04-08] update | Godot 4 concept page expanded
 - Expanded: concepts/godot-4.md (architecture, GDScript, physics, XR, version history)

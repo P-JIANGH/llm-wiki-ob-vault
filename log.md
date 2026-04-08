@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Chocolate Doom 开源 Doom 源码端口 wiki note
+- Created: open-source-game/chocolate-doom.md (精准还原 DOS Doom 的源码端口，Bug-Compatible 设计哲学，SDL2 跨平台，支持 Doom/Heretic/Hexen/Strife 多游戏，GPL)
+- Updated: index.md (total pages: 41), open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | DOOM64-RE 开源游戏逆向工程 wiki note
 - Created: open-source-game/doom-64-re.md (Doom 64 N64 完全逆向工程、C+MIPS汇编、N64 SDK交叉编译、WESS音频库、三阶段软件渲染管线、恢复锁定功能)
 - Updated: index.md (total pages: 41), open-source-games-learning-checklist.md, log.md

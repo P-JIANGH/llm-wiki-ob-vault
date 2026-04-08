@@ -26,6 +26,7 @@
 |>[[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑，完整战役可通关
 |>[[open-source-game/dead-ascend]] — Qt/QML 手绘点击冒险游戏，僵尸塔楼密室解谜，Tiled TMX 地图格式，跨平台（Linux/Mac/Win/Android/iOS）
 |>[[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C 代码，SNES 仿真层+逐帧 RAM 验证
+|>[[open-source-game/chocolate-doom]] — 精准还原 DOS Doom（含 bug）的开源源码端口，SDL2 跨平台，支持 Heretic/Hexen/Strife，GPL
 |>[[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构（Ninja构建）
 |>[[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+
 |>[[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗

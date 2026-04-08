@@ -29,7 +29,7 @@
 - [2026-04-09] **OpenLoco** — Chris Sawyer's Locomotion 开源复刻 | `https://github.com/OpenLoco/OpenLoco`
 - [2026-04-09] **OpenRCT2** — RollerCoaster Tycoon 2 开源复刻 | `https://github.com/OpenRCT2/OpenRCT2`
 - [2026-04-09] **OpenTTD** — Transport Tycoon Deluxe 开源复刻 | `https://github.com/OpenTTD/OpenTTD`
-- [ ] **Hurry Curry!** — 合作快节奏多人烹饪游戏 | `https://codeberg.org/hurrycurry/hurrycurry`
+- [2026-04-09] **Hurry Curry!** — 合作快节奏多人烹饪游戏 | `https://codeberg.org/hurrycurry/hurrycurry`
 
 ---
 
@@ -308,7 +308,7 @@
 | 9 | 2026-04-09 | OpenLoco | C++ 清洁室逆向（400cpp+358h），SDL3+OpenAL 跨平台，模块化 src/ 子系统，vcpkg 依赖管理，完成主体重实现并主攻多人网络 |
 | 10 | 2026-04-09 | OpenRCT2 | 模块化架构(openrct2-ui/cli/data分离)、Duktape嵌入式JS插件+热重载、TCP/IP多人Tick同步、资源包CMake下载验证(RCT2文件兼容层) |
 | 11 | 2026-04-09 | OpenTTD | 确定性锁步网络同步（与Hypersomnia相似），NewGRF独立图形扩展层，AI Script双引擎（玩家AI+游戏主持人AI），vcpkg依赖声明式管理，向后兼容存档v23年承诺 |
-| 12 | | | |
+| 12 | 2026-04-09 | Hurry Curry! | Godot 4.5 + Rust 混合架构，WebSocket JSON 协议三层移动实现（客户端预测+服务端校验），YAML ASCII-art 地图数据驱动 |
 | 13 | | | |
 | 14 | | | |
 | 15 | | | |

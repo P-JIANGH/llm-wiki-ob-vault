@@ -28,7 +28,7 @@
 - [2026-04-09] **CorsixTH** — Theme Hospital 开源克隆 | `https://github.com/CorsixTH/CorsixTH`
 - [2026-04-09] **OpenLoco** — Chris Sawyer's Locomotion 开源复刻 | `https://github.com/OpenLoco/OpenLoco`
 - [2026-04-09] **OpenRCT2** — RollerCoaster Tycoon 2 开源复刻 | `https://github.com/OpenRCT2/OpenRCT2`
-- [ ] **OpenTTD** — Transport Tycoon Deluxe 开源复刻 | `https://github.com/OpenTTD/OpenTTD`
+- [2026-04-09] **OpenTTD** — Transport Tycoon Deluxe 开源复刻 | `https://github.com/OpenTTD/OpenTTD`
 - [ ] **Hurry Curry!** — 合作快节奏多人烹饪游戏 | `https://codeberg.org/hurrycurry/hurrycurry`
 
 ---
@@ -307,7 +307,7 @@
 | 8 | 2026-04-09 | CorsixTH | C++/Lua 混合架构（49cpp+327lua），SDL 渲染原版资源复用，Lua 数据驱动游戏逻辑完全开放mod，完整战役可通关 |
 | 9 | 2026-04-09 | OpenLoco | C++ 清洁室逆向（400cpp+358h），SDL3+OpenAL 跨平台，模块化 src/ 子系统，vcpkg 依赖管理，完成主体重实现并主攻多人网络 |
 | 10 | 2026-04-09 | OpenRCT2 | 模块化架构(openrct2-ui/cli/data分离)、Duktape嵌入式JS插件+热重载、TCP/IP多人Tick同步、资源包CMake下载验证(RCT2文件兼容层) |
-| 11 | | | |
+| 11 | 2026-04-09 | OpenTTD | 确定性锁步网络同步（与Hypersomnia相似），NewGRF独立图形扩展层，AI Script双引擎（玩家AI+游戏主持人AI），vcpkg依赖声明式管理，向后兼容存档v23年承诺 |
 | 12 | | | |
 | 13 | | | |
 | 14 | | | |

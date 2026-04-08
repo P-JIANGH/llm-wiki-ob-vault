@@ -56,3 +56,7 @@
 ## [2026-04-09] ingest | OpenRCT2 开源游戏 wiki note
 - Created: open-source-game/openrct2.md (RollerCoaster Tycoon 2 开源重实现，游乐园建造管理，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | OpenTTD 开源游戏 wiki note
+- Created: open-source-game/openttd.md (Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展，AI Script 双引擎)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

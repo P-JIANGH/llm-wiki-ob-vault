@@ -36,7 +36,7 @@
 ## City-Building (7)
 
 - [2026-04-09] **Cytopia** — 复古像素城市建造 | `https://github.com/CytopiaTeam/Cytopia`
-- [ ] **Egregoria** — Cities: Skylines 风格独立城市建造 | `https://github.com/Uriopass/Egregoria`
+- [2026-04-09] **Egregoria** — Cities: Skylines 风格独立城市建造 | `https://github.com/Uriopass/Egregoria`
 - [ ] **Julius** — Caesar III 开源复刻 | `https://github.com/bvschaik/julius`
 - [ ] **Unknown Horizons** — 2D 实时策略+城市建造（Godot port） | `https://github.com/unknown-horizons/godot-port`
 - [ ] **Citybound** — 微观模型城市模拟 | `https://github.com/citybound/citybound`
@@ -310,7 +310,7 @@
 | 11 | 2026-04-09 | OpenTTD | 确定性锁步网络同步（与Hypersomnia相似），NewGRF独立图形扩展层，AI Script双引擎（玩家AI+游戏主持人AI），vcpkg依赖声明式管理，向后兼容存档v23年承诺 |
 | 12 | 2026-04-09 | Hurry Curry! | Godot 4.5 + Rust 混合架构，WebSocket JSON 协议三层移动实现（客户端预测+服务端校验），YAML ASCII-art 地图数据驱动 |
 | 13 | 2026-04-09 | Cytopia | 自定义 SDL2 等距渲染引擎（非游戏引擎），JSON TileData 数据驱动模组，libnoise 程序化地形生成，Conan/CMake 依赖管理，区域电力系统 |
-| 14 | | | |
+| 14 | 2026-04-09 | Egregoria | 模拟/渲染分离架构，确定性锁步网络，Rust 13-crate workspace，wgpu PBR 渲染，混合 Factorio+自由市场经济 |
 | 15 | | | |
 | 16 | | | |
 | 17 | | | |

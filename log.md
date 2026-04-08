@@ -67,4 +67,7 @@
 
 ## [2026-04-09] ingest | Cytopia 开源游戏 wiki note
 - Created: open-source-game/cytopia.md (复古像素城市建造，自定义 SDL2 等距渲染引擎，JSON TileData 数据驱动模组系统，libnoise 程序化地形生成，Conan/CMake 依赖管理)
+
+## [2026-04-09] ingest | Egregoria 开源游戏 wiki note
+- Created: open-source-game/egregoria.md (Cities: Skylines 风格 Rust 城市建造，模拟/渲染分离架构，确定性锁步网络，PBR wgpu 渲染器，混合 Factorio+自由市场经济模型)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md

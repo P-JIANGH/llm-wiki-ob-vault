@@ -166,3 +166,7 @@
 - Created: open-source-game/nblood.md (Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，多游戏合一，GNU Make 跨平台构建，GPL-2.0)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
 
+
+## [2026-04-09] ingest | JFShadowWarrior 开源游戏 wiki note
+- Created: open-source-game/jfshadowwarrior.md (Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost OpenGL/GLES2，多平台，GTK+ UI 可选)
+- Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md

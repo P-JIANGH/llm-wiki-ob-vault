@@ -2,16 +2,21 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-08 | Total pages: 19
+> Last updated: 2026-04-08 | Total pages: 21
 
 ## Entities
-|[[ksanadock]] — 游戏开发商，时空码头
-|[[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏
-|[[microverse-code-structure]] — Microverse 代码结构 / 模块解析
-|[[VoxCPM]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言
-|[[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织
+||[[ksanadock]] — 游戏开发商，时空码头
+||[[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏
+||[[microverse-code-structure]] — Microverse 代码结构 / 模块解析
+||[[VoxCPM]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言
+||[[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织
+>[[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源
 
 ## Concepts
+
+### Workflow & Architecture
+>[[claude-code-game-studio-architecture]] — 49 Agent 层级结构、Model Tier 分配（Haiku/Sonnet/Opus）、五大协调规则、Subagents vs Agent Teams
+>[[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval 工作流、文件写入协议、决策 UI 模式
 
 ### Engine & Language
 [[godot-4]] — Godot 4 引擎：GDScript、Jolt Physics、XR、版本历史

@@ -157,3 +157,8 @@
 ## [2026-04-09] ingest | Raze Build engine 多游戏合一引擎 wiki note
 - Created: open-source-game/raze.md (Build engine 多游戏合一，GZDoom 技术栈，支持 Duke/Blood/Redneck/SW/Exhumed，三渲染器 GL/GLES/Vulkan，~578K LOC C++)
 - Updated: index.md (total pages: 44), open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | NBlood 开源游戏 wiki note
+- Created: open-source-game/nblood.md (Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，多游戏合一，GNU Make 跨平台构建，GPL-2.0)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md
+

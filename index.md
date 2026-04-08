@@ -46,6 +46,7 @@
 - [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译
 - [[open-source-game/shadow-warrior]] — 3D Realms 经典 FPS，Build 引擎，1997 年发行 2005 年开源，118K LOC C，GPL+商业数据双许可
 - [[open-source-game/eduke32]] — 先进 Build Engine 端口，多游戏支持(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，GPLv2
+- [[open-source-game/nblood]] — Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，多游戏合一，GNU Make 跨平台构建，GPL-2.0
 - [[open-source-game/raze]] — Build engine 多游戏合一引擎，GZDoom 技术栈，支持 Duke/Blood/Redneck/SW/Exhumed，三渲染器架构(GL/GLES/Vulkan)，~578K LOC C++
 
 ## Concepts

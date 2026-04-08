@@ -71,3 +71,7 @@
 ## [2026-04-09] ingest | Egregoria 开源游戏 wiki note
 - Created: open-source-game/egregoria.md (Cities: Skylines 风格 Rust 城市建造，模拟/渲染分离架构，确定性锁步网络，PBR wgpu 渲染器，混合 Factorio+自由市场经济模型)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Julius 开源游戏 wiki note
+- Created: open-source-game/julius.md (Caesar III 清洁室重实现，SDL2 跨平台复刻，100% 存档兼容，约93K LOC C代码)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

@@ -41,3 +41,6 @@
 ## [2026-04-09] ingest | Zelda Twilight Princess 反向工程项目 wiki note
 - Created: open-source-game/the-legend-of-zelda-twilight-princess.md (多版本条件编译、objdiff对比工具、CC0无版权)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-09] ingest | Zelda3 开源游戏 wiki note
+- Created: open-source-game/zelda3.md (Zelda A Link to the Past 完全重实现，70-80kLOC C，SNES 仿真层+逐帧 RAM 验证)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

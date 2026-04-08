@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-08 | Total pages: 24
+> Last updated: 2026-04-09 | Total pages: 25
 
 ## Entities
 ||[[ksanadock]] — 游戏开发商，时空码头
@@ -14,6 +14,7 @@
 >[[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/ Roguelike/城市建造等），含源码链接
 
 ## Open Source Games
+>[[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C 代码，SNES 仿真层+逐帧 RAM 验证
 >[[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构（Ninja构建）
 >[[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+
 >[[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗

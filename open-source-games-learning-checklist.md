@@ -41,7 +41,7 @@
 - [2026-04-09] **Unknown Horizons** — 2D 实时策略+城市建造（Godot port） | `https://github.com/unknown-horizons/godot-port`
 - [2026-04-09] **Citybound** — 微观模型城市模拟 | `https://github.com/citybound/citybound`
 - [2026-04-09] **Akhenaten** — 古埃及法老城市建造 | `https://github.com/dalerank/Akhenaten`
-- [ ] **micropolisJS** — Micropolis JS 移植版 | `https://github.com/graememcc/micropolisJS`
+- [2026-04-09] **micropolisJS** — Micropolis JS 移植版 | `https://github.com/graememcc/micropolisJS`
 
 ---
 
@@ -315,7 +315,7 @@
 | 16 | 2026-04-09 | Unknown Horizons | Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统，三阶段开发路线图（移植→扩展→升级） |
 | 17 | 2026-04-09 | Citybound | Rust Actor模型(kay crate)、微观城市仿真、协作规划理念、浏览器WebGL UI+双终端开发模式 |
 | 18 | 2026-04-09 | Akhenaten | Julius/Augustus 分支 fork，SDL2 跨平台渲染（Windows/Linux/macOS/Android/Web），MUJS JS 脚本热重载，CMake FetchContent 自包含依赖，约140K LOC C++，100% 原版存档兼容 |
-| 19 | | | |
+| 19 | 2026-04-09 | micropolisJS | BlockMap 多维度城市追踪系统（污染/犯罪/土地价值等13种Map），EventEmitter 解耦组件，Sprite 动画框架，jQuery 最小依赖，工具/窗口模块化模式 |
 | 20 | | | |
 | 21 | | | |
 | 22 | | | |

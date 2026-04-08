@@ -87,3 +87,7 @@
 ## [2026-04-09] ingest | Akhenaten 开源游戏 wiki note
 - Created: open-source-game/akhenaten.md (Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，约140K LOC C++，GNU AGPL)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | micropolisJS 开源游戏 wiki note
+- Created: open-source-game/micropolisjs.md (SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度数据追踪，jQuery 最小依赖，GPLv3)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

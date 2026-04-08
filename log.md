@@ -50,3 +50,6 @@
 ## [2026-04-09] ingest | CorsixTH 开源游戏 wiki note
 - Created: open-source-game/corsixth.md (Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-09] ingest | OpenLoco 开源游戏 wiki note
+- Created: open-source-game/openloco.md (Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，模块化架构，vcpkg 依赖管理，运输帝国经营模拟)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

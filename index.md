@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 43
+> Last updated: 2026-04-09 | Total pages: 44
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -48,6 +48,7 @@
 - [[open-source-game/eduke32]] — 先进 Build Engine 端口，多游戏支持(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，GPLv2
 - [[open-source-game/nblood]] — Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，多游戏合一，GNU Make 跨平台构建，GPL-2.0
 - [[open-source-game/raze]] — Build engine 多游戏合一引擎，GZDoom 技术栈，支持 Duke/Blood/Redneck/SW/Exhumed，三渲染器架构(GL/GLES/Vulkan)，~578K LOC C++
+- [[open-source-game/jfduke3d]] — Jonathon Fowler 的 Duke Nukem 3D 开源移植版，基于 Ken Silverman Build 引擎（jfbuild），SDL2 跨平台，Polymost OpenGL 渲染，GPLv2
 
 ## Concepts
 

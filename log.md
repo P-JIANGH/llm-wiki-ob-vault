@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | JFDuke3D Duke Nukem 3D 端口 wiki note
+- Created: open-source-game/jfduke3d.md (Jonathon Fowler 移植版，jfbuild Build引擎子模块，Polymost OpenGL渲染，SDL2跨平台，~45K LOC C，GPLv2)
+- Updated: index.md (total pages: 44), open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | EDuke32 Build Engine 端口 wiki note
 - Created: open-source-game/eduke32.md (多游戏 Build 端口(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，GPLv2)
 - Updated: index.md (total pages: 43), open-source-games-learning-checklist.md, log.md

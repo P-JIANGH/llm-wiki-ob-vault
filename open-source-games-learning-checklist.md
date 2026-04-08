@@ -76,7 +76,7 @@
 - [2026-04-09] **EDuke32** — 官方 Build 端口，支持 Ion Fury | `https://github.com/voidpoint-io/eduke32`
 - [2026-04-09] **Raze** — GZDoom 技术，支持 Duke/Blood/Shadow Warrior 等 | `https://github.com/ZDoom/Raze`
 - [2026-04-09] **NBlood** — Blood 反向工程端口 | `https://github.com/NBlood/NBlood`
-- [ ] **JFDuke3D** — Duke Nukem 3D 端口 | `https://github.com/jonof/jfduke3d`
+- [2026-04-09] **JFDuke3D** — Duke Nukem 3D 端口 | `https://github.com/jonof/jfduke3d`
 - [ ] **JFShadowWarrior** — Shadow Warrior 端口 | `https://github.com/jonof/jfsw`
 - [ ] **BuildGDX** | `https://github.com/vogonsorg/BuildGDX`
 - [ ] **NuBuildGDX** — BuildGDX 分支，稳定优先 | `https://github.com/atsb/NuBuildGDX`
@@ -334,6 +334,7 @@
 | 36 | 2026-04-09 | EDuke32 | 多游戏 Build 端口(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，与 FTEQW 同仓库(monorepo)，FURY=1 构建配置 Ion Fury 原生支持，GPLv2 |
 | 37 | 2026-04-09 | Raze | Build engine 多游戏合一，GZDoom 技术栈（ Duke/Blood/Redneck/SW/Exhumed），三渲染器 GL/GLES/Vulkan 共享 hwrenderer 抽象，~578K LOC C++，games/ 子目录隔离各游戏源码 |
 | 38 | 2026-04-09 | NBlood | Blood/Exhumed/Redneck Rampage 多合一端口，基于 EDuke32，GNU Make 跨平台 Common.mak 框架，BYTEVERSION 108 存档兼容，GPL-2.0，支持 Cryptic Passage 资料片 |
+| 39 | 2026-04-09 | JFDuke3D | JonoF Duke Nukem 3D 端口，jfbuild Build引擎子模块分离(~45K LOC C)，Polymost OpenGL 渲染器，SDL2 跨平台，GPLv2，需要原版游戏数据 |
 
 ---
 

@@ -19,6 +19,7 @@
 |>[[open-source-game/doom-64-re]] — Doom 64 完全逆向工程，C+MIPS汇编，N64 SDK 交叉编译，恢复原版锁定功能，~50K LOC C
 - [[open-source-game/uzdoom]] — GZDoom/ZDoom 延续，现代 DOOM 源码端口，双渲染器架构(OpenGL/Vulkan+软件)，ZScript 虚拟机，~592K LOC C++
 - [[open-source-game/chocolate-quake]] — 精准还原 Quake v1.09 DOS 体验的极简源码端口，Bug 兼容优先，纯软件渲染无硬件加速，C99+CMake
+- [[open-source-game/fteqw]] — 先进可移植 Quake 引擎，支持多后端渲染(OpenGL/Vulkan/Software/D3D)、多游戏格式、插件系统( bullet/openxr/cef)、自研 FTEQCC 编译器，GPL-2.0
 |[[open-source-game/quake]] — 1996 年 3D FPS 里程碑源码，WinQuake 软件渲染+GLQuake OpenGL+QuakeWorld 多人网络，GPLv2，约 87K LOC C
 |>[[open-source-game/quake-2]] — 1997 年 3D FPS 源码，双渲染器架构（OpenGL + Software），143K LOC C，GPLv2
 |>[[open-source-game/quake-iii-arena]] — id Software 竞技场射击源码，QVM 虚拟机架构（BOT AI/路由编译），纯多人竞技，GPL

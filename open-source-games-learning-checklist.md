@@ -61,7 +61,7 @@
 
 ### Source Ports — Quake
 - [2026-04-09] **Chocolate Quake** — v1.09 及之前版本还原 | `https://github.com/Henrique194/chocolate-quake`
-- [ ] **FTEQW** — Quake 增强引擎 | `https://github.com/fte-team/fteqw`
+- [2026-04-09] **FTEQW** — Quake 增强引擎 | `https://github.com/fte-team/fteqw`
 
 ### Source Ports — Wolfenstein
 - [ ] **ECWolf** | `https://bitbucket.org/ecwolf/ecwolf`
@@ -326,7 +326,7 @@
 | 27 | 2026-04-09 | Chocolate Doom | Bug-Compatible 设计哲学：精准还原而非改进；多游戏引擎共享（doom/heretic/hexen/strife/setup）；i_*平台抽象；OPL/GUS/MIDI/SDL多音频后端；chocolate-server 专用服务器；WAD 资源与代码分离 |
 | 28 | 2026-04-09 | UZDoom / ZDoom | 双渲染器架构(hwrenderer+swrenderer)，ZScript VM字节码系统(DECORATE/ACS脚本)，592K LOC C++，Actor类系统完全数据驱动，多游戏IWAD支持 |
 | 29 | 2026-04-09 | Chocolate Quake | Bug-compatible设计哲学（保留原版bug），纯软件渲染无硬件加速，SDL2+CMake模块化架构，Audio支持MP3/OGG/FLAC，跨平台Win/Linux/Mac |
-| 30 | | | |
+| 30 | 2026-04-09 | FTEQW | 多后端渲染(OpenGL/Vulkan/Software/D3D)、插件系统(bullet/openxr/cef)、自研FTEQCC编译器、ModAPI、多游戏格式支持、6K+ commits |
 
 ---
 

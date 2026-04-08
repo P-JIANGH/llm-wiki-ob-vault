@@ -129,3 +129,7 @@
 ## [2026-04-09] ingest | Chocolate Quake 开源游戏 wiki note
 - Created: open-source-game/chocolate-quake.md (精准还原 Quake v1.09 DOS 体验的极简源码端口，Bug 兼容优先，纯软件渲染无硬件加速，C99+CMake)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | FTEQW 开源游戏 wiki note
+- Created: open-source-game/fteqw.md (先进可移植 Quake 引擎，多后端渲染、插件系统、自研 FTEQCC 编译器，GPL-2.0)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

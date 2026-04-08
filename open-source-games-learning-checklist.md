@@ -40,7 +40,7 @@
 - [2026-04-09] **Julius** — Caesar III 开源复刻 | `https://github.com/bvschaik/julius`
 - [2026-04-09] **Unknown Horizons** — 2D 实时策略+城市建造（Godot port） | `https://github.com/unknown-horizons/godot-port`
 - [2026-04-09] **Citybound** — 微观模型城市模拟 | `https://github.com/citybound/citybound`
-- [ ] **Akhenaten** — 古埃及法老城市建造 | `https://github.com/dalerank/Akhenaten`
+- [2026-04-09] **Akhenaten** — 古埃及法老城市建造 | `https://github.com/dalerank/Akhenaten`
 - [ ] **micropolisJS** — Micropolis JS 移植版 | `https://github.com/graememcc/micropolisJS`
 
 ---
@@ -314,7 +314,7 @@
 | 15 | 2026-04-09 | Julius | 清洁室重实现（逆向二进制+重写），SDL2 平台抽象层（7+平台），100%存档兼容策略（保留原版bug），core/building/figure/window模块化架构，约93K LOC C |
 | 16 | 2026-04-09 | Unknown Horizons | Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统，三阶段开发路线图（移植→扩展→升级） |
 | 17 | 2026-04-09 | Citybound | Rust Actor模型(kay crate)、微观城市仿真、协作规划理念、浏览器WebGL UI+双终端开发模式 |
-| 18 | | | |
+| 18 | 2026-04-09 | Akhenaten | Julius/Augustus 分支 fork，SDL2 跨平台渲染（Windows/Linux/macOS/Android/Web），MUJS JS 脚本热重载，CMake FetchContent 自包含依赖，约140K LOC C++，100% 原版存档兼容 |
 | 19 | | | |
 | 20 | | | |
 | 21 | | | |

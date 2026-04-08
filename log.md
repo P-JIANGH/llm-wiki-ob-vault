@@ -83,3 +83,7 @@
 ## [2026-04-09] ingest | Citybound 开源游戏 wiki note
 - Created: open-source-game/citybound.md (微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Akhenaten 开源游戏 wiki note
+- Created: open-source-game/akhenaten.md (Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，约140K LOC C++，GNU AGPL)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

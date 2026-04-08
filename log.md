@@ -98,3 +98,7 @@
 ## [2026-04-09] ingest | Doom 3 BFG Edition 开源游戏 wiki note
 - Created: open-source-game/doom-3-bfg.md (id Tech 4 引擎源码，Portal 渲染架构，Lua 脚本，doomclassic Doom 1 重制，BFG Edition 收录)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Quake 开源游戏 wiki note
+- Created: open-source-game/quake.md (1996年3D FPS里程碑，WinQuake软件渲染+GLQuake OpenGL+QuakeWorld多人网络，BSP树+PVS，约87K LOC C，GPLv2)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

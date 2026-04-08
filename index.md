@@ -2,12 +2,14 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-08 | Total pages: 16
+> Last updated: 2026-04-08 | Total pages: 18
 
 ## Entities
-[[ksanadock]] — 游戏开发商，时空码头
-[[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏
-[[microverse-code-structure]] — Microverse 代码结构 / 模块解析
+|[[ksanadock]] — 游戏开发商，时空码头
+|[[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏
+|[[microverse-code-structure]] — Microverse 代码结构 / 模块解析
+|[[VoxCPM]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言
+|[[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织
 
 ## Concepts
 

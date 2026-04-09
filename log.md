@@ -579,3 +579,9 @@
 - Updated: index.md (新增 severed-chains 条目，total pages: 80), open-source-games-learning-checklist.md (行222 Severed Chains checkbox, 学习记录 122), log.md
 - Clone: https://github.com/Legend-of-Dragoon-Modding/Severed-Chains (git clone --depth=1 成功)
 - Note: 核心引擎代码量意外精简（Scus94491BpeSegment 总计仅 ~1023 行 Java），PS1 MIPS 汇编逆向重写的艺术；`legend.core.gpu/` 的 GpuCommand 系列命令封装设计精巧；Event-based 模组 API（LodBattleActions/LodEquipment/LodItems/LodShops 等 RegistryEvent）值得参考
+
+## [2026-04-10] ingest | U7 Revisited wiki note
+- Created: open-source-game/u7-revisited.md (Ultima VII: The Black Gate 3D 重制引擎，Ghost(raylib 3D)+Geist(Lua)双引擎分离架构，~49.5K LOC C++，StateMachine 驱动游戏流程，Lua 替代原版 Usecode 脚本，Gump UI 系统，8 阶段 Roadmap)
+- Updated: index.md (新增 u7-revisited 条目), open-source-games-learning-checklist.md (行223 U7 Revisited checkbox, 学习记录 123), log.md
+- Clone: https://github.com/ViridianGames/U7Revisited (git clone --depth=1 成功)
+- Note: Ghost(渲染)/Geist(逻辑)双引擎分离架构清晰；StateMachine 基类派生 Loading/Title/Main/Conversation 等状态；Shape Editor 内置调试工具(F1)值得借鉴；8 阶段 Roadmap 展示清洁室重实现的阶段性规划

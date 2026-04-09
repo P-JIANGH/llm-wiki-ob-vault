@@ -573,3 +573,9 @@
 - Updated: index.md (新增 reone 条目), open-source-games-learning-checklist.md (行221 reone checkbox, 学习记录 121), log.md
 - Clone: https://github.com/seedhartha/reone (git clone --depth=1 成功)
 - Note: 清洁室设计原则（不反编译，基于 BioWare 公开格式规格）；libs/ 下 10 个子系统模块化(audio/game/graphics/gui/input/movie/resource/scene/script/system)；NWScript VM 完整实现；支持 Steam 版 KotOR + TSL；非商业项目 GPLv3
+
+## [2026-04-10] ingest | Severed Chains wiki note
+- Created: open-source-game/severed-chains.md (PS1《龙骑士传说》逆向工程 Java 重实现，904 Java 文件三层架构(core/game/lodmod)，PS1 硬件仿真层(GTE/GPU/SPU)，Scus94491BpeSegment 5 分段重实现，Event-based 模组 API，LodMod.java 完整模组系统，Java 21 + LWJGL 3，需原版 ISO 运行时提取资产)
+- Updated: index.md (新增 severed-chains 条目，total pages: 80), open-source-games-learning-checklist.md (行222 Severed Chains checkbox, 学习记录 122), log.md
+- Clone: https://github.com/Legend-of-Dragoon-Modding/Severed-Chains (git clone --depth=1 成功)
+- Note: 核心引擎代码量意外精简（Scus94491BpeSegment 总计仅 ~1023 行 Java），PS1 MIPS 汇编逆向重写的艺术；`legend.core.gpu/` 的 GpuCommand 系列命令封装设计精巧；Event-based 模组 API（LodBattleActions/LodEquipment/LodItems/LodShops 等 RegistryEvent）值得参考

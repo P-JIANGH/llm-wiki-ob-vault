@@ -446,3 +446,8 @@
 - Created: open-source-game/cn-c-red-alert.md (EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB，CODE/WIN32LIB/VQA/IPX 多层架构，Watcom+TASM 编译，GPL v3)
 - Updated: index.md (新增 cnc-red-alert 条目，total pages: 69), open-source-games-learning-checklist.md (行178 checkbox, 学习记录98)
 - Clone: https://github.com/electronicarts/CnC_Red_Alert (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Zero-K wiki note
+- Created: open-source-game/zero-k.md (Spring Engine 纯 Lua 游戏内容仓库(2383 Lua)，GadgetHandler 模块化事件驱动架构(ai_CAI 4173行)，物理弹道+智能单位预判，PlanetWars 单机战役，PBR 自定义 Shader，GPL v2)
+- Updated: index.md (新增 zero-k 条目，total pages: 73), open-source-games-learning-checklist.md (行182 Zero-K checkbox, 学习记录99)
+- Clone: https://github.com/ZeroK-RTS/Zero-K (git clone --depth=1 成功，1.1GB仓库含大型美术资源)

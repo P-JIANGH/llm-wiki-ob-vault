@@ -97,7 +97,7 @@
 - [2026-04-09] **Liblast** — Godot 4 多人 FPS，完全开源工具链 | `https://codeberg.org/liblast/liblast`
 - [2026-04-09] **.kkrieger** — 96k 大赛作品，程序化生成 | `https://github.com/farbrausch/fr_public/tree/master/werkkzeug3_kkrieger`
 - [2026-04-09] **Descent 3** | `https://github.com/kevinbentley/Descent3`
-- [ ] **The Dark Mod** — 潜行 FPS | `https://svn.thedarkmod.com/publicsvn/darkmod_src/trunk`
+- [2026-04-09] **The Dark Mod** — 潜行 FPS | `https://svn.thedarkmod.com/publicsvn/darkmod_src/trunk`
 
 ### Aliens Versus Predator
 - [2026-04-09] **AvP Forever** | `https://github.com/dreamer/avp-forever`
@@ -346,6 +346,7 @@
 | 47 | 2026-04-09 | .kkrieger | Farbrausch fr_public 仓库工具链源码（122K LOC C++），Werkkzeug3 Portal 渲染引擎（6-Pass 光照管线），64变量操作符树动画系统，数据驱动游戏逻辑（KKriegerGame），V2 合成器+96KB 打包系统，BSD 许可 |
 | 48 | 2026-04-09 | Descent 3 | 经典 6DOF 太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，模块化子系统架构，需原版游戏数据，v1.6.0 |
 | 49 | 2026-04-09 | AvP Forever | 多分支 rebasing 叠加策略（icculus/neuromancer/scraft 源码），三族独立行为系统（alien/marine/predator），Direct3D/SDL 多平台层，嵌入式 Bink/Smacker/Miles 二进制库，需原版游戏数据 |
+| 50 | 2026-04-09 | The Dark Mod | Doom 3/id Tech 4 引擎潜行 FPS（AAS 区域感知+AI 通信子系统+Memory 系统），170+ 社区任务，源码 GPL+资产 CC BY-NC-SA 3.0 双许可，C++17/CMake 跨平台 |
 
 ---
 

@@ -211,3 +211,7 @@
 ## [2026-04-09] ingest | AvP Forever 开源游戏 wiki note
 - Created: open-source-game/avp-forever.md (Aliens versus Predator 1999 源码维护项目，多分支 rebasing 策略叠加 icculus/neuromancer/scraft 等源码，Direct3D/SDL 多平台层，三族独立行为系统，嵌入式 Bink/Smacker/Miles 二进制库，需原版游戏数据)
 - Updated: index.md (total pages: 48), open-source-games-learning-checklist.md (行103 checkbox, 学习记录49), log.md
+
+## [2026-04-09] ingest | The Dark Mod 开源游戏 wiki note
+- Created: open-source-game/the-dark-mod.md (Doom 3/id Tech 4 引擎潜行 FPS，AAS 区域感知+AI 通信子系统+Memory 系统，170+ 社区任务，源码 GPL+资产 CC BY-NC-SA 3.0 双许可，C++17/CMake 跨平台)
+- Updated: index.md (total pages: 48), open-source-games-learning-checklist.md (行100 checkbox, 学习记录50), log.md

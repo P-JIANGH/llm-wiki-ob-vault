@@ -165,7 +165,7 @@
 - [2026-04-10] **Standard Of Iron** — Qt6 + OpenGL 3.3 RTS | `https://github.com/djeada/Standard-of-Iron`
 
 ### RTS — Blizzard Re-Implementations
-- [ ] **OpenBW** — StarCraft: Brood War 开源 | `https://github.com/OpenBW/openbw`
+- [2026-04-10] **OpenBW** — StarCraft: Brood War 开源 | `https://github.com/OpenBW/openbw`
 - [ ] **War1gus** — Warcraft: Orcs & Humans | `https://github.com/Wargus/war1gus`
 - [ ] **Wargus** — Warcraft II Tides of Darkness | `https://github.com/Wargus/wargus`
 - [ ] **Wyrmsun** — 神话/历史/文学元素策略 | `https://github.com/Andrettin/Wyrmsun`
@@ -386,6 +386,7 @@
 | 87 | 2026-04-10 | Freeserf.net | The Settlers I C# 清洁室重实现；.NET Standard 2.1 多模块分离(Freeserf.Core/Renderer/Audio/Network)；Silk.NET 跨平台渲染；BASS 音频；~200 文件~35K LOC；三阶段 Roadmap Phase3 多人开发中 |
 | 88 | 2026-04-10 | Permafrost Engine | OpenGL 3.3 RTS 引擎，纯 C；Python 2.7 脚本+Fiber 协作多任务；GPU 骨骼动画+姿态纹理批处理；分层流场寻路+boids+ClearPath 避障；Hungarian Algorithm 阵型重排；多线程 2-stage 管线(模拟/渲染)；Nuklear UI；旗舰游戏 EVERGLORY |
 | 89 | 2026-04-10 | Standard Of Iron | C++20/Qt6/OpenGL 3.3 布匿战争 RTS；ECS 架构（64-bit Entity ID，组件连续存储，System 执行顺序固定）；6 阶段渲染 Pass；骨骼动画+程序化布料物理（Wind+Leg Collision）；JSON 数据驱动（地图/兵种/国家配置）；miniaudio 空间音频；MIT |
+| 90 | 2026-04-10 | OpenBW | StarCraft: Brood War 核心引擎清洁室重实现；header-only C++ 架构（bwgame.h 22K行 + bwenums.h 2.2K + sync.h 1.1K 等 ~28K 总行数）；bwgame.h 单文件 798KB 含完整引擎（单位/建筑/寻路/碰撞/指令）；bwenums.h 228+ 种类单位枚举；sync.h 确定性锁步网络 + ASIO 三后端 TCP/local/socket；korean.h 韩文编码支持；mini-openbwapi BWAPI 兼容层 |
 
 ---
 

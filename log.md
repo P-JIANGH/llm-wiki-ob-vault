@@ -19,6 +19,10 @@
 - Created: open-source-game/kandria.md (Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL，~19K LOC 全 Lisp，BVH2 碰撞，内置编辑器)
 - Updated: index.md (新增 kandria 条目，total pages: 62), open-source-games-learning-checklist.md (行205 Kandria checkbox, 学习记录73), log.md
 
+## [2026-04-10] ingest | OpenBW wiki note
+- Created: open-source-game/openbw.md (StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ ~28K LOC，bwgame.h 22K行单文件含完整引擎，确定性锁步网络 sync.h，mini-openbwapi BWAPI 兼容层)
+- Updated: index.md (新增 openbw 条目), open-source-games-learning-checklist.md (行168 OpenBW checkbox, 学习记录90), log.md
+
 ## [2026-04-10] ingest | 0 A.D. Empires Ascendant wiki note
 - Created: open-source-game/0-ad.md (历史古代战争 RTS，Pyrogenesis 自研 3D 引擎，C++/JavaScript 混合架构，Simulation/Graphics 分离，~15GB 仓库，29K+ commits)
 - Updated: index.md (新增 0-ad 条目), open-source-games-learning-checklist.md (行153 0 A.D. checkbox, 学习记录84), log.md

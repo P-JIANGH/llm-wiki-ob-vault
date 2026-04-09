@@ -657,3 +657,10 @@
 - Updated: index.md (新增 openrw 条目，total pages: 92), open-source-games-learning-checklist.md (行259 OpenRW checkbox, 学习记录 135), log.md
 - Clone: https://github.com/rwengine/openrw (git clone 超时；curl tarball 超时；GitHub 完全不可达；通过 web_extract 抓取 openrw.org 官网 + GitHub 页面 + README.md + CMakeLists.txt 端点完成分析)
 - Note: 模块化三分离架构（rwcore/rwengine/rwgame）是大型 3D 游戏引擎标准模式；Bullet Physics 刚体碰撞适合开放世界车辆物理；清洁室重实现模式法律安全但需要原版游戏数据；CMake + Conan 依赖管理是多平台 C++ 项目标准方案
+
+
+## [2026-04-10] ingest | OpenLara 古墓丽影经典引擎 wiki note
+- Created: open-source-game/openlara.md
+- Updated: index.md (新增 openlara 条目), open-source-games-learning-checklist.md (行261 OpenLara checkbox, 学习记录 136), log.md
+- Clone: https://github.com/XProger/OpenLara (git clone --depth=1 成功)
+- Note: gapi/ 多后端渲染抽象层(gl/d3d8/d3d9/d3d11/vk/sw/gxm/gu/c3d)是跨平台游戏引擎标准模式；platform/ 32平台子目录隔离策略适合大型多主机适配；fixed/ 定点数引擎对确定性物理仿真有参考价值；collision.h 的 room 分割碰撞系统适合开放世界场景

@@ -243,7 +243,7 @@
 ## Shoot 'em up (2)
 
 - [2026-04-10] **Taisei Project** — 东方 Project 同人，SDL3 + OpenGL | `https://github.com/taisei-project/taisei`
-- [ ] **SDL Sopwith** — 经典双翼机射击移植 | `https://github.com/fragglet/sdl-sopwith`
+- [2026-04-10] **SDL Sopwith** — 经典双翼机射击移植 | `https://github.com/fragglet/sdl-sopwith`
 
 ---
 
@@ -427,6 +427,7 @@
 |||||| 129 | 2026-04-10 | OpenKO | Knight Online (1298/9) 清洁室逆向开源复刻；双端分离架构：Client DirectX 9 (仅 Windows/MSVC) + Server 跨平台 CMake (Linux/macOS)；多进程服务器(AIServer/Ebenezer/Aujard/ItemManager/VersionManager)；~265K LOC C++；自定义二进制网络协议(LZF压缩+JvCryption加密)；100+ opcode 枚举；17 个 git submodules 依赖管理；早期开发，学术目的 |
 ||| 130 | 2026-04-10 | Minosoft | Minecraft 客户端从零重写 Kotlin/Java (~27K LOC)；三模块架构 Core/Eros/Rendering 完全解耦；Netty 网络层手动 Buffer 读取多版本兼容(1.7-1.20.4)；PixLyzer 按需数据下载；zstd 压缩 Mojang 资产；事件驱动渲染架构；Headless 模式无 GUI 运行 |
 | 131 | 2026-04-10 | Taisei Project | 东方 Project 同人弹幕射击；3.2M LOC C + 123K Python (Meson) + 82K GLSL；SDL3 + OpenGL 自研渲染管线；src/ 40+ 子系统模块化(entity/player/enemy/boss/laser/particle/dialog/mod/scm等)；coroutine/ + taskmanager/ 协程任务系统；VFS ZIP 资源打包；多平台(WIN/LINUX/MAC/WEB/SWITCH)；~775MB 仓库(含资产)；自定义许可证（非 GPL）；rng/ 确定性随机数用于多人/回放 |
+| 132 | 2026-04-10 | SDL Sopwith | 经典一战双翼机射击游戏 SDL 移植；src/核心+sdl/平台层分离架构（swauto/swcollsn/swgames 等模块）；Autotools 多平台编译（cygwin/mingw/solaris/qnx/haiku）；SDL2 + PC Speaker 音效模拟；TCP/IP 多人；.sop 自定义关卡格式（支持 power-up）；Gamepad 支持（SDL Game Controller API）；Emscripten WebAssembly + PWA；GPLv2；~873 commits |
 
 ## 相关 Wiki 页面
 

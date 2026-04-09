@@ -633,3 +633,9 @@
 - Updated: index.md (新增 taisei 条目，total pages: 88), open-source-games-learning-checklist.md (行245 Taisei checkbox, 学习记录 131), log.md
 - Clone: https://github.com/taisei-project/taisei (git clone 超时；tarball 106MB+ 超时；通过 GitHub API 获取项目结构和源码树信息完成分析)
 - Note: 3.2M LOC C 是本清单最大代码库之一；自研 SDL3+OpenGL 渲染管线证明了 2D STG 场景下手写渲染的可行性；82K GLSL + 46K boss.c 是弹幕 Pattern 编排核心；scm/ 脚本系统提供内容扩展性；coroutine/ + taskmanager/ 协程任务机制值得关注
+
+## [2026-04-10] ingest | SDL Sopwith wiki note
+- Created: open-source-game/sdl-sopwith.md (经典一战双翼机射击游戏 SDL 移植版；src/核心+sdl/平台层分离架构；Autotools 多平台编译；SDL2 + PC Speaker 音效模拟；TCP/IP 多人；.sop 自定义关卡格式；Gamepad 支持；Emscripten WebAssembly；GPLv2)
+- Updated: index.md (新增 sdl-sopwith 条目，total pages: 89), open-source-games-learning-checklist.md (行246 SDL Sopwith checkbox, 学习记录 132), log.md
+- Clone: https://github.com/fragglet/sdl-sopwith (git clone 超时；GitHub 访问网络超时；通过 web_extract 获取项目结构和源码树信息完成分析)
+- Note: src/核心逻辑+sdl/平台层分离是轻量级游戏移植的标准模式；PC Speaker 纯软件模拟复古音色方案；.sop 自定义关卡格式文本格式可编辑；Autotools 多平台条件编译值得参考；Emscripten Web+PWA+触摸三位一体 Web 方案有参考价值

@@ -199,7 +199,7 @@
 
 ### Main RPGs
 - [2026-04-10] **OpenMW** — Morrowind 引擎复刻（C++，最成熟开源 RPG 引擎之一） | `https://github.com/OpenMW/openmw`
-- [ ] **Daggerfall Unity** — Daggerfall Unity 引擎重做 | `https://github.com/Interkarma/daggerfall-unity`
+- [2026-04-10] **Daggerfall Unity** — Daggerfall Unity 引擎重做 | `https://github.com/Interkarma/daggerfall-unity`
 - [ ] **Veloren** — Rust 体素多人 RPG | `https://github.com/veloren/veloren`
 - [ ] **Space Station 14** — Space Station 13 开源复刻（DM/shell 脚本栈） | `https://github.com/space-wizards/space-station-14`
 - [2026-04-09] **Kandria** — Common Lisp 动作 RPG | `https://codeberg.org/shirakumo/kandria`
@@ -401,9 +401,10 @@
 || 103 | 2026-04-10 | NetHack | 纯C无引擎架构(~163MB仓库)，src/核心+dat/Lua地牢生成(14职业)+win/多前端抽象+sys/跨平台；3.7改进：Lua编译替代yacc/lex，跨平台编译，可移植存档，ga-gz变量结构化，18,442 commits，3,536 stars |
 ||| 104 | 2026-04-10 | BrogueCE | 纯C极简Roguelike，22个.c核心模块(C99无引擎依赖)，src/brogue/主体+src/platform/多后端(SDL2/curses/web)，Dijkstra怪物寻路(Dijkstra.c)，确定性游戏回放系统(Recordings.c)，SeedCatalog种子驱动地牢生成，1.3k stars |
 |||| 105 | 2026-04-10 | Shattered Pixel Dungeon | libGDX 跨平台 Roguelike（Desktop/Android/iOS），Java/JDK 21，core/1743项共享逻辑+平台启动器分离，Actors/Items/Levels/Sprites/Tiles/UI 模块化架构，20+ 语言 i18n properties 系统，程序化关卡生成 5 区域，天赋树系统，6k stars，GPLv3 |
-|| 106 | 2026-04-10 | OpenNefia | .NET 8.0 + Love2dCS 渲染，Core/Content/EntryPoint 三层架构，Harmony 运行时补丁 + NuGet Mod 加载，2058 C# + 436 Lua 文件，IoC 依赖注入，YAML 原型数据驱动 |
-|| 107 | 2026-04-10 | Meritous | PSI 充能攻击动作地牢探索，纯 C ~10K LOC（demon.c 2613+levelblit.c 2646+boss.c 1829），SDL 2D Tile，程序化 mapgen.c 972 行，GPLv3 |
-|| 108 | 2026-04-10 | OpenMW | Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，OMW::Engine 总线聚合所有子系统，完整工具链(opencs/bsatool/esmtool/navmeshtool)，~2768源文件~55K LOC，GPLv3，v0.51.0 |
+||| 106 | 2026-04-10 | OpenNefia | .NET 8.0 + Love2dCS 渲染，Core/Content/EntryPoint 三层架构，Harmony 运行时补丁 + NuGet Mod 加载，2058 C# + 436 Lua 文件，IoC 依赖注入，YAML 原型数据驱动 |
+||| 107 | 2026-04-10 | Meritous | PSI 充能攻击动作地牢探索，纯 C ~10K LOC（demon.c 2613+levelblit.c 2646+boss.c 1829），SDL 2D Tile，程序化 mapgen.c 972 行，GPLv3 |
+||| 108 | 2026-04-10 | OpenMW | Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，OMW::Engine 总线聚合所有子系统，完整工具链(opencs/bsatool/esmtool/navmeshtool)，~2768源文件~55K LOC，GPLv3，v0.51.0 |
+||| 109 | 2026-04-10 | Daggerfall Unity | Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect Arena2 资产读取，AudioSynthesis 全自研 MIDI/SF2/Sfz 合成，QuestMachine QRC 任务系统，TalkManager NPC 对话 AI（3736 行），SaveLoadManager FullSerializer 存档，ModManager 模组支持，MIT |
 
 ---
 

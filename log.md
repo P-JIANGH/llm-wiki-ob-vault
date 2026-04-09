@@ -496,3 +496,8 @@
 - Created: open-source-game/openmw.md (Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，OMW::Engine 总线聚合所有子系统，完整工具链(opencs/bsatool/esmtool/navmeshtool)，~2768源文件~55K LOC，GPLv3，v0.51.0)
 - Updated: index.md (新增 openmw 条目，total pages: 76), open-source-games-learning-checklist.md (OpenMW checkbox 行201, 学习记录108)
 - Clone: https://github.com/OpenMW/openmw (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Daggerfall Unity wiki note
+- Created: open-source-game/daggerfall-unity.md (Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect Arena2 资产读取，MaterialReader/MeshReader/SoundReader 三件套，AudioSynthesis 全自研 MIDI/SF2/Sfz 合成，QuestMachine QRC 任务系统，TalkManager NPC 对话 AI（3736 行），SaveLoadManager FullSerializer 存档，ModManager 模组支持，MIT)
+- Updated: index.md (新增 daggerfall-unity 条目，total pages: 77), open-source-games-learning-checklist.md (行202 Daggerfall Unity checkbox, 学习记录 109)
+- Clone: https://github.com/Interkarma/daggerfall-unity (git clone --depth=1 成功)

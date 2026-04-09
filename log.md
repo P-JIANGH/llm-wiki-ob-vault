@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Fish Folk Punchy wiki note
+- Created: open-source-game/fish-folk-punchy.md (Bevy 0.9 + Rapier2D 物理 2.5D 清版动作游戏，fighter_state.rs 2228 行状态机，15+ Bevy 插件体系，支持 WASM/Web)
+- Updated: index.md (新增 fish-folk-punchy 条目，total pages: 53), open-source-games-learning-checklist.md (行121 Fish Folk Punchy checkbox, 学习记录59), log.md
+
 ## [2026-04-09] ingest | Frogatto & Friends 开源游戏 wiki note
 - Created: open-source-game/frogatto.md (Anura 引擎模块分离架构，FFC 数据驱动脚本，16 语言本地化，v5.1 模块格式)
 - Updated: index.md (total pages: 52), open-source-games-learning-checklist.md (行119 Frogatto checkbox, 学习记录57), log.md

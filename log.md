@@ -289,3 +289,7 @@
 ## [2026-04-09] ingest | Whatajong wiki note
 - Created: open-source-game/whatajong.md (麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT)
 - Updated: index.md (新增 whatajong 条目, total pages: 57), open-source-games-learning-checklist.md (行132 Whatajong checkbox, 学习记录64), log.md
+
+## [2026-04-09] ingest | BlockOut II wiki note
+- Created: open-source-game/blockout-ii.md (3D 俄罗斯方块，C++/OpenGL/SDL，~12K LOC，评估函数驱动 Bot AI，回放 .bl2replay 系统，在线排行榜，ImageLib 独立图像库，GPLv2)
+- Updated: index.md (新增 blockout-ii 条目, total pages: 57), open-source-games-learning-checklist.md (行130 BlockOut II checkbox, 学习记录65), log.md

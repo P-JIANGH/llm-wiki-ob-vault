@@ -456,3 +456,8 @@
 - Created: open-source-game/dungeon-crawl-stone-soup.md (~412K LOC C++，310 .cc/.h，ASCII+SDL Tiles 双模式渲染，.des Vault 手绘关卡系统，17+ 神祇契约系统，数据驱动物品/怪物/魔法配置，GPLv2+，20年开源迭代)
 - Updated: index.md (新增 dungeon-crawl-stone-soup 条目，total pages: 70), open-source-games-learning-checklist.md (行188 DCSS checkbox, 学习记录100)
 - Clone: https://github.com/crawl/crawl (git clone --depth=1 成功，crawl-ref/ 子目录结构)
+
+## [2026-04-10] ingest | CnC Tiberian Dawn wiki note
+- Created: open-source-game/cnc-tiberian-dawn.md (EA 官方 C&C 原版(1995)源码，Watcom C+++x86 汇编，OOP 类层次 FootClass/UnitClass/BuildingClass/AircraftClass，COMBUF ACK/Retry 网络系统，IPX/Modem 多人大战雾，DirectX Win95 移植，GPLv3)
+- Updated: index.md (新增 cnc-tiberian-dawn 条目，total pages: 71), open-source-games-learning-checklist.md (行179 Tiberian Dawn checkbox, 学习记录101)
+- Clone: https://github.com/electronicarts/CnC_Tiberian_Dawn (git clone/tarball 均超时；通过 GitHub API tree + raw content 端点获取 ~150 文件结构完成分析)

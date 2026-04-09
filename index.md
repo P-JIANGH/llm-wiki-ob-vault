@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total pages: 70
+|> Last updated: 2026-04-10 | Total pages: 71
 
 ## AI / LLM / Agent
 
@@ -44,8 +44,9 @@
 - [[open-source-game/permafrost-engine]] — OpenGL 3.3 RTS 游戏引擎，纯 C + Python 2.7 脚本，GPU 骨骼动画+分层流场寻路+Fiber 协作多任务，旗舰游戏 EVERGLORY
 - [[open-source-game/freeserf-net]] — The Settlers I 清洁室 C# 重实现，Silk.NET 跨平台渲染，BASS 音频，多人网络开发中，MIT
 - [[open-source-game/standard-of-iron]] — 布匿战争历史 RTS，C++20/Qt6/OpenGL 3.3，ECS 架构，骨骼动画+布料物理，MIT
+- [[open-source-game/cnc-tiberian-dawn]] — EA 官方 C&C 原版（1995）源码，Watcom C++ + x86 汇编，OOP 类层次架构 (Foot/Unit/Building/AircraftClass)，IPX/Modem 多人大战雾系统，GPLv3
 
-| [[open-source-game/commander-keen-in-keen-dreams]] — Commander Keen Episode 4 源码
+|| [[open-source-game/commander-keen-in-keen-dreams]] — Commander Keen Episode 4 源码
 | [[open-source-game/doom]] — id Software 经典 FPS，1997年 Carmack 开源，BSP 树渲染，GPLv2，约 54K LOC C |
 | [[open-source-game/doom-3-bfg]] — id Tech 4 引擎源码，含 Portal 渲染、Lua 脚本、BFG Edition 收录 Doom Classic，GPL |
 | [[open-source-game/doom-64-re]] — Doom 64 完全逆向工程，C+MIPS 汇编，N64 SDK 交叉编译，~50K LOC C |

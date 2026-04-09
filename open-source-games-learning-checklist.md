@@ -160,7 +160,7 @@
 - [2026-04-10] **OpenHV** — 像素 Sci-Fi RTS | `https://github.com/OpenHV/OpenHV`
 - [2026-04-09] **Keeper FX** — Dungeon Keeper 开源复刻 | `https://github.com/dkfans/keeperfx`
 - [2026-04-10] **Dune II The Maker** — Dune 2 重制 | `https://github.com/stefanhendriks/Dune-II---The-Maker`
-- [ ] **Freeserf.net** — The Settlers I 真实复刻 | `https://github.com/Pyrdacor/freeserf.net`
+- [2026-04-10] **Freeserf.net** — The Settlers I 真实复刻 | `https://github.com/Pyrdacor/freeserf.net`
 - [ ] **Permafrost Engine** — C OpenGL 3.3 RTS 引擎 | `https://github.com/eduard-permyakov/permafrost-engine`
 - [ ] **Standard Of Iron** — Qt6 + OpenGL 3.3 RTS | `https://github.com/djeada/Standard-of-Iron`
 
@@ -383,6 +383,7 @@
 | 84 | 2026-04-10 | 0 A.D. | 历史古代战争 RTS，Pyrogenesis 自研 3D 引擎（C++/JS），simulation2/ 模拟层 + renderer/graphics/ 渲染层分离，Actor XML 数据驱动，~15GB 仓库，29K+ commits，Release 28 Boiorix（首个非 Alpha） |
 | 86 | 2026-04-10 | Dune II The Maker | C++23 三速 tick 游戏循环(thinkFast 5ms/thinkNormal 100ms/thinkSlow 1000ms)，cGameState 状态机架构，GameContext 依赖注入容器，INI 配置驱动数据，cPlayerBrain Mission 队列 AI（Skirmish/Campaign/Sandworm），SDL2 Drawer 渲染管线分离（map/minimap/sidebar/particles），superweapon 系统(DeathHand/Fremen/Saboteur) |
 | 85 | 2026-04-09 | Keeper FX | Dungeon Keeper 开源增强，~235K LOC C/C++，从反编译到完全重写（Ariadne A*寻路+lua脚本+ENet多人），CMake/SDL2/VCpkg，GPLv2 |
+| 87 | 2026-04-10 | Freeserf.net | The Settlers I C# 清洁室重实现；.NET Standard 2.1 多模块分离(Freeserf.Core/Renderer/Audio/Network)；Silk.NET 跨平台渲染；BASS 音频；~200 文件~35K LOC；三阶段 Roadmap Phase3 多人开发中 |
 
 ---
 

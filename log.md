@@ -388,3 +388,8 @@
 - Created: open-source-game/dune-ii-the-maker.md (C++23 Dune II 重制，SDL2 全家桶，三速 tick 游戏循环，cGameState 状态机，cPlayerBrain Mission 队列 AI)
 - Updated: index.md (新增 dune-ii-the-maker 条目), open-source-games-learning-checklist.md (行162 checkbox, 学习记录86)
 - Clone: https://github.com/stefanhendriks/Dune-II---The-Maker (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Freeserf.net wiki note
+- Created: open-source-game/freeserf-net.md (The Settlers I C# 清洁室重实现，Silk.NET 跨平台渲染，BASS 音频，~200 文件 ~35K LOC，多人网络开发中)
+- Updated: index.md (新增 freeserf-net 条目), open-source-games-learning-checklist.md (行163 checkbox, 学习记录87)
+- Clone: https://github.com/Pyrdacor/freeserf.net (git clone --depth=1 成功)

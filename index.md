@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 48
+> Last updated: 2026-04-09 | Total pages: 49
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -12,6 +12,7 @@
 |||[[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织
 |>[[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源
 |>[[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/ Roguelike/城市建造等），含源码链接
+|>[[mempalace]] — AI 长期记忆系统，ChromaDB verbatim 存储 + 4 层记忆栈，LongMemEval 96.6%（无需 API）
 
 ## Open Source Games
 |>[[open-source-game/doom]] — id Software 经典 FPS 源码，1997年 Carmack 开源，BSP 树渲染架构，GPLv2，约 54K LOC C 代码

@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | MemPalace AI 记忆系统
+- Created: entities/mempalace.md (AI 长期记忆系统，ChromaDB verbatim 存储 + 4 层记忆栈，LongMemEval 96.6% raw / 100% hybrid，$0 无 API，MCP Server 19 工具，Claude Code Hook 集成，AAAK lossy 压缩实验性)
+- Updated: index.md (total pages: 49), log.md
+
 ## [2026-04-09] ingest | Descent 3 6DOF 太空射击 wiki note
 - Created: open-source-game/descent-3.md (经典 6DOF 太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，模块化子系统架构，需原版游戏数据，v1.6.0)
 - Updated: index.md (新增 descent-3 条目), open-source-games-learning-checklist.md (行99 checkbox, 行347 学习记录48), log.md

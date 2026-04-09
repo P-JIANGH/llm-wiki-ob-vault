@@ -5,6 +5,11 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | OpenRA wiki note
+- Created: open-source-game/openra.md (C# RTS 引擎复刻 Westwood 经典，.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars，GPL-3.0)
+- Updated: index.md (新增 openra 条目，total pages: 62), open-source-games-learning-checklist.md (行155 OpenRA checkbox, 学习记录74), log.md
+- Note: GitHub API 可达但 git clone/tarball download 均超时；通过 GitHub API tree + raw content 端点获取源码结构完成分析
+
 ## [2026-04-09] ingest | wipEout Rewrite wiki note
 - Created: open-source-game/wipeout-rewrite.md (wipEout 1995 PSX 清洁室重实现，纯 C 双平台后端 SDL2/Sokol + 三渲染器架构 GL/GLES2/Software，~4000 LOC)
 - Updated: index.md (新增 wipeout-rewrite 条目，total pages: 61), open-source-games-learning-checklist.md (行147 wipEout checkbox, 学习记录72), log.md

@@ -152,7 +152,7 @@
 
 - [ ] **0 A.D.** — 古代战争策略 | `https://gitea.wildfiregames.com/0ad/0ad`
 - [ ] **Beyond All Reason (BAR)** — 现代 RTS，Spring 引擎 | `https://github.com/beyond-all-reason/Beyond-All-Reason`
-- [ ] **OpenRA** — C&C / Dune 2000 / Red Alert 现代复刻 | `https://github.com/OpenRA/OpenRA`
+- [2026-04-09] **OpenRA** — C&C / Dune 2000 / Red Alert 现代复刻 | `https://github.com/OpenRA/OpenRA`
 - [ ] **Warzone 2100** — 3D RTS，剧情战役 | `https://github.com/Warzone2100/warzone2100`
 - [ ] **Widelands** — 开源实时策略 | `https://github.com/widelands/widelands`
 - [ ] **Mindustry** — 沙盒塔防 | `https://github.com/Anuken/Mindustry`
@@ -299,6 +299,7 @@
 |---|------|--------|---------|
 | 51 | 2026-04-09 | NakedAVP | 三族 SDL3 现代端口，双渲染器降级(OpenGL/GLES2)，Win API 抽象层，atsb 主导，约45K LOC C/C++ |
 | 52 | 2026-04-09 | Surreal Engine | UE1 清洁室重实现，SHA1DB多游戏识别，D3D11+Vulkan双渲染器（无OpenGL），~99K LOC C++，三应用入口(Engine/Editor/Debugger)，Unrealscript VM 部分实现（缺网络），仅 UT436/UnrealGold 可玩 |
+| 74 | 2026-04-09 | OpenRA | C# RTS 引擎复刻 Westwood 经典（C&C/红警/沙丘2000），.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars |
 | 53 | 2026-04-09 | Super Mario 64 | N64 完整反编译，2746 C 文件，src/engine/ 图节点渲染+src/game/ 游戏逻辑，binutils-mips 交叉编译，多版本条件编译(jp/us/eu/sh/cn)，baserom 资产提取管线，GPLv2 |
 | 1 | 2026-04-08 | Hypersomnia | 纯 C++ 无引擎、确定性锁步网络、自定义 ECS、ImGui 地图编辑器、浮点一致性处理 |
 | 2 | 2026-04-08 | Endless Sky | 纯 C++20 无引擎、数据驱动 txt 内容系统、OpenGL3+自研 Shader、vcpkg 轻量依赖、mod 友好 |

@@ -670,3 +670,9 @@
 - Updated: index.md (新增 croftengine 条目), open-source-games-learning-checklist.md (行261 CroftEngine checkbox, 学习记录 137), log.md
 - Clone: https://github.com/stohrendorf/CroftEngine (git clone --depth=1 成功)
 - Note: v2.5.0, 685 C++ 源文件, CMake 3.16+, LGPLv3; archive/loader/ 分层支持 TR1/TR2/TR3/TOMB4 四代存档; ghosting/ 幽灵录制系统可迁移任何竞速游戏; 双渲染器架构(OpenGL+软件)降级策略; Boost.Log/spdlog 日志系统基础设施; FFmpeg 视频解码用于过场动画; Glidos 纹理包支持体现内容/引擎分离设计
+
+## [2026-04-10] ingest | Tomb Engine wiki note
+- Created: open-source-game/tomb-engine.md
+- Updated: index.md (新增 tomb-engine 条目, total pages: 93), open-source-games-learning-checklist.md (行262 Tomb Engine checkbox, 学习记录 138), log.md
+- Clone: https://github.com/TombEngine/TombEngine (git clone --depth=1 成功)
+- Note: v1.11.1, ~180K LOC C++ (112K .h + 180K .cpp), MIT 修改版许可证(非商业用途); sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)是游戏脚本化标准模式; Game/Renderer/Physics/Scripting/Resources 完全模块化架构; SMAA+SSAO+高帧率+骨骼动画+对角线几何突破经典引擎限制; TombEditor 独立编辑器体现引擎/工具链分离设计

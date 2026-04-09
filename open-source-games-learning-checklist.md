@@ -259,7 +259,7 @@
 - [2026-04-10] **OpenRW** — GTA III 重实现 | `https://github.com/rwengine/openrw`
 - [2026-04-10] **OpenLara** — 古墓丽影经典引擎 | `https://github.com/XProger/OpenLara`
 - [2026-04-10] **CroftEngine** — Tomb Raider 1 引擎重制 | `https://github.com/stohrendorf/CroftEngine`
-- [ ] **Tomb Engine** — Tomb Raider 1-5 引擎（Core Design 时代） | `https://github.com/TombEngine/TombEngine`
+- [2026-04-10] **Tomb Engine** — Tomb Raider 1-5 引擎（Core Design 时代） | `https://github.com/TombEngine/TombEngine`
 - [ ] **Lugaru: The Rabbit's Foot** — 跨平台 3D 动作 | `https://github.com/WolfireGames/lugaru`
 - [ ] **Overgrowth** — Lugaru 续作 | `https://github.com/WolfireGames/overgrowth`
 - [ ] **RE3** — GTA III + GTA VC 完全逆向源码 | `https://github.com/VideogameSources/gta3-decomp-alt`
@@ -432,7 +432,8 @@
 | 134 | 2026-04-10 | Open Golf | 跨平台迷你高尔夫游戏，纯 C 自研物理引擎（BVH 碰撞），Sokol 跨平台 3D 渲染，ImGui 内置关卡编辑器，光照贴图烘焙（xatlas+lightmapper），支持 Windows/Linux/macOS/Android/iOS/Web |
 || 135 | 2026-04-10 | OpenRW | GTA III 清洁室重实现引擎，rwcore/rwengine/rwgame 模块化架构，OpenGL+Bullet Physics+SDL2，GPLv3，需原版游戏数据，~2K commits |
 || 136 | 2026-04-10 | OpenLara | 古墓丽影经典引擎开源重实现，多后端渲染架构(gapi/)、32平台支持(win/osx/nix/ios/android/psp/psv/nx/web等)，固定点数学引擎(fixed/)，collision.h 4向碰撞+room分割，BSD 2-Clause |
-||| 137 | 2026-04-10 | CroftEngine | Tomb Raider 1 引擎重制 v2.5.0，685 C++ 源文件，CMake 3.16+，LGPLv3，archive/loader/ 分层支持 TR1/TR2/TR3/TOMB4 四代存档，ghosting/ 幽灵竞速系统，双渲染器(OpenGL+软件)降级，Boost+spdlog+FFmpeg 依赖栈，Glidos 纹理包支持 |
+|||| 137 | 2026-04-10 | CroftEngine | Tomb Raider 1 引擎重制 v2.5.0，685 C++ 源文件，CMake 3.16+，LGPLv3，archive/loader/ 分层支持 TR1/TR2/TR3/TOMB4 四代存档，ghosting/ 幽灵竞速系统，双渲染器(OpenGL+软件)降级，Boost+spdlog+FFmpeg 依赖栈，Glidos 纹理包支持 |
+||| 138 | 2026-04-10 | Tomb Engine | Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，模块化 Game/Renderer/Physics/Scripting/Resources，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版许可证 |
 
 ## 相关 Wiki 页面
 

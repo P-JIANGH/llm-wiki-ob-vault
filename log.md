@@ -609,3 +609,9 @@
 - Updated: index.md (新增 abyss-engine 条目，total pages: 84), open-source-games-learning-checklist.md (行229 Abyss Engine checkbox, 学习记录 127), log.md
 - Clone: https://github.com/AbyssEngine/AbyssEngine (git clone --depth=1 成功)
 - Note: 纯 C 代码库 C99 标准确保最大兼容性；与 [[open-source-game/devilutionx|EvilutionX]] 清洁室逆向相比，AbyssEngine 选择完全重写路线；LibArchive 直接读取 MPQ 容器复用原版数据是快速启动项目的好方法；VideoManager 处理 FFmpeg 视频解码是 2D 游戏过场动画的标准方案
+
+## [2026-04-10] ingest | OpenKore wiki note
+- Created: open-source-game/openkore.md (Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接 XKore/XKore2/XKoreProxy，txt 数据驱动配置，GPLv2)
+- Updated: index.md (新增 openkore 条目，total pages: 85), open-source-games-learning-checklist.md (行233 OpenKore checkbox, 学习记录 128), log.md
+- Clone: https://github.com/OpenKore/openkore (git clone --depth=1 成功，299MB 含大量游戏数据)
+- Note: Perl + C XS 混合架构证明脚本语言可用于高性能游戏自动化；Task 链式设计适合复杂 AI 行为编排；三模式网络架构(XKore/XKore2/XKoreProxy)展示灵活连接方案；纯 txt 配置数据驱动，无需修改代码即可改变 bot 行为

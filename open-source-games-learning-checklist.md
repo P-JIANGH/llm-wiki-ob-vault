@@ -174,7 +174,7 @@
 
 ### RTS — C&C Remastered
 - [2026-04-10] **Command & Conquer Remastered Collection** | `https://github.com/electronicarts/CnC_Remastered_Collection`
-- [ ] **C&C Generals + Zero Hour** | `https://github.com/electronicarts/CnC_Generals_Zero_Hour`
+- [2026-04-10] **C&C Generals + Zero Hour** | `https://github.com/electronicarts/CnC_Generals_Zero_Hour`
 - [ ] **Red Alert** | `https://github.com/electronicarts/CnC_Red_Alert`
 - [ ] **Tiberian Dawn** | `https://github.com/electronicarts/CnC_Tiberian_Dawn`
 
@@ -391,7 +391,8 @@
 || 93 | 2026-04-09 | Wyrmsun | 神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，~923MB 游戏内容仓库（含美术/音效/地图），双仓库架构（引擎 Wyrmgus + 内容 Wyrmsun），data/ 数据库系统（civilizations/units/heroes/items），modules/ 跨游戏内容集成（Battle for Wesnoth/0 A.D./Freeciv/DCSS），GPL 2.0 |
 || 94 | 2026-04-10 | Stargus | StarCraft 1998 资产导入 Stratagus 引擎适配器，startool MPQ 提取+多格式转换（GRP/CHK/CASC/SMACKER），~15K LOC C++17，GPLv2 ||
 ||| 95 | 2026-04-10 | Warsmash Mod Engine | LibGDX + Java17 ~97K LOC 多模块 Gradle 项目，JASS ANTLR 虚拟机（指令级栈帧解释器），MDX/M3 模型渲染（转录 mdx-m3-viewer），虚拟文件系统支持 MPQ/CASC 多种归档格式，INI 配置驱动，AGPL，支持 War3 Patch 1.22-1.32 ||
-||| 96 | 2026-04-10 | CnC Remastered Collection | EA 官方开源 C&C TD+RA 源码，.H 文件含~134+241个 C 源码(DEFINE.H 95KB/TYPE.H 62KB等)，双 DLLInterface.cpp 薄封装，C# WinForms 地图编辑器，保留 IPX 网络协议栈，GPL v3+附加条款 |
+| 96 | 2026-04-10 | CnC Remastered Collection | EA 官方 C&C TD+RA 源码，.H 文件含~134+241个 C 源码(DEFINE.H 95KB/TYPE.H 62KB等)，双 DLLInterface.cpp 薄封装，C# WinForms 地图编辑器，保留 IPX 网络协议栈，GPL v3+附加条款 |
+| 97 | 2026-04-10 | C&C Generals + Zero Hour | EA 官方源码双目录结构(Generals~1280cpp + GeneralsMD~1421cpp)，W3DDevice Westwood 3D渲染+DX9，GameSpy帧同步网络(FrameDataManager)，AI分层设计(AIPathfind/AIGroup/AISkirmishPlayer)，组件化对象系统(Behavior/Body/Collide/Locomotor)，需 MSVC 6.0 匹配编译，GPL v3+附加条款 |
 
 
 ---

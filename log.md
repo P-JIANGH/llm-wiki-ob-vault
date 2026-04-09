@@ -436,3 +436,8 @@
 - Created: open-source-game/cnc-remastered-collection.md (EA 官方开源 C&C TD+RA 源码，C+汇编+C# MapEditor，GPL v3)
 - Updated: index.md (新增 cnc-remastered-collection 条目，total pages: 71), open-source-games-learning-checklist.md (行176 checkbox, 学习记录96)
 - Clone: https://github.com/electronicarts/CnC_Remastered_Collection (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | C&C Generals + Zero Hour wiki note
+- Created: open-source-game/cnc-generals-zero-hour.md (EA 官方源码 Generals~1280cpp + GeneralsMD~1421cpp，W3DDevice+DX9，GameSpy帧同步，AI分层对象组件，MSVC 6.0)
+- Updated: index.md (新增 cnc-generals-zero-hour 条目，total pages: 72), open-source-games-learning-checklist.md (行177 checkbox, 学习记录97)
+- Clone: https://github.com/electronicarts/CnC_Generals_Zero_Hour (git clone --depth=1 成功)

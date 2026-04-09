@@ -115,7 +115,8 @@
 ||| [[open-source-game/openrct2]] — RollerCoaster Tycoon 2 开源重实现，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作 |
 - [[open-source-game/openrw]] — GTA III 清洁室重实现开源引擎，rwcore/rwengine/rwgame 模块化架构，OpenGL + Bullet Physics + SDL2，GPLv3，需原版游戏数据
 - [[open-source-game/openlara]] — 古墓丽影经典引擎开源重实现，多后端渲染架构（OpenGL/D3D8/D3D9/D3D11/Vulkan/Software），32 平台支持，固定点数学引擎，BSD 2-Clause
-||| [[open-source-game/openra]] — C# RTS 引擎，复刻 Westwood 经典（C&C/红警/沙丘2000），.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars，GPL-3.0 |
+- [[open-source-game/croftengine]] — Tomb Raider 1 引擎重制，v2.5.0，LGPLv3，支持幽灵竞速/合作/Glidos 纹理包，FFmpeg 视频解码，双渲染器架构(OpenGL+软件)，Boost+spdlog+FFmpeg 依赖栈
+|||| [[open-source-game/openra]] — C# RTS 引擎
 || [[open-source-game/openbw]] — StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ 架构（bwgame.h 22K行），确定性锁步网络 sync.h，BWAPI 兼容层 mini-openbwapi |
 || [[open-source-game/openkore]] — Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接（XKore/XKore2/XKoreProxy），txt 数据驱动配置，GPLv2 |
 - [[open-source-game/minosoft]] — Minecraft 客户端完全从零重写（Kotlin/Java ~27K LOC），三模块架构（Core/Eros/Rendering），支持 1.7-1.20.4 多版本协议，Netty 网络层，事件驱动渲染，zstd 资产压缩，GPLv3

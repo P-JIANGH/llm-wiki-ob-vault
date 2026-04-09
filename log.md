@@ -664,3 +664,9 @@
 - Updated: index.md (新增 openlara 条目), open-source-games-learning-checklist.md (行261 OpenLara checkbox, 学习记录 136), log.md
 - Clone: https://github.com/XProger/OpenLara (git clone --depth=1 成功)
 - Note: gapi/ 多后端渲染抽象层(gl/d3d8/d3d9/d3d11/vk/sw/gxm/gu/c3d)是跨平台游戏引擎标准模式；platform/ 32平台子目录隔离策略适合大型多主机适配；fixed/ 定点数引擎对确定性物理仿真有参考价值；collision.h 的 room 分割碰撞系统适合开放世界场景
+
+## [2026-04-10] ingest | CroftEngine Tomb Raider 1 引擎 wiki note
+- Created: open-source-game/croftengine.md
+- Updated: index.md (新增 croftengine 条目), open-source-games-learning-checklist.md (行261 CroftEngine checkbox, 学习记录 137), log.md
+- Clone: https://github.com/stohrendorf/CroftEngine (git clone --depth=1 成功)
+- Note: v2.5.0, 685 C++ 源文件, CMake 3.16+, LGPLv3; archive/loader/ 分层支持 TR1/TR2/TR3/TOMB4 四代存档; ghosting/ 幽灵录制系统可迁移任何竞速游戏; 双渲染器架构(OpenGL+软件)降级策略; Boost.Log/spdlog 日志系统基础设施; FFmpeg 视频解码用于过场动画; Glidos 纹理包支持体现内容/引擎分离设计

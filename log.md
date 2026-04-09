@@ -269,3 +269,7 @@
 ## [2026-04-09] ingest | Fish Folk: Jumpy 开源游戏 wiki note
 - Created: open-source-game/fish-folk-jumpy.md (战术 2D 射击游戏，Bevy/Rust + rapier2d 确定性物理，2-4 人本地/联机，bones_framework 游戏框架，v0.12.2)
 - Updated: index.md (total pages: 53), open-source-games-learning-checklist.md (行120 Fish Folk Jumpy checkbox, 学习记录58), log.md
+
+## [2026-04-09] ingest | Commander-Genius wiki note
+- Created: open-source-game/commander-genius.md (Commander Keen 1-6+Dreams 开源解释器，C++完全重写[仅存0.02% CloneKeen代码]，SDL2+OpenGL，LUA Mod，多人4人支持，289 cpp+297 h，GsKit共享库，内置游戏下载器，Cosmos引擎submodule)
+- Updated: index.md (新增 commander-genius 条目, total pages: 54), open-source-games-learning-checklist.md (行122 Commander-Genius checkbox, 学习记录60), log.md

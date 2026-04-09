@@ -119,7 +119,7 @@
 - [2026-04-09] **Frogatto & Friends** — 动作冒险平台跳跃 | `https://github.com/frogatto/frogatto`
 - [2026-04-09] **Fish Folk: Jumpy** — 战术 2D 射击（Bevy） | `https://github.com/fishfolk/jumpy`
 - [2026-04-09] **Fish Folk: Punchy** — 2.5D 清版动作（Bevy） | `https://github.com/fishfolk/punchy`
-- [ ] **Commander-Genius** — Commander Keen 1-6 模拟器 | `https://gitlab.com/Dringgstein/Commander-Genius`
+- [2026-04-09] **Commander-Genius** — Commander Keen 1-6 模拟器 | `https://gitlab.com/Dringgstein/Commander-Genius`
 - [ ] **Omnispeak** — Keen Goodbye Galaxy 重实现 | `https://github.com/sulix/omnispeak`
 - [ ] **Commander Keen in Keen Dreams** | `https://github.com/keendreams/keen`
 
@@ -358,6 +358,7 @@
 | 57 | 2026-04-09 | Frogatto & Friends | Anura 引擎模块分离架构（引擎/内容独立仓库）；FFC 脚本数据驱动游戏逻辑；module.cfg 模块元数据+验证器；16 语言本地化；mana 能量系统；v5.1 模块格式需 engine 1.4+ |
 | 58 | 2026-04-09 | Fish Folk: Jumpy | Bevy/Rust 游戏框架 bones_framework；rapier2d 确定性物理(enhanced-determinism)；turborand 原子随机跨平台一致；模块化 src/core/ ui/ audio/ 子系统；serde_yaml+peg 数据驱动；Web WASM 支持 |
 | 59 | 2026-04-09 | Fish Folk: Punchy | Bevy 0.9 + Rapier2D 物理 2.5D 清版动作，fighter_state.rs 2228 行状态机，15+ 插件体系，支持 WASM/Web |
+| 60 | 2026-04-09 | Commander-Genius | Commander Keen 1-6+Dreams 开源解释器，C++完全重写（仅存0.02% CloneKeen代码），SDL2+OpenGL，LUA Mod，4人多人，289 cpp+297 h，GsKit共享库，内置游戏下载器，Cosmos引擎submodule |
 | 1 | 2026-04-08 | Hypersomnia |
 
 ---

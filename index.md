@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total pages: 86
+|> Last updated: 2026-04-10 | Total pages: 87
 
 ## AI / LLM / Agent
 
@@ -114,6 +114,7 @@
 || [[open-source-game/openra]] — C# RTS 引擎，复刻 Westwood 经典（C&C/红警/沙丘2000），.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars，GPL-3.0 |
 || [[open-source-game/openbw]] — StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ 架构（bwgame.h 22K行），确定性锁步网络 sync.h，BWAPI 兼容层 mini-openbwapi |
 || [[open-source-game/openkore]] — Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接（XKore/XKore2/XKoreProxy），txt 数据驱动配置，GPLv2 |
+- [[open-source-game/minosoft]] — Minecraft 客户端完全从零重写（Kotlin/Java ~27K LOC），三模块架构（Core/Eros/Rendering），支持 1.7-1.20.4 多版本协议，Netty 网络层，事件驱动渲染，zstd 资产压缩，GPLv3
 - [[open-source-game/openko]] — Knight Online (1298/9) 清洁室逆向开源复刻，双端分离架构（Client DirectX9 + Server 跨平台 CMake），~265K LOC C++，多进程服务器(AIServer/Ebenezer/Aujard/ItemManager)，自定义二进制网络协议(LZF压缩+JvCryption加密)，学术目的，早期开发
 | [[open-source-game/openloco]] — Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，运输帝国经营模拟 |
 | [[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑 |

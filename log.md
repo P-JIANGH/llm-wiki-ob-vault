@@ -621,3 +621,9 @@
 - Updated: index.md (新增 openkore 条目，total pages: 85), open-source-games-learning-checklist.md (行233 OpenKore checkbox, 学习记录 128), log.md
 - Clone: https://github.com/OpenKore/openkore (git clone --depth=1 成功，299MB 含大量游戏数据)
 - Note: Perl + C XS 混合架构证明脚本语言可用于高性能游戏自动化；Task 链式设计适合复杂 AI 行为编排；三模式网络架构(XKore/XKore2/XKoreProxy)展示灵活连接方案；纯 txt 配置数据驱动，无需修改代码即可改变 bot 行为
+
+## [2026-04-10] ingest | Minosoft wiki note
+- Created: open-source-game/minosoft.md (Minecraft 客户端从零重写，Kotlin/Java ~27K LOC，三模块架构 Core/Eros/Rendering，Netty 网络层支持 1.7-1.20.4 多版本协议，事件驱动渲染，Headless 模式，GPLv3)
+- Updated: index.md (新增 minosoft 条目，total pages: 87), open-source-games-learning-checklist.md (行239 Minosoft checkbox, 学习记录 130), log.md
+- Clone: https://github.com/bixilon/minosoft (git clone --depth=1 成功)
+- Note: 三模块完全解耦（Core无依赖/Eros用MVC/Rendering仅依赖Core）是清洁室重实现的标准架构模式；Netty+手动Buffer读取兼顾性能和多版本兼容；PixLyzer按需下载+ zstd压缩是大型游戏资产管线的好方案；事件驱动渲染使渲染完全独立于GUI

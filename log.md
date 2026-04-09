@@ -223,3 +223,7 @@
 ## [2026-04-09] ingest | NakedAVP 开源游戏 wiki note
 - Created: open-source-game/nakedavp.md (Aliens vs Predator Classic 2000 SDL3 端口，双渲染器自动降级（OpenGL/GLES2），Win API 抽象层，三族独立 AI/武器/HUD，约 45K LOC C/C++)
 - Updated: index.md (total pages: 49), open-source-games-learning-checklist.md (行104 checkbox, 学习记录51), log.md
+
+## [2026-04-09] ingest | Surreal Engine 开源游戏 wiki note
+- Created: open-source-game/surreal-engine.md (Unreal Engine 1 清洁室重实现，D3D11+Vulkan 双渲染器，~99K LOC C++，SHA1DB 多游戏识别，Engine/Editor/Debugger 三应用入口，Unrealscript VM 部分实现（缺网络），仅 UT436/UnrealGold 可玩)
+- Updated: index.md (total pages: 49), open-source-games-learning-checklist.md (行107 checkbox, 学习记录52), log.md

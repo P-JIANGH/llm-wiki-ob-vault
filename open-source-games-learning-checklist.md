@@ -104,7 +104,7 @@
 - [2026-04-09] **NakedAVP** — AVP Classic 现代端口，SDL3 | `https://github.com/atsb/NakedAVP`
 
 ### Unreal Tournament
-- [ ] **Surreal Engine** — UT Engine 重实现 | `https://github.com/dpjudas/SurrealEngine`
+- [2026-04-09] **Surreal Engine** — UT Engine 重实现 | `https://github.com/dpjudas/SurrealEngine`
 
 ---
 
@@ -297,6 +297,8 @@
 
 | # | 日期 | 项目名 | 关键发现 |
 |---|------|--------|---------|
+| 51 | 2026-04-09 | NakedAVP | 三族 SDL3 现代端口，双渲染器降级(OpenGL/GLES2)，Win API 抽象层，atsb 主导，约45K LOC C/C++ |
+| 52 | 2026-04-09 | Surreal Engine | UE1 清洁室重实现，SHA1DB多游戏识别，D3D11+Vulkan双渲染器（无OpenGL），~99K LOC C++，三应用入口(Engine/Editor/Debugger)，Unrealscript VM 部分实现（缺网络），仅 UT436/UnrealGold 可玩 |
 | 1 | 2026-04-08 | Hypersomnia | 纯 C++ 无引擎、确定性锁步网络、自定义 ECS、ImGui 地图编辑器、浮点一致性处理 |
 | 2 | 2026-04-08 | Endless Sky | 纯 C++20 无引擎、数据驱动 txt 内容系统、OpenGL3+自研 Shader、vcpkg 轻量依赖、mod 友好 |
 | 3 | 2026-04-08 | Pioneer | 程序化银河生成、数百万恒星系统、派系经济、Lua脚本、OpenGL渲染

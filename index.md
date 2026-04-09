@@ -35,6 +35,7 @@
 >[[open-source-game/chocolate-doom]] — 精准还原 DOS Doom（含 bug）的开源源码端口，SDL2 跨平台，支持 Heretic/Hexen/Strife，GPL
 >[[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构（Ninja构建）
 >[[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+
+>[[open-source-game/surreal-engine]] — Unreal Engine 1 清洁室重实现，C++20/D3D11+Vulkan 双渲染器，~99K LOC，支持 Unreal/UT99，仅双人可用
 >[[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗
 >[[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C 代码，SNES 仿真层+逐帧 RAM 验证
 >[[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，静态类型 GDScript，Autoload 单例全局状态，Menu/HUD 双主题系统

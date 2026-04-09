@@ -513,3 +513,9 @@
 - Updated: index.md (新增 space-station-14 条目), open-source-games-learning-checklist.md (行204 Space Station 14 checkbox, 学习记录111), log.md
 - Clone: https://github.com/space-wizards/space-station-14 (git clone/tarball/zipball 均超时/卡死；repo 大小 893MB；通过 GitHub API tree + README.md web extract 完成分析)
 - Note: SS14 是 SS13 的现代 C# 重写版，引擎 Robust Toolbox（Lidgren UDP + NetSerializer + Avalonia XAML UI），Content.Client/Server/Shared 三模块架构，7591 C# + 2573 YAML 原型文件，NPC AI 系统（183 文件）最大子系统；游戏资产 MIT+CC-BY-SA 双许可
+
+## [2026-04-10] ingest | Naev wiki note
+- Created: open-source-game/naev.md (2D 太空贸易战斗 RPG，Escape Velocity 风格，C+Rust ~155K LOC + Meson 构建，SDL3+OpenGL 3.3+，Lua 脚本驱动，插件系统，GPLv3，Codeberg)
+- Updated: index.md (新增 naev 条目，total pages: 78), open-source-games-learning-checklist.md (行206 Naev checkbox, 学习记录 112), log.md
+- Clone: https://codeberg.org/naev/naev (git clone --depth=1 成功)
+- Note: C+Rust 混合架构（C 主体 + Rust faction.rs/pilot.rs 等），Meson 构建支持 C11+Rust 2024 双语言；bindgen 0.72 生成 FFI；naev-artwork 作为 submodule 独立管理；严格 AI 禁止政策；gettext 国际化 + Weblate；插件系统 v0.13.0 内置 Manager；pilot/faction/economy/mission/space/event 子系统模块化设计

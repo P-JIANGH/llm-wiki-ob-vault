@@ -203,7 +203,7 @@
 - [2026-04-10] **Veloren** — Rust 体素多人 RPG | `https://github.com/veloren/veloren`
 - [2026-04-10] **Space Station 14** — Space Station 13 开源复刻（C# 自研引擎 Robust Toolbox） | `https://github.com/space-wizards/space-station-14`
 - [2026-04-09] **Kandria** — Common Lisp 动作 RPG | `https://codeberg.org/shirakumo/kandria`
-- [ ] **Naev** — 2D 太空动作/RPG | `https://codeberg.org/naev/naev`
+- [2026-04-10] **Naev** — 2D 太空动作/RPG | `https://codeberg.org/naev/naev`
 - [ ] **Oolite** — 太空开放世界 opera | `https://github.com/OoliteProject/oolite`
 - [ ] **Ambermoon.net** — Ambermoon C# 完全重写 | `https://github.com/Pyrdacor/Ambermoon.net`
 
@@ -406,7 +406,8 @@
 ||| 108 | 2026-04-10 | OpenMW | Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，OMW::Engine 总线聚合所有子系统，完整工具链(opencs/bsatool/esmtool/navmeshtool)，~2768源文件~55K LOC，GPLv3，v0.51.0 |
 ||| 109 | 2026-04-10 | Daggerfall Unity | Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect Arena2 资产读取，AudioSynthesis 全自研 MIDI/SF2/Sfz 合成，QuestMachine QRC 任务系统，TalkManager NPC 对话 AI（3736 行），SaveLoadManager FullSerializer 存档，ModManager 模组支持，MIT |
 || 110 | 2026-04-10 | Veloren | Rust 体素多人 RPG，400K LOC，24 crates workspace，ECS (specs) + QUIC 网络 + 自研体素渲染器，GPLv3，~16K commits；GitLab 主仓库（GitHub 镜像） |
-|| 111 | 2026-04-10 | Space Station 14 | SS13 C# 重制版，Robust Toolbox 自研引擎（Lidgren UDP + NetSerializer + Avalonia UI），Entity-Component 系统，YAML 原型数据驱动（7591 C# + 2573 YAML），MIT+CC-BY-SA，3.6k stars，5.2k forks |
+||| 111 | 2026-04-10 | Space Station 14 | SS13 C# 重制版，Robust Toolbox 自研引擎（Lidgren UDP + NetSerializer + Avalonia UI），Entity-Component 系统，YAML 原型数据驱动（7591 C# + 2573 YAML），MIT+CC-BY-SA，3.6k stars，5.2k forks |
+||| 112 | 2026-04-10 | Naev | 2D 太空贸易战斗 RPG，Escape Velocity 风格，C+Rust ~155K LOC + Meson 构建，SDL3+OpenGL 3.3+，Lua 脚本驱动，插件系统（v0.13.0 内置 Plugin Manager），派系/经济/任务子系统，GPLv3，Codeberg |
 
 ---
 

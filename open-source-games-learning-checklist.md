@@ -186,7 +186,7 @@
 ## Roguelikes (7)
 
 - [2026-04-10] **Dungeon Crawl Stone Soup** — 经典 Roguelike，地下城探索 | `https://github.com/crawl/crawl`
-- [ ] **Cataclysm: Dark Days Ahead** — 后世界末日生存 | `https://github.com/CleverRaven/Cataclysm-DDA`
+- [2026-04-10] **Cataclysm: Dark Days Ahead** — 后世界末日生存 | `https://github.com/CleverRaven/Cataclysm-DDA`
 - [ ] **NetHack** — 经典地下城探索 | `https://github.com/NetHack/NetHack`
 - [ ] **Brogue CE** — 极简主义随机地下城 | `https://github.com/tmewett/BrogueCE`
 - [ ] **Shattered Pixel Dungeon** — 像素随机地下城 | `https://github.com/00Evan/shattered-pixel-dungeon`
@@ -397,6 +397,7 @@
 | 99 | 2026-04-10 | Zero-K | Spring 引擎纯 Lua 游戏内容仓库(2383 Lua文件)，GadgetHandler 模块化事件驱动架构(ai_CAI 4173行)，物理弹道+智能单位预判，PlanetWars 单机战役，PBR 自定义 Shader API，GPL v2 |
 | 100 | 2026-04-10 | Dungeon Crawl Stone Soup | ~412K LOC C++ 双模式渲染(ASCII+SDL Tiles)，.des Vault 手绘关卡系统，17+ 神祇契约系统，数据驱动游戏配置，GPLv2+ 20年迭代 |
 | 101 | 2026-04-10 | CnC Tiberian Dawn | 原版1995 Westwood源码，OOP类层次(Foot/Unit/Building/AircraftClass)，COMBUF ACK/Retry网络(6人IPX)，TypeClass数据驱动，DirectX Win95，GPLv3，1629KB纯源码 |
+| 102 | 2026-04-10 | Cataclysm: Dark Days Ahead | 480K LOC C++ (434cpp/457h)，JSON数据驱动(~130K行JSON内容)，双渲染器SDL2/Tiles+Ncurses，Character/NPC/Vehicle/Mutation系统，~242MB仓库含游戏数据，CC BY-SA 3.0 |
 
 
 ---

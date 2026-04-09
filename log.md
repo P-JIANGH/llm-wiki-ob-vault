@@ -459,5 +459,10 @@
 
 ## [2026-04-10] ingest | CnC Tiberian Dawn wiki note
 - Created: open-source-game/cnc-tiberian-dawn.md (EA 官方 C&C 原版(1995)源码，Watcom C+++x86 汇编，OOP 类层次 FootClass/UnitClass/BuildingClass/AircraftClass，COMBUF ACK/Retry 网络系统，IPX/Modem 多人大战雾，DirectX Win95 移植，GPLv3)
-- Updated: index.md (新增 cnc-tiberian-dawn 条目，total pages: 71), open-source-games-learning-checklist.md (行179 Tiberian Dawn checkbox, 学习记录101)
+- Updated: index.md (新增 cnc-tiberian-dawn 条目，total pages: 72), open-source-games-learning-checklist.md (行179 Tiberian Dawn checkbox, 学习记录101)
 - Clone: https://github.com/electronicarts/CnC_Tiberian_Dawn (git clone/tarball 均超时；通过 GitHub API tree + raw content 端点获取 ~150 文件结构完成分析)
+
+## [2026-04-10] ingest | Cataclysm: Dark Days Ahead wiki note
+- Created: open-source-game/cataclysm-dark-days-ahead.md (480K LOC C++ (434cpp/457h)，JSON数据驱动~130K行JSON内容，双渲染器 SDL2/Tiles+Ncurses，Character/NPC/Vehicle/Mutation 系统，~242MB仓库含游戏数据，CC BY-SA 3.0，16.2k stars)
+- Updated: index.md (新增 cataclysm-dark-days-ahead 条目，total pages: 72), open-source-games-learning-checklist.md (行189 Cataclysm checkbox, 学习记录102)
+- Clone: https://github.com/CleverRaven/Cataclysm-DDA (git clone --depth=1 成功，242MB 仓库含游戏数据)

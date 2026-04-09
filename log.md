@@ -354,3 +354,8 @@
 - Created: open-source-game/widelands.md (Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链（economy/50+文件），帧同步多人 GameHost/GameClient 架构)
 - Updated: index.md (新增 widelands 条目，total pages: 64), open-source-games-learning-checklist.md (行157 Widelands checkbox, 学习记录76), log.md
 - Clone: https://github.com/widelands/widelands (depth=1 成功，约25155文件)
+
+## [2026-04-09] ingest | Mindustry wiki note
+- Created: open-source-game/mindustry.md (自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人，27.1k stars)
+- Updated: index.md (新增 mindustry 条目), open-source-games-learning-checklist.md (行158 Mindustry checkbox, 学习记录77), log.md
+- Clone: https://github.com/Anuken/Mindustry (API tarball via web_extract 成功，因 git clone 超时，改用 raw.githubusercontent.com 获取源码分析)

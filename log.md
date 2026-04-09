@@ -406,3 +406,8 @@
 - Created: open-source-game/permafrost-engine.md (OpenGL 3.3 RTS 游戏引擎，纯 C + Python 2.7 脚本，GPU 骨骼动画+分层流场寻路+Fiber 协作多任务，旗舰游戏 EVERGLORY，2739 stars)
 - Updated: index.md (新增 permafrost-engine 条目，total pages: 65), open-source-games-learning-checklist.md (行164 checkbox)
 - Clone: https://github.com/eduard-permyakov/permafrost-engine (git clone 超时；仓库 ~320MB，GitHub API 获取结构和 README 完成分析)
+
+## [2026-04-10] ingest | War1gus wiki note
+- Created: open-source-game/war1gus.md (Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大，GPLv2)
+- Updated: index.md (新增 war1gus 条目), open-source-games-learning-checklist.md (行169 checkbox, 学习记录91)
+- Clone: https://github.com/Wargus/war1gus (git clone --depth=1 成功)

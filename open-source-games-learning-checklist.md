@@ -191,7 +191,7 @@
 - [2026-04-10] **Brogue CE** — 极简主义随机地下城 | `https://github.com/tmewett/BrogueCE`
 - [2026-04-10] **Shattered Pixel Dungeon** — 像素随机地下城 | `https://github.com/00-Evan/shattered-pixel-dungeon`
 - [2026-04-10] **OpenNefia** — Elona 模组化引擎复刻 | `https://github.com/OpenNefia/OpenNefia`
-- [ ] **Meritous** — 动作冒险地下城 | `https://github.com/Patashu/Meritous`
+- [2026-04-10] **Meritous** — 动作冒险地下城 | `https://github.com/Patashu/Meritous`
 
 ---
 
@@ -401,7 +401,8 @@
 || 103 | 2026-04-10 | NetHack | 纯C无引擎架构(~163MB仓库)，src/核心+dat/Lua地牢生成(14职业)+win/多前端抽象+sys/跨平台；3.7改进：Lua编译替代yacc/lex，跨平台编译，可移植存档，ga-gz变量结构化，18,442 commits，3,536 stars |
 ||| 104 | 2026-04-10 | BrogueCE | 纯C极简Roguelike，22个.c核心模块(C99无引擎依赖)，src/brogue/主体+src/platform/多后端(SDL2/curses/web)，Dijkstra怪物寻路(Dijkstra.c)，确定性游戏回放系统(Recordings.c)，SeedCatalog种子驱动地牢生成，1.3k stars |
 ||| 105 | 2026-04-10 | Shattered Pixel Dungeon | libGDX 跨平台 Roguelike（Desktop/Android/iOS），Java/JDK 21，core/1743项共享逻辑+平台启动器分离，Actors/Items/Levels/Sprites/Tiles/UI 模块化架构，20+ 语言 i18n properties 系统，程序化关卡生成 5 区域，天赋树系统，6k stars，GPLv3 |
-||| 106 | 2026-04-10 | OpenNefia | Elona 模组化引擎复刻，.NET 8.0 + Love2dCS 渲染，Core/Content/EntryPoint 三层架构，Harmony 运行时补丁 + NuGet Mod 加载，2058 C# + 436 Lua 文件，IoC 依赖注入，YAML 原型数据驱动 |
+| 106 | 2026-04-10 | OpenNefia | .NET 8.0 + Love2dCS 渲染，Core/Content/EntryPoint 三层架构，Harmony 运行时补丁 + NuGet Mod 加载，2058 C# + 436 Lua 文件，IoC 依赖注入，YAML 原型数据驱动 |
+| 107 | 2026-04-10 | Meritous | PSI 充能攻击动作地牢探索，纯 C ~10K LOC（demon.c 2613+levelblit.c 2646+boss.c 1829），SDL 2D Tile，程序化 mapgen.c 972 行，GPLv3 |
 
 ---|
 

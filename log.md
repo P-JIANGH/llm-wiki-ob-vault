@@ -486,3 +486,8 @@
 - Created: open-source-game/nethack.md (纯 C 无引擎架构，163MB仓库，18,442 commits，3,536 stars；src/ 核心游戏逻辑，dat/ Lua 地牢脚本（14职业），win/ Qt/X11/tty/curses 多前端抽象，sys/ 跨平台抽象；3.7 架构：Lua 替代 yacc/lex 编译，跨平台编译支持，可移植存档，Play Again 无退出重开)
 - Updated: index.md (新增 nethack 条目，total pages: 73), open-source-games-learning-checklist.md (行190 NetHack checkbox, 学习记录103)
 - Clone: https://github.com/NetHack/NetHack (git clone 超时；通过 GitHub API 获取源码结构信息完成分析)
+
+## [2026-04-10] ingest | Meritous wiki note
+- Created: open-source-game/meritous.md (PSI 充能攻击动作地牢探索，纯 C ~10K LOC，SDL 2D Tile，程序化地牢生成 mapgen.c 972 行，boss.c 1829 行，demon.c 2613 行，levelblit.c 2646 行，GPLv3)
+- Updated: index.md (新增 meritous 条目), open-source-games-learning-checklist.md (Meritous checkbox 行194, 学习记录107)
+- Clone: https://github.com/Patashu/Meritous (git clone --depth=1 成功)

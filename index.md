@@ -64,6 +64,7 @@
 - [[open-source-game/avp-forever]] — Aliens versus Predator (1999) 源码维护项目，多分支 rebasing 策略叠加 icculus/neuromancer/scraft 等源码，SDL/Linux 移植，需原版游戏数据
 - [[open-source-game/nakedavp]] — Aliens vs Predator Classic (2000) SDL3 现代化端口，双渲染器自动降级（OpenGL/GLES2），Win API 抽象层，atsb 主导维护，三族独立 AI/武器/HUD，约 45K LOC C/C++
 - [[open-source-game/the-dark-mod]] — Doom 3/id Tech 4 引擎潜行 FPS，AAS 区域感知+AI 通信子系统+Memory 系统，170+ 社区任务，源码 GPL+资产 CC BY-NC-SA 3.0 双许可
+- [[open-source-game/super-mario-64]] — N64 经典 3D 平台跳跃完整反编译源码，2746 C 文件，支持 jp/us/eu/sh/cn 多版本构建，GPLv2
 
 ## Concepts
 

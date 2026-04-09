@@ -5,6 +5,11 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | wipEout Rewrite wiki note
+- Created: open-source-game/wipeout-rewrite.md (wipEout 1995 PSX 清洁室重实现，纯 C 双平台后端 SDL2/Sokol + 三渲染器架构 GL/GLES2/Software，~4000 LOC)
+- Updated: index.md (新增 wipeout-rewrite 条目，total pages: 61), open-source-games-learning-checklist.md (行147 wipEout checkbox, 学习记录72), log.md
+- Skip: Trigger Rally (sourceforge git 不可访问)
+
 ## [2026-04-09] ingest | RVGL 开源赛车游戏 wiki note
 - Created: open-source-game/rvgl.md (Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心引擎私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人)
 - Updated: index.md (新增 rvgl 条目，total pages: 60), open-source-games-learning-checklist.md (行143 RVGL checkbox, 学习记录70), log.md

@@ -144,7 +144,7 @@
 - [2026-04-09] **VDrift** — 漂移赛车模拟 | `https://github.com/VDrift/vdrift`
 - [2026-04-09] **Yorg** — TrackMania 风格开源赛车（Panda3D） | `https://github.com/cflavio/yorg`
 - [ ] **Trigger Rally** | `https://sourceforge.net/projects/trigger-rally`
-- [ ] **wipEout** — Wipeout 1995 PSX 重实现 | `https://github.com/phoboslab/wipeout-rewrite`
+- [2026-04-09] **wipEout** — Wipeout 1995 PSX 重实现 | `https://github.com/phoboslab/wipeout-rewrite`
 
 ---
 
@@ -370,6 +370,7 @@
 | 69 | 2026-04-09 | Stunt Rally 3 | Ogre-Next 3.0 渲染+VDrift 仿真，模块化架构(common/game/editor/road/vdrift)，3D spline 赛道+内置编辑器，232 赛道+33 载具，Ghost 回放系统，GPLv3 |
 | 70 | 2026-04-09 | RVGL | Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan 可编程 Shader 渲染；核心引擎私有(gk7huki持有)，工具链/资产/文档完全开源；ENet UDP 16人多人+Discord Rich Presence；Pack 内容管理系统(Mod Organizer 风格)；多平台支持 Win/Linux/macOS/Android |
 | 71 | 2026-04-09 | Yorg | TrackMania 风格赛车，Panda3D 引擎 + Python 3.x，yyagl/yracing 子模块分离架构，XMPP 多人对战，phys.json 数据驱动车辆物理，多语言国际化 |
+| 72 | 2026-04-09 | wipEout | wipEout 1995 PSX 清洁室重实现，纯 C ~4000 LOC，双平台后端(SDL2/Sokol) + 三渲染器(GL/GLES2/Software)，QOA 音频格式 |
 
 ---
 

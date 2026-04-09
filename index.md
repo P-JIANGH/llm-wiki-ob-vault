@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-09 | Total pages: 60
+|> Last updated: 2026-04-09 | Total pages: 61
 
 ## AI / LLM / Agent
 
@@ -108,6 +108,8 @@
 | [[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/Roguelike/城市建造等），含源码链接 |
 
 - [[open-source-game/vdrift]] — 开源漂移赛车模拟器，Bullet 物理 + SDL3
+- [[open-source-game/wipeout-rewrite]] — wipEout (1995 PSX) 清洁室重实现，纯 C 双平台后端(SDL2/Sokol) + 三渲染器架构
+
 ## Comparisons
 
 | [[godot-vs-unity-unreal]] — Godot vs Unity vs Unreal：许可/2D/3D/选型指南 |

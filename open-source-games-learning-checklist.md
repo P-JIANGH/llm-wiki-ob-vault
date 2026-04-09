@@ -156,7 +156,7 @@
 - [2026-04-09] **Warzone 2100** — 3D RTS，剧情战役 | `https://github.com/Warzone2100/warzone2100`
 - [2026-04-09] **Widelands** — 开源实时策略 | `https://github.com/widelands/widelands`
 - [2026-04-09] **Mindustry** — 沙盒塔防 | `https://github.com/Anuken/Mindustry`
-- [ ] **OpenAge** — Age of Empires 引擎复刻 | `https://github.com/SFTtech/openage`
+- [2026-04-09] **OpenAge** — Age of Empires 引擎复刻 | `https://github.com/SFTtech/openage`
 - [ ] **OpenHV** — 像素 Sci-Fi RTS | `https://github.com/OpenHV/OpenHV`
 - [ ] **Keeper FX** — Dungeon Keeper 开源复刻 | `https://github.com/dkfans/keeperfx`
 - [ ] **Dune II The Maker** — Dune 2 重制 | `https://github.com/stefanhendriks/Dune-II---The-Maker`
@@ -376,8 +376,9 @@
 | 74 | 2026-04-09 | Beyond All Reason | Spring/Recoil 引擎 RTS，4.3GB仓库（含资源），Lua三层架构(luarules同步/luaui不同步/luaai)，BARb AI JSON配置分层设计，GL4着色器延迟光照，Busted+Lux测试，Lux包管理器 |
 | 75 | 2026-04-09 | Warzone 2100 | 3D RTS，157K LOC C++，三后端渲染(OpenGL/Vulkan/GLES)，gamelib/framework/ivis_opengl模块化架构，400+科技树，lib/netplay帧同步多人，WebAssembly支持 |
 | 76 | 2026-04-09 | Widelands | Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链（economy/50+文件），帧同步多人 GameHost/GameClient 架构 |
-|| 77 | 2026-04-09 | Mindustry | 自动化塔防 RTS，Arc Engine 自研 2D 引擎 + @Component 代码生成 ECS + @Sync 帧同步多人，20K+ commits，27.1k stars，JDK 17 + Gradle 多模块 (core/desktop/server/android/ios) |
-|| 78 | 2026-04-09 | Trigger Rally | C++ 拉力赛车，PEngine/PSim/Trigger 三层架构分离（渲染/物理/游戏逻辑），PReferenceFrame+PRigidBody 刚体物理+悬挂系统，程序化高度图地形生成，Ghost 回放系统，GPL v2，v0.6.6.1（2019）|
+| 77 | 2026-04-09 | Mindustry | 自动化塔防 RTS，Arc Engine 自研 2D 引擎 + @Component 代码生成 ECS + @Sync 帧同步多人，20K+ commits，27.1k stars，JDK 17 + Gradle 多模块 (core/desktop/server/android/ios) |
+| 78 | 2026-04-09 | Trigger Rally | C++ 拉力赛车，PEngine/PSim/Trigger 三层架构分离（渲染/物理/游戏逻辑），PReferenceFrame+PRigidBody 刚体物理+悬挂系统，程序化高度图地形生成，Ghost 回放系统，GPL v2，v0.6.6.1（2019）|
+| 79 | 2026-04-09 | OpenAge | Age of Empires 引擎复刻，C++20+Python3 双语言架构（Cython 绑定），827 C++/h + 291 Python，33 子系统模块(libopenage/)，nyan 声明式内容配置格式，Qt6 GUI + OpenGL 渲染，gameplay 非功能状态（内部模拟重写中），GPLv3 |
 
 ---
 

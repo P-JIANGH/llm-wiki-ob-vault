@@ -364,3 +364,8 @@
 - Created: open-source-game/trigger-rally.md (纯 C++ 拉力赛车，PEngine/PSim/Trigger 三层架构，程序化地形)
 - Updated: index.md (新增 trigger-rally 条目), open-source-games-learning-checklist.md (行146 Trigger Rally checkbox, 学习记录78)
 - Clone: https://sourceforge.net/projects/trigger-rally (SVN 仓库，git clone 超时，改用 GitHub mirror Cebion/trigger-rally_pm + web_extract 源码分析)
+
+## [2026-04-09] ingest | OpenAge wiki note
+- Created: open-source-game/openage.md (Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，827 C++/h + 291 Python 文件)
+- Updated: index.md (新增 openage 条目), open-source-games-learning-checklist.md (行159 OpenAge checkbox)
+- Clone: https://github.com/SFTtech/openage (git clone --depth=1 成功)

@@ -37,6 +37,7 @@
 ## Open Source Games
 
 - [[open-source-game/mindustry]] — 自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人
+- [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，GPLv3
 
 | [[open-source-game/commander-keen-in-keen-dreams]] — Commander Keen Episode 4 源码
 | [[open-source-game/doom]] — id Software 经典 FPS，1997年 Carmack 开源，BSP 树渲染，GPLv2，约 54K LOC C |

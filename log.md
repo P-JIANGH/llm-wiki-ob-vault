@@ -383,3 +383,8 @@
 - Created: open-source-game/keeper-fx.md (Dungeon Keeper 开源增强版，Ariadne A*寻路+lua脚本+ENet多人，~235K LOC C/C++，GPLv2)
 - Updated: index.md (新增 keeper-fx 条目), open-source-games-learning-checklist.md (行161 Keeper FX checkbox, 学习记录85)
 - Clone: https://github.com/dkfans/keeperfx (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Dune II The Maker wiki note
+- Created: open-source-game/dune-ii-the-maker.md (C++23 Dune II 重制，SDL2 全家桶，三速 tick 游戏循环，cGameState 状态机，cPlayerBrain Mission 队列 AI)
+- Updated: index.md (新增 dune-ii-the-maker 条目), open-source-games-learning-checklist.md (行162 checkbox, 学习记录86)
+- Clone: https://github.com/stefanhendriks/Dune-II---The-Maker (git clone --depth=1 成功)

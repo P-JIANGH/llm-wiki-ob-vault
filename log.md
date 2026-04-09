@@ -28,6 +28,10 @@
 - Created: open-source-game/rvgl.md (Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心引擎私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人)
 - Updated: index.md (新增 rvgl 条目，total pages: 60), open-source-games-learning-checklist.md (行143 RVGL checkbox, 学习记录70), log.md
 
+## [2026-04-10] ingest | Standard Of Iron 布匿战争 RTS wiki note
+- Created: open-source-game/standard-of-iron.md (C++20/Qt6/OpenGL 3.3 布匿战争历史 RTS，ECS 架构，骨骼动画+布料物理，MIT)
+- Updated: index.md (新增 standard-of-iron 条目), open-source-games-learning-checklist.md (行165 Standard Of Iron checkbox, 学习记录89), log.md
+
 ## [2026-04-09] ingest | Stunt Rally 3 开源赛车游戏 wiki note
 - Created: open-source-game/stunt-rally-3.md (3D 科幻赛车，Ogre-Next 3.0 渲染+VDrift 仿真，232 赛道+33 载具，GPLv3)
 - Updated: index.md (新增 stunt-rally-3 条目，total pages: 59), open-source-games-learning-checklist.md (行142 Stunt Rally checkbox, 学习记录69), log.md

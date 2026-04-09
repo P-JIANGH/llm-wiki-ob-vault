@@ -591,3 +591,9 @@
 - Updated: index.md (新增 devilutionx 条目，total pages: 81), open-source-games-learning-checklist.md (行226 DevilutionX checkbox, 学习记录 124), log.md
 - Clone: https://github.com/diasurgical/devilutionX (git clone --depth=1 成功)
 - Note: 清洁室重实现需用户提供原始 MPQ 数据文件；dvlnet/ 帧同步网络支持 ZeroTier 穿透和多平台 TCP P2P；engine/ 子目录 4K+ LOC 处理 sprite 加载（CEL/CL2/CLX 专有格式）和渲染；levels/ 的 drlg_l1~4.cpp 程序化地下城生成设计精巧；Lua REPL 嵌入提供运行时脚本扩展能力
+
+## [2026-04-10] ingest | Freeablo wiki note
+- Created: open-source-game/freeablo.md (Diablo 1 引擎清洁室重实现，双线程架构（渲染/逻辑分离），确定性锁步网络，Nuklear GUI，~38K LOC C++17，**已归档**，MIT)
+- Updated: index.md (新增 freeablo 条目，total pages: 82), open-source-games-learning-checklist.md (行227 Freeablo checkbox, 学习记录 125), log.md
+- Clone: https://github.com/wheybags/freeablo (git clone --depth=1 成功)
+- Note: 项目已归档(2020年)；双线程架构(渲染/逻辑分离)保证模拟速度独立性；确定性锁步网络(禁用浮点数+定点数数学)；StormLib 读取原版 MPQ 数据；Nuklear GUI 替代 librocket；依赖管理从 Hunter 切换到完全内嵌

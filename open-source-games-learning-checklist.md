@@ -224,7 +224,7 @@
 
 ### Diablo 系列
 - [2026-04-10] **DevilutionX** — Diablo + Hellfire 端口 | `https://github.com/diasurgical/devilutionX`
-- [ ] **Freeablo** — Diablo I 引擎重制 | `https://github.com/wheybags/freeablo`
+- [2026-04-10] **Freeablo** — Diablo I 引擎重制 | `https://github.com/wheybags/freeablo`
 - [ ] **Open Diablo II** — Diablo 2 开源复刻 | `https://github.com/OpenDiablo2/OpenDiablo2`
 - [ ] **Abyss Engine** — Diablo 2 清洁室重实现 | `https://github.com/AbyssEngine/AbyssEngine`
 
@@ -420,6 +420,7 @@
 || 122 | 2026-04-10 | Severed Chains | PS1《龙骑士传说》逆向工程 Java 重实现；904 Java 文件三层架构(core/game/lodmod)；PS1 硬件仿真(GTE/GPU/SPU)；Scus94491BpeSegment 5 分段 (~1023 行)；Event-based 模组 API；Java 21 + LWJGL 3；需原版 ISO 运行时提取资产 |
 | 123 | 2026-04-10 | U7 Revisited | Ultima VII 3D 重制引擎；Ghost(raylib 3D渲染)+Geist(Lua脚本)双引擎分离架构；~49.5K LOC C++(53 cpp + 56 h)；StateMachine 驱动游戏流程(Loading/Title/Main/Conversation等)；A* 寻路+terrain_walkable.csv 地形代价；Gump UI 系统(U7GumpBook/Paperdoll/Spellbook等)；Lua 替代原版 Usecode 脚本；Shape Editor 内置调试工具(F1)；8 阶段 Roadmap(0.1.0 Static World → 0.7.0 Serpent Isle 支持) |
 | 124 | 2026-04-10 | DevilutionX | Diablo + Hellfire 清洁室逆向开源端口；259 C++/163 H ~54K LOC engine/ (4K+ LOC 渲染/sprite) + levels/ drlg_l1~4 程序化地牢 + dvlnet/ 帧同步 P2P + Lua REPL 脚本扩展；CMake 17+ 平台 GitHub Actions CI；需原版 MPQ 游戏数据；MIT |
+| 125 | 2026-04-10 | Freeablo | Diablo 1 引擎清洁室重实现；双线程架构(渲染/逻辑分离)保证模拟速度独立；确定性锁步网络(禁用浮点+定点数数学保证确定性)；StormLib 读取原版 MPQ 数据文件；Nuklear GUI 替代 librocket；组件化设计(faudio/cel/diabloexe/faio/render/serial等)；项目已归档(2020年)；~38K LOC C++17 |
 
 ---
 

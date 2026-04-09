@@ -501,3 +501,9 @@
 - Created: open-source-game/daggerfall-unity.md (Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect Arena2 资产读取，MaterialReader/MeshReader/SoundReader 三件套，AudioSynthesis 全自研 MIDI/SF2/Sfz 合成，QuestMachine QRC 任务系统，TalkManager NPC 对话 AI（3736 行），SaveLoadManager FullSerializer 存档，ModManager 模组支持，MIT)
 - Updated: index.md (新增 daggerfall-unity 条目，total pages: 77), open-source-games-learning-checklist.md (行202 Daggerfall Unity checkbox, 学习记录 109)
 - Clone: https://github.com/Interkarma/daggerfall-unity (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Veloren wiki note
+- Created: open-source-game/veloren.md (Rust 体素多人 RPG，400K LOC，24 crates workspace，ECS specs + QUIC 网络 + 自研体素渲染器，GPLv3)
+- Updated: index.md (新增 veloren 条目，total pages: 77), open-source-games-learning-checklist.md (行203 Veloren checkbox, 学习记录 110)
+- Clone: https://gitlab.com/veloren/veloren (git clone --depth=1 成功，81MB；GitHub 镜像 clone/tarball/zipball 均超时，GitLab 主仓库 clone 成功)
+- Note: GitHub 是只读镜像，主开发在 GitLab；v0.18.0 使用 Rust 2024 edition；世界生成使用 no_overflow profile（禁 overflow-check 提升性能）

@@ -411,3 +411,8 @@
 - Created: open-source-game/war1gus.md (Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大，GPLv2)
 - Updated: index.md (新增 war1gus 条目), open-source-games-learning-checklist.md (行169 checkbox, 学习记录91)
 - Clone: https://github.com/Wargus/war1gus (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Wargus wiki note
+- Created: open-source-game/wargus.md (Warcraft II mod using the Stratagus engine，wartool 数据提取工具链（wartool.cpp 3432 LOC），StormLib MPQ 归档处理，GPLv2，v2.4.1)
+- Updated: index.md (新增 wargus 条目，total pages: 67), open-source-games-learning-checklist.md (行170 checkbox, 学习记录92)
+- Clone: https://github.com/Wargus/wargus (git clone --depth=1 成功)

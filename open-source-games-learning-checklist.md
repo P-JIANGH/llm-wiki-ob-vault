@@ -167,7 +167,7 @@
 ### RTS — Blizzard Re-Implementations
 - [2026-04-10] **OpenBW** — StarCraft: Brood War 开源 | `https://github.com/OpenBW/openbw`
 - [2026-04-10] **War1gus** — Warcraft: Orcs & Humans | `https://github.com/Wargus/war1gus`
-- [ ] **Wargus** — Warcraft II Tides of Darkness | `https://github.com/Wargus/wargus`
+- [2026-04-10] **Wargus** — Warcraft II Tides of Darkness | `https://github.com/Wargus/wargus`
 - [ ] **Wyrmsun** — 神话/历史/文学元素策略 | `https://github.com/Andrettin/Wyrmsun`
 - [ ] **Stargus** — StarCraft 导入器 | `https://github.com/Wargus/stargus`
 - [ ] **Warsmash Mod Engine** — Warcraft III 模组引擎（LibGDX） | `https://github.com/Retera/WarsmashModEngine`
@@ -387,7 +387,8 @@
 | 88 | 2026-04-10 | Permafrost Engine | OpenGL 3.3 RTS 引擎，纯 C；Python 2.7 脚本+Fiber 协作多任务；GPU 骨骼动画+姿态纹理批处理；分层流场寻路+boids+ClearPath 避障；Hungarian Algorithm 阵型重排；多线程 2-stage 管线(模拟/渲染)；Nuklear UI；旗舰游戏 EVERGLORY |
 | 89 | 2026-04-10 | Standard Of Iron | C++20/Qt6/OpenGL 3.3 布匿战争 RTS；ECS 架构（64-bit Entity ID，组件连续存储，System 执行顺序固定）；6 阶段渲染 Pass；骨骼动画+程序化布料物理（Wind+Leg Collision）；JSON 数据驱动（地图/兵种/国家配置）；miniaudio 空间音频；MIT |
 | 90 | 2026-04-10 | OpenBW | StarCraft: Brood War 核心引擎清洁室重实现；header-only C++ 架构（bwgame.h 22K行 + bwenums.h 2.2K + sync.h 1.1K 等 ~28K 总行数）；bwgame.h 单文件 798KB 含完整引擎（单位/建筑/寻路/碰撞/指令）；bwenums.h 228+ 种类单位枚举；sync.h 确定性锁步网络 + ASIO 三后端 TCP/local/socket；korean.h 韩文编码支持；mini-openbwapi BWAPI 兼容层 |
-| 91 | 2026-04-10 | War1gus | Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动（buildings.lua/ai.lua/balancing.lua 等），war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大算法，GPLv2 |
+| 91 | 2026-04-10 | War1gus | Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大算法，GPLv2 |
+| 92 | 2026-04-10 | Wargus | Warcraft II Stratagus 引擎模组，wartool.cpp 3432 LOC 数据提取工具（StormLib MPQ + XMI→MID 音频），GPLv2，v2.4.1，依赖 Stratagus 外部引擎（数据/逻辑完全分离） |
 
 ---
 

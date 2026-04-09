@@ -36,6 +36,7 @@
 
 ## Open Source Games
 
+- [[open-source-game/0-ad]] — 历史古代战争 RTS，Pyrogenesis 自研 3D 引擎，C++/JavaScript 混合架构，Simulation/Graphics 分离设计
 - [[open-source-game/mindustry]] — 自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人
 - [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，GPLv3
 - [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY

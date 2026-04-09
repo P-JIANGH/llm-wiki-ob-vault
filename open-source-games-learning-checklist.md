@@ -150,7 +150,7 @@
 
 ## Real-Time Strategy — Main Projects (13)
 
-- [ ] **0 A.D.** — 古代战争策略 | `https://gitea.wildfiregames.com/0ad/0ad`
+- [2026-04-10] **0 A.D.** — 古代战争策略 | `https://gitea.wildfiregames.com/0ad/0ad`
 - [2026-04-09] **Beyond All Reason (BAR)** — 现代 RTS，Spring 引擎 | `https://github.com/beyond-all-reason/Beyond-All-Reason`
 - [2026-04-09] **OpenRA** — C&C / Dune 2000 / Red Alert 现代复刻 | `https://github.com/OpenRA/OpenRA`
 - [2026-04-09] **Warzone 2100** — 3D RTS，剧情战役 | `https://github.com/Warzone2100/warzone2100`
@@ -380,6 +380,7 @@
 | 78 | 2026-04-09 | Trigger Rally | C++ 拉力赛车，PEngine/PSim/Trigger 三层架构分离（渲染/物理/游戏逻辑），PReferenceFrame+PRigidBody 刚体物理+悬挂系统，程序化高度图地形生成，Ghost 回放系统，GPL v2，v0.6.6.1（2019）|
 | 79 | 2026-04-09 | OpenAge | Age of Empires 引擎复刻，C++20+Python3 双语言架构（Cython 绑定），827 C++/h + 291 Python，33 子系统模块(libopenage/)，nyan 声明式内容配置格式，Qt6 GUI + OpenGL 渲染，gameplay 非功能状态（内部模拟重写中），GPLv3 |
 | 80 | 2026-04-10 | OpenHV | OpenRA Mod 科幻 RTS，改编自 Hard Vacuum，MiniYAML 规则数据驱动，C# Traits 系统（资源采集/传送网络/地形改造/Bot AI），源码 GPLv3 + 内容 CC BY，IRC/Matrix 多人匹配 |
+| 84 | 2026-04-10 | 0 A.D. | 历史古代战争 RTS，Pyrogenesis 自研 3D 引擎（C++/JS），simulation2/ 模拟层 + renderer/graphics/ 渲染层分离，Actor XML 数据驱动，~15GB 仓库，29K+ commits，Release 28 Boiorix（首个非 Alpha） |
 
 ---
 

@@ -18,7 +18,11 @@
 ## [2026-04-09] ingest | Kandria wiki note
 - Created: open-source-game/kandria.md (Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL，~19K LOC 全 Lisp，BVH2 碰撞，内置编辑器)
 - Updated: index.md (新增 kandria 条目，total pages: 62), open-source-games-learning-checklist.md (行205 Kandria checkbox, 学习记录73), log.md
-- Note: 0 A.D. Gitea + GitHub 均不可达；GitHub 无法访问；Codeberg 可达；Kandria 为首个可达项目
+
+## [2026-04-10] ingest | 0 A.D. Empires Ascendant wiki note
+- Created: open-source-game/0-ad.md (历史古代战争 RTS，Pyrogenesis 自研 3D 引擎，C++/JavaScript 混合架构，Simulation/Graphics 分离，~15GB 仓库，29K+ commits)
+- Updated: index.md (新增 0-ad 条目), open-source-games-learning-checklist.md (行153 0 A.D. checkbox, 学习记录84), log.md
+- Note: Gitea 仓库被 Anubis 反爬虫保护封禁，GitHub mirror 已废弃；通过 Web 搜索 + GitHub API tree 端点 + mycplus 技术分析完成分析；Pyrogenesis 源码结构：simulation2/ (模拟) + renderer/graphics/ (渲染) + scriptinterface/ (JS 绑定) + ps/ (主应用)
 
 ## [2026-04-09] ingest | RVGL 开源赛车游戏 wiki note
 - Created: open-source-game/rvgl.md (Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心引擎私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人)

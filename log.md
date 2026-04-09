@@ -531,3 +531,9 @@
 - Updated: index.md (新增 ambermoon-net 条目，total pages: 79), open-source-games-learning-checklist.md (行208 Ambermoon.net checkbox, 学习记录 114), log.md
 - Clone: https://github.com/Pyrdacor/Ambermoon.net (git clone --depth=1 成功)
 - Note: .NET Solution 含 20+ 子项目（Core/Data Common/FileSystems/Legacy/Pyrdacor/Renderer.OpenGL/Frontend/Audio/Android 等）；外部游戏数据需从 Pyrdacor/Ambermoon 仓库单独下载；支持原版 1.20 和 Ambermoon Advanced 1.33；v1.12.0 2025-11-24
+
+## [2026-04-10] ingest | Exult wiki note
+- Created: open-source-game/exult.md (Ultima VII 游戏引擎清洁室重实现，SDL 跨平台，完整支持《黑门》+《毒岛》，GPL v2，~48K LOC C++)
+- Updated: index.md (新增 exult 条目，total pages: 80), open-source-games-learning-checklist.md (行211 Exult checkbox, 学习记录 115), log.md
+- Clone: https://github.com/exult/exult (git clone --depth=1 成功)
+- Note: 清洁室完全重写，SDL 统一跨平台抽象层，content/ 子目录含 bg/si 等社区补丁数据，autotools 多编译器支持（g++/clang++/MSVC），9+ CI 平台（Linux/macOS/Win/Android/iOS/FreeBSD/OmniOS），actors.cc 5370行角色系统+schedule.cc 6115行 AI 调度为最大源文件

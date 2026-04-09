@@ -313,3 +313,9 @@
 ## [2026-04-09] ingest | Rigs of Rods wiki note
 - Created: open-source-game/rigs-of-rods.md (软体物理沙盒，节点-弹簧车辆形变实时仿真，OGRE 1.11 + AngelScript，2005 年项目，GPLv2，约 19K LOC C++)
 - Updated: index.md (新增 rigs-of-rods 条目, total pages: 59), open-source-games-learning-checklist.md (行140 Rigs of Rods checkbox, 学习记录68), log.md
+
+
+## [2026-04-09] ingest | VDrift 开源游戏 wiki note
+- Created: open-source-game/vdrift.md
+- Updated: index.md, log.md
+- Clone: https://github.com/VDrift/vdrift

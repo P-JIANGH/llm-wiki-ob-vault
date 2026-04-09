@@ -141,7 +141,7 @@
 - [2026-04-09] **Speed Dreams** — 开源赛车模拟 | `https://forge.a-lec.org/xavi/speed-dreams-code`
 - [2026-04-09] **Stunt Rally** — Sci-Fi 赛车+赛道编辑器 | `https://github.com/stuntrally/stuntrally3`
 - [2026-04-09] **RVGL** — Re-Volt 现代端口 | `https://gitlab.com/re-volt`
-- [ ] **VDrift** — 漂移赛车模拟 | `https://github.com/VDrift/vdrift`
+- [2026-04-09] **VDrift** — 漂移赛车模拟 | `https://github.com/VDrift/vdrift`
 - [ ] **Yorg** — TrackMania 风格开源赛车（Panda3D） | `https://github.com/cflavio/yorg`
 - [ ] **Trigger Rally** | `https://sourceforge.net/projects/trigger-rally`
 - [ ] **wipEout** — Wipeout 1995 PSX 重实现 | `https://github.com/phoboslab/wipeout-rewrite`

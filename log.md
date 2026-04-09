@@ -519,3 +519,9 @@
 - Updated: index.md (新增 naev 条目，total pages: 78), open-source-games-learning-checklist.md (行206 Naev checkbox, 学习记录 112), log.md
 - Clone: https://codeberg.org/naev/naev (git clone --depth=1 成功)
 - Note: C+Rust 混合架构（C 主体 + Rust faction.rs/pilot.rs 等），Meson 构建支持 C11+Rust 2024 双语言；bindgen 0.72 生成 FFI；naev-artwork 作为 submodule 独立管理；严格 AI 禁止政策；gettext 国际化 + Weblate；插件系统 v0.13.0 内置 Manager；pilot/faction/economy/mission/space/event 子系统模块化设计
+
+## [2026-04-10] ingest | Oolite wiki note
+- Created: open-source-game/oolite.md (Elite 1984 风格太空开放世界贸易战斗，Objective-C + C 双后端架构(Cocoa+SDL)，GPLv2，OXP 插件扩展系统，无原版游戏数据依赖)
+- Updated: index.md (新增 oolite 条目), open-source-games-learning-checklist.md (行207 Oolite checkbox, 学习记录 113), log.md
+- Clone: https://github.com/OoliteProject/oolite (git clone --depth=1 成功)
+- Note: 双渲染后端(Cocoa macOS + SDL Windows/Linux)共享同一 Core 层；81K+ LOC Objective-C Entity 基类；CollisionRegion 碰撞分区网格优化；Materials/ 目录完整 OpenGL Shader PBR 材质系统；OXP 插件包架构(Schemata XML 定义 + AddOns 目录热加载)；DebugOXP 开发调试扩展；Oolite Extension 社区驱动大量扩展内容

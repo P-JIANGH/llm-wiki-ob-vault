@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | OpenGOAL Jak & Daxter PC 移植 wiki note
+- Created: open-source-game/open-goal.md (Jak & Daxter PC 移植，2.3M LOC GOAL 反编译+goalc GOAL 编译器[49K LOC C++]+decompiler[344K LOC C++]+game runtime[241K LOC C++]，四组件架构，Jak1 Complete/Jak2 Beta/Jak3 In Progress)
+- Updated: index.md (新增 open-goal 条目), open-source-games-learning-checklist.md (行115 OpenGOAL checkbox, 学习记录53), log.md
+
 ## [2026-04-09] ingest | VVVVVV 开源游戏 wiki note
 - Created: open-source-game/vvvvvv.md (重力翻转平台游戏，SDL2 极简依赖全部静态链接，Entity 159K+Game 229K+Labclass 177K+Editor 141K LOC，完整内置关卡编辑器，data.zip PhysicsFS 虚拟文件系统)
 - Updated: index.md (total pages: 50), open-source-games-learning-checklist.md (行114 checkbox, 学习记录52), log.md

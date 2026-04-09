@@ -111,7 +111,7 @@
 ## Platformers (12)
 
 - [2026-04-09] **Super Mario 64** — 完整反编译 | `https://github.com/n64decomp/sm64`
-- [ ] **VVVVVV** | `https://github.com/TerryCavanagh/VVVVVV`
+- [2026-04-09] **VVVVVV** | `https://github.com/TerryCavanagh/VVVVVV`
 - [ ] **OpenGOAL** — Jak & Daxter PC 移植 | `https://github.com/water111/jak-project`
 - [ ] **DDraceNetwork** — 合作 2D 在线平台跳跃 | `https://github.com/ddnet/ddnet`
 - [ ] **Sonic Robo Blast 2** — 索尼克 3D 同人作，基于 Doom | `https://git.do.srb2.org/STJr/SRB2`
@@ -351,6 +351,7 @@
 | 49 | 2026-04-09 | AvP Forever | 多分支 rebasing 叠加策略（icculus/neuromancer/scraft 源码），三族独立行为系统（alien/marine/predator），Direct3D/SDL 多平台层，嵌入式 Bink/Smacker/Miles 二进制库，需原版游戏数据 |
 | 50 | 2026-04-09 | The Dark Mod | Doom 3/id Tech 4 引擎潜行 FPS（AAS 区域感知+AI 通信子系统+Memory 系统），170+ 社区任务，源码 GPL+资产 CC BY-NC-SA 3.0 双许可，C++17/CMake 跨平台 |
 | 51 | 2026-04-09 | NakedAVP | SDL3+OpenGL/OpenAL 现代端口，Win API 抽象层（stubs.c），双渲染器自动降级（GL/GLES2），三族独立 AI/武器/HUD，约 45K LOC C/C++ |
+| 52 | 2026-04-09 | VVVVVV | 重力翻转像素平台游戏，SDL2 极简依赖全部静态链接，Entity 159K+Game 229K+Labclass 177K+Editor 141K LOC，完整内置关卡编辑器，data.zip PhysicsFS 虚拟文件系统 |
 
 ---
 

@@ -121,7 +121,7 @@
 - [2026-04-09] **Fish Folk: Punchy** — 2.5D 清版动作（Bevy） | `https://github.com/fishfolk/punchy`
 - [2026-04-09] **Commander-Genius** — Commander Keen 1-6 模拟器 | `https://gitlab.com/Dringgstein/Commander-Genius`
 - [2026-04-09] **Omnispeak** — Keen Goodbye Galaxy 重实现 | `https://github.com/sulix/omnispeak`
-- [ ] **Commander Keen in Keen Dreams** | `https://github.com/keendreams/keen`
+- [2026-04-09] **Commander Keen in Keen Dreams** | `https://github.com/keendreams/keen`
 
 ---
 
@@ -360,6 +360,7 @@
 | 59 | 2026-04-09 | Fish Folk: Punchy | Bevy 0.9 + Rapier2D 物理 2.5D 清版动作，fighter_state.rs 2228 行状态机，15+ 插件体系，支持 WASM/Web |
 | 60 | 2026-04-09 | Commander-Genius | Commander Keen 1-6+Dreams 开源解释器，C++完全重写（仅存0.02% CloneKeen代码），SDL2+OpenGL，LUA Mod，4人多人，289 cpp+297 h，GsKit共享库，内置游戏下载器，Cosmos引擎submodule |
 | 61 | 2026-04-09 | Omnispeak | 多后端渲染架构（SDL2/GL/Vulkan/SDL3 可选），Nuked OPL3 嵌入式 FM 合成器，约 51.8K LOC C，ck*_ep.h Episode 分离模块化，id Software 引擎核心复用，VANILLA 模式 bug 兼容原版，GPLv2 |
+| 62 | 2026-04-09 | Commander Keen in Keen Dreams | 2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩（约 23K LOC），static/ 预编译游戏数据打包，GRMODE EGA/CGA 双模式，GPLv2+ |
 | 1 | 2026-04-08 | Hypersomnia |
 
 ---

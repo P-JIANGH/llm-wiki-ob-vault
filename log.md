@@ -277,3 +277,7 @@
 ## [2026-04-09] ingest | Commander-Genius wiki note
 - Created: open-source-game/commander-genius.md (Commander Keen 1-6+Dreams 开源解释器，C++完全重写[仅存0.02% CloneKeen代码]，SDL2+OpenGL，LUA Mod，多人4人支持，289 cpp+297 h，GsKit共享库，内置游戏下载器，Cosmos引擎submodule)
 - Updated: index.md (新增 commander-genius 条目, total pages: 54), open-source-games-learning-checklist.md (行122 Commander-Genius checkbox, 学习记录60), log.md
+
+## [2026-04-09] ingest | Commander Keen in Keen Dreams wiki note
+- Created: open-source-game/commander-keen-in-keen-dreams.md (Commander Keen Episode 4 源码，2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩，约 23K LOC，GPLv2+)
+- Updated: index.md (新增 commander-keen-in-keen-dreams 条目, total pages: 55), open-source-games-learning-checklist.md (行124 Commander Keen in Keen Dreams checkbox), log.md

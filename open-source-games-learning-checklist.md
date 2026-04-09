@@ -79,7 +79,7 @@
 - [2026-04-09] **JFDuke3D** — Duke Nukem 3D 端口 | `https://github.com/jonof/jfduke3d`
 - [2026-04-09] **JFShadowWarrior** — Shadow Warrior 端口 | `https://github.com/jonof/jfsw`
 - [2026-04-09] **BuildGDX** | `https://github.com/vogonsorg/BuildGDX`
-- [ ] **NuBuildGDX** — BuildGDX 分支，稳定优先 | `https://github.com/atsb/NuBuildGDX`
+- [2026-04-09] **NuBuildGDX** — BuildGDX 分支，稳定优先 | `https://github.com/atsb/NuBuildGDX`
 
 ---
 
@@ -337,6 +337,7 @@
 | 38 | 2026-04-09 | NBlood | Blood/Exhumed/Redneck Rampage 多合一端口，基于 EDuke32，GNU Make 跨平台 Common.mak 框架，BYTEVERSION 108 存档兼容，GPL-2.0，支持 Cryptic Passage 资料片 |
 | 39 | 2026-04-09 | JFDuke3D | JonoF Duke Nukem 3D 端口，jfbuild Build引擎子模块分离(~45K LOC C)，Polymost OpenGL 渲染器，SDL2 跨平台，GPLv2，需要原版游戏数据 |
 | 40 | 2026-04-09 | JFShadowWarrior | Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost 3D 渲染器(OpenGL/GLES2)，多平台 Linux/Mac/Win/BSD，GTK+3 UI 可选，Makefile 编译选项模块化设计 |
+| 41 | 2026-04-09 | NuBuildGDX | BuildGDX 稳定化分支(stability-first fork)，atsb 维护，libGDX 1.9.10 旧依赖策略，375 Java 文件，Polymost+软件+GL 三渲染器架构继承 |
 
 ---
 

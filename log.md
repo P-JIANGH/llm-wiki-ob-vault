@@ -610,6 +610,12 @@
 - Clone: https://github.com/AbyssEngine/AbyssEngine (git clone --depth=1 成功)
 - Note: 纯 C 代码库 C99 标准确保最大兼容性；与 [[open-source-game/devilutionx|EvilutionX]] 清洁室逆向相比，AbyssEngine 选择完全重写路线；LibArchive 直接读取 MPQ 容器复用原版数据是快速启动项目的好方法；VideoManager 处理 FFmpeg 视频解码是 2D 游戏过场动画的标准方案
 
+## [2026-04-10] ingest | OpenKO wiki note
+- Created: open-source-game/openko.md (Knight Online 1298/9 清洁室逆向开源复刻，双端分离架构，~265K LOC C++，多进程服务器(AIServer/Ebenezer/Aujard/ItemManager/VersionManager)，自定义二进制网络协议(LZF+JvCryption)，17 个 git submodules，学术目的)
+- Updated: index.md (新增 openko 条目，total pages: 86), open-source-games-learning-checklist.md (行232 OpenKO checkbox, 学习记录 129), log.md
+- Clone: https://github.com/Open-KO/KnightOnline (git clone --depth=1 成功)
+- Note: 多进程服务器分离设计(AIServer/GameServer/DBServer)是复杂 MMORPG 的有效架构模式；自定义二进制协议+压缩加密是 MMORPG 网络层典型设计；CMake option 开关控制平台差异；17 个 git submodules 的依赖管理模式
+
 ## [2026-04-10] ingest | OpenKore wiki note
 - Created: open-source-game/openkore.md (Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接 XKore/XKore2/XKoreProxy，txt 数据驱动配置，GPLv2)
 - Updated: index.md (新增 openkore 条目，total pages: 85), open-source-games-learning-checklist.md (行233 OpenKore checkbox, 学习记录 128), log.md

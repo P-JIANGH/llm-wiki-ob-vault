@@ -229,7 +229,7 @@
 - [2026-04-10] **Abyss Engine** — Diablo 2 清洁室重实现 | `https://github.com/AbyssEngine/AbyssEngine`
 
 ### MMO
-- [ ] **OpenKO** — Knight Online 开源版 | `https://github.com/Open-KO/KnightOnline`
+- [2026-04-10] **OpenKO** — Knight Online 开源版 | `https://github.com/Open-KO/KnightOnline`
 - [2026-04-10] **OpenKore** — Ragnarok Online 自动化助手 | `https://github.com/OpenKore/openkore`
 
 ---
@@ -423,9 +423,8 @@
 | 125 | 2026-04-10 | Freeablo | Diablo 1 引擎清洁室重实现；双线程架构(渲染/逻辑分离)保证模拟速度独立；确定性锁步网络(禁用浮点+定点数数学保证确定性)；StormLib 读取原版 MPQ 数据文件；Nuklear GUI 替代 librocket；组件化设计(faudio/cel/diabloexe/faio/render/serial等)；项目已归档(2020年)；~38K LOC C++17 |
 || 126 | 2026-04-10 | Open Diablo II | Go+Ebiten v2 2D 游戏框架；d2app/d2core/d2game/d2networking/d2script 模块化架构；otto JS 引擎嵌入实现脚本扩展；帧同步 P2P 多人网络；MPQ 数据文件与引擎代码完全分离；项目拆分：引擎→AbyssEngine，游戏→OpenDiablo2 |
 ||| 127 | 2026-04-10 | Abyss Engine | 纯 C 清洁室重实现 Diablo 2 引擎；SDL2+FFmpeg+ZLIB+LibArchive 依赖栈；~72 文件 ~4859 LOC C99 模块化架构（audio/common/drawing/managers/scenes/types/util）；非逆向而是完全重写；需原版 MPQ 数据文件；OpenDiablo2 项目拆分后独立引擎层；MIT |
-||| 128 | 2026-04-10 | OpenKore | Perl + C XS 扩展混合架构；Task 链式 AI 系统(MapRoute/TalkNPC/FollowActor 等)；三模式网络连接(XKore/XKore2/XKoreProxy)；txt 配置数据驱动(control/ 目录)；plugins/ 插件生态；XSTools C 扩展处理高性能网络封包 |
-
----
+|||| 128 | 2026-04-10 | OpenKore | Perl + C XS 扩展混合架构；Task 链式 AI 系统(MapRoute/TalkNPC/FollowActor 等)；三模式网络连接(XKore/XKore2/XKoreProxy)；txt 配置数据驱动(control/ 目录)；plugins/ 插件生态；XSTools C 扩展处理高性能网络封包 |
+||||| 129 | 2026-04-10 | OpenKO | Knight Online (1298/9) 清洁室逆向开源复刻；双端分离架构：Client DirectX 9 (仅 Windows/MSVC) + Server 跨平台 CMake (Linux/macOS)；多进程服务器(AIServer/Ebenezer/Aujard/ItemManager/VersionManager)；~265K LOC C++；自定义二进制网络协议(LZF压缩+JvCryption加密)；100+ opcode 枚举；17 个 git submodules 依赖管理；早期开发，学术目的 |
 
 ## 相关 Wiki 页面
 

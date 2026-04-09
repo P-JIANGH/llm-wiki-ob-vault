@@ -202,7 +202,7 @@
 - [ ] **Daggerfall Unity** — Daggerfall Unity 引擎重做 | `https://github.com/Interkarma/daggerfall-unity`
 - [ ] **Veloren** — Rust 体素多人 RPG | `https://github.com/veloren/veloren`
 - [ ] **Space Station 14** — Space Station 13 开源复刻（DM/shell 脚本栈） | `https://github.com/space-wizards/space-station-14`
-- [ ] **Kandria** — Common Lisp 动作 RPG | `https://codeberg.org/shirakumo/kandria`
+- [2026-04-09] **Kandria** — Common Lisp 动作 RPG | `https://codeberg.org/shirakumo/kandria`
 - [ ] **Naev** — 2D 太空动作/RPG | `https://codeberg.org/naev/naev`
 - [ ] **Oolite** — 太空开放世界 opera | `https://github.com/OoliteProject/oolite`
 - [ ] **Ambermoon.net** — Ambermoon C# 完全重写 | `https://github.com/Pyrdacor/Ambermoon.net`
@@ -369,8 +369,9 @@
 | 68 | 2026-04-09 | Rigs of Rods | 软体物理：节点-弹簧 Actor 系统（Actor.cpp 5K行/ActorSpawner.cpp 7.5K行），数据驱动 .truck 格式完全解耦物理与渲染，OGRE 1.11+AngelScript+MyGUI，GPLv2，2026.01 最新版 |
 | 69 | 2026-04-09 | Stunt Rally 3 | Ogre-Next 3.0 渲染+VDrift 仿真，模块化架构(common/game/editor/road/vdrift)，3D spline 赛道+内置编辑器，232 赛道+33 载具，Ghost 回放系统，GPLv3 |
 | 70 | 2026-04-09 | RVGL | Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan 可编程 Shader 渲染；核心引擎私有(gk7huki持有)，工具链/资产/文档完全开源；ENet UDP 16人多人+Discord Rich Presence；Pack 内容管理系统(Mod Organizer 风格)；多平台支持 Win/Linux/macOS/Android |
-| 71 | 2026-04-09 | Yorg | TrackMania 风格赛车，Panda3D 引擎 + Python 3.x，yyagl/yracing 子模块分离架构，XMPP 多人对战，phys.json 数据驱动车辆物理，多语言国际化 |
-| 72 | 2026-04-09 | wipEout | wipEout 1995 PSX 清洁室重实现，纯 C ~4000 LOC，双平台后端(SDL2/Sokol) + 三渲染器(GL/GLES2/Software)，QOA 音频格式 |
+|| 71 | 2026-04-09 | Yorg | TrackMania 风格赛车，Panda3D 引擎 + Python 3.x，yyagl/yracing 子模块分离架构，XMPP 多人对战，phys.json 数据驱动车辆物理，多语言国际化 |
+|| 72 | 2026-04-09 | wipEout | wipEout 1995 PSX 清洁室重实现，纯 C ~4000 LOC，双平台后端(SDL2/Sokol) + 三渲染器(GL/GLES2/Software)，QOA 音频格式 |
+|| 73 | 2026-04-09 | Kandria | Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL 渲染，~19K LOC 全 Lisp，BVH2 碰撞检测，内置关卡编辑器，ECS 架构 |
 
 ---
 

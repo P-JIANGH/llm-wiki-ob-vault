@@ -10,6 +10,11 @@
 - Updated: index.md (新增 wipeout-rewrite 条目，total pages: 61), open-source-games-learning-checklist.md (行147 wipEout checkbox, 学习记录72), log.md
 - Skip: Trigger Rally (sourceforge git 不可访问)
 
+## [2026-04-09] ingest | Kandria wiki note
+- Created: open-source-game/kandria.md (Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL，~19K LOC 全 Lisp，BVH2 碰撞，内置编辑器)
+- Updated: index.md (新增 kandria 条目，total pages: 62), open-source-games-learning-checklist.md (行205 Kandria checkbox, 学习记录73), log.md
+- Note: 0 A.D. Gitea + GitHub 均不可达；GitHub 无法访问；Codeberg 可达；Kandria 为首个可达项目
+
 ## [2026-04-09] ingest | RVGL 开源赛车游戏 wiki note
 - Created: open-source-game/rvgl.md (Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心引擎私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人)
 - Updated: index.md (新增 rvgl 条目，total pages: 60), open-source-games-learning-checklist.md (行143 RVGL checkbox, 学习记录70), log.md

@@ -109,6 +109,7 @@
 
 - [[open-source-game/vdrift]] — 开源漂移赛车模拟器，Bullet 物理 + SDL3
 - [[open-source-game/wipeout-rewrite]] — wipEout (1995 PSX) 清洁室重实现，纯 C 双平台后端(SDL2/Sokol) + 三渲染器架构
+- [[open-source-game/kandria]] — Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL 渲染，~19K LOC 全 Lisp，BVH2 碰撞检测，内置关卡编辑器
 
 ## Comparisons
 

@@ -136,7 +136,7 @@
 ## Racing (10)
 
 - [2026-04-09] **SuperTuxKart** — 卡丁车派对游戏 | `https://github.com/supertuxkart/stk-code`
-- [ ] **TORCS** — 开放式赛车模拟器 | `https://sourceforge.net/projects/torcs`
+- [2026-04-09] **TORCS** — 开放式赛车模拟器 | `https://sourceforge.net/projects/torcs`
 - [ ] **Rigs of Rods** — 物理沙盒模拟，OGRE 引擎 | `https://github.com/RigsOfRods/rigs-of-rods`
 - [ ] **Speed Dreams** — 开源赛车模拟 | `https://forge.a-lec.org/xavi/speed-dreams-code`
 - [ ] **Stunt Rally** — Sci-Fi 赛车+赛道编辑器 | `https://github.com/stuntrally/stuntrally3`
@@ -365,6 +365,7 @@
 | 64 | 2026-04-09 | Whatajong | 麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT |
 | 65 | 2026-04-09 | BlockOut II | 3D 俄罗斯方块，C++/OpenGL/SDL，~12K LOC，评估函数Bot AI，回放系统，在线排行榜，GPLv2 |
 | 66 | 2026-04-09 | SuperTuxKart | Bullet Physics btKart趣味物理，ENet UDP事件回滚网络同步，SERVER_ONLY无GUI服务器，多后端渲染OpenGL/GLES/DX9，~274K LOC C++，GPLv3 |
+| 67 | 2026-04-09 | TORCS | plib OpenGL 3D 渲染，simu 模块化物理仿真(v2/v3双版本)，标准化 Robot AI 接口(C语言API)，XML配置驱动，50+车辆20+赛道，广泛用于学术研究和 AI 训练 |
 
 ---
 

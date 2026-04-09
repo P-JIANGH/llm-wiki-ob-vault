@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | TORCS 开源赛车模拟器 wiki note
+- Created: open-source-game/torcs.md (3D 赛车模拟器，plib OpenGL 渲染，simu 模块化物理仿真，标准化 Robot AI 接口，广泛用于学术研究)
+- Updated: index.md (新增 torcs 条目，total pages: 59), open-source-games-learning-checklist.md (行139 TORCS checkbox, 学习记录67), log.md
+
 ## [2026-04-09] ingest | Fish Folk Punchy wiki note
 - Created: open-source-game/fish-folk-punchy.md (Bevy 0.9 + Rapier2D 物理 2.5D 清版动作游戏，fighter_state.rs 2228 行状态机，15+ Bevy 插件体系，支持 WASM/Web)
 - Updated: index.md (新增 fish-folk-punchy 条目，total pages: 53), open-source-games-learning-checklist.md (行121 Fish Folk Punchy checkbox, 学习记录59), log.md

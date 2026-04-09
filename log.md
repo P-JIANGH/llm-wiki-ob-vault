@@ -651,3 +651,9 @@
 - Updated: index.md (新增 open-golf 条目，total pages: 91), open-source-games-learning-checklist.md (行253 Open Golf checkbox, 学习记录 134), log.md
 - Clone: https://github.com/mgerdes/Open-Golf (git clone 超时；GitHub API tarball 端点返回 HTML（疑似未带 header）；带正确 Accept: application/vnd.github+json header 的 GitHub API tarball 成功下载 27.9MB gzip)
 - Note: Sokol 是轻量级无依赖跨平台 3D 方案（适合小型游戏项目）；xatlas + lightmapper 管线适合需要烘焙光照的小型场景；BVH 自研碰撞系统适合精确碰撞检测场景；ImGui 内置编辑器是快速迭代工具开发标准方案；Emscripten + WebGL2 完整 Web 发布方案
+
+## [2026-04-10] ingest | OpenRW wiki note
+- Created: open-source-game/openrw.md (GTA III 清洁室重实现开源引擎，rwcore/rwengine/rwgame 模块化架构，OpenGL + Bullet Physics + SDL2，GPLv3，需原版游戏数据)
+- Updated: index.md (新增 openrw 条目，total pages: 92), open-source-games-learning-checklist.md (行259 OpenRW checkbox, 学习记录 135), log.md
+- Clone: https://github.com/rwengine/openrw (git clone 超时；curl tarball 超时；GitHub 完全不可达；通过 web_extract 抓取 openrw.org 官网 + GitHub 页面 + README.md + CMakeLists.txt 端点完成分析)
+- Note: 模块化三分离架构（rwcore/rwengine/rwgame）是大型 3D 游戏引擎标准模式；Bullet Physics 刚体碰撞适合开放世界车辆物理；清洁室重实现模式法律安全但需要原版游戏数据；CMake + Conan 依赖管理是多平台 C++ 项目标准方案

@@ -135,7 +135,7 @@
 
 ## Racing (10)
 
-- [ ] **SuperTuxKart** — 卡丁车派对游戏 | `https://github.com/supertuxkart/stk-code`
+- [2026-04-09] **SuperTuxKart** — 卡丁车派对游戏 | `https://github.com/supertuxkart/stk-code`
 - [ ] **TORCS** — 开放式赛车模拟器 | `https://sourceforge.net/projects/torcs`
 - [ ] **Rigs of Rods** — 物理沙盒模拟，OGRE 引擎 | `https://github.com/RigsOfRods/rigs-of-rods`
 - [ ] **Speed Dreams** — 开源赛车模拟 | `https://forge.a-lec.org/xavi/speed-dreams-code`
@@ -363,7 +363,8 @@
 | 62 | 2026-04-09 | Commander Keen in Keen Dreams | 2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩，约 23K LOC，GPLv2+ |
 | 63 | 2026-04-09 | Portal64 | N64 Demake 移植 Valve Portal，移除 libultra 私有库依赖，Skeletool64 骨骼动画+显示列表生成，17 室可玩，EPA/GJK 碰撞，debugger 3.6K 行，约 41K LOC C |
 | 64 | 2026-04-09 | Whatajong | 麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT |
-| 65 | 2026-04-09 | BlockOut II | 3D 俄罗斯方块，C++/OpenGL/SDL，12K LOC，评估函数Bot AI，回放系统，在线排行榜，GPLv2 |
+| 65 | 2026-04-09 | BlockOut II | 3D 俄罗斯方块，C++/OpenGL/SDL，~12K LOC，评估函数Bot AI，回放系统，在线排行榜，GPLv2 |
+| 66 | 2026-04-09 | SuperTuxKart | Bullet Physics btKart趣味物理，ENet UDP事件回滚网络同步，SERVER_ONLY无GUI服务器，多后端渲染OpenGL/GLES/DX9，~274K LOC C++，GPLv3 |
 
 ---
 

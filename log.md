@@ -491,3 +491,8 @@
 - Created: open-source-game/meritous.md (PSI 充能攻击动作地牢探索，纯 C ~10K LOC，SDL 2D Tile，程序化地牢生成 mapgen.c 972 行，boss.c 1829 行，demon.c 2613 行，levelblit.c 2646 行，GPLv3)
 - Updated: index.md (新增 meritous 条目), open-source-games-learning-checklist.md (Meritous checkbox 行194, 学习记录107)
 - Clone: https://github.com/Patashu/Meritous (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | OpenMW wiki note
+- Created: open-source-game/openmw.md (Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，OMW::Engine 总线聚合所有子系统，完整工具链(opencs/bsatool/esmtool/navmeshtool)，~2768源文件~55K LOC，GPLv3，v0.51.0)
+- Updated: index.md (新增 openmw 条目，total pages: 76), open-source-games-learning-checklist.md (OpenMW checkbox 行201, 学习记录108)
+- Clone: https://github.com/OpenMW/openmw (git clone --depth=1 成功)

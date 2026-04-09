@@ -154,7 +154,7 @@
 - [2026-04-09] **Beyond All Reason (BAR)** — 现代 RTS，Spring 引擎 | `https://github.com/beyond-all-reason/Beyond-All-Reason`
 - [2026-04-09] **OpenRA** — C&C / Dune 2000 / Red Alert 现代复刻 | `https://github.com/OpenRA/OpenRA`
 - [2026-04-09] **Warzone 2100** — 3D RTS，剧情战役 | `https://github.com/Warzone2100/warzone2100`
-- [ ] **Widelands** — 开源实时策略 | `https://github.com/widelands/widelands`
+- [2026-04-09] **Widelands** — 开源实时策略 | `https://github.com/widelands/widelands`
 - [ ] **Mindustry** — 沙盒塔防 | `https://github.com/Anuken/Mindustry`
 - [ ] **OpenAge** — Age of Empires 引擎复刻 | `https://github.com/SFTtech/openage`
 - [ ] **OpenHV** — 像素 Sci-Fi RTS | `https://github.com/OpenHV/OpenHV`
@@ -372,9 +372,10 @@
 | 70 | 2026-04-09 | RVGL | Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan 可编程 Shader 渲染；核心引擎私有(gk7huki持有)，工具链/资产/文档完全开源；ENet UDP 16人多人+Discord Rich Presence；Pack 内容管理系统(Mod Organizer 风格)；多平台支持 Win/Linux/macOS/Android |
 || 71 | 2026-04-09 | Yorg | TrackMania 风格赛车，Panda3D 引擎 + Python 3.x，yyagl/yracing 子模块分离架构，XMPP 多人对战，phys.json 数据驱动车辆物理，多语言国际化 |
 || 72 | 2026-04-09 | wipEout | wipEout 1995 PSX 清洁室重实现，纯 C ~4000 LOC，双平台后端(SDL2/Sokol) + 三渲染器(GL/GLES2/Software)，QOA 音频格式 |
-|| 73 | 2026-04-09 | Kandria | Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL 渲染，~19K LOC 全 Lisp，BVH2 碰撞检测，内置关卡编辑器，ECS 架构 |
-|| 74 | 2026-04-09 | Beyond All Reason | Spring/Recoil 引擎 RTS，4.3GB仓库（含资源），Lua三层架构(luarules同步/luaui不同步/luaai)，BARb AI JSON配置分层设计，GL4着色器延迟光照，Busted+Lux测试，Lux包管理器 |
-|| 75 | 2026-04-09 | Warzone 2100 | 3D RTS，157K LOC C++，三后端渲染(OpenGL/Vulkan/GLES)，gamelib/framework/ivis_opengl模块化架构，400+科技树，lib/netplay帧同步多人，WebAssembly支持 |
+| 73 | 2026-04-09 | Kandria | Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL 渲染，~19K LOC 全 Lisp，BVH2 碰撞检测，内置关卡编辑器，ECS 架构 |
+| 74 | 2026-04-09 | Beyond All Reason | Spring/Recoil 引擎 RTS，4.3GB仓库（含资源），Lua三层架构(luarules同步/luaui不同步/luaai)，BARb AI JSON配置分层设计，GL4着色器延迟光照，Busted+Lux测试，Lux包管理器 |
+| 75 | 2026-04-09 | Warzone 2100 | 3D RTS，157K LOC C++，三后端渲染(OpenGL/Vulkan/GLES)，gamelib/framework/ivis_opengl模块化架构，400+科技树，lib/netplay帧同步多人，WebAssembly支持 |
+| 76 | 2026-04-09 | Widelands | Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链（economy/50+文件），帧同步多人 GameHost/GameClient 架构 |
 
 ---
 

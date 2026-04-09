@@ -349,3 +349,8 @@
 - Created: open-source-game/warzone-2100.md (3D RTS，157K LOC C++，三后端渲染(OpenGL/Vulkan/GLES)，gamelib/framework/ivis_opengl模块化架构，400+科技树，lib/netplay帧同步多人，WebAssembly支持)
 - Updated: index.md (新增 warzone-2100 条目), open-source-games-learning-checklist.md (行156 checkbox, 学习记录75), log.md
 - Clone: https://github.com/Warzone2100/warzone2100 (depth=1成功)
+
+## [2026-04-09] ingest | Widelands wiki note
+- Created: open-source-game/widelands.md (Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链（economy/50+文件），帧同步多人 GameHost/GameClient 架构)
+- Updated: index.md (新增 widelands 条目，total pages: 64), open-source-games-learning-checklist.md (行157 Widelands checkbox, 学习记录76), log.md
+- Clone: https://github.com/widelands/widelands (depth=1 成功，约25155文件)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 45
+> Last updated: 2026-04-09 | Total pages: 46
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -56,6 +56,7 @@
 - [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 2 代体素 FPS，支持实时游戏内地图编辑，ENet UDP 网络，~65K LOC C++，ZLIB 许可
 - [[open-source-game/red-eclipse]] — 竞技场射击游戏，基于 Tesseract（Cube 2 派生）引擎，SDL2+OpenGL，跑酷射击融合，内置协作地图编辑器，GPLv3
 - [[open-source-game/xonotic]] — Darkplaces 引擎（Quake 分支）竞技场射击，精湛移动机械（Bunny Hop/Strafe Jump/Blaster Jump），.pk3dir 数据包分离引擎与内容，QuakeC 字节码逻辑，ENet UDP 多人，GPLv3
+- [[open-source-game/liblast]] — Godot 4 多人 FPS，Freeman Character System 模块化角色系统，Godot Jolt 物理引擎，Git LFS 资产管理，多窗口调试架构（客户端+服务端+观战），⚠️ 主仓库已弃用迁移至 liblast-framework
 
 ## Concepts
 

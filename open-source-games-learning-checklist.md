@@ -157,7 +157,7 @@
 - [2026-04-09] **Widelands** — 开源实时策略 | `https://github.com/widelands/widelands`
 - [2026-04-09] **Mindustry** — 沙盒塔防 | `https://github.com/Anuken/Mindustry`
 - [2026-04-09] **OpenAge** — Age of Empires 引擎复刻 | `https://github.com/SFTtech/openage`
-- [ ] **OpenHV** — 像素 Sci-Fi RTS | `https://github.com/OpenHV/OpenHV`
+- [2026-04-10] **OpenHV** — 像素 Sci-Fi RTS | `https://github.com/OpenHV/OpenHV`
 - [ ] **Keeper FX** — Dungeon Keeper 开源复刻 | `https://github.com/dkfans/keeperfx`
 - [ ] **Dune II The Maker** — Dune 2 重制 | `https://github.com/stefanhendriks/Dune-II---The-Maker`
 - [ ] **Freeserf.net** — The Settlers I 真实复刻 | `https://github.com/Pyrdacor/freeserf.net`
@@ -379,6 +379,7 @@
 | 77 | 2026-04-09 | Mindustry | 自动化塔防 RTS，Arc Engine 自研 2D 引擎 + @Component 代码生成 ECS + @Sync 帧同步多人，20K+ commits，27.1k stars，JDK 17 + Gradle 多模块 (core/desktop/server/android/ios) |
 | 78 | 2026-04-09 | Trigger Rally | C++ 拉力赛车，PEngine/PSim/Trigger 三层架构分离（渲染/物理/游戏逻辑），PReferenceFrame+PRigidBody 刚体物理+悬挂系统，程序化高度图地形生成，Ghost 回放系统，GPL v2，v0.6.6.1（2019）|
 | 79 | 2026-04-09 | OpenAge | Age of Empires 引擎复刻，C++20+Python3 双语言架构（Cython 绑定），827 C++/h + 291 Python，33 子系统模块(libopenage/)，nyan 声明式内容配置格式，Qt6 GUI + OpenGL 渲染，gameplay 非功能状态（内部模拟重写中），GPLv3 |
+| 80 | 2026-04-10 | OpenHV | OpenRA Mod 科幻 RTS，改编自 Hard Vacuum，MiniYAML 规则数据驱动，C# Traits 系统（资源采集/传送网络/地形改造/Bot AI），源码 GPLv3 + 内容 CC BY，IRC/Matrix 多人匹配 |
 
 ---
 

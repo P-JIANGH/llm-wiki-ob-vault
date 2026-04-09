@@ -369,3 +369,8 @@
 - Created: open-source-game/openage.md (Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，827 C++/h + 291 Python 文件)
 - Updated: index.md (新增 openage 条目), open-source-games-learning-checklist.md (行159 OpenAge checkbox)
 - Clone: https://github.com/SFTtech/openage (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | OpenHV wiki note
+- Created: open-source-game/openhv.md (OpenRA Mod 科幻 RTS，改编自 Hard Vacuum，MiniYAML 数据驱动 + C# Traits 系统)
+- Updated: index.md (新增 openhv 条目), open-source-games-learning-checklist.md (行160 OpenHV checkbox)
+- Clone: https://github.com/OpenHV/OpenHV (git fetch origin main 后台成功)

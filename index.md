@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 44
+> Last updated: 2026-04-09 | Total pages: 45
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -53,6 +53,8 @@
 - [[open-source-game/buildgdx]] — Build Engine 的 Java/LibGDX 跨平台移植，Polymost+软件+GL三渲染器，支持 Duke3D/Shadow Warrior/Blood 等，~74K LOC Java，GPLv3
 - [[open-source-game/nubuildgdx]] — BuildGDX 稳定化分支（stability-first fork），atsb 维护，libGDX 1.9.10 旧依赖策略
 - [[open-source-game/assault-cube]] — CUBE Engine 派生 FPS，ZLIB 极宽松许可，低延迟 ENet 网络，协作地图编辑，~50MB 轻量包体积
+- [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 2 代体素 FPS，支持实时游戏内地图编辑，ENet UDP 网络，~65K LOC C++，ZLIB 许可
+- [[open-source-game/red-eclipse]] — 竞技场射击游戏，基于 Tesseract（Cube 2 派生）引擎，SDL2+OpenGL，跑酷射击融合，内置协作地图编辑器，GPLv3
 
 ## Concepts
 

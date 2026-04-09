@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Red Eclipse 竞技场射击 wiki note
+- Created: open-source-game/red-eclipse.md (Tesseract引擎派生FPS，跑酷射击wall-run/boost/dash，~34K LOC game/，协作WYSIWYG地图编辑，ENet UDP网络，GPLv3)
+- Updated: index.md (total pages: 45), open-source-game/red-eclipse.md, open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | JFDuke3D Duke Nukem 3D 端口 wiki note
 - Created: open-source-game/jfduke3d.md (Jonathon Fowler 移植版，jfbuild Build引擎子模块，Polymost OpenGL渲染，SDL2跨平台，~45K LOC C，GPLv2)
 - Updated: index.md (total pages: 44), open-source-games-learning-checklist.md, log.md
@@ -180,6 +184,10 @@
 - Created: open-source-game/nubuildgdx.md (BuildGDX 稳定化分支，stability-first fork，atsb 维护，libGDX 1.9.10 旧依赖策略，375 Java 文件)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
 
-## [2026-04-09] ingest | AssaultCube 开源 FPS wiki note
-- Created: open-source-game/assault-cube.md (CUBE Engine 派生 FPS，ZLIB 极宽松许可，ENet 低延迟网络，协作地图编辑，~50MB 包体积，clang++ 默认编译)
+## [2026-04-09] ingest | AssaultCube CUBE Engine 派生 FPS wiki note
+- Created: open-source-game/assault-cube.md (CUBE Engine 派生 FPS，ZLIB 极宽松许可，ENet 低延迟网络，协作地图编辑)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | Cube 2: Sauerbraten 开源游戏 wiki note
+- Created: open-source-game/cube-2-sauerbraten.md (CUBE Engine 2 代体素 FPS，~65K LOC C++，稀疏八叉树场景，实时游戏内地图编辑，ENet UDP 网络，ZLIB 许可)
+- Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md

@@ -639,3 +639,9 @@
 - Updated: index.md (新增 sdl-sopwith 条目，total pages: 89), open-source-games-learning-checklist.md (行246 SDL Sopwith checkbox, 学习记录 132), log.md
 - Clone: https://github.com/fragglet/sdl-sopwith (git clone 超时；GitHub 访问网络超时；通过 web_extract 获取项目结构和源码树信息完成分析)
 - Note: src/核心逻辑+sdl/平台层分离是轻量级游戏移植的标准模式；PC Speaker 纯软件模拟复古音色方案；.sop 自定义关卡格式文本格式可编辑；Autotools 多平台条件编译值得参考；Emscripten Web+PWA+触摸三位一体 Web 方案有参考价值
+
+## [2026-04-10] ingest | Pooltool wiki note
+- Created: open-source-game/pooltool.md (Python 台球物理沙盒；Panda3D 渲染 + numba JIT 物理；事件驱动碰撞解析；多碰撞模型可插拔 Stronge/Mathavan/Han；JOSS 论文发表 v0.6.0；Apache 2.0)
+- Updated: index.md (新增 pooltool 条目，total pages: 90), open-source-games-learning-checklist.md (行252 Pooltool checkbox, 学习记录 133), log.md
+- Clone: https://github.com/ekiefl/pooltool (git clone 超时；tarball download 超时；GitHub API 可达；通过 GitHub API tree + raw content + pyproject.toml + CHANGELOG.md 端点获取项目结构和源码树信息完成分析)
+- Note: 物理引擎模块化设计（PhysicsEngine + Resolver 可插拔）值得参考；Stronge Compliant 替代 Mathavan 2010 成为默认体现科学方法；numba JIT 加速 + Python 科学的权衡；JOSS 论文 + 博客增加项目可信度的标准学术开源模式

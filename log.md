@@ -28,6 +28,11 @@
 - Updated: index.md (新增 0-ad 条目), open-source-games-learning-checklist.md (行153 0 A.D. checkbox, 学习记录84), log.md
 - Note: Gitea 仓库被 Anubis 反爬虫保护封禁，GitHub mirror 已废弃；通过 Web 搜索 + GitHub API tree 端点 + mycplus 技术分析完成分析；Pyrogenesis 源码结构：simulation2/ (模拟) + renderer/graphics/ (渲染) + scriptinterface/ (JS 绑定) + ps/ (主应用)
 
+## [2026-04-10] ingest | Shattered Pixel Dungeon wiki note
+- Created: open-source-game/shattered-pixel-dungeon.md (传统 Roguelike 地牢爬行器，libGDX 跨平台架构（Desktop/Android/iOS），Java/JDK 21，程序化关卡生成，5 大区域+天赋系统，6k stars，GPLv3)
+- Updated: index.md (新增 shattered-pixel-dungeon 条目，total pages: 75), open-source-games-learning-checklist.md (行192 ShatteredPD checkbox, 学习记录105), log.md
+- Note: GitHub git clone 超时；通过 GitHub API tarball download (51MB JAR) 获取可运行游戏包；JAR 分析：libGDX/LWJGL 渲染，2663 类，主包 com.shatteredpixel.shatteredpixeldungeon，多平台 native libs (Win/Mac/Linux)；API tree 获取源码结构：core/(1743项) + desktop/ + android/ + ios/ + services/
+
 ## [2026-04-10] ingest | BrogueCE wiki note
 - Created: open-source-game/brogue-ce.md (极简主义 Roguelike，Pure C 代码库，22个.c模块+Dijkstra寻路+确定性游戏回放系统，SDL2/curses 双渲染后端，1.3k stars)
 - Updated: index.md (新增 brogue-ce 条目，total pages: 74), open-source-games-learning-checklist.md (行191 BrogueCE checkbox, 学习记录104), log.md

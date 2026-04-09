@@ -189,7 +189,7 @@
 - [2026-04-10] **Cataclysm: Dark Days Ahead** — 后世界末日生存 | `https://github.com/CleverRaven/Cataclysm-DDA`
 - [2026-04-10] **NetHack** — 经典地下城探索 | `https://github.com/NetHack/NetHack`
 - [2026-04-10] **Brogue CE** — 极简主义随机地下城 | `https://github.com/tmewett/BrogueCE`
-- [ ] **Shattered Pixel Dungeon** — 像素随机地下城 | `https://github.com/00Evan/shattered-pixel-dungeon`
+- [2026-04-10] **Shattered Pixel Dungeon** — 像素随机地下城 | `https://github.com/00-Evan/shattered-pixel-dungeon`
 - [ ] **OpenNefia** — Elona 模组化引擎复刻 | `https://github.com/OpenNefia/OpenNefia`
 - [ ] **Meritous** — 动作冒险地下城 | `https://github.com/Patashu/Meritous`
 
@@ -399,7 +399,8 @@
 || 101 | 2026-04-10 | CnC Tiberian Dawn | 原版1995 Westwood源码，OOP类层次(Foot/Unit/Building/AircraftClass)，COMBUF ACK/Retry网络(6人IPX)，TypeClass数据驱动，DirectX Win95，GPLv3，1629KB纯源码 |
 || 102 | 2026-04-10 | Cataclysm: Dark Days Ahead | 480K LOC C++ (434cpp/457h)，JSON数据驱动(~130K行JSON内容)，双渲染器SDL2/Tiles+Ncurses，Character/NPC/Vehicle/Mutation系统，~242MB仓库含游戏数据，CC BY-SA 3.0 |
 || 103 | 2026-04-10 | NetHack | 纯C无引擎架构(~163MB仓库)，src/核心+dat/Lua地牢生成(14职业)+win/多前端抽象+sys/跨平台；3.7改进：Lua编译替代yacc/lex，跨平台编译，可移植存档，ga-gz变量结构化，18,442 commits，3,536 stars |
-| 104 | 2026-04-10 | BrogueCE | 纯C极简Roguelike，22个.c核心模块(C99无引擎依赖)，src/brogue/主体+src/platform/多后端(SDL2/curses/web)，Dijkstra怪物寻路(Dijkstra.c)，确定性游戏回放系统(Recordings.c)，SeedCatalog种子驱动地牢生成，1.3k stars |
+|| 104 | 2026-04-10 | BrogueCE | 纯C极简Roguelike，22个.c核心模块(C99无引擎依赖)，src/brogue/主体+src/platform/多后端(SDL2/curses/web)，Dijkstra怪物寻路(Dijkstra.c)，确定性游戏回放系统(Recordings.c)，SeedCatalog种子驱动地牢生成，1.3k stars |
+|| 105 | 2026-04-10 | Shattered Pixel Dungeon | libGDX 跨平台 Roguelike（Desktop/Android/iOS），Java/JDK 21，core/1743项共享逻辑+平台启动器分离，Actors/Items/Levels/Sprites/Tiles/UI 模块化架构，20+ 语言 i18n properties 系统，程序化关卡生成 5 区域，天赋树系统，6k stars，GPLv3 |
 
 ---|
 

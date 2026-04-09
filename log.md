@@ -344,3 +344,8 @@
 - Created: open-source-game/beyond-all-reason.md (Spring/Recoil 引擎 RTS，约4.3GB仓库含资源，Lua数据驱动三层架构(luarules/luaui/luaai)，BARb AI JSON配置分层设计，GL4着色器，Busted+Lux测试框架)
 - Updated: index.md (新增 beyond-all-reason 条目, total pages: 63), open-source-games-learning-checklist.md (行154 BAR checkbox, 学习记录75), log.md
 - Clone: https://github.com/beyond-all-reason/Beyond-All-Reason (tarball下载超时332MB/4.3GB总大，通过GitHub API获取源码结构分析)
+
+## [2026-04-09] ingest | Warzone 2100 wiki note
+- Created: open-source-game/warzone-2100.md (3D RTS，157K LOC C++，三后端渲染(OpenGL/Vulkan/GLES)，gamelib/framework/ivis_opengl模块化架构，400+科技树，lib/netplay帧同步多人，WebAssembly支持)
+- Updated: index.md (新增 warzone-2100 条目), open-source-games-learning-checklist.md (行156 checkbox, 学习记录75), log.md
+- Clone: https://github.com/Warzone2100/warzone2100 (depth=1成功)

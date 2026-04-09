@@ -567,3 +567,9 @@
 - Updated: index.md (新增 opennox 条目), open-source-games-learning-checklist.md (行220 OpenNox checkbox, 学习记录 120), log.md
 - Clone: https://github.com/noxworld-dev/opennox (git clone 超时；GitHub API tarball 下载成功)
 - Note: 41 源文件(~20 .c/.cpp) 清洁室重写 Nox 游戏引擎；compat 层分离 Windows/ POSIX/ MSS 音频库兼容；VQA 视频解码器 vqa/ 子目录纯 C++ 实现；Emscripten 支持可通过 WebAssembly 在浏览器运行；需要持有原版 Nox 游戏数据
+
+## [2026-04-10] ingest | reone wiki note
+- Created: open-source-game/reone.md (KotOR/KotOR 2 引擎清洁室重实现，SDL2+OpenGL 3.3 自研引擎，NWScript 虚拟机，GFF/2DA 资源解析，~438 源文件，C++17，GPLv3)
+- Updated: index.md (新增 reone 条目), open-source-games-learning-checklist.md (行221 reone checkbox, 学习记录 121), log.md
+- Clone: https://github.com/seedhartha/reone (git clone --depth=1 成功)
+- Note: 清洁室设计原则（不反编译，基于 BioWare 公开格式规格）；libs/ 下 10 个子系统模块化(audio/game/graphics/gui/input/movie/resource/scene/script/system)；NWScript VM 完整实现；支持 Steam 版 KotOR + TSL；非商业项目 GPLv3

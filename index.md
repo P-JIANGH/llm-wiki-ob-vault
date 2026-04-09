@@ -42,6 +42,7 @@
 - [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY
 - [[open-source-game/openenroth]] — Might and Magic VI-VIII 引擎清洁室重实现，C++23 + CMake，子系统模块化架构（Engine/GUI/Media/Scripting），LuaJIT + sol2 脚本，22 第三方子模块，~136K LOC，仅 MM7 可玩，GPLv2
 - [[open-source-game/opennox]] — Nox (Westwood 2000) 引擎清洁室重实现，SDL2+OpenGL+OpenAL 跨平台抽象，compat 层分离，Emscripten WebAssembly 支持，自研 VQA 视频解码器，MIT
+- [[open-source-game/reone]] — KotOR/KotOR 2 引擎清洁室重实现，SDL2+OpenGL 3.3 自研引擎，NWScript 虚拟机，GFF/2DA 资源解析，~438 源文件，C++17，GPLv3
 - [[open-source-game/cnc-generals-zero-hour]] — EA 官方 C&C Generals + Zero Hour 源码，~2700 .cpp，双游戏目录，W3DDevice + DirectX 9，GameSpy 网络，需 MSVC 6.0，GPL v3
 - [[open-source-game/permafrost-engine]] — OpenGL 3.3 RTS 游戏引擎，纯 C + Python 2.7 脚本，GPU 骨骼动画+分层流场寻路+Fiber 协作多任务，旗舰游戏 EVERGLORY
 - [[open-source-game/freeserf-net]] — The Settlers I 清洁室 C# 重实现，Silk.NET 跨平台渲染，BASS 音频，多人网络开发中，MIT

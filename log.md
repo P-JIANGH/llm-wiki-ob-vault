@@ -466,3 +466,8 @@
 - Created: open-source-game/cataclysm-dark-days-ahead.md (480K LOC C++ (434cpp/457h)，JSON数据驱动~130K行JSON内容，双渲染器 SDL2/Tiles+Ncurses，Character/NPC/Vehicle/Mutation 系统，~242MB仓库含游戏数据，CC BY-SA 3.0，16.2k stars)
 - Updated: index.md (新增 cataclysm-dark-days-ahead 条目，total pages: 72), open-source-games-learning-checklist.md (行189 Cataclysm checkbox, 学习记录102)
 - Clone: https://github.com/CleverRaven/Cataclysm-DDA (git clone --depth=1 成功，242MB 仓库含游戏数据)
+
+## [2026-04-10] ingest | NetHack wiki note
+- Created: open-source-game/nethack.md (纯 C 无引擎架构，163MB仓库，18,442 commits，3,536 stars；src/ 核心游戏逻辑，dat/ Lua 地牢脚本（14职业），win/ Qt/X11/tty/curses 多前端抽象，sys/ 跨平台抽象；3.7 架构：Lua 替代 yacc/lex 编译，跨平台编译支持，可移植存档，Play Again 无退出重开)
+- Updated: index.md (新增 nethack 条目，total pages: 73), open-source-games-learning-checklist.md (行190 NetHack checkbox, 学习记录103)
+- Clone: https://github.com/NetHack/NetHack (git clone 超时；通过 GitHub API 获取源码结构信息完成分析)

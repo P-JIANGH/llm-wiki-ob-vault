@@ -100,7 +100,7 @@
 - [ ] **The Dark Mod** — 潜行 FPS | `https://svn.thedarkmod.com/publicsvn/darkmod_src/trunk`
 
 ### Aliens Versus Predator
-- [ ] **AvP Forever** | `https://github.com/dreamer/avp-forever`
+- [2026-04-09] **AvP Forever** | `https://github.com/dreamer/avp-forever`
 - [ ] **NakedAVP** — AVP Classic 现代端口，SDL3 | `https://github.com/atsb/NakedAVP`
 
 ### Unreal Tournament
@@ -344,7 +344,8 @@
 | 45 | 2026-04-09 | Xonotic | Darkplaces 引擎（Quake 分支），Bunny Hop/Strafe Jump/Blaster Jump 等精湛移动机械，.pk3dir 数据包格式分离引擎与内容，QuakeC 字节码游戏逻辑，ENet UDP 多人，GPLv3 |
 | 46 | 2026-04-09 | Liblast | Godot 4.3+Godot Jolt 物理，多人 FPS 框架，Freeman Character System 模块化角色系统（character_controller/character_component 分离），Git LFS 资产管理，多窗口调试架构（multirun 3窗），⚠️ 主仓库已弃用迁移至 liblast-framework |
 | 47 | 2026-04-09 | .kkrieger | Farbrausch fr_public 仓库工具链源码（122K LOC C++），Werkkzeug3 Portal 渲染引擎（6-Pass 光照管线），64变量操作符树动画系统，数据驱动游戏逻辑（KKriegerGame），V2 合成器+96KB 打包系统，BSD 许可 |
-| 48 | 2026-04-09 | Descent 3 | 经典 6DOF 太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，模块化子系统（AI/渲染/网络/物理分离），需原版游戏数据，v1.6.0 |
+| 48 | 2026-04-09 | Descent 3 | 经典 6DOF 太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，模块化子系统架构，需原版游戏数据，v1.6.0 |
+| 49 | 2026-04-09 | AvP Forever | 多分支 rebasing 叠加策略（icculus/neuromancer/scraft 源码），三族独立行为系统（alien/marine/predator），Direct3D/SDL 多平台层，嵌入式 Bink/Smacker/Miles 二进制库，需原版游戏数据 |
 
 ---
 

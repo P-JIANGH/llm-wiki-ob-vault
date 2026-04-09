@@ -585,3 +585,9 @@
 - Updated: index.md (新增 u7-revisited 条目), open-source-games-learning-checklist.md (行223 U7 Revisited checkbox, 学习记录 123), log.md
 - Clone: https://github.com/ViridianGames/U7Revisited (git clone --depth=1 成功)
 - Note: Ghost(渲染)/Geist(逻辑)双引擎分离架构清晰；StateMachine 基类派生 Loading/Title/Main/Conversation 等状态；Shape Editor 内置调试工具(F1)值得借鉴；8 阶段 Roadmap 展示清洁室重实现的阶段性规划
+
+## [2026-04-10] ingest | DevilutionX wiki note
+- Created: open-source-game/devilutionx.md (Diablo + Hellfire 开源端口，清洁室逆向工程，259 C++/163 H ~54K LOC，CMake 多平台（17+平台），帧同步多人 dvlnet/，Lua 脚本扩展，MIT)
+- Updated: index.md (新增 devilutionx 条目，total pages: 81), open-source-games-learning-checklist.md (行226 DevilutionX checkbox, 学习记录 124), log.md
+- Clone: https://github.com/diasurgical/devilutionX (git clone --depth=1 成功)
+- Note: 清洁室重实现需用户提供原始 MPQ 数据文件；dvlnet/ 帧同步网络支持 ZeroTier 穿透和多平台 TCP P2P；engine/ 子目录 4K+ LOC 处理 sprite 加载（CEL/CL2/CLX 专有格式）和渲染；levels/ 的 drlg_l1~4.cpp 程序化地下城生成设计精巧；Lua REPL 嵌入提供运行时脚本扩展能力

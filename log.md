@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Descent 3 6DOF 太空射击 wiki note
+- Created: open-source-game/descent-3.md (经典 6DOF 太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，模块化子系统架构，需原版游戏数据，v1.6.0)
+- Updated: index.md (新增 descent-3 条目), open-source-games-learning-checklist.md (行99 checkbox, 行347 学习记录48), log.md
+
 ## [2026-04-09] ingest | Liblast Godot 4 多人 FPS wiki note
 - Created: open-source-game/liblast.md (Godot 4.3+Godot Jolt 物理，多人 FPS 框架，Freeman Character System 模块化角色系统，Git LFS 资产管理，多窗口调试架构，⚠️ 主仓库已弃用迁移至 liblast-framework)
 - Updated: index.md (total pages: 46), open-source-games-learning-checklist.md (行298+学习记录46, 行97 Liblast checkbox), log.md

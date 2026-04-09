@@ -261,3 +261,7 @@
 ## [2026-04-09] ingest | Rigel Engine 开源游戏 wiki note
 - Created: open-source-game/rigel-engine.md (Duke Nukem II 清洁室逆向重实现，C++17/SDL2+OpenGL 双渲染器，约 45K LOC，GPLv2，模块化 ECS 架构 engine/game_logic/frontend/renderer/ui)
 - Updated: index.md (total pages: 51), open-source-games-learning-checklist.md (行118 checkbox, 学习记录), log.md
+
+## [2026-04-09] ingest | Fish Folk: Jumpy 开源游戏 wiki note
+- Created: open-source-game/fish-folk-jumpy.md (战术 2D 射击游戏，Bevy/Rust + rapier2d 确定性物理，2-4 人本地/联机，bones_framework 游戏框架，v0.12.2)
+- Updated: index.md (total pages: 53), open-source-games-learning-checklist.md (行120 Fish Folk Jumpy checkbox, 学习记录58), log.md

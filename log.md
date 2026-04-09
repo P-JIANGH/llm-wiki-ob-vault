@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Stunt Rally 3 开源赛车游戏 wiki note
+- Created: open-source-game/stunt-rally-3.md (3D 科幻赛车，Ogre-Next 3.0 渲染+VDrift 仿真，232 赛道+33 载具，GPLv3)
+- Updated: index.md (新增 stunt-rally-3 条目，total pages: 60), open-source-games-learning-checklist.md (行142 Stunt Rally checkbox, 学习记录69), log.md
+
 ## [2026-04-09] ingest | TORCS 开源赛车模拟器 wiki note
 - Created: open-source-game/torcs.md (3D 赛车模拟器，plib OpenGL 渲染，simu 模块化物理仿真，标准化 Robot AI 接口，广泛用于学术研究)
 - Updated: index.md (新增 torcs 条目，total pages: 59), open-source-games-learning-checklist.md (行139 TORCS checkbox, 学习记录67), log.md

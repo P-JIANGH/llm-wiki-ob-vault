@@ -185,7 +185,7 @@
 
 ## Roguelikes (7)
 
-- [ ] **Dungeon Crawl Stone Soup** — 经典 Roguelike，地下城探索 | `https://github.com/crawl/crawl`
+- [2026-04-10] **Dungeon Crawl Stone Soup** — 经典 Roguelike，地下城探索 | `https://github.com/crawl/crawl`
 - [ ] **Cataclysm: Dark Days Ahead** — 后世界末日生存 | `https://github.com/CleverRaven/Cataclysm-DDA`
 - [ ] **NetHack** — 经典地下城探索 | `https://github.com/NetHack/NetHack`
 - [ ] **Brogue CE** — 极简主义随机地下城 | `https://github.com/tmewett/BrogueCE`
@@ -394,7 +394,8 @@
 | 96 | 2026-04-10 | CnC Remastered Collection | EA 官方 C&C TD+RA 源码，.H 文件含~134+241个 C 源码(DEFINE.H 95KB/TYPE.H 62KB等)，双 DLLInterface.cpp 薄封装，C# WinForms 地图编辑器，保留 IPX 网络协议栈，GPL v3+附加条款 |
 | 97 | 2026-04-10 | C&C Generals + Zero Hour | EA 官方源码双目录结构(Generals~1280cpp + GeneralsMD~1421cpp)，W3DDevice Westwood 3D渲染+DX9，GameSpy帧同步网络(FrameDataManager)，AI分层设计(AIPathfind/AIGroup/AISkirmishPlayer)，组件化对象系统(Behavior/Body/Collide/Locomotor)，需 MSVC 6.0 匹配编译，GPL v3+附加条款 |
 | 98 | 2026-04-10 | CnC Red Alert | EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB，CODE/WIN32LIB/WWFLAT32/VQA/IPX 多层架构，ObjectClass RTTI 类系统，MapClass 瓦片地图+战争迷雾，Watcom+TASM 编译，需持有原版游戏数据，GPL v3 |
-| 99 | 2026-04-10 | Zero-K | Spring Engine 纯 Lua 游戏内容仓库(2383 Lua文件)，GadgetHandler 模块化事件驱动架构(ai_CAI 4173行)，物理弹道+智能单位预判，PlanetWars 单机战役，PBR 自定义 Shader API，GPL v2 |
+| 99 | 2026-04-10 | Zero-K | Spring 引擎纯 Lua 游戏内容仓库(2383 Lua文件)，GadgetHandler 模块化事件驱动架构(ai_CAI 4173行)，物理弹道+智能单位预判，PlanetWars 单机战役，PBR 自定义 Shader API，GPL v2 |
+| 100 | 2026-04-10 | Dungeon Crawl Stone Soup | ~412K LOC C++（310 .cc），双模式渲染(ASCII+SDL Tiles)，.des Vault 手绘关卡系统，17+ 神祇契约系统，数据驱动物品/怪物/魔法配置，GPLv2+，20年开源迭代 |
 
 
 ---

@@ -451,3 +451,8 @@
 - Created: open-source-game/zero-k.md (Spring Engine 纯 Lua 游戏内容仓库(2383 Lua)，GadgetHandler 模块化事件驱动架构(ai_CAI 4173行)，物理弹道+智能单位预判，PlanetWars 单机战役，PBR 自定义 Shader，GPL v2)
 - Updated: index.md (新增 zero-k 条目，total pages: 73), open-source-games-learning-checklist.md (行182 Zero-K checkbox, 学习记录99)
 - Clone: https://github.com/ZeroK-RTS/Zero-K (git clone --depth=1 成功，1.1GB仓库含大型美术资源)
+
+## [2026-04-10] ingest | Dungeon Crawl Stone Soup wiki note
+- Created: open-source-game/dungeon-crawl-stone-soup.md (~412K LOC C++，310 .cc/.h，ASCII+SDL Tiles 双模式渲染，.des Vault 手绘关卡系统，17+ 神祇契约系统，数据驱动物品/怪物/魔法配置，GPLv2+，20年开源迭代)
+- Updated: index.md (新增 dungeon-crawl-stone-soup 条目，total pages: 70), open-source-games-learning-checklist.md (行188 DCSS checkbox, 学习记录100)
+- Clone: https://github.com/crawl/crawl (git clone --depth=1 成功，crawl-ref/ 子目录结构)

@@ -543,3 +543,9 @@
 - Updated: index.md (新增 gemrb 条目), open-source-games-learning-checklist.md (行212 GemRB checkbox, 学习记录 116), log.md
 - Clone: https://github.com/gemrb/gemrb (git clone --depth=1 成功)
 - Note: PluginHolder<T> 模板实现插件化架构，40+ 插件分离视频/音频/资源导入，Python3 GUIScript 插件驱动游戏逻辑，Interface.cpp 4266行引擎主循环，Map.cpp 4029行场景管理，EffectQueue.cpp 2571行 AD&D 2E 效果系统，BIF/KEY 资源打包格式参考价值高
+
+## [2026-04-10] ingest | Fallout Community Edition wiki note
+- Created: open-source-game/fallout-community-edition.md (Fallout 1 引擎清洁室重实现，SDL2 跨平台，135K LOC C++，227 源文件，game/int/plib 三层架构，MIT)
+- Updated: index.md (新增 fallout-community-edition 条目), open-source-games-learning-checklist.md (行215 Fallout1 CE checkbox, 学习记录 117), log.md
+- Clone: https://github.com/alexbatalov/fallout1-ce (GitHub API tarball 下载成功)
+- Note: game/ 138文件核心业务层(art/combat/critter/anim/inventry/dialog/gmovie/editor等)；int/ 解释器层(intrpert script VM/datafile/dialog/audiof等)；plib/ 平台抽象层(gnw图形窗口/db数据库/color/assoc)；需持有原版 DAT 游戏数据；多平台 Win/Linux/macOS/iOS/Android

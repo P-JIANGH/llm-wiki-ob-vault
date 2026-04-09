@@ -212,7 +212,7 @@
 - [2026-04-10] **GemRB** — Bioware Infinity Engine 复刻（Baldur's Gate/Icewind Dale/Planescape Torment） | `https://github.com/gemrb/gemrb`
 
 ### Fallout 系列
-- [ ] **Fallout Community Edition** — Fallout 1 完全复刻 | `https://github.com/alexbatalov/fallout1-ce`
+- [2026-04-10] **Fallout Community Edition** — Fallout 1 完全复刻 | `https://github.com/alexbatalov/fallout1-ce`
 - [ ] **Fallout 2 Community Edition** — Fallout 2 完全复刻 | `https://github.com/alexbatalov/fallout2-ce`
 
 ### 经典 RPG 复刻
@@ -412,6 +412,7 @@
 |||| 114 | 2026-04-10 | Ambermoon.net | Ambermoon 经典 RPG C# 完全重写；.NET 6 多平台；Core/Data/Renderer/Frontend 分层模块化架构；Legacy/Pyrdacor 双数据后端；虚拟文件系统支持 ADF/原生文件；OpenGL 渲染器；MIT
 |||| 115 | 2026-04-10 | Exult | Ultima VII 清洁室重实现；SDL 跨平台抽象（9+ CI 平台）；content/bg si sifixes 补丁数据；actors.cc 5370行+schedule.cc 6115行 AI 系统；autotools 多编译器支持；GPLv2
 ||||| 116 | 2026-04-10 | GemRB | Infinity Engine 重实现；PluginHolder<T> 40+ 插件化架构(Core+Video+Audio+Importers)；Python3 GUIScript 驱动游戏逻辑；Interface.cpp 4266行引擎主循环；EffectQueue.cpp 2571行 AD&D 2E 效果系统；BIF/KEY 资源打包格式；SDL2+OpenGL 双后端；C++14；GPLv2
+||||| 117 | 2026-04-10 | Fallout Community Edition | game/int/plib 三层架构(138+35+4子目录)；game/ 核心业务(art/combat/critter/anim/inventry/dialog/gmovie/editor)；int/ script VM(intrpert)+DAT资源(datafile)+FM音乐(audiof)；plib/ 平台抽象(gnw图形/db/color/assoc)；135K LOC C++；需原版 DAT 数据；SDL2 跨平台 Win/Linux/macOS/iOS/Android
 
 ---
 

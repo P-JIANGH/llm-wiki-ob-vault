@@ -285,3 +285,7 @@
 ## [2026-04-09] ingest | Commander Keen in Keen Dreams wiki note
 - Created: open-source-game/commander-keen-in-keen-dreams.md (Commander Keen Episode 4 源码，2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩，约 23K LOC，GPLv2+)
 - Updated: index.md (新增 commander-keen-in-keen-dreams 条目, total pages: 55), open-source-games-learning-checklist.md (行124 Commander Keen in Keen Dreams checkbox), log.md
+
+## [2026-04-09] ingest | Whatajong wiki note
+- Created: open-source-game/whatajong.md (麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT)
+- Updated: index.md (新增 whatajong 条目, total pages: 57), open-source-games-learning-checklist.md (行132 Whatajong checkbox, 学习记录64), log.md

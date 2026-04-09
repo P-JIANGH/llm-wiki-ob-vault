@@ -129,7 +129,7 @@
 
 - [ ] **BlockOut II** — 3D 俄罗斯方块 | `https://sourceforge.net/projects/blockout/files/blockout/BlockOut%202.5`
 - [2026-04-09] **Portal64** — Portal N64 demake | `https://github.com/mwpenny/portal64-still-alive`
-- [ ] **Whatajong** | `https://github.com/masylum/whatajong`
+- [2026-04-09] **Whatajong** | `https://github.com/masylum/whatajong`
 
 ---
 
@@ -362,6 +362,7 @@
 | 61 | 2026-04-09 | Omnispeak | 多后端渲染架构（SDL2/GL/Vulkan/SDL3 可选），Nuked OPL3 嵌入式 FM 合成器，约 51.8K LOC C，ck*_ep.h Episode 分离模块化，id Software 引擎核心复用，VANILLA 模式 bug 兼容原版，GPLv2 |
 | 62 | 2026-04-09 | Commander Keen in Keen Dreams | 2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩，约 23K LOC，GPLv2+ |
 | 63 | 2026-04-09 | Portal64 | N64 Demake 移植 Valve Portal，移除 libultra 私有库依赖，Skeletool64 骨骼动画+显示列表生成，17 室可玩，EPA/GJK 碰撞，debugger 3.6K 行，约 41K LOC C |
+| 64 | 2026-04-09 | Whatajong | 麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT |
 | 1 | 2026-04-08 | Hypersomnia |
 
 ---

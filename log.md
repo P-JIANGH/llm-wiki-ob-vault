@@ -5,6 +5,12 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] lint | 整理 index.md
+- 统一前缀格式：`| [[wikilink]] — 描述`（清除 `||||`、`||>`、`|>` 等混乱前缀）
+- 修复 `!![open-source-game/hurry-curry]` → `[[open-source-game/hurry-curry]]`
+- 重新分组为 5 个 section：AI/LLM/Agent、Game Projects & Studios、Game Dev、Open Source Games、Comparisons
+- 更新: index.md, log.md
+
 ## [2026-04-09] ingest | MemPalace AI 记忆系统
 - Created: entities/mempalace.md (AI 长期记忆系统，ChromaDB verbatim 存储 + 4 层记忆栈，LongMemEval 96.6% raw / 100% hybrid，$0 无 API，MCP Server 19 工具，Claude Code Hook 集成，AAAK lossy 压缩实验性)
 - Updated: index.md (total pages: 49), log.md

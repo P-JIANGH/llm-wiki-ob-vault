@@ -301,3 +301,7 @@
 ## [2026-04-09] ingest | SuperTuxKart wiki note
 - Created: open-source-game/supertuxkart.md (开源卡丁车派对游戏，Bullet Physics btKart 趣味物理引擎，ENet UDP 事件回滚网络同步，SERVER_ONLY 无 GUI 服务器构建，多后端渲染 OpenGL/GLES/DX9，~274K LOC C++，GPLv3)
 - Updated: index.md (新增 supertuxkart 条目, total pages: 58), open-source-games-learning-checklist.md (行138 SuperTuxKart checkbox, 学习记录65), log.md
+
+## [2026-04-09] ingest | Rigs of Rods wiki note
+- Created: open-source-game/rigs-of-rods.md (软体物理沙盒，节点-弹簧车辆形变实时仿真，OGRE 1.11 + AngelScript，2005 年项目，GPLv2，约 19K LOC C++)
+- Updated: index.md (新增 rigs-of-rods 条目, total pages: 59), open-source-games-learning-checklist.md (行140 Rigs of Rods checkbox, 学习记录68), log.md

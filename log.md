@@ -25,6 +25,10 @@
 - Created: open-source-game/vvvvvv.md (重力翻转平台游戏，SDL2 极简依赖全部静态链接，Entity 159K+Game 229K+Labclass 177K+Editor 141K LOC，完整内置关卡编辑器，data.zip PhysicsFS 虚拟文件系统)
 - Updated: index.md (total pages: 50), open-source-games-learning-checklist.md (行114 checkbox, 学习记录52), log.md
 
+## [2026-04-09] ingest | Omnispeak Commander Keen 4/5/6 开源重实现 wiki note
+- Created: open-source-game/omnispeak.md (多后端渲染架构[SDL2/GL/Vulkan/SDL3]，Nuked OPL3 FM 合成器，约 51.8K LOC C，Episode 分离模块化)
+- Updated: index.md (新增 omnispeak 条目，total pages: 55), open-source-games-learning-checklist.md (行123 Omnispeak checkbox), log.md
+
 ## [2026-04-09] lint | 整理 index.md
 - 统一前缀格式：`| [[wikilink]] — 描述`（清除 `||||`、`||>`、`|>` 等混乱前缀）
 - 修复 `!![open-source-game/hurry-curry]` → `[[open-source-game/hurry-curry]]`

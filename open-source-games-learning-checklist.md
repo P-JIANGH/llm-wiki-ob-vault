@@ -120,7 +120,7 @@
 - [2026-04-09] **Fish Folk: Jumpy** — 战术 2D 射击（Bevy） | `https://github.com/fishfolk/jumpy`
 - [2026-04-09] **Fish Folk: Punchy** — 2.5D 清版动作（Bevy） | `https://github.com/fishfolk/punchy`
 - [2026-04-09] **Commander-Genius** — Commander Keen 1-6 模拟器 | `https://gitlab.com/Dringgstein/Commander-Genius`
-- [ ] **Omnispeak** — Keen Goodbye Galaxy 重实现 | `https://github.com/sulix/omnispeak`
+- [2026-04-09] **Omnispeak** — Keen Goodbye Galaxy 重实现 | `https://github.com/sulix/omnispeak`
 - [ ] **Commander Keen in Keen Dreams** | `https://github.com/keendreams/keen`
 
 ---
@@ -359,6 +359,7 @@
 | 58 | 2026-04-09 | Fish Folk: Jumpy | Bevy/Rust 游戏框架 bones_framework；rapier2d 确定性物理(enhanced-determinism)；turborand 原子随机跨平台一致；模块化 src/core/ ui/ audio/ 子系统；serde_yaml+peg 数据驱动；Web WASM 支持 |
 | 59 | 2026-04-09 | Fish Folk: Punchy | Bevy 0.9 + Rapier2D 物理 2.5D 清版动作，fighter_state.rs 2228 行状态机，15+ 插件体系，支持 WASM/Web |
 | 60 | 2026-04-09 | Commander-Genius | Commander Keen 1-6+Dreams 开源解释器，C++完全重写（仅存0.02% CloneKeen代码），SDL2+OpenGL，LUA Mod，4人多人，289 cpp+297 h，GsKit共享库，内置游戏下载器，Cosmos引擎submodule |
+| 61 | 2026-04-09 | Omnispeak | 多后端渲染架构（SDL2/GL/Vulkan/SDL3 可选），Nuked OPL3 嵌入式 FM 合成器，约 51.8K LOC C，ck*_ep.h Episode 分离模块化，id Software 引擎核心复用，VANILLA 模式 bug 兼容原版，GPLv2 |
 | 1 | 2026-04-08 | Hypersomnia |
 
 ---

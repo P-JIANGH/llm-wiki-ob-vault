@@ -603,3 +603,9 @@
 - Updated: index.md (新增 open-diablo-2 条目，total pages: 83), open-source-games-learning-checklist.md (行228 Open Diablo II checkbox, 学习记录 126), log.md
 - Clone: https://github.com/OpenDiablo2/OpenDiablo2 (git clone --depth=1 成功)
 - Note: Go 语言用于游戏引擎的可行性验证；MPQ 数据文件与引擎代码完全分离的设计；otto JS 引擎嵌入用于脚本扩展；Ebiten v2 轻量级 2D 渲染框架；项目拆分策略值得参考：引擎通用化 + 游戏项目专用化
+
+## [2026-04-10] ingest | Abyss Engine wiki note
+- Created: open-source-game/abyss-engine.md (Diablo 2 清洁室重实现引擎，纯 C 编写，~72 文件 ~4859 LOC C99，SDL2+FFmpeg+ZLIB+LibArchive 依赖栈，Manager 单例模式，Scene 状态机，过场动画支持，MIT)
+- Updated: index.md (新增 abyss-engine 条目，total pages: 84), open-source-games-learning-checklist.md (行229 Abyss Engine checkbox, 学习记录 127), log.md
+- Clone: https://github.com/AbyssEngine/AbyssEngine (git clone --depth=1 成功)
+- Note: 纯 C 代码库 C99 标准确保最大兼容性；与 [[open-source-game/devilutionx|EvilutionX]] 清洁室逆向相比，AbyssEngine 选择完全重写路线；LibArchive 直接读取 MPQ 容器复用原版数据是快速启动项目的好方法；VideoManager 处理 FFmpeg 视频解码是 2D 游戏过场动画的标准方案

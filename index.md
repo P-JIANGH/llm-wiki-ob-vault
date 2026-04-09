@@ -128,6 +128,7 @@
 - [[open-source-game/war1gus]] — Warcraft: Orcs & Humans 重实现，基于 Stratagus 引擎，C++17 + Lua 脚本数据驱动，GPLv2
 - [[open-source-game/stargus]] — StarCraft 1998 资产导入 Stratagus 引擎的工具，多格式转换层（GRP/CHK/CASC/SMACKER），startool MPQ 提取，约 15K LOC C++，GPLv2
 - [[open-source-game/wargus]] — Warcraft II mod using the Stratagus engine，wartool 数据提取工具链（wartool.cpp 3432 LOC），GPLv2
+- [[open-source-game/warsmash-mod-engine]] — Warcraft III 模拟器，LibGDX + Java17，~97K LOC，多模块 Gradle，JASS ANTLR 虚拟机，虚拟文件系统支持 MPQ/CASC，AGPL
 - [[open-source-game/widelands]] — Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链，帧同步多人
 - [[open-source-game/wyrmsun]] — 融合神话/历史/虚构元素的多文明 RTS，基于 Stratagus 引擎（Wyrmgus），数据仓库架构，双仓库设计（引擎+内容），持久英雄+物品掉落，GPL 2.0
 

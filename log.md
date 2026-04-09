@@ -426,3 +426,8 @@
 - Created: open-source-game/stargus.md (StarCraft 1998 资产导入 Stratagus 引擎的工具，~15K LOC C++，GPLv2)
 - Updated: index.md (新增 stargus 条目，total pages: 69), open-source-games-learning-checklist.md (行172 checkbox)
 - Clone: https://github.com/Wargus/stargus (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Warsmash Mod Engine wiki note
+- Created: open-source-game/warsmash-mod-engine.md (Warcraft III 模拟器，LibGDX + Java17，~97K LOC，2118 Java 文件，AGPL)
+- Updated: index.md (新增 warsmash-mod-engine 条目，total pages: 70), open-source-games-learning-checklist.md (行173 checkbox, 学习记录95)
+- Clone: https://github.com/Retera/WarsmashModEngine (git clone --depth=1 成功)

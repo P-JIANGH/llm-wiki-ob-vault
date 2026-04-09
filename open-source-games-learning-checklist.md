@@ -170,7 +170,7 @@
 - [2026-04-10] **Wargus** — Warcraft II Tides of Darkness | `https://github.com/Wargus/wargus`
 - [2026-04-09] **Wyrmsun** — 神话/历史/文学元素策略 | `https://github.com/Andrettin/Wyrmsun`
 - [2026-04-10] **Stargus** — StarCraft 导入器 for Stratagus engine | `https://github.com/Wargus/stargus`
-- [ ] **Warsmash Mod Engine** — Warcraft III 模组引擎（LibGDX） | `https://github.com/Retera/WarsmashModEngine`
+- [2026-04-10] **Warsmash Mod Engine** — Warcraft III 模组引擎（LibGDX） | `https://github.com/Retera/WarsmashModEngine`
 
 ### RTS — C&C Remastered
 - [ ] **Command & Conquer Remastered Collection** | `https://github.com/electronicarts/CnC_Remastered_Collection`
@@ -388,9 +388,10 @@
 | 89 | 2026-04-10 | Standard Of Iron | C++20/Qt6/OpenGL 3.3 布匿战争 RTS；ECS 架构（64-bit Entity ID，组件连续存储，System 执行顺序固定）；6 阶段渲染 Pass；骨骼动画+程序化布料物理（Wind+Leg Collision）；JSON 数据驱动（地图/兵种/国家配置）；miniaudio 空间音频；MIT |
 | 90 | 2026-04-10 | OpenBW | StarCraft: Brood War 核心引擎清洁室重实现；header-only C++ 架构（bwgame.h 22K行 + bwenums.h 2.2K + sync.h 1.1K 等 ~28K 总行数）；bwgame.h 单文件 798KB 含完整引擎（单位/建筑/寻路/碰撞/指令）；bwenums.h 228+ 种类单位枚举；sync.h 确定性锁步网络 + ASIO 三后端 TCP/local/socket；korean.h 韩文编码支持；mini-openbwapi BWAPI 兼容层 |
 | 91 | 2026-04-10 | War1gus | Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大算法，GPLv2 |
-| 92 | 2026-04-10 | Wargus | Warcraft II Stratagus 引擎模组，wartool.cpp 3432 LOC 数据提取工具（StormLib MPQ + XMI→MID 音频），GPLv2，v2.4.1，依赖 Stratagus 外部引擎（数据/逻辑完全分离） |
-| 93 | 2026-04-09 | Wyrmsun | 神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，~923MB 游戏内容仓库（含美术/音效/地图），双仓库架构（引擎 Wyrmgus + 内容 Wyrmsun），data/ 数据库系统（civilizations/units/heroes/items），modules/ 跨游戏内容集成（Battle for Wesnoth/0 A.D./Freeciv/DCSS），GPL 2.0 |
-| 94 | 2026-04-10 | Stargus | StarCraft 1998 资产导入 Stratagus 引擎适配器，startool MPQ 提取+多格式转换（GRP/CHK/CASC/SMACKER），~15K LOC C++17，GPLv2 |
+|| 93 | 2026-04-09 | Wyrmsun | 神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，~923MB 游戏内容仓库（含美术/音效/地图），双仓库架构（引擎 Wyrmgus + 内容 Wyrmsun），data/ 数据库系统（civilizations/units/heroes/items），modules/ 跨游戏内容集成（Battle for Wesnoth/0 A.D./Freeciv/DCSS），GPL 2.0 |
+|| 94 | 2026-04-10 | Stargus | StarCraft 1998 资产导入 Stratagus 引擎适配器，startool MPQ 提取+多格式转换（GRP/CHK/CASC/SMACKER），~15K LOC C++17，GPLv2 ||
+|| 95 | 2026-04-10 | Warsmash Mod Engine | LibGDX + Java17 ~97K LOC 多模块 Gradle 项目，JASS ANTLR 虚拟机（指令级栈帧解释器），MDX/M3 模型渲染（转录 mdx-m3-viewer），虚拟文件系统支持 MPQ/CASC 多种归档格式，INI 配置驱动，AGPL，支持 War3 Patch 1.22-1.32 ||
+
 
 ---
 

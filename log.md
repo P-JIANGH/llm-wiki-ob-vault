@@ -199,3 +199,7 @@
 ## [2026-04-09] ingest | Cube 2: Sauerbraten 开源游戏 wiki note
 - Created: open-source-game/cube-2-sauerbraten.md (CUBE Engine 2 代体素 FPS，~65K LOC C++，稀疏八叉树场景，实时游戏内地图编辑，ENet UDP 网络，ZLIB 许可)
 - Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | .kkrieger 开源游戏 wiki note
+- Created: open-source-game/kkrieger.md (Farbrausch fr_public 仓库，Werkkzeug3 引擎分支源码，Portal 渲染 6-Pass 光照，操作符树动画系统，KKriegerGame FPS 游戏逻辑，V2 合成器，122K LOC C++，BSD 许可)
+- Updated: index.md (total pages: 47), open-source-games-learning-checklist.md (行98 checkbox, 学习记录47), log.md

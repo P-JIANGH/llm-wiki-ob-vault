@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-09 | Total pages: 46
+> Last updated: 2026-04-09 | Total pages: 47
 
 ## Entities
 |||[[ksanadock]] — 游戏开发商，时空码头
@@ -57,6 +57,7 @@
 - [[open-source-game/red-eclipse]] — 竞技场射击游戏，基于 Tesseract（Cube 2 派生）引擎，SDL2+OpenGL，跑酷射击融合，内置协作地图编辑器，GPLv3
 - [[open-source-game/xonotic]] — Darkplaces 引擎（Quake 分支）竞技场射击，精湛移动机械（Bunny Hop/Strafe Jump/Blaster Jump），.pk3dir 数据包分离引擎与内容，QuakeC 字节码逻辑，ENet UDP 多人，GPLv3
 - [[open-source-game/liblast]] — Godot 4 多人 FPS，Freeman Character System 模块化角色系统，Godot Jolt 物理引擎，Git LFS 资产管理，多窗口调试架构（客户端+服务端+观战），⚠️ 主仓库已弃用迁移至 liblast-framework
+- [[open-source-game/kkrieger]] — Farbrausch 96KB demo 大赛作品源码工具链，Werkkzeug3 引擎分支，含 Portal 渲染/6-Pass 光照/操作符树动画/V2 合成器，约 122K LOC C++
 
 ## Concepts
 

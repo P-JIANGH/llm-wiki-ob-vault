@@ -95,7 +95,7 @@
 
 - [2026-04-09] **Xonotic** — 竞技场射击，武器丰富 | `https://gitlab.com/xonotic/xonotic`
 - [2026-04-09] **Liblast** — Godot 4 多人 FPS，完全开源工具链 | `https://codeberg.org/liblast/liblast`
-- [ ] **.kkrieger** — 96k 大赛作品，程序化生成 | `https://github.com/farbrausch/fr_public/tree/master/werkkzeug3_kkrieger`
+- [2026-04-09] **.kkrieger** — 96k 大赛作品，程序化生成 | `https://github.com/farbrausch/fr_public/tree/master/werkkzeug3_kkrieger`
 - [ ] **Descent 3** | `https://github.com/kevinbentley/Descent3`
 - [ ] **The Dark Mod** — 潜行 FPS | `https://svn.thedarkmod.com/publicsvn/darkmod_src/trunk`
 
@@ -343,6 +343,7 @@
 | 44 | 2026-04-09 | Red Eclipse | Tesseract 引擎派生（Cube 2→Tesseract→RE），~34K LOC game/+39K shared/，跑酷射击(wall-run/boost/dash)，协作 WYSIWYG 编辑器，多游戏模式(Capture/Defend/Duel等)，ENet UDP 网络，GPLv3 |
 | 45 | 2026-04-09 | Xonotic | Darkplaces 引擎（Quake 分支），Bunny Hop/Strafe Jump/Blaster Jump 等精湛移动机械，.pk3dir 数据包格式分离引擎与内容，QuakeC 字节码游戏逻辑，ENet UDP 多人，GPLv3 |
 | 46 | 2026-04-09 | Liblast | Godot 4.3+Godot Jolt 物理，多人 FPS 框架，Freeman Character System 模块化角色系统（character_controller/character_component 分离），Git LFS 资产管理，多窗口调试架构（multirun 3窗），⚠️ 主仓库已弃用迁移至 liblast-framework |
+| 47 | 2026-04-09 | .kkrieger | Farbrausch fr_public 仓库工具链源码（122K LOC C++），Werkkzeug3 Portal 渲染引擎（6-Pass 光照管线），64变量操作符树动画系统，数据驱动游戏逻辑（KKriegerGame），V2 合成器+96KB 打包系统，BSD 许可 |
 
 ---
 

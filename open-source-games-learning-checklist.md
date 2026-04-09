@@ -250,7 +250,7 @@
 ## Sport (2)
 
 - [2026-04-10] **Pooltool** — 台球物理沙盒 | `https://github.com/ekiefl/pooltool`
-- [ ] **Open Golf** — 高尔夫球 | `https://github.com/mgerdes/Open-Golf`
+- [2026-04-10] **Open Golf** — 高尔夫球 | `https://github.com/mgerdes/Open-Golf`
 
 ---
 
@@ -428,7 +428,8 @@
 ||| 130 | 2026-04-10 | Minosoft | Minecraft 客户端从零重写 Kotlin/Java (~27K LOC)；三模块架构 Core/Eros/Rendering 完全解耦；Netty 网络层手动 Buffer 读取多版本兼容(1.7-1.20.4)；PixLyzer 按需数据下载；zstd 压缩 Mojang 资产；事件驱动渲染架构；Headless 模式无 GUI 运行 |
 | 131 | 2026-04-10 | Taisei Project | 东方 Project 同人弹幕射击；3.2M LOC C + 123K Python (Meson) + 82K GLSL；SDL3 + OpenGL 自研渲染管线；src/ 40+ 子系统模块化(entity/player/enemy/boss/laser/particle/dialog/mod/scm等)；coroutine/ + taskmanager/ 协程任务系统；VFS ZIP 资源打包；多平台(WIN/LINUX/MAC/WEB/SWITCH)；~775MB 仓库(含资产)；自定义许可证（非 GPL）；rng/ 确定性随机数用于多人/回放 |
 | 132 | 2026-04-10 | SDL Sopwith | 经典一战双翼机射击游戏 SDL 移植；src/核心+sdl/平台层分离架构（swauto/swcollsn/swgames 等模块）；Autotools 多平台编译（cygwin/mingw/solaris/qnx/haiku）；SDL2 + PC Speaker 音效模拟；TCP/IP 多人；.sop 自定义关卡格式（支持 power-up）；Gamepad 支持（SDL Game Controller API）；Emscripten WebAssembly + PWA；GPLv2；~873 commits |
-|| 133 | 2026-04-10 | Pooltool | Python 台球物理沙盒；Panda3D 渲染 + numba JIT 物理；事件驱动碰撞解析 PhysicsEngine+Resolver；多碰撞模型可插拔（Stronge Compliant/Mathanavan/Han 2005）；JOSS 论文发表；Apache 2.0；v0.6.0 |
+|| 133 | 2026-04-10 | Pooltool | Python 台球物理沙盒；Panda3D 渲染 + numba JIT 物理；PhysicsEngine+Resolver 多碰撞模型可插拔；JOSS 论文发表；Apache 2.0；v0.6.0 |
+|| 134 | 2026-04-10 | Open Golf | 迷你高尔夫 C 语言；自研 BVH 碰撞物理；Sokol 跨平台 3D 渲染（GL/GLES3）；ImGui 内置关卡编辑器；xatlas+lightmapper 光照贴图烘焙；支持 Windows/Linux/macOS/Android/iOS/Web |
 
 ## 相关 Wiki 页面
 

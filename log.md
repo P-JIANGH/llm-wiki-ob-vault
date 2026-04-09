@@ -645,3 +645,9 @@
 - Updated: index.md (新增 pooltool 条目，total pages: 90), open-source-games-learning-checklist.md (行252 Pooltool checkbox, 学习记录 133), log.md
 - Clone: https://github.com/ekiefl/pooltool (git clone 超时；tarball download 超时；GitHub API 可达；通过 GitHub API tree + raw content + pyproject.toml + CHANGELOG.md 端点获取项目结构和源码树信息完成分析)
 - Note: 物理引擎模块化设计（PhysicsEngine + Resolver 可插拔）值得参考；Stronge Compliant 替代 Mathavan 2010 成为默认体现科学方法；numba JIT 加速 + Python 科学的权衡；JOSS 论文 + 博客增加项目可信度的标准学术开源模式
+
+## [2026-04-10] ingest | Open Golf wiki note
+- Created: open-source-game/open-golf.md (跨平台迷你高尔夫游戏，纯 C 自研物理引擎 BVH 碰撞，Sokol 跨平台 3D 渲染，ImGui 内置关卡编辑器，光照贴图烘焙 xatlas+lightmapper，支持 Windows/Linux/macOS/Android/iOS/Web)
+- Updated: index.md (新增 open-golf 条目，total pages: 91), open-source-games-learning-checklist.md (行253 Open Golf checkbox, 学习记录 134), log.md
+- Clone: https://github.com/mgerdes/Open-Golf (git clone 超时；GitHub API tarball 端点返回 HTML（疑似未带 header）；带正确 Accept: application/vnd.github+json header 的 GitHub API tarball 成功下载 27.9MB gzip)
+- Note: Sokol 是轻量级无依赖跨平台 3D 方案（适合小型游戏项目）；xatlas + lightmapper 管线适合需要烘焙光照的小型场景；BVH 自研碰撞系统适合精确碰撞检测场景；ImGui 内置编辑器是快速迭代工具开发标准方案；Emscripten + WebGL2 完整 Web 发布方案

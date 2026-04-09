@@ -116,7 +116,7 @@
 - [2026-04-09] **DDraceNetwork** — 合作 2D 在线平台跳跃 | `https://github.com/ddnet/ddnet`
 - [2026-04-09] **Sonic Robo Blast 2** — 索尼克 3D 同人作，基于 Doom | `https://git.do.srb2.org/STJr/SRB2`
 - [2026-04-09] **Rigel Engine** — Duke Nukem II 重实现 | `https://github.com/lethal-guitar/RigelEngine`
-- [ ] **Frogatto & Friends** — 动作冒险平台跳跃 | `https://github.com/frogatto/frogatto`
+- [2026-04-09] **Frogatto & Friends** — 动作冒险平台跳跃 | `https://github.com/frogatto/frogatto`
 - [ ] **Fish Folk: Jumpy** — 战术 2D 射击（Bevy） | `https://github.com/fishfolk/jumpy`
 - [ ] **Fish Folk: Punchy** — 2.5D 清版动作（Bevy） | `https://github.com/fishfolk/punchy`
 - [ ] **Commander-Genius** — Commander Keen 1-6 模拟器 | `https://gitlab.com/Dringgstein/Commander-Genius`
@@ -354,8 +354,8 @@
 | 52 | 2026-04-09 | VVVVVV | 重力翻转像素平台游戏，SDL2 极简依赖全部静态链接，Entity 159K+Game 229K+Labclass 177K+Editor 141K LOC，完整内置关卡编辑器，data.zip PhysicsFS 虚拟文件系统 |
 | 53 | 2026-04-09 | OpenGOAL | 四组件架构：goal_src/2.3M LOC GOAL反编译+goalc/49K C++编译器+decompiler/344K C++反编译器+game/241K C++运行时；Jak1 Complete/Jak2 Beta/Jak3 WIP；REPL热重载；iso_data→assets资产管线；mips2c/Overlord/IOP PS2硬件仿真层 |
 | 54 | 2026-04-09 | DDraceNetwork | C++/Rust分层架构(ddnet-libs/engine接口+src/engine/+src/game/)，Rust FFI绑定engine层；CMake+Ninja构建+各平台检测cmake模块；SQLite持久化+UPnP/WebSocket网络穿透；datasrc/Python地图数据编译管线；合作DDRace机制（teehelp/共享重生点/Freeze） |
-| 55 | 2026-04-09 | Sonic Robo Blast 2 | Doom Legacy 分支3D Sonic同人作；双渲染器架构(OpenGL硬件+SDL2软件)；252K LOC C (211 .c+180 .h)；Lua 5.1+DEHACKED扩展；TicCommand帧同步网络多人；Master Server支持；专用服务器模式；info.c单文件22K LOC游戏对象定义表 |
-| 56 | 2026-04-09 | Rigel Engine | Duke Nukem II 清洁室逆向重实现（C++17/SDL2+OpenGL双渲染器，~45K LOC），模块化ECS架构（engine/游戏逻辑/渲染器/UI分离），读原始NUKEM2.CMP数据文件驱动，USE_GL_ES切换OpenGL/GLES2编译选项，ImGui调试UI，GPLv2 |
+| 56 | 2026-04-09 | Sonic Robo Blast 2 | Doom Legacy 分支3D Sonic同人作；双渲染器架构(OpenGL硬件+SDL2软件)；252K LOC C (211 .c+180 .h)；Lua 5.1+DEHACKED扩展；TicCommand帧同步网络多人；Master Server支持；专用服务器模式；info.c单文件22K LOC游戏对象定义表 |
+| 57 | 2026-04-09 | Frogatto & Friends | Anura 引擎模块分离架构（引擎/内容独立仓库）；FFC 脚本数据驱动游戏逻辑；module.cfg 模块元数据+验证器；16 语言本地化；mana 能量系统；v5.1 模块格式需 engine 1.4+ |
 | 1 | 2026-04-08 | Hypersomnia
 
 ---

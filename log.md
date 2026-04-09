@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Frogatto & Friends 开源游戏 wiki note
+- Created: open-source-game/frogatto.md (Anura 引擎模块分离架构，FFC 数据驱动脚本，16 语言本地化，v5.1 模块格式)
+- Updated: index.md (total pages: 52), open-source-games-learning-checklist.md (行119 Frogatto checkbox, 学习记录57), log.md
+
 ## [2026-04-09] ingest | OpenGOAL Jak & Daxter PC 移植 wiki note
 - Created: open-source-game/open-goal.md (Jak & Daxter PC 移植，2.3M LOC GOAL 反编译+goalc GOAL 编译器[49K LOC C++]+decompiler[344K LOC C++]+game runtime[241K LOC C++]，四组件架构，Jak1 Complete/Jak2 Beta/Jak3 In Progress)
 - Updated: index.md (新增 open-goal 条目), open-source-games-learning-checklist.md (行115 OpenGOAL checkbox, 学习记录53), log.md

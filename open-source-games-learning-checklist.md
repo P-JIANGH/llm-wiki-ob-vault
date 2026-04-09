@@ -205,7 +205,7 @@
 - [2026-04-09] **Kandria** — Common Lisp 动作 RPG | `https://codeberg.org/shirakumo/kandria`
 - [2026-04-10] **Naev** — 2D 太空动作/RPG | `https://codeberg.org/naev/naev`
 - [2026-04-10] **Oolite** — 太空开放世界 opera | `https://github.com/OoliteProject/oolite`
-- [ ] **Ambermoon.net** — Ambermoon C# 完全重写 | `https://github.com/Pyrdacor/Ambermoon.net`
+- [2026-04-10] **Ambermoon.net** — Ambermoon C# 完全重写 | `https://github.com/Pyrdacor/Ambermoon.net`
 
 ### Infinity Engine Games (GemRB)
 - [ ] **Exult** — Ultima VII 复刻 | `https://github.com/exult/exult`
@@ -409,6 +409,7 @@
 ||| 111 | 2026-04-10 | Space Station 14 | SS13 C# 重制版，Robust Toolbox 自研引擎（Lidgren UDP + NetSerializer + Avalonia UI），Entity-Component 系统，YAML 原型数据驱动（7591 C# + 2573 YAML），MIT+CC-BY-SA，3.6k stars，5.2k forks |
 ||| 112 | 2026-04-10 | Naev | 2D 太空贸易战斗 RPG，Escape Velocity 风格，C+Rust ~155K LOC + Meson 构建，SDL3+OpenGL 3.3+，Lua 脚本驱动，插件系统（v0.13.0 内置 Plugin Manager），派系/经济/任务子系统，GPLv3，Codeberg |
 ||| 113 | 2026-04-10 | Oolite | Elite (1984) 风格太空开放世界；Objective-C + C 双后端(Cocoa+SDL)共享 Core 层；81K+ LOC Entity 系统；CollisionRegion 碰撞分区；OpenGL Shader 材质系统；OXP 插件扩展包架构(Schemata XML + AddOns 热加载)；GPLv2，无原版资产依赖 |
+||| 114 | 2026-04-10 | Ambermoon.net | Ambermoon 经典 RPG C# 完全重写；.NET 6 多平台；Core/Data/Renderer/Frontend 分层模块化架构；Legacy/Pyrdacor 双数据后端；虚拟文件系统支持 ADF/原生文件；OpenGL 渲染器；MIT
 
 ---
 

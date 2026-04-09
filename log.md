@@ -525,3 +525,9 @@
 - Updated: index.md (新增 oolite 条目), open-source-games-learning-checklist.md (行207 Oolite checkbox, 学习记录 113), log.md
 - Clone: https://github.com/OoliteProject/oolite (git clone --depth=1 成功)
 - Note: 双渲染后端(Cocoa macOS + SDL Windows/Linux)共享同一 Core 层；81K+ LOC Objective-C Entity 基类；CollisionRegion 碰撞分区网格优化；Materials/ 目录完整 OpenGL Shader PBR 材质系统；OXP 插件包架构(Schemata XML 定义 + AddOns 目录热加载)；DebugOXP 开发调试扩展；Oolite Extension 社区驱动大量扩展内容
+
+## [2026-04-10] ingest | Ambermoon.net wiki note
+- Created: open-source-game/ambermoon-net.md (Ambermoon 经典 RPG C# 完全重写，.NET 6 多平台，Core/Data/Renderer/Frontend 分层模块化架构，Legacy/Pyrdacor 双数据后端，虚拟文件系统，MIT)
+- Updated: index.md (新增 ambermoon-net 条目，total pages: 79), open-source-games-learning-checklist.md (行208 Ambermoon.net checkbox, 学习记录 114), log.md
+- Clone: https://github.com/Pyrdacor/Ambermoon.net (git clone --depth=1 成功)
+- Note: .NET Solution 含 20+ 子项目（Core/Data Common/FileSystems/Legacy/Pyrdacor/Renderer.OpenGL/Frontend/Audio/Android 等）；外部游戏数据需从 Pyrdacor/Ambermoon 仓库单独下载；支持原版 1.20 和 Ambermoon Advanced 1.33；v1.12.0 2025-11-24

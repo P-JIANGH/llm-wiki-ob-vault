@@ -627,3 +627,9 @@
 - Updated: index.md (新增 minosoft 条目，total pages: 87), open-source-games-learning-checklist.md (行239 Minosoft checkbox, 学习记录 130), log.md
 - Clone: https://github.com/bixilon/minosoft (git clone --depth=1 成功)
 - Note: 三模块完全解耦（Core无依赖/Eros用MVC/Rendering仅依赖Core）是清洁室重实现的标准架构模式；Netty+手动Buffer读取兼顾性能和多版本兼容；PixLyzer按需下载+ zstd压缩是大型游戏资产管线的好方案；事件驱动渲染使渲染完全独立于GUI
+
+## [2026-04-10] ingest | Taisei Project wiki note
+- Created: open-source-game/taisei.md (东方 Project 同人弹幕射击游戏；C11 + SDL3 + OpenGL 自研渲染管线；src/ 40+ 子系统模块化；~3.2M LOC C + 123K Python + 82K GLSL；多平台 Win/Linux/macOS/Web/Nintendo Switch；~775MB 仓库含资产；自定义许可证；rng/ 确定性随机数用于多人/回放)
+- Updated: index.md (新增 taisei 条目，total pages: 88), open-source-games-learning-checklist.md (行245 Taisei checkbox, 学习记录 131), log.md
+- Clone: https://github.com/taisei-project/taisei (git clone 超时；tarball 106MB+ 超时；通过 GitHub API 获取项目结构和源码树信息完成分析)
+- Note: 3.2M LOC C 是本清单最大代码库之一；自研 SDL3+OpenGL 渲染管线证明了 2D STG 场景下手写渲染的可行性；82K GLSL + 46K boss.c 是弹幕 Pattern 编排核心；scm/ 脚本系统提供内容扩展性；coroutine/ + taskmanager/ 协程任务机制值得关注

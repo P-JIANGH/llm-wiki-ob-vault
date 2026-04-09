@@ -242,7 +242,7 @@
 
 ## Shoot 'em up (2)
 
-- [ ] **Taisei Project** — 东方 Project 同人，SDL3 + OpenGL | `https://github.com/taisei-project/taisei`
+- [2026-04-10] **Taisei Project** — 东方 Project 同人，SDL3 + OpenGL | `https://github.com/taisei-project/taisei`
 - [ ] **SDL Sopwith** — 经典双翼机射击移植 | `https://github.com/fragglet/sdl-sopwith`
 
 ---
@@ -426,6 +426,7 @@
 |||| 128 | 2026-04-10 | OpenKore | Perl + C XS 扩展混合架构；Task 链式 AI 系统(MapRoute/TalkNPC/FollowActor 等)；三模式网络连接(XKore/XKore2/XKoreProxy)；txt 配置数据驱动(control/ 目录)；plugins/ 插件生态；XSTools C 扩展处理高性能网络封包 |
 |||||| 129 | 2026-04-10 | OpenKO | Knight Online (1298/9) 清洁室逆向开源复刻；双端分离架构：Client DirectX 9 (仅 Windows/MSVC) + Server 跨平台 CMake (Linux/macOS)；多进程服务器(AIServer/Ebenezer/Aujard/ItemManager/VersionManager)；~265K LOC C++；自定义二进制网络协议(LZF压缩+JvCryption加密)；100+ opcode 枚举；17 个 git submodules 依赖管理；早期开发，学术目的 |
 ||| 130 | 2026-04-10 | Minosoft | Minecraft 客户端从零重写 Kotlin/Java (~27K LOC)；三模块架构 Core/Eros/Rendering 完全解耦；Netty 网络层手动 Buffer 读取多版本兼容(1.7-1.20.4)；PixLyzer 按需数据下载；zstd 压缩 Mojang 资产；事件驱动渲染架构；Headless 模式无 GUI 运行 |
+| 131 | 2026-04-10 | Taisei Project | 东方 Project 同人弹幕射击；3.2M LOC C + 123K Python (Meson) + 82K GLSL；SDL3 + OpenGL 自研渲染管线；src/ 40+ 子系统模块化(entity/player/enemy/boss/laser/particle/dialog/mod/scm等)；coroutine/ + taskmanager/ 协程任务系统；VFS ZIP 资源打包；多平台(WIN/LINUX/MAC/WEB/SWITCH)；~775MB 仓库(含资产)；自定义许可证（非 GPL）；rng/ 确定性随机数用于多人/回放 |
 
 ## 相关 Wiki 页面
 

@@ -217,7 +217,7 @@
 
 ### 经典 RPG 复刻
 - [2026-04-10] **OpenEnroth** — Might and Magic VI-VIII 引擎重制 | `https://github.com/OpenEnroth/OpenEnroth`
-- [ ] **OpenNox** — Nox 引擎社区扩展 | `https://github.com/noxworld-dev/opennox`
+- [2026-04-10] **OpenNox** — Nox 引擎社区扩展 | `https://github.com/noxworld-dev/opennox`
 - [ ] **reone** — KOTOR / KOTOR 2 引擎 | `https://github.com/seedhartha/reone`
 - [ ] **Severed Chains** — Legend of Dragoon 反向工程移植 | `https://github.com/Legend-of-Dragoon-Modding/Severed-Chains`
 - [ ] **Ultima VII: Revisited** — Ultima VII 3D 重制引擎 | `https://github.com/ViridianGames/U7Revisited`
@@ -415,6 +415,7 @@
 | 117 | 2026-04-10 | Fallout Community Edition | game/int/plib 三层架构(138+35+4子目录)；game/ 核心业务(art/combat/critter/anim/inventry/dialog/gmovie/editor)；int/ script VM(intrpert)+DAT资源(datafile)+FM音乐(audiof)；plib/ 平台抽象(gnw图形/db/color/assoc)；135K LOC C++；需原版 DAT 数据；SDL2 跨平台 Win/Linux/macOS/iOS/Android |
 || 118 | 2026-04-10 | Fallout 2 Community Edition | 纯 C++ 清洁室重实现；GitHub API 分析：378 文件树，4.5MB+ C++ 代码；src/interpreter.cc 脚本 VM 核心；src/mapper/ 内置地图编辑器；SDL2 跨平台抽象层；Sfall 兼容性层(sfall_config/globals/opcodes)；6 分支(main+5 feature)；os/android/ios/macos/windows 平台适配；third_party vendored SDL2/zlib；需原版 master.dat/critter.dat 游戏数据 |
 ||| 119 | 2026-04-10 | OpenEnroth | Might and Magic VI-VIII 引擎重实现；C++23 + CMake，~136K LOC (102K cpp + 34K h)；9 大子系统模块化架构(Application/Engine/GUI/Io/Library/Media/Scripting/Utility/Arcomage)；22 个 Git Submodules 自包含依赖(LuaJIT/ImGui/spdlog/fmt/nlohmann_json等)；LuaJIT + sol2 脚本；GitHub Actions 三平台 CI；仅 MM7 可玩，MM6/MM8 WIP；GPLv2 |
+| 120 | 2026-04-10 | OpenNox | Nox (Westwood 2000) 引擎清洁室重实现；SDL2+OpenGL+OpenAL 跨平台抽象；compat 层分离 win/posix/mss 兼容层；32位模式(-m32)保持原版数据布局；Emscripten WebAssembly 支持；自研 VQA 视频解码器；41 源文件 ~13MB 仓库；MIT |
 
 ---
 

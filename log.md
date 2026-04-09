@@ -561,3 +561,9 @@
 - Updated: index.md (新增 openenroth 条目), open-source-games-learning-checklist.md (行219 OpenEnroth checkbox, 学习记录 119), log.md
 - Clone: https://github.com/OpenEnroth/OpenEnroth (git clone 超时；GitHub API tarball 下载成功)
 - Note: 子系统 Architecture/Engine(60项)/GUI(16项)/Io(12项)/Library(26项)/Media(19项)/Scripting(27项)/Utility(22项)/Arcomage(4项) 高度模块化；22 个第三方 submodules(LuaJIT/ImGui-docking/spdlog/fmt/nlohmann_json/magic_enum等)；C++23 强制标准；ccache/sccache + mold/lld 链接器支持；GitHub Actions 三平台 CI (Windows/Linux/macOS)；目前仅 MM7 可玩，MM6/MM8 WIP；需持有原版 Might and Magic VII 游戏数据
+
+## [2026-04-10] ingest | OpenNox wiki note
+- Created: open-source-game/opennox.md (Nox (Westwood 2000) 引擎清洁室重实现，SDL2+OpenGL+OpenAL 跨平台抽象，compat 层分离 win/posix/mss，32位模式(-m32)保持原版数据布局，Emscripten WebAssembly 支持，自研 VQA 视频解码器，MIT)
+- Updated: index.md (新增 opennox 条目), open-source-games-learning-checklist.md (行220 OpenNox checkbox, 学习记录 120), log.md
+- Clone: https://github.com/noxworld-dev/opennox (git clone 超时；GitHub API tarball 下载成功)
+- Note: 41 源文件(~20 .c/.cpp) 清洁室重写 Nox 游戏引擎；compat 层分离 Windows/ POSIX/ MSS 音频库兼容；VQA 视频解码器 vqa/ 子目录纯 C++ 实现；Emscripten 支持可通过 WebAssembly 在浏览器运行；需要持有原版 Nox 游戏数据

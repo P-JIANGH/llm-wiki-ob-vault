@@ -158,7 +158,7 @@
 - [2026-04-09] **Mindustry** — 沙盒塔防 | `https://github.com/Anuken/Mindustry`
 - [2026-04-09] **OpenAge** — Age of Empires 引擎复刻 | `https://github.com/SFTtech/openage`
 - [2026-04-10] **OpenHV** — 像素 Sci-Fi RTS | `https://github.com/OpenHV/OpenHV`
-- [ ] **Keeper FX** — Dungeon Keeper 开源复刻 | `https://github.com/dkfans/keeperfx`
+- [2026-04-09] **Keeper FX** — Dungeon Keeper 开源复刻 | `https://github.com/dkfans/keeperfx`
 - [ ] **Dune II The Maker** — Dune 2 重制 | `https://github.com/stefanhendriks/Dune-II---The-Maker`
 - [ ] **Freeserf.net** — The Settlers I 真实复刻 | `https://github.com/Pyrdacor/freeserf.net`
 - [ ] **Permafrost Engine** — C OpenGL 3.3 RTS 引擎 | `https://github.com/eduard-permyakov/permafrost-engine`
@@ -381,6 +381,7 @@
 | 79 | 2026-04-09 | OpenAge | Age of Empires 引擎复刻，C++20+Python3 双语言架构（Cython 绑定），827 C++/h + 291 Python，33 子系统模块(libopenage/)，nyan 声明式内容配置格式，Qt6 GUI + OpenGL 渲染，gameplay 非功能状态（内部模拟重写中），GPLv3 |
 | 80 | 2026-04-10 | OpenHV | OpenRA Mod 科幻 RTS，改编自 Hard Vacuum，MiniYAML 规则数据驱动，C# Traits 系统（资源采集/传送网络/地形改造/Bot AI），源码 GPLv3 + 内容 CC BY，IRC/Matrix 多人匹配 |
 | 84 | 2026-04-10 | 0 A.D. | 历史古代战争 RTS，Pyrogenesis 自研 3D 引擎（C++/JS），simulation2/ 模拟层 + renderer/graphics/ 渲染层分离，Actor XML 数据驱动，~15GB 仓库，29K+ commits，Release 28 Boiorix（首个非 Alpha） |
+| 85 | 2026-04-09 | Keeper FX | Dungeon Keeper 开源增强，~235K LOC C/C++，从反编译到完全重写（Ariadne A*寻路+lua脚本+ENet多人），CMake/SDL2/VCpkg，GPLv2 |
 
 ---
 

@@ -378,3 +378,8 @@
 - Created: open-source-game/openhv.md (OpenRA Mod 科幻 RTS，改编自 Hard Vacuum，MiniYAML 数据驱动 + C# Traits 系统)
 - Updated: index.md (新增 openhv 条目), open-source-games-learning-checklist.md (行160 OpenHV checkbox)
 - Clone: https://github.com/OpenHV/OpenHV (git fetch origin main 后台成功)
+
+## [2026-04-09] ingest | KeeperFX wiki note
+- Created: open-source-game/keeper-fx.md (Dungeon Keeper 开源增强版，Ariadne A*寻路+lua脚本+ENet多人，~235K LOC C/C++，GPLv2)
+- Updated: index.md (新增 keeper-fx 条目), open-source-games-learning-checklist.md (行161 Keeper FX checkbox, 学习记录85)
+- Clone: https://github.com/dkfans/keeperfx (git clone --depth=1 成功)

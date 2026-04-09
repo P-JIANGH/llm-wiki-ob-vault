@@ -128,7 +128,7 @@
 ## Puzzle (3)
 
 - [ ] **BlockOut II** — 3D 俄罗斯方块 | `https://sourceforge.net/projects/blockout/files/blockout/BlockOut%202.5`
-- [ ] **Portal64** — Portal N64 demake | `https://github.com/mwpenny/portal64-still-alive`
+- [2026-04-09] **Portal64** — Portal N64 demake | `https://github.com/mwpenny/portal64-still-alive`
 - [ ] **Whatajong** | `https://github.com/masylum/whatajong`
 
 ---
@@ -360,7 +360,8 @@
 | 59 | 2026-04-09 | Fish Folk: Punchy | Bevy 0.9 + Rapier2D 物理 2.5D 清版动作，fighter_state.rs 2228 行状态机，15+ 插件体系，支持 WASM/Web |
 | 60 | 2026-04-09 | Commander-Genius | Commander Keen 1-6+Dreams 开源解释器，C++完全重写（仅存0.02% CloneKeen代码），SDL2+OpenGL，LUA Mod，4人多人，289 cpp+297 h，GsKit共享库，内置游戏下载器，Cosmos引擎submodule |
 | 61 | 2026-04-09 | Omnispeak | 多后端渲染架构（SDL2/GL/Vulkan/SDL3 可选），Nuked OPL3 嵌入式 FM 合成器，约 51.8K LOC C，ck*_ep.h Episode 分离模块化，id Software 引擎核心复用，VANILLA 模式 bug 兼容原版，GPLv2 |
-| 62 | 2026-04-09 | Commander Keen in Keen Dreams | 2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩（约 23K LOC），static/ 预编译游戏数据打包，GRMODE EGA/CGA 双模式，GPLv2+ |
+| 62 | 2026-04-09 | Commander Keen in Keen Dreams | 2014 众筹开源，id Software 早期 C+汇编架构，VGA 13h 软件渲染，LZHUF 压缩，约 23K LOC，GPLv2+ |
+| 63 | 2026-04-09 | Portal64 | N64 Demake 移植 Valve Portal，移除 libultra 私有库依赖，Skeletool64 骨骼动画+显示列表生成，17 室可玩，EPA/GJK 碰撞，debugger 3.6K 行，约 41K LOC C |
 | 1 | 2026-04-08 | Hypersomnia |
 
 ---

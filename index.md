@@ -60,6 +60,7 @@
 - [[open-source-game/kkrieger]] — Farbrausch 96KB demo 大赛作品源码工具链，Werkkzeug3 引擎分支，含 Portal 渲染/6-Pass 光照/操作符树动画/V2 合成器，约 122K LOC C++
 - [[open-source-game/descent-3]] — 经典 6DOF（六自由度）太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，需原版游戏数据，v1.6.0
 - [[open-source-game/avp-forever]] — Aliens versus Predator (1999) 源码维护项目，多分支 rebasing 策略叠加 icculus/neuromancer/scraft 等源码，SDL/Linux 移植，需原版游戏数据
+- [[open-source-game/nakedavp]] — Aliens vs Predator Classic (2000) SDL3 现代化端口，双渲染器自动降级（OpenGL/GLES2），Win API 抽象层，atsb 主导维护，三族独立 AI/武器/HUD，约 45K LOC C/C++
 - [[open-source-game/the-dark-mod]] — Doom 3/id Tech 4 引擎潜行 FPS，AAS 区域感知+AI 通信子系统+Memory 系统，170+ 社区任务，源码 GPL+资产 CC BY-NC-SA 3.0 双许可
 
 ## Concepts

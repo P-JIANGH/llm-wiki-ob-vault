@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LLM Wiki</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4.13.0/lib/themes/vue.css">
+  <style>
+    :root {
+      --theme-color: #3f51b5;
+      --theme-color-light: #7986cb;
+    }
+    /* Make sidebar more readable */
+    .sidebar-nav > ul > li > a {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .sidebar-nav ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    .sidebar-nav > ul > li > ul {
+      padding-left: 0.8em;
+    }
+    .sidebar-nav a {
+      color: #555;
+      font-size: 13px;
+    }
+    .sidebar-nav a:hover {
+      color: var(--theme-color);
+    }
+    /* Better table styling for mobile */
+    .markdown-section table {
+      font-size: 13px;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+    }
+    .markdown-section table td,
+    .markdown-section table th {
+      padding: 6px 10px;
+    }
+    /* Cover page styling */
+    .cover-main {
+      background: linear-gradient(135deg, #3f51b5 0%, #7986cb 100%);
+    }
+    /* Smooth scroll */
+    html { scroll-behavior: smooth; }
+    /* Code blocks */
+    pre { font-size: 13px; }
+  </style>
+</head>
+<body>
+  <div id="app">加载中...</div>
+  <script>
+    window.$docsify = {
+      name: 'LLM Wiki',
+      repo: 'https://gitcode.com/jingh_hnr/llm-wiki-ob-vault',
+      loadSidebar: '_sidebar.md',
+      subMaxLevel: 3,
+      auto2top: true,
+      search: {
+        placeholder: '搜索知识库...',
+        noData: '没有找到相关结果',
+        depth: 3
+      },
+      markdown: {
+        linkify: true,
+        typographer: true
+      },
+      // Wikilink plugin: convert [[Page]] or [[Page|Label]] at render time
+      plugins: [
+        function(hook, vm) {
+          hook.init(function() {
+            // Build page map from loaded files
+          });
+          hook.beforeEach(function(content, next) {
+            // Convert [[wikilinks]] to markdown links
+            var converted = content.replace(
+              /\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,
+              function(match, page, label) {
+                var displayLabel = label ? label.trim() : page.trim();
+                // Use docsify route - assume flat structure
+                var safePage = page.trim().toLowerCase().replace(/\s+/g, '-');
+                return '[' + displayLabel + '](#/' + safePage + ')';
+              }
+            );
+            next(converted);
+          });
+          hook.doneEach(function() {
+            // Post-process rendered HTML for any remaining wikilinks
+            var els = document.querySelectorAll('.markdown-section a');
+            els.forEach(function(el) {
+              var href = el.getAttribute('href');
+              if (href && href.startsWith('#/[')) {
+                // Fix double-encoded links
+              }
+            });
+          });
+        }
+      ]
+    };
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.0/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@4.13.0/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-bash.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-python.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-json.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-yaml.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-cpp.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-c.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-gdscript.min.js"></script>
+</body>
+</html>

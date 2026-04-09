@@ -1,0 +1,16 @@
+wing: llm_wiki_ob_vault
+rooms:
+- name: entities
+  description: Files from entities/
+- name: concepts
+  description: Files from concepts/
+- name: memory_systems
+  description: Files from memory-systems/
+- name: comparisons
+  description: Files from comparisons/
+- name: raw
+  description: Files from raw/
+- name: open_source_game
+  description: Files from open-source-game/
+- name: general
+  description: Files that don't fit other rooms

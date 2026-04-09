@@ -421,3 +421,8 @@
 - Created: open-source-game/wyrmsun.md (神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，双仓库架构，持久英雄+物品掉落系统，GPL 2.0)
 - Updated: index.md (新增 wyrmsun 条目，total pages: 68), open-source-games-learning-checklist.md (行171 checkbox, 学习记录93)
 - Clone: https://github.com/Andrettin/Wyrmsun (git clone --depth=1 成功，923MB 内容仓库)
+
+## [2026-04-10] ingest | Stargus wiki note
+- Created: open-source-game/stargus.md (StarCraft 1998 资产导入 Stratagus 引擎的工具，~15K LOC C++，GPLv2)
+- Updated: index.md (新增 stargus 条目，total pages: 69), open-source-games-learning-checklist.md (行172 checkbox)
+- Clone: https://github.com/Wargus/stargus (git clone --depth=1 成功)

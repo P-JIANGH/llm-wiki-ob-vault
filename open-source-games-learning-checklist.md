@@ -169,7 +169,7 @@
 - [2026-04-10] **War1gus** — Warcraft: Orcs & Humans | `https://github.com/Wargus/war1gus`
 - [2026-04-10] **Wargus** — Warcraft II Tides of Darkness | `https://github.com/Wargus/wargus`
 - [2026-04-09] **Wyrmsun** — 神话/历史/文学元素策略 | `https://github.com/Andrettin/Wyrmsun`
-- [ ] **Stargus** — StarCraft 导入器 | `https://github.com/Wargus/stargus`
+- [2026-04-10] **Stargus** — StarCraft 导入器 for Stratagus engine | `https://github.com/Wargus/stargus`
 - [ ] **Warsmash Mod Engine** — Warcraft III 模组引擎（LibGDX） | `https://github.com/Retera/WarsmashModEngine`
 
 ### RTS — C&C Remastered
@@ -390,6 +390,7 @@
 | 91 | 2026-04-10 | War1gus | Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大算法，GPLv2 |
 | 92 | 2026-04-10 | Wargus | Warcraft II Stratagus 引擎模组，wartool.cpp 3432 LOC 数据提取工具（StormLib MPQ + XMI→MID 音频），GPLv2，v2.4.1，依赖 Stratagus 外部引擎（数据/逻辑完全分离） |
 | 93 | 2026-04-09 | Wyrmsun | 神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，~923MB 游戏内容仓库（含美术/音效/地图），双仓库架构（引擎 Wyrmgus + 内容 Wyrmsun），data/ 数据库系统（civilizations/units/heroes/items），modules/ 跨游戏内容集成（Battle for Wesnoth/0 A.D./Freeciv/DCSS），GPL 2.0 |
+| 94 | 2026-04-10 | Stargus | StarCraft 1998 资产导入 Stratagus 引擎适配器，startool MPQ 提取+多格式转换（GRP/CHK/CASC/SMACKER），~15K LOC C++17，GPLv2 |
 
 ---
 

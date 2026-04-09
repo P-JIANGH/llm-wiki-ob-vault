@@ -23,6 +23,11 @@
 - Created: open-source-game/openbw.md (StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ ~28K LOC，bwgame.h 22K行单文件含完整引擎，确定性锁步网络 sync.h，mini-openbwapi BWAPI 兼容层)
 - Updated: index.md (新增 openbw 条目), open-source-games-learning-checklist.md (行168 OpenBW checkbox, 学习记录90), log.md
 
+## [2026-04-10] ingest | Lugaru HD wiki note
+- Created: open-source-game/lugaru.md (跨平台 3D 动作游戏，C++/SDL2/OpenGL ~38K LOC，双层骨骼动画插值，9种AI状态机，GPLv2+源码/CC BY-SA 资产双许可)
+- Updated: index.md (新增 lugaru 条目，total pages: 94), open-source-games-learning-checklist.md (行263 Lugaru checkbox, 学习记录139), log.md
+- Note: GitHub.com web clone 超时，通过 GitHub API tarball 端点成功下载 36MB tarball，API tree 端点分析源码结构完成分析
+
 ## [2026-04-10] ingest | 0 A.D. Empires Ascendant wiki note
 - Created: open-source-game/0-ad.md (历史古代战争 RTS，Pyrogenesis 自研 3D 引擎，C++/JavaScript 混合架构，Simulation/Graphics 分离，~15GB 仓库，29K+ commits)
 - Updated: index.md (新增 0-ad 条目), open-source-games-learning-checklist.md (行153 0 A.D. checkbox, 学习记录84), log.md

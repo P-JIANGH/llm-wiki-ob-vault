@@ -260,7 +260,7 @@
 - [2026-04-10] **OpenLara** — 古墓丽影经典引擎 | `https://github.com/XProger/OpenLara`
 - [2026-04-10] **CroftEngine** — Tomb Raider 1 引擎重制 | `https://github.com/stohrendorf/CroftEngine`
 - [2026-04-10] **Tomb Engine** — Tomb Raider 1-5 引擎（Core Design 时代） | `https://github.com/TombEngine/TombEngine`
-- [ ] **Lugaru: The Rabbit's Foot** — 跨平台 3D 动作 | `https://github.com/WolfireGames/lugaru`
+- [2026-04-10] **Lugaru: The Rabbit's Foot** — 跨平台 3D 动作 | `https://github.com/WolfireGames/lugaru`
 - [ ] **Overgrowth** — Lugaru 续作 | `https://github.com/WolfireGames/overgrowth`
 - [ ] **RE3** — GTA III + GTA VC 完全逆向源码 | `https://github.com/VideogameSources/gta3-decomp-alt`
 
@@ -433,7 +433,8 @@
 || 135 | 2026-04-10 | OpenRW | GTA III 清洁室重实现引擎，rwcore/rwengine/rwgame 模块化架构，OpenGL+Bullet Physics+SDL2，GPLv3，需原版游戏数据，~2K commits |
 || 136 | 2026-04-10 | OpenLara | 古墓丽影经典引擎开源重实现，多后端渲染架构(gapi/)、32平台支持(win/osx/nix/ios/android/psp/psv/nx/web等)，固定点数学引擎(fixed/)，collision.h 4向碰撞+room分割，BSD 2-Clause |
 |||| 137 | 2026-04-10 | CroftEngine | Tomb Raider 1 引擎重制 v2.5.0，685 C++ 源文件，CMake 3.16+，LGPLv3，archive/loader/ 分层支持 TR1/TR2/TR3/TOMB4 四代存档，ghosting/ 幽灵竞速系统，双渲染器(OpenGL+软件)降级，Boost+spdlog+FFmpeg 依赖栈，Glidos 纹理包支持 |
-||| 138 | 2026-04-10 | Tomb Engine | Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，模块化 Game/Renderer/Physics/Scripting/Resources，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版许可证 |
+| 138 | 2026-04-10 | Tomb Engine | Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版 |
+| 139 | 2026-04-10 | Lugaru HD | C++/SDL2/OpenGL ~38K LOC，8个子系统模块（Animation/Audio/Environment/Graphic/Level/Math/Objects/Platform），双层骨骼动画插值（animCurrent↔animTarget + frameCurrent↔frameTarget），9种AI状态机（passive/guard/search/attack/pathfind等），enable_shared_from_this循环引用管理，Data/资产数据分离（Animations/Maps/Campaigns/Dialogues），GPLv2+源码/CC BY-SA 3.0-4.0 资产双许可，41 stars |
 
 ## 相关 Wiki 页面
 

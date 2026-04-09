@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total pages: 67
+|> Last updated: 2026-04-10 | Total pages: 68
 
 ## AI / LLM / Agent
 
@@ -128,6 +128,7 @@
 - [[open-source-game/war1gus]] — Warcraft: Orcs & Humans 重实现，基于 Stratagus 引擎，C++17 + Lua 脚本数据驱动，GPLv2
 - [[open-source-game/wargus]] — Warcraft II mod using the Stratagus engine，wartool 数据提取工具链（wartool.cpp 3432 LOC），GPLv2
 - [[open-source-game/widelands]] — Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链，帧同步多人
+- [[open-source-game/wyrmsun]] — 融合神话/历史/虚构元素的多文明 RTS，基于 Stratagus 引擎（Wyrmgus），数据仓库架构，双仓库设计（引擎+内容），持久英雄+物品掉落，GPL 2.0
 
 ## Comparisons
 

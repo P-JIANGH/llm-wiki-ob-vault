@@ -168,7 +168,7 @@
 - [2026-04-10] **OpenBW** — StarCraft: Brood War 开源 | `https://github.com/OpenBW/openbw`
 - [2026-04-10] **War1gus** — Warcraft: Orcs & Humans | `https://github.com/Wargus/war1gus`
 - [2026-04-10] **Wargus** — Warcraft II Tides of Darkness | `https://github.com/Wargus/wargus`
-- [ ] **Wyrmsun** — 神话/历史/文学元素策略 | `https://github.com/Andrettin/Wyrmsun`
+- [2026-04-09] **Wyrmsun** — 神话/历史/文学元素策略 | `https://github.com/Andrettin/Wyrmsun`
 - [ ] **Stargus** — StarCraft 导入器 | `https://github.com/Wargus/stargus`
 - [ ] **Warsmash Mod Engine** — Warcraft III 模组引擎（LibGDX） | `https://github.com/Retera/WarsmashModEngine`
 
@@ -389,6 +389,7 @@
 | 90 | 2026-04-10 | OpenBW | StarCraft: Brood War 核心引擎清洁室重实现；header-only C++ 架构（bwgame.h 22K行 + bwenums.h 2.2K + sync.h 1.1K 等 ~28K 总行数）；bwgame.h 单文件 798KB 含完整引擎（单位/建筑/寻路/碰撞/指令）；bwenums.h 228+ 种类单位枚举；sync.h 确定性锁步网络 + ASIO 三后端 TCP/local/socket；korean.h 韩文编码支持；mini-openbwapi BWAPI 兼容层 |
 | 91 | 2026-04-10 | War1gus | Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大算法，GPLv2 |
 | 92 | 2026-04-10 | Wargus | Warcraft II Stratagus 引擎模组，wartool.cpp 3432 LOC 数据提取工具（StormLib MPQ + XMI→MID 音频），GPLv2，v2.4.1，依赖 Stratagus 外部引擎（数据/逻辑完全分离） |
+| 93 | 2026-04-09 | Wyrmsun | 神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，~923MB 游戏内容仓库（含美术/音效/地图），双仓库架构（引擎 Wyrmgus + 内容 Wyrmsun），data/ 数据库系统（civilizations/units/heroes/items），modules/ 跨游戏内容集成（Battle for Wesnoth/0 A.D./Freeciv/DCSS），GPL 2.0 |
 
 ---
 

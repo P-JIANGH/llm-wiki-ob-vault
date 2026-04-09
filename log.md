@@ -416,3 +416,8 @@
 - Created: open-source-game/wargus.md (Warcraft II mod using the Stratagus engine，wartool 数据提取工具链（wartool.cpp 3432 LOC），StormLib MPQ 归档处理，GPLv2，v2.4.1)
 - Updated: index.md (新增 wargus 条目，total pages: 67), open-source-games-learning-checklist.md (行170 checkbox, 学习记录92)
 - Clone: https://github.com/Wargus/wargus (git clone --depth=1 成功)
+
+## [2026-04-09] ingest | Wyrmsun wiki note
+- Created: open-source-game/wyrmsun.md (神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，双仓库架构，持久英雄+物品掉落系统，GPL 2.0)
+- Updated: index.md (新增 wyrmsun 条目，total pages: 68), open-source-games-learning-checklist.md (行171 checkbox, 学习记录93)
+- Clone: https://github.com/Andrettin/Wyrmsun (git clone --depth=1 成功，923MB 内容仓库)

@@ -38,6 +38,11 @@
 - Updated: index.md (新增 brogue-ce 条目，total pages: 74), open-source-games-learning-checklist.md (行191 BrogueCE checkbox, 学习记录104), log.md
 - Note: GitHub git clone 和 tarball download 均超时；通过 GitHub web API (repo tree + raw content 端点) 获取源码结构完成分析；src/brogue/ 核心模块：RogueMain.c(入口) + Architect.c(地牢生成) + Dijkstra.c(寻路) + Recordings.c(回放) + Monsters.c(AI) + Items.c(物品)
 
+## [2026-04-10] ingest | OpenNefia wiki note
+- Created: open-source-game/opennefia.md (Elona 模组化引擎复刻，.NET 8.0 + Love2dCS 渲染，Core/Content/EntryPoint 三层架构，Harmony 运行时补丁 + NuGet Mod 加载，2058 C# + 436 Lua 文件)
+- Updated: index.md (新增 opennefia 条目), open-source-games-learning-checklist.md (行193 OpenNefia checkbox, 学习记录106), log.md
+- Note: GitHub git clone 超时(GnuTLS); 通过 GitHub API tarball download (master.tar.gz 21MB) 获取源码完成分析；OpenNefia.Core/Content 双模块架构 + IoC 依赖注入 + YAML 原型系统 + NLua 脚本 + NuGet 包管理 Mod 加载
+
 ## [2026-04-09] ingest | RVGL 开源赛车游戏 wiki note
 - Created: open-source-game/rvgl.md (Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心引擎私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人)
 - Updated: index.md (新增 rvgl 条目，total pages: 60), open-source-games-learning-checklist.md (行143 RVGL checkbox, 学习记录70), log.md

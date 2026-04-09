@@ -124,8 +124,9 @@
 | [[open-source-game/rvgl]] — Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人 |
 | [[open-source-game/yorg]] — TrackMania 风格开源赛车，Panda3D 引擎驱动，Python 3.x，多人 XMPP 同步，GPLv3 |
 - [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike，~412K LOC C++，双模式渲染(ASCII+SDL Tiles)，.des Vault 手绘关卡，17+ 神祇契约，数据驱动配置，GPLv2+，20年迭代
-- [[open-source-game/nethack]] — 经典 Roguelike 地下城探索，Rogue/Hack 直系后裔，3.7 开发中；纯 C 无引擎架构，Lua 数据驱动地牢生成（替代 yacc/lex），多平台前端抽象层（win/），18,442 commits，3,536 stars
-- [[open-source-game/brogue-ce]] — 极简主义 Roguelike，Pure C 代码库，22个.c模块+Dijkstra寻路+确定性游戏回放系统，SDL2/curses 双渲染后端，1.3k stars
+|- [[open-source-game/opennefia]] — Elona 日本 roguelike RPG 的模块化开源引擎复刻，.NET 8.0 + Love2dCS，Harmony 运行时补丁 + NuGet Mod 加载器，2058 C# + 436 Lua 文件
+|- [[open-source-game/nethack]] — 经典 Roguelike 地下城探索，Rogue/Hack 直系后裔，3.7 开发中；纯 C 无引擎架构
+|- [[open-source-game/brogue-ce]] — 极简主义 Roguelike，Pure C 代码库，22个.c模块+Dijkstra寻路+确定性游戏回放系统
 - [[open-source-game/shattered-pixel-dungeon]] — 传统 Roguelike 地牢爬行器，libGDX 跨平台架构（Desktop/Android/iOS），Java/JDK 21，程序化关卡生成，5 大区域+天赋系统，6k stars，GPLv3
 - [[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/Roguelike/城市建造等），含源码链接 |
 

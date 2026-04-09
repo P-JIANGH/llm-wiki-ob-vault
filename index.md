@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total pages: 82
+|> Last updated: 2026-04-10 | Total pages: 83
 
 ## AI / LLM / Agent
 
@@ -53,6 +53,7 @@
 - [[open-source-game/daggerfall-unity]] — Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect 原生资产读取，QuestMachine 任务系统，FullSerializer 存档，ModManager 模组支持，MIT
 - [[open-source-game/devilutionx]] — Diablo + Hellfire 开源端口，清洁室逆向工程，259 C++/163 H ~54K LOC，CMake 多平台（17+平台），帧同步多人 dvlnet/，Lua 脚本扩展，MIT
 - [[open-source-game/freeablo]] — Diablo 1 引擎清洁室重实现，双线程架构（渲染/逻辑分离），确定性锁步网络，Nuklear GUI，~38K LOC C++17，**已归档**，MIT
+- [[open-source-game/open-diablo-2]] — Go + Ebiten 2D 引擎实现的 Diablo 2 开源复刻，模块化架构（d2app/d2core/d2game/d2networking），帧同步 P2P 多人，otto JS 脚本引擎，**项目已拆分**：引擎→Abyss Engine，游戏→OpenDiablo2
 - [[open-source-game/veloren]] — Rust 体素多人 RPG，400K LOC，24 crates workspace，ECS (specs) + QUIC 网络 + 自研体素渲染器，GPLv3，~16K commits
 - [[open-source-game/space-station-14]] — Space Station 13 现代 C# 重制版，Robust Toolbox 自研引擎，Entity-Component 架构，YAML 原型数据驱动，MIT+CC-BY-SA
 - [[open-source-game/exult]] — Ultima VII 游戏引擎清洁室重实现，SDL 跨平台，完整支持《黑门》+《毒岛》，GPL v2，~48K LOC C++

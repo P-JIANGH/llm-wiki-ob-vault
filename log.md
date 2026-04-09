@@ -597,3 +597,9 @@
 - Updated: index.md (新增 freeablo 条目，total pages: 82), open-source-games-learning-checklist.md (行227 Freeablo checkbox, 学习记录 125), log.md
 - Clone: https://github.com/wheybags/freeablo (git clone --depth=1 成功)
 - Note: 项目已归档(2020年)；双线程架构(渲染/逻辑分离)保证模拟速度独立性；确定性锁步网络(禁用浮点数+定点数数学)；StormLib 读取原版 MPQ 数据；Nuklear GUI 替代 librocket；依赖管理从 Hunter 切换到完全内嵌
+
+## [2026-04-10] ingest | Open Diablo II wiki note
+- Created: open-source-game/open-diablo-2.md (Go+Ebiten v2 2D 游戏引擎实现的 Diablo 2 开源复刻，模块化 d2app/d2core/d2game/d2networking/d2script，帧同步 P2P 多人，otto JS 脚本引擎，项目已拆分：引擎→AbyssEngine，游戏→OpenDiablo2)
+- Updated: index.md (新增 open-diablo-2 条目，total pages: 83), open-source-games-learning-checklist.md (行228 Open Diablo II checkbox, 学习记录 126), log.md
+- Clone: https://github.com/OpenDiablo2/OpenDiablo2 (git clone --depth=1 成功)
+- Note: Go 语言用于游戏引擎的可行性验证；MPQ 数据文件与引擎代码完全分离的设计；otto JS 引擎嵌入用于脚本扩展；Ebiten v2 轻量级 2D 渲染框架；项目拆分策略值得参考：引擎通用化 + 游戏项目专用化

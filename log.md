@@ -5,6 +5,10 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-09] ingest | Xonotic 竞技场射击 wiki note
+- Created: open-source-game/xonotic.md (Darkplaces 引擎 Quake 分支，精湛移动机械 Bunny Hop/Strafe Jump/Blaster Jump，.pk3dir 数据包格式，QuakeC 字节码，ENet UDP，GPLv3)
+- Updated: index.md (total pages: 46), open-source-game/xonotic.md, open-source-games-learning-checklist.md, log.md
+
 ## [2026-04-09] ingest | Red Eclipse 竞技场射击 wiki note
 - Created: open-source-game/red-eclipse.md (Tesseract引擎派生FPS，跑酷射击wall-run/boost/dash，~34K LOC game/，协作WYSIWYG地图编辑，ENet UDP网络，GPLv3)
 - Updated: index.md (total pages: 45), open-source-game/red-eclipse.md, open-source-games-learning-checklist.md, log.md

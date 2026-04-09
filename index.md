@@ -55,6 +55,7 @@
 - [[open-source-game/assault-cube]] — CUBE Engine 派生 FPS，ZLIB 极宽松许可，低延迟 ENet 网络，协作地图编辑，~50MB 轻量包体积
 - [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 2 代体素 FPS，支持实时游戏内地图编辑，ENet UDP 网络，~65K LOC C++，ZLIB 许可
 - [[open-source-game/red-eclipse]] — 竞技场射击游戏，基于 Tesseract（Cube 2 派生）引擎，SDL2+OpenGL，跑酷射击融合，内置协作地图编辑器，GPLv3
+- [[open-source-game/xonotic]] — Darkplaces 引擎（Quake 分支）竞技场射击，精湛移动机械（Bunny Hop/Strafe Jump/Blaster Jump），.pk3dir 数据包分离引擎与内容，QuakeC 字节码逻辑，ENet UDP 多人，GPLv3
 
 ## Concepts
 

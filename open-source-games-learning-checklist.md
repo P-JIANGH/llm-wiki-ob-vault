@@ -93,7 +93,7 @@
 
 ## First-Person Shooter — Other (5)
 
-- [ ] **Xonotic** — 竞技场射击，武器丰富 | `https://gitlab.com/xonotic/xonotic`
+- [2026-04-09] **Xonotic** — 竞技场射击，武器丰富 | `https://gitlab.com/xonotic/xonotic`
 - [ ] **Liblast** — Godot 4 多人 FPS，完全开源工具链 | `https://codeberg.org/liblast/liblast`
 - [ ] **.kkrieger** — 96k 大赛作品，程序化生成 | `https://github.com/farbrausch/fr_public/tree/master/werkkzeug3_kkrieger`
 - [ ] **Descent 3** | `https://github.com/kevinbentley/Descent3`
@@ -341,6 +341,7 @@
 | 42 | 2026-04-09 | AssaultCube | CUBE Engine 派生 FPS，ZLIB 极宽松许可，低延迟 ENet 网络，协作地图编辑，~50MB 轻量包体积 |
 | 43 | 2026-04-09 | Cube 2: Sauerbraten | CUBE Engine 2 代体素 FPS(~65K LOC C++)，稀疏八叉树场景，实时游戏内地图编辑，ENet UDP 网络，ZLIB 极宽松许可 |
 | 44 | 2026-04-09 | Red Eclipse | Tesseract 引擎派生（Cube 2→Tesseract→RE），~34K LOC game/+39K shared/，跑酷射击(wall-run/boost/dash)，协作 WYSIWYG 编辑器，多游戏模式(Capture/Defend/Duel等)，ENet UDP 网络，GPLv3 |
+| 45 | 2026-04-09 | Xonotic | Darkplaces 引擎（Quake 分支），Bunny Hop/Strafe Jump/Blaster Jump 等精湛移动机械，.pk3dir 数据包格式分离引擎与内容，QuakeC 字节码游戏逻辑，ENet UDP 多人，GPLv3 |
 
 ---
 

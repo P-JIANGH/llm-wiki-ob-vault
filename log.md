@@ -319,3 +319,8 @@
 - Created: open-source-game/vdrift.md
 - Updated: index.md, log.md
 - Clone: https://github.com/VDrift/vdrift
+
+## [2026-04-09] ingest | Yorg 开源赛车游戏 wiki note
+- Created: open-source-game/yorg.md (TrackMania 风格开源赛车，Panda3D 引擎驱动，Python 3.x，多人 XMPP 同步，GPLv3)
+- Updated: index.md (新增 yorg 条目), open-source-games-learning-checklist.md (行145 Yorg checkbox, 学习记录71), log.md
+- Clone: https://github.com/cflavio/yorg

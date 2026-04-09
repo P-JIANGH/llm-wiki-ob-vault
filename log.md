@@ -393,3 +393,8 @@
 - Created: open-source-game/freeserf-net.md (The Settlers I C# 清洁室重实现，Silk.NET 跨平台渲染，BASS 音频，~200 文件 ~35K LOC，多人网络开发中)
 - Updated: index.md (新增 freeserf-net 条目), open-source-games-learning-checklist.md (行163 checkbox, 学习记录87)
 - Clone: https://github.com/Pyrdacor/freeserf.net (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Permafrost Engine wiki note
+- Created: open-source-game/permafrost-engine.md (OpenGL 3.3 RTS 游戏引擎，纯 C + Python 2.7 脚本，GPU 骨骼动画+分层流场寻路+Fiber 协作多任务，旗舰游戏 EVERGLORY，2739 stars)
+- Updated: index.md (新增 permafrost-engine 条目，total pages: 65), open-source-games-learning-checklist.md (行164 checkbox)
+- Clone: https://github.com/eduard-permyakov/permafrost-engine (git clone 超时；仓库 ~320MB，GitHub API 获取结构和 README 完成分析)

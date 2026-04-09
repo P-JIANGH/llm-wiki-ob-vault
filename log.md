@@ -253,3 +253,7 @@
 ## [2026-04-09] ingest | DDraceNetwork 开源游戏 wiki note
 - Created: open-source-game/ddnet.md (Teeworlds DDRace 模组社区延续版，合作 2D 平台跳跃游戏，ddnet-libs C++/Rust 分层架构（rust-bridge/engine接口 + src/engine/ + src/game/），CMake+Ninja 构建，SDL2+OpenGL 渲染，SQLite 持久化排行榜，datasrc/Python 地图数据编译管线，合作 DDRace 机制 Freeeze/teehelp/共享重生点，ISC 许可)
 - Updated: index.md (total pages: 50), open-source-games-learning-checklist.md (行116 checkbox, 学习记录54), log.md
+
+## [2026-04-09] ingest | Rigel Engine 开源游戏 wiki note
+- Created: open-source-game/rigel-engine.md (Duke Nukem II 清洁室逆向重实现，C++17/SDL2+OpenGL 双渲染器，约 45K LOC，GPLv2，模块化 ECS 架构 engine/game_logic/frontend/renderer/ui)
+- Updated: index.md (total pages: 51), open-source-games-learning-checklist.md (行118 checkbox, 学习记录), log.md

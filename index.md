@@ -133,6 +133,7 @@
 | [[open-source-game/rvgl]] — Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人 |
 | [[open-source-game/yorg]] — TrackMania 风格开源赛车，Panda3D 引擎驱动，Python 3.x，多人 XMPP 同步，GPLv3 |
 - [[open-source-game/fallout-community-edition]] — Fallout 1 引擎清洁室重实现，SDL2 跨平台，135K LOC C++，保留原版 gameplay + bugfix + QoL 改进，MIT
+- [[open-source-game/fallout2-ce]] — Fallout 2 清洁室重实现，C++17/SDL2 多平台支持(GitHub API 分析：4.5MB+ C++，378 源码文件)，Sfall 兼容性层，保留原版 gameplay+bugfix+QoL，需原版游戏数据
 - [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike，~412K LOC C++，双模式渲染(ASCII+SDL Tiles)，.des Vault 手绘关卡，17+ 神祇契约，数据驱动配置，GPLv2+，20年迭代
 || [[open-source-game/opennefia]] — Elona 日本 roguelike RPG 的模块化开源引擎复刻，.NET 8.0 + Love2dCS，Harmony 运行时补丁 + NuGet Mod 加载器，2058 C# + 436 Lua 文件
 || [[open-source-game/openmw]] — Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，完整工具链(opencs/bsatool/esmtool/navmeshtool)，GPLv3，v0.51.0

@@ -549,3 +549,9 @@
 - Updated: index.md (新增 fallout-community-edition 条目), open-source-games-learning-checklist.md (行215 Fallout1 CE checkbox, 学习记录 117), log.md
 - Clone: https://github.com/alexbatalov/fallout1-ce (GitHub API tarball 下载成功)
 - Note: game/ 138文件核心业务层(art/combat/critter/anim/inventry/dialog/gmovie/editor等)；int/ 解释器层(intrpert script VM/datafile/dialog/audiof等)；plib/ 平台抽象层(gnw图形窗口/db数据库/color/assoc)；需持有原版 DAT 游戏数据；多平台 Win/Linux/macOS/iOS/Android
+
+## [2026-04-10] ingest | Fallout 2 Community Edition wiki note
+- Created: open-source-game/fallout2-ce.md (Fallout 2 清洁室重实现，C++17/SDL2 多平台，378 文件，4.5MB+ C++，Sfall 兼容性层，MIT)
+- Updated: index.md (新增 fallout2-ce 条目), open-source-games-learning-checklist.md (行216 Fallout2 CE checkbox, 学习记录 118), log.md
+- Clone: https://github.com/alexbatalov/fallout2-ce (git clone + tarball download 均超时；通过 GitHub API tree/readme 端点获取源码结构完成分析)
+- Note: src/interpreter.cc 脚本 VM 核心引擎；src/mapper/ 内置地图编辑器(mp_scrpt/targt/text/func)；SDL2 跨平台抽象；Sfall 兼容性(sfall_config/globals/opcodes/metarules)；third_party vendored SDL2/zlib；6 分支(main+5 feature)；os/android/ios/macos/windows 多平台适配；需原版 master.dat/critter.dat 游戏数据

@@ -85,7 +85,7 @@
 
 ## First-Person Shooter — CUBE Engine (3)
 
-- [ ] **AssaultCube** — 免费多人 FPS | `https://github.com/assaultcube/AC`
+- [2026-04-09] **AssaultCube** — 免费多人 FPS | `https://github.com/assaultcube/AC`
 - [ ] **Cube 2: Sauerbraten** — 多人大厅 FPS | `https://sourceforge.net/projects/sauerbraten`
 - [ ] **Red Eclipse** — 现代复古竞技场射击 | `https://github.com/redeclipse/base`
 
@@ -338,6 +338,7 @@
 | 39 | 2026-04-09 | JFDuke3D | JonoF Duke Nukem 3D 端口，jfbuild Build引擎子模块分离(~45K LOC C)，Polymost OpenGL 渲染器，SDL2 跨平台，GPLv2，需要原版游戏数据 |
 | 40 | 2026-04-09 | JFShadowWarrior | Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost 3D 渲染器(OpenGL/GLES2)，多平台 Linux/Mac/Win/BSD，GTK+3 UI 可选，Makefile 编译选项模块化设计 |
 | 41 | 2026-04-09 | NuBuildGDX | BuildGDX 稳定化分支(stability-first fork)，atsb 维护，libGDX 1.9.10 旧依赖策略，375 Java 文件，Polymost+软件+GL 三渲染器架构继承 |
+| 42 | 2026-04-09 | AssaultCube | CUBE Engine 派生 FPS，ZLIB 极宽松许可，ENet 低延迟网络(56Kbps)，协作地图编辑(editmode)，~50MB 包体积，clang++ 默认编译 |
 
 ---
 

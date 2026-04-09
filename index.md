@@ -52,6 +52,7 @@
 - [[open-source-game/jfshadowwarrior]] — Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost OpenGL/GLES2，多平台（Linux/Mac/Win/BSD），GTK+ UI 可选，GPLv2
 - [[open-source-game/buildgdx]] — Build Engine 的 Java/LibGDX 跨平台移植，Polymost+软件+GL三渲染器，支持 Duke3D/Shadow Warrior/Blood 等，~74K LOC Java，GPLv3
 - [[open-source-game/nubuildgdx]] — BuildGDX 稳定化分支（stability-first fork），atsb 维护，libGDX 1.9.10 旧依赖策略
+- [[open-source-game/assault-cube]] — CUBE Engine 派生 FPS，ZLIB 极宽松许可，低延迟 ENet 网络，协作地图编辑，~50MB 轻量包体积
 
 ## Concepts
 

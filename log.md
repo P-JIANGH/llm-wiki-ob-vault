@@ -179,3 +179,7 @@
 ## [2026-04-09] ingest | NuBuildGDX 开源游戏 wiki note
 - Created: open-source-game/nubuildgdx.md (BuildGDX 稳定化分支，stability-first fork，atsb 维护，libGDX 1.9.10 旧依赖策略，375 Java 文件)
 - Updated: index.md, open-source-games-learning-checklist.md, log.md
+
+## [2026-04-09] ingest | AssaultCube 开源 FPS wiki note
+- Created: open-source-game/assault-cube.md (CUBE Engine 派生 FPS，ZLIB 极宽松许可，ENet 低延迟网络，协作地图编辑，~50MB 包体积，clang++ 默认编译)
+- Updated: index.md, open-source-games-learning-checklist.md, log.md

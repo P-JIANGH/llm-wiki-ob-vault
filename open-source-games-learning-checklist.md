@@ -216,7 +216,7 @@
 - [2026-04-10] **Fallout 2 Community Edition** — Fallout 2 完全复刻 | `https://github.com/alexbatalov/fallout2-ce`
 
 ### 经典 RPG 复刻
-- [ ] **OpenEnroth** — Might and Magic VI-VIII 引擎重制 | `https://github.com/OpenEnroth/OpenEnroth`
+- [2026-04-10] **OpenEnroth** — Might and Magic VI-VIII 引擎重制 | `https://github.com/OpenEnroth/OpenEnroth`
 - [ ] **OpenNox** — Nox 引擎社区扩展 | `https://github.com/noxworld-dev/opennox`
 - [ ] **reone** — KOTOR / KOTOR 2 引擎 | `https://github.com/seedhartha/reone`
 - [ ] **Severed Chains** — Legend of Dragoon 反向工程移植 | `https://github.com/Legend-of-Dragoon-Modding/Severed-Chains`
@@ -413,7 +413,8 @@
 |||| 115 | 2026-04-10 | Exult | Ultima VII 清洁室重实现；SDL 跨平台抽象（9+ CI 平台）；content/bg si sifixes 补丁数据；actors.cc 5370行+schedule.cc 6115行 AI 系统；autotools 多编译器支持；GPLv2
 ||||| 116 | 2026-04-10 | GemRB | Infinity Engine 重实现；PluginHolder<T> 40+ 插件化架构(Core+Video+Audio+Importers)；Python3 GUIScript 驱动游戏逻辑；Interface.cpp 4266行引擎主循环；EffectQueue.cpp 2571行 AD&D 2E 效果系统；BIF/KEY 资源打包格式；SDL2+OpenGL 双后端；C++14；GPLv2
 | 117 | 2026-04-10 | Fallout Community Edition | game/int/plib 三层架构(138+35+4子目录)；game/ 核心业务(art/combat/critter/anim/inventry/dialog/gmovie/editor)；int/ script VM(intrpert)+DAT资源(datafile)+FM音乐(audiof)；plib/ 平台抽象(gnw图形/db/color/assoc)；135K LOC C++；需原版 DAT 数据；SDL2 跨平台 Win/Linux/macOS/iOS/Android |
-| 118 | 2026-04-10 | Fallout 2 Community Edition | 纯 C++ 清洁室重实现；GitHub API 分析：378 文件树，4.5MB+ C++ 代码；src/interpreter.cc 脚本 VM 核心；src/mapper/ 内置地图编辑器；SDL2 跨平台抽象层；Sfall 兼容性层(sfall_config/globals/opcodes)；6 分支(main+5 feature)；os/android/ios/macos/windows 平台适配；third_party vendored SDL2/zlib；需原版 master.dat/critter.dat 游戏数据 |
+|| 118 | 2026-04-10 | Fallout 2 Community Edition | 纯 C++ 清洁室重实现；GitHub API 分析：378 文件树，4.5MB+ C++ 代码；src/interpreter.cc 脚本 VM 核心；src/mapper/ 内置地图编辑器；SDL2 跨平台抽象层；Sfall 兼容性层(sfall_config/globals/opcodes)；6 分支(main+5 feature)；os/android/ios/macos/windows 平台适配；third_party vendored SDL2/zlib；需原版 master.dat/critter.dat 游戏数据 |
+||| 119 | 2026-04-10 | OpenEnroth | Might and Magic VI-VIII 引擎重实现；C++23 + CMake，~136K LOC (102K cpp + 34K h)；9 大子系统模块化架构(Application/Engine/GUI/Io/Library/Media/Scripting/Utility/Arcomage)；22 个 Git Submodules 自包含依赖(LuaJIT/ImGui/spdlog/fmt/nlohmann_json等)；LuaJIT + sol2 脚本；GitHub Actions 三平台 CI；仅 MM7 可玩，MM6/MM8 WIP；GPLv2 |
 
 ---
 

@@ -555,3 +555,9 @@
 - Updated: index.md (新增 fallout2-ce 条目), open-source-games-learning-checklist.md (行216 Fallout2 CE checkbox, 学习记录 118), log.md
 - Clone: https://github.com/alexbatalov/fallout2-ce (git clone + tarball download 均超时；通过 GitHub API tree/readme 端点获取源码结构完成分析)
 - Note: src/interpreter.cc 脚本 VM 核心引擎；src/mapper/ 内置地图编辑器(mp_scrpt/targt/text/func)；SDL2 跨平台抽象；Sfall 兼容性(sfall_config/globals/opcodes/metarules)；third_party vendored SDL2/zlib；6 分支(main+5 feature)；os/android/ios/macos/windows 多平台适配；需原版 master.dat/critter.dat 游戏数据
+
+## [2026-04-10] ingest | OpenEnroth wiki note
+- Created: open-source-game/openenroth.md (Might and Magic VI-VIII 引擎清洁室重实现，C++23 + CMake，~136K LOC，9 大子系统模块化架构，22 个 Git Submodules，LuaJIT + sol2 脚本，GPLv2)
+- Updated: index.md (新增 openenroth 条目), open-source-games-learning-checklist.md (行219 OpenEnroth checkbox, 学习记录 119), log.md
+- Clone: https://github.com/OpenEnroth/OpenEnroth (git clone 超时；GitHub API tarball 下载成功)
+- Note: 子系统 Architecture/Engine(60项)/GUI(16项)/Io(12项)/Library(26项)/Media(19项)/Scripting(27项)/Utility(22项)/Arcomage(4项) 高度模块化；22 个第三方 submodules(LuaJIT/ImGui-docking/spdlog/fmt/nlohmann_json/magic_enum等)；C++23 强制标准；ccache/sccache + mold/lld 链接器支持；GitHub Actions 三平台 CI (Windows/Linux/macOS)；目前仅 MM7 可玩，MM6/MM8 WIP；需持有原版 Might and Magic VII 游戏数据

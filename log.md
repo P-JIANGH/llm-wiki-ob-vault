@@ -245,3 +245,7 @@
 ## [2026-04-09] ingest | Super Mario 64 开源游戏 wiki note
 - Created: open-source-game/super-mario-64.md (N64 经典 3D 平台跳跃完整反编译源码，2746 C 文件，src/engine/ 图节点渲染+src/game/ 游戏逻辑，支持 jp/us/eu/sh/cn 多版本构建，GPLv2，binutils-mips 交叉编译，baserom 资产提取)
 - Updated: index.md (total pages: 50), open-source-games-learning-checklist.md (行113 checkbox, 学习记录53), log.md
+
+## [2026-04-09] ingest | DDraceNetwork 开源游戏 wiki note
+- Created: open-source-game/ddnet.md (Teeworlds DDRace 模组社区延续版，合作 2D 平台跳跃游戏，ddnet-libs C++/Rust 分层架构（rust-bridge/engine接口 + src/engine/ + src/game/），CMake+Ninja 构建，SDL2+OpenGL 渲染，SQLite 持久化排行榜，datasrc/Python 地图数据编译管线，合作 DDRace 机制 Freeeze/teehelp/共享重生点，ISC 许可)
+- Updated: index.md (total pages: 50), open-source-games-learning-checklist.md (行116 checkbox, 学习记录54), log.md

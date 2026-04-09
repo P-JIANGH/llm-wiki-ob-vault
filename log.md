@@ -359,3 +359,8 @@
 - Created: open-source-game/mindustry.md (自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人，27.1k stars)
 - Updated: index.md (新增 mindustry 条目), open-source-games-learning-checklist.md (行158 Mindustry checkbox, 学习记录77), log.md
 - Clone: https://github.com/Anuken/Mindustry (API tarball via web_extract 成功，因 git clone 超时，改用 raw.githubusercontent.com 获取源码分析)
+
+## [2026-04-09] ingest | Trigger Rally wiki note
+- Created: open-source-game/trigger-rally.md (纯 C++ 拉力赛车，PEngine/PSim/Trigger 三层架构，程序化地形)
+- Updated: index.md (新增 trigger-rally 条目), open-source-games-learning-checklist.md (行146 Trigger Rally checkbox, 学习记录78)
+- Clone: https://sourceforge.net/projects/trigger-rally (SVN 仓库，git clone 超时，改用 GitHub mirror Cebion/trigger-rally_pm + web_extract 源码分析)

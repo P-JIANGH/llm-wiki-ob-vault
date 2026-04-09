@@ -143,7 +143,7 @@
 - [2026-04-09] **RVGL** — Re-Volt 现代端口 | `https://gitlab.com/re-volt`
 - [2026-04-09] **VDrift** — 漂移赛车模拟 | `https://github.com/VDrift/vdrift`
 - [2026-04-09] **Yorg** — TrackMania 风格开源赛车（Panda3D） | `https://github.com/cflavio/yorg`
-- [ ] **Trigger Rally** | `https://sourceforge.net/projects/trigger-rally`
+- [2026-04-09] **Trigger Rally** | `https://sourceforge.net/projects/trigger-rally`
 - [2026-04-09] **wipEout** — Wipeout 1995 PSX 重实现 | `https://github.com/phoboslab/wipeout-rewrite`
 
 ---
@@ -376,7 +376,8 @@
 | 74 | 2026-04-09 | Beyond All Reason | Spring/Recoil 引擎 RTS，4.3GB仓库（含资源），Lua三层架构(luarules同步/luaui不同步/luaai)，BARb AI JSON配置分层设计，GL4着色器延迟光照，Busted+Lux测试，Lux包管理器 |
 | 75 | 2026-04-09 | Warzone 2100 | 3D RTS，157K LOC C++，三后端渲染(OpenGL/Vulkan/GLES)，gamelib/framework/ivis_opengl模块化架构，400+科技树，lib/netplay帧同步多人，WebAssembly支持 |
 | 76 | 2026-04-09 | Widelands | Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链（economy/50+文件），帧同步多人 GameHost/GameClient 架构 |
-| 77 | 2026-04-09 | Mindustry | 自动化塔防 RTS，Arc Engine 自研 2D 引擎 + @Component 代码生成 ECS + @Sync 帧同步多人，20K+ commits，27.1k stars，JDK 17 + Gradle 多模块 (core/desktop/server/android/ios) |
+|| 77 | 2026-04-09 | Mindustry | 自动化塔防 RTS，Arc Engine 自研 2D 引擎 + @Component 代码生成 ECS + @Sync 帧同步多人，20K+ commits，27.1k stars，JDK 17 + Gradle 多模块 (core/desktop/server/android/ios) |
+|| 78 | 2026-04-09 | Trigger Rally | C++ 拉力赛车，PEngine/PSim/Trigger 三层架构分离（渲染/物理/游戏逻辑），PReferenceFrame+PRigidBody 刚体物理+悬挂系统，程序化高度图地形生成，Ghost 回放系统，GPL v2，v0.6.6.1（2019）|
 
 ---
 

@@ -173,7 +173,7 @@
 - [2026-04-10] **Warsmash Mod Engine** — Warcraft III 模组引擎（LibGDX） | `https://github.com/Retera/WarsmashModEngine`
 
 ### RTS — C&C Remastered
-- [ ] **Command & Conquer Remastered Collection** | `https://github.com/electronicarts/CnC_Remastered_Collection`
+- [2026-04-10] **Command & Conquer Remastered Collection** | `https://github.com/electronicarts/CnC_Remastered_Collection`
 - [ ] **C&C Generals + Zero Hour** | `https://github.com/electronicarts/CnC_Generals_Zero_Hour`
 - [ ] **Red Alert** | `https://github.com/electronicarts/CnC_Red_Alert`
 - [ ] **Tiberian Dawn** | `https://github.com/electronicarts/CnC_Tiberian_Dawn`
@@ -390,7 +390,8 @@
 | 91 | 2026-04-10 | War1gus | Warcraft: Orcs & Humans 重实现，Stratagus 引擎 + Lua 脚本数据驱动，war1tool.cpp 4059 LOC 数据提取工具，scale2x 像素放大算法，GPLv2 |
 || 93 | 2026-04-09 | Wyrmsun | 神话/历史/虚构融合 RTS，Stratagus 引擎（Wyrmgus）数据层，~923MB 游戏内容仓库（含美术/音效/地图），双仓库架构（引擎 Wyrmgus + 内容 Wyrmsun），data/ 数据库系统（civilizations/units/heroes/items），modules/ 跨游戏内容集成（Battle for Wesnoth/0 A.D./Freeciv/DCSS），GPL 2.0 |
 || 94 | 2026-04-10 | Stargus | StarCraft 1998 资产导入 Stratagus 引擎适配器，startool MPQ 提取+多格式转换（GRP/CHK/CASC/SMACKER），~15K LOC C++17，GPLv2 ||
-|| 95 | 2026-04-10 | Warsmash Mod Engine | LibGDX + Java17 ~97K LOC 多模块 Gradle 项目，JASS ANTLR 虚拟机（指令级栈帧解释器），MDX/M3 模型渲染（转录 mdx-m3-viewer），虚拟文件系统支持 MPQ/CASC 多种归档格式，INI 配置驱动，AGPL，支持 War3 Patch 1.22-1.32 ||
+||| 95 | 2026-04-10 | Warsmash Mod Engine | LibGDX + Java17 ~97K LOC 多模块 Gradle 项目，JASS ANTLR 虚拟机（指令级栈帧解释器），MDX/M3 模型渲染（转录 mdx-m3-viewer），虚拟文件系统支持 MPQ/CASC 多种归档格式，INI 配置驱动，AGPL，支持 War3 Patch 1.22-1.32 ||
+||| 96 | 2026-04-10 | CnC Remastered Collection | EA 官方开源 C&C TD+RA 源码，.H 文件含~134+241个 C 源码(DEFINE.H 95KB/TYPE.H 62KB等)，双 DLLInterface.cpp 薄封装，C# WinForms 地图编辑器，保留 IPX 网络协议栈，GPL v3+附加条款 |
 
 
 ---

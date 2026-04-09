@@ -431,3 +431,8 @@
 - Created: open-source-game/warsmash-mod-engine.md (Warcraft III 模拟器，LibGDX + Java17，~97K LOC，2118 Java 文件，AGPL)
 - Updated: index.md (新增 warsmash-mod-engine 条目，total pages: 70), open-source-games-learning-checklist.md (行173 checkbox, 学习记录95)
 - Clone: https://github.com/Retera/WarsmashModEngine (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | Command & Conquer Remastered Collection wiki note
+- Created: open-source-game/cnc-remastered-collection.md (EA 官方开源 C&C TD+RA 源码，C+汇编+C# MapEditor，GPL v3)
+- Updated: index.md (新增 cnc-remastered-collection 条目，total pages: 71), open-source-games-learning-checklist.md (行176 checkbox, 学习记录96)
+- Clone: https://github.com/electronicarts/CnC_Remastered_Collection (git clone --depth=1 成功)

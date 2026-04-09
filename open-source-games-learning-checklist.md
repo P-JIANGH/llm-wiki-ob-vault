@@ -140,7 +140,7 @@
 - [2026-04-09] **Rigs of Rods** — 物理沙盒模拟，OGRE 引擎 | `https://github.com/RigsOfRods/rigs-of-rods`
 - [2026-04-09] **Speed Dreams** — 开源赛车模拟 | `https://forge.a-lec.org/xavi/speed-dreams-code`
 - [2026-04-09] **Stunt Rally** — Sci-Fi 赛车+赛道编辑器 | `https://github.com/stuntrally/stuntrally3`
-- [ ] **RVGL** — Re-Volt 现代端口 | `https://gitlab.com/re-volt`
+- [2026-04-09] **RVGL** — Re-Volt 现代端口 | `https://gitlab.com/re-volt`
 - [ ] **VDrift** — 漂移赛车模拟 | `https://github.com/VDrift/vdrift`
 - [ ] **Yorg** — TrackMania 风格开源赛车（Panda3D） | `https://github.com/cflavio/yorg`
 - [ ] **Trigger Rally** | `https://sourceforge.net/projects/trigger-rally`
@@ -368,6 +368,7 @@
 | 67 | 2026-04-09 | TORCS | plib OpenGL 3D 渲染，simu 模块化物理仿真(v2/v3双版本)，标准化 Robot AI 接口(C语言API)，XML配置驱动，50+车辆20+赛道，广泛用于学术研究和 AI 训练 |
 | 68 | 2026-04-09 | Rigs of Rods | 软体物理：节点-弹簧 Actor 系统（Actor.cpp 5K行/ActorSpawner.cpp 7.5K行），数据驱动 .truck 格式完全解耦物理与渲染，OGRE 1.11+AngelScript+MyGUI，GPLv2，2026.01 最新版 |
 | 69 | 2026-04-09 | Stunt Rally 3 | Ogre-Next 3.0 渲染+VDrift 仿真，模块化架构(common/game/editor/road/vdrift)，3D spline 赛道+内置编辑器，232 赛道+33 载具，Ghost 回放系统，GPLv3 |
+| 70 | 2026-04-09 | RVGL | Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan 可编程 Shader 渲染；核心引擎私有(gk7huki持有)，工具链/资产/文档完全开源；ENet UDP 16人多人+Discord Rich Presence；Pack 内容管理系统(Mod Organizer 风格)；多平台支持 Win/Linux/macOS/Android |
 |
 ---
 

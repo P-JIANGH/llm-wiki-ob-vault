@@ -175,7 +175,7 @@
 ### RTS — C&C Remastered
 - [2026-04-10] **Command & Conquer Remastered Collection** | `https://github.com/electronicarts/CnC_Remastered_Collection`
 - [2026-04-10] **C&C Generals + Zero Hour** | `https://github.com/electronicarts/CnC_Generals_Zero_Hour`
-- [ ] **Red Alert** | `https://github.com/electronicarts/CnC_Red_Alert`
+- [2026-04-10] **Red Alert** | `https://github.com/electronicarts/CnC_Red_Alert`
 - [ ] **Tiberian Dawn** | `https://github.com/electronicarts/CnC_Tiberian_Dawn`
 
 ### RTS — Zero-K & Spring
@@ -393,6 +393,7 @@
 ||| 95 | 2026-04-10 | Warsmash Mod Engine | LibGDX + Java17 ~97K LOC 多模块 Gradle 项目，JASS ANTLR 虚拟机（指令级栈帧解释器），MDX/M3 模型渲染（转录 mdx-m3-viewer），虚拟文件系统支持 MPQ/CASC 多种归档格式，INI 配置驱动，AGPL，支持 War3 Patch 1.22-1.32 ||
 | 96 | 2026-04-10 | CnC Remastered Collection | EA 官方 C&C TD+RA 源码，.H 文件含~134+241个 C 源码(DEFINE.H 95KB/TYPE.H 62KB等)，双 DLLInterface.cpp 薄封装，C# WinForms 地图编辑器，保留 IPX 网络协议栈，GPL v3+附加条款 |
 | 97 | 2026-04-10 | C&C Generals + Zero Hour | EA 官方源码双目录结构(Generals~1280cpp + GeneralsMD~1421cpp)，W3DDevice Westwood 3D渲染+DX9，GameSpy帧同步网络(FrameDataManager)，AI分层设计(AIPathfind/AIGroup/AISkirmishPlayer)，组件化对象系统(Behavior/Body/Collide/Locomotor)，需 MSVC 6.0 匹配编译，GPL v3+附加条款 |
+| 98 | 2026-04-10 | CnC Red Alert | EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB，CODE/WIN32LIB/WWFLAT32/VQA/IPX 多层架构，ObjectClass RTTI 类系统，MapClass 瓦片地图+战争迷雾，Watcom+TASM 编译，需持有原版游戏数据，GPL v3 |
 
 
 ---

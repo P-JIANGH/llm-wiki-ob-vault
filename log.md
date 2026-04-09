@@ -441,3 +441,8 @@
 - Created: open-source-game/cnc-generals-zero-hour.md (EA 官方源码 Generals~1280cpp + GeneralsMD~1421cpp，W3DDevice+DX9，GameSpy帧同步，AI分层对象组件，MSVC 6.0)
 - Updated: index.md (新增 cnc-generals-zero-hour 条目，total pages: 72), open-source-games-learning-checklist.md (行177 checkbox, 学习记录97)
 - Clone: https://github.com/electronicarts/CnC_Generals_Zero_Hour (git clone --depth=1 成功)
+
+## [2026-04-10] ingest | CnC Red Alert wiki note
+- Created: open-source-game/cn-c-red-alert.md (EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB，CODE/WIN32LIB/VQA/IPX 多层架构，Watcom+TASM 编译，GPL v3)
+- Updated: index.md (新增 cnc-red-alert 条目，total pages: 69), open-source-games-learning-checklist.md (行178 checkbox, 学习记录98)
+- Clone: https://github.com/electronicarts/CnC_Red_Alert (git clone --depth=1 成功)

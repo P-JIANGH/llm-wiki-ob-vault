@@ -537,3 +537,9 @@
 - Updated: index.md (新增 exult 条目，total pages: 80), open-source-games-learning-checklist.md (行211 Exult checkbox, 学习记录 115), log.md
 - Clone: https://github.com/exult/exult (git clone --depth=1 成功)
 - Note: 清洁室完全重写，SDL 统一跨平台抽象层，content/ 子目录含 bg/si 等社区补丁数据，autotools 多编译器支持（g++/clang++/MSVC），9+ CI 平台（Linux/macOS/Win/Android/iOS/FreeBSD/OmniOS），actors.cc 5370行角色系统+schedule.cc 6115行 AI 调度为最大源文件
+
+## [2026-04-10] ingest | GemRB wiki note
+- Created: open-source-game/gemrb.md (Infinity Engine 重实现，Baldur's Gate / Icewind Dale / Planescape: Torment，C++14 + Python3 脚本，40+ 插件化架构，46K LOC 核心引擎，GPLv2)
+- Updated: index.md (新增 gemrb 条目), open-source-games-learning-checklist.md (行212 GemRB checkbox, 学习记录 116), log.md
+- Clone: https://github.com/gemrb/gemrb (git clone --depth=1 成功)
+- Note: PluginHolder<T> 模板实现插件化架构，40+ 插件分离视频/音频/资源导入，Python3 GUIScript 插件驱动游戏逻辑，Interface.cpp 4266行引擎主循环，Map.cpp 4029行场景管理，EffectQueue.cpp 2571行 AD&D 2E 效果系统，BIF/KEY 资源打包格式参考价值高

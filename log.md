@@ -339,3 +339,8 @@
 - Created: open-source-game/yorg.md (TrackMania 风格开源赛车，Panda3D 引擎驱动，Python 3.x，多人 XMPP 同步，GPLv3)
 - Updated: index.md (新增 yorg 条目), open-source-games-learning-checklist.md (行145 Yorg checkbox, 学习记录71), log.md
 - Clone: https://github.com/cflavio/yorg
+
+## [2026-04-09] ingest | Beyond All Reason wiki note
+- Created: open-source-game/beyond-all-reason.md (Spring/Recoil 引擎 RTS，约4.3GB仓库含资源，Lua数据驱动三层架构(luarules/luaui/luaai)，BARb AI JSON配置分层设计，GL4着色器，Busted+Lux测试框架)
+- Updated: index.md (新增 beyond-all-reason 条目, total pages: 63), open-source-games-learning-checklist.md (行154 BAR checkbox, 学习记录75), log.md
+- Clone: https://github.com/beyond-all-reason/Beyond-All-Reason (tarball下载超时332MB/4.3GB总大，通过GitHub API获取源码结构分析)

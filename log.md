@@ -507,3 +507,9 @@
 - Updated: index.md (新增 veloren 条目，total pages: 77), open-source-games-learning-checklist.md (行203 Veloren checkbox, 学习记录 110)
 - Clone: https://gitlab.com/veloren/veloren (git clone --depth=1 成功，81MB；GitHub 镜像 clone/tarball/zipball 均超时，GitLab 主仓库 clone 成功)
 - Note: GitHub 是只读镜像，主开发在 GitLab；v0.18.0 使用 Rust 2024 edition；世界生成使用 no_overflow profile（禁 overflow-check 提升性能）
+
+## [2026-04-10] ingest | Space Station 14 wiki note
+- Created: open-source-game/space-station-14.md (SS13 现代 C# 重制版，Robust Toolbox 自研引擎，Entity-Component 系统，YAML 原型数据驱动，MIT+CC-BY-SA，3.6k stars)
+- Updated: index.md (新增 space-station-14 条目), open-source-games-learning-checklist.md (行204 Space Station 14 checkbox, 学习记录111), log.md
+- Clone: https://github.com/space-wizards/space-station-14 (git clone/tarball/zipball 均超时/卡死；repo 大小 893MB；通过 GitHub API tree + README.md web extract 完成分析)
+- Note: SS14 是 SS13 的现代 C# 重写版，引擎 Robust Toolbox（Lidgren UDP + NetSerializer + Avalonia XAML UI），Content.Client/Server/Shared 三模块架构，7591 C# + 2573 YAML 原型文件，NPC AI 系统（183 文件）最大子系统；游戏资产 MIT+CC-BY-SA 双许可

@@ -5,6 +5,11 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-10] ingest | FreeOrion wiki note
+- Created: open-source-game/freeorion.md (4X 太空帝国回合策略，致敬 Master of Orion；C++20 + GiGi 自研 GUI 库；FOCS Python 脚本内容系统；约 183K LOC C++；v0.5.1.2，GPLv2 + CC-BY-SA-3.0)
+- Updated: index.md (新增 freeorion 条目，total pages: 97), open-source-games-learning-checklist.md (行282 FreeOrion checkbox, 学习记录147), log.md
+- Note: git clone 超时；通过 GitHub API tarball 端点成功下载 156MB tarball 完成
+
 ## [2026-04-09] ingest | OpenRA wiki note
 - Created: open-source-game/openra.md (C# RTS 引擎复刻 Westwood 经典，.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars，GPL-3.0)
 - Updated: index.md (新增 openra 条目，total pages: 62), open-source-games-learning-checklist.md (行155 OpenRA checkbox, 学习记录74), log.md

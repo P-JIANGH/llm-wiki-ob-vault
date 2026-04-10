@@ -33,3 +33,8 @@
 - Updated: open-source-games-learning-checklist.md (item 288 marked done)
 - Updated: index.md (+1 page, total 197)
 - Updated: open-source-games-learning-checklist.md (learning record row 152 added)
+## [2026-04-10] ingest | Hnefatafl 开源游戏 wiki note
+- Created: open-source-game/hnefatafl.md
+- Updated: open-source-games-learning-checklist.md (Hnefatafl item marked [2026-04-10])
+- Updated: index.md (+1 page, total 198)
+- Updated: open-source-games-learning-checklist.md (learning record row 153 added)

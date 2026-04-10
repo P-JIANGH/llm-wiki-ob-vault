@@ -1,0 +1,223 @@
+<!DOCTYPE html><html lang="zh-CN"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>DeerFlow-Memory — LLM Wiki</title><meta name="description" content="LLM Wiki — Knowledge Base"><link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📚</text></svg>"><link rel="stylesheet" href="/_astro/_slug_.DaAphyUn.css">
+<style>article[data-astro-cid-fzx4jmue] h1:first-child{display:block!important}.main-content article h1:first-child{display:none}
+</style></head> <body> <!-- Header --> <header class="site-header"> <button class="menu-btn" id="menuToggle" style="display:none" aria-label="Toggle menu">☰</button> <a href="/" class="site-title">📚 <span>LLM</span> Wiki</a> <nav class="site-meta"> <a href="https://gitcode.com/jingh_hnr/llm-wiki-ob-vault" target="_blank" rel="noopener">源码</a> <span style="margin-left:1rem">206 页面</span> </nav> </header> <div class="layout"> <!-- Sidebar --> <aside class="sidebar" id="sidebar"> <a href="/" class="sidebar-item">🏠 首页</a>  <div class="sidebar-section-title">Entities</div> <a href="/entities/claude-code-game-studios" class="sidebar-item"> Claude Code Game Studios </a><a href="/entities/clawteam" class="sidebar-item"> ClawTeam </a><a href="/entities/deer-flow" class="sidebar-item"> DeerFlow </a><a href="/entities/hkuds" class="sidebar-item"> hkuds </a><a href="/entities/ksanadock" class="sidebar-item"> KsanaDock </a><a href="/entities/langchain" class="sidebar-item"> langchain </a><a href="/entities/langgraph" class="sidebar-item"> langgraph </a><a href="/entities/mempalace" class="sidebar-item"> MemPalace </a><a href="/entities/microverse-code-structure" class="sidebar-item"> Microverse Code Structure </a><a href="/entities/microverse-project" class="sidebar-item"> Microverse </a><a href="/entities/nanobot" class="sidebar-item"> nanobot </a><a href="/entities/open-source-games-list" class="sidebar-item"> Open Source Games List </a><a href="/entities/openbmb" class="sidebar-item"> OpenBMB </a><a href="/entities/openclaw" class="sidebar-item"> openclaw </a><a href="/entities/sandbox" class="sidebar-item"> sandbox </a><a href="/entities/voxcpm" class="sidebar-item"> VoxCPM </a> <div class="sidebar-section-title">Concepts</div> <a href="/concepts/agent-loop" class="sidebar-item"> agent-loop </a><a href="/concepts/agent-swarm" class="sidebar-item"> agent-swarm </a><a href="/concepts/channel-system" class="sidebar-item"> channel-system </a><a href="/concepts/claude-code-game-studio-architecture" class="sidebar-item"> Claude Code Game Studio Architecture </a><a href="/concepts/claude-code-game-studio-collaboration-protocol" class="sidebar-item"> Claude Code Game Studio Collaboration Protocol </a><a href="/concepts/deer-flow-memory" class="sidebar-item active"> DeerFlow-Memory </a><a href="/concepts/deer-flow-runtime" class="sidebar-item"> DeerFlow-Runtime </a><a href="/concepts/deer-flow-sandbox" class="sidebar-item"> DeerFlow-Sandbox </a><a href="/concepts/deer-flow-subagent" class="sidebar-item"> DeerFlow-Subagent </a><a href="/concepts/gdscript-patterns" class="sidebar-item"> GDScript Patterns </a><a href="/concepts/godot-4" class="sidebar-item"> Godot 4 </a><a href="/concepts/godot-animation-system" class="sidebar-item"> Godot 4 Animation System </a><a href="/concepts/godot-vs-unity-unreal" class="sidebar-item"> Godot vs Unity vs Unreal Engine </a><a href="/concepts/llm-integration" class="sidebar-item"> LLM Integration </a><a href="/concepts/memory-system" class="sidebar-item"> memory-system </a><a href="/concepts/microverse-character-system" class="sidebar-item"> Microverse Character System </a><a href="/concepts/microverse-dialog-system" class="sidebar-item"> Microverse Dialog System </a><a href="/concepts/microverse-save-system" class="sidebar-item"> Microverse Save System </a><a href="/concepts/multi-agent-ai-game-impl" class="sidebar-item"> Multi-Agent AI Game Implementation </a><a href="/concepts/multi-agent-ai-simulation" class="sidebar-item"> Multi-Agent AI Simulation </a><a href="/concepts/persistent-memory-system" class="sidebar-item"> Persistent Memory System </a><a href="/concepts/provider-registry" class="sidebar-item"> provider-registry </a><a href="/concepts/stanford-generative-agents" class="sidebar-item"> Stanford Generative Agents (AI Town) </a><a href="/concepts/voxcpm-local-deployment" class="sidebar-item"> VoxCPM 本地部署配置 </a> <div class="sidebar-section-title">Comparisons</div> <a href="/comparisons/open-source-game-engines-comparison" class="sidebar-item"> Open Source Game Engines Comparison </a> <div class="sidebar-section-title">Queries</div>  <div class="sidebar-section-title">Open Source Games</div> <a href="/open-source-game/kkrieger" class="sidebar-item"> .kkrieger </a><a href="/open-source-game/0-ad" class="sidebar-item"> &quot;0 A.D. Empires Ascendant&quot; </a><a href="/open-source-game/abyss-engine" class="sidebar-item"> Abyss Engine </a><a href="/open-source-game/akhenaten" class="sidebar-item"> Akhenaten </a><a href="/open-source-game/ambermoon-net" class="sidebar-item"> Ambermoon.net </a><a href="/open-source-game/ancient-beast" class="sidebar-item"> Ancient Beast </a><a href="/open-source-game/assault-cube" class="sidebar-item"> AssaultCube </a><a href="/open-source-game/athena-crisis" class="sidebar-item"> Athena Crisis </a><a href="/open-source-game/avp-forever" class="sidebar-item"> AvP Forever </a><a href="/open-source-game/beyond-all-reason" class="sidebar-item"> Beyond All Reason </a><a href="/open-source-game/blockout-ii" class="sidebar-item"> BlockOut II </a><a href="/open-source-game/brogue-ce" class="sidebar-item"> BrogueCE </a><a href="/open-source-game/buildgdx" class="sidebar-item"> BuildGDX </a><a href="/open-source-game/cnc-generals-zero-hour" class="sidebar-item"> C&amp;C Generals + Zero Hour (EA Source Release) </a><a href="/open-source-game/cataclysm-dark-days-ahead" class="sidebar-item"> Cataclysm: Dark Days Ahead </a><a href="/open-source-game/chocolate-doom" class="sidebar-item"> Chocolate Doom </a><a href="/open-source-game/chocolate-quake" class="sidebar-item"> Chocolate Quake </a><a href="/open-source-game/citybound" class="sidebar-item"> Citybound </a><a href="/open-source-game/cn-c-red-alert" class="sidebar-item"> CnC Red Alert (1996) </a><a href="/open-source-game/cnc-tiberian-dawn" class="sidebar-item"> CnC Tiberian Dawn </a><a href="/open-source-game/command-conquer-remastered-collection" class="sidebar-item"> Command &amp; Conquer Remastered Collection </a><a href="/open-source-game/commander-genius" class="sidebar-item"> Commander Genius </a><a href="/open-source-game/commander-keen-in-keen-dreams" class="sidebar-item"> Commander Keen in Keen Dreams </a><a href="/open-source-game/corsixth" class="sidebar-item"> CorsixTH </a><a href="/open-source-game/croftengine" class="sidebar-item"> CroftEngine </a><a href="/open-source-game/cube-2-sauerbraten" class="sidebar-item"> Cube 2: Sauerbraten </a><a href="/open-source-game/cytopia" class="sidebar-item"> Cytopia </a><a href="/open-source-game/daggerfall-unity" class="sidebar-item"> Daggerfall Unity </a><a href="/open-source-game/ddnet" class="sidebar-item"> DDNet (DDraceNetwork) </a><a href="/open-source-game/dead-ascend" class="sidebar-item"> Dead Ascend </a><a href="/open-source-game/descent-3" class="sidebar-item"> Descent 3 </a><a href="/open-source-game/devilutionx" class="sidebar-item"> DevilutionX </a><a href="/open-source-game/doom" class="sidebar-item"> Doom (id Software) </a><a href="/open-source-game/doom-3-bfg" class="sidebar-item"> Doom 3 BFG Edition (id Software) </a><a href="/open-source-game/doom-64-re" class="sidebar-item"> DOOM64-RE </a><a href="/open-source-game/duke-nukem-3d" class="sidebar-item"> Duke Nukem 3D </a><a href="/open-source-game/dune-ii-the-maker" class="sidebar-item"> Dune II The Maker (D2TM) </a><a href="/open-source-game/dungeon-crawl-stone-soup" class="sidebar-item"> Dungeon Crawl Stone Soup </a><a href="/open-source-game/ecwolf" class="sidebar-item"> ECWolf </a><a href="/open-source-game/eduke32" class="sidebar-item"> EDuke32 </a><a href="/open-source-game/egregoria" class="sidebar-item"> Egregoria </a><a href="/open-source-game/endless-sky" class="sidebar-item"> endless-sky </a><a href="/open-source-game/exult" class="sidebar-item"> Exult </a><a href="/open-source-game/fallout2-ce" class="sidebar-item"> Fallout 2 Community Edition </a><a href="/open-source-game/fallout-community-edition" class="sidebar-item"> Fallout Community Edition </a><a href="/open-source-game/fheroes2" class="sidebar-item"> fheroes2 </a><a href="/open-source-game/fish-folk-punchy" class="sidebar-item"> Fish Folk Punchy </a><a href="/open-source-game/fish-folk-jumpy" class="sidebar-item"> Fish Folk: Jumpy </a><a href="/open-source-game/freeablo" class="sidebar-item"> Freeablo </a><a href="/open-source-game/freeciv" class="sidebar-item"> Freeciv </a><a href="/open-source-game/freecol" class="sidebar-item"> FreeCol </a><a href="/open-source-game/freeorion" class="sidebar-item"> FreeOrion </a><a href="/open-source-game/freeserf-net" class="sidebar-item"> Freeserf.net </a><a href="/open-source-game/frogatto" class="sidebar-item"> Frogatto &amp; Friends </a><a href="/open-source-game/fteqw" class="sidebar-item"> FTEQW </a><a href="/open-source-game/gemrb" class="sidebar-item"> GemRB </a><a href="/open-source-game/hurry-curry" class="sidebar-item"> Hurry Curry! </a><a href="/open-source-game/hypersomnia" class="sidebar-item"> hypersomnia </a><a href="/open-source-game/jfduke3d" class="sidebar-item"> JFDuke3D </a><a href="/open-source-game/jfshadowwarrior" class="sidebar-item"> JFShadowWarrior </a><a href="/open-source-game/julius" class="sidebar-item"> Julius </a><a href="/open-source-game/kandria" class="sidebar-item"> Kandria </a><a href="/open-source-game/keeper-fx" class="sidebar-item"> KeeperFX </a><a href="/open-source-game/liblast" class="sidebar-item"> Liblast </a><a href="/open-source-game/lugaru" class="sidebar-item"> Lugaru HD </a><a href="/open-source-game/meritous" class="sidebar-item"> Meritous </a><a href="/open-source-game/micropolisjs" class="sidebar-item"> micropolisJS </a><a href="/open-source-game/mindustry" class="sidebar-item"> Mindustry </a><a href="/open-source-game/minosoft" class="sidebar-item"> Minosoft </a><a href="/open-source-game/naev" class="sidebar-item"> Naev </a><a href="/open-source-game/nakedavp" class="sidebar-item"> NakedAVP </a><a href="/open-source-game/nblood" class="sidebar-item"> NBlood </a><a href="/open-source-game/nethack" class="sidebar-item"> NetHack </a><a href="/open-source-game/nubuildgdx" class="sidebar-item"> NuBuildGDX </a><a href="/open-source-game/omnispeak" class="sidebar-item"> Omnispeak </a><a href="/open-source-game/oolite" class="sidebar-item"> Oolite </a><a href="/open-source-game/open-golf" class="sidebar-item"> Open Golf </a><a href="/open-source-game/openage" class="sidebar-item"> OpenAge </a><a href="/open-source-game/openbw" class="sidebar-item"> OpenBW </a><a href="/open-source-game/open-diablo-2" class="sidebar-item"> OpenDiablo2 </a><a href="/open-source-game/openenroth" class="sidebar-item"> OpenEnroth </a><a href="/open-source-game/open-goal" class="sidebar-item"> OpenGOAL (jak-project) </a><a href="/open-source-game/openhv" class="sidebar-item"> OpenHV </a><a href="/open-source-game/openko" class="sidebar-item"> OpenKO </a><a href="/open-source-game/openkore" class="sidebar-item"> OpenKore </a><a href="/open-source-game/openlara" class="sidebar-item"> openlara </a><a href="/open-source-game/openloco" class="sidebar-item"> OpenLoco </a><a href="/open-source-game/openmw" class="sidebar-item"> OpenMW </a><a href="/open-source-game/opennefia" class="sidebar-item"> OpenNefia </a><a href="/open-source-game/opennox" class="sidebar-item"> OpenNox </a><a href="/open-source-game/openra" class="sidebar-item"> OpenRA </a><a href="/open-source-game/openrct2" class="sidebar-item"> OpenRCT2 </a><a href="/open-source-game/openrw" class="sidebar-item"> OpenRW </a><a href="/open-source-game/openttd" class="sidebar-item"> OpenTTD </a><a href="/open-source-game/openxcom" class="sidebar-item"> OpenXcom </a><a href="/open-source-game/overgrowth" class="sidebar-item"> Overgrowth </a><a href="/open-source-game/permafrost-engine" class="sidebar-item"> Permafrost Engine </a><a href="/open-source-game/pioneer" class="sidebar-item"> Pioneer Space Simulator </a><a href="/open-source-game/pooltool" class="sidebar-item"> Pooltool </a><a href="/open-source-game/portal64" class="sidebar-item"> Portal64 Still Alive </a><a href="/open-source-game/quake" class="sidebar-item"> Quake </a><a href="/open-source-game/quake-2" class="sidebar-item"> Quake 2 </a><a href="/open-source-game/quake-iii-arena" class="sidebar-item"> Quake III Arena </a><a href="/open-source-game/raze" class="sidebar-item"> Raze </a><a href="/open-source-game/re3" class="sidebar-item"> re3 </a><a href="/open-source-game/red-eclipse" class="sidebar-item"> Red Eclipse </a><a href="/open-source-game/reone" class="sidebar-item"> reone </a><a href="/open-source-game/rigel-engine" class="sidebar-item"> Rigel Engine </a><a href="/open-source-game/rigs-of-rods" class="sidebar-item"> Rigs of Rods </a><a href="/open-source-game/rvgl" class="sidebar-item"> RVGL </a><a href="/open-source-game/scummvm" class="sidebar-item"> ScummVM </a><a href="/open-source-game/sdl-sopwith" class="sidebar-item"> SDL Sopwith </a><a href="/open-source-game/severed-chains" class="sidebar-item"> Severed Chains </a><a href="/open-source-game/shadow-warrior" class="sidebar-item"> Shadow Warrior </a><a href="/open-source-game/shattered-pixel-dungeon" class="sidebar-item"> Shattered Pixel Dungeon </a><a href="/open-source-game/sonic-robo-blast-2" class="sidebar-item"> Sonic Robo Blast 2 </a><a href="/open-source-game/space-station-14" class="sidebar-item"> Space Station 14 </a><a href="/open-source-game/speed-dreams" class="sidebar-item"> Speed Dreams </a><a href="/open-source-game/standard-of-iron" class="sidebar-item"> Standard of Iron </a><a href="/open-source-game/stargus" class="sidebar-item"> Stargus </a><a href="/open-source-game/stunt-rally-3" class="sidebar-item"> Stunt Rally 3 </a><a href="/open-source-game/super-mario-64" class="sidebar-item"> Super Mario 64 (n64decomp/sm64) </a><a href="/open-source-game/supertuxkart" class="sidebar-item"> SuperTuxKart </a><a href="/open-source-game/surreal-engine" class="sidebar-item"> Surreal Engine </a><a href="/open-source-game/taisei" class="sidebar-item"> Taisei Project </a><a href="/open-source-game/the-battle-for-wesnoth" class="sidebar-item"> The Battle for Wesnoth </a><a href="/open-source-game/the-dark-mod" class="sidebar-item"> The Dark Mod </a><a href="/open-source-game/the-legend-of-zelda-twilight-princess" class="sidebar-item"> The Legend of Zelda Twilight Princess — Reverse Engineering </a><a href="/open-source-game/tomb-engine" class="sidebar-item"> Tomb Engine </a><a href="/open-source-game/torcs" class="sidebar-item"> TORCS - The Open Racing Car Simulator </a><a href="/open-source-game/trigger-rally" class="sidebar-item"> Trigger Rally </a><a href="/open-source-game/u7-revisited" class="sidebar-item"> Ultima VII: Revisited </a><a href="/open-source-game/unciv" class="sidebar-item"> Unciv </a><a href="/open-source-game/unknown-horizons" class="sidebar-item"> Unknown Horizons (Godot Port) </a><a href="/open-source-game/uzdoom" class="sidebar-item"> UZDoom </a><a href="/open-source-game/vcmi" class="sidebar-item"> VCMI </a><a href="/open-source-game/vdrift" class="sidebar-item"> VDrift </a><a href="/open-source-game/veloren" class="sidebar-item"> Veloren </a><a href="/open-source-game/vvvvvv" class="sidebar-item"> VVVVVV </a><a href="/open-source-game/war1gus" class="sidebar-item"> War1gus </a><a href="/open-source-game/wargus" class="sidebar-item"> Wargus </a><a href="/open-source-game/warsmash-mod-engine" class="sidebar-item"> Warsmash Mod Engine </a><a href="/open-source-game/warzone-2100" class="sidebar-item"> Warzone 2100 </a><a href="/open-source-game/whatajong" class="sidebar-item"> Whatajong </a><a href="/open-source-game/widelands" class="sidebar-item"> Widelands </a><a href="/open-source-game/wipeout-rewrite" class="sidebar-item"> wipEout Rewrite </a><a href="/open-source-game/wolf4sdl" class="sidebar-item"> Wolf4SDL </a><a href="/open-source-game/wolfenstein-3d" class="sidebar-item"> Wolfenstein 3D (id Software) </a><a href="/open-source-game/wyrmsun" class="sidebar-item"> Wyrmsun </a><a href="/open-source-game/xonotic" class="sidebar-item"> Xonotic </a><a href="/open-source-game/yorg" class="sidebar-item"> Yorg </a><a href="/open-source-game/zelda3" class="sidebar-item"> Zelda3 </a><a href="/open-source-game/zero-k" class="sidebar-item"> Zero-K </a> <div class="sidebar-section-title">原始资料 Raw</div> <a href="/raw/articles/athena-crisis-source" class="sidebar-item"> athena-crisis-source </a><a href="/raw/articles/blockout-ii-2026" class="sidebar-item"> BlockOut II — SourceForge page extract </a><a href="/raw/articles/claude-code-game-studios-2026" class="sidebar-item"> claude-code-game-studios-2026 </a><a href="/raw/articles/clawteam-readme-2026" class="sidebar-item"> clawteam-readme-2026 </a><a href="/raw/articles/deer-flow-readme-2026" class="sidebar-item"> deer-flow-readme-2026 </a><a href="/raw/articles/microverse-ksanadock-2026" class="sidebar-item"> microverse-ksanadock-2026 </a><a href="/raw/articles/nanobot-readme-2026" class="sidebar-item"> nanobot-readme-2026 </a><a href="/raw/articles/open-source-games-list-2026" class="sidebar-item"> open-source-games-list-2026 </a><a href="/raw/articles/voxcpm-openbmb-2025" class="sidebar-item"> voxcpm-openbmb-2025 </a> <div class="sidebar-section-title" style="margin-top:1.5rem">其他</div> <a href="/SCHEMA" class="sidebar-item">Schema</a> <a href="/log" class="sidebar-item">Log</a> <a href="/open-source-games-learning-checklist" class="sidebar-item">🎮 开源游戏学习清单</a> </aside> <!-- Main --> <main class="main-content">   <div class="breadcrumb" data-astro-cid-fzx4jmue> <a href="/" data-astro-cid-fzx4jmue>首页</a>  <span data-astro-cid-fzx4jmue>›</span> <a href="/concepts" data-astro-cid-fzx4jmue>concepts</a>  <span data-astro-cid-fzx4jmue>›</span> <a href="/concepts/deer-flow-memory" data-astro-cid-fzx4jmue>deer flow memory</a>  </div> <div class="frontmatter" data-astro-cid-fzx4jmue> <span class="frontmatter-tag" data-astro-cid-fzx4jmue>memory</span><span class="frontmatter-tag" data-astro-cid-fzx4jmue>agent</span><span class="frontmatter-tag" data-astro-cid-fzx4jmue>llm</span><span class="frontmatter-tag" data-astro-cid-fzx4jmue>architecture</span> <span class="frontmatter-meta" data-astro-cid-fzx4jmue>type: concept</span> <span class="frontmatter-meta" data-astro-cid-fzx4jmue>创建: 2026-04-10</span> <span class="frontmatter-meta" data-astro-cid-fzx4jmue>更新: 2026-04-10</span> </div> <article data-astro-cid-fzx4jmue><h1>DeerFlow Memory 系统</h1>
+<p>DeerFlow 的长期记忆系统，通过 LLM 从对话中提取结构化事实并持久化，在后续交互中自动注入上下文。</p>
+<h2>架构概览</h2>
+<pre><code>对话消息
+   │
+   │ MemoryMiddleware（入队）
+   ▼
+MemoryUpdateQueue（Debounce 30s + per-thread 去重）
+   │
+   ▼
+后台线程：MemoryUpdater._process_updates()
+   │
+   │ LLM 调用（MEMORY_UPDATE_PROMPT）
+   ▼
+facts 提取 + 去重 + 原子写入
+   ▼
+memory.json（持久化）
+   │
+   │ MemoryMiddleware（下次注入）
+   ▼
+&lt;memory&gt; 标签（最多15 facts）
+</code></pre>
+<h2>MemoryUpdateQueue（队列+Debounce）</h2>
+<pre><code class="language-python">class MemoryUpdateQueue:
+    def add(thread_id, messages, agent_name=None,
+            correction_detected=False, reinforcement_detected=False):
+        # Per-thread 去重：新消息合并到同一 ConversationContext
+        # 启动/重置 debounce timer（30s 可配置）
+        # 时间到了 → _process_updates() 批量处理
+</code></pre>
+<p><strong>信号检测</strong>：</p>
+<ul>
+<li><code>correction_detected</code>：用户明确纠正了 agent 的方向/理解/输出</li>
+<li><code>reinforcement_detected</code>：用户给予了正面反馈</li>
+</ul>
+<p>这两个信号在 prompt 中影响 fact 置信度和分类。</p>
+<h2>MEMORY_UPDATE_PROMPT（LLM 提取）</h2>
+<p>两阶段工作：</p>
+<ol>
+<li><strong>Reflection</strong>：<ul>
+<li>错误/重试检测 → category=&quot;correction&quot;</li>
+<li>用户纠正检测 → category=&quot;correction&quot; + sourceError</li>
+<li>项目约束发现 → 记录为 facts</li>
+</ul>
+</li>
+<li><strong>Memory 更新</strong>：按 section 指南更新结构</li>
+</ol>
+<p><strong>Section 指南</strong>：</p>
+<table>
+<thead>
+<tr>
+<th>Section</th>
+<th>内容</th>
+<th>篇幅</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>workContext</td>
+<td>专业角色/公司/项目/技术栈</td>
+<td>2-3句</td>
+</tr>
+<tr>
+<td>personalContext</td>
+<td>语言/沟通偏好/关键兴趣</td>
+<td>1-2句</td>
+</tr>
+<tr>
+<td>topOfMind</td>
+<td>多个并发关注点（详细段落）</td>
+<td>3-5句</td>
+</tr>
+<tr>
+<td>recentMonths</td>
+<td>近1-3个月活动详细总结</td>
+<td>4-6句/1-2段</td>
+</tr>
+<tr>
+<td>earlierContext</td>
+<td>3-12个月重要历史模式</td>
+<td>3-5句</td>
+</tr>
+<tr>
+<td><strong>Facts</strong></td>
+<td>结构化事实条目（见下）</td>
+<td>—</td>
+</tr>
+</tbody></table>
+<h2>Fact 结构</h2>
+<pre><code class="language-python">{
+    &quot;id&quot;: &quot;uuid&quot;,
+    &quot;content&quot;: &quot;对事实的文字描述&quot;,
+    &quot;category&quot;: &quot;preference|knowledge|context|behavior|goal|correction&quot;,
+    # category 含义：
+    #   preference: 用户偏好（语言/风格/格式偏好）
+    #   knowledge: 知识背景（技术栈/领域知识）
+    #   context: 工作/生活上下文
+    #   behavior: 行为模式（如何工作/沟通）
+    #   goal: 已知目标/优先级
+    #   correction: 纠正（包含 sourceError）
+    &quot;preference&quot;: &quot;...&quot;,  # 可选，详细偏好说明
+    &quot;confidence&quot;: 0.0-1.0,  # 置信度
+    &quot;createdAt&quot;: &quot;ISO8601&quot;,
+    &quot;source&quot;: &quot;conversation|manual&quot;  # 来源
+}
+</code></pre>
+<h2>注入机制</h2>
+<p><code>MemoryMiddleware</code> 在每次 agent 交互后：</p>
+<ol>
+<li>队列消息（异步，不阻塞主流程）</li>
+<li>下次交互时，将最多 15 个 fact 注入到 <code>&lt;memory&gt;</code> 标签</li>
+</ol>
+<p>注入格式：</p>
+<pre><code class="language-xml">&lt;memory&gt;
+{facts}
+&lt;/memory&gt;
+</code></pre>
+<h2>存储</h2>
+<p><code>backend/.deer-flow/memory.json</code>，原子写入：</p>
+<pre><code class="language-python"># temp file + rename（操作系统原子性保证）
+temp_path = path.with_suffix(&#39;.tmp&#39;)
+temp_path.write_text(json.dumps(data, ensure_ascii=False, indent=2))
+temp_path.rename(path)
+</code></pre>
+<h2>配置</h2>
+<pre><code class="language-yaml">memory:
+  enabled: true
+  debounce_seconds: 30
+  max_facts: 15
+</code></pre>
+<h2>与 nanobot Dream 的区别</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>DeerFlow Memory</th>
+<th>nanobot Dream</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>触发</td>
+<td>每次交互后异步（Debounce）</td>
+<td>Cron 调度（默认2小时）</td>
+</tr>
+<tr>
+<td>输出</td>
+<td>结构化 facts + context sections</td>
+<td>最小编辑 MEMORY.md/SOUL.md</td>
+</tr>
+<tr>
+<td>持久化</td>
+<td>JSON 文件</td>
+<td>Markdown 文件 + GitStore</td>
+</tr>
+<tr>
+<td>注入</td>
+<td><code>&lt;memory&gt;</code> XML 标签</td>
+<td>直接追加到 prompt</td>
+</tr>
+<tr>
+<td>规模</td>
+<td>更轻量，fact-based</td>
+<td>更重，完整记忆文档</td>
+</tr>
+</tbody></table>
+<p>DeerFlow memory 是&quot;fact 提取&quot;，nanobot Dream 是&quot;文档编辑&quot;。</p>
+<h2>与 MemPalace 的对比</h2>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>DeerFlow Memory</th>
+<th>MemPalace</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>存储</td>
+<td>JSON 文件</td>
+<td>ChromaDB verbatim + SQLite KG</td>
+</tr>
+<tr>
+<td>触发</td>
+<td>Debounce 30s 队列</td>
+<td>Hook 触发（Stop / PreCompact）</td>
+</tr>
+<tr>
+<td>提取</td>
+<td>LLM fact 提取</td>
+<td>无提取，raw 存储</td>
+</tr>
+<tr>
+<td>检索</td>
+<td>prompt 内注入</td>
+<td>语义搜索 + KG 查询</td>
+</tr>
+<tr>
+<td>KG</td>
+<td>无</td>
+<td>SQLite temporal triples</td>
+</tr>
+<tr>
+<td>Agent 记忆</td>
+<td>无</td>
+<td>Specialist Agents + diary</td>
+</tr>
+<tr>
+<td>审计</td>
+<td>无</td>
+<td>WAL JSONL 审计</td>
+</tr>
+<tr>
+<td>benchmark</td>
+<td>无</td>
+<td>LongMemEval 96.6%</td>
+</tr>
+</tbody></table>
+<h2>相关概念</h2>
+<ul>
+<li><a href="/deer-flow">deer-flow</a> — memory 系统的宿主框架</li>
+<li><a href="/memory-system">memory-system</a> — nanobot 的两阶段 Dream 记忆系统（对比）</li>
+</ul>
+</article>  </main> </div> <script type="module">const n=document.getElementById("menuToggle"),t=document.getElementById("sidebar");n&&t&&(n.addEventListener("click",()=>t.classList.toggle("open")),document.addEventListener("click",e=>{!t.contains(e.target)&&!n.contains(e.target)&&t.classList.remove("open")}));const i=document.querySelectorAll(".sidebar-item");i.forEach(e=>{e.getAttribute("href")===window.location.pathname&&e.classList.add("active")});if(window.matchMedia("(max-width: 768px)").matches){const e=document.getElementById("menuToggle");e&&(e.style.display="flex")}</script> </body> </html>  

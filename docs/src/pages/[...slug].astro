@@ -1,0 +1,143 @@
+---
+// Catch-all route for vault pages: /entities/claude-code, /concepts/godot-4, etc.
+// Reads markdown from vault via getStaticPaths, renders with Astro.glob markdown.
+import type { GetStaticPaths } from 'astro';
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { parseFrontmatter } from '../lib/vault';
+import { marked } from 'marked';
+import fs from 'fs';
+import path from 'path';
+
+// VAULT resolved inline below
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const VAULT = path.resolve(import.meta.dirname, '../../../');
+  const paths: { params: { slug: string }; props: { title: string; frontmatter: Record<string,any> } }[] = [];
+
+  // Root level special pages
+  const specialFiles = [
+    { file: 'SCHEMA.md', slug: 'SCHEMA' },
+    { file: 'index.md',  slug: 'index' },
+    { file: 'log.md',    slug: 'log' },
+    { file: 'open-source-games-learning-checklist.md', slug: 'open-source-games-learning-checklist' },
+  ];
+
+  for (const { file, slug } of specialFiles) {
+    const raw = fs.readFileSync(path.join(VAULT, file), 'utf-8');
+    const { data } = parseFrontmatter(raw);
+    paths.push({ params: { slug }, props: { title: data.title || slug, frontmatter: data } });
+  }
+
+  // Directory-based pages
+  const dirs = [
+    { dir: 'entities',    base: 'entities/' },
+    { dir: 'concepts',   base: 'concepts/' },
+    { dir: 'comparisons', base: 'comparisons/' },
+    { dir: 'queries',     base: 'queries/' },
+    { dir: 'raw',         base: 'raw/' },
+    { dir: 'open-source-game', base: 'open-source-game/' },
+    { dir: 'memory-systems',   base: 'memory-systems/' },
+  ];
+
+  for (const { dir, base } of dirs) {
+    const dirPath = path.join(VAULT, dir);
+    if (!fs.existsSync(dirPath)) continue;
+    for (const entry of fs.readdirSync(dirPath)) {
+      if (!entry.endsWith('.md')) continue;
+      const slug = base + entry.replace(/\.md$/, '');
+      const raw = fs.readFileSync(path.join(dirPath, entry), 'utf-8');
+      const { data } = parseFrontmatter(raw);
+      paths.push({ params: { slug }, props: { title: data.title || entry.replace(/\.md$/,''), frontmatter: data } });
+    }
+  }
+
+  return paths;
+};
+
+interface Props {
+  title: string;
+  frontmatter: Record<string, any>;
+}
+
+const { slug } = Astro.params;
+const { title, frontmatter } = Astro.props;
+
+// Build the absolute path to the vault file
+const VAULT = path.resolve(import.meta.dirname, '../../../');
+
+// Determine file path
+let filePath: string;
+if (['SCHEMA', 'index', 'log', 'open-source-games-learning-checklist'].includes(slug || '')) {
+  filePath = path.join(VAULT, `${slug}.md`);
+} else {
+  filePath = path.join(VAULT, `${slug}.md`);
+}
+
+// Read raw content
+let raw = '';
+try {
+  raw = fs.readFileSync(filePath, 'utf-8');
+} catch {
+  raw = `# 404\n\n页面未找到: ${slug}`;
+}
+
+// Strip frontmatter and get content for markdown rendering
+const { content } = parseFrontmatter(raw);
+
+// Also render wikilinks in content
+const contentWithLinks = content.replace(
+  /\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g,
+  (_, page, label) => {
+    const displayLabel = label || page;
+    const linkSlug = page.trim().toLowerCase().replace(/\s+/g, '-');
+    return `[${displayLabel}](/${linkSlug})`;
+  }
+);
+
+// Build breadcrumb
+const slugParts = (slug || '').split('/');
+const breadcrumb = slugParts.map((part: string, i: number) => {
+  const url = '/' + slugParts.slice(0, i + 1).join('/');
+  const label = part.replace(/-/g, ' ');
+  return { url, label };
+});
+---
+
+<WikiLayout title={title} currentSlug={slug}>
+  <!-- Breadcrumb -->
+  {breadcrumb.length > 0 && (
+    <div class="breadcrumb">
+      <a href="/">首页</a>
+      {breadcrumb.map((crumb: { url: string; label: string }, i: number) => (
+        <>
+          <span>›</span>
+          <a href={crumb.url}>{crumb.label}</a>
+        </>
+      ))}
+    </div>
+  )}
+
+  <!-- Frontmatter tags -->
+  {frontmatter.tags && frontmatter.tags.length > 0 && (
+    <div class="frontmatter">
+      {frontmatter.tags.map((tag: string) => (
+        <span class="frontmatter-tag">{tag}</span>
+      ))}
+      {frontmatter.type && <span class="frontmatter-meta">type: {frontmatter.type}</span>}
+      {frontmatter.created && <span class="frontmatter-meta">创建: {frontmatter.created}</span>}
+      {frontmatter.updated && <span class="frontmatter-meta">更新: {frontmatter.updated}</span>}
+    </div>
+  )}
+
+  <!-- Markdown content — render with marked (supports wikilinks as plain markdown) -->
+  <article set:html={marked.parse(contentWithLinks)} />
+</WikiLayout>
+
+<style is:global>
+  /* Make markdown render nicely inside set:html */
+  .main-content article h1:first-child { display: none; } /* hide title h1 from md, we show in layout */
+</style>
+<style>
+  /* show first h1 that comes from markdown */
+  article :global(h1:first-child) { display: block !important; }
+</style>

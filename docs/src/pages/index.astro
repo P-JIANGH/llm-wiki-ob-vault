@@ -1,0 +1,96 @@
+---
+import WikiLayout from '../layouts/WikiLayout.astro';
+import { loadAllPages } from '../lib/vault';
+
+const allPages = loadAllPages();
+const bySection = allPages.reduce((acc, p) => {
+  if (!acc[p.section]) acc[p.section] = [];
+  acc[p.section].push(p);
+  return acc;
+}, {} as Record<string, typeof allPages>);
+
+const sectionMeta: Record<string, { icon: string; label: string }> = {
+  entities:          { icon: '🏢', label: '实体' },
+  concepts:          { icon: '💡', label: '概念' },
+  comparisons:       { icon: '⚖️', label: '对比' },
+  queries:           { icon: '🔍', label: '查询' },
+  'open-source-game':{ icon: '🎮', label: '开源游戏' },
+  raw:               { icon: '📄', label: '原始资料' },
+};
+---
+
+<WikiLayout title="首页">
+  <div class="home-hero">
+    <h1>📚 LLM Wiki</h1>
+    <p>基于 Karpathy LLM Wiki 模式构建的持久化知识库</p>
+  </div>
+
+  <div class="home-stats">
+    {Object.entries(sectionMeta).map(([sec, meta]) => {
+      const pages = bySection[sec] || [];
+      if (pages.length === 0) return null;
+      return (
+        <div class="stat-card">
+          <span class="stat-icon">{meta.icon}</span>
+          <span class="stat-count">{pages.length}</span>
+          <span class="stat-label">{meta.label}</span>
+        </div>
+      );
+    })}
+  </div>
+
+  <div class="home-sections">
+    {Object.entries(sectionMeta).map(([sec, meta]) => {
+      const pages = bySection[sec] || [];
+      if (pages.length === 0) return null;
+      return (
+        <section class="home-section">
+          <h2>{meta.icon} {meta.label}</h2>
+          <ul class="page-list">
+            {pages.slice(0, 20).map(p => (
+              <li>
+                <a href={`/${p.slug}`}>{p.title}</a>
+              </li>
+            ))}
+            {pages.length > 20 && <li class="more"><a href={`/${sec}`}>+ 还有 {pages.length - 20} 篇…</a></li>}
+          </ul>
+        </section>
+      );
+    })}
+  </div>
+</WikiLayout>
+
+<style>
+  .home-stats {
+    display: flex; flex-wrap: wrap; gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .stat-card {
+    display: flex; align-items: center; gap: 0.5rem;
+    background: var(--color-code-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: 0.6rem 1rem;
+    min-width: 100px;
+  }
+  .stat-icon { font-size: 1.2rem; }
+  .stat-count { font-size: 1.4rem; font-weight: 700; color: var(--color-link); }
+  .stat-label { font-size: 0.8rem; color: var(--color-text-muted); }
+  .home-section { margin-bottom: 2rem; }
+  .home-section h2 { font-size: 1rem; margin-bottom: 0.8rem; }
+  .page-list {
+    list-style: none; padding: 0; margin: 0;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.3rem;
+  }
+  .page-list li a {
+    font-size: 0.85rem;
+    color: var(--color-text);
+    text-decoration: none;
+    display: block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+    transition: background 0.1s;
+  }
+  .page-list li a:hover { background: var(--color-sidebar-active); color: var(--color-link); }
+  .more a { color: var(--color-text-muted) !important; font-style: italic; }
+</style>

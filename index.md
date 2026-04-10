@@ -118,7 +118,8 @@
 - [[open-source-game/croftengine]] — Tomb Raider 1 引擎重制，v2.5.0，LGPLv3，支持幽灵竞速/合作/Glidos 纹理包，FFmpeg 视频解码，双渲染器架构(OpenGL+软件)，Boost+spdlog+FFmpeg 依赖栈
 - [[open-source-game/tomb-engine]] — Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版
 - [[open-source-game/lugaru]] — 跨平台 3D 动作游戏，兔人 Turner 武斗狼族阴谋，C++/SDL2/OpenGL ~38K LOC，双层骨骼动画插值（animCurrent+frameTarget），9种AI行为状态机（passive/guard/attack等），GPLv2+源码/CC BY-SA 3.0 资产双许可
-|||| [[open-source-game/openra]] — C# RTS 引擎
+- [[open-source-game/overgrowth]] — Lugaru 续作，3D 动作冒险游戏，~227K LOC C++ 自研引擎（SDL2+OpenGL），AngelScript 脚本+Bullet Physics+Recast 导航，Apache 2.0 极宽松许可，需商业版游戏数据
+||||| [[open-source-game/openra]] — C# RTS 引擎
 || [[open-source-game/openbw]] — StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ 架构（bwgame.h 22K行），确定性锁步网络 sync.h，BWAPI 兼容层 mini-openbwapi |
 || [[open-source-game/openkore]] — Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接（XKore/XKore2/XKoreProxy），txt 数据驱动配置，GPLv2 |
 - [[open-source-game/minosoft]] — Minecraft 客户端完全从零重写（Kotlin/Java ~27K LOC），三模块架构（Core/Eros/Rendering），支持 1.7-1.20.4 多版本协议，Netty 网络层，事件驱动渲染，zstd 资产压缩，GPLv3

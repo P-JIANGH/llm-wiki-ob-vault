@@ -681,3 +681,9 @@
 - Updated: index.md (新增 tomb-engine 条目, total pages: 93), open-source-games-learning-checklist.md (行262 Tomb Engine checkbox, 学习记录 138), log.md
 - Clone: https://github.com/TombEngine/TombEngine (git clone --depth=1 成功)
 - Note: v1.11.1, ~180K LOC C++ (112K .h + 180K .cpp), MIT 修改版许可证(非商业用途); sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)是游戏脚本化标准模式; Game/Renderer/Physics/Scripting/Resources 完全模块化架构; SMAA+SSAO+高帧率+骨骼动画+对角线几何突破经典引擎限制; TombEditor 独立编辑器体现引擎/工具链分离设计
+
+## [2026-04-10] ingest | Overgrowth wiki note
+- Created: open-source-game/overgrowth.md
+- Updated: index.md (新增 overgrowth 条目, total pages: 94), open-source-games-learning-checklist.md (行264 Overgrowth checkbox, 学习记录 139), log.md
+- Clone: https://github.com/WolfireGames/overgrowth (git clone --depth=1 成功)
+- Note: Lugaru 续作，~227K LOC C++（995 源文件），自研引擎 SDL2+OpenGL；AngelScript 脚本系统完全解耦游戏逻辑；Bullet Physics + Recast Navigation 双层物理/导航；Component 基类+XML 数据驱动实体系统；帧同步网络框架(Socket/Steam P2P)；Apache 2.0 极宽松许可，可闭源商用；代码质量高，模块化清晰，~30 个子系统模块；主仓库需商业版游戏数据才能完整运行

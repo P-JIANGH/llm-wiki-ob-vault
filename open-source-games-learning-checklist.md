@@ -261,7 +261,7 @@
 - [2026-04-10] **CroftEngine** — Tomb Raider 1 引擎重制 | `https://github.com/stohrendorf/CroftEngine`
 - [2026-04-10] **Tomb Engine** — Tomb Raider 1-5 引擎（Core Design 时代） | `https://github.com/TombEngine/TombEngine`
 - [2026-04-10] **Lugaru: The Rabbit's Foot** — 跨平台 3D 动作 | `https://github.com/WolfireGames/lugaru`
-- [ ] **Overgrowth** — Lugaru 续作 | `https://github.com/WolfireGames/overgrowth`
+- [2026-04-10] **Overgrowth** — Lugaru 续作 | `https://github.com/WolfireGames/overgrowth`
 - [ ] **RE3** — GTA III + GTA VC 完全逆向源码 | `https://github.com/VideogameSources/gta3-decomp-alt`
 
 ---
@@ -435,6 +435,7 @@
 |||| 137 | 2026-04-10 | CroftEngine | Tomb Raider 1 引擎重制 v2.5.0，685 C++ 源文件，CMake 3.16+，LGPLv3，archive/loader/ 分层支持 TR1/TR2/TR3/TOMB4 四代存档，ghosting/ 幽灵竞速系统，双渲染器(OpenGL+软件)降级，Boost+spdlog+FFmpeg 依赖栈，Glidos 纹理包支持 |
 | 138 | 2026-04-10 | Tomb Engine | Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版 |
 | 139 | 2026-04-10 | Lugaru HD | C++/SDL2/OpenGL ~38K LOC，8个子系统模块（Animation/Audio/Environment/Graphic/Level/Math/Objects/Platform），双层骨骼动画插值（animCurrent↔animTarget + frameCurrent↔frameTarget），9种AI状态机（passive/guard/search/attack/pathfind等），enable_shared_from_this循环引用管理，Data/资产数据分离（Animations/Maps/Campaigns/Dialogues），GPLv2+源码/CC BY-SA 3.0-4.0 资产双许可，41 stars |
+| 140 | 2026-04-10 | Overgrowth | Lugaru 续作，~227K LOC C++（995 源文件），自研 SDL2+OpenGL 引擎；AngelScript 脚本完全解耦游戏逻辑；Bullet Physics + Recast Navigation 双层物理/导航；Component 基类+XML 数据驱动实体系统；帧同步网络框架(Socket/Steam P2P GameNetworkingSockets)；30+ 子系统模块(Graphics/Physics/Scripting/AI/Network/Editors等)；Apache 2.0 极宽松许可，可闭源商用；需商业版游戏数据才能完整运行 |
 
 ## 相关 Wiki 页面
 

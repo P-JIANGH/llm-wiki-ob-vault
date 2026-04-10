@@ -284,7 +284,7 @@
 - [2026-04-10] **OpenXcom** — X-COM: UFO Enemy Unknown 重制 | `https://github.com/OpenXcom/OpenXcom`
 - [2026-04-10] **Ancient Beast** — 回合策略游戏 | `https://github.com/FreezingMoon/AncientBeast`
 - [2026-04-10] **Athena Crisis** — 现代复古回合战术策略 | `https://github.com/nkzw-tech/athena-crisis`
-- [ ] **C-evo** — 帝国建造 Windows 游戏 | `http://c-evo.org/`
+- [skipped-2026-04-10] **C-evo** — 帝国建造 Windows 游戏（无 Git 仓库，仅有 http://c-evo.org/ 网站） | `http://c-evo.org/`
 - [2026-04-10] **OpenPanzer** — Panzer General II JS/HTML5 重写 | `https://github.com/nicupavel/openpanzer`
 - [2026-04-10] **Hnefatafl** — 北欧棋类策略 | `https://github.com/dcampbell24/hnefatafl`
 

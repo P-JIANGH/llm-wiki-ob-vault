@@ -277,7 +277,7 @@
 - [2026-04-10] **The Battle for Wesnoth** — 高奇幻回合策略 | `https://github.com/wesnoth/wesnoth`
 - [2026-04-10] **Unciv** — Civilization V Android/Desktop 开源复刻 | `https://github.com/yairm210/Unciv`
 - [2026-04-10] **VCMI Project** — Heroes of Might and Magic III 引擎 | `https://github.com/vcmi/vcmi`
-- [ ] **FreeCol** — Colonization 开源复刻 | `https://github.com/FreeCol/freecol`
+- [2026-04-10] **FreeCol** — Colonization 开源复刻 | `https://github.com/FreeCol/freecol`
 - [ ] **Freeciv** — Civilization 开源复刻 | `https://github.com/freeciv/freeciv`
 - [ ] **FreeOrion** — 4X 太空帝国游戏 | `https://github.com/freeorion/freeorion`
 - [ ] **fheroes2** — Heroes of Might and Magic II 游戏引擎复刻 | `https://github.com/ihhub/fheroes2`
@@ -441,6 +441,7 @@
 | S | 2026-04-10 | Server Survival | 跳过：https://github.com/pshenok/server-survival 不存在（404），仓库已删除或从未创建 |
 || 143 | 2026-04-10 | Unciv | LibGDX 1.14 跨平台（Android+Desktop），141K LOC Kotlin；JSON 数据驱动规则集 (Ruleset/Tech/Building/Unit/Policy/Religion)；IsPartOfGameInfoSerialization 接口约束 + 版本号存档兼容；Ktor WebSocket 多人；automation/ AI 模块；RulesetCache Mod 热加载 |
 || 144 | 2026-04-10 | VCMI | C++20 C/S 架构开源 HoMM III 引擎；Bonus DAG 传播系统(lib/bonuses/)；Callback 接口三层分离(CGameInfoCallback/CPlayerSpecificInfoCallback/CCallback)；多 AI 并存(BattleAI/Nullkiller/MMAI/StupidAI)；ERM+Lua 双脚本系统；JSON Schema 驱动 Mod 配置；CMake 3.16+跨平台 |
+| 145 | 2026-04-10 | FreeCol | Colonization 开源复刻；Java 11 + Ant 构建，826 源文件；XML 数据驱动规则(data/rules/freecol/specification.xml)；模块化 client/common/server/metaserver 架构；Swing MigLayout GUI；TCP Socket 帧同步多人；Metaserver 大厅匹配；GPLv2 |
 
 ## 相关 Wiki 页面
 

@@ -710,3 +710,9 @@
 - Updated: index.md (新增 vcmi 条目), open-source-games-learning-checklist.md (Turn-Based Strategy VCMI checkbox, 学习记录 144), log.md
 - Clone: https://github.com/vcmi/vcmi (git clone --depth=1 成功)
 - Note: Heroes of Might and Magic III 开源引擎重实现；C++20 C/S 架构(serverapp 独立服务器 + clientapp 渲染客户端 + VCMI_lib 共享库)；Bonus DAG 传播系统(lib/bonuses/，Propagators+Limiters 自动继承)；Callback 接口三层分离(CGameInfoCallback/CPlayerSpecificInfoCallback/CCallback)；多 AI 并存(BattleAI/Nullkiller/MMAI/StupidAI)；ERM+Lua 双脚本系统(scripting/erm/ & scripting/lua/)；JSON Schema 验证 Mod 配置(config/schemas/)；CMake 3.16+跨平台(Win/Linux/macOS/iOS/Android/BSD)；v1.7.3，GPLv2
+
+## [2026-04-10] ingest | FreeCol wiki note
+- Created: open-source-game/freecol.md
+- Updated: index.md (新增 freecol 条目), open-source-games-learning-checklist.md (Turn-Based Strategy FreeCol checkbox, 学习记录 145), log.md
+- Clone: https://github.com/FreeCol/freecol (git clone --depth=1 成功)
+- Note: Colonization 开源复刻；Java 11 + Ant 构建，826 源文件；XML 数据驱动规则系统(data/rules/freecol/specification.xml)；模块化 client/common/server/metaserver 架构；Swing MigLayout GUI；TCP Socket 帧同步多人；Metaserver 大厅匹配；GPLv2

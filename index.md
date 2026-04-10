@@ -40,6 +40,7 @@
 - [[open-source-game/vcmi]] — Heroes of Might and Magic III 完全开源引擎重实现，C++20 C/S 架构，Bonus DAG 传播系统，Callback 接口三层分离，多 AI 并存，ERM+Lua 双脚本
 - [[open-source-game/unciv]] — Civilization V 开源复刻 for Android & Desktop，LibGDX 跨平台，JSON 数据驱动规则集，Ktor 多人网络，Mod 系统，141K LOC Kotlin，Apache 2.0
 - [[open-source-game/0-ad]] —
+- [[open-source-game/freecol]] — Colonization 开源复刻，Java 11 + Ant 构建，826 源文件，XML 数据驱动规则，模块化 client/server 架构，GPLv2
 - [[open-source-game/mindustry]] — 自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人
 - [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，GPLv3
 - [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY

@@ -716,3 +716,9 @@
 - Updated: index.md (新增 freecol 条目), open-source-games-learning-checklist.md (Turn-Based Strategy FreeCol checkbox, 学习记录 145), log.md
 - Clone: https://github.com/FreeCol/freecol (git clone --depth=1 成功)
 - Note: Colonization 开源复刻；Java 11 + Ant 构建，826 源文件；XML 数据驱动规则系统(data/rules/freecol/specification.xml)；模块化 client/common/server/metaserver 架构；Swing MigLayout GUI；TCP Socket 帧同步多人；Metaserver 大厅匹配；GPLv2
+
+## [2026-04-10] ingest | Freeciv wiki note
+- Created: open-source-game/freeciv.md
+- Updated: index.md (新增 freeciv 条目，Total pages: 96), open-source-games-learning-checklist.md (Turn-Based Strategy Freeciv checkbox, 学习记录 146), log.md
+- Clone: https://github.com/freeciv/freeciv (git clone --depth=1 成功)
+- Note: Civilization 风格帝国建设回合策略；C 语言 + Meson 构建（主）+ Autotools；server/client/common/ai/aicore 5层模块化架构；191K LOC in C files，1354 C/H 文件；v3.4-dev（约 29 年活跃开发）；多前端渲染 Qt/SDL2/SDL3/Gtk3；Capability string 网络协议版本兼容性；Tilespec 视觉资源与游戏逻辑分离；GPLv2

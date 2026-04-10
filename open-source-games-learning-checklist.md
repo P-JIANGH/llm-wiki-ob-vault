@@ -280,7 +280,7 @@
 - [2026-04-10] **FreeCol** — Colonization 开源复刻 | `https://github.com/FreeCol/freecol`
 - [2026-04-10] **Freeciv** — Civilization 开源复刻 | `https://github.com/freeciv/freeciv`
 - [2026-04-10] **FreeOrion** — 4X 太空帝国游戏 | `https://github.com/freeorion/freeorion`
-- [ ] **fheroes2** — Heroes of Might and Magic II 游戏引擎复刻 | `https://github.com/ihhub/fheroes2`
+- [2026-04-10] **fheroes2** — Heroes of Might and Magic II 游戏引擎复刻 | `https://github.com/ihhub/fheroes2`
 - [ ] **OpenXcom** — X-COM: UFO Enemy Unknown 重制 | `https://github.com/OpenXcom/OpenXcom`
 - [ ] **Ancient Beast** — 回合策略游戏 | `https://github.com/FreezingMoon/AncientBeast`
 - [ ] **Athena Crisis** — 现代复古回合战术策略 | `https://github.com/nkzw-tech/athena-crisis`
@@ -443,7 +443,8 @@
 || 144 | 2026-04-10 | VCMI | C++20 C/S 架构开源 HoMM III 引擎；Bonus DAG 传播系统(lib/bonuses/)；Callback 接口三层分离(CGameInfoCallback/CPlayerSpecificInfoCallback/CCallback)；多 AI 并存(BattleAI/Nullkiller/MMAI/StupidAI)；ERM+Lua 双脚本系统；JSON Schema 驱动 Mod 配置；CMake 3.16+跨平台 |
 || 145 | 2026-04-10 | FreeCol | Colonization 开源复刻；Java 11 + Ant 构建，826 源文件；XML 数据驱动规则(data/rules/freecol/specification.xml)；模块化 client/common/server/metaserver 架构；Swing MigLayout GUI；TCP Socket 帧同步多人；Metaserver 大厅匹配；GPLv2 |
 ||| 146 | 2026-04-10 | Freeciv | Civilization 风格帝国建设回合策略；C 语言 + Meson 构建（主）+ Autotools；server/client/common/ai/aicore 5层模块化架构；191K LOC in C files，1354 C/H 文件；v3.4-dev（约 29 年活跃开发）；多前端渲染 Qt/SDL2/SDL3/Gtk3；Capability string 网络协议版本兼容性；Tilespec 视觉资产与游戏逻辑完全分离；GPLv2 |
-||| 147 | 2026-04-10 | FreeOrion | 4X 太空帝国回合策略，致敬 Master of Orion；C++20 + GiGi 自研 GUI 库；FOCS Python 脚本内容系统（科技/物种/建筑/政策）；约 183K LOC C++；v0.5.1.2 (2026-02-26)；多客户端架构（human GG GUI + godot 新客户端）；GPLv2 源码 + CC-BY-SA-3.0 资产 |
+| 147 | 2026-04-10 | FreeOrion | 4X 太空帝国回合策略，致敬 Master of Orion，C++20 + GiGi 自研 GUI 库；FOCS Python 脚本内容系统（科技/物种/建筑/政策）；约 183K LOC C++；v0.5.1.2 (2026-02-26)；多客户端架构（human GG GUI + godot 新客户端）；GPLv2 源码 + CC-BY-SA-3.0 资产 |
+| 148 | 2026-04-10 | fheroes2 | HoMM II 清洁室重实现；~210K LOC C++ (250 cpp + 213 h)；纯 SDL2 无第三方引擎，engine/ 底层（图像/音频/渲染/文件系统）与 fheroes2/ 上层（battle/castle/heroes/kingdom/world 等）分离架构；agg_file 兼容原版 ICN/SHK/M82 资源格式；多平台 Win/Mac/Linux/Android/iOS/Switch/Vita；GPLv2 |
 
 ## 相关 Wiki 页面
 

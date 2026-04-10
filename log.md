@@ -727,3 +727,9 @@
 - Updated: index.md (新增 freeciv 条目，Total pages: 96), open-source-games-learning-checklist.md (Turn-Based Strategy Freeciv checkbox, 学习记录 146), log.md
 - Clone: https://github.com/freeciv/freeciv (git clone --depth=1 成功)
 - Note: Civilization 风格帝国建设回合策略；C 语言 + Meson 构建（主）+ Autotools；server/client/common/ai/aicore 5层模块化架构；191K LOC in C files，1354 C/H 文件；v3.4-dev（约 29 年活跃开发）；多前端渲染 Qt/SDL2/SDL3/Gtk3；Capability string 网络协议版本兼容性；Tilespec 视觉资源与游戏逻辑分离；GPLv2
+
+## [2026-04-10] ingest | fheroes2 wiki note
+- Created: open-source-game/fheroes2.md
+- Updated: index.md (新增 fheroes2 条目), open-source-games-learning-checklist.md (Turn-Based Strategy fheroes2 checkbox [2026-04-10], 学习记录 148), log.md
+- Clone: https://github.com/ihhub/fheroes2 (GitHub tarball download 成功)
+- Note: HoMM II 清洁室重实现；~210K LOC C++ (250 cpp + 213 h)；纯 SDL2 无第三方引擎，engine/ 底层与 fheroes2/ 上层（battle/castle/heroes/kingdom/world 等）分离架构；agg_file 兼容原版资源格式；多平台 Win/Mac/Linux/Android/iOS/Switch/Vita；GPLv2

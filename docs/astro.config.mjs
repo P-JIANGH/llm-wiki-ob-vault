@@ -4,7 +4,7 @@ import { remarkWikilinks } from './src/lib/wikilinks.ts';
 const VAULT_ROOT = new URL('../../../', import.meta.url).pathname;
 
 export default defineConfig({
-  site: 'http://localhost:4321',
+  site: 'https://llm-wiki-ob-vault.pages.dev',
   markdown: {
     remarkPlugins: [remarkWikilinks],
     shikiConfig: {

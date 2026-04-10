@@ -1,7 +1,7 @@
 ---
 title: MemPalace
 created: 2026-04-09
-updated: 2026-04-09
+updated: 2026-04-10
 type: entity
 tags: [ai, llm, memory, rag, chromadb, mcp, vector-database, agent]
 sources: ["https://github.com/milla-jovovich/mempalace"]
@@ -10,6 +10,80 @@ sources: ["https://github.com/milla-jovovich/mempalace"]
 # MemPalace
 
 AI 长期记忆系统，2026 年 3 月由 milla-jovovich 开源。核心理念：**存储一切，让语义搜索找到它**。
+
+## MCP Server Auto-Teach 协议
+
+MCP `mempalace_status` 响应中内嵌两个关键字段，AI 无需配置自动学习：
+
+**PALACE_PROTOCOL**（5条记忆协议）：
+```
+1. ON WAKE-UP: Call mempalace_status to load palace overview + AAAK spec.
+2. BEFORE RESPONDING about any person, project, or past event:
+   call mempalace_kg_query or mempalace_search FIRST. Never guess — verify.
+3. IF UNSURE about a fact (name, gender, age, relationship):
+   say "let me check" and query the palace. Wrong is worse than slow.
+4. AFTER EACH SESSION: call mempalace_diary_write to record what happened.
+5. WHEN FACTS CHANGE: call mempalace_kg_invalidate on old fact, mempalace_kg_add for new.
+```
+
+**AAAK_SPEC**（AAAK dialect 完整规范）：实体代码（3字母大写）、情感标记（`*warm*`=joy、`*fierce*=determined`）、管道分隔字段结构、ISO日期、★重要度等级。
+
+AI 第一次调用 `mempalace_status` 即同时掌握 palace 概览 + AAAK 规范 + 记忆协议，无需额外引导。
+
+## Write-Ahead Log（WAL）审计
+
+`~/.mempalace/wal/write_log.jsonl` — 每次写入操作（add_drawer / kg_add / kg_invalidate / diary_write）在执行前先写 JSONL 日志。
+
+作用：
+- **审计追踪**：谁在什么时候写入了什么
+- **记忆污染检测**：外部来源或可疑写入可被回溯
+- **回滚支持**：WAL 条目可重放以恢复状态
+
+WAL 目录权限 700，WAL 文件权限 600。
+
+## Specialist Agents（专家 Agent）
+
+每个 agent 独立 wing + AAAK diary，与主 CLAUDE.md 解耦：
+
+```
+~/.mempalace/agents/
+  ├── reviewer.json    # 代码质量、bug 模式
+  ├── architect.json   # 设计决策、技术选型
+  └── ops.json         # 部署、故障、基础设施
+```
+
+```python
+# Agent 写 diary（AAAK 格式）
+mempalace_diary_write("reviewer",
+    "PR#42|auth.bypass.found|missing.middleware.check|pattern:3rd.time.this.quarter|★★★★")
+
+# Agent 读自己历史
+mempalace_diary_read("reviewer", last_n=10)
+```
+
+主 CLAUDE.md 只需一行：`You have MemPalace agents. Run mempalace_list_agents to see them.`
+
+## Auto-Save Hooks（Claude Code 集成）
+
+```json
+{
+  "hooks": {
+    "Stop": [{"matcher": "", "hooks": [{"type": "command", "command": "mempal_save_hook.sh"}]}],
+    "PreCompact": [{"matcher": "", "hooks": [{"type": "command", "command": "mempal_precompact_hook.sh"}]}]
+  }
+}
+```
+
+- **Stop hook**：每 15 条人类消息触发，阻塞 AI 提示保存话题/决策/引用
+- **PreCompact hook**：上下文压缩前紧急保存（L0+L1 刷新）
+- **MEMPAL_DIR**：设置 `MEMPAL_DIR=/path` 则 hook 自动对目录执行 `mempalace mine`（后台 on stop，同步 on precompact）
+
+## 版本差异
+
+| 版本 | 变化 |
+|------|------|
+| v3.0.0 | 初始版本，AAAK closets 计划中（未实现） |
+| v3.1.0 | WAL 审计、Specialist Agents、PreCompact hook、AAAK spec 内嵌 status 响应 |
 
 ## 核心定位
 

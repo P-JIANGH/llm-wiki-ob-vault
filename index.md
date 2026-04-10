@@ -2,13 +2,13 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total pages: 96
+|> Last updated: 2026-04-10 | Total wiki-layer pages: 194 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
 | [[llm-integration]] — 9 个 LLM Provider 统一接入（OpenAI/Claude/Gemini/DeepSeek 等） |
 | [[mempalace]] — AI 长期记忆系统，ChromaDB verbatim 存储 + 4 层记忆栈，LongMemEval 96.6%（无需 API） |
-| [[VoxCPM local deployment]] — VoxCPM 2 本地部署配置：Python/CUDA/GPU 显存要求及快速运行示例 |
+| [[voxcpm-local-deployment]] — VoxCPM 2 本地部署配置：Python/CUDA/GPU 显存要求及快速运行示例 |
 | [[multi-agent-ai-simulation]] — 多智能体 AI 通用概念：记忆/任务/感知/决策 |
 | [[multi-agent-ai-game-impl]] — Microverse 实现：感知→决策→记忆→任务→对话完整链路 |
 | [[persistent-memory-system]] — AI 角色长期记忆持久化（ChatHistory + 时间戳） |
@@ -148,7 +148,7 @@
 || [[open-source-game/dead-ascend]] — Qt/QML 手绘点击冒险游戏，僵尸塔楼密室解谜，Tiled TMX 地图格式，跨平台 |
 ||| [[open-source-game/dune-ii-the-maker]] — C++23 重制 Dune II，SDL2 全家桶，三速 tick 游戏循环(thinkFast/Normal/Slow)，cGameState 状态机，cPlayerBrain Mission 队列 AI，INI 配置驱动数据，superweapon 系统(DeathHand/Fremen/Saboteur) |
 ||| [[open-source-game/command-conquer-remastered-collection]] — EA 官方开源 C&C 泰伯利亚黎明+红色警戒源码，C + 内联汇编 + C# 地图编辑器，GPL v3，需持有原版游戏 |
-||| [[open-source-game/cnc-red-alert]] — EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB 多层架构(CODE/WIN32LIB/VQA/IPX)，Watcom+TASM 编译，GPL v3 |
+||| [[open-source-game/cn-c-red-alert]] — EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB 多层架构(CODE/WIN32LIB/VQA/IPX)，Watcom+TASM 编译，GPL v3 |
 ||| [[open-source-game/torcs]] — 开源 3D 赛车模拟器，plib OpenGL 渲染，模块化物理仿真(simu)，标准化 Robot AI 接口，广泛用于学术研究 |
 | [[open-source-game/rigs-of-rods]] — 软体物理沙盒，节点-弹簧车辆形变实时仿真，OGRE 1.11 + AngelScript，2005 年项目，GPLv2 |
 | [[open-source-game/ddnet]] — Teeworlds DDRace 模组社区延续版，合作 2D 平台跳跃，C++/Rust 混合架构，CMake+Ninja 构建 |
@@ -187,6 +187,26 @@
 - [[open-source-game/warsmash-mod-engine]] — Warcraft III 模拟器，LibGDX + Java17，~97K LOC，多模块 Gradle，JASS ANTLR 虚拟机，虚拟文件系统支持 MPQ/CASC，AGPL
 - [[open-source-game/widelands]] — Settlers II 风格开源 RTS，~301K LOC C++，CMake/SDL2+OpenGL，Lua 脚本驱动，Flag-Route 经济链，帧同步多人
 - [[open-source-game/wyrmsun]] — 融合神话/历史/虚构元素的多文明 RTS，基于 Stratagus 引擎（Wyrmgus），数据仓库架构，双仓库设计（引擎+内容），持久英雄+物品掉落，GPL 2.0
+
+## Concepts
+
+|| [[agent-loop]] — AI Agent 核心执行循环：LLM推理↔工具调用，nanobot loop.py 750行实现 |
+|| [[provider-registry]] — 插拔式 LLM Provider 架构，添加新Provider仅需2步元组注册 |
+|| [[channel-system]] — 统一 Message Bus 解耦多聊天平台，Telegram/Discord/Feishu 等13渠道 |
+|| [[memory-system]] — Dream 两阶段记忆系统：Consolidator压缩 + Dream整合写入，GitStore版本化 |
+|| [[nanobot]] — HKUDS 开源极轻量 AI Agent，~2258行核心代码，22+ Provider，13渠道 |
+|| [[openclaw]] — nanobot 设计灵感来源，43万行压缩到4000行，极简 Agent 架构 |
+|| [[hkuds]] — 香港大学数据科学实验室，nanobot + ClawTeam 开发主体 |
+|| [[clawteam]] — HKUDS Agent Swarm 框架，任意CLI Agent组队协作，8×8 H100 GPU自动化实验 |
+|| [[agent-swarm]] — Agent组成蜂群协作的设计模式：Leader拆解+Worker并行+inbox消息+git worktree隔离 |
+|| [[deer-flow]] — ByteDance Super Agent Harness，LangGraph+LangChain，12步middleware链，Sandbox+Subagent+Memory |
+|| [[deer-flow-sandbox]] — 双向路径映射+输出反向掩码，最长前缀匹配，segment boundary保护，LocalSandbox实现 |
+|| [[deer-flow-subagent]] — 三线程池架构(scheduler/execution/isolated)，SSE事件流，config.yaml超时覆盖 |
+|| [[deer-flow-memory]] — Fact提取+Debounce队列+XML标签注入，category分类(deer-flow vs nanobot Dream对比) |
+|| [[deer-flow-runtime]] — RunManager生命周期+StreamBridge生产消费解耦+Checkpointer+KVStore |
+|| [[langgraph]] — LangChain多Agent编排框架，图结构建模工作流，内置checkpointing和streaming |
+|| [[langchain]] — LLM应用开发框架，Chain/Agent/Memory/Tool/Prompt抽象，LangGraph基础 |
+|| [[sandbox]] — 隔离执行环境模式：虚拟路径+容器/进程级隔离，DeerFlow/nanobot核心基础设施 |
 
 ## Comparisons
 

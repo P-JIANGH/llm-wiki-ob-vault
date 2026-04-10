@@ -698,3 +698,9 @@
 - Updated: index.md (新增 re3 条目, total pages: 95), open-source-games-learning-checklist.md (行265 RE3 checkbox, 学习记录 140), log.md
 - Clone: https://github.com/VideogameSources/gta3-decomp-alt (git clone --depth=1 成功)
 - Note: GTA III 完全逆向工程重实现，Theseus之船渐进式替换策略（Ship of Theseus）；librw 自研 RenderWare 替代渲染引擎(D3D9/OGL3.3)；228 cpp + 239 h 约 188K LOC；20 子系统模块化(animation/audio/collision/peds/render/vehicles等)；需原版 GTA III 游戏数据；多平台支持(Win D3D9/Win OGL3.3/Linux/FreeBSD)；config.h 集中管理多平台差异常量
+
+## [2026-04-10] ingest | Unciv wiki note
+- Created: open-source-game/unciv.md
+- Updated: index.md (新增 unciv 条目), open-source-games-learning-checklist.md (Turn-Based Strategy Unciv checkbox, 学习记录 143), log.md
+- Clone: https://github.com/yairm210/Unciv (git clone --depth=1 成功)
+- Note: LibGDX 1.14 跨平台（Android+Desktop+Linux/macOS/RaspPi），141K LOC Kotlin；JSON 数据驱动规则集 (Ruleset/Tech/Building/Unit/Policy/Religion)，android/assets/jsons/ 含 Civ V Vanilla+G&K 完整内容；IsPartOfGameInfoSerialization 接口约束 + CompatibilityVersion 版本号存档兼容；Ktor WebSocket 多人网络；automation/ 包含完整 AI 模块 (city/unit/defense/wonder/civilian 等)；RulesetCache Mod 热加载系统；Apache 2.0 许可证，极轻量 "potato" 级别运行要求

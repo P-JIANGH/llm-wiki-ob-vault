@@ -275,7 +275,7 @@
 ## Turn-Based Strategy (12)
 
 - [2026-04-10] **The Battle for Wesnoth** — 高奇幻回合策略 | `https://github.com/wesnoth/wesnoth`
-- [ ] **Unciv** — Civilization V Android/Desktop 开源复刻 | `https://github.com/yairm210/Unciv`
+- [2026-04-10] **Unciv** — Civilization V Android/Desktop 开源复刻 | `https://github.com/yairm210/Unciv`
 - [ ] **VCMI Project** — Heroes of Might and Magic III 引擎 | `https://github.com/vcmi/vcmi`
 - [ ] **FreeCol** — Colonization 开源复刻 | `https://github.com/FreeCol/freecol`
 - [ ] **Freeciv** — Civilization 开源复刻 | `https://github.com/freeciv/freeciv`
@@ -439,6 +439,7 @@
 | 141 | 2026-04-10 | RE3 | GTA III 完全逆向工程重实现；Theseus之船渐进式替换策略（非大爆炸重写，任何时候可运行）；librw 自研 RenderWare 替代渲染引擎(D3D9/OGL3.3)；228 cpp+239 h 约188K LOC；20子系统模块(animation/audio/collision/peds/render/vehicles等)；config.h 集中管理多平台差异池大小常量；需原版 GTA III 游戏数据 |
 | 142 | 2026-04-10 | The Battle for Wesnoth | 高奇幻回合策略，86K commits；WML(Wesnoth Markup Language)+Lua 双层内容脚本系统使非程序员可创作完整战役；C++17 + SDL2 双构建系统(SCons+CMake)；Boost >= 1.70 大型依赖栈；GPLv2+ 源码 / CC BY-SA v4.0 新资源 |
 | S | 2026-04-10 | Server Survival | 跳过：https://github.com/pshenok/server-survival 不存在（404），仓库已删除或从未创建 |
+| 143 | 2026-04-10 | Unciv | LibGDX 1.14 跨平台（Android+Desktop），141K LOC Kotlin；JSON 数据驱动规则集 (Ruleset/Tech/Building/Unit/Policy/Religion)；IsPartOfGameInfoSerialization 接口约束 + 版本号存档兼容；Ktor WebSocket 多人；automation/ AI 模块；RulesetCache Mod 热加载 |
 
 ## 相关 Wiki 页面
 

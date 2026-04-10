@@ -687,3 +687,9 @@
 - Updated: index.md (新增 overgrowth 条目, total pages: 94), open-source-games-learning-checklist.md (行264 Overgrowth checkbox, 学习记录 139), log.md
 - Clone: https://github.com/WolfireGames/overgrowth (git clone --depth=1 成功)
 - Note: Lugaru 续作，~227K LOC C++（995 源文件），自研引擎 SDL2+OpenGL；AngelScript 脚本系统完全解耦游戏逻辑；Bullet Physics + Recast Navigation 双层物理/导航；Component 基类+XML 数据驱动实体系统；帧同步网络框架(Socket/Steam P2P)；Apache 2.0 极宽松许可，可闭源商用；代码质量高，模块化清晰，~30 个子系统模块；主仓库需商业版游戏数据才能完整运行
+
+## [2026-04-10] ingest | re3 wiki note
+- Created: open-source-game/re3.md
+- Updated: index.md (新增 re3 条目, total pages: 95), open-source-games-learning-checklist.md (行265 RE3 checkbox, 学习记录 140), log.md
+- Clone: https://github.com/VideogameSources/gta3-decomp-alt (git clone --depth=1 成功)
+- Note: GTA III 完全逆向工程重实现，Theseus之船渐进式替换策略（Ship of Theseus）；librw 自研 RenderWare 替代渲染引擎(D3D9/OGL3.3)；228 cpp + 239 h 约 188K LOC；20 子系统模块化(animation/audio/collision/peds/render/vehicles等)；需原版 GTA III 游戏数据；多平台支持(Win D3D9/Win OGL3.3/Linux/FreeBSD)；config.h 集中管理多平台差异常量

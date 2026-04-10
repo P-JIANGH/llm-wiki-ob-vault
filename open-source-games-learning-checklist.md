@@ -283,7 +283,7 @@
 - [2026-04-10] **fheroes2** — Heroes of Might and Magic II 游戏引擎复刻 | `https://github.com/ihhub/fheroes2`
 - [2026-04-10] **OpenXcom** — X-COM: UFO Enemy Unknown 重制 | `https://github.com/OpenXcom/OpenXcom`
 - [2026-04-10] **Ancient Beast** — 回合策略游戏 | `https://github.com/FreezingMoon/AncientBeast`
-- [ ] **Athena Crisis** — 现代复古回合战术策略 | `https://github.com/nkzw-tech/athena-crisis`
+- [2026-04-10] **Athena Crisis** — 现代复古回合战术策略 | `https://github.com/nkzw-tech/athena-crisis`
 - [ ] **C-evo** — 帝国建造 Windows 游戏 | `http://c-evo.org/`
 - [ ] **OpenPanzer** — Panzer General II JS/HTML5 重写 | `https://github.com/nicupavel/openpanzer`
 - [ ] **Hnefatafl** — 北欧棋类策略 | `https://github.com/dcampbell24/hnefatafl`
@@ -295,9 +295,10 @@
 > 每完成一个项目，在上面 `[ ]` 填入日期
 > Wiki 页面命名规范：`open-source-game/[项目名小写-连字符].md`
 
-| # | 日期 | 项目名 | 关键发现 |
-|---|------|--------|---------|
-| 51 | 2026-04-09 | NakedAVP | 三族 SDL3 现代端口，双渲染器降级(OpenGL/GLES2)，Win API 抽象层，atsb 主导，约45K LOC C/C++ |
+|| # | 日期 | 项目名 | 关键发现 |
+||---|------|--------|---------|
+|| 151 | 2026-04-10 | Athena Crisis | 100K+ LOC 开源，pnpm monorepo（athena/apollo/hera/ui/dionysus），athena=地图状态+apollo=游戏状态双层架构，hera=渲染引擎，dionysus=AI包，codegen Action代码生成，TypeScript+Vite，Open Core MIT变现 |
+|| 51 | 2026-04-09 | NakedAVP | 三族 SDL3 现代端口，双渲染器降级(OpenGL/GLES2)，Win API 抽象层，atsb 主导，约45K LOC C/C++ |
 | 52 | 2026-04-09 | Surreal Engine | UE1 清洁室重实现，SHA1DB多游戏识别，D3D11+Vulkan双渲染器（无OpenGL），~99K LOC C++，三应用入口(Engine/Editor/Debugger)，Unrealscript VM 部分实现（缺网络），仅 UT436/UnrealGold 可玩 |
 | 74 | 2026-04-09 | OpenRA | C# RTS 引擎复刻 Westwood 经典（C&C/红警/沙丘2000），.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars |
 | 53 | 2026-04-09 | Super Mario 64 | N64 完整反编译，2746 C 文件，src/engine/ 图节点渲染+src/game/ 游戏逻辑，binutils-mips 交叉编译，多版本条件编译(jp/us/eu/sh/cn)，baserom 资产提取管线，GPLv2 |

@@ -5,6 +5,11 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-10] ingest | Athena Crisis wiki note
+- Created: open-source-game/athena-crisis.md (现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容）)
+- Updated: index.md (新增 athena-crisis 条目，total pages: 97), open-source-games-learning-checklist.md (行286 Athena Crisis checkbox, 学习记录151), log.md
+- Note: git clone 和 tarball 均超时；通过 GitHub API zipball 端点成功下载完成
+
 ## [2026-04-10] ingest | OpenXcom wiki note
 - Created: open-source-game/openxcom.md (X-COM: UFO Enemy Unknown/Terror From the Deep 开源复刻；C++/SDL；646 C++源文件；Geoscape/Battlescape/Basescape 三层模块；YAML Mod 规则集；2.1k stars，GPLv2)
 - Updated: index.md (新增 openxcom 条目), open-source-games-learning-checklist.md (行284 OpenXcom checkbox, 学习记录149), log.md

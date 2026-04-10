@@ -268,13 +268,13 @@
 
 ## Tower Defence (1)
 
-- [ ] **Server Survival** — 云架构塔防教学游戏 | `https://github.com/pshenok/server-survival`
+- [skipped-2026-04-10] **Server Survival** — 云架构塔防教学游戏 | `https://github.com/pshenok/server-survival`
 
 ---
 
 ## Turn-Based Strategy (12)
 
-- [ ] **The Battle for Wesnoth** — 高奇幻回合策略 | `https://github.com/wesnoth/wesnoth`
+- [2026-04-10] **The Battle for Wesnoth** — 高奇幻回合策略 | `https://github.com/wesnoth/wesnoth`
 - [ ] **Unciv** — Civilization V Android/Desktop 开源复刻 | `https://github.com/yairm210/Unciv`
 - [ ] **VCMI Project** — Heroes of Might and Magic III 引擎 | `https://github.com/vcmi/vcmi`
 - [ ] **FreeCol** — Colonization 开源复刻 | `https://github.com/FreeCol/freecol`
@@ -436,7 +436,9 @@
 | 138 | 2026-04-10 | Tomb Engine | Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版 |
 | 139 | 2026-04-10 | Lugaru HD | C++/SDL2/OpenGL ~38K LOC，8个子系统模块（Animation/Audio/Environment/Graphic/Level/Math/Objects/Platform），双层骨骼动画插值（animCurrent↔animTarget + frameCurrent↔frameTarget），9种AI状态机（passive/guard/search/attack/pathfind等），enable_shared_from_this循环引用管理，Data/资产数据分离（Animations/Maps/Campaigns/Dialogues），GPLv2+源码/CC BY-SA 3.0-4.0 资产双许可，41 stars |
 | 140 | 2026-04-10 | Overgrowth | Lugaru 续作，~227K LOC C++（995 源文件），自研 SDL2+OpenGL 引擎；AngelScript 脚本完全解耦游戏逻辑；Bullet Physics + Recast Navigation 双层物理/导航；Component 基类+XML 数据驱动实体系统；帧同步网络框架(Socket/Steam P2P GameNetworkingSockets)；30+ 子系统模块(Graphics/Physics/Scripting/AI/Network/Editors等)；Apache 2.0 极宽松许可，可闭源商用；需商业版游戏数据才能完整运行 |
-| 141 | 2026-04-10 | RE3 | GTA III 完全逆向工程重实现；Theseus之船渐进式替换策略（非大爆炸重写，任何时候可运行）；librw 自研 RenderWare 替代渲染引擎(D3D9/OGL3.3)；228 cpp+239 h 约188K LOC；20子系统模块(animation/audio/collision/peds/render/vehicles等)；config.h 集中管理多平台差异池大小常量；需原版 GTA III 游戏数据 |
+|| 141 | 2026-04-10 | RE3 | GTA III 完全逆向工程重实现；Theseus之船渐进式替换策略（非大爆炸重写，任何时候可运行）；librw 自研 RenderWare 替代渲染引擎(D3D9/OGL3.3)；228 cpp+239 h 约188K LOC；20子系统模块(animation/audio/collision/peds/render/vehicles等)；config.h 集中管理多平台差异池大小常量；需原版 GTA III 游戏数据 |
+|| 142 | 2026-04-10 | The Battle for Wesnoth | 高奇幻回合策略，86K commits；WML(Wesnoth Markup Language)+Lua 双层内容脚本系统使非程序员可创作完整战役；C++17 + SDL2 双构建系统(SCons+CMake)；Boost >= 1.70 大型依赖栈；GPLv2+ 源码 / CC BY-SA v4.0 新资源 |
+|| S | 2026-04-10 | Server Survival | 跳过：https://github.com/pshenok/server-survival 不存在（404），仓库已删除或从未创建 |
 
 ## 相关 Wiki 页面
 

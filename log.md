@@ -12,6 +12,12 @@
 - Note: 源码深度文件：palace.py(71行) / mcp_server.py(946行) / knowledge_graph.py(393行) / palace_graph.py(227行) / searcher.py(152行) / layers.py(515行)
 - Note: wiki 已有 mempalace.md（2026-04-09 创建），本次补充 v3.1.0 新细节
 
+## [2026-04-10] ingest | OpenMAIC（THU-MAIC 多智能体互动教室平台）
+- Created: raw/articles/thu-maic-openmaic-2026.md
+- Created: entities/openmaic.md（THU-MAIC 开源 AI 教育平台，AGPL-3.0，支持 Gemini/DeepSeek/MiniMax）
+- Created: concepts/multi-agent-interactive-classroom.md（多 Agent 协作教学模式，Outline→Scenes 两阶段，幻灯片/Quiz/模拟/PBL）
+- Updated: index.md（+2 pages，total 196）
+
 ## [2026-04-10] lint | Wiki health check — duplicate fixed, broken links documented
 - Fixed: entities/deerflow.md duplicate deleted (内容已整合到 entities/deer-flow.md)
 - Rotated: log.md → log-2026.md (161 entries, 778 lines)

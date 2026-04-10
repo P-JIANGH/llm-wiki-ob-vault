@@ -285,7 +285,7 @@
 - [2026-04-10] **Ancient Beast** — 回合策略游戏 | `https://github.com/FreezingMoon/AncientBeast`
 - [2026-04-10] **Athena Crisis** — 现代复古回合战术策略 | `https://github.com/nkzw-tech/athena-crisis`
 - [ ] **C-evo** — 帝国建造 Windows 游戏 | `http://c-evo.org/`
-- [ ] **OpenPanzer** — Panzer General II JS/HTML5 重写 | `https://github.com/nicupavel/openpanzer`
+- [2026-04-10] **OpenPanzer** — Panzer General II JS/HTML5 重写 | `https://github.com/nicupavel/openpanzer`
 - [ ] **Hnefatafl** — 北欧棋类策略 | `https://github.com/dcampbell24/hnefatafl`
 
 ---
@@ -297,7 +297,7 @@
 
 || # | 日期 | 项目名 | 关键发现 |
 ||---|------|--------|---------|
-|| 151 | 2026-04-10 | Athena Crisis | 100K+ LOC 开源，pnpm monorepo（athena/apollo/hera/ui/dionysus），athena=地图状态+apollo=游戏状态双层架构，hera=渲染引擎，dionysus=AI包，codegen Action代码生成，TypeScript+Vite，Open Core MIT变现 |
+|| 152 | 2026-04-10 | OpenPanzer | 纯 HTML5/JS/Canvas 回合制坦克战，无第三方依赖，ES5 代码风格，XML 剧本加载+Python 转换工具链，localStorage 存档，AI.js 简单对手逻辑，CSS DOM UI 与 Canvas 渲染分离，GPLv2 |
 || 51 | 2026-04-09 | NakedAVP | 三族 SDL3 现代端口，双渲染器降级(OpenGL/GLES2)，Win API 抽象层，atsb 主导，约45K LOC C/C++ |
 | 52 | 2026-04-09 | Surreal Engine | UE1 清洁室重实现，SHA1DB多游戏识别，D3D11+Vulkan双渲染器（无OpenGL），~99K LOC C++，三应用入口(Engine/Editor/Debugger)，Unrealscript VM 部分实现（缺网络），仅 UT436/UnrealGold 可玩 |
 | 74 | 2026-04-09 | OpenRA | C# RTS 引擎复刻 Westwood 经典（C&C/红警/沙丘2000），.NET 8 + SDL2 + OpenGL，Order 驱动网络同步，OpenRA.Game/Mods/Server 模块化架构，16.6k stars |

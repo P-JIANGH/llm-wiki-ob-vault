@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total wiki-layer pages: 196 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+|> Last updated: 2026-04-10 | Total wiki-layer pages: 197 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -52,6 +52,7 @@
 - [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY
 - [[open-source-game/openenroth]] — Might and Magic VI-VIII 引擎清洁室重实现，C++23 + CMake，子系统模块化架构（Engine/GUI/Media/Scripting），LuaJIT + sol2 脚本，22 第三方子模块，~136K LOC，仅 MM7 可玩，GPLv2
 - [[open-source-game/opennox]] — Nox (Westwood 2000) 引擎清洁室重实现，SDL2+OpenGL+OpenAL 跨平台抽象，compat 层分离，Emscripten WebAssembly 支持，自研 VQA 视频解码器，MIT
+- [[open-source-game/openpanzer]] — 纯 HTML5/JS/Canvas 回合制坦克战，致敬 Panzer General 2，无第三方依赖，XML 剧本+Python 工具链转换，localStorage 存档，GPLv2
 - [[open-source-game/re3]] — GTA III 逆向工程重实现，Theseus之船渐进式替换策略，librw 自研 RenderWare 替代渲染引擎，D3D9/OGL3.3 双后端，约 188K LOC C/C++，需原版游戏数据
 - [[open-source-game/reone]] — KotOR/KotOR 2 引擎清洁室重实现，SDL2+OpenGL 3.3 自研引擎，NWScript 虚拟机，GFF/2DA 资源解析，~438 源文件，C++17，GPLv3
 - [[open-source-game/severed-chains]] — Legend of Dragoon PS1 逆向工程 Java 重实现，904 Java 文件，PS1 硬件仿真层(GTE/GPU/SPU)，Event-based 模组 API

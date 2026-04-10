@@ -27,3 +27,9 @@
 - Note: docs/ 下的 broken links (docs/ 是 Obsidian 另一套文档站，非本 wiki 层)
 - Open Source Games: 153 个游戏文件，仅 65 个在 index.md 中收录（cron 持续收录中）
 - Total wiki-layer pages: 194 (entities:16 + concepts:24 + comparisons:1 + open-source-game:153)
+
+## [2026-04-10] ingest | OpenPanzer 开源游戏 wiki note
+- Created: open-source-game/openpanzer.md
+- Updated: open-source-games-learning-checklist.md (item 288 marked done)
+- Updated: index.md (+1 page, total 197)
+- Updated: open-source-games-learning-checklist.md (learning record row 152 added)

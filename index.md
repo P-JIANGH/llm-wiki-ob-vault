@@ -43,6 +43,7 @@
 - [[open-source-game/freeorion]] — 4X 太空帝国回合策略，致敬 Master of Orion，C++20 + GiGi GUI + FOCS Python 脚本驱动，约 183K LOC C++
 - [[open-source-game/freecol]] — Colonization 开源复刻，Java 11 + Ant 构建，826 源文件，XML 数据驱动规则，模块化 client/server 架构，GPLv2
 - [[open-source-game/freeciv]] — Civilization 风格帝国建设回合策略，C 语言 + Meson 构建，server/client/common 三层模块化架构，191K LOC，约 29 年活跃开发，能力字符串版本协议支持多客户端网络互通，GPLv2
+- [[open-source-game/openxcom]] — X-COM: UFO Enemy Unknown / Terror From the Deep 开源复刻，C++/SDL，646 C++源文件，Geoscape/Battlescape/Basescape 三层模块架构，YAML Mod 规则集系统，2.1k stars，GPLv2
 - [[open-source-game/mindustry]] — 自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人
 - [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，GPLv3
 - [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY

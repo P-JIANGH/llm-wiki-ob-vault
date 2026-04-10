@@ -5,6 +5,11 @@
 > Actions: ingest, update, query, lint, create, archive, delete
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
 
+## [2026-04-10] ingest | OpenXcom wiki note
+- Created: open-source-game/openxcom.md (X-COM: UFO Enemy Unknown/Terror From the Deep 开源复刻；C++/SDL；646 C++源文件；Geoscape/Battlescape/Basescape 三层模块；YAML Mod 规则集；2.1k stars，GPLv2)
+- Updated: index.md (新增 openxcom 条目), open-source-games-learning-checklist.md (行284 OpenXcom checkbox, 学习记录149), log.md
+- Note: git clone 超时；通过 GitHub API tarball 端点下载 master.tar.gz 完成
+
 ## [2026-04-10] ingest | FreeOrion wiki note
 - Created: open-source-game/freeorion.md (4X 太空帝国回合策略，致敬 Master of Orion；C++20 + GiGi 自研 GUI 库；FOCS Python 脚本内容系统；约 183K LOC C++；v0.5.1.2，GPLv2 + CC-BY-SA-3.0)
 - Updated: index.md (新增 freeorion 条目，total pages: 97), open-source-games-learning-checklist.md (行282 FreeOrion checkbox, 学习记录147), log.md

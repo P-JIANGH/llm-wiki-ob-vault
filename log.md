@@ -738,3 +738,9 @@
 - Updated: index.md (新增 fheroes2 条目), open-source-games-learning-checklist.md (Turn-Based Strategy fheroes2 checkbox [2026-04-10], 学习记录 148), log.md
 - Clone: https://github.com/ihhub/fheroes2 (GitHub tarball download 成功)
 - Note: HoMM II 清洁室重实现；~210K LOC C++ (250 cpp + 213 h)；纯 SDL2 无第三方引擎，engine/ 底层与 fheroes2/ 上层（battle/castle/heroes/kingdom/world 等）分离架构；agg_file 兼容原版资源格式；多平台 Win/Mac/Linux/Android/iOS/Switch/Vita；GPLv2
+
+## [2026-04-10] ingest | Ancient Beast wiki note
+- Created: open-source-game/ancient-beast.md
+- Updated: index.md (新增 ancient-beast 条目), open-source-games-learning-checklist.md (Turn-Based Strategy Ancient Beast checkbox [2026-04-10], 学习记录 150), log.md
+- Clone: https://github.com/FreezingMoon/AncientBeast (git clone --depth=1 成功)
+- Note: 回合制策略，7派系单位收集+1v1/2v2对战，Phaser CE 2.16.0 HTML5引擎，TypeScript ~8K LOC，21个能力文件 ~7965 LOC，Nakama JS WebSocket多人，双许可(AGPL-3.0代码/CC-BY-SA-4.0美术)

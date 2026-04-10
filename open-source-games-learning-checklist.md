@@ -282,7 +282,7 @@
 - [2026-04-10] **FreeOrion** — 4X 太空帝国游戏 | `https://github.com/freeorion/freeorion`
 - [2026-04-10] **fheroes2** — Heroes of Might and Magic II 游戏引擎复刻 | `https://github.com/ihhub/fheroes2`
 - [2026-04-10] **OpenXcom** — X-COM: UFO Enemy Unknown 重制 | `https://github.com/OpenXcom/OpenXcom`
-- [ ] **Ancient Beast** — 回合策略游戏 | `https://github.com/FreezingMoon/AncientBeast`
+- [2026-04-10] **Ancient Beast** — 回合策略游戏 | `https://github.com/FreezingMoon/AncientBeast`
 - [ ] **Athena Crisis** — 现代复古回合战术策略 | `https://github.com/nkzw-tech/athena-crisis`
 - [ ] **C-evo** — 帝国建造 Windows 游戏 | `http://c-evo.org/`
 - [ ] **OpenPanzer** — Panzer General II JS/HTML5 重写 | `https://github.com/nicupavel/openpanzer`
@@ -445,7 +445,8 @@
 ||| 146 | 2026-04-10 | Freeciv | Civilization 风格帝国建设回合策略；C 语言 + Meson 构建（主）+ Autotools；server/client/common/ai/aicore 5层模块化架构；191K LOC in C files，1354 C/H 文件；v3.4-dev（约 29 年活跃开发）；多前端渲染 Qt/SDL2/SDL3/Gtk3；Capability string 网络协议版本兼容性；Tilespec 视觉资产与游戏逻辑完全分离；GPLv2 |
 | 147 | 2026-04-10 | FreeOrion | 4X 太空帝国回合策略，致敬 Master of Orion，C++20 + GiGi 自研 GUI 库；FOCS Python 脚本内容系统（科技/物种/建筑/政策）；约 183K LOC C++；v0.5.1.2 (2026-02-26)；多客户端架构（human GG GUI + godot 新客户端）；GPLv2 源码 + CC-BY-SA-3.0 资产 |
 || 148 | 2026-04-10 | fheroes2 | HoMM II 清洁室重实现；~210K LOC C++ (250 cpp + 213 h)；纯 SDL2 无第三方引擎，engine/ 底层（图像/音频/渲染/文件系统）与 fheroes2/ 上层（battle/castle/heroes/kingdom/world 等）分离架构；agg_file 兼容原版 ICN/SHK/M82 资源格式；多平台 Win/Mac/Linux/Android/iOS/Switch/Vita；GPLv2 |
-|| 149 | 2026-04-10 | OpenXcom | X-COM UFO Enemy Unknown/Terror From the Deep 开源复刻；646 C++ 源文件；Geoscape(战略层71files)/Battlescape(战术99files)/Basescape(基地80files) 三层模块架构；Mod/ YAML 规则集系统(86files)；SDL2 + 自研 hq2x/hq3x/hq4x Scaler 上采样；TileEngine 100KB + AIModule 60KB 战斗AI；2.1k stars，GPLv2 |
+| 149 | 2026-04-10 | OpenXcom | X-COM UFO Enemy Unknown/Terror From the Deep 开源复刻，646 C++ 源文件，Geoscape(战略层71files)/Battlescape(战术99files)/Basescape(基地80files) 三层模块架构，Mod/ YAML 规则集系统(86files)，SDL2 + 自研 hq2x~x4 Scaler 上采样，TileEngine 100KB + AIModule 60KB 战斗AI，2.1k stars，GPLv2 |
+| 150 | 2026-04-10 | Ancient Beast | 回合制策略，7派系单位收集+1v1/2v2对战，Phaser CE 2.16.0 HTML5引擎，TypeScript ~8K LOC，21个能力文件 ~7965 LOC，Nakama JS WebSocket多人，双许可(AGPL-3.0代码/CC-BY-SA-4.0美术) |
 
 ## 相关 Wiki 页面
 

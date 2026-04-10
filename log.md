@@ -704,3 +704,9 @@
 - Updated: index.md (新增 unciv 条目), open-source-games-learning-checklist.md (Turn-Based Strategy Unciv checkbox, 学习记录 143), log.md
 - Clone: https://github.com/yairm210/Unciv (git clone --depth=1 成功)
 - Note: LibGDX 1.14 跨平台（Android+Desktop+Linux/macOS/RaspPi），141K LOC Kotlin；JSON 数据驱动规则集 (Ruleset/Tech/Building/Unit/Policy/Religion)，android/assets/jsons/ 含 Civ V Vanilla+G&K 完整内容；IsPartOfGameInfoSerialization 接口约束 + CompatibilityVersion 版本号存档兼容；Ktor WebSocket 多人网络；automation/ 包含完整 AI 模块 (city/unit/defense/wonder/civilian 等)；RulesetCache Mod 热加载系统；Apache 2.0 许可证，极轻量 "potato" 级别运行要求
+
+## [2026-04-10] ingest | VCMI wiki note
+- Created: open-source-game/vcmi.md
+- Updated: index.md (新增 vcmi 条目), open-source-games-learning-checklist.md (Turn-Based Strategy VCMI checkbox, 学习记录 144), log.md
+- Clone: https://github.com/vcmi/vcmi (git clone --depth=1 成功)
+- Note: Heroes of Might and Magic III 开源引擎重实现；C++20 C/S 架构(serverapp 独立服务器 + clientapp 渲染客户端 + VCMI_lib 共享库)；Bonus DAG 传播系统(lib/bonuses/，Propagators+Limiters 自动继承)；Callback 接口三层分离(CGameInfoCallback/CPlayerSpecificInfoCallback/CCallback)；多 AI 并存(BattleAI/Nullkiller/MMAI/StupidAI)；ERM+Lua 双脚本系统(scripting/erm/ & scripting/lua/)；JSON Schema 验证 Mod 配置(config/schemas/)；CMake 3.16+跨平台(Win/Linux/macOS/iOS/Android/BSD)；v1.7.3，GPLv2

@@ -12,6 +12,13 @@
 - Note: 源码深度文件：palace.py(71行) / mcp_server.py(946行) / knowledge_graph.py(393行) / palace_graph.py(227行) / searcher.py(152行) / layers.py(515行)
 - Note: wiki 已有 mempalace.md（2026-04-09 创建），本次补充 v3.1.0 新细节
 
+## [2026-04-10] ingest | karpathy/autoresearch（Autonomous LLM Research 框架）
+- Created: raw/articles/karpathy-autoresearch-2026.md（70.3k stars，MIT，三个文件职责分离，program.md 指令体系，MuonAdamW 优化器，ResFormer + Sliding Window）
+- Created: entities/autoresearch.md（Karpathy 自主研究框架：5分钟实验循环，val_bpb 评估，program.md 迭代核心创新）
+- Created: concepts/autonomous-llm-research.md（Autonomous LLM Research 范式：AI agent 自主实验 vs 传统 AutoML 对比，val_bpb 指标）
+- Created: concepts/muon-optimizer.md（MuonAdamW：梯度空间优化 + Polar Express 正交化 + NorMuon + Cautious Weight Decay）
+- Updated: index.md（+2 entities +2 concepts，total 202）
+
 ## [2026-04-10] ingest | Coze Studio 完整深度学习（Eino + FlowGram + DDD架构 + 工作流节点类型）
 - Updated: raw/articles/coze-studio-github-2026.md（大幅扩充：Eino/CloudWeGo 生态 / DDD 四层架构 / FlowGram 双布局 / 模型抽象设计 / 工作流节点类型 / 部署细节）
 - Updated: entities/coze-studio.md（+Eino 技术栈 / DDD 架构图 / FlowGram 编辑器 / 模型抽象价值 / Eino + FlowGram wikilinks）

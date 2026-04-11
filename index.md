@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-10 | Total wiki-layer pages: 200 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-10 | Total wiki-layer pages: 202 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -13,6 +13,7 @@
 | [[multi-agent-ai-game-impl]] — Microverse 实现：感知→决策→记忆→任务→对话完整链路 |
 | [[persistent-memory-system]] — AI 角色长期记忆持久化（ChatHistory + 时间戳） |
 | [[stanford-generative-agents]] — Stanford Generative Agents（AI Town）Memory/Reflection/Planning |
+| [[autoresearch]] — Karpathy 自主 LLM 研究框架：agent 修改 train.py → 5分钟实验 → val_bpb 评估 → keep/discard 循环，MIT，70.3k stars |
 | [[openmaic]] — THU-MAIC 开源多智能体互动教室平台：AI 教师/同学 + 白板/辩论/Quiz + PPT/HTML 导出，AGPL-3.0 |
 | [[coze-studio]] — Coze/字节跳动一站式 AI Agent 开发平台：可视化 Agent/Workflow 构建，微服务+DDD，Eino 运行时，FlowGram 编辑器，Apache-2.0，20.3k stars |
 | [[claude-code-game-studio-architecture]] — 49 Agent 层级结构、Model Tier 分配（Haiku/Sonnet/Opus）、五大协调规则、Subagents vs Agent Teams |
@@ -209,6 +210,8 @@
 || [[deer-flow-memory]] — Fact提取+Debounce队列+XML标签注入，category分类(deer-flow vs nanobot Dream对比) |
 | [[deer-flow-runtime]] — RunManager生命周期+StreamBridge生产消费解耦+Checkpointer+KVStore |
 | [[langgraph]] — LangChain多Agent编排框架，图结构建模工作流，内置checkpointing和streaming |
+| [[autonomous-llm-research]] — Autonomous LLM Research 范式：AI agent 自主修改代码/超参 → 运行实验 → 评估 → 迭代，val_bpb 评估指标 |
+| [[muon-optimizer]] — Karpathy 实验发现的 custom optimizer：梯度空间优化 + Polar Express 正交化 + AdamW 处理非矩阵参数，MuonAdamW |
 | [[Eino]] — 字节跳动自研 LLM 应用框架，CloudWeGo 生态，Model/Chain/Agent/Workflow/Memory/Tool 抽象，多模型统一接入 |
 | [[FlowGram]] — 字节跳动自研可视化工作流引擎：固定/自由双布局 + 拖拽节点 + AI 集成，Coze Studio 前端编辑器 |
 | [[ai-agent-development-platform]] — AI Agent 开发平台通用概念：Prompt/RAG/Plugin/Workflow 核心组件，Coze Studio/DeerFlow/nanobot 等代表平台对比 |

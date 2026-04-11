@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-|> Last updated: 2026-04-10 | Total wiki-layer pages: 197 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-10 | Total wiki-layer pages: 198 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -14,6 +14,7 @@
 | [[persistent-memory-system]] — AI 角色长期记忆持久化（ChatHistory + 时间戳） |
 | [[stanford-generative-agents]] — Stanford Generative Agents（AI Town）Memory/Reflection/Planning |
 | [[openmaic]] — THU-MAIC 开源多智能体互动教室平台：AI 教师/同学 + 白板/辩论/Quiz + PPT/HTML 导出，AGPL-3.0 |
+| [[coze-studio]] — Coze/字节跳动一站式 AI Agent 开发平台：可视化 Agent/Workflow 构建，微服务+DDD，Eino 运行时，Apache-2.0，20.3k stars |
 | [[claude-code-game-studio-architecture]] — 49 Agent 层级结构、Model Tier 分配（Haiku/Sonnet/Opus）、五大协调规则、Subagents vs Agent Teams |
 | [[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval 工作流、文件写入协议、决策 UI 模式 |
 
@@ -208,6 +209,7 @@
 || [[deer-flow-memory]] — Fact提取+Debounce队列+XML标签注入，category分类(deer-flow vs nanobot Dream对比) |
 | [[deer-flow-runtime]] — RunManager生命周期+StreamBridge生产消费解耦+Checkpointer+KVStore |
 | [[langgraph]] — LangChain多Agent编排框架，图结构建模工作流，内置checkpointing和streaming |
+| [[ai-agent-development-platform]] — AI Agent 开发平台通用概念：Prompt/RAG/Plugin/Workflow 核心组件，Coze Studio/DeerFlow/nanobot 等代表平台对比 |
 | [[multi-agent-interactive-classroom]] — 多Agent扮演教师/学生协作教学：Outline→Scenes两阶段 + 幻灯片/Quiz/模拟/PBL 组件 |
 || [[langchain]] — LLM应用开发框架，Chain/Agent/Memory/Tool/Prompt抽象，LangGraph基础 |
 || [[sandbox]] — 隔离执行环境模式：虚拟路径+容器/进程级隔离，DeerFlow/nanobot核心基础设施 |

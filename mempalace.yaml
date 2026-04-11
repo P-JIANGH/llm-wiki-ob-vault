@@ -2,15 +2,39 @@ wing: llm_wiki_ob_vault
 rooms:
 - name: entities
   description: Files from entities/
+  keywords:
+  - entities
+  - entities
 - name: concepts
   description: Files from concepts/
+  keywords:
+  - concepts
+  - concepts
 - name: memory_systems
   description: Files from memory-systems/
+  keywords:
+  - memory_systems
+  - memory-systems
 - name: comparisons
   description: Files from comparisons/
+  keywords:
+  - comparisons
+  - comparisons
+- name: documentation
+  description: Files from docs/
+  keywords:
+  - documentation
+  - docs
 - name: raw
   description: Files from raw/
+  keywords:
+  - raw
+  - raw
 - name: open_source_game
   description: Files from open-source-game/
+  keywords:
+  - open_source_game
+  - open-source-game
 - name: general
   description: Files that don't fit other rooms
+  keywords: []

@@ -12,6 +12,12 @@
 - Note: 源码深度文件：palace.py(71行) / mcp_server.py(946行) / knowledge_graph.py(393行) / palace_graph.py(227行) / searcher.py(152行) / layers.py(515行)
 - Note: wiki 已有 mempalace.md（2026-04-09 创建），本次补充 v3.1.0 新细节
 
+## [2026-04-10] ingest | Coze Studio（字节跳动一站式 AI Agent 开发平台）
+- Created: raw/articles/coze-studio-github-2026.md
+- Created: entities/coze-studio.md（Coze/字节跳动，20.3k stars，Eino 运行时，FlowGram 工作流编辑器）
+- Created: concepts/ai-agent-development-platform.md（AI Agent 开发平台通用概念，Prompt/RAG/Plugin/Workflow 组件，主流平台对比）
+- Updated: index.md（+2 pages，total 198）
+
 ## [2026-04-10] ingest | OpenMAIC（THU-MAIC 多智能体互动教室平台）
 - Created: raw/articles/thu-maic-openmaic-2026.md
 - Created: entities/openmaic.md（THU-MAIC 开源 AI 教育平台，AGPL-3.0，支持 Gemini/DeepSeek/MiniMax）

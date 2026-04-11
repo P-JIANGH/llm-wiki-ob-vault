@@ -1,24 +1,23 @@
 {
-  "people": [
-    "JiangHao",
-    "YingGuang",
-    "\u8424\u5149"
-  ],
+  "people": [],
   "projects": [
-    "Godot",
-    "Quake",
-    "Microverse",
-    "Doom",
-    "Claude",
-    "Game",
     "Agent",
-    "Duke",
-    "Shadow",
+    "Provider",
+    "Quake",
+    "Dream",
+    "Sandbox",
+    "Wiki",
+    "Doom",
+    "Registry",
+    "Game",
     "Games",
+    "Created",
+    "Updated",
+    "Python",
     "Software",
-    "Engine",
-    "Build",
-    "Blood",
-    "Zelda"
+    "Transport",
+    "Mod",
+    "Harness",
+    "Swarm"
   ]
 }

@@ -12,6 +12,14 @@
 - Note: 源码深度文件：palace.py(71行) / mcp_server.py(946行) / knowledge_graph.py(393行) / palace_graph.py(227行) / searcher.py(152行) / layers.py(515行)
 - Note: wiki 已有 mempalace.md（2026-04-09 创建），本次补充 v3.1.0 新细节
 
+## [2026-04-10] ingest | Coze Studio 完整深度学习（Eino + FlowGram + DDD架构 + 工作流节点类型）
+- Updated: raw/articles/coze-studio-github-2026.md（大幅扩充：Eino/CloudWeGo 生态 / DDD 四层架构 / FlowGram 双布局 / 模型抽象设计 / 工作流节点类型 / 部署细节）
+- Updated: entities/coze-studio.md（+Eino 技术栈 / DDD 架构图 / FlowGram 编辑器 / 模型抽象价值 / Eino + FlowGram wikilinks）
+- Created: concepts/Eino.md（字节自研 LLM 框架：Model/Chain/Agent/Workflow/Memory/Tool 抽象，CloudWeGo 生态，多模型透明接入）
+- Created: concepts/FlowGram.md（字节自研可视化工作流引擎：固定/自由双布局，拖拽节点，AI 集成，已在30+字节产品验证）
+- Updated: index.md（+2 concepts，total 200）
+- Note: Coze Studio 同时开源了 Coze Loop（Prompt 开发/评测，Agent 全链路管理）
+
 ## [2026-04-10] ingest | Coze Studio（字节跳动一站式 AI Agent 开发平台）
 - Created: raw/articles/coze-studio-github-2026.md
 - Created: entities/coze-studio.md（Coze/字节跳动，20.3k stars，Eino 运行时，FlowGram 工作流编辑器）

@@ -127,3 +127,8 @@
 - Created: raw/articles/ai-game-devtools/assistant-cli.md
 - Created: ai-game-devtools/assistant-cli.md
 - Updated: ai-game-devtools-learning-checklist.md（mark complete）
+## [2026-04-13] ingest | AutoGPT — AI Agent Platform（183k stars）
+- Cloned: ~/tmp/ai-game-devtools/auto-gpt/（GitHub direct clone）
+- Created: raw/articles/ai-game-devtools/auto-gpt.md
+- Created: ai-game-devtools/auto-gpt.md
+- Updated: ai-game-devtools-learning-checklist.md（mark complete）

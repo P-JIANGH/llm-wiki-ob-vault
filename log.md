@@ -117,3 +117,8 @@
 - Created: ai-game-devtools/aios.md
 - Updated: ai-game-devtools-learning-checklist.md（mark complete）
 - Updated: index.md（+1 entry in AI/LLM/Agent section）
+## [2026-04-12] ingest | AI Scientist（SakanaAI）— 全自动科学研究系统
+- Cloned: ~/tmp/ai-game-devtools/ai-scientist/（via github direct）
+- Created: raw/articles/ai-game-devtools/ai-scientist.md
+- Created: ai-game-devtools/ai-scientist.md
+- Updated: ai-game-devtools-learning-checklist.md（mark complete）

@@ -111,3 +111,9 @@
 - Created: entities/agentgpt.md（reworkd 开源浏览器端自主 Agent，Next.js/Docker，1.5k+ commits，12 releases）
 - Updated: index.md（+1 entity，total 205）
 - Note: ai-game-devtools 分类 wiki 学习 cron 任务开始执行
+## [2026-04-12] ingest | AIOS（agiresearch）
+- Cloned: ~/tmp/ai-game-devtools/aios/
+- Created: raw/articles/ai-game-devtools/aios.md
+- Created: ai-game-devtools/aios.md
+- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+- Updated: index.md（+1 entry in AI/LLM/Agent section）

@@ -122,3 +122,8 @@
 - Created: raw/articles/ai-game-devtools/ai-scientist.md
 - Created: ai-game-devtools/ai-scientist.md
 - Updated: ai-game-devtools-learning-checklist.md（mark complete）
+## [2026-04-13] ingest | Assistant CLI（diciaup）— ChatGPT 终端 CLI 工具
+- Source: https://github.com/diciaup/assistant-cli（GitHub direct，README fetched via API）
+- Created: raw/articles/ai-game-devtools/assistant-cli.md
+- Created: ai-game-devtools/assistant-cli.md
+- Updated: ai-game-devtools-learning-checklist.md（mark complete）

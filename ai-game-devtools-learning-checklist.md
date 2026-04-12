@@ -11,7 +11,7 @@
 - [2026-04-13] AICommand | https://github.com/keijiro/AICommand
 - [2026-04-12] AIOS | https://github.com/agiresearch/AIOS
 - [2026-04-12] AI Scientist | https://github.com/SakanaAI/AI-Scientist
-- [ ] Assistant CLI | https://github.com/diciaup/assistant-cli
+- [2026-04-13] Assistant CLI | https://github.com/diciaup/assistant-cli
 - [ ] Auto-GPT | https://github.com/Significant-Gravitas/Auto-GPT
 - [ ] BabyAGI | https://github.com/yoheinakajima/babyagi
 - [ ] 👶🤖🖥️ BabyAGI UI | https://github.com/miurla/babyagi-ui

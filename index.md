@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-10 | Total wiki-layer pages: 202 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-13 | Total wiki-layer pages: 204 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -14,13 +14,14 @@
 | [[persistent-memory-system]] — AI 角色长期记忆持久化（ChatHistory + 时间戳） |
 | [[stanford-generative-agents]] — Stanford Generative Agents（AI Town）Memory/Reflection/Planning |
 | [[autoresearch]] — Karpathy 自主 LLM 研究框架：agent 修改 train.py → 5分钟实验 → val_bpb 评估 → keep/discard 循环，MIT，70.3k stars |
-| [[openmaic]] — THU-MAIC 开源多智能体互动教室平台：AI 教师/同学 + 白板/辩论/Quiz + PPT/HTML 导出，AGPL-3.0 |
+| [[openmaic]] — THU-MAIC 开源多智能体互动教室平台：两阶段课程生成（Outline→Scene）、LangGraph Director Graph 编排、AI Provider 抽象层（1300+行支持 9+ 提供商）、PBL Agentic Loop + MCP Tools、PPTX/HTML 导出、MinerU PDF 解析，v0.1.0，AGPL-3.0 |
 | [[coze-studio]] — Coze/字节跳动一站式 AI Agent 开发平台：可视化 Agent/Workflow 构建，微服务+DDD，Eino 运行时，FlowGram 编辑器，Apache-2.0，20.3k stars |
 | [[claude-code-game-studio-architecture]] — 49 Agent 层级结构、Model Tier 分配（Haiku/Sonnet/Opus）、五大协调规则、Subagents vs Agent Teams |
 | [[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval 工作流、文件写入协议、决策 UI 模式 |
 
 ## Game Projects & Studios
 
+| [[firered-openstoryline]] — FireRedTeam 开源 AI 视频创作工具，LangChain Agent + MCP + 15+ 视频节点管道，对话式视频剪辑 |
 | [[ksanadock]] — 游戏开发商，时空码头 |
 | [[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏 |
 | [[microverse-code-structure]] — Microverse 代码结构 / 模块解析 |
@@ -216,7 +217,8 @@
 | [[FlowGram]] — 字节跳动自研可视化工作流引擎：固定/自由双布局 + 拖拽节点 + AI 集成，Coze Studio 前端编辑器 |
 | [[ai-agent-development-platform]] — AI Agent 开发平台通用概念：Prompt/RAG/Plugin/Workflow 核心组件，Coze Studio/DeerFlow/nanobot 等代表平台对比 |
 | [[multi-agent-interactive-classroom]] — 多Agent扮演教师/学生协作教学：Outline→Scenes两阶段 + 幻灯片/Quiz/模拟/PBL 组件 |
-|| [[langchain]] — LLM应用开发框架，Chain/Agent/Memory/Tool/Prompt抽象，LangGraph基础 |
+| [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类，与 [[openmaic]] 完全无关 |
+| [[langchain]] — LLM应用开发框架，Chain/Agent/Memory/Tool/Prompt抽象，LangGraph基础 |
 || [[sandbox]] — 隔离执行环境模式：虚拟路径+容器/进程级隔离，DeerFlow/nanobot核心基础设施 |
 
 ## Comparisons

@@ -3,7 +3,28 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-13] ingest | FireRed-OpenStoryline 源码深度学习（~/FireRed-OpenStoryline）
+- Created: raw/articles/firered-openstoryline-2026.md（架构/节点/mcp/storage/prompt/技术栈全景分析）
+- Created: entities/firered-openstoryline.md（Entity 页面，含 OpenClaw/nanobot/DeerFlow 关联）
+- Updated: index.md（+firered-openstoryline）
+- Note: LangChain create_agent + MultiServerMCPClient + FastMCP 架构，15+ 视频节点管道，ArtifactStore 会话持久化
+- Note: 与 nanobot/DeerFlow 架构相似但专注视频创作；openstoryline Skills 已可通过 OpenClaw 调用
+
+## [2026-04-13] ingest | AI Game DevTools Catalog（Yuan-ManX 游戏工具目录，840+ 项目）— 修正
+- 原始记录错误地将 Yuan-ManX/ai-game-devtools 归属为 THU-MAIC，现已全面修正
+- Created: raw/articles/yuan-manx-ai-game-devtools-2026.md（正确归属：独立开发者 Yuan-ManX）
+- Updated: concepts/ai-game-devtools-catalog.md（修正归属和 [[openmaic]] 关系说明）
+- Updated: index.md（修正描述）
+- Updated: log.md（本条）
+- Deleted: raw/articles/thu-maic-openmaic-2026.md（错误文件，仓库名误用 OpenMAIC）
 > When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
+
+## [2026-04-12] ingest | OpenMAIC 源码深度学习（v0.1.0，~/OpenMAIC）
+- Created: raw/articles/thu-maic-openmaic-source-2026.md（源码深度分析，11个模块详细记录）
+- Updated: entities/openmaic.md（+Director Graph/+两阶段Pipeline/+PBL Agentic Loop/+Provider系统/+PPTX导出/+API路由/+Tech Stack更新至Next.js 16/React 19/LangGraph 1.1）
+- Updated: index.md（openmaic摘要扩充至含全部新模块）
+- Note: 源码深度文件：director-graph.ts(549行)/providers.ts(1296行)/generate-pbl.ts(432行)/use-export-pptx.ts(1181行)/outline-generator.ts
+- Note: 无 WeChat/钉钉 集成（仅国际平台 via OpenClaw）
 
 ## [2026-04-10] ingest | MemPalace 源码深度学习（v3.1.0 vs wiki 现有条目对比）
 - Updated: entities/mempalace.md（+WAL 审计 +Specialist Agents +Auto-Save Hooks +MCP auto-teach 协议 +v3.1.0 版本差异，updated 2026-04-10）

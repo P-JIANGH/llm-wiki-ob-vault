@@ -3,11 +3,29 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-13] ingest | AICommand (keijiro) — Unity Editor ChatGPT PoC
+- Cloned: ~/tmp/ai-game-devtools/ai-command/（via gitcode.com mirror）
+- Created: raw/articles/ai-game-devtools/ai-command.md
+- Created: ai-game-devtools/ai-command.md
+- Updated: ai-game-devtools-learning-checklist.md
+
 ## [2026-04-13] ingest | FireRed-OpenStoryline 源码深度学习（~/FireRed-OpenStoryline）
 - Created: raw/articles/firered-openstoryline-2026.md（架构/节点/mcp/storage/prompt/技术栈全景分析）
 - Created: entities/firered-openstoryline.md（Entity 页面，含 OpenClaw/nanobot/DeerFlow 关联）
 - Updated: index.md（+firered-openstoryline）
 - Note: LangChain create_agent + MultiServerMCPClient + FastMCP 架构，15+ 视频节点管道，ArtifactStore 会话持久化
+## [2026-04-12] ingest | AgentGPT
+- Created: raw/articles/ai-game-devtools/agentgpt.md
+- Created: ai-game-devtools/agentgpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+## [2026-04-13] ingest | hermes-agent 源码学习（~/.hermes/hermes-agent/）
+- Created: raw/articles/hermes-agent-source-2026.md（~15KB 全模块分析笔记）
+- Created: entities/hermes-agent.md（框架全景、核心模块、关键设计决策）
+- Created: concepts/context-compression.md（四阶段压缩算法 + 迭代摘要 + 孤儿修复）
+- Created: concepts/tool-registry-pattern.md（自注册 + check_fn + 循环导入安全）
+- Created: concepts/agent-loop-architecture.md（HermesAgentLoop + AIAgent + 并行执行决策树）
+- Created: concepts/openai-tool-calling.md（协议格式 + 多 Provider 解析 + 类型强制）
+- Updated: index.md（+3 新 concept pages）
 - Note: 与 nanobot/DeerFlow 架构相似但专注视频创作；openstoryline Skills 已可通过 OpenClaw 调用
 
 ## [2026-04-13] ingest | AI Game DevTools Catalog（Yuan-ManX 游戏工具目录，840+ 项目）— 修正
@@ -80,3 +98,16 @@
 - Updated: open-source-games-learning-checklist.md (Hnefatafl item marked [2026-04-10])
 - Updated: index.md (+1 page, total 198)
 - Updated: open-source-games-learning-checklist.md (learning record row 153 added)
+
+## [2026-04-13] ingest | hermes-agent AI Agent 框架源代码
+- Created: raw/articles/hermes-agent-source-2026.md（hermes-agent 源代码全文摘要）
+- Created: entities/hermes-agent.md（工具注册中心 / 持久 Async Loop / 并行执行 / Context Compression / 13+ 消息平台网关）
+- Created: concepts/registry-pattern-tool-discovery.md（中心注册表模式）
+- Created: concepts/context-compression.md（结构化摘要压缩）
+- Updated: index.md（+2 页面，总计 204）
+
+## [2026-04-12] ingest | AgentGPT（ai-game-devtools LLM 分类第一个项目）
+- Created: raw/articles/ai-game-devtools/agentgpt.md
+- Created: entities/agentgpt.md（reworkd 开源浏览器端自主 Agent，Next.js/Docker，1.5k+ commits，12 releases）
+- Updated: index.md（+1 entity，total 205）
+- Note: ai-game-devtools 分类 wiki 学习 cron 任务开始执行

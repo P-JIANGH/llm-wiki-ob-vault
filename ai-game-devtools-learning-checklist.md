@@ -1,0 +1,604 @@
+# AI Game DevTools 学习清单
+
+> 每 15 分钟学习一个项目（抓取 GitHub README → 分析 → 记录到 wiki）
+> 学习完成后在 `[ ]` 中填入完成日期，格式：`[2026-04-12]`
+> 源文件：raw/articles/yuan-manx-ai-game-devtools-2026.md
+
+---
+
+## LLM (LLM & Tool) (123)
+- [2026-04-12] AgentGPT | https://github.com/reworkd/AgentGPT
+- [2026-04-13] AICommand | https://github.com/keijiro/AICommand
+- [2026-04-12] AIOS | https://github.com/agiresearch/AIOS
+- [ ] AI Scientist | https://github.com/SakanaAI/AI-Scientist
+- [ ] Assistant CLI | https://github.com/diciaup/assistant-cli
+- [ ] Auto-GPT | https://github.com/Significant-Gravitas/Auto-GPT
+- [ ] BabyAGI | https://github.com/yoheinakajima/babyagi
+- [ ] 👶🤖🖥️ BabyAGI UI | https://github.com/miurla/babyagi-ui
+- [ ] baichuan-7B | https://github.com/baichuan-inc/baichuan-7B
+- [ ] Baichuan-13B | https://github.com/baichuan-inc/Baichuan-13B
+- [ ] Baichuan 2 | https://github.com/baichuan-inc/Baichuan2
+- [ ] Bisheng | https://github.com/dataelement/bisheng
+- [ ] Character-LLM | https://github.com/choosewhatulike/trainable-agents
+- [ ] ChatDev | https://github.com/OpenBMB/ChatDev
+- [ ] ChatGPT-API-unity | https://github.com/mochi-neko/ChatGPT-API-unity
+- [ ] ChatGPTForUnity | https://github.com/sunsvip/ChatGPTForUnity
+- [ ] ChatRWKV | https://github.com/BlinkDL/ChatRWKV
+- [ ] ChatYuan | https://github.com/clue-ai/ChatYuan
+- [ ] Chinese-LLaMA-Alpaca-3 | https://github.com/ymcui/Chinese-LLaMA-Alpaca-3
+- [ ] Chrome-GPT | https://github.com/richardyc/Chrome-GPT
+- [ ] CoreNet | https://github.com/apple/corenet
+- [ ] Cosmos | https://github.com/NVIDIA/Cosmos
+- [ ] DBRX | https://github.com/databricks/dbrx
+- [ ] DCLM | https://github.com/mlfoundations/dclm
+- [ ] DeepSeek-R1 | https://github.com/deepseek-ai/DeepSeek-R1
+- [ ] DeepSeek-V3 | https://github.com/deepseek-ai/DeepSeek-V3
+- [ ] DemoGPT | https://github.com/melih-unsal/DemoGPT
+- [ ] Design2Code | https://github.com/NoviScl/Design2Code
+- [ ] Devika | https://github.com/stitionai/devika
+- [ ] Devon | https://github.com/entropy-research/Devon
+- [ ] Flowise | https://github.com/FlowiseAI/Flowise
+- [ ] Gemma | https://github.com/google/gemma_pytorch
+- [ ] gemma.cpp | https://github.com/google/gemma.cpp
+- [ ] GLM-4 | https://github.com/THUDM/GLM-4
+- [ ] GLM-4.5 | https://github.com/zai-org/GLM-4.5
+- [ ] GPT4All | https://github.com/nomic-ai/gpt4all
+- [ ] gpt-oss | https://github.com/openai/gpt-oss
+- [ ] GPTScript | https://github.com/gptscript-ai/gptscript
+- [ ] Hugging Face API Unity Integration | https://github.com/huggingface/unity-api
+- [ ] Hunyuan-MT | https://github.com/Tencent-Hunyuan/Hunyuan-MT
+- [ ] ImageBind | https://github.com/facebookresearch/ImageBind
+- [ ] Index-1.9B | https://github.com/bilibili/Index-1.9B
+- [ ] InteractML-Unity | https://github.com/Interactml/iml-unity
+- [ ] InteractML-Unreal Engine | https://github.com/Interactml/iml-ue4
+- [ ] InternLM | https://github.com/InternLM/InternLM
+- [ ] InternLM-XComposer | https://github.com/InternLM/InternLM-XComposer
+- [ ] Jan | https://github.com/janhq/jan
+- [ ] Janus | https://github.com/deepseek-ai/Janus
+- [ ] Kimi K2 | https://github.com/moonshotai/Kimi-K2
+- [ ] Lamini | https://github.com/lamini-ai/lamini
+- [ ] LaMini-LM | https://github.com/mbzuai-nlp/LaMini-LM
+- [ ] LangChain | https://github.com/hwchase17/langchain
+- [ ] LangFlow | https://github.com/logspace-ai/langflow
+- [ ] LaVague | https://github.com/lavague-ai/LaVague
+- [ ] Lemur | https://github.com/OpenLemur/Lemur
+- [ ] Lepton AI | https://github.com/leptonai/leptonai
+- [ ] Lit-LLaMA | https://github.com/Lightning-AI/lit-llama
+- [ ] llama2-webui | https://github.com/liltom-eth/llama2-webui
+- [ ] Llama 3 | https://github.com/meta-llama/llama3
+- [ ] Llama 3.1 | https://github.com/meta-llama/llama-models
+- [ ] LLaSM | https://github.com/LinkSoul-AI/LLaSM
+- [ ] LLM Answer Engine | https://github.com/developersdigest/llm-answer-engine
+- [ ] llm.c | https://github.com/karpathy/llm.c
+- [ ] LLMUnity | https://github.com/undreamai/LLMUnity
+- [ ] LLocalSearch | https://github.com/nilsherzig/LLocalSearch
+- [ ] LogicGamesSolver | https://github.com/fabridigua/LogicGamesSolver
+- [ ] LongCat-Flash | https://github.com/meituan-longcat/LongCat-Flash-Chat
+- [ ] LongWriter | https://github.com/THUDM/LongWriter
+- [ ] Large World Model (LWM) | https://github.com/LargeWorldModel/LWM
+- [ ] Lumina-T2X | https://github.com/Alpha-VLLM/Lumina-T2X
+- [ ] MetaGPT | https://github.com/geekan/MetaGPT
+- [ ] MiniCPM-2B | https://github.com/OpenBMB/MiniCPM
+- [ ] MiniGPT-4 | https://github.com/Vision-CAIR/MiniGPT-4
+- [ ] MiniGPT-5 | https://github.com/eric-ai-lab/MiniGPT-5
+- [ ] MiniMax-01 | https://github.com/MiniMax-AI/MiniMax-01
+- [ ] MLC LLM | https://github.com/mlc-ai/mlc-llm
+- [ ] MobiLlama | https://github.com/mbzuai-oryx/MobiLlama
+- [ ] MoE-LLaVA | https://github.com/PKU-YuanGroup/MoE-LLaVA
+- [ ] Moshi | https://github.com/kyutai-labs/moshi
+- [ ] MOSS | https://github.com/OpenLMLab/MOSS
+- [ ] mPLUG-Owl🦉 | https://github.com/X-PLUG/mPLUG-Owl
+- [ ] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
+- [ ] OLMo | https://github.com/allenai/OLMo
+- [ ] OmniLMM | https://github.com/OpenBMB/OmniLMM
+- [ ] OneLLM | https://github.com/csuhan/OneLLM
+- [ ] Open-Assistant | https://github.com/LAION-AI/Open-Assistant
+- [ ] Open Deep Research | https://github.com/dzhng/deep-research
+- [ ] OpenDevin | https://github.com/OpenDevin/OpenDevin
+- [ ] Orion-14B | https://github.com/OrionStarAI/Orion
+- [ ] Panda | https://github.com/dandelionsllm/pandallm
+- [ ] Perplexica | https://github.com/ItzCrazyKns/Perplexica
+- [ ] Qwen1.5 | https://github.com/QwenLM/Qwen1.5
+- [ ] Qwen2 | https://github.com/QwenLM/Qwen2
+- [ ] Qwen2.5-Coder | https://github.com/QwenLM/Qwen2.5-Coder
+- [ ] Qwen-7B | https://github.com/QwenLM/Qwen-7B
+- [ ] Qwen3 | https://github.com/QwenLM/Qwen3
+- [ ] RepoAgent | https://github.com/OpenBMB/RepoAgent
+- [ ] s1 | https://github.com/simplescaling/s1
+- [ ] Sanity AI Engine | https://github.com/tosos/SanityEngine
+- [ ] SearchGPT | https://github.com/tobiasbueschel/search-gpt
+- [ ] Seed-OSS | https://github.com/ByteDance-Seed/seed-oss
+- [ ] SkyThought | https://github.com/NovaSky-AI/SkyThought
+- [ ] Skywork | https://github.com/SkyworkAI/Skywork
+- [ ] StableLM | https://github.com/Stability-AI/StableLM
+- [ ] Stanford Alpaca | https://github.com/tatsu-lab/stanford_alpaca
+- [ ] Text generation web UI | https://github.com/oobabooga/text-generation-webui
+- [ ] TinyChatEngine | https://github.com/mit-han-lab/TinyChatEngine
+- [ ] ToolBench | https://github.com/openbmb/toolbench
+- [ ] Unity ChatGPT | https://github.com/dilmerv/UnityChatGPT
+- [ ] Unity OpenAI-API Integration | https://github.com/himanshuskyrockets/Unity_OpenAI
+- [ ] Unreal Engine 5 Llama LoRA | https://github.com/bublint/ue5-llama-lora
+- [ ] UnrealGPT | https://github.com/TREE-Ind/UnrealGPT
+- [ ] Video-LLaVA | https://github.com/PKU-YuanGroup/Video-LLaVA
+- [ ] WebGPT | https://github.com/0hq/WebGPT
+- [ ] Web3-GPT | https://github.com/Markeljan/Web3GPT
+- [ ] WordGPT | https://github.com/filippofinke/WordGPT
+- [ ] XAgent | https://github.com/OpenBMB/XAgent
+- [ ] Yi | https://github.com/01-ai/Yi
+- [ ] 01 Project | https://github.com/OpenInterpreter/01
+- [ ] SimpleOllamaUnity | https://github.com/HardCodeDev777/SimpleOllamaUnity
+- [ ] AI-Writer | https://github.com/BlinkDL/AI-Writer
+- [ ] Notebook.ai | https://github.com/indentlabs/notebook
+- [ ] Novel | https://github.com/steven-tey/novel
+
+## VLM (Visual) (27)
+- [ ] Cambrian-1 | https://github.com/cambrian-mllm/cambrian
+- [ ] CogVLM2 | https://github.com/THUDM/CogVLM2
+- [ ] dots.vlm1 | https://github.com/rednote-hilab/dots.vlm1
+- [ ] EVF-SAM | https://github.com/hustvl/EVF-SAM
+- [ ] GLM-V | https://github.com/zai-org/GLM-V
+- [ ] Kangaroo | https://github.com/KangarooGroup/Kangaroo
+- [ ] Kwai Keye-VL | https://github.com/Kwai-Keye/Keye
+- [ ] LLaVA++ | https://github.com/mbzuai-oryx/LLaVA-pp
+- [ ] LLaVA-OneVision | https://github.com/LLaVA-VL/LLaVA-NeXT
+- [ ] LongVA | https://github.com/EvolvingLMMs-Lab/LongVA
+- [ ] Lumina-DiMOO | https://github.com/Alpha-VLLM/Lumina-DiMOO
+- [ ] MiniCPM-Llama3-V 2.5 | https://github.com/OpenBMB/MiniCPM-V
+- [ ] MiniCPM-V 4.0 | https://github.com/OpenBMB/MiniCPM-o
+- [ ] MotionLLM | https://github.com/IDEA-Research/MotionLLM
+- [ ] PLLaVA | https://github.com/magic-research/PLLaVA
+- [ ] POINTS-Reader | https://github.com/Tencent/POINTS-Reader
+- [ ] Qwen-VL | https://github.com/QwenLM/Qwen-VL
+- [ ] Sapiens | https://github.com/facebookresearch/sapiens
+- [ ] ShareGPT4V | https://github.com/ShareGPT4Omni/ShareGPT4V
+- [ ] SOLO | https://github.com/Yangyi-Chen/SOLO
+- [ ] VideoAgent | https://github.com/YueFan1014/VideoAgent
+- [ ] Video-CCAM | https://github.com/QQ-MM/Video-CCAM
+- [ ] VideoLLaMA 2 | https://github.com/DAMO-NLP-SG/VideoLLaMA2
+- [ ] VideoLLaMA 3 | https://github.com/DAMO-NLP-SG/VideoLLaMA3
+- [ ] Video-MME | https://github.com/BradyFU/Video-MME
+- [ ] Vitron | https://github.com/SkyworkAI/Vitron
+- [ ] VILA | https://github.com/NVlabs/VILA
+
+## Game (World Model & Agent) (67)
+- [ ] AgentBench | https://github.com/thudm/agentbench
+- [ ] Agent Group Chat | https://github.com/MikeGu721/AgentGroup
+- [ ] Agent K | https://github.com/mikekelly/AgentK
+- [ ] Agent Laboratory | https://github.com/SamuelSchmidgall/AgentLaboratory
+- [ ] AgentScope | https://github.com/modelscope/agentscope
+- [ ] AgentSims | https://github.com/py499372727/AgentSims/
+- [ ] AI Town | https://github.com/a16z-infra/ai-town
+- [ ] anime.gf | https://github.com/cyanff/anime.gf
+- [ ] Atomic Agents | https://github.com/KennyVaneetvelde/atomic_agents
+- [ ] AutoAgents | https://github.com/Link-AGI/AutoAgents
+- [ ] AutoGen | https://github.com/microsoft/autogen
+- [ ] AWorld | https://github.com/inclusionAI/AWorld
+- [ ] behaviac | https://github.com/Tencent/behaviac
+- [ ] Biomes | https://github.com/ill-inc/biomes-game
+- [ ] Buffer of Thoughts | https://github.com/YangLing0818/buffer-of-thought-llm
+- [ ] Byzer-Agent | https://github.com/allwefantasy/byzer-agent
+- [ ] Cat Town | https://github.com/ykhli/cat-town
+- [ ] CharacterGLM | https://github.com/thu-coai/CharacterGLM-6B
+- [ ] ComoRAG | https://github.com/EternityJune25/ComoRAG
+- [ ] Cradle | https://github.com/BAAI-Agents/Cradle
+- [ ] crewAI | https://github.com/joaomdmoura/crewAI
+- [ ] Datarus Jupyter Agent | https://github.com/DatarusAI/Datarus-JupyterAgent
+- [ ] Dify | https://github.com/langgenius/dify
+- [ ] everything-ai | https://github.com/AstraBert/everything-ai
+- [ ] fabric | https://github.com/danielmiessler/fabric
+- [ ] FastGPT | https://github.com/labring/FastGPT
+- [ ] fastRAG | https://github.com/IntelLabs/fastRAG
+- [ ] GameAISDK | https://github.com/Tencent/GameAISDK
+- [ ] GameGen-O | https://github.com/GameGen-O/GameGen-O
+- [ ] GenAgent | https://github.com/xxyQwQ/GenAgent
+- [ ] Generative Agents | https://github.com/joonspk-research/generative_agents
+- [ ] Genesis | https://github.com/Genesis-Embodied-AI/Genesis
+- [ ] gigax | https://github.com/GigaxGames/gigax
+- [ ] HippoRAG | https://github.com/OSU-NLP-Group/HippoRAG
+- [ ] Hunyuan-GameCraft | https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0
+- [ ] HunyuanWorld 1.0 | https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
+- [ ] HunyuanWorld-Voyager | https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager
+- [ ] HY-World 1.5 | https://github.com/Tencent-Hunyuan/HY-WorldPlay
+- [ ] Interactive LLM Powered NPCs | https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs
+- [ ] IoA | https://github.com/OpenBMB/IoA
+- [ ] Jaaz | https://github.com/11cafe/jaaz
+- [ ] KwaiAgents | https://github.com/KwaiKEG/KwaiAgents
+- [ ] LangChain | https://github.com/langchain-ai/langchain
+- [ ] LangGraph Studio | https://github.com/langchain-ai/langgraph-studio
+- [ ] LARP | https://github.com/MiAO-AI-Lab/LARP
+- [ ] LLama Agentic System | https://github.com/meta-llama/llama-agentic-system
+- [ ] LlamaIndex | https://github.com/run-llama/llama_index
+- [ ] Matrix-Game | https://github.com/SkyworkAI/Matrix-Game
+- [ ] MindSearch | https://github.com/InternLM/MindSearch
+- [ ] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
+- [ ] MMRole | https://github.com/YanqiDai/MMRole
+- [ ] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
+- [ ] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
+- [ ] Oasis | https://github.com/etched-ai/open-oasis
+- [ ] OmAgent | https://github.com/om-ai-lab/OmAgent
+- [ ] OpenAgents | https://github.com/xlang-ai/OpenAgents
+- [ ] Pipecat | https://github.com/pipecat-ai/pipecat
+- [ ] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
+- [ ] Ragas | https://github.com/explodinggradients/ragas
+- [ ] RPBench-Auto | https://github.com/boson-ai/RPBench-Auto
+- [ ] SWE-agent | https://github.com/princeton-nlp/SWE-agent
+- [ ] TaskGen | https://github.com/simbianai/taskgen
+- [ ] TEN Agent | https://github.com/TEN-framework/TEN-Agent
+- [ ] Translation Agent | https://github.com/andrewyng/translation-agent
+- [ ] Twitter | https://github.com/wordware-ai/twitter
+- [ ] Video2Game | https://github.com/video2game/video2game
+- [ ] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
+
+## Code (21)
+- [ ] AI Code Translator | https://github.com/mckaywrigley/ai-code-translator
+- [ ] aiXcoder-7B | https://github.com/aixcoder-plugin/aiXcoder-7B
+- [ ] bloop | https://github.com/BloopAI/bloop
+- [ ] Chapyter | https://github.com/chapyter/chapyter
+- [ ] CodeGeeX | https://github.com/THUDM/CodeGeeX
+- [ ] CodeGeeX2 | https://github.com/THUDM/CodeGeeX2
+- [ ] CodeGeeX4 | https://github.com/THUDM/CodeGeeX4
+- [ ] CodeGen | https://github.com/salesforce/CodeGen
+- [ ] CodeGen2 | https://github.com/salesforce/CodeGen2
+- [ ] Code Llama | https://github.com/facebookresearch/codellama
+- [ ] CodeTF | https://github.com/salesforce/codetf
+- [ ] CodeT5 | https://github.com/salesforce/codet5
+- [ ] Code World Model (CWM) | https://github.com/facebookresearch/cwm
+- [ ] DeepSeek Coder | https://github.com/deepseek-ai/DeepSeek-Coder
+- [ ] PandasAI | https://github.com/gventuri/pandas-ai
+- [ ] Scikit-LLM | https://github.com/iryna-kondr/scikit-llm
+- [ ] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
+- [ ] StarCoder | https://github.com/bigcode-project/starcoder
+- [ ] StarCoder 2 | https://github.com/bigcode-project/starcoder2
+- [ ] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI
+- [ ] Void | https://github.com/voideditor/void
+
+## Image (75)
+- [ ] AnyText | https://github.com/tyxsspa/AnyText
+- [ ] AutoStudio | https://github.com/donahowe/AutoStudio
+- [ ] BAGEL | https://github.com/ByteDance-Seed/Bagel
+- [ ] Blender-ControlNet | https://github.com/coolzilj/Blender-ControlNet
+- [ ] BriVL | https://github.com/BAAI-WuDao/BriVL
+- [ ] CatVTON | https://github.com/Zheng-Chong/CatVTON
+- [ ] CLIPasso | https://github.com/yael-vinker/CLIPasso
+- [ ] ComfyUI | https://github.com/comfyanonymous/ComfyUI
+- [ ] ConceptLab | https://github.com/kfirgoldberg/ConceptLab
+- [ ] ControlNet | https://github.com/lllyasviel/ControlNet
+- [ ] CSGO | https://github.com/instantX-research/CSGO
+- [ ] DeepFloyd IF | https://github.com/deep-floyd/IF
+- [ ] Depth Anything V2 | https://github.com/DepthAnything/Depth-Anything-V2
+- [ ] Depth map library and poser | https://github.com/jexom/sd-webui-depth-lib
+- [ ] Disco Diffusion | https://github.com/alembics/disco-diffusion
+- [ ] DragGAN | https://github.com/XingangPan/DragGAN
+- [ ] DWPose | https://github.com/idea-research/dwpose
+- [ ] EasyPhoto | https://github.com/aigc-apps/sd-webui-EasyPhoto
+- [ ] Flux | https://github.com/black-forest-labs/flux
+- [ ] Follow-Your-Click | https://github.com/mayuelala/FollowYourClick
+- [ ] Fooocus | https://github.com/lllyasviel/Fooocus
+- [ ] GIFfusion | https://github.com/DN6/giffusion
+- [ ] Grounded-Segment-Anything | https://github.com/IDEA-Research/Grounded-Segment-Anything
+- [ ] HivisionIDPhotos | https://github.com/Zeyi-Lin/HivisionIDPhotos
+- [ ] Hua | https://github.com/BlinkDL/Hua
+- [ ] Hunyuan-DiT | https://github.com/Tencent/HunyuanDiT
+- [ ] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
+- [ ] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
+- [ ] IC-Light | https://github.com/lllyasviel/IC-Light
+- [ ] img2img-turbo | https://github.com/GaParmar/img2img-turbo
+- [ ] Infinity | https://github.com/FoundationVision/Infinity
+- [ ] InstantID | https://github.com/InstantID/InstantID
+- [ ] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
+- [ ] Kolors | https://github.com/Kwai-Kolors/Kolors
+- [ ] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
+- [ ] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
+- [ ] LlamaGen | https://github.com/FoundationVision/LlamaGen
+- [ ] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
+- [ ] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
+- [ ] MakeAnything | https://github.com/showlab/MakeAnything
+- [ ] MIGC | https://github.com/limuloo/MIGC
+- [ ] MimicBrush | https://github.com/ali-vilab/MimicBrush
+- [ ] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
+- [ ] OmniGen | https://github.com/VectorSpaceLab/OmniGen
+- [ ] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
+- [ ] Omost | https://github.com/lllyasviel/Omost
+- [ ] Openpose Editor | https://github.com/fkunn1326/openpose-editor
+- [ ] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
+- [ ] PosterCraft | https://github.com/Ephemeral182/PosterCraft
+- [ ] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
+- [ ] PuLID | https://github.com/ToTheBeginning/PuLID
+- [ ] Qwen-Image | https://github.com/QwenLM/Qwen-Image
+- [ ] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
+- [ ] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
+- [ ] SEED-Story | https://github.com/TencentARC/SEED-Story
+- [ ] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
+- [ ] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
+- [ ] SDXS | https://github.com/IDKiro/sdxs
+- [ ] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
+- [ ] Stable.art | https://github.com/isekaidev/stable.art
+- [ ] Stable Cascade | https://github.com/Stability-AI/StableCascade
+- [ ] Stable Diffusion | https://github.com/CompVis/stable-diffusion
+- [ ] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
+- [ ] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- [ ] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
+- [ ] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
+- [ ] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
+- [ ] StableStudio | https://github.com/Stability-AI/StableStudio
+- [ ] StoryMaker | https://github.com/RedAIGC/StoryMaker
+- [ ] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
+- [ ] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
+- [ ] UltraEdit | https://github.com/HaozheZhao/UltraEdit
+- [ ] UltraPixel | https://github.com/catcathh/UltraPixel
+- [ ] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
+- [ ] USO | https://github.com/bytedance/USO
+
+## Texture (12)
+- [ ] CRM | https://github.com/thu-ml/CRM
+- [ ] DreamMat | https://github.com/zzzyuqing/DreamMat
+- [ ] DreamSpace | https://github.com/ybbbbt/dreamspace
+- [ ] Dream Textures | https://github.com/carson-katri/dream-textures
+- [ ] InstructHumans | https://github.com/viridityzhu/InstructHumans
+- [ ] InteX | https://github.com/ashawkey/InTeX
+- [ ] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
+- [ ] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_
+- [ ] MeshAnything | https://github.com/buaacyw/MeshAnything
+- [ ] Neuralangelo | https://github.com/NVlabs/neuralangelo
+- [ ] Paint-it | https://github.com/postech-ami/paint-it
+- [ ] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
+
+## Shader (1)
+- [ ] AI Shader | https://github.com/keijiro/AIShader
+
+## 3D Model (47)
+- [ ] Animate3D | https://github.com/yanqinJiang/Animate3D
+- [ ] Anything-3D | https://github.com/Anything-of-anything/Anything-3D
+- [ ] Any2Point | https://github.com/Ivan-Tang-3D/Any2Point
+- [ ] BlenderGPT | https://github.com/gd3kr/BlenderGPT
+- [ ] Blender-GPT | https://github.com/TREE-Ind/Blender-GPT
+- [ ] BlenderMCP | https://github.com/ahujasid/blender-mcp
+- [ ] CF-3DGS | https://github.com/NVlabs/CF-3DGS
+- [ ] CharacterGen | https://github.com/zjp-shadow/CharacterGen
+- [ ] chatGPT-maya | https://github.com/LouisRossouw/chatGPT-maya
+- [ ] CityDreamer | https://github.com/hzxie/city-dreamer
+- [ ] Direct3D-S2 | https://github.com/DreamTechAI/Direct3D-S2
+- [ ] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
+- [ ] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d
+- [ ] DUSt3R | https://github.com/naver/dust3r
+- [ ] GALA3D | https://github.com/VDIGPKU/GALA3D
+- [ ] GaussCtrl | https://github.com/ActiveVisionLab/gaussctrl
+- [ ] GaussianCube | https://github.com/GaussianCube/GaussianCube
+- [ ] GaussianDreamer | https://github.com/hustvl/GaussianDreamer
+- [ ] HoloDreamer | https://github.com/zhouhyOcean/HoloDreamer
+- [ ] Hunyuan3D-1.0 | https://github.com/Tencent/Hunyuan3D-1
+- [ ] Hunyuan3D 2.0 | https://github.com/Tencent/Hunyuan3D-2
+- [ ] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
+- [ ] Infinigen | https://github.com/princeton-vl/infinigen
+- [ ] Interactive3D | https://github.com/interactive-3d/interactive3d
+- [ ] Isotropic3D | https://github.com/pkunliu/Isotropic3D
+- [ ] LION | https://github.com/nv-tlabs/LION
+- [ ] Make-It-3D | https://github.com/junshutang/Make-It-3D
+- [ ] MVDream | https://github.com/MV-Dream/MVDream
+- [ ] NVIDIA Instant NeRF | https://github.com/NVlabs/instant-ngp
+- [ ] Paint3D | https://github.com/OpenTexture/Paint3D
+- [ ] PAniC-3D | https://github.com/shuhongchen/panic3d-anime-reconstruction
+- [ ] PhysRig | https://github.com/haoz19/PhysRig
+- [ ] Point·E | https://github.com/openai/point-e
+- [ ] SF3D | https://github.com/Stability-AI/stable-fast-3d
+- [ ] Shap-E | https://github.com/openai/shap-e
+- [ ] Stable Dreamfusion | https://github.com/ashawkey/stable-dreamfusion
+- [ ] Step1X-3D | https://github.com/stepfun-ai/Step1X-3D
+- [ ] 3D-LLM | https://github.com/UMass-Foundation-Model/3D-LLM
+- [ ] 3DTopia | https://github.com/3DTopia/3DTopia
+- [ ] 3DTopia-XL | https://github.com/3DTopia/3DTopia-XL
+- [ ] threestudio | https://github.com/threestudio-project/threestudio
+- [ ] TripoSR | https://github.com/VAST-AI-Research/TripoSR
+- [ ] Unique3D | https://github.com/AiuniAI/Unique3D
+- [ ] UnityGaussianSplatting | https://github.com/aras-p/UnityGaussianSplatting
+- [ ] ViVid-1-to-3 | https://github.com/ubc-vision/vivid123
+- [ ] Wonder3D | https://github.com/xxlong0/Wonder3D
+- [ ] Zero-1-to-3 | https://github.com/cvlab-columbia/zero123
+
+## Avatar (29)
+- [ ] AniPortrait | https://github.com/Zejun-Yang/AniPortrait
+- [ ] CALM | https://github.com/NVlabs/CALM
+- [ ] ChatdollKit | https://github.com/uezo/ChatdollKit
+- [ ] Ditto | https://github.com/antgroup/ditto-talkinghead
+- [ ] DreamTalk | https://github.com/ali-vilab/dreamtalk
+- [ ] Duix | https://github.com/GuijiAI/duix.ai
+- [ ] EchoMimic | https://github.com/BadToBest/EchoMimic
+- [ ] EMOPortraits | https://github.com/neeek2303/EMOPortraits
+- [ ] EmoVOCA | https://github.com/miccunifi/EmoVOCA
+- [ ] E3 Gen | https://github.com/olivia23333/E3Gen
+- [ ] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
+- [ ] GeneAvatar | https://github.com/zju3dv/GeneAvatar
+- [ ] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
+- [ ] Hallo | https://github.com/fudan-generative-vision/hallo
+- [ ] Hallo2 | https://github.com/fudan-generative-vision/hallo2
+- [ ] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
+- [ ] HunyuanVideo-Avatar | https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar
+- [ ] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
+- [ ] Linly-Talker | https://github.com/Kedreamix/Linly-Talker
+- [ ] LivePortrait | https://github.com/KwaiVGI/LivePortrait
+- [ ] MotionGPT | https://github.com/OpenMotionLab/MotionGPT
+- [ ] MusePose | https://github.com/TMElyralab/MusePose
+- [ ] MuseTalk | https://github.com/TMElyralab/MuseTalk
+- [ ] MuseV | https://github.com/TMElyralab/MuseV
+- [ ] Portrait4D | https://github.com/YuDeng/Portrait-4D
+- [ ] StableAvatar | https://github.com/Francis-Rings/StableAvatar
+- [ ] StyleAvatar3D | https://github.com/icoz69/StyleAvatar3D
+- [ ] Topo4D | https://github.com/XuanchenLi/Topo4D
+- [ ] UnityAIWithChatGPT | https://github.com/haili1234/UnityAIWithChatGPT
+
+## Animation (17)
+- [ ] Animate Anyone | https://github.com/HumanAIGC/AnimateAnyone
+- [ ] AnimateDiff | https://github.com/guoyww/animatediff/
+- [ ] AnimateLCM | https://github.com/G-U-N/AnimateLCM
+- [ ] Animate-X | https://github.com/Lucaria-Academy/Animate-X
+- [ ] AnimationGPT | https://github.com/fyyakaxyy/AnimationGPT
+- [ ] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
+- [ ] FaceFusion | https://github.com/facefusion/facefusion
+- [ ] GeneFace | https://github.com/yerfor/GeneFace
+- [ ] ID-Animator | https://github.com/ID-Animator/ID-Animator
+- [ ] HY-Motion 1.0 | https://github.com/Tencent-Hunyuan/HY-Motion-1.0
+- [ ] Index-AniSora | https://github.com/bilibili/Index-anisora
+- [ ] SadTalker | https://github.com/Winfredy/SadTalker
+- [ ] SadTalker-Video-Lip-Sync | https://github.com/Zz-ww/SadTalker-Video-Lip-Sync
+- [ ] ToonComposer | https://github.com/TencentARC/ToonComposer
+- [ ] TaleCrafter | https://github.com/VideoCrafter/TaleCrafter
+- [ ] ToonCrafter | https://github.com/ToonCrafter/ToonCrafter
+- [ ] Wav2Lip | https://github.com/Rudrabha/Wav2Lip
+
+## Video (59)
+- [ ] Animate-A-Story | https://github.com/VideoCrafter/Animate-A-Story
+- [ ] BackgroundRemover | https://github.com/nadermx/backgroundremover
+- [ ] CoDeF | https://github.com/qiuyu96/codef
+- [ ] CogVideoX | https://github.com/THUDM/CogVideo
+- [ ] CogVLM | https://github.com/THUDM/CogVLM
+- [ ] CoNR | https://github.com/megvii-research/CoNR
+- [ ] Diffutoon | https://github.com/modelscope/DiffSynth-Studio
+- [ ] dolphin | https://github.com/kaleido-lab/dolphin
+- [ ] DreamCinema | https://github.com/chen-wl20/DreamCinema
+- [ ] EDGE | https://github.com/Stanford-TML/EDGE
+- [ ] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas
+- [ ] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
+- [ ] HuMo | https://github.com/Phantom-video/HuMo
+- [ ] HunyuanVideo | https://github.com/Tencent/HunyuanVideo
+- [ ] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
+- [ ] InfiniteTalk | https://github.com/MeiGen-AI/InfiniteTalk
+- [ ] LongLive | https://github.com/NVlabs/LongLive
+- [ ] LTX-Video | https://github.com/Lightricks/LTX-Video
+- [ ] Lynx | https://github.com/bytedance/lynx
+- [ ] MIMO | https://github.com/menyifang/MIMO
+- [ ] Mini-Gemini | https://github.com/dvlab-research/MiniGemini
+- [ ] Mochi 1 | https://github.com/genmoai/models
+- [ ] MOFA-Video | https://github.com/MyNiuuu/MOFA-Video
+- [ ] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
+- [ ] Mora | https://github.com/lichao-sun/Mora
+- [ ] MotionClone | https://github.com/Bujiazi/MotionClone
+- [ ] MotionDirector | https://github.com/showlab/MotionDirector
+- [ ] Mov2mov | https://github.com/Scholar01/sd-webui-mov2mov
+- [ ] MoviiGen 1.1 | https://github.com/ZulutionAI/MoviiGen1.1
+- [ ] Open-Sora | https://github.com/hpcaitech/Open-Sora
+- [ ] Open-Sora | https://github.com/PKU-YuanGroup/Open-Sora-Plan
+- [ ] Ovi | https://github.com/character-ai/Ovi
+- [ ] Ruyi | https://github.com/IamCreateAI/Ruyi-Models
+- [ ] ShortGPT | https://github.com/RayVentura/ShortGPT
+- [ ] Step-Video-T2V | https://github.com/stepfun-ai/Step-Video-T2V
+- [ ] SkyReels-A1 | https://github.com/SkyworkAI/SkyReels-A1
+- [ ] SkyReels-V1 | https://github.com/SkyworkAI/SkyReels-V1
+- [ ] SoraWebui | https://github.com/SoraWebui/SoraWebui
+- [ ] StableVideo | https://github.com/rese1f/stablevideo
+- [ ] Stable Video Diffusion | https://github.com/Stability-AI/generative-models
+- [ ] StoryDiffusion | https://github.com/HVision-NKU/StoryDiffusion
+- [ ] StoryMem | https://github.com/Kevin-thu/StoryMem
+- [ ] StreamingT2V | https://github.com/Picsart-AI-Research/StreamingT2V
+- [ ] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
+- [ ] Tora | https://github.com/ali-videoai/Tora
+- [ ] Track-Anything | https://github.com/gaomingqi/Track-Anything
+- [ ] Tune-A-Video | https://github.com/showlab/Tune-A-Video
+- [ ] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
+- [ ] VGen | https://github.com/ali-vilab/i2vgen-xl
+- [ ] ViewCrafter | https://github.com/Drexubery/ViewCrafter
+- [ ] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
+- [ ] VideoElevator | https://github.com/YBYBZhang/VideoElevator
+- [ ] VideoMamba | https://github.com/OpenGVLab/VideoMamba
+- [ ] Video-of-Thought | https://github.com/scofield7419/Video-of-Thought
+- [ ] VisualRWKV | https://github.com/howard-hou/VisualRWKV
+- [ ] V-JEPA | https://github.com/facebookresearch/jepa
+- [ ] Wan2.1 | https://github.com/Wan-Video/Wan2.1
+- [ ] Wan2.2 | https://github.com/Wan-Video/Wan2.2
+- [ ] Waver | https://github.com/FoundationVision/Waver
+
+## Audio (25)
+- [ ] AcademiCodec | https://github.com/yangdongchao/AcademiCodec
+- [ ] Amphion | https://github.com/open-mmlab/Amphion
+- [ ] ArchiSound | https://github.com/archinetai/audio-diffusion-pytorch
+- [ ] AudioEditing | https://github.com/HilaManor/AudioEditingCode
+- [ ] Audiogen Codec | https://github.com/AudiogenAI/agc
+- [ ] AudioGPT | https://github.com/AIGC-Audio/AudioGPT
+- [ ] AudioLCM | https://github.com/liuhuadai/AudioLCM
+- [ ] AudioLDM 2 | https://github.com/haoheliu/audioldm2
+- [ ] AudioX | https://github.com/ZeyueT/AudioX
+- [ ] Auffusion | https://github.com/happylittlecat2333/Auffusion
+- [ ] CTAG | https://github.com/PapayaResearch/ctag
+- [ ] FoleyCrafter | https://github.com/open-mmlab/FoleyCrafter
+- [ ] HunyuanVideo-Foley | https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley
+- [ ] Make-An-Audio 3 | https://github.com/Text-to-Audio/Make-An-Audio-3
+- [ ] MeanAudio | https://github.com/xiquan-li/MeanAudio
+- [ ] MiDashengLM | https://github.com/xiaomi-research/dasheng-lm
+- [ ] MMAudio | https://github.com/hkchengrex/MMAudio
+- [ ] NeuralSound | https://github.com/hellojxt/NeuralSound
+- [ ] Qwen2-Audio | https://github.com/QwenLM/Qwen2-Audio
+- [ ] SEE-2-SOUND | https://github.com/see2sound/see2sound
+- [ ] SyncFusion | https://github.com/mcomunita/syncfusion
+- [ ] TANGO | https://github.com/declare-lab/tango
+- [ ] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
+- [ ] VTA-LDM | https://github.com/ariesssxu/vta-ldm
+- [ ] WavJourney | https://github.com/Audio-AGI/WavJourney
+
+## Music (11)
+- [ ] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp
+- [ ] Chord2Melody | https://github.com/tanreinama/chord2melody
+- [ ] Diff-BGM | https://github.com/sizhelee/Diff-BGM
+- [ ] FluxMusic | https://github.com/feizc/FluxMusic
+- [ ] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton
+- [ ] Jukebox | https://github.com/openai/jukebox
+- [ ] Magenta | https://github.com/magenta/magenta
+- [ ] MusicGen | https://github.com/facebookresearch/audiocraft
+- [ ] Riffusion App | https://github.com/riffusion/riffusion-app
+- [ ] SonicMaster | https://github.com/AMAAI-Lab/SonicMaster
+- [ ] YuE | https://github.com/multimodal-art-projection/YuE
+
+## Singing Voice (4)
+- [ ] DiffSinger | https://github.com/MoonInTheRiver/DiffSinger
+- [ ] Retrieval-based-Voice-Conversion-WebUI | https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI
+- [ ] so-vits-svc | https://github.com/svc-develop-team/so-vits-svc
+- [ ] VI-SVS | https://github.com/PlayVoice/VI-SVS
+
+## Speech (48)
+- [ ] Applio | https://github.com/IAHispano/Applio
+- [ ] Bark | https://github.com/suno-ai/bark
+- [ ] Bert-VITS2 | https://github.com/fishaudio/Bert-VITS2
+- [ ] Chatterbox | https://github.com/resemble-ai/chatterbox
+- [ ] ChatTTS | https://github.com/2noise/ChatTTS
+- [ ] CosyVoice | https://github.com/FunAudioLLM/CosyVoice
+- [ ] DEX-TTS | https://github.com/winddori2002/DEX-TTS
+- [ ] EmotiVoice | https://github.com/netease-youdao/EmotiVoice
+- [ ] FireRedTTS-2 | https://github.com/FireRedTeam/FireRedTTS2
+- [ ] GLM-4-Voice | https://github.com/THUDM/GLM-4-Voice
+- [ ] Glow-TTS | https://github.com/jaywalnut310/glow-tts
+- [ ] GPT-SoVITS | https://github.com/RVC-Boss/GPT-SoVITS
+- [ ] Higgs Audio | https://github.com/boson-ai/higgs-audio
+- [ ] IndexTTS2 | https://github.com/index-tts/index-tts
+- [ ] Kitten TTS | https://github.com/KittenML/KittenTTS
+- [ ] Liquid Audio | https://github.com/Liquid4All/liquid-audio
+- [ ] MahaTTS | https://github.com/dubverse-ai/MahaTTS
+- [ ] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
+- [ ] MeloTTS | https://github.com/myshell-ai/MeloTTS
+- [ ] MetaVoice-1B | https://github.com/metavoiceio/metavoice-src
+- [ ] Mini-Omni | https://github.com/gpt-omni/mini-omni
+- [ ] One-Shot-Voice-Cloning | https://github.com/CMsmartvoice/One-Shot-Voice-Cloning
+- [ ] OpenVoice | https://github.com/myshell-ai/OpenVoice
+- [ ] OverFlow | https://github.com/shivammehta25/OverFlow
+- [ ] RealtimeTTS | https://github.com/KoljaB/RealtimeTTS
+- [ ] SenseVoice | https://github.com/FunAudioLLM/SenseVoice
+- [ ] SpeechGPT | https://github.com/0nutation/SpeechGPT
+- [ ] speech-to-text-gpt3-unity | https://github.com/dr-iskandar/speech-to-text-gpt3-unity
+- [ ] Stable Speech | https://github.com/sanchit-gandhi/stable-speech
+- [ ] StableTTS | https://github.com/KdaiP/StableTTS
+- [ ] Step-Audio | https://github.com/stepfun-ai/Step-Audio
+- [ ] Step-Audio 2 | https://github.com/stepfun-ai/Step-Audio2
+- [ ] StyleTTS 2 | https://github.com/yl4579/StyleTTS2
+- [ ] tortoise.cpp | https://github.com/balisujohn/tortoise.cpp
+- [ ] TorToiSe-TTS | https://github.com/neonbjb/tortoise-tts
+- [ ] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
+- [ ] VibeVoice | https://github.com/microsoft/VibeVoice
+- [ ] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
+- [ ] VoiceCraft | https://github.com/jasonppy/VoiceCraft
+- [ ] VoxCPM | https://github.com/OpenBMB/VoxCPM
+- [ ] Whisper | https://github.com/openai/whisper
+- [ ] WhisperSpeech | https://github.com/collabora/WhisperSpeech
+- [ ] X-E-Speech | https://github.com/X-E-Speech/X-E-Speech-code
+- [ ] XTTS | https://github.com/coqui-ai/TTS
+- [ ] YourTTS | https://github.com/Edresson/YourTTS
+- [ ] ZMM-TTS | https://github.com/nii-yamagishilab/ZMM-TTS
+- [ ] UniAudio 2.0 | https://github.com/yangdongchao/UniAudio2
+- [ ] UnityNeuroSpeech | https://github.com/HardCodeDev777/UnityNeuroSpeech
+

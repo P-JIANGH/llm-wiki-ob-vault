@@ -8,6 +8,11 @@
 - Created: raw/articles/ai-game-devtools/baichuan-13b.md
 - Created: ai-game-devtools/baichuan-13b.md
 - Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+## [2026-04-13] ingest | ChatYuan — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/chatyuan/（via gitcode.com mirror）
+- Created: raw/articles/ai-game-devtools/chatyuan.md
+- Created: ai-game-devtools/chatyuan.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
 ## [2026-04-13] ingest | ChatGPT-API-unity — Unity ChatGPT API 客户端
 - Source already cloned: ~/tmp/ai-game-devtools/chatgpt-api-unity/
 - Created: raw/articles/ai-game-devtools/chatgpt-api-unity.md

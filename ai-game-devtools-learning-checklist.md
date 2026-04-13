@@ -56,7 +56,7 @@
 - [2026-04-14] Jan | https://github.com/janhq/jan
 - [2026-04-14] Janus | https://github.com/deepseek-ai/Janus
 - [2026-04-14] Kimi K2 | https://github.com/moonshotai/Kimi-K2
-- [ ] Lamini | https://github.com/lamini-ai/lamini
+- [2026-04-14] Lamini | https://github.com/lamini-ai/lamini
 - [ ] LaMini-LM | https://github.com/mbzuai-nlp/LaMini-LM
 - [ ] LangChain | https://github.com/hwchase17/langchain
 - [ ] LangFlow | https://github.com/logspace-ai/langflow

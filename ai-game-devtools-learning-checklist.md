@@ -28,7 +28,7 @@
 - [2026-04-13] Chinese-LLaMA-Alpaca-3 | https://github.com/ymcui/Chinese-LLaMA-Alpaca-3
 - [2026-04-13] Chrome-GPT | https://github.com/richardyc/Chrome-GPT
 - [2026-04-13] CoreNet | https://github.com/apple/corenet
-- [ ] Cosmos | https://github.com/NVIDIA/Cosmos
+- [2026-04-13] Cosmos | https://github.com/NVIDIA/Cosmos
 - [ ] DBRX | https://github.com/databricks/dbrx
 - [ ] DCLM | https://github.com/mlfoundations/dclm
 - [ ] DeepSeek-R1 | https://github.com/deepseek-ai/DeepSeek-R1

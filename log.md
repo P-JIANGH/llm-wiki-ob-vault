@@ -212,4 +212,16 @@
 - Created: raw/articles/ai-game-devtools/chrome-gpt.md
 - Created: ai-game-devtools/chrome-gpt.md
 - Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+## [2026-04-13] ingest | CoreNet — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/corenet/（gitcode.com mirror，GitHub超时）
+- Created: raw/articles/ai-game-devtools/corenet.md
+- Created: ai-game-devtools/corenet.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+corenet）
 - Updated: index.md（+AI Game DevTools section + chrome-gpt）
+## [2026-04-13] ingest | Cosmos
+- Cloned: ~/tmp/ai-game-devtools/cosmos/ (deprecated, real content from https://github.com/nvidia-cosmos)
+- Created: raw/articles/ai-game-devtools/cosmos.md
+- Created: ai-game-devtools/cosmos.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+cosmos）

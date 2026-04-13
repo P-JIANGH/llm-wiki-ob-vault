@@ -168,3 +168,8 @@
 - Created: ai-game-devtools/baichuan-2.md
 - Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
 - Updated: index.md（+baichuan-2）
+## [2026-04-13] ingest | Character-LLM — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/character-llm/（GitHub direct）
+- Created: raw/articles/ai-game-devtools/character-llm.md
+- Created: ai-game-devtools/character-llm.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）

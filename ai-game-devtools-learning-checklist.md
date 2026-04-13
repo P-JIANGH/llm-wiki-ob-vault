@@ -19,7 +19,7 @@
 - [2026-04-13] Baichuan-13B | https://github.com/baichuan-inc/Baichuan-13B
 - [2026-04-13] Baichuan 2 | https://github.com/baichuan-inc/Baichuan2
 - [2026-04-13] Bisheng | https://github.com/dataelement/bisheng
-- [ ] Character-LLM | https://github.com/choosewhatulike/trainable-agents
+- [2026-04-13] Character-LLM | https://github.com/choosewhatulike/trainable-agents
 - [ ] ChatDev | https://github.com/OpenBMB/ChatDev
 - [ ] ChatGPT-API-unity | https://github.com/mochi-neko/ChatGPT-API-unity
 - [ ] ChatGPTForUnity | https://github.com/sunsvip/ChatGPTForUnity

@@ -285,8 +285,9 @@
 || [[ai-game-devtools/jan]] — Janhq 开源本地 ChatGPT 替代品：Tauri Rust 后端 + React 前端 + llama.cpp/MLX 推理引擎，支持本地/云端模型、OpenAI 兼容 API（localhost:1337）、MCP 集成，Apache 2.0 |
 ||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
 |||| [[ai-game-devtools/lamini]] — Lamini AI 微调平台 SDK：Python SDK + 云端 API，支持自定义 LLM 微调、Generator/Validator Pipeline、RAG、Streaming，Apache 2.0 |
-||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
-||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B），Apache 2.0，单文件实现，支持 LoRA/Adapter 微调与 GPTQ/LLM.int8 量化，已归档（推荐 LitGPT）|
+|||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
+|||||| [[ai-game-devtools/llasm]] — LinkSoul 首个开源可商用中英双语语音-语言助手（Whisper + Chinese-Llama-2-7B / Baichuan-7B），Apache-2.0 |
+|||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B）
 ||||| [[ai-game-devtools/llama-3]] — Meta Llama 3 LLM 系列（8B/70B），128K 词表 + GQA + 15T tokens 预训练，ChatFmt 对话格式，MMLU 82.0（70B），已废弃（Llama 3.1 后并入 llama-models）|
 ||||||| [[ai-game-devtools/lepton-ai]] — Lepton AI Pythonic AI 服务框架
 ||||| [[ai-game-devtools/la-vague]] — lavague-ai Large Action Model 框架：World Model + Action Engine 双组件驱动 AI Web Agent，支持 Selenium/Playwright/Chrome Extension，Apache 2.0 |

@@ -261,3 +261,10 @@
 - Created: ai-game-devtools/design2code.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+design2code)
+
+## [2026-04-13] ingest | Devika — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/devika/
+- Created: raw/articles/ai-game-devtools/devika.md
+- Created: ai-game-devtools/devika.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+devika)

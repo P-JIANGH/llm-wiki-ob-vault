@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-13 | Total wiki-layer pages: 207 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-13 | Total wiki-layer pages: 208 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -230,7 +230,8 @@
 | [[ai-agent-development-platform]] — AI Agent 开发平台通用概念：Prompt/RAG/Plugin/Workflow 核心组件，Coze Studio/DeerFlow/nanobot 等代表平台对比 |
 | [[multi-agent-interactive-classroom]] — 多Agent扮演教师/学生协作教学：Outline→Scenes两阶段 + 幻灯片/Quiz/模拟/PBL 组件 |
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类，与 [[openmaic]] 完全无关 |
-||| [[baichuan-7b]] — 百川智能 7B 双语开源LLM，Transformer+RoPE+SwiGLU，中文C-Eval同尺寸SOTA，允许商业使用 |
+|||| [[baichuan-7b]] — 百川智能 7B 双语开源LLM，Transformer+RoPE+SwiGLU，中文C-Eval同尺寸SOTA，允许商业使用 |
+|||| [[baichuan-13b]] — 百川智能 13B 双语开源LLM，ALiBi位置编码，int8/int4量化，1.4万亿tokens训练，中文C-Eval/MMLU同尺寸SOTA，Apache 2.0+社区许可，可商用 |
 ||| [[ai-scientist]] — SakanaAI 全自动科学研究系统
 | [[babyagi-ui]] — miurla 浏览器端 BabyAGI UI：Next.js + LangChain.js + Pinecone，ChatGPT 风格界面运行自主 Agent，支持并行任务和 Skills 系统 |
 | [[langchain]] — LLM应用开发框架，Chain/Agent/Memory/Tool/Prompt抽象，LangGraph基础 |

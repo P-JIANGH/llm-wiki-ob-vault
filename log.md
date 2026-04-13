@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-13] ingest | Baichuan-13B — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/baichuan-13b/（gitcode.com redirect）
+- Created: raw/articles/ai-game-devtools/baichuan-13b.md
+- Created: ai-game-devtools/baichuan-13b.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+baichuan-13b，total 208）
 ## [2026-04-13] ingest | BabyAGI UI — AI游戏开发工具
 - Cloned: ~/tmp/ai-game-devtools/babyagi-ui/（GitHub direct）
 - Created: raw/articles/ai-game-devtools/babyagi-ui.md

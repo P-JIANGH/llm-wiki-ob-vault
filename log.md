@@ -173,3 +173,9 @@
 - Created: raw/articles/ai-game-devtools/character-llm.md
 - Created: ai-game-devtools/character-llm.md
 - Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+## [2026-04-13] ingest | ChatDev — AI游戏开发工具 LLM分类
+- Source: web_extract（GitHub 无法直接克隆，gitcode 返回空仓库）
+- Created: raw/articles/ai-game-devtools/chatdev.md
+- Created: ai-game-devtools/chatdev.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+chatdev）

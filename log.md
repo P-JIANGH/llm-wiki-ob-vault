@@ -406,3 +406,9 @@
 - Created: raw/articles/ai-game-devtools/langchain.md
 - Created: ai-game-devtools/langchain.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+## [2026-04-14] ingest | LaVague — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/la-vague/
+- Created: raw/articles/ai-game-devtools/la-vague.md
+- Created: ai-game-devtools/la-vague.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+la-vague)

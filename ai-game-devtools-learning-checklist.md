@@ -13,7 +13,7 @@
 - [2026-04-12] AI Scientist | https://github.com/SakanaAI/AI-Scientist
 - [2026-04-13] Assistant CLI | https://github.com/diciaup/assistant-cli
 - [2026-04-13] Auto-GPT | https://github.com/Significant-Gravitas/Auto-GPT
-- [ ] BabyAGI | https://github.com/yoheinakajima/babyagi
+- [2026-04-13] BabyAGI | https://github.com/yoheinakajima/babyagi
 - [ ] 👶🤖🖥️ BabyAGI UI | https://github.com/miurla/babyagi-ui
 - [ ] baichuan-7B | https://github.com/baichuan-inc/baichuan-7B
 - [ ] Baichuan-13B | https://github.com/baichuan-inc/Baichuan-13B

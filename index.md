@@ -60,6 +60,7 @@
 
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
 | [[ai-game-devtools/llama2-webui]] — Llama 2 本地 Web UI + PyPI 封装包，支持 llama.cpp/transformers/GPTQ 多后端，MIT |
+| [[ai-game-devtools/llama-3]] — Meta Llama 3 LLM 系列（8B/70B），128K 词表 + GQA + 15T tokens 预训练，ChatFmt 对话格式，MMLU 82.0（70B），已废弃 |
 | [[ai-game-devtools/corenet]] — Apple 深度神经网络训练库：支持 LLM/CLIP/ViT 等 foundation models 的训练，含 FSDP 分布式训练 |
 | [[ai-game-devtools/cosmos]] — NVIDIA 物理 AI 世界基础模型平台：Predict/Transfer/Reason 三类模型，服务自动驾驶与机器人仿真 |
 | [[ai-game-devtools/dbrx]] — Databricks 132B MoE LLM：16 experts 选4，36B 激活参数，12T tokens 预训练，32K context，Databricks Open Model License |
@@ -285,7 +286,8 @@
 |||| [[ai-game-devtools/lamini]] — Lamini AI 微调平台 SDK：Python SDK + 云端 API，支持自定义 LLM 微调、Generator/Validator Pipeline、RAG、Streaming，Apache 2.0 |
 ||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
 ||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B），Apache 2.0，单文件实现，支持 LoRA/Adapter 微调与 GPTQ/LLM.int8 量化，已归档（推荐 LitGPT）|
-|||||| [[ai-game-devtools/lepton-ai]] — Lepton AI Pythonic AI 服务框架
+||||| [[ai-game-devtools/llama-3]] — Meta Llama 3 LLM 系列（8B/70B），128K 词表 + GQA + 15T tokens 预训练，ChatFmt 对话格式，MMLU 82.0（70B），已废弃（Llama 3.1 后并入 llama-models）|
+||||||| [[ai-game-devtools/lepton-ai]] — Lepton AI Pythonic AI 服务框架
 ||||| [[ai-game-devtools/la-vague]] — lavague-ai Large Action Model 框架：World Model + Action Engine 双组件驱动 AI Web Agent，支持 Selenium/Playwright/Chrome Extension，Apache 2.0 |
 |||| [[ai-game-devtools/lemur]] — XLang Lab+Salesforce 70B LLM，NLP+Code 平衡训练，10:1 代码文本比预训练，WebArena/MINT/InterCode agent 评测，Apache |
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |

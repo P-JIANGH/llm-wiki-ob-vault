@@ -65,7 +65,7 @@
 - [2026-04-14] Lepton AI | https://github.com/leptonai/leptonai
 - [2026-04-14] Lit-LLaMA | https://github.com/Lightning-AI/lit-llama
 - [2026-04-14] llama2-webui | https://github.com/liltom-eth/llama2-webui
-- [ ] Llama 3 | https://github.com/meta-llama/llama3
+- [2026-04-14] Llama 3 | https://github.com/meta-llama/llama3
 - [ ] Llama 3.1 | https://github.com/meta-llama/llama-models
 - [ ] LLaSM | https://github.com/LinkSoul-AI/LLaSM
 - [ ] LLM Answer Engine | https://github.com/developersdigest/llm-answer-engine

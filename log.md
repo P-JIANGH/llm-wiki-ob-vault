@@ -432,3 +432,9 @@
 - Created: ai-game-devtools/lit-llama.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+lit-llama)
+## [2026-04-14] ingest | llama2-webui — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/llama2-webui/
+- Created: raw/articles/ai-game-devtools/llama2-webui.md
+- Created: ai-game-devtools/llama2-webui.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+llama2-webui)

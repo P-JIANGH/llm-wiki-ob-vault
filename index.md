@@ -290,7 +290,8 @@
 |||||| [[ai-game-devtools/llasm]] — LinkSoul 首个开源可商用中英双语语音-语言助手（Whisper + Chinese-Llama-2-7B / Baichuan-7B），Apache-2.0 |
 |||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B）
 ||||| [[ai-game-devtools/llama-3]] — Meta Llama 3 LLM 系列（8B/70B），128K 词表 + GQA + 15T tokens 预训练，ChatFmt 对话格式，MMLU 82.0（70B），已废弃（Llama 3.1 后并入 llama-models）|
-||||||| [[ai-game-devtools/lepton-ai]] — Lepton AI Pythonic AI 服务框架
+|||||||| [[ai-game-devtools/llm.c]] — Karpathy 纯 C/CUDA LLM 训练：无需 PyTorch，单 GPU 比 PyTorch 快 7%，支持 GPT-2/GPT-3，MIT
+|||||||| [[ai-game-devtools/lepton-ai]] — Lepton AI Pythonic AI 服务框架
 ||||| [[ai-game-devtools/la-vague]] — lavague-ai Large Action Model 框架：World Model + Action Engine 双组件驱动 AI Web Agent，支持 Selenium/Playwright/Chrome Extension，Apache 2.0 |
 |||| [[ai-game-devtools/lemur]] — XLang Lab+Salesforce 70B LLM，NLP+Code 平衡训练，10:1 代码文本比预训练，WebArena/MINT/InterCode agent 评测，Apache |
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |

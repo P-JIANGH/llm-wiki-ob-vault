@@ -464,3 +464,10 @@
 - Created: ai-game-devtools/llm-answer-engine.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+llm-answer-engine entry)
+
+## [2026-04-14] ingest | llm.c — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/llm.c/ (via gitcode.com mirror, GitHub timeout)
+- Created: raw/articles/ai-game-devtools/llm.c.md
+- Created: ai-game-devtools/llm.c.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+llm.c entry)

@@ -43,7 +43,7 @@
 - [2026-04-13] GLM-4 | https://github.com/THUDM/GLM-4
 - [2026-04-13] GLM-4.5 | https://github.com/zai-org/GLM-4.5
 - [2026-04-13] GPT4All | https://github.com/nomic-ai/gpt4all
-- [ ] gpt-oss | https://github.com/openai/gpt-oss
+- [2026-04-13] gpt-oss | https://github.com/openai/gpt-oss
 - [ ] GPTScript | https://github.com/gptscript-ai/gptscript
 - [ ] Hugging Face API Unity Integration | https://github.com/huggingface/unity-api
 - [ ] Hunyuan-MT | https://github.com/Tencent-Hunyuan/Hunyuan-MT

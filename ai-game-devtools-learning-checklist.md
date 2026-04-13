@@ -24,7 +24,7 @@
 - [2026-04-13] ChatGPT-API-unity | https://github.com/mochi-neko/ChatGPT-API-unity
 - [2026-04-13] ChatGPTForUnity | https://github.com/sunsvip/ChatGPTForUnity
 - [2026-04-13] ChatRWKV | https://github.com/BlinkDL/ChatRWKV
-- [ ] ChatYuan | https://github.com/clue-ai/ChatYuan
+- [2026-04-13] ChatYuan | https://github.com/clue-ai/ChatYuan
 - [ ] Chinese-LLaMA-Alpaca-3 | https://github.com/ymcui/Chinese-LLaMA-Alpaca-3
 - [ ] Chrome-GPT | https://github.com/richardyc/Chrome-GPT
 - [ ] CoreNet | https://github.com/apple/corenet

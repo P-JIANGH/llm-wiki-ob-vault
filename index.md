@@ -66,6 +66,7 @@
 ||| [[ai-game-devtools/demogpt]] — DemoGPT 自动生成 AI 应用框架：自然语言 → Streamlit App 流水线（Plan/Task/Code/Final），内置 AgentHub 支持工具调用 + RAG |
 ||| [[ai-game-devtools/devika]] — Devika AI 软件工程师：Devin 开源替代方案，多 Agent 架构（Planner/Researcher/Coder 等），支持 Claude/GPT/Ollama，MIT |
 || [[ai-game-devtools/deepseek-v3]]
+| [[ai-game-devtools/devon]] — entropy-research 开源 AI 结对编程助手：支持 Claude/GPT-4o/Groq/Ollama 多模型，Electron+TUI 双界面，专注代码库编辑/探索/测试生成，AGPL |
 | [[ai-game-devtools/chrome-gpt]] — AutoGPT agent 控制 Chrome 浏览器：Selenium + LangChain，支持 Auto-GPT/BabyAGI/Zero-shot 多种 agent 类型 |
 
 ## Open Source Games

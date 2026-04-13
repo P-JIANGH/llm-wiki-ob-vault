@@ -36,7 +36,7 @@
 - [2026-04-13] DemoGPT | https://github.com/melih-unsal/DemoGPT
 - [2026-04-13] Design2Code | https://github.com/NoviScl/Design2Code
 - [2026-04-13] Devika | https://github.com/stitionai/devika
-- [ ] Devon | https://github.com/entropy-research/Devon
+- [2026-04-13] Devon | https://github.com/entropy-research/Devon
 - [ ] Flowise | https://github.com/FlowiseAI/Flowise
 - [ ] Gemma | https://github.com/google/gemma_pytorch
 - [ ] gemma.cpp | https://github.com/google/gemma.cpp

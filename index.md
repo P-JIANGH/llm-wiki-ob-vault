@@ -58,6 +58,7 @@
 ## AI Game DevTools
 
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
+| [[ai-game-devtools/corenet]] — Apple 深度神经网络训练库：支持 LLM/CLIP/ViT 等 foundation models 的训练，含 FSDP 分布式训练 |
 | [[ai-game-devtools/chrome-gpt]] — AutoGPT agent 控制 Chrome 浏览器：Selenium + LangChain，支持 Auto-GPT/BabyAGI/Zero-shot 多种 agent 类型 |
 
 ## Open Source Games

@@ -27,7 +27,7 @@
 - [2026-04-13] ChatYuan | https://github.com/clue-ai/ChatYuan
 - [2026-04-13] Chinese-LLaMA-Alpaca-3 | https://github.com/ymcui/Chinese-LLaMA-Alpaca-3
 - [2026-04-13] Chrome-GPT | https://github.com/richardyc/Chrome-GPT
-- [ ] CoreNet | https://github.com/apple/corenet
+- [2026-04-13] CoreNet | https://github.com/apple/corenet
 - [ ] Cosmos | https://github.com/NVIDIA/Cosmos
 - [ ] DBRX | https://github.com/databricks/dbrx
 - [ ] DCLM | https://github.com/mlfoundations/dclm

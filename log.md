@@ -426,3 +426,9 @@
 - Created: ai-game-devtools/lepton-ai.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+lepton-ai)
+## [2026-04-14] ingest | Lit-LLaMA
+- Cloned: ~/tmp/ai-game-devtools/lit-llama/
+- Created: raw/articles/ai-game-devtools/lit-llama.md
+- Created: ai-game-devtools/lit-llama.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+lit-llama)

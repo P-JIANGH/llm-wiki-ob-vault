@@ -360,3 +360,15 @@
 - Created: ai-game-devtools/internlm.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+internlm)
+## [2026-04-14] ingest | InternLM-XComposer — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/internlm-xcomposer/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/internlm-xcomposer.md
+- Created: ai-game-devtools/internlm-xcomposer.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+internlm-xcomposer under internlm)
+## [2026-04-14] ingest | Jan — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/jan/ (via gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/jan.md
+- Created: ai-game-devtools/jan.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+jan)

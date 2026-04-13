@@ -53,7 +53,7 @@
 - [2026-04-14] InteractML-Unreal Engine | https://github.com/Interactml/iml-ue4
 - [2026-04-14] InternLM | https://github.com/InternLM/InternLM
 - [2026-04-14] InternLM-XComposer | https://github.com/InternLM/InternLM-XComposer
-- [ ] Jan | https://github.com/janhq/jan
+- [2026-04-14] Jan | https://github.com/janhq/jan
 - [ ] Janus | https://github.com/deepseek-ai/Janus
 - [ ] Kimi K2 | https://github.com/moonshotai/Kimi-K2
 - [ ] Lamini | https://github.com/lamini-ai/lamini

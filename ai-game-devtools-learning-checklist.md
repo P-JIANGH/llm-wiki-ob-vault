@@ -50,7 +50,7 @@
 - [2026-04-13] ImageBind | https://github.com/facebookresearch/ImageBind
 - [2026-04-13] Index-1.9B | https://github.com/bilibili/Index-1.9B
 - [2026-04-14] InteractML-Unity | https://github.com/Interactml/iml-unity
-- [ ] InteractML-Unreal Engine | https://github.com/Interactml/iml-ue4
+- [2026-04-14] InteractML-Unreal Engine | https://github.com/Interactml/iml-ue4
 - [ ] InternLM | https://github.com/InternLM/InternLM
 - [ ] InternLM-XComposer | https://github.com/InternLM/InternLM-XComposer
 - [ ] Jan | https://github.com/janhq/jan

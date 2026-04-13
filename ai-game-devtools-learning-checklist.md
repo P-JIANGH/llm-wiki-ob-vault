@@ -39,7 +39,7 @@
 - [2026-04-13] Devon | https://github.com/entropy-research/Devon
 - [2026-04-13] Flowise | https://github.com/FlowiseAI/Flowise
 - [2026-04-13] Gemma | https://github.com/google/gemma_pytorch
-- [ ] gemma.cpp | https://github.com/google/gemma.cpp
+- [2026-04-13] gemma.cpp | https://github.com/google/gemma.cpp
 - [ ] GLM-4 | https://github.com/THUDM/GLM-4
 - [ ] GLM-4.5 | https://github.com/zai-org/GLM-4.5
 - [ ] GPT4All | https://github.com/nomic-ai/gpt4all

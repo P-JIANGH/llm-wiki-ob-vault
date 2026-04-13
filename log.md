@@ -279,3 +279,9 @@
 - Created: ai-game-devtools/gemma.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+gemma)
+## [2026-04-13] ingest | gemma.cpp — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/gemma-cpp/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/gemma-cpp.md
+- Created: ai-game-devtools/gemma-cpp.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+gemma-cpp)

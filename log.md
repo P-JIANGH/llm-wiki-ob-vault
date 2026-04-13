@@ -132,3 +132,9 @@
 - Created: raw/articles/ai-game-devtools/auto-gpt.md
 - Created: ai-game-devtools/auto-gpt.md
 - Updated: ai-game-devtools-learning-checklist.md（mark complete）
+## [2026-04-13] ingest | BabyAGI — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/babyagi/（GitHub direct，HOME=/tmp/gitclone 绕过 gitcode redirect）
+- Created: raw/articles/ai-game-devtools/babyagi.md
+- Created: ai-game-devtools/babyagi.md
+- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+- Updated: index.md（+1 entry in AI/LLM/Agent section）

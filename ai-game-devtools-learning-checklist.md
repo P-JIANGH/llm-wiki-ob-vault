@@ -70,7 +70,7 @@
 - [2026-04-14] LLaSM | https://github.com/LinkSoul-AI/LLaSM
 - [2026-04-14] LLM Answer Engine | https://github.com/developersdigest/llm-answer-engine
 - [2026-04-14] llm.c | https://github.com/karpathy/llm.c
-- [ ] LLMUnity | https://github.com/undreamai/LLMUnity
+- [2026-04-14] LLMUnity | https://github.com/undreamai/LLMUnity
 - [ ] LLocalSearch | https://github.com/nilsherzig/LLocalSearch
 - [ ] LogicGamesSolver | https://github.com/fabridigua/LogicGamesSolver
 - [ ] LongCat-Flash | https://github.com/meituan-longcat/LongCat-Flash-Chat

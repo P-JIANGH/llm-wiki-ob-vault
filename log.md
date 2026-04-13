@@ -316,3 +316,16 @@
 - Created: ai-game-devtools/gptscript.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+gptscript)
+
+## [2026-04-13] ingest | Hugging Face API Unity Integration — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/hugging-face-api-unity-integration/
+- Created: raw/articles/ai-game-devtools/hugging-face-api-unity-integration.md
+- Created: ai-game-devtools/hugging-face-api-unity-integration.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+hugging-face-api-unity-integration)
+## [2026-04-13] ingest | Hunyuan-MT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/hunyuan-mt/
+- Created: raw/articles/ai-game-devtools/hunyuan-mt.md
+- Created: ai-game-devtools/hunyuan-mt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+hunyuan-mt)

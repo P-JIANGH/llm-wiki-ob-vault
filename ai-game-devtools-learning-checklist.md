@@ -62,7 +62,7 @@
 - [2026-04-14] LangFlow | https://github.com/logspace-ai/langflow
 - [2026-04-14] LaVague | https://github.com/lavague-ai/LaVague
 - [2026-04-14] Lemur | https://github.com/OpenLemur/Lemur
-- [ ] Lepton AI | https://github.com/leptonai/leptonai
+- [2026-04-14] Lepton AI | https://github.com/leptonai/leptonai
 - [ ] Lit-LLaMA | https://github.com/Lightning-AI/lit-llama
 - [ ] llama2-webui | https://github.com/liltom-eth/llama2-webui
 - [ ] Llama 3 | https://github.com/meta-llama/llama3

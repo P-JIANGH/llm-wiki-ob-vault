@@ -280,4 +280,5 @@
 | [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
 || [[ai-game-devtools/jan]] — Janhq 开源本地 ChatGPT 替代品：Tauri Rust 后端 + React 前端 + llama.cpp/MLX 推理引擎，支持本地/云端模型、OpenAI 兼容 API（localhost:1337）、MCP 集成，Apache 2.0 |
 | [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
-||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包（com.huggingface.api v0.8.0），反射自动发现 10 种 Task（对话/文生图/ASR 等），Coroutine 异步 HTTP，支持 9000+ 模型，Apache 2.0 |
+||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |
+||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包

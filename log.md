@@ -9,6 +9,12 @@
 - Created: ai-game-devtools/chinese-llama-alpaca-3.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (added chinese-llama-alpaca-3 entry)
+## [2026-04-14] ingest | LangFlow — AI 游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/langflow/
+- Created: raw/articles/ai-game-devtools/langflow.md
+- Created: ai-game-devtools/langflow.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added langflow entry)
 ## [2026-04-14] ingest | LaMini-LM — MBZUAI 教学式蒸馏 LLM 家族
 - Cloned: ~/tmp/ai-game-devtools/lamini-lm/
 - Created: raw/articles/ai-game-devtools/lamini-lm.md

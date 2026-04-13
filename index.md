@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-14 | Total pages: N+4 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-14 | Total pages: N+5 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -43,7 +43,8 @@
 | [[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏 |
 | [[microverse-code-structure]] — Microverse 代码结构 / 模块解析 |
 | [[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织 |
-| [[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源 |
+|| [[langflow]] — logspace AI 可视化 LLM 工作流构建器：拖放节点图 + FastAPI + LangChain，支持 50+ LLM/向量库，MIT |
+|| [[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源 |
 | [[voxcpm]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言 |
 
 ## Game Dev

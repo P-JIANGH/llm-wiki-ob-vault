@@ -47,7 +47,7 @@
 - [2026-04-13] GPTScript | https://github.com/gptscript-ai/gptscript
 - [2026-04-13] Hugging Face API Unity Integration | https://github.com/huggingface/unity-api
 - [2026-04-13] Hunyuan-MT | https://github.com/Tencent-Hunyuan/Hunyuan-MT
-- [ ] ImageBind | https://github.com/facebookresearch/ImageBind
+- [2026-04-13] ImageBind | https://github.com/facebookresearch/ImageBind
 - [ ] Index-1.9B | https://github.com/bilibili/Index-1.9B
 - [ ] InteractML-Unity | https://github.com/Interactml/iml-unity
 - [ ] InteractML-Unreal Engine | https://github.com/Interactml/iml-ue4

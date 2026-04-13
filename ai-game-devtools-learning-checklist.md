@@ -58,7 +58,7 @@
 - [2026-04-14] Kimi K2 | https://github.com/moonshotai/Kimi-K2
 - [2026-04-14] Lamini | https://github.com/lamini-ai/lamini
 - [2026-04-14] LaMini-LM | https://github.com/mbzuai-nlp/LaMini-LM
-- [ ] LangChain | https://github.com/hwchase17/langchain
+- [2026-04-14] LangChain | https://github.com/hwchase17/langchain
 - [ ] LangFlow | https://github.com/logspace-ai/langflow
 - [ ] LaVague | https://github.com/lavague-ai/LaVague
 - [ ] Lemur | https://github.com/OpenLemur/Lemur

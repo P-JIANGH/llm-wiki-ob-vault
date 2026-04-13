@@ -30,7 +30,7 @@
 - [2026-04-13] CoreNet | https://github.com/apple/corenet
 - [2026-04-13] Cosmos | https://github.com/NVIDIA/Cosmos
 - [2026-04-13] DBRX | https://github.com/databricks/dbrx
-- [ ] DCLM | https://github.com/mlfoundations/dclm
+- [2026-04-13] DCLM | https://github.com/mlfoundations/dclm
 - [ ] DeepSeek-R1 | https://github.com/deepseek-ai/DeepSeek-R1
 - [ ] DeepSeek-V3 | https://github.com/deepseek-ai/DeepSeek-V3
 - [ ] DemoGPT | https://github.com/melih-unsal/DemoGPT

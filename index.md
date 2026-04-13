@@ -55,6 +55,11 @@
 | [[microverse-dialog-system]] — DialogService/ConversationManager/BackgroundStoryManager |
 | [[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态） |
 
+## AI Game DevTools
+
+| [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
+| [[ai-game-devtools/chrome-gpt]] — AutoGPT agent 控制 Chrome 浏览器：Selenium + LangChain，支持 Auto-GPT/BabyAGI/Zero-shot 多种 agent 类型 |
+
 ## Open Source Games
 
 - [[open-source-game/ancient-beast]] — 回合制策略，7派系单位收集+1v1/2v2对战，Phaser CE 引擎，TypeScript+Webpack，AGPL-3.0+CC-BY-SA-4.0 双许可

@@ -476,3 +476,9 @@
 - Created: ai-game-devtools/llm.c.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+llm.c entry)
+## [2026-04-14] ingest | LLocalSearch — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/llocal-search/ (via gitcode.com mirror, GitHub timeout)
+- Created: raw/articles/ai-game-devtools/llocal-search.md
+- Created: ai-game-devtools/llocal-search.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+llocal-search entry)

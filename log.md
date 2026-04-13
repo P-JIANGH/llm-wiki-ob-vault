@@ -184,3 +184,15 @@
 - Created: ai-game-devtools/chatdev.md
 - Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
 - Updated: index.md（+chatdev）
+## [2026-04-13] ingest | ChatGPTForUnity — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/chatgptforunity/（GitHub direct）
+- Created: raw/articles/ai-game-devtools/chatgptforunity.md
+- Created: ai-game-devtools/chatgptforunity.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+chatgptforunity）
+## [2026-04-13] ingest | ChatRWKV — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/chatrwkv/（GitHub direct）
+- Created: raw/articles/ai-game-devtools/chatrwkv.md
+- Created: ai-game-devtools/chatrwkv.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+chatrwkv）

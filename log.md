@@ -457,3 +457,10 @@
 - Created: ai-game-devtools/llasm.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+llasm entry)
+
+## [2026-04-14] ingest | LLM Answer Engine — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/llm-answer-engine/
+- Created: raw/articles/ai-game-devtools/llm-answer-engine.md
+- Created: ai-game-devtools/llm-answer-engine.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+llm-answer-engine entry)

@@ -249,3 +249,9 @@
 - Created: ai-game-devtools/deepseek-v3.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+deepseek-v3)
+## [2026-04-13] ingest | DemoGPT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/demogpt/
+- Created: raw/articles/ai-game-devtools/demogpt.md
+- Created: ai-game-devtools/demogpt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+demogpt)

@@ -17,7 +17,7 @@
 - [2026-04-13] 👶🤖🖥️ BabyAGI UI | https://github.com/miurla/babyagi-ui
 - [2026-04-13] baichuan-7B | https://github.com/baichuan-inc/baichuan-7B
 - [2026-04-13] Baichuan-13B | https://github.com/baichuan-inc/Baichuan-13B
-- [ ] Baichuan 2 | https://github.com/baichuan-inc/Baichuan2
+- [2026-04-13] Baichuan 2 | https://github.com/baichuan-inc/Baichuan2
 - [2026-04-13] Bisheng | https://github.com/dataelement/bisheng
 - [ ] Character-LLM | https://github.com/choosewhatulike/trainable-agents
 - [ ] ChatDev | https://github.com/OpenBMB/ChatDev

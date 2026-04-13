@@ -232,6 +232,7 @@
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类，与 [[openmaic]] 完全无关 |
 |||| [[baichuan-7b]] — 百川智能 7B 双语开源LLM，Transformer+RoPE+SwiGLU，中文C-Eval同尺寸SOTA，允许商业使用 |
 ||||| [[baichuan-13b]] — 百川智能 13B 双语开源LLM，ALiBi位置编码，int8/int4量化，1.4万亿tokens训练，中文C-Eval/MMLU同尺寸SOTA，Apache 2.0+社区许可，可商用 |
+||||| [[baichuan-2]] — 百川智能新一代开源LLM，7B/13B，2.6万亿tokens训练，benchmark全面超越LLaMA2-13B，商用需邮件申请 |
 ||||| [[bisheng]] — DataElement 开源 LLM 应用 devops 平台，企业级工作流编排+多Agent协作+Docker部署，支持 RBAC/SSO/LDAP |
 |||| [[ai-scientist]]
 | [[babyagi-ui]] — miurla 浏览器端 BabyAGI UI：Next.js + LangChain.js + Pinecone，ChatGPT 风格界面运行自主 Agent，支持并行任务和 Skills 系统 |

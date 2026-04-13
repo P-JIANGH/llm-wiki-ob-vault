@@ -8,7 +8,12 @@
 - Created: raw/articles/ai-game-devtools/baichuan-13b.md
 - Created: ai-game-devtools/baichuan-13b.md
 - Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+baichuan-13b，total 208）
+## [2026-04-13] ingest | ChatGPT-API-unity — Unity ChatGPT API 客户端
+- Source already cloned: ~/tmp/ai-game-devtools/chatgpt-api-unity/
+- Created: raw/articles/ai-game-devtools/chatgpt-api-unity.md
+- Created: ai-game-devtools/chatgpt-api-unity.md
+- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+- Updated: index.md（+chatgpt-api-unity）
 ## [2026-04-13] ingest | BabyAGI UI — AI游戏开发工具
 - Cloned: ~/tmp/ai-game-devtools/babyagi-ui/（GitHub direct）
 - Created: raw/articles/ai-game-devtools/babyagi-ui.md

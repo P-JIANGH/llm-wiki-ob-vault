@@ -21,7 +21,7 @@
 - [2026-04-13] Bisheng | https://github.com/dataelement/bisheng
 - [2026-04-13] Character-LLM | https://github.com/choosewhatulike/trainable-agents
 - [2026-04-13] ChatDev | https://github.com/OpenBMB/ChatDev
-- [ ] ChatGPT-API-unity | https://github.com/mochi-neko/ChatGPT-API-unity
+- [2026-04-13] ChatGPT-API-unity | https://github.com/mochi-neko/ChatGPT-API-unity
 - [ ] ChatGPTForUnity | https://github.com/sunsvip/ChatGPTForUnity
 - [ ] ChatRWKV | https://github.com/BlinkDL/ChatRWKV
 - [ ] ChatYuan | https://github.com/clue-ai/ChatYuan

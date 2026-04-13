@@ -304,3 +304,15 @@
 - Created: ai-game-devtools/gpt4all.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+gpt4all)
+## [2026-04-13] ingest | gpt-oss — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/gpt-oss/
+- Created: raw/articles/ai-game-devtools/gpt-oss.md
+- Created: ai-game-devtools/gpt-oss.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+gpt-oss)
+## [2026-04-13] ingest | gptscript — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/gptscript/
+- Created: raw/articles/ai-game-devtools/gptscript.md
+- Created: ai-game-devtools/gptscript.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+gptscript)

@@ -329,3 +329,15 @@
 - Created: ai-game-devtools/hunyuan-mt.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+hunyuan-mt)
+## [2026-04-13] ingest | ImageBind — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/imagebind/ (via gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/imagebind.md
+- Created: ai-game-devtools/imagebind.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+imagebind)
+## [2026-04-13] ingest | Index-1.9B — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/index-1.9b/ (GitHub)
+- Created: raw/articles/ai-game-devtools/index-1.9b.md
+- Created: ai-game-devtools/index-1.9b.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+index-1.9b)

@@ -419,3 +419,10 @@
 - Created: ai-game-devtools/lemur.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+lemur)
+
+## [2026-04-14] ingest | lepton-ai — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/lepton-ai/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/lepton-ai.md
+- Created: ai-game-devtools/lepton-ai.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+lepton-ai)

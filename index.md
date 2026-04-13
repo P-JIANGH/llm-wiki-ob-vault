@@ -230,7 +230,8 @@
 | [[ai-agent-development-platform]] — AI Agent 开发平台通用概念：Prompt/RAG/Plugin/Workflow 核心组件，Coze Studio/DeerFlow/nanobot 等代表平台对比 |
 | [[multi-agent-interactive-classroom]] — 多Agent扮演教师/学生协作教学：Outline→Scenes两阶段 + 幻灯片/Quiz/模拟/PBL 组件 |
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类，与 [[openmaic]] 完全无关 |
-|| [[ai-scientist]] — SakanaAI 全自动科学研究系统：LLM 自主生成ideas→写代码→跑实验→生成 LaTeX 论文→同行评审，支持 Claude/GPT-4o/DeepSeek，附 Docker 安全容器 |
+||| [[baichuan-7b]] — 百川智能 7B 双语开源LLM，Transformer+RoPE+SwiGLU，中文C-Eval同尺寸SOTA，允许商业使用 |
+||| [[ai-scientist]] — SakanaAI 全自动科学研究系统
 | [[babyagi-ui]] — miurla 浏览器端 BabyAGI UI：Next.js + LangChain.js + Pinecone，ChatGPT 风格界面运行自主 Agent，支持并行任务和 Skills 系统 |
 | [[langchain]] — LLM应用开发框架，Chain/Agent/Memory/Tool/Prompt抽象，LangGraph基础 |
 || [[sandbox]] — 隔离执行环境模式：虚拟路径+容器/进程级隔离，DeerFlow/nanobot核心基础设施 |

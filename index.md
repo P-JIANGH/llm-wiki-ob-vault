@@ -62,7 +62,8 @@
 | [[ai-game-devtools/cosmos]] — NVIDIA 物理 AI 世界基础模型平台：Predict/Transfer/Reason 三类模型，服务自动驾驶与机器人仿真 |
 | [[ai-game-devtools/dbrx]] — Databricks 132B MoE LLM：16 experts 选4，36B 激活参数，12T tokens 预训练，32K context，Databricks Open Model License |
 | [[ai-game-devtools/dclm]] — MLFoundations LLM 训练框架：300T+ tokens 数据集构建流程，Ray 分布式处理 + Rust  deduplication，支持 400M-7B 规模模型训练评估 |
-| [[ai-game-devtools/index-1.9b]] — Bilibili 轻量级 LLM 系列（1.9B），32K 长上下文版超越 7B 模型，趣味对话+多语种翻译，Apache-2.0 |
+| [[ai-game-devtools/interactml-unity]] — Interactml Unity3D 交互式机器学习插件：kNN/MLP/DTW 三种轻量模型，xNode 可视化节点图配置，无需外部 ML 基础设施，支持 Unity 2019.2+，MIT |
+|| [[ai-game-devtools/index-1.9b]] — Bilibili 轻量级 LLM 系列（1.9B），32K 长上下文版超越 7B 模型，趣味对话+多语种翻译，Apache-2.0 |
 ||| [[ai-game-devtools/design2code]] — Stanford SALT Lab screenshot-to-code benchmark：484网页截图生成HTML代码，Design2Code-18B (CogAgent微调) + GPT-4V/Gemini/Claude 3.5 多模型评测，arXiv 2024 |
 ||| [[ai-game-devtools/demogpt]] — DemoGPT 自动生成 AI 应用框架：自然语言 → Streamlit App 流水线（Plan/Task/Code/Final），内置 AgentHub 支持工具调用 + RAG |
 ||| [[ai-game-devtools/devika]] — Devika AI 软件工程师：Devin 开源替代方案，多 Agent 架构（Planner/Researcher/Coder 等），支持 Claude/GPT/Ollama，MIT |

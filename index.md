@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-13 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-13 | Total pages: N | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -60,6 +60,7 @@
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
 | [[ai-game-devtools/corenet]] — Apple 深度神经网络训练库：支持 LLM/CLIP/ViT 等 foundation models 的训练，含 FSDP 分布式训练 |
 | [[ai-game-devtools/cosmos]] — NVIDIA 物理 AI 世界基础模型平台：Predict/Transfer/Reason 三类模型，服务自动驾驶与机器人仿真 |
+| [[ai-game-devtools/dbrx]] — Databricks 132B MoE LLM：16 experts 选4，36B 激活参数，12T tokens 预训练，32K context，Databricks Open Model License |
 | [[ai-game-devtools/chrome-gpt]] — AutoGPT agent 控制 Chrome 浏览器：Selenium + LangChain，支持 Auto-GPT/BabyAGI/Zero-shot 多种 agent 类型 |
 
 ## Open Source Games

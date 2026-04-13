@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-14 | Total pages: N+3 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-14 | Total pages: N+4 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -279,4 +279,5 @@
 | [[ai-game-devtools/gemma-cpp]] — Google 轻量级纯 C++ LLM 推理引擎（Gemma 2/3/RecurrentGemma/PaliGemma 2），~2K LoC 核心，Google Highway SIMD，无外部 ML 框架，Apache 2.0 |
 | [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
 || [[ai-game-devtools/jan]] — Janhq 开源本地 ChatGPT 替代品：Tauri Rust 后端 + React 前端 + llama.cpp/MLX 推理引擎，支持本地/云端模型、OpenAI 兼容 API（localhost:1337）、MCP 集成，Apache 2.0 |
+| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
 ||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包（com.huggingface.api v0.8.0），反射自动发现 10 种 Task（对话/文生图/ASR 等），Coroutine 异步 HTTP，支持 9000+ 模型，Apache 2.0 |

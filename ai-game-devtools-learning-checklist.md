@@ -54,7 +54,7 @@
 - [2026-04-14] InternLM | https://github.com/InternLM/InternLM
 - [2026-04-14] InternLM-XComposer | https://github.com/InternLM/InternLM-XComposer
 - [2026-04-14] Jan | https://github.com/janhq/jan
-- [ ] Janus | https://github.com/deepseek-ai/Janus
+- [2026-04-14] Janus | https://github.com/deepseek-ai/Janus
 - [ ] Kimi K2 | https://github.com/moonshotai/Kimi-K2
 - [ ] Lamini | https://github.com/lamini-ai/lamini
 - [ ] LaMini-LM | https://github.com/mbzuai-nlp/LaMini-LM

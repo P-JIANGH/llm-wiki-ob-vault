@@ -34,7 +34,7 @@
 - [2026-04-13] DeepSeek-R1 | https://github.com/deepseek-ai/DeepSeek-R1
 - [2026-04-13] DeepSeek-V3 | https://github.com/deepseek-ai/DeepSeek-V3
 - [2026-04-13] DemoGPT | https://github.com/melih-unsal/DemoGPT
-- [ ] Design2Code | https://github.com/NoviScl/Design2Code
+- [2026-04-13] Design2Code | https://github.com/NoviScl/Design2Code
 - [ ] Devika | https://github.com/stitionai/devika
 - [ ] Devon | https://github.com/entropy-research/Devon
 - [ ] Flowise | https://github.com/FlowiseAI/Flowise

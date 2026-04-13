@@ -68,7 +68,7 @@
 - [2026-04-14] Llama 3 | https://github.com/meta-llama/llama3
 - [2026-04-14] Llama 3.1 | https://github.com/meta-llama/llama-models
 - [2026-04-14] LLaSM | https://github.com/LinkSoul-AI/LLaSM
-- [ ] LLM Answer Engine | https://github.com/developersdigest/llm-answer-engine
+- [2026-04-14] LLM Answer Engine | https://github.com/developersdigest/llm-answer-engine
 - [ ] llm.c | https://github.com/karpathy/llm.c
 - [ ] LLMUnity | https://github.com/undreamai/LLMUnity
 - [ ] LLocalSearch | https://github.com/nilsherzig/LLocalSearch

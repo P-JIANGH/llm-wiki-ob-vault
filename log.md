@@ -267,3 +267,9 @@
 - Created: ai-game-devtools/devon.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
 - Updated: index.md (+devon)
+## [2026-04-13] ingest | Flowise — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/flowise/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/flowise.md
+- Created: ai-game-devtools/flowise.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+- Updated: index.md (+flowise)

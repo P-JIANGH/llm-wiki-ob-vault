@@ -144,3 +144,9 @@
 - Created: ai-game-devtools/babyagi.md
 - Updated: ai-game-devtools-learning-checklist.md（mark complete）
 - Updated: index.md（+1 entry in AI/LLM/Agent section）
+## [2026-04-13] ingest | Baichuan-7B — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/baichuan-7b/（gitcode.com mirror redirect）
+- Created: raw/articles/ai-game-devtools/baichuan-7b.md
+- Created: ai-game-devtools/baichuan-7b.md
+- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+- Updated: index.md（+1 entry in AI/LLM/Agent section）

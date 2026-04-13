@@ -271,3 +271,4 @@
 || [[ai-game-devtools/deepseek-r1]] — DeepSeekAI 推理模型：纯 RL 涌现推理能力，671B MoE，蒸馏版 Qwen-32B 超越 o1-mini，MATH-500 97.3% |
 | [[ai-game-devtools/gemma]] — Google 轻量级开源 LLM 家族（Gemma 1/2/3），PyTorch 官方实现，支持 CPU/GPU/TPU，含 multimodal 变体 |
 | [[ai-game-devtools/gemma-cpp]] — Google 轻量级纯 C++ LLM 推理引擎（Gemma 2/3/RecurrentGemma/PaliGemma 2），~2K LoC 核心，Google Highway SIMD，无外部 ML 框架，Apache 2.0 |
+| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包（com.huggingface.api v0.8.0），反射自动发现 10 种 Task（对话/文生图/ASR 等），Coroutine 异步 HTTP，支持 9000+ 模型，Apache 2.0 |

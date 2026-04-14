@@ -141,7 +141,7 @@
 - [2026-04-15] Kwai Keye-VL | https://github.com/Kwai-Keye/Keye
 - [2026-04-15] LLaVA++ | https://github.com/mbzuai-oryx/LLaVA-pp
 - [2026-04-15] LLaVA-OneVision | https://github.com/LLaVA-VL/LLaVA-NeXT
-- [ ] LongVA | https://github.com/EvolvingLMMs-Lab/LongVA
+- [2026-04-15] LongVA | https://github.com/EvolvingLMMs-Lab/LongVA
 - [ ] Lumina-DiMOO | https://github.com/Alpha-VLLM/Lumina-DiMOO
 - [ ] MiniCPM-Llama3-V 2.5 | https://github.com/OpenBMB/MiniCPM-V
 - [ ] MiniCPM-V 4.0 | https://github.com/OpenBMB/MiniCPM-o

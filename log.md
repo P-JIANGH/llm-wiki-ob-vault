@@ -898,3 +898,9 @@
 - Created: ai-game-devtools/llava-onevision.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added llava-onevision entry under VLM section)
+## [2026-04-15] ingest | LongVA
+- Cloned: ~/tmp/ai-game-devtools/longva/ (GitHub)
+- Created: raw/articles/ai-game-devtools/longva.md
+- Created: ai-game-devtools/longva.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added longva entry under VLM section)

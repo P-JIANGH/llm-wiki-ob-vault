@@ -494,3 +494,9 @@
 - Created: ai-game-devtools/longcat-flash.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+longcat-flash entry)
+## [2026-04-14] ingest | LongWriter — THUDM 超长文本生成 LLM (10K+ 词)
+- Cloned: ~/tmp/ai-game-devtools/longwriter/
+- Created: raw/articles/ai-game-devtools/longwriter.md
+- Created: ai-game-devtools/longwriter.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+longwriter entry)

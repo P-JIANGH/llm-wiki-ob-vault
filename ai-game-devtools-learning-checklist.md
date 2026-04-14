@@ -74,7 +74,7 @@
 - [2026-04-14] LLocalSearch | https://github.com/nilsherzig/LLocalSearch
 - [2026-04-14] LogicGamesSolver | https://github.com/fabridigua/LogicGamesSolver
 - [2026-04-14] LongCat-Flash | https://github.com/meituan-longcat/LongCat-Flash-Chat
-- [ ] LongWriter | https://github.com/THUDM/LongWriter
+- [2026-04-14] LongWriter | https://github.com/THUDM/LongWriter
 - [ ] Large World Model (LWM) | https://github.com/LargeWorldModel/LWM
 - [ ] Lumina-T2X | https://github.com/Alpha-VLLM/Lumina-T2X
 - [ ] MetaGPT | https://github.com/geekan/MetaGPT

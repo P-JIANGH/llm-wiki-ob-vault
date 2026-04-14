@@ -105,7 +105,7 @@
 - [2026-04-14] Qwen3 | https://github.com/QwenLM/Qwen3
 - [2026-04-14] RepoAgent | https://github.com/OpenBMB/RepoAgent
 - [2026-04-14] s1 | https://github.com/simplescaling/s1
-- [ ] Sanity AI Engine | https://github.com/tosos/SanityEngine
+- [2026-04-14] Sanity AI Engine | https://github.com/tosos/SanityEngine
 - [ ] SearchGPT | https://github.com/tobiasbueschel/search-gpt
 - [ ] Seed-OSS | https://github.com/ByteDance-Seed/seed-oss
 - [ ] SkyThought | https://github.com/NovaSky-AI/SkyThought

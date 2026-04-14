@@ -20,6 +20,12 @@
 - Created: ai-game-devtools/toolbench.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added toolbench entry)
+## [2026-04-15] ingest | WebGPT — 纯浏览器端 WebGPU GPT 推理
+- Cloned: ~/tmp/ai-game-devtools/webgpt/ (GitHub)
+- Created: raw/articles/ai-game-devtools/webgpt.md
+- Created: ai-game-devtools/webgpt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added webgpt entry under AI/LLM/Agent section)
 ## [2026-04-14] ingest | Seed-OSS — AI游戏开发工具
 - Cloned: ~/tmp/ai-game-devtools/seed-oss/
 - Created: raw/articles/ai-game-devtools/seed-oss.md
@@ -805,3 +811,8 @@
 - Created: ai-game-devtools/video-llava.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added video-llava entry under VLM section)
+## [2026-04-15] ingest | Web3-GPT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/web3-gpt/
+- Created: raw/articles/ai-game-devtools/web3-gpt.md
+- Created: ai-game-devtools/web3-gpt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])

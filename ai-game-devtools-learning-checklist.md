@@ -121,7 +121,7 @@
 - [2026-04-14] UnrealGPT | https://github.com/TREE-Ind/UnrealGPT
 - [2026-04-14] Video-LLaVA | https://github.com/PKU-YuanGroup/Video-LLaVA
 - [2026-04-15] WebGPT | https://github.com/0hq/WebGPT
-- [ ] Web3-GPT | https://github.com/Markeljan/Web3GPT
+- [2026-04-15] Web3-GPT | https://github.com/Markeljan/Web3GPT
 - [ ] WordGPT | https://github.com/filippofinke/WordGPT
 - [ ] XAgent | https://github.com/OpenBMB/XAgent
 - [ ] Yi | https://github.com/01-ai/Yi

@@ -118,7 +118,7 @@
 - [2026-04-14] Unity ChatGPT | https://github.com/dilmerv/UnityChatGPT
 - [2026-04-14] Unity OpenAI-API Integration | https://github.com/himanshuskyrockets/Unity_OpenAI
 - [2026-04-14] Unreal Engine 5 Llama LoRA | https://github.com/bublint/ue5-llama-lora
-- [ ] UnrealGPT | https://github.com/TREE-Ind/UnrealGPT
+- [2026-04-14] UnrealGPT | https://github.com/TREE-Ind/UnrealGPT
 - [ ] Video-LLaVA | https://github.com/PKU-YuanGroup/Video-LLaVA
 - [ ] WebGPT | https://github.com/0hq/WebGPT
 - [ ] Web3-GPT | https://github.com/Markeljan/Web3GPT

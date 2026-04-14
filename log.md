@@ -3,6 +3,11 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-14] ingest | gstack — Garry Tan 的 AI 软件工厂
+- Fetched: https://github.com/garrytan/gstack
+- Created: raw/articles/gstack-garry-tan-2026.md
+- Created: entities/gstack.md
+- Updated: index.md (added gstack entry under AI/LLM/Agent section)
 ## [2026-04-14] ingest | CogVLM2 — AI游戏开发工具
 - Cloned: ~/tmp/ai-game-devtools/cogvlm2/ (GitCode mirror)
 - Created: raw/articles/ai-game-devtools/cogvlm2.md
@@ -781,3 +786,16 @@
 - Created: raw/articles/ai-game-devtools/unity-openai-api-integration.md
 - Created: ai-game-devtools/unity-openai-api-integration.md
 - Updated: ai-game-devtools-learning-checklist.md
+
+## [2026-04-14] ingest | Unreal Engine 5 Llama LoRA — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/unreal-engine-5-llama-lora/ (GitCode mirror)
+- Created: raw/articles/ai-game-devtools/unreal-engine-5-llama-lora.md
+- Created: ai-game-devtools/unreal-engine-5-llama-lora.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+
+## [2026-04-14] ingest | UnrealGPT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/unrealgpt/
+- Created: raw/articles/ai-game-devtools/unrealgpt.md
+- Created: ai-game-devtools/unrealgpt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added unrealgpt entry under AI/LLM/Agent section)

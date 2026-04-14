@@ -109,7 +109,7 @@
 - [2026-04-14] SearchGPT | https://github.com/tobiasbueschel/search-gpt
 - [2026-04-14] Seed-OSS | https://github.com/ByteDance-Seed/seed-oss
 - [2026-04-14] SkyThought | https://github.com/NovaSky-AI/SkyThought
-- [ ] Skywork | https://github.com/SkyworkAI/Skywork
+- [2026-04-14] Skywork | https://github.com/SkyworkAI/Skywork
 - [ ] StableLM | https://github.com/Stability-AI/StableLM
 - [ ] Stanford Alpaca | https://github.com/tatsu-lab/stanford_alpaca
 - [ ] Text generation web UI | https://github.com/oobabooga/text-generation-webui

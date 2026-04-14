@@ -500,3 +500,17 @@
 - Created: ai-game-devtools/longwriter.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+longwriter entry)
+
+## [2026-04-14] ingest | Large World Model (LWM) — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/large-world-model-lwm/
+- Created: raw/articles/ai-game-devtools/large-world-model-lwm.md
+- Created: ai-game-devtools/large-world-model-lwm.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+large-world-model-lwm entry)
+
+## [2026-04-14] ingest | Lumina-T2X — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/lumina-t2x/
+- Created: raw/articles/ai-game-devtools/lumina-t2x.md
+- Created: ai-game-devtools/lumina-t2x.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+lumina-t2x entry)

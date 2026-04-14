@@ -76,7 +76,7 @@
 - [2026-04-14] LongCat-Flash | https://github.com/meituan-longcat/LongCat-Flash-Chat
 - [2026-04-14] LongWriter | https://github.com/THUDM/LongWriter
 - [2026-04-14] Large World Model (LWM) | https://github.com/LargeWorldModel/LWM
-- [ ] Lumina-T2X | https://github.com/Alpha-VLLM/Lumina-T2X
+- [2026-04-14] Lumina-T2X | https://github.com/Alpha-VLLM/Lumina-T2X
 - [ ] MetaGPT | https://github.com/geekan/MetaGPT
 - [ ] MiniCPM-2B | https://github.com/OpenBMB/MiniCPM
 - [ ] MiniGPT-4 | https://github.com/Vision-CAIR/MiniGPT-4

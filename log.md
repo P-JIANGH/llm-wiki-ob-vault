@@ -910,3 +910,9 @@
 - Created: ai-game-devtools/lumina-dimoo.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added lumina-dimoo entry under VLM section)
+## [2026-04-15] ingest | MiniCPM-Llama3-V 2.5
+- Cloned: ~/tmp/ai-game-devtools/minicpm-v/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/minicpm-llama3-v-2.5.md
+- Created: ai-game-devtools/minicpm-llama3-v-2.5.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added minicpm-llama3-v-2.5 entry under VLM section)

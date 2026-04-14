@@ -143,7 +143,7 @@
 - [2026-04-15] LLaVA-OneVision | https://github.com/LLaVA-VL/LLaVA-NeXT
 - [2026-04-15] LongVA | https://github.com/EvolvingLMMs-Lab/LongVA
 - [2026-04-15] Lumina-DiMOO | https://github.com/Alpha-VLLM/Lumina-DiMOO
-- [ ] MiniCPM-Llama3-V 2.5 | https://github.com/OpenBMB/MiniCPM-V
+- [2026-04-15] MiniCPM-Llama3-V 2.5 | https://github.com/OpenBMB/MiniCPM-V
 - [ ] MiniCPM-V 4.0 | https://github.com/OpenBMB/MiniCPM-o
 - [ ] MotionLLM | https://github.com/IDEA-Research/MotionLLM
 - [ ] PLLaVA | https://github.com/magic-research/PLLaVA

@@ -111,7 +111,7 @@
 - [2026-04-14] SkyThought | https://github.com/NovaSky-AI/SkyThought
 - [2026-04-14] Skywork | https://github.com/SkyworkAI/Skywork
 - [2026-04-14] StableLM | https://github.com/Stability-AI/StableLM
-- [ ] Stanford Alpaca | https://github.com/tatsu-lab/stanford_alpaca
+- [2026-04-14] Stanford Alpaca | https://github.com/tatsu-lab/stanford_alpaca
 - [ ] Text generation web UI | https://github.com/oobabooga/text-generation-webui
 - [ ] TinyChatEngine | https://github.com/mit-han-lab/TinyChatEngine
 - [ ] ToolBench | https://github.com/openbmb/toolbench

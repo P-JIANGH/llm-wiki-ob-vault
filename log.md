@@ -719,3 +719,10 @@
 - Created: ai-game-devtools/skywork.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added skywork entry under AI Game DevTools section)
+## [2026-04-14] ingest | StableLM — Stability AI 开源 LLM 系列
+- Cloned: ~/tmp/ai-game-devtools/stable-lm/
+- Created: raw/articles/ai-game-devtools/stable-lm.md
+- Created: ai-game-devtools/stable-lm.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added stable-lm entry under AI Game DevTools)
+- Updated: index.md (added skywork entry under AI Game DevTools section)

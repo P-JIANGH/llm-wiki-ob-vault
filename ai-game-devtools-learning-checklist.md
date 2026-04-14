@@ -110,7 +110,7 @@
 - [2026-04-14] Seed-OSS | https://github.com/ByteDance-Seed/seed-oss
 - [2026-04-14] SkyThought | https://github.com/NovaSky-AI/SkyThought
 - [2026-04-14] Skywork | https://github.com/SkyworkAI/Skywork
-- [ ] StableLM | https://github.com/Stability-AI/StableLM
+- [2026-04-14] StableLM | https://github.com/Stability-AI/StableLM
 - [ ] Stanford Alpaca | https://github.com/tatsu-lab/stanford_alpaca
 - [ ] Text generation web UI | https://github.com/oobabooga/text-generation-webui
 - [ ] TinyChatEngine | https://github.com/mit-han-lab/TinyChatEngine

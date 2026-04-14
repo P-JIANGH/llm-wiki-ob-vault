@@ -482,3 +482,9 @@
 - Created: ai-game-devtools/llocal-search.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+llocal-search entry)
+## [2026-04-14] ingest | LogicGamesSolver — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/logicgamesolver/
+- Created: raw/articles/ai-game-devtools/logic-games-solver.md
+- Created: ai-game-devtools/logic-games-solver.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+logic-games-solver entry)

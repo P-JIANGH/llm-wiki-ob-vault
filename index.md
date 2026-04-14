@@ -65,6 +65,7 @@
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
 | [[ai-game-devtools/llama2-webui]] — Llama 2 本地 Web UI + PyPI 封装包，支持 llama.cpp/transformers/GPTQ 多后端，MIT |
 | [[ai-game-devtools/text-generation-webui]] — oobabooga Gradio LLM Web UI：5后端(llama.cpp/ExLlamaV3/TensorRT-LLM)、多模态/Tool Calling/LoRA训练/图像生成，OpenAI兼容API，MIT |
+|| [[ai-game-devtools/toolbench]] — OpenBMB 工具调用 LLM 数据集：16K RapidAPI + DFSDT 标注，ToolLLaMA-2-7B-v2 开源，赋予 LLM 通用 API 调用能力，Apache 2.0 |
 || [[ai-game-devtools/longcat-flash]] — 美团 560B MoE LLM（激活 27B），ScMoE 架构 >100 TPS，128K context，Agent 任务 SOTA（τ²-Bench 73.68），MIT |
 | [[ai-game-devtools/longwriter]] — THUDM 超长文本生成 LLM（10K+ 词），基于 GLM-4-9B/Llama-3.1-8B 微调，AgentWrite 流水线，vLLM 推理 1 万词/分钟，Apache 2.0 |
 | [[ai-game-devtools/large-world-model-lwm]] — UC Berkeley/Scale AI 百万 token 上下文多模态模型（视频+语言+图像），RingAttention + Blockwise Transformer，7B 参数 1M context，Apache 2.0 |

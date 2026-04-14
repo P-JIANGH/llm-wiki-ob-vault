@@ -294,7 +294,8 @@
 
 ## AI Game DevTools
 
-|| [[ai-game-devtools/deepseek-r1]] — DeepSeekAI 推理模型：纯 RL 涌现推理能力，671B MoE，蒸馏版 Qwen-32B 超越 o1-mini，MATH-500 97.3% |
+||| [[ai-game-devtools/deepseek-r1]] — DeepSeekAI 推理模型：纯 RL 涌现推理能力，671B MoE，蒸馏版 Qwen-32B 超越 o1-mini，MATH-500 97.3% |
+||| [[ai-game-devtools/qwen1.5]] — Alibaba 通义千问 LLM 系列（Qwen1.5→Qwen3），0.6B-235B 参数含 MoE，多语言+Agent+工具调用，100+语言，256K-1M context，Apache 2.0 |
 ||| [[ai-game-devtools/opendevin]] — OpenHands (原OpenDevin) AI软件工程Agent：SWE-bench Lite 77.6%，支持多模型(litellm)、浏览器/代码执行沙箱、CLI/GUI/云端多形态，MIT |
 ||| [[ai-game-devtools/hunyuan-mt]] — 腾讯混元 7B 翻译模型，支持 33 种语言（含 5 种中国少数民族语言），WMT25 竞赛 30/31 方向冠军，Chimera 集成翻译架构 |
 ||| [[ai-game-devtools/open-assistant]] — LAION 开源聊天大模型，InstructGPT 三阶段训练（SFT/RM/RLHF），已完成项目，oasst2 数据集发布于 HuggingFace |

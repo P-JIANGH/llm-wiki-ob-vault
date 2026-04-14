@@ -609,3 +609,10 @@
 - Created: ai-game-devtools/omnilmm.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (added OmniLMM entry under LLM/VLM section)
+
+## [2026-04-14] ingest | OneLLM
+- Cloned: ~/tmp/ai-game-devtools/onellm/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/onellm.md
+- Created: ai-game-devtools/onellm.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added OneLLM entry under LLM/VLM section)

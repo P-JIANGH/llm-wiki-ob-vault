@@ -293,6 +293,7 @@
 || [[ai-game-devtools/jan]] — Janhq 开源本地 ChatGPT 替代品：Tauri Rust 后端 + React 前端 + llama.cpp/MLX 推理引擎，支持本地/云端模型、OpenAI 兼容 API（localhost:1337）、MCP 集成，Apache 2.0 |
 ||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
 |||| [[ai-game-devtools/lamini]] — Lamini AI 微调平台 SDK：Python SDK + 云端 API，支持自定义 LLM 微调、Generator/Validator Pipeline、RAG、Streaming，Apache 2.0 |
+|||| [[ai-game-devtools/minicpm-2b]] — OpenBMB 高效 LLM 系列（2B-9B），MiniCPM-2B 达 Mistral-7B 水平，MiniCPM-SALA 混合注意力支持 1M token context，Apache 2.0 |
 |||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
 |||||| [[ai-game-devtools/llasm]] — LinkSoul 首个开源可商用中英双语语音-语言助手（Whisper + Chinese-Llama-2-7B / Baichuan-7B），Apache-2.0 |
 |||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B）

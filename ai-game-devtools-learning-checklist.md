@@ -80,7 +80,7 @@
 - [2026-04-14] MetaGPT | https://github.com/geekan/MetaGPT
 - [2026-04-14] MiniCPM-2B | https://github.com/OpenBMB/MiniCPM
 - [2026-04-14] MiniGPT-4 | https://github.com/Vision-CAIR/MiniGPT-4
-- [ ] MiniGPT-5 | https://github.com/eric-ai-lab/MiniGPT-5
+- [2026-04-14] MiniGPT-5 | https://github.com/eric-ai-lab/MiniGPT-5
 - [ ] MiniMax-01 | https://github.com/MiniMax-AI/MiniMax-01
 - [ ] MLC LLM | https://github.com/mlc-ai/mlc-llm
 - [ ] MobiLlama | https://github.com/mbzuai-oryx/MobiLlama

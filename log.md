@@ -526,3 +526,16 @@
 - Created: ai-game-devtools/minicpm-2b.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (+minicpm-2b entry)
+
+## [2026-04-14] ingest | MiniGPT-4
+- Cloned: ~/tmp/ai-game-devtools/minigpt-4/
+- Created: raw/articles/ai-game-devtools/minigpt-4.md
+- Created: ai-game-devtools/minigpt-4.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (+minigpt-4 entry)
+
+## [2026-04-14] ingest | MiniGPT-5
+- Cloned: ~/tmp/ai-game-devtools/minigpt-5/
+- Created: raw/articles/ai-game-devtools/minigpt-5.md
+- Created: ai-game-devtools/minigpt-5.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])

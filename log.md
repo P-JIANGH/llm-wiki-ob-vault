@@ -844,3 +844,10 @@
 - Created: raw/articles/ai-game-devtools/simpleollamaunity.md
 - Created: ai-game-devtools/simpleollamaunity.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+
+## [2026-04-15] ingest | AI-Writer — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/ai-writer/ (GitHub)
+- Created: raw/articles/ai-game-devtools/ai-writer.md
+- Created: ai-game-devtools/ai-writer.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added ai-writer entry under AI Game DevTools section)

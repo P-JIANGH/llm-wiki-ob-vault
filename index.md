@@ -68,6 +68,7 @@
 | [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
 | [[ai-game-devtools/llama2-webui]] — Llama 2 本地 Web UI + PyPI 封装包，支持 llama.cpp/transformers/GPTQ 多后端，MIT |
 | [[ai-game-devtools/text-generation-webui]] — oobabooga Gradio LLM Web UI：5后端(llama.cpp/ExLlamaV3/TensorRT-LLM)、多模态/Tool Calling/LoRA训练/图像生成，OpenAI兼容API，MIT |
+| [[ai-game-devtools/ai-writer]] — BlinkDL AI小说续写工具：RWKV 模型（12层/768维）+ 8849字词表，ctx_len=512，网文专精，已过时推荐 [[RWKV-Runner]]，Apache 2.0 |
 | [[ai-game-devtools/unreal-engine-5-llama-lora]] — bublint 用 UE 5.1 文档微调 Llama-7b LoRA：8bit 加载 + text-generation-webui 训练，8小时 3090Ti 完成，构建本地 UE5 问答助手，MIT |
 | [[ai-game-devtools/unrealgpt]] — TREE Industries UE5.6 AI Agent 插件：编辑器内 Chat 界面 + GPT Responses API + Python 脚本执行 + 场景查询 + Replicate 内容生成，Apache 2.0 |
 | [[ai-game-devtools/xagent]] — OpenBMB 开源 LLM 自主 Agent：Dispatcher+Planner+Actor 三层架构 + Docker 沙箱安全隔离，50+ 真实任务评测超越 AutoGPT，Apache 2.0 |

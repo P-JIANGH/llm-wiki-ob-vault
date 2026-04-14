@@ -127,7 +127,7 @@
 - [2026-04-15] Yi | https://github.com/01-ai/Yi
 - [2026-04-15] 01 Project | https://github.com/OpenInterpreter/01
 - [2026-04-15] SimpleOllamaUnity | https://github.com/HardCodeDev777/SimpleOllamaUnity
-- [ ] AI-Writer | https://github.com/BlinkDL/AI-Writer
+- [2026-04-15] AI-Writer | https://github.com/BlinkDL/AI-Writer
 - [ ] Notebook.ai | https://github.com/indentlabs/notebook
 - [ ] Novel | https://github.com/steven-tey/novel
 

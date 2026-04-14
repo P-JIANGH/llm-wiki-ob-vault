@@ -349,7 +349,8 @@
 ||||| [[ai-game-devtools/lamini]]
 |||||| [[ai-game-devtools/minicpm-2b]] — OpenBMB 高效 LLM 系列（2B-9B），MiniCPM-2B 达 Mistral-7B 水平，MiniCPM-SALA 混合注意力支持 1M token context，Apache 2.0 |
 ||||||| [[ai-game-devtools/minicpm-llama3-v-2.5]] — OpenBMB 多模态模型（3B），SigLip-400M+MiniCPM-2.4B，64 token 视觉压缩，GPT-4V 级性能，首个端侧中英双语 LMM，支持手机部署，Apache 2.0 |
-|||||||| [[ai-game-devtools/omnilmm]] — OpenBMB OmniLMM（MiniCPM-V/o）端侧多模态模型：4B-9B，视觉+语音+全双工实时流式对话，逼近 Gemini 2.5 Flash，支持 int4/GGUF/vLLM/Ollama |
+|||||||| [[ai-game-devtools/minicpm-v-4.0]] — MiniCPM-V 4.0 (4.1B) 视觉 + MiniCPM-o 4.5 (9B) 全双工语音，SigLIP2+Whisper+CosyVoice2，端侧多模态，逼近 Gemini 2.5 Flash |
+| [[ai-game-devtools/omnilmm]] — OpenBMB OmniLMM（MiniCPM-V/o）端侧多模态模型：4B-9B，视觉+语音+全双工实时流式对话，逼近 Gemini 2.5 Flash，支持 int4/GGUF/vLLM/Ollama |
 ||||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
 |||||| [[ai-game-devtools/llasm]] — LinkSoul 首个开源可商用中英双语语音-语言助手（Whisper + Chinese-Llama-2-7B / Baichuan-7B），Apache-2.0 |
 |||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B）

@@ -144,7 +144,7 @@
 - [2026-04-15] LongVA | https://github.com/EvolvingLMMs-Lab/LongVA
 - [2026-04-15] Lumina-DiMOO | https://github.com/Alpha-VLLM/Lumina-DiMOO
 - [2026-04-15] MiniCPM-Llama3-V 2.5 | https://github.com/OpenBMB/MiniCPM-V
-- [ ] MiniCPM-V 4.0 | https://github.com/OpenBMB/MiniCPM-o
+- [2026-04-15] MiniCPM-V 4.0 | https://github.com/OpenBMB/MiniCPM-o
 - [ ] MotionLLM | https://github.com/IDEA-Research/MotionLLM
 - [ ] PLLaVA | https://github.com/magic-research/PLLaVA
 - [ ] POINTS-Reader | https://github.com/Tencent/POINTS-Reader

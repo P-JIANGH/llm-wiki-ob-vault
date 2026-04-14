@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-14 | Total pages: N+13 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-14 | Total pages: N+14 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -299,7 +299,8 @@
 |||| [[ai-game-devtools/qwen2]] — Alibaba 通义千问第二代 LLM，0.5B-72B，支持 vLLM/SGLang/llama.cpp，Apache 2.0，Qwen1.5 后继版本 |
 |||| [[ai-game-devtools/qwen3]] — Alibaba 通义千问第三代：MoE（235B-A22B/30B-A3B）+Dense（4B~32B），thinking/non-thinking 双模式，100+语言，256K-1M context，Apache 2.0 |
 ||||| [[ai-game-devtools/qwen2.5-coder]] — Alibaba 通义千问代码模型（Qwen2.5-Coder→Qwen3-Coder），358 语言，256K context，Agentic Coding 支持 Qwen Code/CLINE/Claude Code，Apache 2.0 |
-||||| [[ai-game-devtools/repoagent]] — OpenBMB 仓库级代码文档生成框架：Git 变更检测 + Jedi AST 分析 + LLM 生成 Markdown 文档，支持 pre-commit 钩子自动更新文档、Chat With Repo RAG 问答，Apache 2.0 |
+|||||| [[ai-game-devtools/repoagent]] — OpenBMB 仓库级代码文档生成框架：Git 变更检测 + Jedi AST 分析 + LLM 生成 Markdown 文档，支持 pre-commit 钩子自动更新文档、Chat With Repo RAG 问答，Apache 2.0 |
+|||||| [[ai-game-devtools/s1]] — SimpleScaling 测试时扩展 LLM：Qwen2.5-32B 微调 + Budget Forcing，仅 1K 样本达到 o1-preview 水平，MIT |
 |||| [[ai-game-devtools/opendevin]] — OpenHands (原OpenDevin) AI软件工程Agent：SWE-bench Lite 77.6%，支持多模型(litellm)、浏览器/代码执行沙箱、CLI/GUI/云端多形态，MIT |
 ||| [[ai-game-devtools/hunyuan-mt]] — 腾讯混元 7B 翻译模型，支持 33 种语言（含 5 种中国少数民族语言），WMT25 竞赛 30/31 方向冠军，Chimera 集成翻译架构 |
 ||| [[ai-game-devtools/open-assistant]] — LAION 开源聊天大模型，InstructGPT 三阶段训练（SFT/RM/RLHF），已完成项目，oasst2 数据集发布于 HuggingFace |

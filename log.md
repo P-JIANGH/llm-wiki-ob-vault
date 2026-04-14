@@ -885,3 +885,16 @@
 - Created: ai-game-devtools/kwai-keye-vl.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added kwai-keye-vl entry under VLM section)
+## [2026-04-15] ingest | LLaVA++ — AI游戏开发工具 VLM分类
+- Cloned: ~/tmp/ai-game-devtools/llava-plus-plus/ (GitHub)
+- Created: raw/articles/ai-game-devtools/llava-plus-plus.md
+- Created: ai-game-devtools/llava-plus-plus.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added llava-plus-plus entry under VLM section)
+
+## [2026-04-15] ingest | LLaVA-OneVision
+- Cloned: ~/tmp/ai-game-devtools/llava-onevision/ (GitHub)
+- Created: raw/articles/ai-game-devtools/llava-onevision.md
+- Created: ai-game-devtools/llava-onevision.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added llava-onevision entry under VLM section)

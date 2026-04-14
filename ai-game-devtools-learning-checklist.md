@@ -99,7 +99,7 @@
 - [2026-04-14] Panda | https://github.com/dandelionsllm/pandallm
 - [2026-04-14] Perplexica | https://github.com/ItzCrazyKns/Perplexica
 - [2026-04-14] Qwen1.5 | https://github.com/QwenLM/Qwen1.5
-- [ ] Qwen2 | https://github.com/QwenLM/Qwen2
+- [2026-04-14] Qwen2 | https://github.com/QwenLM/Qwen2
 - [ ] Qwen2.5-Coder | https://github.com/QwenLM/Qwen2.5-Coder
 - [ ] Qwen-7B | https://github.com/QwenLM/Qwen-7B
 - [ ] Qwen3 | https://github.com/QwenLM/Qwen3

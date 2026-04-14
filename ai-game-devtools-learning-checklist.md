@@ -79,7 +79,7 @@
 - [2026-04-14] Lumina-T2X | https://github.com/Alpha-VLLM/Lumina-T2X
 - [2026-04-14] MetaGPT | https://github.com/geekan/MetaGPT
 - [2026-04-14] MiniCPM-2B | https://github.com/OpenBMB/MiniCPM
-- [ ] MiniGPT-4 | https://github.com/Vision-CAIR/MiniGPT-4
+- [2026-04-14] MiniGPT-4 | https://github.com/Vision-CAIR/MiniGPT-4
 - [ ] MiniGPT-5 | https://github.com/eric-ai-lab/MiniGPT-5
 - [ ] MiniMax-01 | https://github.com/MiniMax-AI/MiniMax-01
 - [ ] MLC LLM | https://github.com/mlc-ai/mlc-llm

@@ -726,3 +726,9 @@
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added stable-lm entry under AI Game DevTools)
 - Updated: index.md (added skywork entry under AI Game DevTools section)
+## [2026-04-14] ingest | stanford-alpaca — Stanford 指令微调 LLaMA 模型
+- Cloned: ~/tmp/ai-game-devtools/stanford-alpaca/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/stanford-alpaca.md
+- Created: ai-game-devtools/stanford-alpaca.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added stanford-alpaca entry under AI Game DevTools)

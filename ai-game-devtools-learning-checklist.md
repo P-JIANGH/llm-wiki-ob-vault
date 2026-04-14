@@ -137,7 +137,7 @@
 - [2026-04-14] dots.vlm1 | https://github.com/rednote-hilab/dots.vlm1
 - [2026-04-14] EVF-SAM | https://github.com/hustvl/EVF-SAM
 - [2026-04-15] GLM-V | https://github.com/zai-org/GLM-V
-- [ ] Kangaroo | https://github.com/KangarooGroup/Kangaroo
+- [2026-04-15] Kangaroo | https://github.com/KangarooGroup/Kangaroo
 - [ ] Kwai Keye-VL | https://github.com/Kwai-Keye/Keye
 - [ ] LLaVA++ | https://github.com/mbzuai-oryx/LLaVA-pp
 - [ ] LLaVA-OneVision | https://github.com/LLaVA-VL/LLaVA-NeXT

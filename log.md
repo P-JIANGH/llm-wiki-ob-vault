@@ -865,3 +865,17 @@
 - Created: ai-game-devtools/novel.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added novel entry under AI Game DevTools section)
+
+## [2026-04-15] ingest | GLM-V — AI游戏开发工具 VLM分类
+- Cloned: ~/tmp/ai-game-devtools/glm-v/ (GitHub)
+- Created: raw/articles/ai-game-devtools/glm-v.md
+- Created: ai-game-devtools/glm-v.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added glm-v entry under VLM section)
+
+## [2026-04-15] ingest | Kangaroo — AI游戏开发工具 VLM分类
+- Cloned: ~/tmp/ai-game-devtools/kangaroo/ (GitHub)
+- Created: raw/articles/ai-game-devtools/kangaroo.md
+- Created: ai-game-devtools/kangaroo.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added kangaroo entry under VLM section)

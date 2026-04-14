@@ -333,9 +333,10 @@
 ||||||| [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM（Llama3-8B 基座），TextVQA 84.2/DocVQA 92.3 SOTA，8K context，1344×1344 图像，Int4 16GB VRAM，支持图像+视频理解，CogVLM2 License |
 ||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
 ||||||||| [[ai-game-devtools/dots-vlm1]]
-|||||||| [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM（7B），Alignment Before Projection 机制使 LLM 同时理解图像和视频，无需图像-视频配对数据，EMNLP 2024，Apache 2.0 |
-|||||||| [[ai-game-devtools/evf-sam]] — HUST/vivo AI Lab 开源指代表达分割模型：SAM + BEIT-3 视觉-语言早期融合，文本提示分割图像/视频目标，支持多任务（部位/语义/指代），gIoU 84.2，Apache 2.0 |
-||||||| [[ai-game-devtools/mplug-owl]]
+||||||||| [[ai-game-devtools/kangaroo]] — KangarooGroup 8B Video-LMM，160帧/22k tokens 长视频理解，Video-MME SOTA（超越10B+模型），中英双语对话，Apache 2.0 |
+||||||||| [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM（7B），Alignment Before Projection 机制使 LLM 同时理解图像和视频，无需图像-视频配对数据，EMNLP 2024，Apache 2.0 |
+||||||||| [[ai-game-devtools/evf-sam]] — HUST/vivo AI Lab 开源指代表达分割模型：SAM + BEIT-3 视觉-语言早期融合，文本提示分割图像/视频目标，支持多任务（部位/语义/指代），gIoU 84.2，Apache 2.0 |
+|||||||| [[ai-game-devtools/mplug-owl]]
 |||| [[ai-game-devtools/moe-llava]] — PKU-YuanGroup MoE-VLM（2-3.6B 激活参数），Top-2 稀疏激活比肩 LLaVA-1.5-7B，Phi-2/Qwen/StableLM 多 backbone，IEEE TMM 2025，Apache 2.0 |
 |||| [[ai-game-devtools/jan]] — Janhq
 |||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |

@@ -101,7 +101,7 @@
 - [2026-04-14] Qwen1.5 | https://github.com/QwenLM/Qwen1.5
 - [2026-04-14] Qwen2 | https://github.com/QwenLM/Qwen2
 - [2026-04-14] Qwen2.5-Coder | https://github.com/QwenLM/Qwen2.5-Coder
-- [ ] Qwen-7B | https://github.com/QwenLM/Qwen-7B
+- [2026-04-14] Qwen-7B | https://github.com/QwenLM/Qwen-7B
 - [ ] Qwen3 | https://github.com/QwenLM/Qwen3
 - [ ] RepoAgent | https://github.com/OpenBMB/RepoAgent
 - [ ] s1 | https://github.com/simplescaling/s1

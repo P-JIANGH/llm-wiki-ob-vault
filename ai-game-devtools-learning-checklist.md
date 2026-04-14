@@ -86,7 +86,7 @@
 - [2026-04-14] MobiLlama | https://github.com/mbzuai-oryx/MobiLlama
 - [2026-04-14] MoE-LLaVA | https://github.com/PKU-YuanGroup/MoE-LLaVA
 - [2026-04-14] Moshi | https://github.com/kyutai-labs/moshi
-- [ ] MOSS | https://github.com/OpenLMLab/MOSS
+- [2026-04-14] MOSS | https://github.com/OpenLMLab/MOSS
 - [ ] mPLUG-Owl🦉 | https://github.com/X-PLUG/mPLUG-Owl
 - [ ] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
 - [ ] OLMo | https://github.com/allenai/OLMo

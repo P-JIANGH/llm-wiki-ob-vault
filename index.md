@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-14 | Total pages: N+16 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-14 | Total pages: N+17 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -320,8 +320,9 @@
 ||| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
 ||||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
 |||||| [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM（Llama3-8B 基座），TextVQA 84.2/DocVQA 92.3 SOTA，8K context，1344×1344 图像，Int4 16GB VRAM，支持图像+视频理解，CogVLM2 License |
-|||||| [[ai-game-devtools/dots-vlm1]] — 小红书 rednote-hilab VLM：NaViT 从零训练视觉编码器（12亿参数）+ DeepSeek V3 LLM，OCR/DocVQA/ChartQA 多项 SOTA，65536 context，FP8 量化 |
-|||||| [[ai-game-devtools/mplug-owl]] — Alibaba DAMO MLLM 系列（Owl1/2/3），模块化视觉抽象+模态协作+长视频理解，CVPR 2024 Highlight，ICLR 2025，Apache 2.0 |
+||||||| [[ai-game-devtools/dots-vlm1]] — 小红书 rednote-hilab VLM：NaViT 从零训练视觉编码器（12亿参数）+ DeepSeek V3 LLM，OCR/DocVQA/ChartQA 多项 SOTA，65536 context，FP8 量化 |
+||||||| [[ai-game-devtools/evf-sam]] — HUST/vivo AI Lab 开源指代表达分割模型：SAM + BEIT-3 视觉-语言早期融合，文本提示分割图像/视频目标，支持多任务（部位/语义/指代），gIoU 84.2，Apache 2.0 |
+||||||| [[ai-game-devtools/mplug-owl]]
 |||| [[ai-game-devtools/moe-llava]] — PKU-YuanGroup MoE-VLM（2-3.6B 激活参数），Top-2 稀疏激活比肩 LLaVA-1.5-7B，Phi-2/Qwen/StableLM 多 backbone，IEEE TMM 2025，Apache 2.0 |
 |||| [[ai-game-devtools/jan]] — Janhq
 |||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |

@@ -135,7 +135,7 @@
 - [2026-04-14] Cambrian-1 | https://github.com/cambrian-mllm/cambrian
 - [2026-04-14] CogVLM2 | https://github.com/THUDM/CogVLM2
 - [2026-04-14] dots.vlm1 | https://github.com/rednote-hilab/dots.vlm1
-- [ ] EVF-SAM | https://github.com/hustvl/EVF-SAM
+- [2026-04-14] EVF-SAM | https://github.com/hustvl/EVF-SAM
 - [ ] GLM-V | https://github.com/zai-org/GLM-V
 - [ ] Kangaroo | https://github.com/KangarooGroup/Kangaroo
 - [ ] Kwai Keye-VL | https://github.com/Kwai-Keye/Keye

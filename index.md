@@ -292,9 +292,10 @@
 || [[ai-game-devtools/hunyuan-mt]] — 腾讯混元 7B 翻译模型，支持 33 种语言（含 5 种中国少数民族语言），WMT25 竞赛 30/31 方向冠军，Chimera 集成翻译架构 |
 | [[ai-game-devtools/gemma]] — Google 轻量级开源 LLM 家族（Gemma 1/2/3），PyTorch 官方实现，支持 CPU/GPU/TPU，含 multimodal 变体 |
 | [[ai-game-devtools/gemma-cpp]] — Google 轻量级纯 C++ LLM 推理引擎（Gemma 2/3/RecurrentGemma/PaliGemma 2），~2K LoC 核心，Google Highway SIMD，无外部 ML 框架，Apache 2.0 |
-|| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
-||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
-||| [[ai-game-devtools/jan]] — Janhq 开源本地 ChatGPT 替代品：Tauri Rust 后端 + React 前端 + llama.cpp/MLX 推理引擎，支持本地/云端模型、OpenAI 兼容 API（localhost:1337）、MCP 集成，Apache 2.0 |
+||| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
+|||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
+|||| [[ai-game-devtools/moe-llava]] — PKU-YuanGroup MoE-VLM（2-3.6B 激活参数），Top-2 稀疏激活比肩 LLaVA-1.5-7B，Phi-2/Qwen/StableLM 多 backbone，IEEE TMM 2025，Apache 2.0 |
+|||| [[ai-game-devtools/jan]] — Janhq
 |||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
 |||| [[ai-game-devtools/minigpt-4]] — Vision-CAIR/EAIST VLM：冻结 ViT+Q-Former 连接冻结 LLM（Vicuna/LLaMA-2），两阶段对齐训练，图像描述/故事生成/游戏资产理解，BSD 3-Clause |
 ||||| [[ai-game-devtools/lamini]]

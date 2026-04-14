@@ -98,8 +98,9 @@
 ||| [[ai-game-devtools/glm-4.5]] — THUDM/ZhipuAI GLM-4.5/4.6/4.7 系列，MoE 架构（355B-A32B），混合推理+工具调用，MIT 许可 |
 ||| [[ai-game-devtools/gpt4all]] — Nomic 本地 LLM 运行平台：桌面 GUI + Python/TS 绑定 + llama.cpp 后端，支持 Vulkan/CUDA GPU 加速，MIT |
 |||| [[ai-game-devtools/gpt-oss]] — OpenAI 开放权重推理模型（120B/20B MoE），Apache 2.0，MXFP4 量化，单卡 80GB 可运行，含 Browser/Python/ApplyPatch 工具 |
-|| [[ai-game-devtools/orion-14b]] — OrionStarAI 14B 多语言 LLM（中文/英文/日文/韩文），2.5T tokens 预训练，C-Eval 72.9/CMMLU 70.6/MMLU 69.9 全面超越同尺寸竞品，LongChat 支持 320k token，Apache 2.0 |
-|## Open Source Games
+||| [[ai-game-devtools/orion-14b]] — OrionStarAI 14B 多语言 LLM（中文/英文/日文/韩文），2.5T tokens 预训练，C-Eval 72.9/CMMLU 70.6/MMLU 69.9 全面超越同尺寸竞品，LongChat 支持 320k token，Apache 2.0 |
+||| [[ai-game-devtools/pandallm]] — DandelionsLLM 中文开源大模型：PandaLLM（LLaMA1/2 中文预训练）+ PandaLLMOps（全流程训练推理部署工具）+ PandaCommunity 社区，Apache 2.0 |
+||## Open Source Games
 - [[open-source-game/athena-crisis]] — 现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容），Steam 商业化
 - [[open-source-game/the-battle-for-wesnoth]] — 高奇幻回合策略，WML+Lua 内容脚本系统，86K commits，C++17 + SDL2
 - [[open-source-game/vcmi]] — Heroes of Might and Magic III 完全开源引擎重实现，C++20 C/S 架构，Bonus DAG 传播系统，Callback 接口三层分离，多 AI 并存，ERM+Lua 双脚本

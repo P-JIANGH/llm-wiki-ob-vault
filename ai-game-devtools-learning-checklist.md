@@ -96,7 +96,7 @@
 - [2026-04-14] Open Deep Research | https://github.com/dzhng/deep-research
 - [2026-04-14] OpenDevin | https://github.com/OpenDevin/OpenDevin
 - [2026-04-14] Orion-14B | https://github.com/OrionStarAI/Orion
-- [ ] Panda | https://github.com/dandelionsllm/pandallm
+- [2026-04-14] Panda | https://github.com/dandelionsllm/pandallm
 - [ ] Perplexica | https://github.com/ItzCrazyKns/Perplexica
 - [ ] Qwen1.5 | https://github.com/QwenLM/Qwen1.5
 - [ ] Qwen2 | https://github.com/QwenLM/Qwen2

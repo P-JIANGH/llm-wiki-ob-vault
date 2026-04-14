@@ -79,10 +79,11 @@
 ||||| [[ai-game-devtools/internlm]] — 上海 AI Lab 大模型系列（1.8B-20B），InternLM3-8B 仅 4T tokens 训练成本降低 75%，Deep Thinking Mode 支持长思维链推理，支持 LMDeploy/vLLM/SGLang 多推理后端 |
 |||||| [[ai-game-devtools/internlm-xcomposer]] — 上海 AI Lab 多模态 LVLM 系列（1.0→2.5），7B 参数达 GPT-4V 水平，支持 4K 图像/96K 上下文/视频理解，独有网页生成能力（指令→HTML/CSS/JS）|
 ||| [[ai-game-devtools/design2code]] — Stanford SALT Lab screenshot-to-code benchmark：484网页截图生成HTML代码，Design2Code-18B (CogAgent微调) + GPT-4V/Gemini/Claude 3.5 多模型评测，arXiv 2024 |
-||| [[ai-game-devtools/demogpt]] — DemoGPT 自动生成 AI 应用框架：自然语言 → Streamlit App 流水线（Plan/Task/Code/Final），内置 AgentHub 支持工具调用 + RAG |
-|||| [[ai-game-devtools/devika]] — Devika AI 软件工程师：Devin 开源替代方案，多 Agent 架构（Planner/Researcher/Coder 等），支持 Claude/GPT/Ollama，MIT |
-|||| [[ai-game-devtools/metagpt]] — MetaGPT 多 Agent 软件公司框架：PM/Architect/Engineer 角色协作，Code=SOP(Team) 核心理念，ICLR 2024，支持游戏代码生成，MIT |
-| [[ai-game-devtools/flowise]] — FlowiseAI 可视化拖拽 LLM 应用构建平台：LangChain.js 底层 + React 前端 + TypeORM 后端，RAG/Agent 工作流，Apache 2.0 |
+|||| [[ai-game-devtools/demogpt]] — DemoGPT 自动生成 AI 应用框架：自然语言 → Streamlit App 流水线（Plan/Task/Code/Final），内置 AgentHub 支持工具调用 + RAG |
+||||| [[ai-game-devtools/devika]] — Devika AI 软件工程师：Devin 开源替代方案，多 Agent 架构（Planner/Researcher/Coder 等），支持 Claude/GPT/Ollama，MIT |
+||||| [[ai-game-devtools/metagpt]] — MetaGPT 多 Agent 软件公司框架：PM/Architect/Engineer 角色协作，Code=SOP(Team) 核心理念，ICLR 2024，支持游戏代码生成，MIT |
+|||| [[ai-game-devtools/minimax-01]] — MiniMax 456B MoE LLM（激活 45.9B）+ VL 双模型，Lightning Attention + MoE，4M token 推理上下文，RULER 1M 0.910（最佳），MIT |
+|| [[ai-game-devtools/flowise]] — FlowiseAI 可视化拖拽 LLM 应用构建平台
 | [[ai-game-devtools/gptscript]] — Acorn Labs LLM 工具调用框架：.gpt 脚本语言连接 OpenAPI/CLI/文件系统，Go 实现，Apache 2.0 |
 | [[ai-game-devtools/deepseek-v3]]
 | [[ai-game-devtools/devon]] — entropy-research 开源 AI 结对编程助手：支持 Claude/GPT-4o/Groq/Ollama 多模型，Electron+TUI 双界面，专注代码库编辑/探索/测试生成，AGPL |

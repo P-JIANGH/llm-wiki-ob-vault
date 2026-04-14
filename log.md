@@ -775,3 +775,9 @@
 - Created: ai-game-devtools/evf-sam.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added evf-sam entry under AI Game DevTools section)
+
+## [2026-04-14] ingest | Unity OpenAI-API Integration — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/unity-openai-api-integration/
+- Created: raw/articles/ai-game-devtools/unity-openai-api-integration.md
+- Created: ai-game-devtools/unity-openai-api-integration.md
+- Updated: ai-game-devtools-learning-checklist.md

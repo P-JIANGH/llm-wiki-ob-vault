@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-14 | Total pages: N+10 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-14 | Total pages: N+11 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -293,6 +293,7 @@
 ## AI Game DevTools
 
 || [[ai-game-devtools/deepseek-r1]] — DeepSeekAI 推理模型：纯 RL 涌现推理能力，671B MoE，蒸馏版 Qwen-32B 超越 o1-mini，MATH-500 97.3% |
+||| [[ai-game-devtools/opendevin]] — OpenHands (原OpenDevin) AI软件工程Agent：SWE-bench Lite 77.6%，支持多模型(litellm)、浏览器/代码执行沙箱、CLI/GUI/云端多形态，MIT |
 ||| [[ai-game-devtools/hunyuan-mt]] — 腾讯混元 7B 翻译模型，支持 33 种语言（含 5 种中国少数民族语言），WMT25 竞赛 30/31 方向冠军，Chimera 集成翻译架构 |
 ||| [[ai-game-devtools/open-assistant]] — LAION 开源聊天大模型，InstructGPT 三阶段训练（SFT/RM/RLHF），已完成项目，oasst2 数据集发布于 HuggingFace |
 || [[ai-game-devtools/gemma]] — Google 轻量级开源 LLM 家族（Gemma 1/2/3），PyTorch 官方实现，支持 CPU/GPU/TPU，含 multimodal 变体 |

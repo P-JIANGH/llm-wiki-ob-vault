@@ -108,7 +108,7 @@
 - [2026-04-14] Sanity AI Engine | https://github.com/tosos/SanityEngine
 - [2026-04-14] SearchGPT | https://github.com/tobiasbueschel/search-gpt
 - [2026-04-14] Seed-OSS | https://github.com/ByteDance-Seed/seed-oss
-- [ ] SkyThought | https://github.com/NovaSky-AI/SkyThought
+- [2026-04-14] SkyThought | https://github.com/NovaSky-AI/SkyThought
 - [ ] Skywork | https://github.com/SkyworkAI/Skywork
 - [ ] StableLM | https://github.com/Stability-AI/StableLM
 - [ ] Stanford Alpaca | https://github.com/tatsu-lab/stanford_alpaca

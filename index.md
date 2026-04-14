@@ -330,8 +330,9 @@
 | [[ai-game-devtools/tinychatengine]] — MIT Han Lab 端侧 LLM/VLM 推理引擎，纯 C/C++ 无外部依赖，AWQ/SmoothQuant 4-bit 量化支持 Llama-3/CodeLLaMA/VILA，MLSys 2024 Best Paper，MIT |
 ||| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
 ||||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
-|||||| [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM（Llama3-8B 基座），TextVQA 84.2/DocVQA 92.3 SOTA，8K context，1344×1344 图像，Int4 16GB VRAM，支持图像+视频理解，CogVLM2 License |
-|||||||| [[ai-game-devtools/dots-vlm1]] — 小红书 rednote-hilab VLM：NaViT 从零训练视觉编码器（12亿参数）+ DeepSeek V3 LLM，OCR/DocVQA/ChartQA 多项 SOTA，65536 context，FP8 量化 |
+||||||| [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM（Llama3-8B 基座），TextVQA 84.2/DocVQA 92.3 SOTA，8K context，1344×1344 图像，Int4 16GB VRAM，支持图像+视频理解，CogVLM2 License |
+||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
+||||||||| [[ai-game-devtools/dots-vlm1]]
 |||||||| [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM（7B），Alignment Before Projection 机制使 LLM 同时理解图像和视频，无需图像-视频配对数据，EMNLP 2024，Apache 2.0 |
 |||||||| [[ai-game-devtools/evf-sam]] — HUST/vivo AI Lab 开源指代表达分割模型：SAM + BEIT-3 视觉-语言早期融合，文本提示分割图像/视频目标，支持多任务（部位/语义/指代），gIoU 84.2，Apache 2.0 |
 ||||||| [[ai-game-devtools/mplug-owl]]

@@ -564,3 +564,16 @@
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md
 
+## [2026-04-14] ingest | MoE-LLaVA
+- Cloned: ~/tmp/ai-game-devtools/moe-llava/
+- Created: raw/articles/ai-game-devtools/moe-llava.md
+- Created: ai-game-devtools/moe-llava.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md
+
+## [2026-04-14] ingest | Moshi
+- Source: https://github.com/kyutai-labs/moshi (web extract, GitHub clone timed out)
+- Created: raw/articles/ai-game-devtools/moshi.md
+- Created: ai-game-devtools/moshi.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md

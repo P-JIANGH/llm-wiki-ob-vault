@@ -539,3 +539,9 @@
 - Created: raw/articles/ai-game-devtools/minigpt-5.md
 - Created: ai-game-devtools/minigpt-5.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+
+## [2026-04-14] ingest | Cambrian-1
+- Cloned: ~/tmp/ai-game-devtools/cambrian-1/
+- Created: raw/articles/ai-game-devtools/cambrian-1.md
+- Created: ai-game-devtools/cambrian-1.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])

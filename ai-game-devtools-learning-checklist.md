@@ -92,7 +92,7 @@
 - [2026-04-14] OLMo | https://github.com/allenai/OLMo
 - [2026-04-14] OmniLMM | https://github.com/OpenBMB/OmniLMM
 - [2026-04-14] OneLLM | https://github.com/csuhan/OneLLM
-- [ ] Open-Assistant | https://github.com/LAION-AI/Open-Assistant
+- [2026-04-14] Open-Assistant | https://github.com/LAION-AI/Open-Assistant
 - [ ] Open Deep Research | https://github.com/dzhng/deep-research
 - [ ] OpenDevin | https://github.com/OpenDevin/OpenDevin
 - [ ] Orion-14B | https://github.com/OrionStarAI/Orion

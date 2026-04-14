@@ -90,7 +90,7 @@
 - [2026-04-14] mPLUG-Owl🦉 | https://github.com/X-PLUG/mPLUG-Owl
 - [2026-04-14] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
 - [2026-04-14] OLMo | https://github.com/allenai/OLMo
-- [ ] OmniLMM | https://github.com/OpenBMB/OmniLMM
+- [2026-04-14] OmniLMM | https://github.com/OpenBMB/OmniLMM
 - [ ] OneLLM | https://github.com/csuhan/OneLLM
 - [ ] Open-Assistant | https://github.com/LAION-AI/Open-Assistant
 - [ ] Open Deep Research | https://github.com/dzhng/deep-research

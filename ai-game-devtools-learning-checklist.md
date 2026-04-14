@@ -115,7 +115,7 @@
 - [2026-04-14] Text generation web UI | https://github.com/oobabooga/text-generation-webui
 - [2026-04-14] TinyChatEngine | https://github.com/mit-han-lab/TinyChatEngine
 - [2026-04-14] ToolBench | https://github.com/openbmb/toolbench
-- [ ] Unity ChatGPT | https://github.com/dilmerv/UnityChatGPT
+- [2026-04-14] Unity ChatGPT | https://github.com/dilmerv/UnityChatGPT
 - [ ] Unity OpenAI-API Integration | https://github.com/himanshuskyrockets/Unity_OpenAI
 - [ ] Unreal Engine 5 Llama LoRA | https://github.com/bublint/ue5-llama-lora
 - [ ] UnrealGPT | https://github.com/TREE-Ind/UnrealGPT

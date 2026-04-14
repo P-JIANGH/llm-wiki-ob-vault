@@ -756,3 +756,9 @@
 - Created: ai-game-devtools/tinychatengine.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added tinychatengine entry under AI Game DevTools section)
+## [2026-04-14] ingest | Unity ChatGPT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/unity-chatgpt/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/unity-chatgpt.md
+- Created: ai-game-devtools/unity-chatgpt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added unity-chatgpt entry under AI Game DevTools section)

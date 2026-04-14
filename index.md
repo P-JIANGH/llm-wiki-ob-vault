@@ -22,6 +22,7 @@
 | [[chatdev]] — OpenBMB 零代码多智能体平台：YAML 配置驱动工作流（游戏开发/3D生成/数据分析/深度研究），Python SDK + Vue3 前端，NeurIPS 2025，Puppeteer-style RL 编排 |
 | [[chatgpt-api-unity]] — mochi-neko Unity ChatGPT API 客户端：IChatMemory 多策略 session 管理 / UniTask 异步 / Relent resilient HTTP / Function Calling / Streaming，MIT |
 | [[chatgptforunity]] — sunsvip Unity UPM 包：编辑器内 ChatGPT 对话窗口 / 代码块提取保存 / 聊天历史持久化 / gpt-3.5-turbo，MIT |
+| [[ai-game-devtools/unity-chatgpt]] — dilmerv Unity ChatGPT 实验项目：自然语言提示让 AI 动态生成 Unity C# 代码创建立方体、操控角色行为，Unity 2021.3+，MIT |
 | [[autoresearch]] — Karpathy 自主 LLM 研究框架：agent 修改 train.py → 5分钟实验 → val_bpb 评估 → keep/discard 循环，MIT，70.3k stars |
 | [[chatrwkv]] — BlinkDL RWKV-7 100% RNN LLM：Time Mixing + Channel Mixing，O(n) 推理复杂度，3GB VRAM 跑 14B 模型，HuggingFace 权重，MIT |
 || [[stanford-alpaca]] — Stanford 指令微调 LLaMA 模型（7B/13B），52K Self-Instruct 数据训练，< $500 数据生成成本，CC BY-NC 4.0，2023 年开源 LLM 里程碑 |

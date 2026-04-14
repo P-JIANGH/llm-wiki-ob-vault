@@ -488,3 +488,9 @@
 - Created: ai-game-devtools/logic-games-solver.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (+logic-games-solver entry)
+## [2026-04-14] ingest | LongCat-Flash — 美团560B MoE LLM (agentic SOTA)
+- Cloned: ~/tmp/ai-game-devtools/longcat-flash/ (via gitcode.com mirror, GitHub TLS error)
+- Created: raw/articles/ai-game-devtools/longcat-flash.md
+- Created: ai-game-devtools/longcat-flash.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+longcat-flash entry)

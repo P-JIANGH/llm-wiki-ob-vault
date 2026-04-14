@@ -616,3 +616,10 @@
 - Created: ai-game-devtools/onellm.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (added OneLLM entry under LLM/VLM section)
+
+## [2026-04-14] ingest | Open-Assistant
+- Cloned: ~/tmp/ai-game-devtools/open-assistant/
+- Created: raw/articles/ai-game-devtools/open-assistant.md
+- Created: ai-game-devtools/open-assistant.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added Open-Assistant entry under AI Game DevTools / LLM section)

@@ -123,7 +123,7 @@
 - [2026-04-15] WebGPT | https://github.com/0hq/WebGPT
 - [2026-04-15] Web3-GPT | https://github.com/Markeljan/Web3GPT
 - [2026-04-15] WordGPT | https://github.com/filippofinke/WordGPT
-- [ ] XAgent | https://github.com/OpenBMB/XAgent
+- [2026-04-15] XAgent | https://github.com/OpenBMB/XAgent
 - [ ] Yi | https://github.com/01-ai/Yi
 - [ ] 01 Project | https://github.com/OpenInterpreter/01
 - [ ] SimpleOllamaUnity | https://github.com/HardCodeDev777/SimpleOllamaUnity

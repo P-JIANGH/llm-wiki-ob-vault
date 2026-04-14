@@ -128,7 +128,7 @@
 - [2026-04-15] 01 Project | https://github.com/OpenInterpreter/01
 - [2026-04-15] SimpleOllamaUnity | https://github.com/HardCodeDev777/SimpleOllamaUnity
 - [2026-04-15] AI-Writer | https://github.com/BlinkDL/AI-Writer
-- [ ] Notebook.ai | https://github.com/indentlabs/notebook
+- [2026-04-15] Notebook.ai | https://github.com/indentlabs/notebook
 - [ ] Novel | https://github.com/steven-tey/novel
 
 ## VLM (Visual) (27)

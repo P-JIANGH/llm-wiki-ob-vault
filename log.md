@@ -689,3 +689,9 @@
 - Created: ai-game-devtools/s1.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added s1 entry under AI Game DevTools section)
+## [2026-04-14] ingest | Sanity AI Engine — Unity游戏AI引擎
+- Cloned: ~/tmp/ai-game-devtools/sanity-ai-engine/
+- Created: raw/articles/ai-game-devtools/sanity-ai-engine.md
+- Created: ai-game-devtools/sanity-ai-engine.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added sanity-ai-engine entry under AI Game DevTools section)

@@ -879,3 +879,9 @@
 - Created: ai-game-devtools/kangaroo.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added kangaroo entry under VLM section)
+## [2026-04-15] ingest | Kwai Keye-VL — AI游戏开发工具 VLM分类
+- Cloned: ~/tmp/ai-game-devtools/kwai-keye-vl/ (GitHub)
+- Created: raw/articles/ai-game-devtools/kwai-keye-vl.md
+- Created: ai-game-devtools/kwai-keye-vl.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added kwai-keye-vl entry under VLM section)

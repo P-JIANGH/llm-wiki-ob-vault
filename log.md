@@ -916,3 +916,15 @@
 - Created: ai-game-devtools/minicpm-llama3-v-2.5.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added minicpm-llama3-v-2.5 entry under VLM section)
+## [2026-04-15] ingest | MiniCPM-V 4.0
+- Fetched: https://github.com/OpenBMB/MiniCPM-o (web extract; GitHub/gitcode/gitee clone failed)
+- Created: raw/articles/ai-game-devtools/minicpm-v-4.0.md
+- Created: ai-game-devtools/minicpm-v-4.0.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (split omnilmm entry, added minicpm-v-4.0 entry under VLM section)
+## [2026-04-15] ingest | MotionLLM
+- Cloned: ~/tmp/ai-game-devtools/motionllm/
+- Created: raw/articles/ai-game-devtools/motionllm.md
+- Created: ai-game-devtools/motionllm.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added motionllm entry)

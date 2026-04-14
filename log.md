@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-14] ingest | Seed-OSS — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/seed-oss/
+- Created: raw/articles/ai-game-devtools/seed-oss.md
+- Created: ai-game-devtools/seed-oss.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added seed-oss entry)
 ## [2026-04-13] ingest | Chinese-LLaMA-Alpaca-3 — AI游戏开发工具
 - Cloned: ~/tmp/ai-game-devtools/chinese-llama-alpaca-3/
 - Created: raw/articles/ai-game-devtools/chinese-llama-alpaca-3.md

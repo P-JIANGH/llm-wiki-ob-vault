@@ -296,7 +296,8 @@
 
 ||| [[ai-game-devtools/deepseek-r1]] — DeepSeekAI 推理模型：纯 RL 涌现推理能力，671B MoE，蒸馏版 Qwen-32B 超越 o1-mini，MATH-500 97.3% |
 ||| [[ai-game-devtools/qwen1.5]] — Alibaba 通义千问 LLM 系列（Qwen1.5→Qwen3），0.6B-235B 参数含 MoE，多语言+Agent+工具调用，100+语言，256K-1M context，Apache 2.0 |
-||| [[ai-game-devtools/qwen2]] — Alibaba 通义千问第二代 LLM，0.5B-72B，支持 vLLM/SGLang/llama.cpp，Apache 2.0，Qwen1.5 后继版本 |
+|||| [[ai-game-devtools/qwen2]] — Alibaba 通义千问第二代 LLM，0.5B-72B，支持 vLLM/SGLang/llama.cpp，Apache 2.0，Qwen1.5 后继版本 |
+|||| [[ai-game-devtools/qwen3]] — Alibaba 通义千问第三代：MoE（235B-A22B/30B-A3B）+Dense（4B~32B），thinking/non-thinking 双模式，100+语言，256K-1M context，Apache 2.0 |
 |||| [[ai-game-devtools/qwen2.5-coder]] — Alibaba 通义千问代码模型（Qwen2.5-Coder→Qwen3-Coder），358 语言，256K context，Agentic Coding 支持 Qwen Code/CLINE/Claude Code，Apache 2.0 |
 ||| [[ai-game-devtools/opendevin]] — OpenHands (原OpenDevin) AI软件工程Agent：SWE-bench Lite 77.6%，支持多模型(litellm)、浏览器/代码执行沙箱、CLI/GUI/云端多形态，MIT |
 ||| [[ai-game-devtools/hunyuan-mt]] — 腾讯混元 7B 翻译模型，支持 33 种语言（含 5 种中国少数民族语言），WMT25 竞赛 30/31 方向冠军，Chimera 集成翻译架构 |

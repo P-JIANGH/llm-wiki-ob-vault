@@ -799,3 +799,9 @@
 - Created: ai-game-devtools/unrealgpt.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added unrealgpt entry under AI/LLM/Agent section)
+## [2026-04-14] ingest | Video-LLaVA — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/video-llava/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/video-llava.md
+- Created: ai-game-devtools/video-llava.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added video-llava entry under VLM section)

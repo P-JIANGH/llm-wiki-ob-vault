@@ -629,3 +629,9 @@
 - Created: ai-game-devtools/open-deep-research.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (added open-deep-research entry under AI / LLM / Agent section)
+## [2026-04-14] ingest | opendevin
+- Cloned: ~/tmp/ai-game-devtools/opendevin/
+- Created: raw/articles/ai-game-devtools/opendevin.md
+- Created: ai-game-devtools/opendevin.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added opendevin entry under AI Game DevTools section)

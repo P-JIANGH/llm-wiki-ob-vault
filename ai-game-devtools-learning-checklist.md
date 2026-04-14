@@ -120,7 +120,7 @@
 - [2026-04-14] Unreal Engine 5 Llama LoRA | https://github.com/bublint/ue5-llama-lora
 - [2026-04-14] UnrealGPT | https://github.com/TREE-Ind/UnrealGPT
 - [2026-04-14] Video-LLaVA | https://github.com/PKU-YuanGroup/Video-LLaVA
-- [ ] WebGPT | https://github.com/0hq/WebGPT
+- [2026-04-15] WebGPT | https://github.com/0hq/WebGPT
 - [ ] Web3-GPT | https://github.com/Markeljan/Web3GPT
 - [ ] WordGPT | https://github.com/filippofinke/WordGPT
 - [ ] XAgent | https://github.com/OpenBMB/XAgent

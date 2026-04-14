@@ -513,4 +513,10 @@
 - Created: raw/articles/ai-game-devtools/lumina-t2x.md
 - Created: ai-game-devtools/lumina-t2x.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+lumina-t2x entry)
+
+## [2026-04-14] ingest | MetaGPT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/metagpt/
+- Created: raw/articles/ai-game-devtools/metagpt.md
+- Created: ai-game-devtools/metagpt.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (+metagpt entry)

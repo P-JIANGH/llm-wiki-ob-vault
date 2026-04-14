@@ -133,7 +133,7 @@
 
 ## VLM (Visual) (27)
 - [2026-04-14] Cambrian-1 | https://github.com/cambrian-mllm/cambrian
-- [ ] CogVLM2 | https://github.com/THUDM/CogVLM2
+- [2026-04-14] CogVLM2 | https://github.com/THUDM/CogVLM2
 - [ ] dots.vlm1 | https://github.com/rednote-hilab/dots.vlm1
 - [ ] EVF-SAM | https://github.com/hustvl/EVF-SAM
 - [ ] GLM-V | https://github.com/zai-org/GLM-V

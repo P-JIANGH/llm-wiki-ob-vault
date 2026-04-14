@@ -317,8 +317,9 @@
 | [[ai-game-devtools/gemma-cpp]] — Google 纯 C++ LLM 推理引擎（Gemma 2/3/RecurrentGemma/PaliGemma 2），~2K LoC 核心，Google Highway SIMD，无外部 ML 框架，Apache 2.0 |
 | [[ai-game-devtools/tinychatengine]] — MIT Han Lab 端侧 LLM/VLM 推理引擎，纯 C/C++ 无外部依赖，AWQ/SmoothQuant 4-bit 量化支持 Llama-3/CodeLLaMA/VILA，MLSys 2024 Best Paper，MIT |
 ||| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
-|||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
-|||| [[ai-game-devtools/mplug-owl]] — Alibaba DAMO MLLM 系列（Owl1/2/3），模块化视觉抽象+模态协作+长视频理解，CVPR 2024 Highlight，ICLR 2025，Apache 2.0 |
+||||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
+||||| [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM（Llama3-8B 基座），TextVQA 84.2/DocVQA 92.3 SOTA，8K context，1344×1344 图像，Int4 16GB VRAM，支持图像+视频理解，CogVLM2 License |
+||||| [[ai-game-devtools/mplug-owl]] — Alibaba DAMO MLLM 系列（Owl1/2/3），模块化视觉抽象+模态协作+长视频理解，CVPR 2024 Highlight，ICLR 2025，Apache 2.0 |
 |||| [[ai-game-devtools/moe-llava]] — PKU-YuanGroup MoE-VLM（2-3.6B 激活参数），Top-2 稀疏激活比肩 LLaVA-1.5-7B，Phi-2/Qwen/StableLM 多 backbone，IEEE TMM 2025，Apache 2.0 |
 |||| [[ai-game-devtools/jan]] — Janhq
 |||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |

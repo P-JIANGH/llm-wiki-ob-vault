@@ -557,3 +557,10 @@
 - Created: ai-game-devtools/mlc-llm.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 
+## [2026-04-14] ingest | MobiLlama
+- Cloned: ~/tmp/ai-game-devtools/mobillama/
+- Created: raw/articles/ai-game-devtools/mobillama.md
+- Created: ai-game-devtools/mobillama.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md
+

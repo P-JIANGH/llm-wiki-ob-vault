@@ -334,9 +334,10 @@
 ||||||| [[ai-game-devtools/onellm]] — CVPR 2024 统一多模态框架：LLaMA-2 7B 对齐 8 种模态（图像/视频/音频/点云/深度法线/IMU/fMRI），ImageBind 编码器 + 三阶段训练 |
 |||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
 |||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
-| [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
-|||||||||| [[ai-game-devtools/dots-vlm1]]
-| [[ai-game-devtools/kangaroo]] — KangarooGroup 8B Video-LMM，160帧/22k tokens 长视频理解，Video-MME SOTA（超越10B+模型），中英双语对话，Apache 2.0 |
+|| [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
+||||||||||| [[ai-game-devtools/dots-vlm1]]
+||||||| [[ai-game-devtools/lumina-dimoo]] — Alpha-VLLM 全模态离散扩散生成+理解模型：DiMOO 架构统一 T2I/I2I/图像修复/外绘/视觉 QA，VQ 离散码 + 去噪扩散，ML-Cache 2× 加速，A800 58.2s→32.2s，UniGenBench 开源统一模型第一 |
+|| [[ai-game-devtools/kangaroo]]
 | [[ai-game-devtools/kwai-keye-vl]] — 快手可灵 VLM 系列（8B/671B），SigLIP+SlowFast Video Encoding，视频理解 SOTA，128K context，Apache 2.0 |
 | [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
 ||||||||| [[ai-game-devtools/evf-sam]] — HUST/vivo AI Lab 开源指代表达分割模型：SAM + BEIT-3 视觉-语言早期融合，文本提示分割图像/视频目标，支持多任务（部位/语义/指代），gIoU 84.2，Apache 2.0 |

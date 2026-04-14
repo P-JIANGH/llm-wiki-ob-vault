@@ -551,3 +551,9 @@
 - Created: ai-game-devtools/minimax-01.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 
+## [2026-04-14] ingest | MLC LLM
+- Cloned: ~/tmp/ai-game-devtools/mlc-llm/
+- Created: raw/articles/ai-game-devtools/mlc-llm.md
+- Created: ai-game-devtools/mlc-llm.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+

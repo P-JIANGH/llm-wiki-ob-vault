@@ -595,3 +595,10 @@
 - Created: ai-game-devtools/next-gpt.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (added next-gpt entry under LLM section)
+
+## [2026-04-14] ingest | OLMo
+- Cloned: ~/tmp/ai-game-devtools/olmo/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/olmo.md
+- Created: ai-game-devtools/olmo.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added olmo entry under LLM section)

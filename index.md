@@ -81,7 +81,8 @@
 ||| [[ai-game-devtools/design2code]] — Stanford SALT Lab screenshot-to-code benchmark：484网页截图生成HTML代码，Design2Code-18B (CogAgent微调) + GPT-4V/Gemini/Claude 3.5 多模型评测，arXiv 2024 |
 |||| [[ai-game-devtools/demogpt]] — DemoGPT 自动生成 AI 应用框架：自然语言 → Streamlit App 流水线（Plan/Task/Code/Final），内置 AgentHub 支持工具调用 + RAG |
 ||||| [[ai-game-devtools/devika]] — Devika AI 软件工程师：Devin 开源替代方案，多 Agent 架构（Planner/Researcher/Coder 等），支持 Claude/GPT/Ollama，MIT |
-||||| [[ai-game-devtools/metagpt]] — MetaGPT 多 Agent 软件公司框架：PM/Architect/Engineer 角色协作，Code=SOP(Team) 核心理念，ICLR 2024，支持游戏代码生成，MIT |
+|||||| [[ai-game-devtools/metagpt]] — MetaGPT 多 Agent 软件公司框架：PM/Architect/Engineer 角色协作，Code=SOP(Team) 核心理念，ICLR 2024，支持游戏代码生成，MIT |
+|||||| [[ai-game-devtools/olmo]] — AI2 OLMo 开源 LLM 系列（1B/7B/13B/32B），两阶段训练 + 模型 soup 平均，HuggingFace 格式，Apache 2.0 |
 ||||| [[ai-game-devtools/mlc-llm]] — mlc-ai 通用 LLM 部署引擎：TVM ML 编译优化，跨平台支持（Linux/Win/macOS/iOS/Android/Web/WASM），MLCEngine 统一推理接口，Apache 2.0 |
 |||||| [[ai-game-devtools/mobillama]] — MBZUAI 轻量级 SLM（0.5B/0.8B/1B），参数共享策略降低训练和部署成本，HellaSwag 52.52（0.5B）超越 Pythia-410m，ICLR'25 SLLM Spotlight，Apache 2.0 |
 |||||| [[ai-game-devtools/next-gpt]] — NExT++/NUS any-to-any 多模态 LLM（文字/图像/视频/音频任意组合），ImageBind 编码 + Vicuna-7B + LoRA 微调，ICML 2024 Oral，BSD 3-Clause |

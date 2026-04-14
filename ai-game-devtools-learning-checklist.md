@@ -89,7 +89,7 @@
 - [2026-04-14] MOSS | https://github.com/OpenLMLab/MOSS
 - [2026-04-14] mPLUG-Owl🦉 | https://github.com/X-PLUG/mPLUG-Owl
 - [2026-04-14] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
-- [ ] OLMo | https://github.com/allenai/OLMo
+- [2026-04-14] OLMo | https://github.com/allenai/OLMo
 - [ ] OmniLMM | https://github.com/OpenBMB/OmniLMM
 - [ ] OneLLM | https://github.com/csuhan/OneLLM
 - [ ] Open-Assistant | https://github.com/LAION-AI/Open-Assistant

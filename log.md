@@ -815,4 +815,9 @@
 - Cloned: ~/tmp/ai-game-devtools/web3-gpt/
 - Created: raw/articles/ai-game-devtools/web3-gpt.md
 - Created: ai-game-devtools/web3-gpt.md
+## [2026-04-15] ingest | WordGPT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/wordgpt/ (GitHub)
+- Created: raw/articles/ai-game-devtools/wordgpt.md
+- Created: ai-game-devtools/wordgpt.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added wordgpt entry under AI/LLM/Agent section)

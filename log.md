@@ -652,4 +652,10 @@
 - Cloned: ~/tmp/ai-game-devtools/perplexica/
 - Created: raw/articles/ai-game-devtools/perplexica.md
 - Created: ai-game-devtools/perplexica.md
+## [2026-04-14] ingest | Qwen1.5 — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/qwen1.5/ (via gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/qwen1.5.md
+- Created: ai-game-devtools/qwen1.5.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added qwen1.5 entry under AI Game DevTools section)
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])

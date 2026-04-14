@@ -623,3 +623,9 @@
 - Created: ai-game-devtools/open-assistant.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (added Open-Assistant entry under AI Game DevTools / LLM section)
+## [2026-04-14] ingest | open-deep-research
+- Cloned: ~/tmp/ai-game-devtools/open-deep-research/
+- Created: raw/articles/ai-game-devtools/open-deep-research.md
+- Created: ai-game-devtools/open-deep-research.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added open-deep-research entry under AI / LLM / Agent section)

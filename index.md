@@ -330,9 +330,10 @@
 | [[ai-game-devtools/tinychatengine]] — MIT Han Lab 端侧 LLM/VLM 推理引擎，纯 C/C++ 无外部依赖，AWQ/SmoothQuant 4-bit 量化支持 Llama-3/CodeLLaMA/VILA，MLSys 2024 Best Paper，MIT |
 ||| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
 ||||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
-||||||| [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM（Llama3-8B 基座），TextVQA 84.2/DocVQA 92.3 SOTA，8K context，1344×1344 图像，Int4 16GB VRAM，支持图像+视频理解，CogVLM2 License |
-||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
-||||||||| [[ai-game-devtools/dots-vlm1]]
+||||||| [[ai-game-devtools/onellm]] — CVPR 2024 统一多模态框架：LLaMA-2 7B 对齐 8 种模态（图像/视频/音频/点云/深度法线/IMU/fMRI），ImageBind 编码器 + 三阶段训练 |
+|||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
+|||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
+|||||||||| [[ai-game-devtools/dots-vlm1]]
 | [[ai-game-devtools/kangaroo]] — KangarooGroup 8B Video-LMM，160帧/22k tokens 长视频理解，Video-MME SOTA（超越10B+模型），中英双语对话，Apache 2.0 |
 | [[ai-game-devtools/kwai-keye-vl]] — 快手可灵 VLM 系列（8B/671B），SigLIP+SlowFast Video Encoding，视频理解 SOTA，128K context，Apache 2.0 |
 | [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
@@ -344,9 +345,8 @@
 |||| [[ai-game-devtools/minigpt-4]] — Vision-CAIR/EAIST VLM：冻结 ViT+Q-Former 连接冻结 LLM（Vicuna/LLaMA-2），两阶段对齐训练，图像描述/故事生成/游戏资产理解，BSD 3-Clause |
 ||||| [[ai-game-devtools/lamini]]
 ||||| [[ai-game-devtools/minicpm-2b]] — OpenBMB 高效 LLM 系列（2B-9B），MiniCPM-2B 达 Mistral-7B 水平，MiniCPM-SALA 混合注意力支持 1M token context，Apache 2.0 |
-|||||| [[ai-game-devtools/omnilmm]] — OpenBMB OmniLMM（MiniCPM-V/o）端侧多模态模型：4B-9B，视觉+语音+全双工实时流式对话，逼近 Gemini 2.5 Flash，支持 int4/GGUF/vLLM/Ollama |
-|||||| [[ai-game-devtools/onellm]] — CVPR 2024 统一多模态框架：LLaMA-2 7B 对齐 8 种模态（图像/视频/音频/点云/深度法线/IMU/fMRI），ImageBind 编码器 + 三阶段训练 |
-|||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
+||||||| [[ai-game-devtools/omnilmm]] — OpenBMB OmniLMM（MiniCPM-V/o）端侧多模态模型：4B-9B，视觉+语音+全双工实时流式对话，逼近 Gemini 2.5 Flash，支持 int4/GGUF/vLLM/Ollama |
+||||||| [[ai-game-devtools/lamini-lm]] — MBZUAI 教学式蒸馏 LLM 家族：2.58M 指令对，Flan-T5/GPT-2/Cerebras-GPT 多基座，61M-1.5B 参数，Apache 2.0（代码），CC BY-NC 4.0（数据） |
 |||||| [[ai-game-devtools/llasm]] — LinkSoul 首个开源可商用中英双语语音-语言助手（Whisper + Chinese-Llama-2-7B / Baichuan-7B），Apache-2.0 |
 |||||| [[ai-game-devtools/lit-llama]] — Lightning-AI LLaMA 复现（7B-65B）
 ||||| [[ai-game-devtools/llama-3]] — Meta Llama 3 LLM 系列（8B/70B），128K 词表 + GQA + 15T tokens 预训练，ChatFmt 对话格式，MMLU 82.0（70B），已废弃（Llama 3.1 后并入 llama-models）|

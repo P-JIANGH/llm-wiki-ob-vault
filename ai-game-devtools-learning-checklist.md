@@ -139,7 +139,7 @@
 - [2026-04-15] GLM-V | https://github.com/zai-org/GLM-V
 - [2026-04-15] Kangaroo | https://github.com/KangarooGroup/Kangaroo
 - [2026-04-15] Kwai Keye-VL | https://github.com/Kwai-Keye/Keye
-- [ ] LLaVA++ | https://github.com/mbzuai-oryx/LLaVA-pp
+- [2026-04-15] LLaVA++ | https://github.com/mbzuai-oryx/LLaVA-pp
 - [ ] LLaVA-OneVision | https://github.com/LLaVA-VL/LLaVA-NeXT
 - [ ] LongVA | https://github.com/EvolvingLMMs-Lab/LongVA
 - [ ] Lumina-DiMOO | https://github.com/Alpha-VLLM/Lumina-DiMOO

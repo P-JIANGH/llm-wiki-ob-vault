@@ -88,7 +88,7 @@
 - [2026-04-14] Moshi | https://github.com/kyutai-labs/moshi
 - [2026-04-14] MOSS | https://github.com/OpenLMLab/MOSS
 - [2026-04-14] mPLUG-Owl🦉 | https://github.com/X-PLUG/mPLUG-Owl
-- [ ] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
+- [2026-04-14] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
 - [ ] OLMo | https://github.com/allenai/OLMo
 - [ ] OmniLMM | https://github.com/OpenBMB/OmniLMM
 - [ ] OneLLM | https://github.com/csuhan/OneLLM

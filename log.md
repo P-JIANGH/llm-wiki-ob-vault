@@ -582,3 +582,16 @@
 - Created: raw/articles/ai-game-devtools/moss.md
 - Created: ai-game-devtools/moss.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+
+## [2026-04-14] ingest | mPLUG-Owl
+- Cloned: ~/tmp/ai-game-devtools/mplug-owl/
+- Created: raw/articles/ai-game-devtools/mplug-owl.md
+- Created: ai-game-devtools/mplug-owl.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+
+## [2026-04-14] ingest | NExT-GPT
+- Cloned: ~/tmp/ai-game-devtools/next-gpt/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/next-gpt.md
+- Created: ai-game-devtools/next-gpt.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added next-gpt entry under LLM section)

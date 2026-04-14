@@ -671,3 +671,9 @@
 - Created: ai-game-devtools/qwen2.5-coder.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
 - Updated: index.md (added qwen2.5-coder entry under AI Game DevTools section)
+## [2026-04-14] ingest | Qwen3 — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/qwen3/
+- Created: raw/articles/ai-game-devtools/qwen3.md
+- Created: ai-game-devtools/qwen3.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+- Updated: index.md (added qwen3 entry under AI Game DevTools section)

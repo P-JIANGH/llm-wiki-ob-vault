@@ -3,7 +3,7 @@
 // Reads markdown from vault via getStaticPaths, renders with Astro.glob markdown.
 import type { GetStaticPaths } from 'astro';
 import WikiLayout from '../layouts/WikiLayout.astro';
-import { parseFrontmatter } from '../lib/vault';
+import { parseFrontmatter, getPageSlugMap } from '../lib/vault';
 import { marked } from 'marked';
 import fs from 'fs';
 import path from 'path';
@@ -84,12 +84,15 @@ try {
 // Strip frontmatter and get content for markdown rendering
 const { content } = parseFrontmatter(raw);
 
-// Also render wikilinks in content
+// Also render wikilinks in content (resolve via title-to-slug lookup)
+const slugMap = getPageSlugMap();
 const contentWithLinks = content.replace(
   /\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g,
   (_, page, label) => {
     const displayLabel = label || page;
-    const linkSlug = page.trim().toLowerCase().replace(/\s+/g, '-');
+    // First try exact title match, then filename match
+    const key = page.trim().toLowerCase();
+    const linkSlug = slugMap[key] || key.replace(/\s+/g, '-');
     return `[${displayLabel}](/${linkSlug})`;
   }
 );

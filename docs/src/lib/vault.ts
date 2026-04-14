@@ -27,7 +27,7 @@ export function parseFrontmatter(raw: string): { data: Record<string, any>; cont
   return { data, content: match[2] || '' };
 }
 
-export type PageSection = 'entities' | 'concepts' | 'comparisons' | 'queries' | 'open-source-game' | 'raw';
+export type PageSection = 'entities' | 'concepts' | 'comparisons' | 'queries' | 'open-source-game' | 'raw' | 'memory-systems';
 
 export interface VaultEntry {
   slug: string;        // e.g. "entities/claude-code"
@@ -78,6 +78,26 @@ export function slugToUrl(slug: string): string {
   return `/${slug}`;
 }
 
+// ─── wikilink resolution: build lookup tables ────────────────────────────────
+
+export type PageSlugMap = Record<string, string>; // lowercased title -> slug
+
+let _slugMap: PageSlugMap | null = null;
+
+export function getPageSlugMap(): PageSlugMap {
+  if (_slugMap) return _slugMap;
+  _slugMap = {};
+  const pages = loadAllPages();
+  for (const page of pages) {
+    const key = page.title.toLowerCase();
+    _slugMap[key] = page.slug;
+    // Also index by filename without extension (for [[filename]] style links)
+    const fname = page.slug.split('/').pop()?.toLowerCase() || '';
+    if (fname && fname !== key) _slugMap[fname] = page.slug;
+  }
+  return _slugMap;
+}
+
 // ─── section layout (mirrors docsify sidebar) ────────────────────────────────
 
 export const SECTION_ORDER: Section[] = [
@@ -87,6 +107,7 @@ export const SECTION_ORDER: Section[] = [
   { id: 'queries',      label: 'Queries',        entries: [] },
   { id: 'raw',          label: 'Raw Sources',    entries: [] },
   { id: 'open-source-game', label: 'Open Source Games', entries: [] },
+  { id: 'memory-systems', label: 'Memory Systems', entries: [] },
 ];
 
 // ─── load all vault pages ───────────────────────────────────────────────────
@@ -100,6 +121,7 @@ export function loadAllPages(): VaultEntry[] {
     { rel: 'queries',          section: 'queries' },
     { rel: 'raw',              section: 'raw' },
     { rel: 'open-source-game', section: 'open-source-game' },
+    { rel: 'memory-systems',   section: 'memory-systems' },
     // top-level markdown files
     { rel: 'index.md',         section: 'entities' },
     { rel: 'SCHEMA.md',         section: 'entities' },

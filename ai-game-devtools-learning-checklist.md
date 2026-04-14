@@ -132,7 +132,7 @@
 - [ ] Novel | https://github.com/steven-tey/novel
 
 ## VLM (Visual) (27)
-- [ ] Cambrian-1 | https://github.com/cambrian-mllm/cambrian
+- [2026-04-14] Cambrian-1 | https://github.com/cambrian-mllm/cambrian
 - [ ] CogVLM2 | https://github.com/THUDM/CogVLM2
 - [ ] dots.vlm1 | https://github.com/rednote-hilab/dots.vlm1
 - [ ] EVF-SAM | https://github.com/hustvl/EVF-SAM

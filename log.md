@@ -602,3 +602,10 @@
 - Created: ai-game-devtools/olmo.md
 - Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
 - Updated: index.md (added olmo entry under LLM section)
+
+## [2026-04-14] ingest | OmniLMM
+- Cloned: ~/tmp/ai-game-devtools/omnilmm/
+- Created: raw/articles/ai-game-devtools/omnilmm.md
+- Created: ai-game-devtools/omnilmm.md
+- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
+- Updated: index.md (added OmniLMM entry under LLM/VLM section)

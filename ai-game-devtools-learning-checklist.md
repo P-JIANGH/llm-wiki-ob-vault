@@ -91,7 +91,7 @@
 - [2026-04-14] NExT-GPT | https://github.com/NExT-GPT/NExT-GPT
 - [2026-04-14] OLMo | https://github.com/allenai/OLMo
 - [2026-04-14] OmniLMM | https://github.com/OpenBMB/OmniLMM
-- [ ] OneLLM | https://github.com/csuhan/OneLLM
+- [2026-04-14] OneLLM | https://github.com/csuhan/OneLLM
 - [ ] Open-Assistant | https://github.com/LAION-AI/Open-Assistant
 - [ ] Open Deep Research | https://github.com/dzhng/deep-research
 - [ ] OpenDevin | https://github.com/OpenDevin/OpenDevin

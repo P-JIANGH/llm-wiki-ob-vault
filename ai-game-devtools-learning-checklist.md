@@ -129,7 +129,7 @@
 - [2026-04-15] SimpleOllamaUnity | https://github.com/HardCodeDev777/SimpleOllamaUnity
 - [2026-04-15] AI-Writer | https://github.com/BlinkDL/AI-Writer
 - [2026-04-15] Notebook.ai | https://github.com/indentlabs/notebook
-- [ ] Novel | https://github.com/steven-tey/novel
+- [2026-04-15] Novel | https://github.com/steven-tey/novel
 
 ## VLM (Visual) (27)
 - [2026-04-14] Cambrian-1 | https://github.com/cambrian-mllm/cambrian

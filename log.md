@@ -851,3 +851,17 @@
 - Created: ai-game-devtools/ai-writer.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added ai-writer entry under AI Game DevTools section)
+
+## [2026-04-15] ingest | Notebook.ai — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/notebook-ai/ (GitHub)
+- Created: raw/articles/ai-game-devtools/notebook-ai.md
+- Created: ai-game-devtools/notebook-ai.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added notebook-ai entry under AI Game DevTools section)
+
+## [2026-04-15] ingest | Novel — AI游戏开发工具 LLM分类
+- Cloned: ~/tmp/ai-game-devtools/novel/ (GitHub)
+- Created: raw/articles/ai-game-devtools/novel.md
+- Created: ai-game-devtools/novel.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added novel entry under AI Game DevTools section)

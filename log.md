@@ -833,3 +833,9 @@
 - Created: ai-game-devtools/yi.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added yi entry under AI/LLM/Agent section)
+## [2026-04-15] ingest | 01 Project — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/01/ (GitHub)
+- Created: raw/articles/ai-game-devtools/01-project.md
+- Created: ai-game-devtools/01-project.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added 01-project entry under AI/LLM/Agent section)

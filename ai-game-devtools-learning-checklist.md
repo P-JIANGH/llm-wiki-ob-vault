@@ -103,7 +103,7 @@
 - [2026-04-14] Qwen2.5-Coder | https://github.com/QwenLM/Qwen2.5-Coder
 - [2026-04-14] Qwen-7B | https://github.com/QwenLM/Qwen-7B
 - [2026-04-14] Qwen3 | https://github.com/QwenLM/Qwen3
-- [ ] RepoAgent | https://github.com/OpenBMB/RepoAgent
+- [2026-04-14] RepoAgent | https://github.com/OpenBMB/RepoAgent
 - [ ] s1 | https://github.com/simplescaling/s1
 - [ ] Sanity AI Engine | https://github.com/tosos/SanityEngine
 - [ ] SearchGPT | https://github.com/tobiasbueschel/search-gpt

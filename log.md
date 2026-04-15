@@ -960,3 +960,8 @@
 - Created: ai-game-devtools/sharegpt4v.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added sharegpt4v entry under VLM section)
+## [2026-04-15] ingest | SOLO
+- Cloned: ~/tmp/ai-game-devtools/solo/ (from github.com)
+- Created: raw/articles/ai-game-devtools/solo.md
+- Created: ai-game-devtools/solo.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])

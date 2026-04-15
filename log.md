@@ -1146,3 +1146,9 @@
 - Created: ai-game-devtools/character-glm-6b.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added character-glm-6b entry under AI Game DevTools section)
+## [2026-04-15] ingest | ComoRAG — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/comorag/ (GitHub)
+- Created: raw/articles/ai-game-devtools/comorag.md
+- Created: ai-game-devtools/comorag.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added comorag entry under AI Game DevTools section)

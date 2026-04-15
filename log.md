@@ -1036,3 +1036,10 @@
 - Created: ai-game-devtools/agent-group-chat.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added Agent Group Chat to Game section)
+
+## [2026-04-15] ingest | Agent K — 自进化 AGI 系统
+- Cloned: ~/tmp/ai-game-devtools/agent-k/ (GitHub)
+- Created: raw/articles/ai-game-devtools/agent-k.md
+- Created: ai-game-devtools/agent-k.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added agent-k entry under Game section)

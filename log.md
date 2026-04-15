@@ -1128,3 +1128,9 @@
 - Created: ai-game-devtools/byzer-agent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added byzer-agent entry under AI Game DevTools section)
+## [2026-04-15] ingest | Cat Town — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/cat-town/ (GitHub)
+- Created: raw/articles/ai-game-devtools/cat-town.md
+- Created: ai-game-devtools/cat-town.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added cat-town entry under AI Game DevTools section)

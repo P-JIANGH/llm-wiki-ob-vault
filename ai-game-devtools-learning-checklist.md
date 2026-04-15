@@ -177,7 +177,7 @@
 - [2026-04-15] Biomes | https://github.com/ill-inc/biomes-game
 - [2026-04-15] Buffer of Thoughts | https://github.com/YangLing0818/buffer-of-thought-llm
 - [2026-04-15] Byzer-Agent | https://github.com/allwefantasy/byzer-agent
-- [ ] Cat Town | https://github.com/ykhli/cat-town
+- [2026-04-15] Cat Town | https://github.com/ykhli/cat-town
 - [ ] CharacterGLM | https://github.com/thu-coai/CharacterGLM-6B
 - [ ] ComoRAG | https://github.com/EternityJune25/ComoRAG
 - [ ] Cradle | https://github.com/BAAI-Agents/Cradle

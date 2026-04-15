@@ -1070,3 +1070,10 @@
 - Created: ai-game-devtools/ai-town.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added ai-town entry under AI Game DevTools section)
+
+## [2026-04-15] ingest | anime.gf
+- Cloned: ~/tmp/ai-game-devtools/anime-gf/ (GitHub)
+- Created: raw/articles/ai-game-devtools/anime-gf.md
+- Created: ai-game-devtools/anime-gf.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added anime-gf entry under AI Game DevTools section)

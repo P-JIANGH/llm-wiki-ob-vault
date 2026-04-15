@@ -165,7 +165,7 @@
 - [2026-04-15] Agent Group Chat | https://github.com/MikeGu721/AgentGroup
 - [2026-04-15] Agent K | https://github.com/mikekelly/AgentK
 - [2026-04-15] Agent Laboratory | https://github.com/SamuelSchmidgall/AgentLaboratory
-- [ ] AgentScope | https://github.com/modelscope/agentscope
+- [2026-04-15] AgentScope | https://github.com/modelscope/agentscope
 - [ ] AgentSims | https://github.com/py499372727/AgentSims/
 - [ ] AI Town | https://github.com/a16z-infra/ai-town
 - [ ] anime.gf | https://github.com/cyanff/anime.gf

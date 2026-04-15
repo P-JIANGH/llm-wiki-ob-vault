@@ -164,7 +164,7 @@
 - [2026-04-15] AgentBench | https://github.com/thudm/agentbench
 - [2026-04-15] Agent Group Chat | https://github.com/MikeGu721/AgentGroup
 - [2026-04-15] Agent K | https://github.com/mikekelly/AgentK
-- [ ] Agent Laboratory | https://github.com/SamuelSchmidgall/AgentLaboratory
+- [2026-04-15] Agent Laboratory | https://github.com/SamuelSchmidgall/AgentLaboratory
 - [ ] AgentScope | https://github.com/modelscope/agentscope
 - [ ] AgentSims | https://github.com/py499372727/AgentSims/
 - [ ] AI Town | https://github.com/a16z-infra/ai-town

@@ -995,3 +995,10 @@
 - Created: ai-game-devtools/videollama2.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added videollama2 entry under VLM section)
+
+## [2026-04-15] ingest | VideoMamba — Mamba SSM 视频理解模型
+- Cloned: ~/tmp/ai-game-devtools/video-mamba/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/video-mamba.md
+- Created: ai-game-devtools/video-mamba.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added video-mamba entry under VLM section)

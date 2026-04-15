@@ -498,7 +498,7 @@
 - [ ] ViewCrafter | https://github.com/Drexubery/ViewCrafter
 - [ ] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
 - [ ] VideoElevator | https://github.com/YBYBZhang/VideoElevator
-- [ ] VideoMamba | https://github.com/OpenGVLab/VideoMamba
+| [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba
 - [ ] Video-of-Thought | https://github.com/scofield7419/Video-of-Thought
 - [ ] VisualRWKV | https://github.com/howard-hou/VisualRWKV
 - [ ] V-JEPA | https://github.com/facebookresearch/jepa

@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-15] ingest | Dify — LangGenius LLM 应用开发平台
+- Cloned: ~/tmp/ai-game-devtools/dify/ (GitCode mirror)
+- Created: raw/articles/ai-game-devtools/dify.md
+- Created: ai-game-devtools/dify.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added dify entry under AI Game DevTools section)
 ## [2026-04-14] ingest | gstack — Garry Tan 的 AI 软件工厂
 - Fetched: https://github.com/garrytan/gstack
 - Created: raw/articles/gstack-garry-tan-2026.md

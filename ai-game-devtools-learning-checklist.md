@@ -183,7 +183,7 @@
 - [2026-04-15] Cradle | https://github.com/BAAI-Agents/Cradle
 - [2026-04-15] crewAI | https://github.com/joaomdmoura/crewAI
 - [2026-04-15] Datarus Jupyter Agent | https://github.com/DatarusAI/Datarus-JupyterAgent
-- [ ] Dify | https://github.com/langgenius/dify
+- [2026-04-15] Dify | https://github.com/langgenius/dify
 - [ ] everything-ai | https://github.com/AstraBert/everything-ai
 - [ ] fabric | https://github.com/danielmiessler/fabric
 - [ ] FastGPT | https://github.com/labring/FastGPT

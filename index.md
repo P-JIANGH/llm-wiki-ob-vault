@@ -357,7 +357,8 @@
 ||| [[ai-game-devtools/video-agent]] — ECCV 2024 记忆增强多模态 Agent：Temporal+Object 双层记忆系统 + LangChain ReAct，GPT-4o 驱动工具调用回答视频问题，Video-LLaVA/GPT-4V 双 VQA 后端 |
 || [[ai-game-devtools/video-ccam]] — 腾讯多媒体团队视频-语言大模型（4B/7B/9B/14B），Causal Cross-Attention Masks 机制提升长短视频理解，Video-MME 57.4（有字幕），开源 MLLM SOTA |
 || [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
-| [[ai-game-devtools/videollama2]] — DAMO-NLP-SG 视频-语言多模态 LLM（7B~72B），MLVU/VideoMME 双榜单 Top-1，SigLIP/Qwen2 架构，支持音频-视觉联合推理，Apache 2.0
+| [[ai-game-devtools/videollama2]] — DAMO-NLP-SG 视频-语言多模态 LLM（7B~72B），MLVU/VideoMME 双榜单 Top-1，SigLIP/Qwen2 架构，支持音频-视觉联合推理，Apache 2.0 |
+| [[ai-game-devtools/video-llama-3]] — DAMO-NLP-SG 视频-图像多模态模型（7B/2B），基于 Qwen2.5 + SigLIP NaViT，LVBench/VideoMME 7B SOTA，Apache 2.0
 | [[ai-game-devtools/video-mamba]] — OpenGVLab Mamba SSM 视频理解模型（3M-306M），线性复杂度 O(n)，自蒸馏预训练 + CLIP 教师指导，支持 K400/SthSthV2/Breakfast/COIN/LVU 视频任务，Apache 2.0
 ||||||| [[ai-game-devtools/lamini]]
 ||||||| [[ai-game-devtools/minicpm-2b]] — OpenBMB 高效 LLM 系列（2B-9B），MiniCPM-2B 达 Mistral-7B 水平，

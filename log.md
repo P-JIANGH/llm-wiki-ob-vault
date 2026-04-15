@@ -1002,3 +1002,10 @@
 - Created: ai-game-devtools/video-mamba.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added video-mamba entry under VLM section)
+
+## [2026-04-15] ingest | VideoLLaMA 3 — 视频-图像多模态基础模型
+- Cloned: ~/tmp/ai-game-devtools/video-llama-3/
+- Created: raw/articles/ai-game-devtools/video-llama-3.md
+- Created: ai-game-devtools/video-llama-3.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added video-llama-3 entry under VLM section)

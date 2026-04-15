@@ -158,7 +158,7 @@
 - [2026-04-15] VideoLLaMA 3 | https://github.com/DAMO-NLP-SG/VideoLLaMA3
 - [2026-04-15] Video-MME | https://github.com/BradyFU/Video-MME
 - [2026-04-15] Vitron | https://github.com/SkyworkAI/Vitron
-- [ ] VILA | https://github.com/NVlabs/VILA
+- [2026-04-15] VILA | https://github.com/NVlabs/VILA
 
 ## Game (World Model & Agent) (67)
 - [2026-04-15] AgentBench | https://github.com/thudm/agentbench

@@ -1021,4 +1021,11 @@
 - Created: raw/articles/ai-game-devtools/vitron.md
 - Created: ai-game-devtools/vitron.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+
+## [2026-04-15] ingest | VILA — NVIDIA 开源 VLM 家族
+- Cloned: ~/tmp/ai-game-devtools/vila/
+- Created: raw/articles/ai-game-devtools/vila.md
+- Created: ai-game-devtools/vila.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added VILA to VLM section)
 - Updated: index.md (added vitron entry under VLM section)

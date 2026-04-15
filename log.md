@@ -1164,3 +1164,9 @@
 - Created: ai-game-devtools/crewai.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added crewai entry under AI Game DevTools section)
+## [2026-04-15] ingest | Datarus Jupyter Agent — 数据科学 Jupyter Agent
+- Cloned: ~/tmp/ai-game-devtools/datarus-jupyter-agent/ (GitHub)
+- Created: raw/articles/ai-game-devtools/datarus-jupyter-agent.md
+- Created: ai-game-devtools/datarus-jupyter-agent.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added datarus-jupyter-agent entry under AI Game DevTools section)

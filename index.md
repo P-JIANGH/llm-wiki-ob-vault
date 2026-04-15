@@ -355,9 +355,10 @@
 ||||||| [[ai-game-devtools/minigpt-4]] — Vision-CAIR/EAIST VLM：冻结 ViT+Q-Former 连接冻结 LLM（Vicuna/LLaMA-2），两阶段对齐训练，图像描述/故事生成/游戏资产理解，BSD 3-Clause |
 ||| [[ai-game-devtools/pllava]] — NUS 参数自由 LLaVA 视频扩展：时序池化策略解决 dominant patch 问题，Video ChatGPT 3.48/5 SOTA（+0.31 超 GPT4V），MVBench 58.1%（+14.5% 超 GPT4V），7B/13B/34B |
 ||| [[ai-game-devtools/video-agent]] — ECCV 2024 记忆增强多模态 Agent：Temporal+Object 双层记忆系统 + LangChain ReAct，GPT-4o 驱动工具调用回答视频问题，Video-LLaVA/GPT-4V 双 VQA 后端 |
-| [[ai-game-devtools/video-ccam]] — 腾讯多媒体团队视频-语言大模型（4B/7B/9B/14B），Causal Cross-Attention Masks 机制提升长短视频理解，Video-MME 57.4（有字幕），开源 MLLM SOTA |
-| [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
-||||| [[ai-game-devtools/lamini]]
+|| [[ai-game-devtools/video-ccam]] — 腾讯多媒体团队视频-语言大模型（4B/7B/9B/14B），Causal Cross-Attention Masks 机制提升长短视频理解，Video-MME 57.4（有字幕），开源 MLLM SOTA |
+|| [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
+|| [[ai-game-devtools/videollama2]] — DAMO-NLP-SG 视频-语言多模态 LLM（7B~72B），MLVU/VideoMME 双榜单 Top-1，SigLIP/Qwen2 架构，支持音频-视觉联合推理，Apache 2.0
+|||||| [[ai-game-devtools/lamini]]
 |||||| [[ai-game-devtools/minicpm-2b]] — OpenBMB 高效 LLM 系列（2B-9B），MiniCPM-2B 达 Mistral-7B 水平，MiniCPM-SALA 混合注意力支持 1M token context，Apache 2.0 |
 ||||||| [[ai-game-devtools/minicpm-llama3-v-2.5]] — OpenBMB 多模态模型（3B），SigLip-400M+MiniCPM-2.4B，64 token 视觉压缩，GPT-4V 级性能，首个端侧中英双语 LMM，支持手机部署，Apache 2.0 |
 |||||||| [[ai-game-devtools/minicpm-v-4.0]] — MiniCPM-V 4.0 (4.1B) 视觉 + MiniCPM-o 4.5 (9B) 全双工语音，SigLIP2+Whisper+CosyVoice2，端侧多模态，逼近 Gemini 2.5 Flash |

@@ -983,3 +983,15 @@
 - Created: ai-game-devtools/video-ccam.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added video-ccam entry under VLM section)
+## [2026-04-15] ingest | AgentBench — LLM Agent benchmark
+- Cloned: ~/tmp/ai-game-devtools/agentbench/ (GitHub)
+- Created: raw/articles/ai-game-devtools/agentbench.md
+- Created: ai-game-devtools/agentbench.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added agentbench entry under Game section)
+## [2026-04-15] ingest | VideoLLaMA 2 — VLM 视频-语言多模态模型
+- Cloned: ~/tmp/ai-game-devtools/videollama2/ (GitHub)
+- Created: raw/articles/ai-game-devtools/videollama2.md
+- Created: ai-game-devtools/videollama2.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added videollama2 entry under VLM section)

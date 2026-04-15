@@ -26,6 +26,12 @@
 - Created: ai-game-devtools/webgpt.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added webgpt entry under AI/LLM/Agent section)
+## [2026-04-15] ingest | Cradle — BAAI 游戏/软件 Agent 框架
+- Cloned: ~/tmp/ai-game-devtools/cradle/ (GitHub)
+- Created: raw/articles/ai-game-devtools/cradle.md
+- Created: ai-game-devtools/cradle.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added cradle entry under AI Game DevTools section)
 ## [2026-04-14] ingest | Seed-OSS — AI游戏开发工具
 - Cloned: ~/tmp/ai-game-devtools/seed-oss/
 - Created: raw/articles/ai-game-devtools/seed-oss.md
@@ -1152,3 +1158,9 @@
 - Created: ai-game-devtools/comorag.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added comorag entry under AI Game DevTools section)
+## [2026-04-15] ingest | crewAI — 独立多Agent框架（无LangChain依赖）
+- Cloned: ~/tmp/ai-game-devtools/crewai/ (GitHub)
+- Created: raw/articles/ai-game-devtools/crewai.md
+- Created: ai-game-devtools/crewai.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added crewai entry under AI Game DevTools section)

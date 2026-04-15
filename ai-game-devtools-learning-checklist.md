@@ -246,7 +246,7 @@
 - [ ] DeepSeek Coder | https://github.com/deepseek-ai/DeepSeek-Coder
 - [ ] PandasAI | https://github.com/gventuri/pandas-ai
 - [ ] Scikit-LLM | https://github.com/iryna-kondr/scikit-llm
-- [ ] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
+- [2026-04-15] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
 - [ ] StarCoder | https://github.com/bigcode-project/starcoder
 - [ ] StarCoder 2 | https://github.com/bigcode-project/starcoder2
 - [ ] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI

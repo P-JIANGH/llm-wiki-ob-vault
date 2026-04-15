@@ -338,12 +338,13 @@
 ||||||||||| [[ai-game-devtools/points-reader]] — Tencent 蒸馏-free 文档提取 VLM（3B），POINTS1.5 架构+Qwen2.5-3B，EMNLP 2025，OmniDocBench EN SOTA 0.133，支持 SGLang/vLLM |
 | [[ai-game-devtools/qwen-vl]] — 阿里 VLM 系列（Qwen-VL/Chat/Plus/Max/Int4），448×448 高分辨率，中英双语 OCR SOTA，RefCOCO 定位 89.36%，Qwen-VL-Max 超越 GPT-4V 在 DocVQA 93.1%，支持 LoRA/Q-LoRA 微调 |
 ||||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
-|| [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
-||||||||||| [[ai-game-devtools/dots-vlm1]]
-||||||| [[ai-game-devtools/lumina-dimoo]] — Alpha-VLLM 全模态离散扩散生成+理解模型：DiMOO 架构统一 T2I/I2I/图像修复/外绘/视觉 QA，VQ 离散码 + 去噪扩散，ML-Cache 2× 加速，A800 58.2s→32.2s，UniGenBench 开源统一模型第一 |
-|| [[ai-game-devtools/kangaroo]]
-| [[ai-game-devtools/kwai-keye-vl]] — 快手可灵 VLM 系列（8B/671B），SigLIP+SlowFast Video Encoding，视频理解 SOTA，128K context，Apache 2.0 |
-| [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
+||| [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
+|||||||||||| [[ai-game-devtools/dots-vlm1]]
+| [[ai-game-devtools/sharegpt4v]] — USTC 上海AI Lab VLM 数据集+模型（7B/13B），GPT4V生成100K+1.2M高质量字幕，LLaVA架构+CLIP视觉编码+Vicuna基座，ECCV 2024 |
+|||||||| [[ai-game-devtools/lumina-dimoo]] — Alpha-VLLM 全模态离散扩散生成+理解模型：DiMOO 架构统一 T2I/I2I/图像修复/外绘/视觉 QA，VQ 离散码 + 去噪扩散，ML-Cache 2× 加速，A800 58.2s→32.2s，UniGenBench 开源统一模型第一 |
+ || [[ai-game-devtools/kangaroo]]
+ | [[ai-game-devtools/kwai-keye-vl]] — 快手可灵 VLM 系列（8B/671B），SigLIP+SlowFast Video Encoding，视频理解 SOTA，128K context，Apache 2.0 |
+ | [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM
 ||||||||| [[ai-game-devtools/evf-sam]] — HUST/vivo AI Lab 开源指代表达分割模型：SAM + BEIT-3 视觉-语言早期融合，文本提示分割图像/视频目标，支持多任务（部位/语义/指代），gIoU 84.2，Apache 2.0 |
 |||||||| [[ai-game-devtools/mplug-owl]]
 |||| [[ai-game-devtools/moe-llava]] — PKU-YuanGroup MoE-VLM（2-3.6B 激活参数），Top-2 稀疏激活比肩 LLaVA-1.5-7B，Phi-2/Qwen/StableLM 多 backbone，IEEE TMM 2025，Apache 2.0 |

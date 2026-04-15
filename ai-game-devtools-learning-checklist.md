@@ -176,7 +176,7 @@
 - [2026-04-15] behaviac | https://github.com/Tencent/behaviac
 - [2026-04-15] Biomes | https://github.com/ill-inc/biomes-game
 - [2026-04-15] Buffer of Thoughts | https://github.com/YangLing0818/buffer-of-thought-llm
-- [ ] Byzer-Agent | https://github.com/allwefantasy/byzer-agent
+- [2026-04-15] Byzer-Agent | https://github.com/allwefantasy/byzer-agent
 - [ ] Cat Town | https://github.com/ykhli/cat-town
 - [ ] CharacterGLM | https://github.com/thu-coai/CharacterGLM-6B
 - [ ] ComoRAG | https://github.com/EternityJune25/ComoRAG

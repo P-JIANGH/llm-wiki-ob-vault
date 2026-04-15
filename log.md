@@ -1122,3 +1122,9 @@
 - Created: ai-game-devtools/buffer-of-thoughts.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added buffer-of-thoughts entry under AI Game DevTools section)
+## [2026-04-15] ingest | Byzer-Agent — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/byzer-agent/ (GitHub)
+- Created: raw/articles/ai-game-devtools/byzer-agent.md
+- Created: ai-game-devtools/byzer-agent.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added byzer-agent entry under AI Game DevTools section)

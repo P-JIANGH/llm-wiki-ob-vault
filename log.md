@@ -1140,3 +1140,9 @@
 - Created: ai-game-devtools/ai-code-translator.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added ai-code-translator entry under Code Tools section)
+## [2026-04-15] ingest | CharacterGLM-6B — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/character-glm-6b/ (GitHub)
+- Created: raw/articles/ai-game-devtools/character-glm-6b.md
+- Created: ai-game-devtools/character-glm-6b.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added character-glm-6b entry under AI Game DevTools section)

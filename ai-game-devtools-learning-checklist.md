@@ -162,7 +162,7 @@
 
 ## Game (World Model & Agent) (67)
 - [2026-04-15] AgentBench | https://github.com/thudm/agentbench
-- [ ] Agent Group Chat | https://github.com/MikeGu721/AgentGroup
+- [2026-04-15] Agent Group Chat | https://github.com/MikeGu721/AgentGroup
 - [ ] Agent K | https://github.com/mikekelly/AgentK
 - [ ] Agent Laboratory | https://github.com/SamuelSchmidgall/AgentLaboratory
 - [ ] AgentScope | https://github.com/modelscope/agentscope

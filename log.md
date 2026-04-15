@@ -1110,3 +1110,9 @@
 - Created: ai-game-devtools/behaviac.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added Behaviac entry under AI Game DevTools section)
+## [2026-04-15] ingest | Biomes — ill-inc 开源 Web 沙盒 MMORPG
+- Cloned: ~/tmp/ai-game-devtools/biomes/ (GitHub)
+- Created: raw/articles/ai-game-devtools/biomes.md
+- Created: ai-game-devtools/biomes.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added biomes entry under Game Projects & Studios section)

@@ -934,3 +934,10 @@
 - Created: ai-game-devtools/pllava.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added pllava entry under VLM section)
+
+## [2026-04-15] ingest | POINTS-Reader
+- Cloned: ~/tmp/ai-game-devtools/points-reader/
+- Created: raw/articles/ai-game-devtools/points-reader.md
+- Created: ai-game-devtools/points-reader.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added points-reader entry under VLM section)

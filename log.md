@@ -1116,3 +1116,9 @@
 - Created: ai-game-devtools/biomes.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added biomes entry under Game Projects & Studios section)
+## [2026-04-15] ingest | Buffer of Thoughts — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/buffer-of-thought-llm/ (GitHub)
+- Created: raw/articles/ai-game-devtools/buffer-of-thought-llm.md
+- Created: ai-game-devtools/buffer-of-thoughts.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added buffer-of-thoughts entry under AI Game DevTools section)

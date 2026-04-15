@@ -941,3 +941,10 @@
 - Created: ai-game-devtools/points-reader.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added points-reader entry under VLM section)
+
+## [2026-04-15] ingest | Qwen-VL
+- Cloned: ~/tmp/ai-game-devtools/qwen-vl/ (from gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/qwen-vl.md
+- Created: ai-game-devtools/qwen-vl.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added qwen-vl entry under VLM section)

@@ -335,6 +335,7 @@
 ||||||||||| [[ai-game-devtools/onellm]] — CVPR 2024 统一多模态框架：8种模态（图像/视频/音频/点云/深度法线/IMU/fMRI），ImageBind 编码器 + 三阶段训练 |
 ||||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
 ||||||||||| [[ai-game-devtools/points-reader]] — Tencent 蒸馏-free 文档提取 VLM（3B），POINTS1.5 架构+Qwen2.5-3B，EMNLP 2025，OmniDocBench EN SOTA 0.133，支持 SGLang/vLLM |
+| [[ai-game-devtools/qwen-vl]] — 阿里 VLM 系列（Qwen-VL/Chat/Plus/Max/Int4），448×448 高分辨率，中英双语 OCR SOTA，RefCOCO 定位 89.36%，Qwen-VL-Max 超越 GPT-4V 在 DocVQA 93.1%，支持 LoRA/Q-LoRA 微调 |
 ||||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
 || [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
 ||||||||||| [[ai-game-devtools/dots-vlm1]]

@@ -148,7 +148,7 @@
 - [2026-04-15] MotionLLM | https://github.com/IDEA-Research/MotionLLM
 - [2026-04-15] PLLaVA | https://github.com/magic-research/PLLaVA
 - [2026-04-15] POINTS-Reader | https://github.com/Tencent/POINTS-Reader
-- [ ] Qwen-VL | https://github.com/QwenLM/Qwen-VL
+- [2026-04-15] Qwen-VL | https://github.com/QwenLM/Qwen-VL
 - [ ] Sapiens | https://github.com/facebookresearch/sapiens
 - [ ] ShareGPT4V | https://github.com/ShareGPT4Omni/ShareGPT4V
 - [ ] SOLO | https://github.com/Yangyi-Chen/SOLO

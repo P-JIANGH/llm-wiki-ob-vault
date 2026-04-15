@@ -1009,3 +1009,10 @@
 - Created: ai-game-devtools/video-llama-3.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added video-llama-3 entry under VLM section)
+
+## [2026-04-15] ingest | Video-MME — CVPR 2025 视频理解 MLLM 评测基准
+- Cloned: ~/tmp/ai-game-devtools/video-mme/
+- Created: raw/articles/ai-game-devtools/video-mme.md
+- Created: ai-game-devtools/video-mme.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added video-mme entry under VLM section)

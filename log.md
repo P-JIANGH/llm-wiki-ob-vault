@@ -1050,3 +1050,17 @@
 - Created: ai-game-devtools/agent-laboratory.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added agent-laboratory entry under AI Game DevTools section)
+
+## [2026-04-15] ingest | AgentScope — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/agentscope/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/agentscope.md
+- Created: ai-game-devtools/agentscope.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added agentscope entry under Game section)
+
+## [2026-04-15] ingest | AgentSims
+- Cloned: ~/tmp/ai-game-devtools/agentsims/ (GitHub)
+- Created: raw/articles/ai-game-devtools/agentsims.md
+- Created: ai-game-devtools/agentsims.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added agentsims entry under AI Game DevTools section)

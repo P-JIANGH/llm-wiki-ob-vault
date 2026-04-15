@@ -78,6 +78,7 @@
 | [[ai-game-devtools/agentbench]] — THUDM LLM Agent 评测基准：8种环境（OS/DB/KG/游戏/推理等），评估 LLM 作为自主 Agent 的规划与工具使用能力，arXiv 2308.03688，MIT |
 | [[ai-game-devtools/agent-k]] — mikekelly 自进化 AGI 系统：LangGraph + LangChain，4个 Kernel Agent（Hermes/AgentSmith/ToolMaker/WebResearcher）协作，可动态创建新 Agent，MIT |
 | [[ai-game-devtools/agent-laboratory]] — SamuelSchmidgall/Johns Hopkins LLM 自主研究 Agent：4阶段流水线（文献综述→实验→报告）+ AgentRxiv 知识累积框架，o1/o3-mini/GPT-4o/DeepSeek-V3，MIT |
+| [[ai-game-devtools/agentsims]] — PTA Studio 模拟城镇 LLM Agent 评测沙盒：QA评估+Github Actions CI、多智能体+建筑+NPC经济系统，ArXiv 2308.04026 |
 | [[ai-game-devtools/agentscope]] — 阿里巴巴通义实验室 Agent 框架（Apache 2.0）：ReAct/Voice/多Agent 工作流 + MCP/A2A 协议 + Trinity-RFT RL 微调 + K8s/OTel 生产部署，支持狼人杀等游戏示例 |
 | [[ai-game-devtools/agent-group-chat]] —
 || [[ai-game-devtools/longcat-flash]] — 美团 560B MoE LLM（激活 27B），ScMoE 架构 >100 TPS，128K context，Agent 任务 SOTA（τ²-Bench 73.68），MIT |

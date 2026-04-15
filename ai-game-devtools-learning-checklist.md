@@ -170,7 +170,7 @@
 - [2026-04-15] AI Town | https://github.com/a16z-infra/ai-town
 - [2026-04-15] anime.gf | https://github.com/cyanff/anime.gf
 - [2026-04-15] Atomic Agents | https://github.com/KennyVaneetvelde/atomic_agents
-- [ ] AutoAgents | https://github.com/Link-AGI/AutoAgents
+- [2026-04-15] AutoAgents | https://github.com/Link-AGI/AutoAgents
 - [ ] AutoGen | https://github.com/microsoft/autogen
 - [ ] AWorld | https://github.com/inclusionAI/AWorld
 - [ ] behaviac | https://github.com/Tencent/behaviac

@@ -84,6 +84,7 @@
 | [[ai-game-devtools/agentscope]] — 阿里巴巴通义实验室 Agent 框架（Apache 2.0）：ReAct/Voice/多Agent 工作流 + MCP/A2A 协议 + Trinity-RFT RL 微调 + K8s/OTel 生产部署，支持狼人杀等游戏示例 |
 | [[ai-game-devtools/atomic-agents]] — BrainBlend AI 轻量模块化 Agent 框架（MIT）：基于 Instructor + Pydantic v2，Schema-driven I/O 契约，Composable Agent Chaining，MCP 支持，v2.7.5 |
 | [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
+| [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |
 | [[ai-game-devtools/agent-group-chat]] —
 || [[ai-game-devtools/longcat-flash]] — 美团 560B MoE LLM（激活 27B），ScMoE 架构 >100 TPS，128K context，Agent 任务 SOTA（τ²-Bench 73.68），MIT |
 | [[ai-game-devtools/longwriter]] — THUDM 超长文本生成 LLM（10K+ 词），基于 GLM-4-9B/Llama-3.1-8B 微调，AgentWrite 流水线，vLLM 推理 1 万词/分钟，Apache 2.0 |

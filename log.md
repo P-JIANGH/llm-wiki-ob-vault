@@ -1084,3 +1084,10 @@
 - Created: ai-game-devtools/atomic-agents.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added atomic-agents entry under AI Game DevTools section)
+
+## [2026-04-15] ingest | AutoAgents
+- Cloned: ~/tmp/ai-game-devtools/autoagents/ (GitHub)
+- Created: raw/articles/ai-game-devtools/autoagents.md
+- Created: ai-game-devtools/autoagents.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added autoagents entry under AI Game DevTools section)

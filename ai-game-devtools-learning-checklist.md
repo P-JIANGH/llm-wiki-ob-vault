@@ -180,7 +180,7 @@
 - [2026-04-15] Cat Town | https://github.com/ykhli/cat-town
 - [2026-04-15] CharacterGLM | https://github.com/thu-coai/CharacterGLM-6B
 - [2026-04-15] ComoRAG | https://github.com/EternityJune25/ComoRAG
-- [ ] Cradle | https://github.com/BAAI-Agents/Cradle
+- [2026-04-15] Cradle | https://github.com/BAAI-Agents/Cradle
 - [ ] crewAI | https://github.com/joaomdmoura/crewAI
 - [ ] Datarus Jupyter Agent | https://github.com/DatarusAI/Datarus-JupyterAgent
 - [ ] Dify | https://github.com/langgenius/dify

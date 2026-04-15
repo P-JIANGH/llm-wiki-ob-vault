@@ -82,6 +82,7 @@
 | [[ai-game-devtools/ai-town]] — a16z-infra 虚拟小镇模拟：Convex + PixiJS + Ollama/OpenAI，AI 角色自主聊天社交，灵感来自 Stanford Generative Agents 论文，JS/TS 入门套件 |
 | [[ai-game-devtools/anime-gf]] — cyan/moecorp 桌面 LLM 聊天前端：Electron + React + tRPC + SQLite，支持 OpenAI/Anthropic/Mistral/Together AI 及任意 OpenAI兼容端点，角色卡系统，AGPL |
 | [[ai-game-devtools/agentscope]] — 阿里巴巴通义实验室 Agent 框架（Apache 2.0）：ReAct/Voice/多Agent 工作流 + MCP/A2A 协议 + Trinity-RFT RL 微调 + K8s/OTel 生产部署，支持狼人杀等游戏示例 |
+| [[ai-game-devtools/behaviac]] — 腾讯游戏AI行为框架：行为树/FSM/HTN三种范式，编辑器仅Windows+运行时C++/C#全平台，支持热重载，BSD 3-Clause |
 | [[ai-game-devtools/atomic-agents]] — BrainBlend AI 轻量模块化 Agent 框架（MIT）：基于 Instructor + Pydantic v2，Schema-driven I/O 契约，Composable Agent Chaining，MCP 支持，v2.7.5 |
 | [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
 | [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |

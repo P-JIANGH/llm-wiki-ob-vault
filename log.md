@@ -1104,3 +1104,9 @@
 - Created: ai-game-devtools/aworld.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added aworld entry under AI Game DevTools section)
+## [2026-04-15] ingest | Behaviac — 腾讯游戏AI行为框架
+- Cloned: ~/tmp/ai-game-devtools/behaviac/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/behaviac.md
+- Created: ai-game-devtools/behaviac.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added Behaviac entry under AI Game DevTools section)

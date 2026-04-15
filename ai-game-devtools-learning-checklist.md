@@ -173,7 +173,7 @@
 - [2026-04-15] AutoAgents | https://github.com/Link-AGI/AutoAgents
 - [2026-04-15] AutoGen | https://github.com/microsoft/autogen
 - [2026-04-15] AWorld | https://github.com/inclusionAI/AWorld
-- [ ] behaviac | https://github.com/Tencent/behaviac
+- [2026-04-15] behaviac | https://github.com/Tencent/behaviac
 - [ ] Biomes | https://github.com/ill-inc/biomes-game
 - [ ] Buffer of Thoughts | https://github.com/YangLing0818/buffer-of-thought-llm
 - [ ] Byzer-Agent | https://github.com/allwefantasy/byzer-agent

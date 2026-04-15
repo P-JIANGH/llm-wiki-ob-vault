@@ -977,3 +977,9 @@
 - Created: ai-game-devtools/video-agent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added video-agent entry)
+## [2026-04-15] ingest | Video-CCAM
+- Cloned: ~/tmp/ai-game-devtools/video-ccam/ (from github.com)
+- Created: raw/articles/ai-game-devtools/video-ccam.md
+- Created: ai-game-devtools/video-ccam.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added video-ccam entry under VLM section)

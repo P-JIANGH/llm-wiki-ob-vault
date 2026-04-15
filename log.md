@@ -1043,3 +1043,10 @@
 - Created: ai-game-devtools/agent-k.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added agent-k entry under Game section)
+
+## [2026-04-15] ingest | Agent Laboratory
+- Cloned: ~/tmp/ai-game-devtools/agent-laboratory/ (GitHub)
+- Created: raw/articles/ai-game-devtools/agent-laboratory.md
+- Created: ai-game-devtools/agent-laboratory.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added agent-laboratory entry under AI Game DevTools section)

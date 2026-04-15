@@ -1176,3 +1176,8 @@
 - Created: ai-game-devtools/datarus-jupyter-agent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added datarus-jupyter-agent entry under AI Game DevTools section)
+## [2026-04-15] ingest | everything-ai — 多任务 AI 助手（Docker RAG/文本/图像/音频/视频）
+- Cloned: ~/tmp/ai-game-devtools/everything-ai/ (GitHub)
+- Created: raw/articles/ai-game-devtools/everything-ai.md
+- Created: ai-game-devtools/everything-ai.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])

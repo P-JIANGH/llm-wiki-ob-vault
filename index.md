@@ -352,7 +352,8 @@
 |||| [[ai-game-devtools/jan]] — Janhq
 |||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
 ||||||| [[ai-game-devtools/minigpt-4]] — Vision-CAIR/EAIST VLM：冻结 ViT+Q-Former 连接冻结 LLM（Vicuna/LLaMA-2），两阶段对齐训练，图像描述/故事生成/游戏资产理解，BSD 3-Clause |
-|| [[ai-game-devtools/pllava]] — NUS 参数自由 LLaVA 视频扩展：时序池化策略解决 dominant patch 问题，Video ChatGPT 3.48/5 SOTA（+0.31 超 GPT4V），MVBench 58.1%（+14.5% 超 GPT4V），7B/13B/34B |
+||| [[ai-game-devtools/pllava]] — NUS 参数自由 LLaVA 视频扩展：时序池化策略解决 dominant patch 问题，Video ChatGPT 3.48/5 SOTA（+0.31 超 GPT4V），MVBench 58.1%（+14.5% 超 GPT4V），7B/13B/34B |
+||| [[ai-game-devtools/video-agent]] — ECCV 2024 记忆增强多模态 Agent：Temporal+Object 双层记忆系统 + LangChain ReAct，GPT-4o 驱动工具调用回答视频问题，Video-LLaVA/GPT-4V 双 VQA 后端 |
 ||||| [[ai-game-devtools/lamini]]
 |||||| [[ai-game-devtools/minicpm-2b]] — OpenBMB 高效 LLM 系列（2B-9B），MiniCPM-2B 达 Mistral-7B 水平，MiniCPM-SALA 混合注意力支持 1M token context，Apache 2.0 |
 ||||||| [[ai-game-devtools/minicpm-llama3-v-2.5]] — OpenBMB 多模态模型（3B），SigLip-400M+MiniCPM-2.4B，64 token 视觉压缩，GPT-4V 级性能，首个端侧中英双语 LMM，支持手机部署，Apache 2.0 |

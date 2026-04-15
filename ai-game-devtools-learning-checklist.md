@@ -152,7 +152,7 @@
 - [2026-04-15] Sapiens | https://github.com/facebookresearch/sapiens
 - [2026-04-15] ShareGPT4V | https://github.com/ShareGPT4Omni/ShareGPT4V
 - [2026-04-15] SOLO | https://github.com/Yangyi-Chen/SOLO
-- [ ] VideoAgent | https://github.com/YueFan1014/VideoAgent
+- [2026-04-15] VideoAgent | https://github.com/YueFan1014/VideoAgent
 - [ ] Video-CCAM | https://github.com/QQ-MM/Video-CCAM
 - [ ] VideoLLaMA 2 | https://github.com/DAMO-NLP-SG/VideoLLaMA2
 - [ ] VideoLLaMA 3 | https://github.com/DAMO-NLP-SG/VideoLLaMA3

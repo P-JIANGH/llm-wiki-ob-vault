@@ -1198,4 +1198,9 @@
 - Created: ai-game-devtools/gameaisdk.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added entry)
-- Updated: index.md (added fastgpt entry under AI Game DevTools section)
+## [2026-04-15] ingest | fastRAG — IntelLabs 高效RAG框架（ColBERT+PLAID/Haystack/多后端）
+- Cloned: ~/tmp/ai-game-devtools/fastrag/ (GitHub)
+- Created: raw/articles/ai-game-devtools/fastrag.md
+- Created: ai-game-devtools/fastrag.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added fastrag entry under AI Game DevTools section)

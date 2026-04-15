@@ -330,11 +330,12 @@
 | [[ai-game-devtools/gemma-cpp]] — Google 纯 C++ LLM 推理引擎（Gemma 2/3/RecurrentGemma/PaliGemma 2），~2K LoC 核心，Google Highway SIMD，无外部 ML 框架，Apache 2.0 |
 | [[ai-game-devtools/tinychatengine]] — MIT Han Lab 端侧 LLM/VLM 推理引擎，纯 C/C++ 无外部依赖，AWQ/SmoothQuant 4-bit 量化支持 Llama-3/CodeLLaMA/VILA，MLSys 2024 Best Paper，MIT |
 ||| [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型：图像/文本/音频/深度/热成像/IMU 统一到同一向量空间，零样本跨模态检索，CVPR 2023，CC BY-NC 4.0 |
-|||||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
-||||||||||| [[ai-game-devtools/longva]] — S-Lab/NTU 长视觉上下文 LLM（7B），2000帧/200K+视觉 tokens，文本上下文扩展技术零样本迁移到视觉域，Video-MME 7B SOTA，S-Lab License |
-||||||| [[ai-game-devtools/onellm]] — CVPR 2024 统一多模态框架：LLaMA-2 7B 对齐 8 种模态（图像/视频/音频/点云/深度法线/IMU/fMRI），ImageBind 编码器 + 三阶段训练 |
-|||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
-|||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
+||||||| [[ai-game-devtools/cambrian-1]] — NYU Vision X/Yann LeCun/Saining Xie 开源 VLM（8B/13B/34B），SVA 多 encoder 视觉聚合器，576 固定视觉 tokens 超越 LLaVA-NeXT 2880 tokens 方案，CV-Bench 评测基准，Apache 2.0 |
+|||||||||||| [[ai-game-devtools/longva]] — S-Lab/NTU 长视觉上下文 LLM（7B），2000帧/200K+视觉 tokens，文本上下文扩展技术零样本迁移到视觉域，Video-MME 7B SOTA，S-Lab License |
+||||||||||| [[ai-game-devtools/onellm]] — CVPR 2024 统一多模态框架：8种模态（图像/视频/音频/点云/深度法线/IMU/fMRI），ImageBind 编码器 + 三阶段训练 |
+||||||||||| [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列（GLM-4.6V 106B / GLM-4.1V-9B），原生多模态函数调用 + CoT 推理，128K context，10B 级最强 VLM 超越 Qwen2.5-VL-72B 在18项任务，Apache 2.0 |
+||||||||||| [[ai-game-devtools/points-reader]] — Tencent 蒸馏-free 文档提取 VLM（3B），POINTS1.5 架构+Qwen2.5-3B，EMNLP 2025，OmniDocBench EN SOTA 0.133，支持 SGLang/vLLM |
+||||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
 || [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
 ||||||||||| [[ai-game-devtools/dots-vlm1]]
 ||||||| [[ai-game-devtools/lumina-dimoo]] — Alpha-VLLM 全模态离散扩散生成+理解模型：DiMOO 架构统一 T2I/I2I/图像修复/外绘/视觉 QA，VQ 离散码 + 去噪扩散，ML-Cache 2× 加速，A800 58.2s→32.2s，UniGenBench 开源统一模型第一 |

@@ -230,7 +230,7 @@
 - [ ] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
 
 ## Code (21)
-- [ ] AI Code Translator | https://github.com/mckaywrigley/ai-code-translator
+- [2026-04-15] AI Code Translator | https://github.com/mckaywrigley/ai-code-translator
 - [ ] aiXcoder-7B | https://github.com/aixcoder-plugin/aiXcoder-7B
 - [ ] bloop | https://github.com/BloopAI/bloop
 - [ ] Chapyter | https://github.com/chapyter/chapyter

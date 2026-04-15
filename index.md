@@ -134,7 +134,12 @@
 |||||| [[ai-game-devtools/webgpt]] — 0hq 纯浏览器端 GPT 推理：WebGPU + WGSL 自定义着色器，117M~1.5B 模型免构建直接开 HTML 运行，适合教育目的，MIT |
 ||||||| [[ai-game-devtools/wordgpt]] — filippofinke Microsoft Word Office 插件：OpenAI text-davinci-003 集成，Prompt 输入→生成→插入文档，React + Fluent UI，MIT |
 ||| [[ai-game-devtools/sotana]] — DeepSoftwareAnalytics 软件工程指令微调模型：LLaMA + LoRA（7B/13B/30B），覆盖 Stack Overflow 问答/代码生成/代码摘要三类任务，PEFT 高效微调 |
-||||||## Open Source Games
+
+## Code Tools
+
+|| [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT |
+
+|||## Open Source Games
 - [[open-source-game/athena-crisis]] — 现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容），Steam 商业化
 - [[open-source-game/the-battle-for-wesnoth]] — 高奇幻回合策略，WML+Lua 内容脚本系统，86K commits，C++17 + SDL2
 - [[open-source-game/vcmi]] — Heroes of Might and Magic III 完全开源引擎重实现，C++20 C/S 架构，Bonus DAG 传播系统，Callback 接口三层分离，多 AI 并存，ERM+Lua 双脚本

@@ -1192,4 +1192,10 @@
 - Created: raw/articles/ai-game-devtools/fastgpt.md
 - Created: ai-game-devtools/fastgpt.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+## [2026-04-15] ingest | GameAISDK — 腾讯游戏AI工具包（强化学习+图像识别）
+- Cloned: ~/tmp/ai-game-devtools/gameaisdk/ (GitHub)
+- Created: raw/articles/ai-game-devtools/gameaisdk.md
+- Created: ai-game-devtools/gameaisdk.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added entry)
 - Updated: index.md (added fastgpt entry under AI Game DevTools section)

@@ -188,7 +188,7 @@
 - [2026-04-15] fabric | https://github.com/danielmiessler/fabric
 - [2026-04-15] FastGPT | https://github.com/labring/FastGPT
 - [ ] fastRAG | https://github.com/IntelLabs/fastRAG
-- [ ] GameAISDK | https://github.com/Tencent/GameAISDK
+- [2026-04-15] GameAISDK | https://github.com/Tencent/GameAISDK
 - [ ] GameGen-O | https://github.com/GameGen-O/GameGen-O
 - [ ] GenAgent | https://github.com/xxyQwQ/GenAgent
 - [ ] Generative Agents | https://github.com/joonspk-research/generative_agents

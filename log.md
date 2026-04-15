@@ -1016,3 +1016,9 @@
 - Created: ai-game-devtools/video-mme.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added video-mme entry under VLM section)
+## [2026-04-15] ingest | Vitron — 统一像素级视觉 LLM (NeurIPS 2024)
+- Cloned: ~/tmp/ai-game-devtools/vitron/
+- Created: raw/articles/ai-game-devtools/vitron.md
+- Created: ai-game-devtools/vitron.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added vitron entry under VLM section)

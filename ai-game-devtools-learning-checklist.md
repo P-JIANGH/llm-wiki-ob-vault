@@ -185,7 +185,7 @@
 - [2026-04-15] Datarus Jupyter Agent | https://github.com/DatarusAI/Datarus-JupyterAgent
 - [2026-04-15] Dify | https://github.com/langgenius/dify
 - [2026-04-15] everything-ai | https://github.com/AstraBert/everything-ai
-- [ ] fabric | https://github.com/danielmiessler/fabric
+- [2026-04-15] fabric | https://github.com/danielmiessler/fabric
 - [ ] FastGPT | https://github.com/labring/FastGPT
 - [ ] fastRAG | https://github.com/IntelLabs/fastRAG
 - [ ] GameAISDK | https://github.com/Tencent/GameAISDK

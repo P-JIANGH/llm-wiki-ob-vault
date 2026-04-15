@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-15] ingest | fabric — Daniel Miessler 开源 AI 增强框架
+- Cloned: ~/tmp/ai-game-devtools/fabric/
+- Created: raw/articles/ai-game-devtools/fabric.md
+- Created: ai-game-devtools/fabric.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+- Updated: index.md (added fabric entry under AI Game DevTools section)
 ## [2026-04-15] ingest | Dify — LangGenius LLM 应用开发平台
 - Cloned: ~/tmp/ai-game-devtools/dify/ (GitCode mirror)
 - Created: raw/articles/ai-game-devtools/dify.md

@@ -167,7 +167,7 @@
 - [2026-04-15] Agent Laboratory | https://github.com/SamuelSchmidgall/AgentLaboratory
 - [2026-04-15] AgentScope | https://github.com/modelscope/agentscope
 - [2026-04-15] AgentSims | https://github.com/py499372727/AgentSims/
-- [ ] AI Town | https://github.com/a16z-infra/ai-town
+- [2026-04-15] AI Town | https://github.com/a16z-infra/ai-town
 - [ ] anime.gf | https://github.com/cyanff/anime.gf
 - [ ] Atomic Agents | https://github.com/KennyVaneetvelde/atomic_agents
 - [ ] AutoAgents | https://github.com/Link-AGI/AutoAgents

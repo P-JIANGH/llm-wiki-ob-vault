@@ -137,3 +137,9 @@
 - Created: ai-game-devtools/easyphoto.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added easyphoto entry under AI Game DevTools section, updated page count 469→470)
+## [2026-04-17] ingest | Flux
+- Cloned: ~/tmp/ai-game-devtools/flux/
+- Created: raw/articles/ai-game-devtools/flux.md
+- Created: ai-game-devtools/flux.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

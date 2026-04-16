@@ -488,3 +488,4 @@
 |||| [[ai-game-devtools/lemur]] — XLang Lab+Salesforce 70B LLM，NLP+Code 平衡训练，10:1 代码文本比预训练，WebArena/MINT/InterCode agent 评测，Apache |
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |
 ||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包
+- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)

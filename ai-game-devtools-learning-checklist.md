@@ -271,7 +271,7 @@
 - [2026-04-17] DragGAN | https://github.com/XingangPan/DragGAN
 |- [2026-04-17] DWPose | https://github.com/idea-research/dwpose
 - [2026-04-17] EasyPhoto | https://github.com/aigc-apps/sd-webui-EasyPhoto
-- [ ] Flux | https://github.com/black-forest-labs/flux
+- [2026-04-17] Flux | https://github.com/black-forest-labs/flux
 - [ ] Follow-Your-Click | https://github.com/mayuelala/FollowYourClick
 - [ ] Fooocus | https://github.com/lllyasviel/Fooocus
 - [ ] GIFfusion | https://github.com/DN6/giffusion

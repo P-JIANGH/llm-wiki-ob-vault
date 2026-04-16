@@ -1315,3 +1315,9 @@
 - Created: ai-game-devtools/langchain.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md
+## [2026-04-16] ingest | LLama Agentic System — AI游戏开发工具
+- Source: https://github.com/meta-llama/llama-agentic-system (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/llama-agentic-system.md
+- Created: ai-game-devtools/llama-agentic-system.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md

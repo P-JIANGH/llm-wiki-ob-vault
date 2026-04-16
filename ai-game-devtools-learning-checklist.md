@@ -206,7 +206,7 @@
 - [2026-04-16] LangChain | https://github.com/langchain-ai/langchain
 - [2026-04-16] LangGraph Studio | https://github.com/langchain-ai/langgraph-studio
 - [2026-04-16] LARP | https://github.com/MiAO-AI-Lab/LARP
-- [ ] LLama Agentic System | https://github.com/meta-llama/llama-agentic-system
+- [2026-04-16] LLama Agentic System | https://github.com/meta-llama/llama-agentic-system
 - [ ] LlamaIndex | https://github.com/run-llama/llama_index
 - [ ] Matrix-Game | https://github.com/SkyworkAI/Matrix-Game
 - [ ] MindSearch | https://github.com/InternLM/MindSearch

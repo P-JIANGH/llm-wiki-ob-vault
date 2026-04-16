@@ -126,3 +126,9 @@
 - Created: ai-game-devtools/draggan.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added draggan entry under AI Game DevTools section, updated page count 467→468)
+## [2026-04-17] ingest | DWPose — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/dwpose/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/dwpose.md
+- Created: ai-game-devtools/dwpose.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added dwpose entry under AI Game DevTools section, updated page count 468→469)

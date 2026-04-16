@@ -269,7 +269,7 @@
 - [2026-04-17] Depth map library and poser | https://github.com/jexom/sd-webui-depth-lib
 - [2026-04-17] Disco Diffusion | https://github.com/alembics/disco-diffusion
 - [2026-04-17] DragGAN | https://github.com/XingangPan/DragGAN
-- [ ] DWPose | https://github.com/idea-research/dwpose
+|- [2026-04-17] DWPose | https://github.com/idea-research/dwpose
 - [ ] EasyPhoto | https://github.com/aigc-apps/sd-webui-EasyPhoto
 - [ ] Flux | https://github.com/black-forest-labs/flux
 - [ ] Follow-Your-Click | https://github.com/mayuelala/FollowYourClick

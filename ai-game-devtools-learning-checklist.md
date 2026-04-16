@@ -260,7 +260,7 @@
 - [2026-04-17] BriVL | https://github.com/BAAI-WuDao/BriVL
 - [2026-04-17] CatVTON | https://github.com/Zheng-Chong/CatVTON
 - [2026-04-17] CLIPasso | https://github.com/yael-vinker/CLIPasso
-- [ ] ComfyUI | https://github.com/comfyanonymous/ComfyUI
+- [2026-04-17] ComfyUI | https://github.com/comfyanonymous/ComfyUI
 - [ ] ConceptLab | https://github.com/kfirgoldberg/ConceptLab
 - [ ] ControlNet | https://github.com/lllyasviel/ControlNet
 - [ ] CSGO | https://github.com/instantX-research/CSGO

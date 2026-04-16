@@ -66,3 +66,10 @@
 - Created: ai-game-devtools/clipasso.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added clipasso entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | ComfyUI — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/comfyui/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/comfyui.md
+- Created: ai-game-devtools/comfyui.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added comfyui entry under AI Game DevTools section)

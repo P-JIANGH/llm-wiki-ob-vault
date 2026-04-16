@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: N+28 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 305 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -133,6 +133,7 @@
 || [[ai-game-devtools/autostudio]] — donahowe/AutoStudio CVPRW 2026 多轮交互式图像生成框架：四智能体（Subject Manager/LayoutGenerator/Supervisor/Drawer）+ Parallel-UNet + 免训练，保持多主题一致性，FID +13.65% |
 ||| [[ai-game-devtools/catvton]] — ICLR 2025 虚拟试穿扩散模型：899M 参数/仅 49.57M 可训练，SD1.5 Inpainting 基础+拼接融合，1024×768 <8GB 显存，支持 VITON-HD/DressCode，CC BY-NC-SA 4.0 |
 ||| [[ai-game-devtools/clipasso]] — SIGGRAPH 2022 语义感知图像转草图工具：CLIP 感知损失 + diffvg 可微栅格化，贝塞尔曲线优化输出 SVG，笔画数控制抽象程度，CC BY-NC-SA 4.0 |
+||| [[ai-game-devtools/comfyui]] — comfyanonymous 最强模块化视觉 AI 引擎：节点/图/流程图界面设计 SD 管线，18.7万行代码，578 Py文件，SD/Flux/视频/音频全支持，图执行引擎+增量缓存+智能显存管理，GPL v3 |
 | [[ai-game-devtools/aworld]] — inclusionAI 多智能体 Agent Harness 框架：CAST 代码分析 + Benchmark-Driven Development + Self-Evolution Loop，GAIA/OSWorld/XBench 多项 Leaderboard 1st，MIT |
 | [[ai-game-devtools/cradle]] — BAAI 游戏/软件 Agent 框架： screenshot→LLM推理→键鼠动作，RDR2/Stardew/CitiesSkylines/Dealer'sLife2 + Chrome/Outlook/Capcut，Skill Registry + Planner + Memory + SAM/GroundingDINO 视觉，MIT |
 | [[ai-game-devtools/agent-group-chat]] —

@@ -1283,3 +1283,10 @@
 - Created: ai-game-devtools/ioa.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md
+
+## [2026-04-16] ingest | Jaaz — AI画布创意Agent
+- Cloned: ~/tmp/ai-game-devtools/jaaz/
+- Created: raw/articles/ai-game-devtools/jaaz.md
+- Created: ai-game-devtools/jaaz.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md

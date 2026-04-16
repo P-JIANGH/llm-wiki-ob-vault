@@ -248,7 +248,7 @@
 |- [2026-04-17] Scikit-LLM | https://github.com/iryna-kondr/scikit-llm
 |- [2026-04-15] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
 |- [2026-04-17] StarCoder | https://github.com/bigcode-project/starcoder
-|- [ ] StarCoder 2 | https://github.com/bigcode-project/starcoder2
+|- [2026-04-17] StarCoder 2 | https://github.com/bigcode-project/starcoder2
 - [ ] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI
 - [ ] Void | https://github.com/voideditor/void
 

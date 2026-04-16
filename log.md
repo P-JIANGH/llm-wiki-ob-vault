@@ -621,3 +621,9 @@
 - Created: ai-game-devtools/codegeex4.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added codegeex4 entry under Code Tools section)
+## [2026-04-17] ingest | CodeGen — Salesforce 开源代码生成模型家族
+- Cloned: ~/tmp/ai-game-devtools/codegen/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/codegen.md
+- Created: ai-game-devtools/codegen.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added codegen entry under Code Tools section)

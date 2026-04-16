@@ -186,6 +186,7 @@
 ## Code Tools
 
 | [[ai-game-devtools/bloop]] — BloopAI AI代码搜索工具：Rust后端+Tauri桌面+React前端，Tantivy全文搜索+Qdrant语义搜索+Tree-sitter AST解析，ONNX端侧embedding，Apache 2.0 |
+| [[ai-game-devtools/chapyter]] — Shannon Shen JupyterLab 扩展：%%chat magic 命令将自然语言转为 Python 代码并自动执行，guidance prompt 模板 + OpenAI/Azure API，JupyterLab≥4.0，BSD 3-Clause |
 | [[ai-game-devtools/aixcoder-7b]] — aiXcoder 7B 代码大模型：1.2T Tokens 训练，结构化 AST-FIM 训练任务（70%），7B 参数 RoPE/SwiGLU/GQA，nl2code 超越 CodeLlama 34B，跨文件代码理解，int8/int4 量化，Apache-2.0 |
 | [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT |
 

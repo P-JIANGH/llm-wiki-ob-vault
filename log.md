@@ -1223,3 +1223,9 @@
 - Created: ai-game-devtools/generative-agents.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added generative-agents entry under AI Game DevTools section)
+## [2026-04-16] ingest | Genesis — 通用物理引擎与机器人仿真平台
+- Cloned: ~/tmp/ai-game-devtools/genesis/ (GitHub)
+- Created: raw/articles/ai-game-devtools/genesis.md
+- Created: ai-game-devtools/genesis.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added genesis entry under AI Game DevTools section)

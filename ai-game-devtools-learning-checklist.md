@@ -263,7 +263,7 @@
 - [2026-04-17] ComfyUI | https://github.com/comfyanonymous/ComfyUI
 - [2026-04-17] ConceptLab | https://github.com/kfirgoldberg/ConceptLab
 - [2026-04-17] ControlNet | https://github.com/lllyasviel/ControlNet
-- [ ] CSGO | https://github.com/instantX-research/CSGO
+- [2026-04-17] CSGO | https://github.com/instantX-research/CSGO
 - [ ] DeepFloyd IF | https://github.com/deep-floyd/IF
 - [ ] Depth Anything V2 | https://github.com/DepthAnything/Depth-Anything-V2
 - [ ] Depth map library and poser | https://github.com/jexom/sd-webui-depth-lib

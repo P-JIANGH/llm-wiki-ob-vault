@@ -87,3 +87,10 @@
 - Created: ai-game-devtools/controlnet.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added controlnet entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | CSGO — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/csgo/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/csgo.md
+- Created: ai-game-devtools/csgo.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added csgo entry under AI Game DevTools section)

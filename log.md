@@ -1265,6 +1265,12 @@
 - Created: ai-game-devtools/aixcoder-7b.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-16] ingest | Interactive LLM Powered NPCs
+- Cloned: ~/tmp/ai-game-devtools/interactive-llm-powered-npcs/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/interactive-llm-powered-npcs.md
+- Created: ai-game-devtools/interactive-llm-powered-npcs.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md
 ## [2026-04-16] ingest | HunyuanWorld-Voyager
 - Cloned: ~/tmp/ai-game-devtools/hunyuanworld-voyager/
 - Created: raw/articles/ai-game-devtools/hunyuanworld-voyager.md

@@ -189,7 +189,7 @@
 - [2026-04-15] FastGPT | https://github.com/labring/FastGPT
 - [2026-04-15] fastRAG | https://github.com/IntelLabs/fastRAG
 - [2026-04-15] GameAISDK | https://github.com/Tencent/GameAISDK
-- [ ] GameGen-O | https://github.com/GameGen-O/GameGen-O
+- [2026-04-16] GameGen-O | https://github.com/GameGen-O/GameGen-O
 - [ ] GenAgent | https://github.com/xxyQwQ/GenAgent
 - [ ] Generative Agents | https://github.com/joonspk-research/generative_agents
 - [ ] Genesis | https://github.com/Genesis-Embodied-AI/Genesis

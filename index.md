@@ -189,6 +189,7 @@
 | [[ai-game-devtools/chapyter]] — Shannon Shen JupyterLab 扩展：%%chat magic 命令将自然语言转为 Python 代码并自动执行，guidance prompt 模板 + OpenAI/Azure API，JupyterLab≥4.0，BSD 3-Clause |
 || [[ai-game-devtools/codegeex]] — THUDM 13B 多语言代码生成模型（Python/C++/Java/JS/Go），850B tokens 预训练，HumanEval-X 评测，VS Code/JetBrains 插件，跨平台 Ascend/NVIDIA，KDD 2023，Apache 2.0 |
 ||| [[ai-game-devtools/codegeex2]] — THUDM CodeGeeX 第二代：6B 参数+ChatGLM2架构+600B代码预训练，HumanEval Pass@1 35.9%超越Starcoder-15B，INT4量化仅5.5GB显存，94 tok/s，Apache 2.0 |
+||| [[ai-game-devtools/codegeex4]] — THUDM CodeGeeX 第四代：9B参数+GLM-4基座，128K上下文，HumanEval 82.3%，唯一支持Function Call的代码模型，Ollama/vLLM/Candle多部署方式，Apache 2.0 |
 | [[ai-game-devtools/aixcoder-7b]] — aiXcoder 7B 代码大模型：1.2T Tokens 训练，结构化 AST-FIM 训练任务（70%），7B 参数 RoPE/SwiGLU/GQA，nl2code 超越 CodeLlama 34B，跨文件代码理解，int8/int4 量化，Apache-2.0 |
 | [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT |
 

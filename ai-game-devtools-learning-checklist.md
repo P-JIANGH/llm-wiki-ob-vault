@@ -236,7 +236,7 @@
 - [2026-04-16] Chapyter | https://github.com/chapyter/chapyter
 - [2026-04-16] CodeGeeX | https://github.com/THUDM/CodeGeeX
 - [2026-04-16] CodeGeeX2 | https://github.com/THUDM/CodeGeeX2
-- [ ] CodeGeeX4 | https://github.com/THUDM/CodeGeeX4
+- [2026-04-17] CodeGeeX4 | https://github.com/THUDM/CodeGeeX4
 - [ ] CodeGen | https://github.com/salesforce/CodeGen
 - [ ] CodeGen2 | https://github.com/salesforce/CodeGen2
 - [ ] Code Llama | https://github.com/facebookresearch/codellama

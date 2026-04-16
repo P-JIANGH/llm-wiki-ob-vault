@@ -615,3 +615,9 @@
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added codegeex2 entry under Code Tools section)
 - Updated: SCHEMA.md (added code-generation, code-completion tags to taxonomy)
+## [2026-04-17] ingest | CodeGeeX4 — THUDM 9B 多语言代码生成模型
+- Cloned: ~/tmp/ai-game-devtools/codegeex4/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/codegeex4.md
+- Created: ai-game-devtools/codegeex4.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added codegeex4 entry under Code Tools section)

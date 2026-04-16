@@ -52,3 +52,10 @@
 - Created: ai-game-devtools/brivl.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added brivl entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | CatVTON — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/catvton/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/catvton.md
+- Created: ai-game-devtools/catvton.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added catvton entry under AI Game DevTools section)

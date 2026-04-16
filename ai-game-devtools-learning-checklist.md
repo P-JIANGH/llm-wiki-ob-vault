@@ -208,7 +208,7 @@
 - [2026-04-16] LARP | https://github.com/MiAO-AI-Lab/LARP
 - [2026-04-16] LLama Agentic System | https://github.com/meta-llama/llama-agentic-system
 |- [2026-04-16] LlamaIndex | https://github.com/run-llama/llama_index
-- [ ] Matrix-Game | https://github.com/SkyworkAI/Matrix-Game
+|- [2026-04-16] Matrix-Game | https://github.com/SkyworkAI/Matrix-Game
 - [ ] MindSearch | https://github.com/InternLM/MindSearch
 - [ ] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
 - [ ] MMRole | https://github.com/YanqiDai/MMRole

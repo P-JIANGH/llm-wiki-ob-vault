@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-16] ingest | Matrix-Game — Skywork AI 交互式游戏世界模型
+- Cloned: ~/tmp/ai-game-devtools/matrix-game/
+- Created: raw/articles/ai-game-devtools/matrix-game.md
+- Created: ai-game-devtools/matrix-game.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added matrix-game entry under AI Game DevTools section)
 ## [2026-04-16] ingest | LARP — MiAO 语言角色 Agent 认知架构
 - Cloned: ~/tmp/ai-game-devtools/larp/
 - Created: raw/articles/ai-game-devtools/larp.md

@@ -112,6 +112,7 @@
 || [[ai-game-devtools/genesis]] — Genesis-Embodied-AI 通用物理引擎平台：6种求解器统一框架（Rigid/MPM/SPH/FEM/PBD/SF），43M FPS @ RTX 4090，光线追踪渲染+生成式数据引擎，Apache 2.0 |
 | [[ai-game-devtools/gigax]] — GigaxGames 开源游戏运行时 LLM NPC 框架：Outlines 结构化生成保证输出格式，<1s GPU 推理，NPC-LLM-7B/3_8B 开源权重，MIT |
 | [[ai-game-devtools/interactive-llm-powered-npcs]] — AkshitIreddy 游戏 NPC 实时对话系统：DeepFace 面部识别+Cohere LLM+LangChain+ChromaDB 生成对话，SadTalker 唇形动画+Edge-TTS 语音，Pixel 替换叠加层适配任意游戏无需源码修改，MIT |
+|| [[ai-game-devtools/matrix-game]] — Skywork AI 开源交互式游戏世界模型系列：Wan2.2 DiT 架构+键鼠动作条件化+长程记忆+流式生成，3.0 支持 INT8 量化/异步 VAE/FSDP，MIT |
 | [[ai-game-devtools/hipporag]] — OSU-NLP-Group 神经生物学启发 LLM 长期记忆框架（NeurIPS '24 / ICML '25）：知识图谱 + OpenIE + 非参数持续学习，多跳关联检索 SOTA，低索引成本 |
 ||| [[ai-game-devtools/atomic-agents]]
 | [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |

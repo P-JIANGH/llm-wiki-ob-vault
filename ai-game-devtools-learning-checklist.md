@@ -198,7 +198,7 @@
 - [2026-04-16] Hunyuan-GameCraft | https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0
 - [2026-04-16] HunyuanWorld 1.0 | https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
 - [2026-04-16] HunyuanWorld-Voyager | https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager
-- [ ] HY-World 1.5 | https://github.com/Tencent-Hunyuan/HY-WorldPlay
+- [2026-04-16] HY-World 1.5 | https://github.com/Tencent-Hunyuan/HY-WorldPlay
 - [ ] Interactive LLM Powered NPCs | https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs
 - [ ] IoA | https://github.com/OpenBMB/IoA
 - [ ] Jaaz | https://github.com/11cafe/jaaz

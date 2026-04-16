@@ -70,6 +70,7 @@
 | [[ai-game-devtools/dify]] — LangGenius 开源 LLM 应用开发平台：可视化 Workflow + RAG Pipeline + Agent(Function Calling/ReAct) + 100+ 模型接入 + LLMOps，Docker 一键部署，Dify Open Source License |
 || [[ai-game-devtools/langchain]] — langchain-ai LLM 应用开发框架：Chain/Agent/Memory/Tool/Prompt 抽象 + LangGraph 编排，monorepo 结构（core/v1/partners），MIT |
 || [[ai-game-devtools/langgraph-studio]] — LangChain Agent IDE：可视化图结构调试 + Thread 状态编辑 + Interrupt 断点控制 + 热重载，Desktop/Web 双模式，需 LangSmith 认证 |
+|| [[ai-game-devtools/llama-index]] — run-llama LLM 数据框架：300+集成/RAG管道/LlamaParse文档处理/多向量存储/图RAG，5行代码入门，MIT |
 || [[ai-game-devtools/llama2-webui]] — Llama 2 本地 Web UI + PyPI 封装包，支持 llama.cpp/transformers/GPTQ 多后端，MIT |
 | [[ai-game-devtools/text-generation-webui]] — oobabooga Gradio LLM Web UI：5后端(llama.cpp/ExLlamaV3/TensorRT-LLM)、多模态/Tool Calling/LoRA训练/图像生成，OpenAI兼容API，MIT |
 | [[ai-game-devtools/ai-writer]] — BlinkDL AI小说续写工具：RWKV 模型（12层/768维）+ 8849字词表，ctx_len=512，网文专精，已过时推荐 [[RWKV-Runner]]，Apache 2.0 |

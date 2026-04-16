@@ -239,7 +239,7 @@
 - [2026-04-17] CodeGeeX4 | https://github.com/THUDM/CodeGeeX4
 - [2026-04-17] CodeGen | https://github.com/salesforce/CodeGen
 - [2026-04-17] CodeGen2 | https://github.com/salesforce/CodeGen2
-- [ ] Code Llama | https://github.com/facebookresearch/codellama
+- [2026-04-16] Code Llama | https://github.com/facebookresearch/codellama
 - [ ] CodeTF | https://github.com/salesforce/codetf
 - [ ] CodeT5 | https://github.com/salesforce/codet5
 - [ ] Code World Model (CWM) | https://github.com/facebookresearch/cwm

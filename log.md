@@ -633,3 +633,9 @@
 - Created: ai-game-devtools/codegen2.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added codegen2 entry under Code Tools section)
+## [2026-04-16] ingest | Code Llama — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/code-llama/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/code-llama.md
+- Created: ai-game-devtools/code-llama.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added code-llama entry under Code Tools section)

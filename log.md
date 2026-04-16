@@ -663,3 +663,9 @@
 - Created: ai-game-devtools/deepseek-coder.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added deepseek-coder entry under Code Tools section)
+## [2026-04-17] ingest | PandasAI — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/pandas-ai/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/pandas-ai.md
+- Created: ai-game-devtools/pandas-ai.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added pandas-ai entry under Code Tools section)

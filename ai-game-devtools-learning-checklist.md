@@ -225,7 +225,7 @@
 - [2026-04-16] TaskGen | https://github.com/simbianai/taskgen
 |- [2026-04-16] TEN Agent | https://github.com/TEN-framework/TEN-Agent
 - [2026-04-16] Translation Agent | https://github.com/andrewyng/translation-agent
-- [ ] Twitter | https://github.com/wordware-ai/twitter
+- [2026-04-16] Twitter | https://github.com/wordware-ai/twitter
 - [ ] Video2Game | https://github.com/video2game/video2game
 - [ ] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
 

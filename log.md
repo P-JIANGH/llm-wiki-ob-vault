@@ -572,3 +572,9 @@
 - Created: ai-game-devtools/translation-agent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added translation-agent entry)
+## [2026-04-16] ingest | Twitter — Wordware AI Twitter 人格分析 Agent
+- Source: GitHub (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/wordware-twitter.md
+- Created: ai-game-devtools/wordware-twitter.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added wordware-twitter entry)

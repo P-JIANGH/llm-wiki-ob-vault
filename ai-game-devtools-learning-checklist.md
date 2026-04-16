@@ -242,7 +242,7 @@
 - [2026-04-16] Code Llama | https://github.com/facebookresearch/codellama
 - [2026-04-17] CodeTF | https://github.com/salesforce/codetf
 - [2026-04-17] CodeT5 | https://github.com/salesforce/codet5
-- [ ] Code World Model (CWM) | https://github.com/facebookresearch/cwm
+|- [2026-04-17] Code World Model (CWM) | https://github.com/facebookresearch/cwm
 - [ ] DeepSeek Coder | https://github.com/deepseek-ai/DeepSeek-Coder
 - [ ] PandasAI | https://github.com/gventuri/pandas-ai
 - [ ] Scikit-LLM | https://github.com/iryna-kondr/scikit-llm

@@ -651,3 +651,9 @@
 - Created: ai-game-devtools/codet5.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added codet5 entry under Code Tools section)
+## [2026-04-17] ingest | Code World Model (CWM) — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/code-world-model/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/code-world-model.md
+- Created: ai-game-devtools/code-world-model.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added code-world-model entry under Code Tools section)

@@ -195,7 +195,7 @@
 - [2026-04-16] Genesis | https://github.com/Genesis-Embodied-AI/Genesis
 - [2026-04-16] gigax | https://github.com/GigaxGames/gigax
 - [2026-04-16] HippoRAG | https://github.com/OSU-NLP-Group/HippoRAG
-- [ ] Hunyuan-GameCraft | https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0
+- [2026-04-16] Hunyuan-GameCraft | https://github.com/Tencent-Hunyuan/Hunyuan-GameCraft-1.0
 - [ ] HunyuanWorld 1.0 | https://github.com/Tencent-Hunyuan/HunyuanWorld-1.0
 - [ ] HunyuanWorld-Voyager | https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager
 - [ ] HY-World 1.5 | https://github.com/Tencent-Hunyuan/HY-WorldPlay

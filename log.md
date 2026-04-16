@@ -1339,3 +1339,9 @@
 - Created: ai-game-devtools/mindsearch.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added mindsearch entry under AI Game DevTools section)
+## [2026-04-16] ingest | Mixture of Agents (MoA)
+- Cloned: ~/tmp/ai-game-devtools/mixture-of-agents/
+- Created: raw/articles/ai-game-devtools/mixture-of-agents.md
+- Created: ai-game-devtools/mixture-of-agents.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added mixture-of-agents entry under AI Game DevTools section)

@@ -274,7 +274,7 @@
 |- [2026-04-17] Flux | https://github.com/black-forest-labs/flux
 |- [2026-04-17] Follow-Your-Click | https://github.com/mayuelala/FollowYourClick
 |- [2026-04-17] Fooocus | https://github.com/lllyasviel/Fooocus
-- [ ] GIFfusion | https://github.com/DN6/giffusion
+- [2026-04-17] GIFfusion | https://github.com/DN6/giffusion
 - [ ] Grounded-Segment-Anything | https://github.com/IDEA-Research/Grounded-Segment-Anything
 - [ ] HivisionIDPhotos | https://github.com/Zeyi-Lin/HivisionIDPhotos
 - [ ] Hua | https://github.com/BlinkDL/Hua

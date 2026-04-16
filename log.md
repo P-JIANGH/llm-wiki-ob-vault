@@ -1,1359 +1,506 @@
-# Wiki Log
-
-> Chronological record of all wiki actions. Append-only.
-> Format: `## [YYYY-MM-DD] action | subject`
-> Actions: ingest, update, query, lint, create, archive, delete
-## [2026-04-16] ingest | MuG Diffusion
-- Source: GitHub (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/mug-diffusion.md
-- Created: ai-game-devtools/mug-diffusion.md
+     1|# Wiki Log
+     2|
+     3|> Chronological record of all wiki actions. Append-only.
+     4|> Format: `## [YYYY-MM-DD] action | subject`
+     5|> Actions: ingest, update, query, lint, create, archive, delete
+     6|## [2026-04-16] ingest | MuG Diffusion
+     7|- Source: GitHub (web extract; GitHub/gitcode/gitee clone all failed)
+     8|- Created: raw/articles/ai-game-devtools/mug-diffusion.md
+     9|- Created: ai-game-devtools/mug-diffusion.md
+    10|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+    11|- Updated: index.md (added mug-diffusion entry under AI Game DevTools section)
+    12|## [2026-04-16] ingest | Matrix-Game — Skywork AI 交互式游戏世界模型
+    13|- Cloned: ~/tmp/ai-game-devtools/matrix-game/
+    14|- Created: raw/articles/ai-game-devtools/matrix-game.md
+    15|- Created: ai-game-devtools/matrix-game.md
+    16|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+    17|- Updated: index.md (added matrix-game entry under AI Game DevTools section)
+    18|## [2026-04-16] ingest | LARP — MiAO 语言角色 Agent 认知架构
+    19|- Cloned: ~/tmp/ai-game-devtools/larp/
+    20|- Created: raw/articles/ai-game-devtools/larp.md
+    21|- Created: ai-game-devtools/larp.md
+    22|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+    23|- Updated: index.md (added larp entry under AI Game DevTools section)
+    24|## [2026-04-16] ingest | LangGraph Studio — LangChain Agent IDE
+    25|- Cloned: ~/tmp/ai-game-devtools/langgraph-studio/ (fork mirror)
+    26|- Created: raw/articles/ai-game-devtools/langgraph-studio.md
+    27|- Created: ai-game-devtools/langgraph-studio.md
+    28|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+    29|- Updated: index.md (added langgraph-studio entry under AI Game DevTools section)
+    30|## [2026-04-16] ingest | HY-World 1.5 — 腾讯混元实时交互世界模型 WorldPlay
+    31|- Cloned: ~/tmp/ai-game-devtools/hy-world-1.5/
+    32|- Created: raw/articles/ai-game-devtools/hy-world-1.5.md
+    33|- Created: ai-game-devtools/hy-world-1.5.md
+    34|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+    35|- Updated: index.md (added hy-world-1.5 entry under AI Game DevTools section)
+    36|## [2026-04-15] ingest | fabric — Daniel Miessler 开源 AI 增强框架
+    37|- Cloned: ~/tmp/ai-game-devtools/fabric/
+    38|- Created: raw/articles/ai-game-devtools/fabric.md
+    39|- Created: ai-game-devtools/fabric.md
+    40|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+    41|- Updated: index.md (added fabric entry under AI Game DevTools section)
+    42|## [2026-04-15] ingest | Dify — LangGenius LLM 应用开发平台
+    43|- Cloned: ~/tmp/ai-game-devtools/dify/ (GitCode mirror)
+    44|- Created: raw/articles/ai-game-devtools/dify.md
+    45|- Created: ai-game-devtools/dify.md
+    46|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+    47|- Updated: index.md (added dify entry under AI Game DevTools section)
+    48|## [2026-04-14] ingest | gstack — Garry Tan 的 AI 软件工厂
+    49|- Fetched: https://github.com/garrytan/gstack
+    50|- Created: raw/articles/gstack-garry-tan-2026.md
+    51|- Created: entities/gstack.md
+    52|- Updated: index.md (added gstack entry under AI/LLM/Agent section)
+    53|## [2026-04-14] ingest | CogVLM2 — AI游戏开发工具
+    54|- Cloned: ~/tmp/ai-game-devtools/cogvlm2/ (GitCode mirror)
+    55|- Created: raw/articles/ai-game-devtools/cogvlm2.md
+    56|- Created: ai-game-devtools/cogvlm2.md
+    57|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+    58|- Updated: index.md (added cogvlm2 entry under VLM section)
+    59|## [2026-04-14] ingest | ToolBench — AI游戏开发工具
+    60|- Cloned: ~/tmp/ai-game-devtools/toolbench/
+    61|- Created: raw/articles/ai-game-devtools/toolbench.md
+    62|- Created: ai-game-devtools/toolbench.md
+    63|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+    64|- Updated: index.md (added toolbench entry)
+    65|## [2026-04-15] ingest | WebGPT — 纯浏览器端 WebGPU GPT 推理
+    66|- Cloned: ~/tmp/ai-game-devtools/webgpt/ (GitHub)
+    67|- Created: raw/articles/ai-game-devtools/webgpt.md
+    68|- Created: ai-game-devtools/webgpt.md
+    69|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+    70|- Updated: index.md (added webgpt entry under AI/LLM/Agent section)
+    71|## [2026-04-15] ingest | Cradle — BAAI 游戏/软件 Agent 框架
+    72|- Cloned: ~/tmp/ai-game-devtools/cradle/ (GitHub)
+    73|- Created: raw/articles/ai-game-devtools/cradle.md
+    74|- Created: ai-game-devtools/cradle.md
+    75|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
+    76|- Updated: index.md (added cradle entry under AI Game DevTools section)
+    77|## [2026-04-14] ingest | Seed-OSS — AI游戏开发工具
+    78|- Cloned: ~/tmp/ai-game-devtools/seed-oss/
+    79|- Created: raw/articles/ai-game-devtools/seed-oss.md
+    80|- Created: ai-game-devtools/seed-oss.md
+    81|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+    82|- Updated: index.md (added seed-oss entry)
+    83|## [2026-04-13] ingest | Chinese-LLaMA-Alpaca-3 — AI游戏开发工具
+    84|- Cloned: ~/tmp/ai-game-devtools/chinese-llama-alpaca-3/
+    85|- Created: raw/articles/ai-game-devtools/chinese-llama-alpaca-3.md
+    86|- Created: ai-game-devtools/chinese-llama-alpaca-3.md
+    87|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+    88|- Updated: index.md (added chinese-llama-alpaca-3 entry)
+    89|## [2026-04-14] ingest | LangFlow — AI 游戏开发工具
+    90|- Cloned: ~/tmp/ai-game-devtools/langflow/
+    91|- Created: raw/articles/ai-game-devtools/langflow.md
+    92|- Created: ai-game-devtools/langflow.md
+    93|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+    94|- Updated: index.md (added langflow entry)
+    95|## [2026-04-14] ingest | LaMini-LM — MBZUAI 教学式蒸馏 LLM 家族
+    96|- Cloned: ~/tmp/ai-game-devtools/lamini-lm/
+    97|- Created: raw/articles/ai-game-devtools/lamini-lm.md
+    98|- Created: ai-game-devtools/lamini-lm.md
+    99|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   100|- Updated: index.md (added lamini-lm entry)
+   101|## [2026-04-13] ingest | Baichuan-13B — AI游戏开发工具
+   102|- Cloned: ~/tmp/ai-game-devtools/baichuan-13b/（gitcode.com redirect）
+   103|- Created: raw/articles/ai-game-devtools/baichuan-13b.md
+   104|- Created: ai-game-devtools/baichuan-13b.md
+   105|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   106|## [2026-04-13] ingest | ChatYuan — AI游戏开发工具
+   107|- Cloned: ~/tmp/ai-game-devtools/chatyuan/（via gitcode.com mirror）
+   108|- Created: raw/articles/ai-game-devtools/chatyuan.md
+   109|- Created: ai-game-devtools/chatyuan.md
+   110|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   111|## [2026-04-13] ingest | ChatGPT-API-unity — Unity ChatGPT API 客户端
+   112|- Source already cloned: ~/tmp/ai-game-devtools/chatgpt-api-unity/
+   113|- Created: raw/articles/ai-game-devtools/chatgpt-api-unity.md
+   114|- Created: ai-game-devtools/chatgpt-api-unity.md
+   115|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   116|- Updated: index.md（+chatgpt-api-unity）
+   117|## [2026-04-13] ingest | BabyAGI UI — AI游戏开发工具
+   118|- Cloned: ~/tmp/ai-game-devtools/babyagi-ui/（GitHub direct）
+   119|- Created: raw/articles/ai-game-devtools/babyagi-ui.md
+   120|- Created: ai-game-devtools/babyagi-ui.md
+   121|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   122|- Updated: index.md（+babyagi-ui，total 207）
+   123|## [2026-04-13] ingest | AICommand (keijiro) — Unity Editor ChatGPT PoC
+   124|- Cloned: ~/tmp/ai-game-devtools/ai-command/（via gitcode.com mirror）
+   125|- Created: raw/articles/ai-game-devtools/ai-command.md
+   126|- Created: ai-game-devtools/ai-command.md
+   127|- Updated: ai-game-devtools-learning-checklist.md
+   128|
+   129|## [2026-04-13] ingest | FireRed-OpenStoryline 源码深度学习（~/FireRed-OpenStoryline）
+   130|- Created: raw/articles/firered-openstoryline-2026.md（架构/节点/mcp/storage/prompt/技术栈全景分析）
+   131|- Created: entities/firered-openstoryline.md（Entity 页面，含 OpenClaw/nanobot/DeerFlow 关联）
+   132|- Updated: index.md（+firered-openstoryline）
+   133|- Note: LangChain create_agent + MultiServerMCPClient + FastMCP 架构，15+ 视频节点管道，ArtifactStore 会话持久化
+   134|## [2026-04-12] ingest | AgentGPT
+   135|- Created: raw/articles/ai-game-devtools/agentgpt.md
+   136|- Created: ai-game-devtools/agentgpt.md
+   137|- Updated: ai-game-devtools-learning-checklist.md
+   138|## [2026-04-13] ingest | hermes-agent 源码学习（~/.hermes/hermes-agent/）
+   139|- Created: raw/articles/hermes-agent-source-2026.md（~15KB 全模块分析笔记）
+   140|- Created: entities/hermes-agent.md（框架全景、核心模块、关键设计决策）
+   141|- Created: concepts/context-compression.md（四阶段压缩算法 + 迭代摘要 + 孤儿修复）
+   142|- Created: concepts/tool-registry-pattern.md（自注册 + check_fn + 循环导入安全）
+   143|- Created: concepts/agent-loop-architecture.md（HermesAgentLoop + AIAgent + 并行执行决策树）
+   144|- Created: concepts/openai-tool-calling.md（协议格式 + 多 Provider 解析 + 类型强制）
+   145|- Updated: index.md（+3 新 concept pages）
+   146|- Note: 与 nanobot/DeerFlow 架构相似但专注视频创作；openstoryline Skills 已可通过 OpenClaw 调用
+   147|
+   148|## [2026-04-13] ingest | AI Game DevTools Catalog（Yuan-ManX 游戏工具目录，840+ 项目）— 修正
+   149|- 原始记录错误地将 Yuan-ManX/ai-game-devtools 归属为 THU-MAIC，现已全面修正
+   150|- Created: raw/articles/yuan-manx-ai-game-devtools-2026.md（正确归属：独立开发者 Yuan-ManX）
+   151|- Updated: concepts/ai-game-devtools-catalog.md（修正归属和 [[openmaic]] 关系说明）
+   152|- Updated: index.md（修正描述）
+   153|- Updated: log.md（本条）
+   154|- Deleted: raw/articles/thu-maic-openmaic-2026.md（错误文件，仓库名误用 OpenMAIC）
+   155|> When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
+   156|
+   157|## [2026-04-12] ingest | OpenMAIC 源码深度学习（v0.1.0，~/OpenMAIC）
+   158|- Created: raw/articles/thu-maic-openmaic-source-2026.md（源码深度分析，11个模块详细记录）
+   159|- Updated: entities/openmaic.md（+Director Graph/+两阶段Pipeline/+PBL Agentic Loop/+Provider系统/+PPTX导出/+API路由/+Tech Stack更新至Next.js 16/React 19/LangGraph 1.1）
+   160|- Updated: index.md（openmaic摘要扩充至含全部新模块）
+   161|- Note: 源码深度文件：director-graph.ts(549行)/providers.ts(1296行)/generate-pbl.ts(432行)/use-export-pptx.ts(1181行)/outline-generator.ts
+   162|- Note: 无 WeChat/钉钉 集成（仅国际平台 via OpenClaw）
+   163|
+   164|## [2026-04-10] ingest | MemPalace 源码深度学习（v3.1.0 vs wiki 现有条目对比）
+   165|- Updated: entities/mempalace.md（+WAL 审计 +Specialist Agents +Auto-Save Hooks +MCP auto-teach 协议 +v3.1.0 版本差异，updated 2026-04-10）
+   166|- Updated: concepts/memory-system.md（+MemPalace 作为第三种记忆模式，附 nanobot/DeerFlow 对比表，updated 2026-04-10）
+   167|- Updated: concepts/deer-flow-memory.md（+MemPalace vs DeerFlow Memory 对比表）
+   168|- Note: 源码深度文件：palace.py(71行) / mcp_server.py(946行) / knowledge_graph.py(393行) / palace_graph.py(227行) / searcher.py(152行) / layers.py(515行)
+   169|- Note: wiki 已有 mempalace.md（2026-04-09 创建），本次补充 v3.1.0 新细节
+   170|
+   171|## [2026-04-10] ingest | karpathy/autoresearch（Autonomous LLM Research 框架）
+   172|- Created: raw/articles/karpathy-autoresearch-2026.md（70.3k stars，MIT，三个文件职责分离，program.md 指令体系，MuonAdamW 优化器，ResFormer + Sliding Window）
+   173|- Created: entities/autoresearch.md（Karpathy 自主研究框架：5分钟实验循环，val_bpb 评估，program.md 迭代核心创新）
+   174|- Created: concepts/autonomous-llm-research.md（Autonomous LLM Research 范式：AI agent 自主实验 vs 传统 AutoML 对比，val_bpb 指标）
+   175|- Created: concepts/muon-optimizer.md（MuonAdamW：梯度空间优化 + Polar Express 正交化 + NorMuon + Cautious Weight Decay）
+   176|- Updated: index.md（+2 entities +2 concepts，total 202）
+   177|
+   178|## [2026-04-10] ingest | Coze Studio 完整深度学习（Eino + FlowGram + DDD架构 + 工作流节点类型）
+   179|- Updated: raw/articles/coze-studio-github-2026.md（大幅扩充：Eino/CloudWeGo 生态 / DDD 四层架构 / FlowGram 双布局 / 模型抽象设计 / 工作流节点类型 / 部署细节）
+   180|- Updated: entities/coze-studio.md（+Eino 技术栈 / DDD 架构图 / FlowGram 编辑器 / 模型抽象价值 / Eino + FlowGram wikilinks）
+   181|- Created: concepts/Eino.md（字节自研 LLM 框架：Model/Chain/Agent/Workflow/Memory/Tool 抽象，CloudWeGo 生态，多模型透明接入）
+   182|- Created: concepts/FlowGram.md（字节自研可视化工作流引擎：固定/自由双布局，拖拽节点，AI 集成，已在30+字节产品验证）
+   183|- Updated: index.md（+2 concepts，total 200）
+   184|- Note: Coze Studio 同时开源了 Coze Loop（Prompt 开发/评测，Agent 全链路管理）
+   185|
+   186|## [2026-04-10] ingest | Coze Studio（字节跳动一站式 AI Agent 开发平台）
+   187|- Created: raw/articles/coze-studio-github-2026.md
+   188|- Created: entities/coze-studio.md（Coze/字节跳动，20.3k stars，Eino 运行时，FlowGram 工作流编辑器）
+   189|- Created: concepts/ai-agent-development-platform.md（AI Agent 开发平台通用概念，Prompt/RAG/Plugin/Workflow 组件，主流平台对比）
+   190|- Updated: index.md（+2 pages，total 198）
+   191|
+   192|## [2026-04-10] ingest | OpenMAIC（THU-MAIC 多智能体互动教室平台）
+   193|- Created: raw/articles/thu-maic-openmaic-2026.md
+   194|- Created: entities/openmaic.md（THU-MAIC 开源 AI 教育平台，AGPL-3.0，支持 Gemini/DeepSeek/MiniMax）
+   195|- Created: concepts/multi-agent-interactive-classroom.md（多 Agent 协作教学模式，Outline→Scenes 两阶段，幻灯片/Quiz/模拟/PBL）
+   196|- Updated: index.md（+2 pages，total 196）
+   197|
+   198|## [2026-04-10] lint | Wiki health check — duplicate fixed, broken links documented
+   199|- Fixed: entities/deerflow.md duplicate deleted (内容已整合到 entities/deer-flow.md)
+   200|- Rotated: log.md → log-2026.md (161 entries, 778 lines)
+   201|- Created: log.md (new empty log, lint entry)
+   202|- Note: open-source-game/ 格式在 index.md/log.md 中保留（cron 自动化系统依赖）
+   203|- Note: game file 命名不一致（cn-c-red-alert.md vs cnc-red-alert in index）；暂不修复，避免破坏 cron
+   204|- Note: docs/ 下的 broken links (docs/ 是 Obsidian 另一套文档站，非本 wiki 层)
+   205|- Open Source Games: 153 个游戏文件，仅 65 个在 index.md 中收录（cron 持续收录中）
+   206|- Total wiki-layer pages: 194 (entities:16 + concepts:24 + comparisons:1 + open-source-game:153)
+   207|
+   208|## [2026-04-10] ingest | OpenPanzer 开源游戏 wiki note
+   209|- Created: open-source-game/openpanzer.md
+   210|- Updated: open-source-games-learning-checklist.md (item 288 marked done)
+   211|- Updated: index.md (+1 page, total 197)
+   212|- Updated: open-source-games-learning-checklist.md (learning record row 152 added)
+   213|## [2026-04-10] ingest | Hnefatafl 开源游戏 wiki note
+   214|- Created: open-source-game/hnefatafl.md
+   215|- Updated: open-source-games-learning-checklist.md (Hnefatafl item marked [2026-04-10])
+   216|- Updated: index.md (+1 page, total 198)
+   217|- Updated: open-source-games-learning-checklist.md (learning record row 153 added)
+   218|
+   219|## [2026-04-13] ingest | hermes-agent AI Agent 框架源代码
+   220|- Created: raw/articles/hermes-agent-source-2026.md（hermes-agent 源代码全文摘要）
+   221|- Created: entities/hermes-agent.md（工具注册中心 / 持久 Async Loop / 并行执行 / Context Compression / 13+ 消息平台网关）
+   222|- Created: concepts/registry-pattern-tool-discovery.md（中心注册表模式）
+   223|- Created: concepts/context-compression.md（结构化摘要压缩）
+   224|- Updated: index.md（+2 页面，总计 204）
+   225|
+   226|## [2026-04-12] ingest | AgentGPT（ai-game-devtools LLM 分类第一个项目）
+   227|- Created: raw/articles/ai-game-devtools/agentgpt.md
+   228|- Created: entities/agentgpt.md（reworkd 开源浏览器端自主 Agent，Next.js/Docker，1.5k+ commits，12 releases）
+   229|- Updated: index.md（+1 entity，total 205）
+   230|- Note: ai-game-devtools 分类 wiki 学习 cron 任务开始执行
+   231|## [2026-04-12] ingest | AIOS（agiresearch）
+   232|- Cloned: ~/tmp/ai-game-devtools/aios/
+   233|- Created: raw/articles/ai-game-devtools/aios.md
+   234|- Created: ai-game-devtools/aios.md
+   235|- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+   236|- Updated: index.md（+1 entry in AI/LLM/Agent section）
+   237|## [2026-04-12] ingest | AI Scientist（SakanaAI）— 全自动科学研究系统
+   238|- Cloned: ~/tmp/ai-game-devtools/ai-scientist/（via github direct）
+   239|- Created: raw/articles/ai-game-devtools/ai-scientist.md
+   240|- Created: ai-game-devtools/ai-scientist.md
+   241|- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+   242|## [2026-04-13] ingest | Assistant CLI（diciaup）— ChatGPT 终端 CLI 工具
+   243|- Source: https://github.com/diciaup/assistant-cli（GitHub direct，README fetched via API）
+   244|- Created: raw/articles/ai-game-devtools/assistant-cli.md
+   245|- Created: ai-game-devtools/assistant-cli.md
+   246|- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+   247|## [2026-04-13] ingest | AutoGPT — AI Agent Platform（183k stars）
+   248|- Cloned: ~/tmp/ai-game-devtools/auto-gpt/（GitHub direct clone）
+   249|- Created: raw/articles/ai-game-devtools/auto-gpt.md
+   250|- Created: ai-game-devtools/auto-gpt.md
+   251|- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+   252|## [2026-04-13] ingest | BabyAGI — AI游戏开发工具
+   253|- Cloned: ~/tmp/ai-game-devtools/babyagi/（GitHub direct，HOME=/tmp/gitclone 绕过 gitcode redirect）
+   254|- Created: raw/articles/ai-game-devtools/babyagi.md
+   255|- Created: ai-game-devtools/babyagi.md
+   256|- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+   257|- Updated: index.md（+1 entry in AI/LLM/Agent section）
+   258|## [2026-04-13] ingest | Baichuan-7B — AI游戏开发工具
+   259|- Cloned: ~/tmp/ai-game-devtools/baichuan-7b/（gitcode.com mirror redirect）
+   260|- Created: raw/articles/ai-game-devtools/baichuan-7b.md
+   261|- Created: ai-game-devtools/baichuan-7b.md
+   262|- Updated: ai-game-devtools-learning-checklist.md（mark complete）
+   263|- Updated: index.md（+1 entry in AI/LLM/Agent section）
+   264|## [2026-04-13] ingest | Bisheng — AI游戏开发工具 LLM分类
+   265|- Cloned: ~/tmp/ai-game-devtools/bisheng/（gitcode.com redirect）
+   266|- Created: raw/articles/ai-game-devtools/bisheng.md
+   267|- Created: ai-game-devtools/bisheng.md
+   268|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   269|- Updated: index.md（+bisheng）
+   270|## [2026-04-13] ingest | Baichuan 2 — AI游戏开发工具 LLM分类
+   271|- Cloned: ~/tmp/ai-game-devtools/baichuan-2/（GitHub direct）
+   272|- Created: raw/articles/ai-game-devtools/baichuan-2.md
+   273|- Created: ai-game-devtools/baichuan-2.md
+   274|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   275|- Updated: index.md（+baichuan-2）
+   276|## [2026-04-13] ingest | Character-LLM — AI游戏开发工具 LLM分类
+   277|- Cloned: ~/tmp/ai-game-devtools/character-llm/（GitHub direct）
+   278|- Created: raw/articles/ai-game-devtools/character-llm.md
+   279|- Created: ai-game-devtools/character-llm.md
+   280|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   281|## [2026-04-13] ingest | ChatDev — AI游戏开发工具 LLM分类
+   282|- Source: web_extract（GitHub 无法直接克隆，gitcode 返回空仓库）
+   283|- Created: raw/articles/ai-game-devtools/chatdev.md
+   284|- Created: ai-game-devtools/chatdev.md
+   285|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   286|- Updated: index.md（+chatdev）
+   287|## [2026-04-13] ingest | ChatGPTForUnity — AI游戏开发工具 LLM分类
+   288|- Cloned: ~/tmp/ai-game-devtools/chatgptforunity/（GitHub direct）
+   289|- Created: raw/articles/ai-game-devtools/chatgptforunity.md
+   290|- Created: ai-game-devtools/chatgptforunity.md
+   291|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   292|- Updated: index.md（+chatgptforunity）
+   293|## [2026-04-13] ingest | ChatRWKV — AI游戏开发工具 LLM分类
+   294|- Cloned: ~/tmp/ai-game-devtools/chatrwkv/（GitHub direct）
+   295|- Created: raw/articles/ai-game-devtools/chatrwkv.md
+   296|- Created: ai-game-devtools/chatrwkv.md
+   297|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   298|- Updated: index.md（+chatrwkv）
+   299|## [2026-04-13] ingest | Chrome-GPT — AI游戏开发工具 LLM分类
+   300|- Cloned: ~/tmp/ai-game-devtools/chrome-gpt/（gitcode.com mirror）
+   301|- Created: raw/articles/ai-game-devtools/chrome-gpt.md
+   302|- Created: ai-game-devtools/chrome-gpt.md
+   303|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   304|## [2026-04-13] ingest | CoreNet — AI游戏开发工具 LLM分类
+   305|- Cloned: ~/tmp/ai-game-devtools/corenet/（gitcode.com mirror，GitHub超时）
+   306|- Created: raw/articles/ai-game-devtools/corenet.md
+   307|- Created: ai-game-devtools/corenet.md
+   308|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   309|- Updated: index.md（+corenet）
+   310|- Updated: index.md（+AI Game DevTools section + chrome-gpt）
+   311|## [2026-04-13] ingest | Cosmos
+   312|- Cloned: ~/tmp/ai-game-devtools/cosmos/ (deprecated, real content from https://github.com/nvidia-cosmos)
+   313|- Created: raw/articles/ai-game-devtools/cosmos.md
+   314|- Created: ai-game-devtools/cosmos.md
+   315|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   316|- Updated: index.md（+cosmos）
+   317|## [2026-04-13] ingest | DBRX
+   318|- Cloned: ~/tmp/ai-game-devtools/dbrx/ (via gitcode.com mirror, GitHub repo not found at databricks/dbrx)
+   319|- Created: raw/articles/ai-game-devtools/dbrx.md
+   320|- Created: ai-game-devtools/dbrx.md
+   321|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   322|- Updated: index.md（+dbrx）
+   323|## [2026-04-13] ingest | DCLM
+   324|- Cloned: ~/tmp/ai-game-devtools/dclm/
+   325|- Created: raw/articles/ai-game-devtools/dclm.md
+   326|- Created: ai-game-devtools/dclm.md
+   327|- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
+   328|- Updated: index.md（+dclm）
+   329|## [2026-04-13] ingest | deepseek-r1 — AI游戏开发工具
+   330|- Cloned: ~/tmp/ai-game-devtools/deepseek-r1/
+   331|- Created: raw/articles/ai-game-devtools/deepseek-r1.md
+   332|- Created: ai-game-devtools/deepseek-r1.md
+   333|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   334|- Updated: index.md (+AI Game DevTools section + deepseek-r1)
+   335|## [2026-04-13] ingest | DeepSeek-V3 — AI游戏开发工具
+   336|- Cloned: ~/tmp/ai-game-devtools/deepseek-v3/ (via gitee.com mirror, GitHub timed out)
+   337|- Created: raw/articles/ai-game-devtools/deepseek-v3.md
+   338|- Created: ai-game-devtools/deepseek-v3.md
+   339|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   340|- Updated: index.md (+deepseek-v3)
+   341|## [2026-04-13] ingest | DemoGPT — AI游戏开发工具
+   342|- Cloned: ~/tmp/ai-game-devtools/demogpt/
+   343|- Created: raw/articles/ai-game-devtools/demogpt.md
+   344|- Created: ai-game-devtools/demogpt.md
+   345|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   346|- Updated: index.md (+demogpt)
+   347|## [2026-04-13] ingest | Devika — AI游戏开发工具
+   348|- Cloned: ~/tmp/ai-game-devtools/devika/
+   349|- Created: raw/articles/ai-game-devtools/devika.md
+   350|- Created: ai-game-devtools/devika.md
+   351|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   352|- Updated: index.md (+devika)
+   353|## [2026-04-13] ingest | Devon — AI游戏开发工具
+   354|- Cloned: ~/tmp/ai-game-devtools/devon/
+   355|- Created: raw/articles/ai-game-devtools/devon.md
+   356|- Created: ai-game-devtools/devon.md
+   357|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   358|- Updated: index.md (+devon)
+   359|## [2026-04-13] ingest | Flowise — AI游戏开发工具
+   360|- Cloned: ~/tmp/ai-game-devtools/flowise/ (gitcode mirror)
+   361|- Created: raw/articles/ai-game-devtools/flowise.md
+   362|- Created: ai-game-devtools/flowise.md
+   363|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   364|- Updated: index.md (+flowise)
+   365|## [2026-04-13] ingest | Gemma — AI游戏开发工具
+   366|- Cloned: ~/tmp/ai-game-devtools/gemma/
+   367|- Created: raw/articles/ai-game-devtools/gemma.md
+   368|- Created: ai-game-devtools/gemma.md
+   369|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   370|- Updated: index.md (+gemma)
+   371|## [2026-04-13] ingest | gemma.cpp — AI游戏开发工具
+   372|- Cloned: ~/tmp/ai-game-devtools/gemma-cpp/ (gitcode mirror)
+   373|- Created: raw/articles/ai-game-devtools/gemma-cpp.md
+   374|- Created: ai-game-devtools/gemma-cpp.md
+   375|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   376|- Updated: index.md (+gemma-cpp)
+   377|## [2026-04-13] ingest | GLM-4 — AI游戏开发工具
+   378|- Cloned: ~/tmp/ai-game-devtools/glm-4/
+   379|- Created: raw/articles/ai-game-devtools/glm-4.md
+   380|- Created: ai-game-devtools/glm-4.md
+   381|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   382|- Updated: index.md (+glm-4)
+   383|
+   384|## [2026-04-13] ingest | GLM-4.5 — AI游戏开发工具
+   385|- Cloned: ~/tmp/ai-game-devtools/glm-4.5/
+   386|- Created: raw/articles/ai-game-devtools/glm-4.5.md
+   387|- Created: ai-game-devtools/glm-4.5.md
+   388|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   389|- Updated: index.md (+glm-4.5)
+   390|## [2026-04-13] ingest | GPT4All — AI游戏开发工具
+   391|- Cloned: ~/tmp/ai-game-devtools/gpt4all/
+   392|- Created: raw/articles/ai-game-devtools/gpt4all.md
+   393|- Created: ai-game-devtools/gpt4all.md
+   394|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   395|- Updated: index.md (+gpt4all)
+   396|## [2026-04-13] ingest | gpt-oss — AI游戏开发工具
+   397|- Cloned: ~/tmp/ai-game-devtools/gpt-oss/
+   398|- Created: raw/articles/ai-game-devtools/gpt-oss.md
+   399|- Created: ai-game-devtools/gpt-oss.md
+   400|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   401|- Updated: index.md (+gpt-oss)
+   402|## [2026-04-13] ingest | gptscript — AI游戏开发工具
+   403|- Cloned: ~/tmp/ai-game-devtools/gptscript/
+   404|- Created: raw/articles/ai-game-devtools/gptscript.md
+   405|- Created: ai-game-devtools/gptscript.md
+   406|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   407|- Updated: index.md (+gptscript)
+   408|
+   409|## [2026-04-13] ingest | Hugging Face API Unity Integration — AI游戏开发工具
+   410|- Cloned: ~/tmp/ai-game-devtools/hugging-face-api-unity-integration/
+   411|- Created: raw/articles/ai-game-devtools/hugging-face-api-unity-integration.md
+   412|- Created: ai-game-devtools/hugging-face-api-unity-integration.md
+   413|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   414|- Updated: index.md (+hugging-face-api-unity-integration)
+   415|## [2026-04-13] ingest | Hunyuan-MT — AI游戏开发工具
+   416|- Cloned: ~/tmp/ai-game-devtools/hunyuan-mt/
+   417|- Created: raw/articles/ai-game-devtools/hunyuan-mt.md
+   418|- Created: ai-game-devtools/hunyuan-mt.md
+   419|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   420|- Updated: index.md (+hunyuan-mt)
+   421|## [2026-04-13] ingest | ImageBind — AI游戏开发工具
+   422|- Cloned: ~/tmp/ai-game-devtools/imagebind/ (via gitcode.com mirror)
+   423|- Created: raw/articles/ai-game-devtools/imagebind.md
+   424|- Created: ai-game-devtools/imagebind.md
+   425|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   426|- Updated: index.md (+imagebind)
+   427|## [2026-04-13] ingest | Index-1.9B — AI游戏开发工具
+   428|- Cloned: ~/tmp/ai-game-devtools/index-1.9b/ (GitHub)
+   429|- Created: raw/articles/ai-game-devtools/index-1.9b.md
+   430|- Created: ai-game-devtools/index-1.9b.md
+   431|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
+   432|- Updated: index.md (+index-1.9b)
+   433|## [2026-04-14] ingest | InteractML-Unity — AI游戏开发工具
+   434|- Cloned: ~/tmp/ai-game-devtools/interactml-unity/ (GitHub)
+   435|- Created: raw/articles/ai-game-devtools/interactml-unity.md
+   436|- Created: ai-game-devtools/interactml-unity.md
+   437|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   438|- Updated: index.md (+interactml-unity)
+   439|
+   440|## [2026-04-14] ingest | InteractML-Unreal Engine — AI游戏开发工具
+   441|- Cloned: ~/tmp/ai-game-devtools/iml-ue4/ (GitHub)
+   442|- Created: raw/articles/ai-game-devtools/iml-ue4.md
+   443|- Created: ai-game-devtools/iml-ue4.md
+   444|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   445|- Updated: index.md (+iml-ue4)
+   446|## [2026-04-14] ingest | InternLM — AI游戏开发工具
+   447|- Cloned: ~/tmp/ai-game-devtools/internlm/
+   448|- Created: raw/articles/ai-game-devtools/internlm.md
+   449|- Created: ai-game-devtools/internlm.md
+   450|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   451|- Updated: index.md (+internlm)
+   452|## [2026-04-14] ingest | InternLM-XComposer — AI游戏开发工具
+   453|- Cloned: ~/tmp/ai-game-devtools/internlm-xcomposer/ (gitcode.com mirror)
+   454|- Created: raw/articles/ai-game-devtools/internlm-xcomposer.md
+   455|- Created: ai-game-devtools/internlm-xcomposer.md
+   456|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   457|- Updated: index.md (+internlm-xcomposer under internlm)
+   458|## [2026-04-14] ingest | Jan — AI游戏开发工具
+   459|- Cloned: ~/tmp/ai-game-devtools/jan/ (via gitcode.com mirror)
+   460|- Created: raw/articles/ai-game-devtools/jan.md
+   461|- Created: ai-game-devtools/jan.md
+   462|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   463|- Updated: index.md (+jan)
+   464|## [2026-04-14] ingest | Janus — AI游戏开发工具
+   465|- Cloned: ~/tmp/ai-game-devtools/janus/
+   466|- Created: raw/articles/ai-game-devtools/janus.md
+   467|- Created: ai-game-devtools/janus.md
+   468|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   469|- Updated: index.md (+janus)
+   470|## [2026-04-14] ingest | LLMUnity — AI游戏开发工具
+   471|- Cloned: ~/tmp/ai-game-devtools/llmunity/
+   472|- Created: raw/articles/ai-game-devtools/llmunity.md
+   473|- Created: ai-game-devtools/llmunity.md
+   474|- Updated: ai-game-devtools-learning-checklist.md
+   475|## [2026-04-14] ingest | Kimi K2 — AI游戏开发工具
+   476|- Cloned: ~/tmp/ai-game-devtools/kimi-k2/ (via gitcode.com mirror)
+   477|- Created: raw/articles/ai-game-devtools/kimi-k2.md
+   478|- Created: ai-game-devtools/kimi-k2.md
+   479|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   480|## [2026-04-14] ingest | Lamini — AI游戏开发工具
+   481|- Cloned: ~/tmp/ai-game-devtools/lamini/ (via gitcode.com mirror)
+   482|- Created: raw/articles/ai-game-devtools/lamini.md
+   483|- Created: ai-game-devtools/lamini.md
+   484|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   485|- Updated: index.md (+lamini)
+   486|## [2026-04-14] ingest | LangChain — AI游戏开发工具
+   487|- Cloned: ~/tmp/ai-game-devtools/langchain/ (via gitee.com mirror)
+   488|- Created: raw/articles/ai-game-devtools/langchain.md
+   489|- Created: ai-game-devtools/langchain.md
+   490|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   491|## [2026-04-14] ingest | LaVague — AI游戏开发工具
+   492|- Cloned: ~/tmp/ai-game-devtools/la-vague/
+   493|- Created: raw/articles/ai-game-devtools/la-vague.md
+   494|- Created: ai-game-devtools/la-vague.md
+   495|- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
+   496|- Updated: index.md (+la-vague)
+   497|
+   498|## [2026-04-14] ingest | Lemur — AI游戏开发工具
+   499|- Cloned: ~/tmp/ai-game-devtools/lemur/
+   500|- Created: raw/articles/ai-game-devtools/lemur.md
+   501|## [2026-04-16] ingest | NVIDIA NeMo Agent Toolkit
+- Cloned: ~/tmp/ai-game-devtools/nvidia-nemo-agent-toolkit/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/nvidia-nemo-agent-toolkit.md
+- Created: ai-game-devtools/nvidia-nemo-agent-toolkit.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added mug-diffusion entry under AI Game DevTools section)
-## [2026-04-16] ingest | Matrix-Game — Skywork AI 交互式游戏世界模型
-- Cloned: ~/tmp/ai-game-devtools/matrix-game/
-- Created: raw/articles/ai-game-devtools/matrix-game.md
-- Created: ai-game-devtools/matrix-game.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added matrix-game entry under AI Game DevTools section)
-## [2026-04-16] ingest | LARP — MiAO 语言角色 Agent 认知架构
-- Cloned: ~/tmp/ai-game-devtools/larp/
-- Created: raw/articles/ai-game-devtools/larp.md
-- Created: ai-game-devtools/larp.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added larp entry under AI Game DevTools section)
-## [2026-04-16] ingest | LangGraph Studio — LangChain Agent IDE
-- Cloned: ~/tmp/ai-game-devtools/langgraph-studio/ (fork mirror)
-- Created: raw/articles/ai-game-devtools/langgraph-studio.md
-- Created: ai-game-devtools/langgraph-studio.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added langgraph-studio entry under AI Game DevTools section)
-## [2026-04-16] ingest | HY-World 1.5 — 腾讯混元实时交互世界模型 WorldPlay
-- Cloned: ~/tmp/ai-game-devtools/hy-world-1.5/
-- Created: raw/articles/ai-game-devtools/hy-world-1.5.md
-- Created: ai-game-devtools/hy-world-1.5.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added hy-world-1.5 entry under AI Game DevTools section)
-## [2026-04-15] ingest | fabric — Daniel Miessler 开源 AI 增强框架
-- Cloned: ~/tmp/ai-game-devtools/fabric/
-- Created: raw/articles/ai-game-devtools/fabric.md
-- Created: ai-game-devtools/fabric.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added fabric entry under AI Game DevTools section)
-## [2026-04-15] ingest | Dify — LangGenius LLM 应用开发平台
-- Cloned: ~/tmp/ai-game-devtools/dify/ (GitCode mirror)
-- Created: raw/articles/ai-game-devtools/dify.md
-- Created: ai-game-devtools/dify.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added dify entry under AI Game DevTools section)
-## [2026-04-14] ingest | gstack — Garry Tan 的 AI 软件工厂
-- Fetched: https://github.com/garrytan/gstack
-- Created: raw/articles/gstack-garry-tan-2026.md
-- Created: entities/gstack.md
-- Updated: index.md (added gstack entry under AI/LLM/Agent section)
-## [2026-04-14] ingest | CogVLM2 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/cogvlm2/ (GitCode mirror)
-- Created: raw/articles/ai-game-devtools/cogvlm2.md
-- Created: ai-game-devtools/cogvlm2.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added cogvlm2 entry under VLM section)
-## [2026-04-14] ingest | ToolBench — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/toolbench/
-- Created: raw/articles/ai-game-devtools/toolbench.md
-- Created: ai-game-devtools/toolbench.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added toolbench entry)
-## [2026-04-15] ingest | WebGPT — 纯浏览器端 WebGPU GPT 推理
-- Cloned: ~/tmp/ai-game-devtools/webgpt/ (GitHub)
-- Created: raw/articles/ai-game-devtools/webgpt.md
-- Created: ai-game-devtools/webgpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added webgpt entry under AI/LLM/Agent section)
-## [2026-04-15] ingest | Cradle — BAAI 游戏/软件 Agent 框架
-- Cloned: ~/tmp/ai-game-devtools/cradle/ (GitHub)
-- Created: raw/articles/ai-game-devtools/cradle.md
-- Created: ai-game-devtools/cradle.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added cradle entry under AI Game DevTools section)
-## [2026-04-14] ingest | Seed-OSS — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/seed-oss/
-- Created: raw/articles/ai-game-devtools/seed-oss.md
-- Created: ai-game-devtools/seed-oss.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added seed-oss entry)
-## [2026-04-13] ingest | Chinese-LLaMA-Alpaca-3 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/chinese-llama-alpaca-3/
-- Created: raw/articles/ai-game-devtools/chinese-llama-alpaca-3.md
-- Created: ai-game-devtools/chinese-llama-alpaca-3.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (added chinese-llama-alpaca-3 entry)
-## [2026-04-14] ingest | LangFlow — AI 游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/langflow/
-- Created: raw/articles/ai-game-devtools/langflow.md
-- Created: ai-game-devtools/langflow.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added langflow entry)
-## [2026-04-14] ingest | LaMini-LM — MBZUAI 教学式蒸馏 LLM 家族
-- Cloned: ~/tmp/ai-game-devtools/lamini-lm/
-- Created: raw/articles/ai-game-devtools/lamini-lm.md
-- Created: ai-game-devtools/lamini-lm.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added lamini-lm entry)
-## [2026-04-13] ingest | Baichuan-13B — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/baichuan-13b/（gitcode.com redirect）
-- Created: raw/articles/ai-game-devtools/baichuan-13b.md
-- Created: ai-game-devtools/baichuan-13b.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-## [2026-04-13] ingest | ChatYuan — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/chatyuan/（via gitcode.com mirror）
-- Created: raw/articles/ai-game-devtools/chatyuan.md
-- Created: ai-game-devtools/chatyuan.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-## [2026-04-13] ingest | ChatGPT-API-unity — Unity ChatGPT API 客户端
-- Source already cloned: ~/tmp/ai-game-devtools/chatgpt-api-unity/
-- Created: raw/articles/ai-game-devtools/chatgpt-api-unity.md
-- Created: ai-game-devtools/chatgpt-api-unity.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+chatgpt-api-unity）
-## [2026-04-13] ingest | BabyAGI UI — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/babyagi-ui/（GitHub direct）
-- Created: raw/articles/ai-game-devtools/babyagi-ui.md
-- Created: ai-game-devtools/babyagi-ui.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+babyagi-ui，total 207）
-## [2026-04-13] ingest | AICommand (keijiro) — Unity Editor ChatGPT PoC
-- Cloned: ~/tmp/ai-game-devtools/ai-command/（via gitcode.com mirror）
-- Created: raw/articles/ai-game-devtools/ai-command.md
-- Created: ai-game-devtools/ai-command.md
-- Updated: ai-game-devtools-learning-checklist.md
-
-## [2026-04-13] ingest | FireRed-OpenStoryline 源码深度学习（~/FireRed-OpenStoryline）
-- Created: raw/articles/firered-openstoryline-2026.md（架构/节点/mcp/storage/prompt/技术栈全景分析）
-- Created: entities/firered-openstoryline.md（Entity 页面，含 OpenClaw/nanobot/DeerFlow 关联）
-- Updated: index.md（+firered-openstoryline）
-- Note: LangChain create_agent + MultiServerMCPClient + FastMCP 架构，15+ 视频节点管道，ArtifactStore 会话持久化
-## [2026-04-12] ingest | AgentGPT
-- Created: raw/articles/ai-game-devtools/agentgpt.md
-- Created: ai-game-devtools/agentgpt.md
-- Updated: ai-game-devtools-learning-checklist.md
-## [2026-04-13] ingest | hermes-agent 源码学习（~/.hermes/hermes-agent/）
-- Created: raw/articles/hermes-agent-source-2026.md（~15KB 全模块分析笔记）
-- Created: entities/hermes-agent.md（框架全景、核心模块、关键设计决策）
-- Created: concepts/context-compression.md（四阶段压缩算法 + 迭代摘要 + 孤儿修复）
-- Created: concepts/tool-registry-pattern.md（自注册 + check_fn + 循环导入安全）
-- Created: concepts/agent-loop-architecture.md（HermesAgentLoop + AIAgent + 并行执行决策树）
-- Created: concepts/openai-tool-calling.md（协议格式 + 多 Provider 解析 + 类型强制）
-- Updated: index.md（+3 新 concept pages）
-- Note: 与 nanobot/DeerFlow 架构相似但专注视频创作；openstoryline Skills 已可通过 OpenClaw 调用
-
-## [2026-04-13] ingest | AI Game DevTools Catalog（Yuan-ManX 游戏工具目录，840+ 项目）— 修正
-- 原始记录错误地将 Yuan-ManX/ai-game-devtools 归属为 THU-MAIC，现已全面修正
-- Created: raw/articles/yuan-manx-ai-game-devtools-2026.md（正确归属：独立开发者 Yuan-ManX）
-- Updated: concepts/ai-game-devtools-catalog.md（修正归属和 [[openmaic]] 关系说明）
-- Updated: index.md（修正描述）
-- Updated: log.md（本条）
-- Deleted: raw/articles/thu-maic-openmaic-2026.md（错误文件，仓库名误用 OpenMAIC）
-> When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
-
-## [2026-04-12] ingest | OpenMAIC 源码深度学习（v0.1.0，~/OpenMAIC）
-- Created: raw/articles/thu-maic-openmaic-source-2026.md（源码深度分析，11个模块详细记录）
-- Updated: entities/openmaic.md（+Director Graph/+两阶段Pipeline/+PBL Agentic Loop/+Provider系统/+PPTX导出/+API路由/+Tech Stack更新至Next.js 16/React 19/LangGraph 1.1）
-- Updated: index.md（openmaic摘要扩充至含全部新模块）
-- Note: 源码深度文件：director-graph.ts(549行)/providers.ts(1296行)/generate-pbl.ts(432行)/use-export-pptx.ts(1181行)/outline-generator.ts
-- Note: 无 WeChat/钉钉 集成（仅国际平台 via OpenClaw）
-
-## [2026-04-10] ingest | MemPalace 源码深度学习（v3.1.0 vs wiki 现有条目对比）
-- Updated: entities/mempalace.md（+WAL 审计 +Specialist Agents +Auto-Save Hooks +MCP auto-teach 协议 +v3.1.0 版本差异，updated 2026-04-10）
-- Updated: concepts/memory-system.md（+MemPalace 作为第三种记忆模式，附 nanobot/DeerFlow 对比表，updated 2026-04-10）
-- Updated: concepts/deer-flow-memory.md（+MemPalace vs DeerFlow Memory 对比表）
-- Note: 源码深度文件：palace.py(71行) / mcp_server.py(946行) / knowledge_graph.py(393行) / palace_graph.py(227行) / searcher.py(152行) / layers.py(515行)
-- Note: wiki 已有 mempalace.md（2026-04-09 创建），本次补充 v3.1.0 新细节
-
-## [2026-04-10] ingest | karpathy/autoresearch（Autonomous LLM Research 框架）
-- Created: raw/articles/karpathy-autoresearch-2026.md（70.3k stars，MIT，三个文件职责分离，program.md 指令体系，MuonAdamW 优化器，ResFormer + Sliding Window）
-- Created: entities/autoresearch.md（Karpathy 自主研究框架：5分钟实验循环，val_bpb 评估，program.md 迭代核心创新）
-- Created: concepts/autonomous-llm-research.md（Autonomous LLM Research 范式：AI agent 自主实验 vs 传统 AutoML 对比，val_bpb 指标）
-- Created: concepts/muon-optimizer.md（MuonAdamW：梯度空间优化 + Polar Express 正交化 + NorMuon + Cautious Weight Decay）
-- Updated: index.md（+2 entities +2 concepts，total 202）
-
-## [2026-04-10] ingest | Coze Studio 完整深度学习（Eino + FlowGram + DDD架构 + 工作流节点类型）
-- Updated: raw/articles/coze-studio-github-2026.md（大幅扩充：Eino/CloudWeGo 生态 / DDD 四层架构 / FlowGram 双布局 / 模型抽象设计 / 工作流节点类型 / 部署细节）
-- Updated: entities/coze-studio.md（+Eino 技术栈 / DDD 架构图 / FlowGram 编辑器 / 模型抽象价值 / Eino + FlowGram wikilinks）
-- Created: concepts/Eino.md（字节自研 LLM 框架：Model/Chain/Agent/Workflow/Memory/Tool 抽象，CloudWeGo 生态，多模型透明接入）
-- Created: concepts/FlowGram.md（字节自研可视化工作流引擎：固定/自由双布局，拖拽节点，AI 集成，已在30+字节产品验证）
-- Updated: index.md（+2 concepts，total 200）
-- Note: Coze Studio 同时开源了 Coze Loop（Prompt 开发/评测，Agent 全链路管理）
-
-## [2026-04-10] ingest | Coze Studio（字节跳动一站式 AI Agent 开发平台）
-- Created: raw/articles/coze-studio-github-2026.md
-- Created: entities/coze-studio.md（Coze/字节跳动，20.3k stars，Eino 运行时，FlowGram 工作流编辑器）
-- Created: concepts/ai-agent-development-platform.md（AI Agent 开发平台通用概念，Prompt/RAG/Plugin/Workflow 组件，主流平台对比）
-- Updated: index.md（+2 pages，total 198）
-
-## [2026-04-10] ingest | OpenMAIC（THU-MAIC 多智能体互动教室平台）
-- Created: raw/articles/thu-maic-openmaic-2026.md
-- Created: entities/openmaic.md（THU-MAIC 开源 AI 教育平台，AGPL-3.0，支持 Gemini/DeepSeek/MiniMax）
-- Created: concepts/multi-agent-interactive-classroom.md（多 Agent 协作教学模式，Outline→Scenes 两阶段，幻灯片/Quiz/模拟/PBL）
-- Updated: index.md（+2 pages，total 196）
-
-## [2026-04-10] lint | Wiki health check — duplicate fixed, broken links documented
-- Fixed: entities/deerflow.md duplicate deleted (内容已整合到 entities/deer-flow.md)
-- Rotated: log.md → log-2026.md (161 entries, 778 lines)
-- Created: log.md (new empty log, lint entry)
-- Note: open-source-game/ 格式在 index.md/log.md 中保留（cron 自动化系统依赖）
-- Note: game file 命名不一致（cn-c-red-alert.md vs cnc-red-alert in index）；暂不修复，避免破坏 cron
-- Note: docs/ 下的 broken links (docs/ 是 Obsidian 另一套文档站，非本 wiki 层)
-- Open Source Games: 153 个游戏文件，仅 65 个在 index.md 中收录（cron 持续收录中）
-- Total wiki-layer pages: 194 (entities:16 + concepts:24 + comparisons:1 + open-source-game:153)
-
-## [2026-04-10] ingest | OpenPanzer 开源游戏 wiki note
-- Created: open-source-game/openpanzer.md
-- Updated: open-source-games-learning-checklist.md (item 288 marked done)
-- Updated: index.md (+1 page, total 197)
-- Updated: open-source-games-learning-checklist.md (learning record row 152 added)
-## [2026-04-10] ingest | Hnefatafl 开源游戏 wiki note
-- Created: open-source-game/hnefatafl.md
-- Updated: open-source-games-learning-checklist.md (Hnefatafl item marked [2026-04-10])
-- Updated: index.md (+1 page, total 198)
-- Updated: open-source-games-learning-checklist.md (learning record row 153 added)
-
-## [2026-04-13] ingest | hermes-agent AI Agent 框架源代码
-- Created: raw/articles/hermes-agent-source-2026.md（hermes-agent 源代码全文摘要）
-- Created: entities/hermes-agent.md（工具注册中心 / 持久 Async Loop / 并行执行 / Context Compression / 13+ 消息平台网关）
-- Created: concepts/registry-pattern-tool-discovery.md（中心注册表模式）
-- Created: concepts/context-compression.md（结构化摘要压缩）
-- Updated: index.md（+2 页面，总计 204）
-
-## [2026-04-12] ingest | AgentGPT（ai-game-devtools LLM 分类第一个项目）
-- Created: raw/articles/ai-game-devtools/agentgpt.md
-- Created: entities/agentgpt.md（reworkd 开源浏览器端自主 Agent，Next.js/Docker，1.5k+ commits，12 releases）
-- Updated: index.md（+1 entity，total 205）
-- Note: ai-game-devtools 分类 wiki 学习 cron 任务开始执行
-## [2026-04-12] ingest | AIOS（agiresearch）
-- Cloned: ~/tmp/ai-game-devtools/aios/
-- Created: raw/articles/ai-game-devtools/aios.md
-- Created: ai-game-devtools/aios.md
-- Updated: ai-game-devtools-learning-checklist.md（mark complete）
-- Updated: index.md（+1 entry in AI/LLM/Agent section）
-## [2026-04-12] ingest | AI Scientist（SakanaAI）— 全自动科学研究系统
-- Cloned: ~/tmp/ai-game-devtools/ai-scientist/（via github direct）
-- Created: raw/articles/ai-game-devtools/ai-scientist.md
-- Created: ai-game-devtools/ai-scientist.md
-- Updated: ai-game-devtools-learning-checklist.md（mark complete）
-## [2026-04-13] ingest | Assistant CLI（diciaup）— ChatGPT 终端 CLI 工具
-- Source: https://github.com/diciaup/assistant-cli（GitHub direct，README fetched via API）
-- Created: raw/articles/ai-game-devtools/assistant-cli.md
-- Created: ai-game-devtools/assistant-cli.md
-- Updated: ai-game-devtools-learning-checklist.md（mark complete）
-## [2026-04-13] ingest | AutoGPT — AI Agent Platform（183k stars）
-- Cloned: ~/tmp/ai-game-devtools/auto-gpt/（GitHub direct clone）
-- Created: raw/articles/ai-game-devtools/auto-gpt.md
-- Created: ai-game-devtools/auto-gpt.md
-- Updated: ai-game-devtools-learning-checklist.md（mark complete）
-## [2026-04-13] ingest | BabyAGI — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/babyagi/（GitHub direct，HOME=/tmp/gitclone 绕过 gitcode redirect）
-- Created: raw/articles/ai-game-devtools/babyagi.md
-- Created: ai-game-devtools/babyagi.md
-- Updated: ai-game-devtools-learning-checklist.md（mark complete）
-- Updated: index.md（+1 entry in AI/LLM/Agent section）
-## [2026-04-13] ingest | Baichuan-7B — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/baichuan-7b/（gitcode.com mirror redirect）
-- Created: raw/articles/ai-game-devtools/baichuan-7b.md
-- Created: ai-game-devtools/baichuan-7b.md
-- Updated: ai-game-devtools-learning-checklist.md（mark complete）
-- Updated: index.md（+1 entry in AI/LLM/Agent section）
-## [2026-04-13] ingest | Bisheng — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/bisheng/（gitcode.com redirect）
-- Created: raw/articles/ai-game-devtools/bisheng.md
-- Created: ai-game-devtools/bisheng.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+bisheng）
-## [2026-04-13] ingest | Baichuan 2 — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/baichuan-2/（GitHub direct）
-- Created: raw/articles/ai-game-devtools/baichuan-2.md
-- Created: ai-game-devtools/baichuan-2.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+baichuan-2）
-## [2026-04-13] ingest | Character-LLM — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/character-llm/（GitHub direct）
-- Created: raw/articles/ai-game-devtools/character-llm.md
-- Created: ai-game-devtools/character-llm.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-## [2026-04-13] ingest | ChatDev — AI游戏开发工具 LLM分类
-- Source: web_extract（GitHub 无法直接克隆，gitcode 返回空仓库）
-- Created: raw/articles/ai-game-devtools/chatdev.md
-- Created: ai-game-devtools/chatdev.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+chatdev）
-## [2026-04-13] ingest | ChatGPTForUnity — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/chatgptforunity/（GitHub direct）
-- Created: raw/articles/ai-game-devtools/chatgptforunity.md
-- Created: ai-game-devtools/chatgptforunity.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+chatgptforunity）
-## [2026-04-13] ingest | ChatRWKV — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/chatrwkv/（GitHub direct）
-- Created: raw/articles/ai-game-devtools/chatrwkv.md
-- Created: ai-game-devtools/chatrwkv.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+chatrwkv）
-## [2026-04-13] ingest | Chrome-GPT — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/chrome-gpt/（gitcode.com mirror）
-- Created: raw/articles/ai-game-devtools/chrome-gpt.md
-- Created: ai-game-devtools/chrome-gpt.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-## [2026-04-13] ingest | CoreNet — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/corenet/（gitcode.com mirror，GitHub超时）
-- Created: raw/articles/ai-game-devtools/corenet.md
-- Created: ai-game-devtools/corenet.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+corenet）
-- Updated: index.md（+AI Game DevTools section + chrome-gpt）
-## [2026-04-13] ingest | Cosmos
-- Cloned: ~/tmp/ai-game-devtools/cosmos/ (deprecated, real content from https://github.com/nvidia-cosmos)
-- Created: raw/articles/ai-game-devtools/cosmos.md
-- Created: ai-game-devtools/cosmos.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+cosmos）
-## [2026-04-13] ingest | DBRX
-- Cloned: ~/tmp/ai-game-devtools/dbrx/ (via gitcode.com mirror, GitHub repo not found at databricks/dbrx)
-- Created: raw/articles/ai-game-devtools/dbrx.md
-- Created: ai-game-devtools/dbrx.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+dbrx）
-## [2026-04-13] ingest | DCLM
-- Cloned: ~/tmp/ai-game-devtools/dclm/
-- Created: raw/articles/ai-game-devtools/dclm.md
-- Created: ai-game-devtools/dclm.md
-- Updated: ai-game-devtools-learning-checklist.md（mark [2026-04-13]）
-- Updated: index.md（+dclm）
-## [2026-04-13] ingest | deepseek-r1 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/deepseek-r1/
-- Created: raw/articles/ai-game-devtools/deepseek-r1.md
-- Created: ai-game-devtools/deepseek-r1.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+AI Game DevTools section + deepseek-r1)
-## [2026-04-13] ingest | DeepSeek-V3 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/deepseek-v3/ (via gitee.com mirror, GitHub timed out)
-- Created: raw/articles/ai-game-devtools/deepseek-v3.md
-- Created: ai-game-devtools/deepseek-v3.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+deepseek-v3)
-## [2026-04-13] ingest | DemoGPT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/demogpt/
-- Created: raw/articles/ai-game-devtools/demogpt.md
-- Created: ai-game-devtools/demogpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+demogpt)
-## [2026-04-13] ingest | Devika — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/devika/
-- Created: raw/articles/ai-game-devtools/devika.md
-- Created: ai-game-devtools/devika.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+devika)
-## [2026-04-13] ingest | Devon — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/devon/
-- Created: raw/articles/ai-game-devtools/devon.md
-- Created: ai-game-devtools/devon.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+devon)
-## [2026-04-13] ingest | Flowise — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/flowise/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/flowise.md
-- Created: ai-game-devtools/flowise.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+flowise)
-## [2026-04-13] ingest | Gemma — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/gemma/
-- Created: raw/articles/ai-game-devtools/gemma.md
-- Created: ai-game-devtools/gemma.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+gemma)
-## [2026-04-13] ingest | gemma.cpp — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/gemma-cpp/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/gemma-cpp.md
-- Created: ai-game-devtools/gemma-cpp.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+gemma-cpp)
-## [2026-04-13] ingest | GLM-4 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/glm-4/
-- Created: raw/articles/ai-game-devtools/glm-4.md
-- Created: ai-game-devtools/glm-4.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+glm-4)
-
-## [2026-04-13] ingest | GLM-4.5 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/glm-4.5/
-- Created: raw/articles/ai-game-devtools/glm-4.5.md
-- Created: ai-game-devtools/glm-4.5.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+glm-4.5)
-## [2026-04-13] ingest | GPT4All — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/gpt4all/
-- Created: raw/articles/ai-game-devtools/gpt4all.md
-- Created: ai-game-devtools/gpt4all.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+gpt4all)
-## [2026-04-13] ingest | gpt-oss — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/gpt-oss/
-- Created: raw/articles/ai-game-devtools/gpt-oss.md
-- Created: ai-game-devtools/gpt-oss.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+gpt-oss)
-## [2026-04-13] ingest | gptscript — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/gptscript/
-- Created: raw/articles/ai-game-devtools/gptscript.md
-- Created: ai-game-devtools/gptscript.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+gptscript)
-
-## [2026-04-13] ingest | Hugging Face API Unity Integration — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/hugging-face-api-unity-integration/
-- Created: raw/articles/ai-game-devtools/hugging-face-api-unity-integration.md
-- Created: ai-game-devtools/hugging-face-api-unity-integration.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+hugging-face-api-unity-integration)
-## [2026-04-13] ingest | Hunyuan-MT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/hunyuan-mt/
-- Created: raw/articles/ai-game-devtools/hunyuan-mt.md
-- Created: ai-game-devtools/hunyuan-mt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+hunyuan-mt)
-## [2026-04-13] ingest | ImageBind — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/imagebind/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/imagebind.md
-- Created: ai-game-devtools/imagebind.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+imagebind)
-## [2026-04-13] ingest | Index-1.9B — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/index-1.9b/ (GitHub)
-- Created: raw/articles/ai-game-devtools/index-1.9b.md
-- Created: ai-game-devtools/index-1.9b.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-13])
-- Updated: index.md (+index-1.9b)
-## [2026-04-14] ingest | InteractML-Unity — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/interactml-unity/ (GitHub)
-- Created: raw/articles/ai-game-devtools/interactml-unity.md
-- Created: ai-game-devtools/interactml-unity.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+interactml-unity)
-
-## [2026-04-14] ingest | InteractML-Unreal Engine — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/iml-ue4/ (GitHub)
-- Created: raw/articles/ai-game-devtools/iml-ue4.md
-- Created: ai-game-devtools/iml-ue4.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+iml-ue4)
-## [2026-04-14] ingest | InternLM — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/internlm/
-- Created: raw/articles/ai-game-devtools/internlm.md
-- Created: ai-game-devtools/internlm.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+internlm)
-## [2026-04-14] ingest | InternLM-XComposer — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/internlm-xcomposer/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/internlm-xcomposer.md
-- Created: ai-game-devtools/internlm-xcomposer.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+internlm-xcomposer under internlm)
-## [2026-04-14] ingest | Jan — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/jan/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/jan.md
-- Created: ai-game-devtools/jan.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+jan)
-## [2026-04-14] ingest | Janus — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/janus/
-- Created: raw/articles/ai-game-devtools/janus.md
-- Created: ai-game-devtools/janus.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+janus)
-## [2026-04-14] ingest | LLMUnity — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llmunity/
-- Created: raw/articles/ai-game-devtools/llmunity.md
-- Created: ai-game-devtools/llmunity.md
-- Updated: ai-game-devtools-learning-checklist.md
-## [2026-04-14] ingest | Kimi K2 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/kimi-k2/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/kimi-k2.md
-- Created: ai-game-devtools/kimi-k2.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-## [2026-04-14] ingest | Lamini — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/lamini/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/lamini.md
-- Created: ai-game-devtools/lamini.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+lamini)
-## [2026-04-14] ingest | LangChain — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/langchain/ (via gitee.com mirror)
-- Created: raw/articles/ai-game-devtools/langchain.md
-- Created: ai-game-devtools/langchain.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-## [2026-04-14] ingest | LaVague — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/la-vague/
-- Created: raw/articles/ai-game-devtools/la-vague.md
-- Created: ai-game-devtools/la-vague.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+la-vague)
-
-## [2026-04-14] ingest | Lemur — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/lemur/
-- Created: raw/articles/ai-game-devtools/lemur.md
-- Created: ai-game-devtools/lemur.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+lemur)
-
-## [2026-04-14] ingest | lepton-ai — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/lepton-ai/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/lepton-ai.md
-- Created: ai-game-devtools/lepton-ai.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+lepton-ai)
-## [2026-04-14] ingest | Lit-LLaMA
-- Cloned: ~/tmp/ai-game-devtools/lit-llama/
-- Created: raw/articles/ai-game-devtools/lit-llama.md
-- Created: ai-game-devtools/lit-llama.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+lit-llama)
-## [2026-04-14] ingest | llama2-webui — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llama2-webui/
-- Created: raw/articles/ai-game-devtools/llama2-webui.md
-- Created: ai-game-devtools/llama2-webui.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llama2-webui)
-## [2026-04-14] ingest | llama-3 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llama-3/ (from gitcode mirror)
-- Created: raw/articles/ai-game-devtools/llama-3.md
-- Created: ai-game-devtools/llama-3.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llama-3 in two sections)
-## [2026-04-14] ingest | Llama 3.1 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llama-3-1/
-- Created: raw/articles/ai-game-devtools/llama-3-1.md
-- Created: ai-game-devtools/llama-3-1.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llama-3-1 entry)
-
-## [2026-04-14] ingest | LLaSM — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llasm/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/llasm.md
-- Created: ai-game-devtools/llasm.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llasm entry)
-
-## [2026-04-14] ingest | LLM Answer Engine — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llm-answer-engine/
-- Created: raw/articles/ai-game-devtools/llm-answer-engine.md
-- Created: ai-game-devtools/llm-answer-engine.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llm-answer-engine entry)
-
-## [2026-04-14] ingest | llm.c — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llm.c/ (via gitcode.com mirror, GitHub timeout)
-- Created: raw/articles/ai-game-devtools/llm.c.md
-- Created: ai-game-devtools/llm.c.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llm.c entry)
-## [2026-04-14] ingest | LLocalSearch — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/llocal-search/ (via gitcode.com mirror, GitHub timeout)
-- Created: raw/articles/ai-game-devtools/llocal-search.md
-- Created: ai-game-devtools/llocal-search.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+llocal-search entry)
-## [2026-04-14] ingest | LogicGamesSolver — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/logicgamesolver/
-- Created: raw/articles/ai-game-devtools/logic-games-solver.md
-- Created: ai-game-devtools/logic-games-solver.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+logic-games-solver entry)
-## [2026-04-14] ingest | LongCat-Flash — 美团560B MoE LLM (agentic SOTA)
-- Cloned: ~/tmp/ai-game-devtools/longcat-flash/ (via gitcode.com mirror, GitHub TLS error)
-- Created: raw/articles/ai-game-devtools/longcat-flash.md
-- Created: ai-game-devtools/longcat-flash.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+longcat-flash entry)
-## [2026-04-14] ingest | LongWriter — THUDM 超长文本生成 LLM (10K+ 词)
-- Cloned: ~/tmp/ai-game-devtools/longwriter/
-- Created: raw/articles/ai-game-devtools/longwriter.md
-- Created: ai-game-devtools/longwriter.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+longwriter entry)
-
-## [2026-04-14] ingest | Large World Model (LWM) — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/large-world-model-lwm/
-- Created: raw/articles/ai-game-devtools/large-world-model-lwm.md
-- Created: ai-game-devtools/large-world-model-lwm.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+large-world-model-lwm entry)
-
-## [2026-04-14] ingest | Lumina-T2X — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/lumina-t2x/
-- Created: raw/articles/ai-game-devtools/lumina-t2x.md
-- Created: ai-game-devtools/lumina-t2x.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-
-## [2026-04-14] ingest | MetaGPT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/metagpt/
-- Created: raw/articles/ai-game-devtools/metagpt.md
-- Created: ai-game-devtools/metagpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (+metagpt entry)
-## [2026-04-14] ingest | MiniCPM-2B
-- Cloned: ~/tmp/ai-game-devtools/minicpm-2b/
-- Created: raw/articles/ai-game-devtools/minicpm-2b.md
-- Created: ai-game-devtools/minicpm-2b.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (+minicpm-2b entry)
-
-## [2026-04-14] ingest | MiniGPT-4
-- Cloned: ~/tmp/ai-game-devtools/minigpt-4/
-- Created: raw/articles/ai-game-devtools/minigpt-4.md
-- Created: ai-game-devtools/minigpt-4.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (+minigpt-4 entry)
-
-## [2026-04-14] ingest | MiniGPT-5
-- Cloned: ~/tmp/ai-game-devtools/minigpt-5/
-- Created: raw/articles/ai-game-devtools/minigpt-5.md
-- Created: ai-game-devtools/minigpt-5.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-
-## [2026-04-14] ingest | Cambrian-1
-- Cloned: ~/tmp/ai-game-devtools/cambrian-1/
-- Created: raw/articles/ai-game-devtools/cambrian-1.md
-- Created: ai-game-devtools/cambrian-1.md
-
-## [2026-04-14] ingest | MiniMax-01
-- Cloned: ~/tmp/ai-game-devtools/minimax-01/
-- Created: raw/articles/ai-game-devtools/minimax-01.md
-- Created: ai-game-devtools/minimax-01.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-
-## [2026-04-14] ingest | MLC LLM
-- Cloned: ~/tmp/ai-game-devtools/mlc-llm/
-- Created: raw/articles/ai-game-devtools/mlc-llm.md
-- Created: ai-game-devtools/mlc-llm.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-
-## [2026-04-14] ingest | MobiLlama
-- Cloned: ~/tmp/ai-game-devtools/mobillama/
-- Created: raw/articles/ai-game-devtools/mobillama.md
-- Created: ai-game-devtools/mobillama.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md
-
-## [2026-04-14] ingest | MoE-LLaVA
-- Cloned: ~/tmp/ai-game-devtools/moe-llava/
-- Created: raw/articles/ai-game-devtools/moe-llava.md
-- Created: ai-game-devtools/moe-llava.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md
-
-## [2026-04-14] ingest | Moshi
-- Source: https://github.com/kyutai-labs/moshi (web extract, GitHub clone timed out)
-- Created: raw/articles/ai-game-devtools/moshi.md
-- Created: ai-game-devtools/moshi.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md
-## [2026-04-14] ingest | MOSS
-- Cloned: ~/tmp/ai-game-devtools/moss/
-- Created: raw/articles/ai-game-devtools/moss.md
-- Created: ai-game-devtools/moss.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-
-## [2026-04-14] ingest | mPLUG-Owl
-- Cloned: ~/tmp/ai-game-devtools/mplug-owl/
-- Created: raw/articles/ai-game-devtools/mplug-owl.md
-- Created: ai-game-devtools/mplug-owl.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-
-## [2026-04-14] ingest | NExT-GPT
-- Cloned: ~/tmp/ai-game-devtools/next-gpt/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/next-gpt.md
-- Created: ai-game-devtools/next-gpt.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added next-gpt entry under LLM section)
-
-## [2026-04-14] ingest | OLMo
-- Cloned: ~/tmp/ai-game-devtools/olmo/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/olmo.md
-- Created: ai-game-devtools/olmo.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added olmo entry under LLM section)
-
-## [2026-04-14] ingest | OmniLMM
-- Cloned: ~/tmp/ai-game-devtools/omnilmm/
-- Created: raw/articles/ai-game-devtools/omnilmm.md
-- Created: ai-game-devtools/omnilmm.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added OmniLMM entry under LLM/VLM section)
-
-## [2026-04-14] ingest | OneLLM
-- Cloned: ~/tmp/ai-game-devtools/onellm/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/onellm.md
-- Created: ai-game-devtools/onellm.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added OneLLM entry under LLM/VLM section)
-
-## [2026-04-14] ingest | Open-Assistant
-- Cloned: ~/tmp/ai-game-devtools/open-assistant/
-- Created: raw/articles/ai-game-devtools/open-assistant.md
-- Created: ai-game-devtools/open-assistant.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added Open-Assistant entry under AI Game DevTools / LLM section)
-## [2026-04-14] ingest | open-deep-research
-- Cloned: ~/tmp/ai-game-devtools/open-deep-research/
-- Created: raw/articles/ai-game-devtools/open-deep-research.md
-- Created: ai-game-devtools/open-deep-research.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added open-deep-research entry under AI / LLM / Agent section)
-## [2026-04-14] ingest | opendevin
-- Cloned: ~/tmp/ai-game-devtools/opendevin/
-- Created: raw/articles/ai-game-devtools/opendevin.md
-- Created: ai-game-devtools/opendevin.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added opendevin entry under AI Game DevTools section)
-
-## [2026-04-14] ingest | Orion-14B
-- Cloned: ~/tmp/ai-game-devtools/orion-14b/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/orion-14b.md
-- Created: ai-game-devtools/orion-14b.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added orion-14b entry under AI Game DevTools section)
-## [2026-04-14] ingest | Panda — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/pandallm/
-- Created: raw/articles/ai-game-devtools/pandallm.md
-- Created: ai-game-devtools/pandallm.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added pandallm entry under AI Game DevTools section)
-## [2026-04-14] ingest | Perplexica — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/perplexica/
-- Created: raw/articles/ai-game-devtools/perplexica.md
-- Created: ai-game-devtools/perplexica.md
-## [2026-04-14] ingest | Qwen1.5 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/qwen1.5/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/qwen1.5.md
-- Created: ai-game-devtools/qwen1.5.md
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-- Updated: index.md (added qwen1.5 entry under AI Game DevTools section)
-- Updated: ai-game-devtools-learning-checklist.md ([2026-04-14])
-## [2026-04-14] ingest | Qwen2 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/qwen2/
-- Created: raw/articles/ai-game-devtools/qwen2.md
-- Created: ai-game-devtools/qwen2.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added qwen2 entry under AI Game DevTools section)
-## [2026-04-14] ingest | Qwen2.5-Coder — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/qwen2.5-coder/
-- Created: raw/articles/ai-game-devtools/qwen2.5-coder.md
-- Created: ai-game-devtools/qwen2.5-coder.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added qwen2.5-coder entry under AI Game DevTools section)
-## [2026-04-14] ingest | Qwen3 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/qwen3/
-- Created: raw/articles/ai-game-devtools/qwen3.md
-- Created: ai-game-devtools/qwen3.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added qwen3 entry under AI Game DevTools section)
-## [2026-04-14] ingest | RepoAgent — OpenBMB 仓库级代码文档生成框架
-- Cloned: ~/tmp/ai-game-devtools/repoagent/ (via gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/repoagent.md
-- Created: ai-game-devtools/repoagent.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added repoagent entry under AI Game DevTools section)
-## [2026-04-14] ingest | s1 — 测试时扩展 LLM
-- Cloned: ~/tmp/ai-game-devtools/s1/
-- Created: raw/articles/ai-game-devtools/s1.md
-- Created: ai-game-devtools/s1.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added s1 entry under AI Game DevTools section)
-## [2026-04-14] ingest | Sanity AI Engine — Unity游戏AI引擎
-- Cloned: ~/tmp/ai-game-devtools/sanity-ai-engine/
-- Created: raw/articles/ai-game-devtools/sanity-ai-engine.md
-- Created: ai-game-devtools/sanity-ai-engine.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added sanity-ai-engine entry under AI Game DevTools section)
-## [2026-04-14] ingest | SearchGPT
-- Cloned: ~/tmp/ai-game-devtools/search-gpt/
-- Created: raw/articles/ai-game-devtools/search-gpt.md
-- Created: ai-game-devtools/search-gpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added search-gpt entry under AI Game DevTools section)
-## [2026-04-14] ingest | SkyThought — 推理模型训练+评测框架
-- Cloned: ~/tmp/ai-game-devtools/skythought/
-- Created: raw/articles/ai-game-devtools/skythought.md
-- Created: ai-game-devtools/skythought.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added skythought entry under AI Game DevTools section)
-## [2026-04-14] ingest | Skywork — Kunlun 双语 LLM 系列
-- Cloned: ~/tmp/ai-game-devtools/skywork/
-- Created: raw/articles/ai-game-devtools/skywork.md
-- Created: ai-game-devtools/skywork.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added skywork entry under AI Game DevTools section)
-## [2026-04-14] ingest | StableLM — Stability AI 开源 LLM 系列
-- Cloned: ~/tmp/ai-game-devtools/stable-lm/
-- Created: raw/articles/ai-game-devtools/stable-lm.md
-- Created: ai-game-devtools/stable-lm.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added stable-lm entry under AI Game DevTools)
-- Updated: index.md (added skywork entry under AI Game DevTools section)
-## [2026-04-14] ingest | stanford-alpaca — Stanford 指令微调 LLaMA 模型
-- Cloned: ~/tmp/ai-game-devtools/stanford-alpaca/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/stanford-alpaca.md
-- Created: ai-game-devtools/stanford-alpaca.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added stanford-alpaca entry under AI Game DevTools)
-## [2026-04-14] ingest | text-generation-webui — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/text-generation-webui/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/text-generation-webui.md
-- Created: ai-game-devtools/text-generation-webui.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added text-generation-webui entry under AI Game DevTools section)
-## [2026-04-14] ingest | TinyChatEngine — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/tinychatengine/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/tinychatengine.md
-- Created: ai-game-devtools/tinychatengine.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added tinychatengine entry under AI Game DevTools section)
-## [2026-04-14] ingest | Unity ChatGPT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/unity-chatgpt/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/unity-chatgpt.md
-- Created: ai-game-devtools/unity-chatgpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added unity-chatgpt entry under AI Game DevTools section)
-## [2026-04-14] ingest | dots.vlm1 — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/dots-vlm1/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/dots-vlm1.md
-- Created: ai-game-devtools/dots-vlm1.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added dots-vlm1 entry under AI Game DevTools section)
-
-## [2026-04-14] ingest | EVF-SAM — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/evf-sam/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/evf-sam.md
-- Created: ai-game-devtools/evf-sam.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added evf-sam entry under AI Game DevTools section)
-
-## [2026-04-14] ingest | Unity OpenAI-API Integration — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/unity-openai-api-integration/
-- Created: raw/articles/ai-game-devtools/unity-openai-api-integration.md
-- Created: ai-game-devtools/unity-openai-api-integration.md
-- Updated: ai-game-devtools-learning-checklist.md
-
-## [2026-04-14] ingest | Unreal Engine 5 Llama LoRA — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/unreal-engine-5-llama-lora/ (GitCode mirror)
-- Created: raw/articles/ai-game-devtools/unreal-engine-5-llama-lora.md
-- Created: ai-game-devtools/unreal-engine-5-llama-lora.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-
-## [2026-04-14] ingest | UnrealGPT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/unrealgpt/
-- Created: raw/articles/ai-game-devtools/unrealgpt.md
-- Created: ai-game-devtools/unrealgpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added unrealgpt entry under AI/LLM/Agent section)
-## [2026-04-14] ingest | Video-LLaVA — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/video-llava/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/video-llava.md
-- Created: ai-game-devtools/video-llava.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-14])
-- Updated: index.md (added video-llava entry under VLM section)
-## [2026-04-15] ingest | Web3-GPT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/web3-gpt/
-- Created: raw/articles/ai-game-devtools/web3-gpt.md
-- Created: ai-game-devtools/web3-gpt.md
-## [2026-04-15] ingest | WordGPT — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/wordgpt/ (GitHub)
-- Created: raw/articles/ai-game-devtools/wordgpt.md
-- Created: ai-game-devtools/wordgpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added wordgpt entry under AI/LLM/Agent section)
-## [2026-04-15] ingest | XAgent — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/xagent/ (GitHub)
-- Created: raw/articles/ai-game-devtools/xagent.md
-- Created: ai-game-devtools/xagent.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added xagent entry under AI/LLM/Agent section)
-## [2026-04-15] ingest | Yi — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/yi/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/yi.md
-- Created: ai-game-devtools/yi.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added yi entry under AI/LLM/Agent section)
-## [2026-04-15] ingest | 01 Project — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/01/ (GitHub)
-- Created: raw/articles/ai-game-devtools/01-project.md
-- Created: ai-game-devtools/01-project.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-
-## [2026-04-15] ingest | SimpleOllamaUnity — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/simpleollamaunity/ (GitHub)
-- Created: raw/articles/ai-game-devtools/simpleollamaunity.md
-- Created: ai-game-devtools/simpleollamaunity.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-
-## [2026-04-15] ingest | AI-Writer — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/ai-writer/ (GitHub)
-- Created: raw/articles/ai-game-devtools/ai-writer.md
-- Created: ai-game-devtools/ai-writer.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added ai-writer entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | Notebook.ai — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/notebook-ai/ (GitHub)
-- Created: raw/articles/ai-game-devtools/notebook-ai.md
-- Created: ai-game-devtools/notebook-ai.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added notebook-ai entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | Novel — AI游戏开发工具 LLM分类
-- Cloned: ~/tmp/ai-game-devtools/novel/ (GitHub)
-- Created: raw/articles/ai-game-devtools/novel.md
-- Created: ai-game-devtools/novel.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added novel entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | GLM-V — AI游戏开发工具 VLM分类
-- Cloned: ~/tmp/ai-game-devtools/glm-v/ (GitHub)
-- Created: raw/articles/ai-game-devtools/glm-v.md
-- Created: ai-game-devtools/glm-v.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added glm-v entry under VLM section)
-
-## [2026-04-15] ingest | Kangaroo — AI游戏开发工具 VLM分类
-- Cloned: ~/tmp/ai-game-devtools/kangaroo/ (GitHub)
-- Created: raw/articles/ai-game-devtools/kangaroo.md
-- Created: ai-game-devtools/kangaroo.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added kangaroo entry under VLM section)
-## [2026-04-15] ingest | Kwai Keye-VL — AI游戏开发工具 VLM分类
-- Cloned: ~/tmp/ai-game-devtools/kwai-keye-vl/ (GitHub)
-- Created: raw/articles/ai-game-devtools/kwai-keye-vl.md
-- Created: ai-game-devtools/kwai-keye-vl.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added kwai-keye-vl entry under VLM section)
-## [2026-04-15] ingest | LLaVA++ — AI游戏开发工具 VLM分类
-- Cloned: ~/tmp/ai-game-devtools/llava-plus-plus/ (GitHub)
-- Created: raw/articles/ai-game-devtools/llava-plus-plus.md
-- Created: ai-game-devtools/llava-plus-plus.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added llava-plus-plus entry under VLM section)
-
-## [2026-04-15] ingest | LLaVA-OneVision
-- Cloned: ~/tmp/ai-game-devtools/llava-onevision/ (GitHub)
-- Created: raw/articles/ai-game-devtools/llava-onevision.md
-- Created: ai-game-devtools/llava-onevision.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added llava-onevision entry under VLM section)
-## [2026-04-15] ingest | LongVA
-- Cloned: ~/tmp/ai-game-devtools/longva/ (GitHub)
-- Created: raw/articles/ai-game-devtools/longva.md
-- Created: ai-game-devtools/longva.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added longva entry under VLM section)
-## [2026-04-15] ingest | Lumina-DiMOO
-- Cloned: ~/tmp/ai-game-devtools/lumina-dimoo/ (GitHub)
-- Created: raw/articles/ai-game-devtools/lumina-dimoo.md
-- Created: ai-game-devtools/lumina-dimoo.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added lumina-dimoo entry under VLM section)
-## [2026-04-15] ingest | MiniCPM-Llama3-V 2.5
-- Cloned: ~/tmp/ai-game-devtools/minicpm-v/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/minicpm-llama3-v-2.5.md
-- Created: ai-game-devtools/minicpm-llama3-v-2.5.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added minicpm-llama3-v-2.5 entry under VLM section)
-## [2026-04-15] ingest | MiniCPM-V 4.0
-- Fetched: https://github.com/OpenBMB/MiniCPM-o (web extract; GitHub/gitcode/gitee clone failed)
-- Created: raw/articles/ai-game-devtools/minicpm-v-4.0.md
-- Created: ai-game-devtools/minicpm-v-4.0.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (split omnilmm entry, added minicpm-v-4.0 entry under VLM section)
-## [2026-04-15] ingest | MotionLLM
-- Cloned: ~/tmp/ai-game-devtools/motionllm/
-- Created: raw/articles/ai-game-devtools/motionllm.md
-- Created: ai-game-devtools/motionllm.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added motionllm entry)
-## [2026-04-15] ingest | PLLaVA
-- Cloned: ~/tmp/ai-game-devtools/pllava/
-- Created: raw/articles/ai-game-devtools/pllava.md
-- Created: ai-game-devtools/pllava.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added pllava entry under VLM section)
-
-## [2026-04-15] ingest | POINTS-Reader
-- Cloned: ~/tmp/ai-game-devtools/points-reader/
-- Created: raw/articles/ai-game-devtools/points-reader.md
-- Created: ai-game-devtools/points-reader.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added points-reader entry under VLM section)
-
-## [2026-04-15] ingest | Qwen-VL
-- Cloned: ~/tmp/ai-game-devtools/qwen-vl/ (from gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/qwen-vl.md
-- Created: ai-game-devtools/qwen-vl.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added qwen-vl entry under VLM section)
-## [2026-04-15] ingest | Sapiens
-- Cloned: ~/tmp/ai-game-devtools/sapiens/ (from github.com)
-- Created: raw/articles/ai-game-devtools/sapiens.md
-- Created: ai-game-devtools/sapiens.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added sapiens entry under VLM section)
-## [2026-04-15] ingest | ShareGPT4V
-- Cloned: ~/tmp/ai-game-devtools/sharegpt4v/ (from github.com)
-- Created: raw/articles/ai-game-devtools/sharegpt4v.md
-- Created: ai-game-devtools/sharegpt4v.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added sharegpt4v entry under VLM section)
-## [2026-04-15] ingest | SOLO
-- Cloned: ~/tmp/ai-game-devtools/solo/ (from github.com)
-- Created: raw/articles/ai-game-devtools/solo.md
-- Created: ai-game-devtools/solo.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-## [2026-04-15] ingest | SoTaNa
-- Cloned: ~/tmp/ai-game-devtools/sotana/ (from github.com)
-- Created: raw/articles/ai-game-devtools/sotana.md
-- Created: ai-game-devtools/sotana.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added sotana entry)
-## [2026-04-15] ingest | VideoAgent
-- Cloned: ~/tmp/ai-game-devtools/video-agent/ (from github.com)
-- Created: raw/articles/ai-game-devtools/video-agent.md
-- Created: ai-game-devtools/video-agent.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added video-agent entry)
-## [2026-04-15] ingest | Video-CCAM
-- Cloned: ~/tmp/ai-game-devtools/video-ccam/ (from github.com)
-- Created: raw/articles/ai-game-devtools/video-ccam.md
-- Created: ai-game-devtools/video-ccam.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added video-ccam entry under VLM section)
-## [2026-04-15] ingest | AgentBench — LLM Agent benchmark
-- Cloned: ~/tmp/ai-game-devtools/agentbench/ (GitHub)
-- Created: raw/articles/ai-game-devtools/agentbench.md
-- Created: ai-game-devtools/agentbench.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added agentbench entry under Game section)
-## [2026-04-15] ingest | VideoLLaMA 2 — VLM 视频-语言多模态模型
-- Cloned: ~/tmp/ai-game-devtools/videollama2/ (GitHub)
-- Created: raw/articles/ai-game-devtools/videollama2.md
-- Created: ai-game-devtools/videollama2.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added videollama2 entry under VLM section)
-
-## [2026-04-15] ingest | VideoMamba — Mamba SSM 视频理解模型
-- Cloned: ~/tmp/ai-game-devtools/video-mamba/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/video-mamba.md
-- Created: ai-game-devtools/video-mamba.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added video-mamba entry under VLM section)
-
-## [2026-04-15] ingest | VideoLLaMA 3 — 视频-图像多模态基础模型
-- Cloned: ~/tmp/ai-game-devtools/video-llama-3/
-- Created: raw/articles/ai-game-devtools/video-llama-3.md
-- Created: ai-game-devtools/video-llama-3.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added video-llama-3 entry under VLM section)
-
-## [2026-04-15] ingest | Video-MME — CVPR 2025 视频理解 MLLM 评测基准
-- Cloned: ~/tmp/ai-game-devtools/video-mme/
-- Created: raw/articles/ai-game-devtools/video-mme.md
-- Created: ai-game-devtools/video-mme.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added video-mme entry under VLM section)
-## [2026-04-15] ingest | Vitron — 统一像素级视觉 LLM (NeurIPS 2024)
-- Cloned: ~/tmp/ai-game-devtools/vitron/
-- Created: raw/articles/ai-game-devtools/vitron.md
-- Created: ai-game-devtools/vitron.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-
-## [2026-04-15] ingest | VILA — NVIDIA 开源 VLM 家族
-- Cloned: ~/tmp/ai-game-devtools/vila/
-- Created: raw/articles/ai-game-devtools/vila.md
-- Created: ai-game-devtools/vila.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added VILA to VLM section)
-- Updated: index.md (added vitron entry under VLM section)
-
-## [2026-04-15] ingest | Agent Group Chat — 多智能体群聊涌现行为模拟
-- Cloned: ~/tmp/ai-game-devtools/agent-group-chat/
-- Created: raw/articles/ai-game-devtools/agent-group-chat.md
-- Created: ai-game-devtools/agent-group-chat.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added Agent Group Chat to Game section)
-
-## [2026-04-15] ingest | Agent K — 自进化 AGI 系统
-- Cloned: ~/tmp/ai-game-devtools/agent-k/ (GitHub)
-- Created: raw/articles/ai-game-devtools/agent-k.md
-- Created: ai-game-devtools/agent-k.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added agent-k entry under Game section)
-
-## [2026-04-15] ingest | Agent Laboratory
-- Cloned: ~/tmp/ai-game-devtools/agent-laboratory/ (GitHub)
-- Created: raw/articles/ai-game-devtools/agent-laboratory.md
-- Created: ai-game-devtools/agent-laboratory.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added agent-laboratory entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | AgentScope — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/agentscope/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/agentscope.md
-- Created: ai-game-devtools/agentscope.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added agentscope entry under Game section)
-
-## [2026-04-15] ingest | AgentSims
-- Cloned: ~/tmp/ai-game-devtools/agentsims/ (GitHub)
-- Created: raw/articles/ai-game-devtools/agentsims.md
-- Created: ai-game-devtools/agentsims.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added agentsims entry under AI Game DevTools section)
-## [2026-04-15] ingest | AI Town
-- Cloned: ~/tmp/ai-game-devtools/ai-town/ (GitHub)
-- Created: raw/articles/ai-game-devtools/ai-town.md
-- Created: ai-game-devtools/ai-town.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added ai-town entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | anime.gf
-- Cloned: ~/tmp/ai-game-devtools/anime-gf/ (GitHub)
-- Created: raw/articles/ai-game-devtools/anime-gf.md
-- Created: ai-game-devtools/anime-gf.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added anime-gf entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | Atomic Agents
-- Cloned: ~/tmp/ai-game-devtools/atomic-agents/ (GitHub)
-- Created: raw/articles/ai-game-devtools/atomic-agents.md
-- Created: ai-game-devtools/atomic-agents.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added atomic-agents entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | AutoAgents
-- Cloned: ~/tmp/ai-game-devtools/autoagents/ (GitHub)
-- Created: raw/articles/ai-game-devtools/autoagents.md
-- Created: ai-game-devtools/autoagents.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added autoagents entry under AI Game DevTools section)
-
-## [2026-04-15] ingest | AutoGen
-- Cloned: ~/tmp/ai-game-devtools/autogen/ (GitHub)
-- Created: raw/articles/ai-game-devtools/autogen.md
-- Created: ai-game-devtools/autogen.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added autogen entry under AI Game DevTools section)
-## [2026-04-15] ingest | AWorld — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/aworld/ (GitHub)
-- Created: raw/articles/ai-game-devtools/aworld.md
-- Created: ai-game-devtools/aworld.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added aworld entry under AI Game DevTools section)
-## [2026-04-15] ingest | Behaviac — 腾讯游戏AI行为框架
-- Cloned: ~/tmp/ai-game-devtools/behaviac/ (gitcode.com mirror)
-- Created: raw/articles/ai-game-devtools/behaviac.md
-- Created: ai-game-devtools/behaviac.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added Behaviac entry under AI Game DevTools section)
-## [2026-04-15] ingest | Biomes — ill-inc 开源 Web 沙盒 MMORPG
-- Cloned: ~/tmp/ai-game-devtools/biomes/ (GitHub)
-- Created: raw/articles/ai-game-devtools/biomes.md
-- Created: ai-game-devtools/biomes.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added biomes entry under Game Projects & Studios section)
-## [2026-04-15] ingest | Buffer of Thoughts — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/buffer-of-thought-llm/ (GitHub)
-- Created: raw/articles/ai-game-devtools/buffer-of-thought-llm.md
-- Created: ai-game-devtools/buffer-of-thoughts.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added buffer-of-thoughts entry under AI Game DevTools section)
-## [2026-04-15] ingest | Byzer-Agent — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/byzer-agent/ (GitHub)
-- Created: raw/articles/ai-game-devtools/byzer-agent.md
-- Created: ai-game-devtools/byzer-agent.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added byzer-agent entry under AI Game DevTools section)
-## [2026-04-15] ingest | Cat Town — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/cat-town/ (GitHub)
-- Created: raw/articles/ai-game-devtools/cat-town.md
-- Created: ai-game-devtools/cat-town.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added cat-town entry under AI Game DevTools section)
-## [2026-04-15] ingest | AI Code Translator — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/ai-code-translator/ (GitHub)
-- Created: raw/articles/ai-game-devtools/ai-code-translator.md
-- Created: ai-game-devtools/ai-code-translator.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added ai-code-translator entry under Code Tools section)
-## [2026-04-15] ingest | CharacterGLM-6B — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/character-glm-6b/ (GitHub)
-- Created: raw/articles/ai-game-devtools/character-glm-6b.md
-- Created: ai-game-devtools/character-glm-6b.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added character-glm-6b entry under AI Game DevTools section)
-## [2026-04-15] ingest | ComoRAG — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/comorag/ (GitHub)
-- Created: raw/articles/ai-game-devtools/comorag.md
-- Created: ai-game-devtools/comorag.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added comorag entry under AI Game DevTools section)
-## [2026-04-15] ingest | crewAI — 独立多Agent框架（无LangChain依赖）
-- Cloned: ~/tmp/ai-game-devtools/crewai/ (GitHub)
-- Created: raw/articles/ai-game-devtools/crewai.md
-- Created: ai-game-devtools/crewai.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added crewai entry under AI Game DevTools section)
-## [2026-04-15] ingest | Datarus Jupyter Agent — 数据科学 Jupyter Agent
-- Cloned: ~/tmp/ai-game-devtools/datarus-jupyter-agent/ (GitHub)
-- Created: raw/articles/ai-game-devtools/datarus-jupyter-agent.md
-- Created: ai-game-devtools/datarus-jupyter-agent.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added datarus-jupyter-agent entry under AI Game DevTools section)
-## [2026-04-15] ingest | everything-ai — 多任务 AI 助手（Docker RAG/文本/图像/音频/视频）
-- Cloned: ~/tmp/ai-game-devtools/everything-ai/ (GitHub)
-- Created: raw/articles/ai-game-devtools/everything-ai.md
-- Created: ai-game-devtools/everything-ai.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-## [2026-04-15] ingest | FastGPT — AI Agent 构建平台（可视化 Flow + RAG + MCP）
-- Cloned: ~/tmp/ai-game-devtools/fastgpt/ (GitHub, already existed)
-- Created: raw/articles/ai-game-devtools/fastgpt.md
-- Created: ai-game-devtools/fastgpt.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-## [2026-04-15] ingest | GameAISDK — 腾讯游戏AI工具包（强化学习+图像识别）
-- Cloned: ~/tmp/ai-game-devtools/gameaisdk/ (GitHub)
-- Created: raw/articles/ai-game-devtools/gameaisdk.md
-- Created: ai-game-devtools/gameaisdk.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added entry)
-## [2026-04-15] ingest | fastRAG — IntelLabs 高效RAG框架（ColBERT+PLAID/Haystack/多后端）
-- Cloned: ~/tmp/ai-game-devtools/fastrag/ (GitHub)
-- Created: raw/articles/ai-game-devtools/fastrag.md
-- Created: ai-game-devtools/fastrag.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
-- Updated: index.md (added fastrag entry under AI Game DevTools section)
-## [2026-04-16] ingest | GameGen-O — 腾讯游戏视频生成模型
-- Source: 36氪报道 + 官方信息综合（GitHub 克隆失败，通过 Web 提取替代）
-- Created: raw/articles/ai-game-devtools/gamegen-o.md
-- Created: ai-game-devtools/gamegen-o.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added gamegen-o entry under AI Game DevTools section)
-## [2026-04-16] ingest | GenAgent — CVPR 2025 LLM Agent for ComfyUI Workflow Generation
-- Cloned: ~/tmp/ai-game-devtools/genagent/ (GitHub)
-- Created: raw/articles/ai-game-devtools/genagent.md
-- Created: ai-game-devtools/genagent.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added genagent entry under AI Game DevTools section)
-
-## [2026-04-16] ingest | Generative Agents — Stanford 交互式人类行为模拟
-- Cloned: ~/tmp/ai-game-devtools/generative-agents/ (GitHub)
-- Created: raw/articles/ai-game-devtools/generative-agents.md
-- Created: ai-game-devtools/generative-agents.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added generative-agents entry under AI Game DevTools section)
-## [2026-04-16] ingest | Genesis — 通用物理引擎与机器人仿真平台
-- Cloned: ~/tmp/ai-game-devtools/genesis/ (GitHub)
-- Created: raw/articles/ai-game-devtools/genesis.md
-- Created: ai-game-devtools/genesis.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added genesis entry under AI Game DevTools section)
-## [2026-04-16] ingest | gigax — 游戏运行时 LLM NPC 框架
-- Cloned: ~/tmp/ai-game-devtools/gigax/
-- Created: raw/articles/ai-game-devtools/gigax.md
-- Created: ai-game-devtools/gigax.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added entry)
-## [2026-04-16] ingest | HippoRAG
-- Cloned: ~/tmp/ai-game-devtools/hipporag/
-- Created: raw/articles/ai-game-devtools/hipporag.md
-- Created: ai-game-devtools/hipporag.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-## [2026-04-16] ingest | Hunyuan-GameCraft
-- Cloned: ~/tmp/ai-game-devtools/hunyuan-gamecraft/
-- Created: raw/articles/ai-game-devtools/hunyuan-gamecraft.md
-- Created: ai-game-devtools/hunyuan-gamecraft.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-## [2026-04-16] ingest | HunyuanWorld 1.0
-- Cloned: ~/tmp/ai-game-devtools/hunyuanworld-1.0/
-- Created: raw/articles/ai-game-devtools/hunyuanworld-1.0.md
-- Created: ai-game-devtools/hunyuanworld-1.0.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-## [2026-04-16] ingest | aiXcoder-7B
-- Cloned: ~/tmp/ai-game-devtools/aixcoder-7b/
-- Created: raw/articles/ai-game-devtools/aixcoder-7b.md
-- Created: ai-game-devtools/aixcoder-7b.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-## [2026-04-16] ingest | Interactive LLM Powered NPCs
-- Cloned: ~/tmp/ai-game-devtools/interactive-llm-powered-npcs/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/interactive-llm-powered-npcs.md
-- Created: ai-game-devtools/interactive-llm-powered-npcs.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-## [2026-04-16] ingest | HunyuanWorld-Voyager
-- Cloned: ~/tmp/ai-game-devtools/hunyuanworld-voyager/
-- Created: raw/articles/ai-game-devtools/hunyuanworld-voyager.md
-- Created: ai-game-devtools/hunyuanworld-voyager.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-## [2026-04-16] ingest | IoA (Internet of Agents)
-- Cloned: ~/tmp/ai-game-devtools/ioa/
-- Created: raw/articles/ai-game-devtools/ioa.md
-- Created: ai-game-devtools/ioa.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-
-## [2026-04-16] ingest | Jaaz — AI画布创意Agent
-- Cloned: ~/tmp/ai-game-devtools/jaaz/
-- Created: raw/articles/ai-game-devtools/jaaz.md
-- Created: ai-game-devtools/jaaz.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-## [2026-04-16] ingest | KwaiAgents — 快手LLM Agent系统
-- Cloned: ~/tmp/ai-game-devtools/kwaiagents/ (gitcode mirror)
-- Created: raw/articles/ai-game-devtools/kwaiagents.md
-- Created: ai-game-devtools/kwaiagents.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-
-## [2026-04-16] ingest | LangChain — LLM应用开发框架
-- Cloned: ~/tmp/ai-game-devtools/langchain/
-- Created: raw/articles/ai-game-devtools/langchain.md
-- Created: ai-game-devtools/langchain.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-## [2026-04-16] ingest | LLama Agentic System — AI游戏开发工具
-- Source: https://github.com/meta-llama/llama-agentic-system (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/llama-agentic-system.md
-- Created: ai-game-devtools/llama-agentic-system.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-## [2026-04-16] ingest | LlamaIndex — LLM数据框架
-- Cloned: ~/tmp/ai-game-devtools/llama-index/
-- Created: raw/articles/ai-game-devtools/llama-index.md
-- Created: ai-game-devtools/llama-index.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md
-## [2026-04-16] ingest | MindSearch — AI游戏开发工具
-- Cloned: ~/tmp/ai-game-devtools/mindsearch/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/mindsearch.md
-- Created: ai-game-devtools/mindsearch.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added mindsearch entry under AI Game DevTools section)
-## [2026-04-16] ingest | Mixture of Agents (MoA)
-- Cloned: ~/tmp/ai-game-devtools/mixture-of-agents/
-- Created: raw/articles/ai-game-devtools/mixture-of-agents.md
-- Created: ai-game-devtools/mixture-of-agents.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added mixture-of-agents entry under AI Game DevTools section)
-## [2026-04-16] ingest | MMRole — 多模态角色扮演Agent框架
-- Cloned: ~/tmp/ai-game-devtools/mmrole/
-- Created: raw/articles/ai-game-devtools/mmrole.md
-- Created: ai-game-devtools/mmrole.md
-- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
-- Updated: index.md (added mmrole entry under AI Game DevTools section)
+- Updated: index.md (added nvidia-nemo-agent-toolkit entry under AI Game DevTools section)

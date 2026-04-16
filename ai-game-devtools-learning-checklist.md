@@ -213,7 +213,7 @@
 - [2026-04-16] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
 - [2026-04-16] MMRole | https://github.com/YanqiDai/MMRole
 |- [2026-04-16] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
-- [ ] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
+|- [2026-04-16] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
 - [ ] Oasis | https://github.com/etched-ai/open-oasis
 - [ ] OmAgent | https://github.com/om-ai-lab/OmAgent
 - [ ] OpenAgents | https://github.com/xlang-ai/OpenAgents

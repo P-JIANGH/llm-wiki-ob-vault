@@ -3,6 +3,12 @@
      3|> Chronological record of all wiki actions. Append-only.
      4|> Format: `## [YYYY-MM-DD] action | subject`
      5|> Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-16] ingest | Pipecat — pipecat-ai 实时语音/多模态 AI Agent 框架
+- Cloned: ~/tmp/ai-game-devtools/pipecat/
+- Created: raw/articles/ai-game-devtools/pipecat.md
+- Created: ai-game-devtools/pipecat.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added pipecat entry under AI Game DevTools section)
 ## [2026-04-16] ingest | OpenAgents — XLang NLP Lab 开源语言 Agent 平台
 - Cloned: ~/tmp/ai-game-devtools/openagents/
 - Created: raw/articles/ai-game-devtools/openagents.md

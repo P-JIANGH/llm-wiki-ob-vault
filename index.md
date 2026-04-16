@@ -169,7 +169,8 @@
 || [[ai-game-devtools/nvidia-nemo-agent-toolkit]] — NVIDIA 开源多智能体编排框架（Apache 2.0）：框架无关的 Agent 连接层，插件支持 LangChain/CrewAI/LlamaIndex 等 7+ 框架，企业级可观测性+评估+安全测试，CLI 工作流驱动，Python 3.11-3.13，无需 GPU |
 || [[ai-game-devtools/om-agent]] — OmAI Lab 多模态语言智能体框架：Conductor 工作流引擎 + YAML 配置驱动、8 种推理算子(ReAct/CoT/SC-CoT/PoT 等)、VLM/视频理解/STT 多模态、Redis/Milvus 双记忆、Lite 模式无需中间件
 || [[ai-game-devtools/openagents]] — XLang NLP Lab 开源语言 Agent 平台：Data/Plugins/Web 三大 Agent + Next.js Chat UI + Flask 后端 + MongoDB/Redis 存储 + Chrome 扩展自动浏览，基于 LangChain，3000+ 用户，Apache 2.0
-|| [[ai-game-devtools/open-oasis]] — Decart×Etched 交互式世界模型：DiT 架构 + ViT VAE，键盘动作→自回归游戏画面帧生成，500M 参数开源版，HuggingFace 权重
+||| [[ai-game-devtools/open-oasis]] — Decart×Etched 交互式世界模型：DiT 架构 + ViT VAE，键盘动作→自回归游戏画面帧生成，500M 参数开源版，HuggingFace 权重
+||| [[ai-game-devtools/pipecat]] — pipecat-ai 实时语音/多模态 AI Agent 框架：Frame-based 管道架构、60+ AI 服务集成（STT/LLM/TTS/Vision）、Daily/LiveKit WebRTC 传输、多平台 SDK（JS/React/Swift/Kotlin/C++）、BSD-2-Clause
 || [[ai-game-devtools/sotana]] — DeepSoftwareAnalytics 软件工程指令微调模型：LLaMA + LoRA（7B/13B/30B），覆盖 Stack Overflow 问答/代码生成/代码摘要三类任务，PEFT 高效微调 |
 
 ## Code Tools

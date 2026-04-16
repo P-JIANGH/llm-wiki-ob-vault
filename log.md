@@ -530,3 +530,9 @@
 - Created: ai-game-devtools/om-agent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added om-agent entry)
+## [2026-04-16] ingest | Qwen-Agent
+- Cloned: ~/tmp/ai-game-devtools/qwen-agent/ (from gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/qwen-agent.md
+- Created: ai-game-devtools/qwen-agent.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

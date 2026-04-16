@@ -218,8 +218,8 @@
 - [2026-04-16] OmAgent | https://github.com/om-ai-lab/OmAgent
 |- [2026-04-16] OpenAgents | https://github.com/xlang-ai/OpenAgents
 |- [2026-04-16] Pipecat | https://github.com/pipecat-ai/pipecat
-- [ ] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
-- [ ] Ragas | https://github.com/explodinggradients/ragas
+|- [2026-04-16] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
+|- [ ] Ragas | https://github.com/explodinggradients/ragas
 - [ ] RPBench-Auto | https://github.com/boson-ai/RPBench-Auto
 - [ ] SWE-agent | https://github.com/princeton-nlp/SWE-agent
 - [ ] TaskGen | https://github.com/simbianai/taskgen

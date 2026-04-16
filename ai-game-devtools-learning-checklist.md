@@ -261,7 +261,7 @@
 - [2026-04-17] CatVTON | https://github.com/Zheng-Chong/CatVTON
 - [2026-04-17] CLIPasso | https://github.com/yael-vinker/CLIPasso
 - [2026-04-17] ComfyUI | https://github.com/comfyanonymous/ComfyUI
-- [ ] ConceptLab | https://github.com/kfirgoldberg/ConceptLab
+- [2026-04-17] ConceptLab | https://github.com/kfirgoldberg/ConceptLab
 - [ ] ControlNet | https://github.com/lllyasviel/ControlNet
 - [ ] CSGO | https://github.com/instantX-research/CSGO
 - [ ] DeepFloyd IF | https://github.com/deep-floyd/IF

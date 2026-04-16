@@ -9,6 +9,12 @@
 - Created: ai-game-devtools/bloop.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added bloop entry under Code Tools section)
+## [2026-04-16] ingest | codegeex — THUDM 13B 多语言代码生成模型
+- Cloned: ~/tmp/ai-game-devtools/codegeex/ (via gitcode.com mirror; GitHub clone timed out)
+- Created: raw/articles/ai-game-devtools/codegeex.md
+- Created: ai-game-devtools/codegeex.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added codegeex entry under AI Game DevTools section)
 ## [2026-04-16] ingest | Pipecat — pipecat-ai 实时语音/多模态 AI Agent 框架
 - Cloned: ~/tmp/ai-game-devtools/pipecat/
 - Created: raw/articles/ai-game-devtools/pipecat.md

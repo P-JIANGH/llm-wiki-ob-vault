@@ -234,7 +234,7 @@
 - [2026-04-16] aiXcoder-7B | https://github.com/aixcoder-plugin/aiXcoder-7B
 - [2026-04-16] bloop | https://github.com/BloopAI/bloop
 - [2026-04-16] Chapyter | https://github.com/chapyter/chapyter
-- [ ] CodeGeeX | https://github.com/THUDM/CodeGeeX
+- [2026-04-16] CodeGeeX | https://github.com/THUDM/CodeGeeX
 - [ ] CodeGeeX2 | https://github.com/THUDM/CodeGeeX2
 - [ ] CodeGeeX4 | https://github.com/THUDM/CodeGeeX4
 - [ ] CodeGen | https://github.com/salesforce/CodeGen

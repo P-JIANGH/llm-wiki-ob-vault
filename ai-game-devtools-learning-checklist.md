@@ -249,7 +249,7 @@
 |- [2026-04-15] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
 |- [2026-04-17] StarCoder | https://github.com/bigcode-project/starcoder
 |- [2026-04-17] StarCoder 2 | https://github.com/bigcode-project/starcoder2
-- [ ] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI
+- [2026-04-17] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI
 - [ ] Void | https://github.com/voideditor/void
 
 ## Image (75)

@@ -192,6 +192,7 @@
 ||| [[ai-game-devtools/codegeex4]] — THUDM CodeGeeX 第四代：9B参数+GLM-4基座，128K上下文，HumanEval 82.3%，唯一支持Function Call的代码模型，Ollama/vLLM/Candle多部署方式，Apache 2.0 |
 | [[ai-game-devtools/aixcoder-7b]] — aiXcoder 7B 代码大模型：1.2T Tokens 训练，结构化 AST-FIM 训练任务（70%），7B 参数 RoPE/SwiGLU/GQA，nl2code 超越 CodeLlama 34B，跨文件代码理解，int8/int4 量化，Apache-2.0 |
 | [[ai-game-devtools/codegen]] — Salesforce 开源代码生成模型家族（CodeGen1/2/2.5），7B-16B 参数，ICLR 2023，7B 超 16B 性能，StarCoderData 预训练，Apache 2.0 |
+|| [[ai-game-devtools/codegen2]] — Salesforce CodeGen 第二代（1B/3.7B/7B/16B）：原生代码 infilling 支持，19 种编程语言，The Stack v1.1 去重数据，ICLR 2023，研究用途 |
 | [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT |
 
 |||## Open Source Games

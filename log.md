@@ -627,3 +627,9 @@
 - Created: ai-game-devtools/codegen.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added codegen entry under Code Tools section)
+## [2026-04-17] ingest | CodeGen2 — Salesforce 代码生成模型第二代
+- Cloned: ~/tmp/ai-game-devtools/codegen2/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/codegen2.md
+- Created: ai-game-devtools/codegen2.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added codegen2 entry under Code Tools section)

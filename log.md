@@ -639,3 +639,9 @@
 - Created: ai-game-devtools/code-llama.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added code-llama entry under Code Tools section)
+## [2026-04-17] ingest | CodeTF — Salesforce Code LLM Transformer Library
+- Cloned: ~/tmp/ai-game-devtools/codetf/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/codetf.md
+- Created: ai-game-devtools/codetf.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added codetf entry under Code Tools section)

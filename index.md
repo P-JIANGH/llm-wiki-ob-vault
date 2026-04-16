@@ -194,7 +194,8 @@
 | [[ai-game-devtools/codegen]] — Salesforce 开源代码生成模型家族（CodeGen1/2/2.5），7B-16B 参数，ICLR 2023，7B 超 16B 性能，StarCoderData 预训练，Apache 2.0 |
 || [[ai-game-devtools/codegen2]] — Salesforce CodeGen 第二代（1B/3.7B/7B/16B）：原生代码 infilling 支持，19 种编程语言，The Stack v1.1 去重数据，ICLR 2023，研究用途 |
 || [[ai-game-devtools/code-llama]] — Meta AI 基于 Llama 2 的代码大模型（7B/13B/34B/70B）：Base/Python/Instruct 三变体，16K训练/100K推理上下文，代码填充(infilling)能力，Llama 2 Community License |
-| [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT |
+|| [[ai-game-devtools/codetf]] — Salesforce Code LLM 工具库：推理/微调/评估/数据集/代码工具一站式 Python 库，15+ 语言 tree-sitter AST 解析，PEFT 微调，pass@k/CodeBLEU 评测，~14 行代码完成微调，Apache 2.0
+|| [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT |
 
 |||## Open Source Games
 - [[open-source-game/athena-crisis]] — 现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容），Steam 商业化

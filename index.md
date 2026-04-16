@@ -117,6 +117,7 @@
 ||| [[ai-game-devtools/mindsearch]] — InternLM 开源 AI 深度搜索框架：动态图分解子问题 + 并行 SearcherAgent（ThreadPoolExecutor/asyncio）+ 5 种搜索引擎 + SSE 流式可视化，arXiv 2407.20183，Apache 2.0 ||
 || [[ai-game-devtools/mixture-of-agents]] — Together AI 多 LLM 分层聚合架构：并行调用多个开源模型 → 迭代精炼 → 聚合器综合，AlpacaEval 2.0 65.1% 超越 GPT-4 Omni（57.5%），纯推理时增强无需训练，Apache 2.0
 || [[ai-game-devtools/mmrole]] — YanqiDai ICLR 2025 多模态角色扮演 Agent 框架：85角色/11K图像/14K对话数据集 + Qwen-VL-Chat 微调 Agent + 8维3面评估，奖励模型评分，MIT
+| [[ai-game-devtools/mug-diffusion]] — Keytoyze AI 音游谱面自动生成工具：基于 Stable Diffusion 改造+音频波形条件化，支持 4K VSRG，osu!/Etterna 难度控制+风格控制，Gradio WebUI，CC0 1.0
 || [[ai-game-devtools/atomic-agents]]
 | [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
 | [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |

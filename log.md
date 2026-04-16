@@ -578,3 +578,9 @@
 - Created: ai-game-devtools/wordware-twitter.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added wordware-twitter entry)
+## [2026-04-16] ingest | Video2Game — 视频转3D游戏场景管线
+- Source: GitHub (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/video2game.md
+- Created: ai-game-devtools/video2game.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added video2game entry)

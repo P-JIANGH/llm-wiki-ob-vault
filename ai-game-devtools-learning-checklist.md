@@ -226,7 +226,7 @@
 |- [2026-04-16] TEN Agent | https://github.com/TEN-framework/TEN-Agent
 - [2026-04-16] Translation Agent | https://github.com/andrewyng/translation-agent
 - [2026-04-16] Twitter | https://github.com/wordware-ai/twitter
-- [ ] Video2Game | https://github.com/video2game/video2game
+- [2026-04-16] Video2Game | https://github.com/video2game/video2game
 - [ ] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
 
 ## Code (21)

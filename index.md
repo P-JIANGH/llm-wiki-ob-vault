@@ -177,9 +177,10 @@
 ||| [[ai-game-devtools/open-oasis]] — Decart×Etched 交互式世界模型：DiT 架构 + ViT VAE，键盘动作→自回归游戏画面帧生成，500M 参数开源版，HuggingFace 权重
 ||| [[ai-game-devtools/pipecat]] — pipecat-ai 实时语音/多模态 AI Agent 框架：Frame-based 管道架构、60+ AI 服务集成（STT/LLM/TTS/Vision）、Daily/LiveKit WebRTC 传输、多平台 SDK（JS/React/Swift/Kotlin/C++）、BSD-2-Clause
 ||| [[ai-game-devtools/sotana]] — DeepSoftwareAnalytics 软件工程指令微调模型：LLaMA + LoRA（7B/13B/30B），覆盖 Stack Overflow 问答/代码生成/代码摘要三类任务，PEFT 高效微调 |
-|| [[ai-game-devtools/ten-agent]] — TEN-framework 开源实时多模态对话 AI 框架：低延迟语音/视频 Agent，多语言架构(Python/C/C++/TS/Rust/Go)、VAD/Turn Detection/唇形同步/ESP32 硬件支持、RTC/WebSocket 双传输，Apache 2.0
-|| [[ai-game-devtools/translation-agent]] — Andrew Ng 反射式 Agent 翻译工作流：翻译→反思→改进三步循环，支持区域语言变体/术语表定制，Gradio WebUI 多 LLM 端点，MIT
-|| [[ai-game-devtools/wordware-twitter]] — Wordware AI Twitter 人格分析 Agent：Next.js + TypeScript + Neon DB + Drizzle ORM，三通道 Twitter 数据抓取降级（API/Apify/SocialData），模块化 Prompt 系统（ROAST/FULL/PAIR），Stripe + PostHog + Loops 完整 SaaS 架构
+||| [[ai-game-devtools/ten-agent]] — TEN-framework 开源实时多模态对话 AI 框架：低延迟语音/视频 Agent，多语言架构(Python/C/C++/TS/Rust/Go)、VAD/Turn Detection/唇形同步/ESP32 硬件支持、RTC/WebSocket 双传输，Apache 2.0
+||| [[ai-game-devtools/translation-agent]] — Andrew Ng 反射式 Agent 翻译工作流：翻译→反思→改进三步循环，支持区域语言变体/术语表定制，Gradio WebUI 多 LLM 端点，MIT
+||| [[ai-game-devtools/video2game]] — 视频转 3D 游戏场景管线：NeRF→网格提取→纹理烘焙→碰撞体生成→Three.js/Unreal 集成，Omnidata 先验+V-HACD 凸分解，单视频生成可交互 3D 环境
+||| [[ai-game-devtools/wordware-twitter]] — Wordware AI Twitter 人格分析 Agent：Next.js + TypeScript + Neon DB + Drizzle ORM，三通道 Twitter 数据抓取降级（API/Apify/SocialData），模块化 Prompt 系统（ROAST/FULL/PAIR），Stripe + PostHog + Loops 完整 SaaS 架构
 
 ## Code Tools
 

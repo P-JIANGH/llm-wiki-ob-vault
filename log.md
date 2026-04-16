@@ -45,3 +45,10 @@
 - Created: ai-game-devtools/blender-controlnet.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added blender-controlnet entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | BriVL — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/brivl/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/brivl.md
+- Created: ai-game-devtools/brivl.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added brivl entry under AI Game DevTools section)

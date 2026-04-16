@@ -1210,3 +1210,9 @@
 - Created: ai-game-devtools/gamegen-o.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added gamegen-o entry under AI Game DevTools section)
+## [2026-04-16] ingest | GenAgent — CVPR 2025 LLM Agent for ComfyUI Workflow Generation
+- Cloned: ~/tmp/ai-game-devtools/genagent/ (GitHub)
+- Created: raw/articles/ai-game-devtools/genagent.md
+- Created: ai-game-devtools/genagent.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added genagent entry under AI Game DevTools section)

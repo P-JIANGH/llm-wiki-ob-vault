@@ -3,6 +3,12 @@
      3|> Chronological record of all wiki actions. Append-only.
      4|> Format: `## [YYYY-MM-DD] action | subject`
      5|> Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-16] ingest | OpenAgents — XLang NLP Lab 开源语言 Agent 平台
+- Cloned: ~/tmp/ai-game-devtools/openagents/
+- Created: raw/articles/ai-game-devtools/openagents.md
+- Created: ai-game-devtools/openagents.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added openagents entry under AI Game DevTools section)
      6|## [2026-04-16] ingest | MuG Diffusion
      7|- Source: GitHub (web extract; GitHub/gitcode/gitee clone all failed)
      8|- Created: raw/articles/ai-game-devtools/mug-diffusion.md

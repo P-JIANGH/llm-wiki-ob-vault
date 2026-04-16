@@ -216,7 +216,7 @@
 |- [2026-04-16] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
 |- [2026-04-16] Oasis | https://github.com/etched-ai/open-oasis
 - [2026-04-16] OmAgent | https://github.com/om-ai-lab/OmAgent
-- [ ] OpenAgents | https://github.com/xlang-ai/OpenAgents
+|- [2026-04-16] OpenAgents | https://github.com/xlang-ai/OpenAgents
 - [ ] Pipecat | https://github.com/pipecat-ai/pipecat
 - [ ] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
 - [ ] Ragas | https://github.com/explodinggradients/ragas

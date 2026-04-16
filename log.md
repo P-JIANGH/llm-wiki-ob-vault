@@ -536,3 +536,9 @@
 - Created: ai-game-devtools/qwen-agent.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-16] ingest | Ragas
+- Cloned: ~/tmp/ai-game-devtools/ragas/ (from gitcode.com mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/ragas.md
+- Created: ai-game-devtools/ragas.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added ragas entry)

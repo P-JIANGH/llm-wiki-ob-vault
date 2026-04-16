@@ -131,7 +131,8 @@
 || [[ai-game-devtools/brivl]] — BAAI WuDao 中文图文多模态预训练模型（1B 参数）：EfficientNet-B5 + Chinese RoBERTa 双编码器 + MoCo 对比学习，图文检索超 CLIP/UNITER，可独立部署
 || [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |
 || [[ai-game-devtools/autostudio]] — donahowe/AutoStudio CVPRW 2026 多轮交互式图像生成框架：四智能体（Subject Manager/LayoutGenerator/Supervisor/Drawer）+ Parallel-UNet + 免训练，保持多主题一致性，FID +13.65% |
-|| [[ai-game-devtools/catvton]] — ICLR 2025 虚拟试穿扩散模型：899M 参数/仅 49.57M 可训练，SD1.5 Inpainting 基础+拼接融合，1024×768 <8GB 显存，支持 VITON-HD/DressCode，CC BY-NC-SA 4.0 |
+||| [[ai-game-devtools/catvton]] — ICLR 2025 虚拟试穿扩散模型：899M 参数/仅 49.57M 可训练，SD1.5 Inpainting 基础+拼接融合，1024×768 <8GB 显存，支持 VITON-HD/DressCode，CC BY-NC-SA 4.0 |
+||| [[ai-game-devtools/clipasso]] — SIGGRAPH 2022 语义感知图像转草图工具：CLIP 感知损失 + diffvg 可微栅格化，贝塞尔曲线优化输出 SVG，笔画数控制抽象程度，CC BY-NC-SA 4.0 |
 | [[ai-game-devtools/aworld]] — inclusionAI 多智能体 Agent Harness 框架：CAST 代码分析 + Benchmark-Driven Development + Self-Evolution Loop，GAIA/OSWorld/XBench 多项 Leaderboard 1st，MIT |
 | [[ai-game-devtools/cradle]] — BAAI 游戏/软件 Agent 框架： screenshot→LLM推理→键鼠动作，RDR2/Stardew/CitiesSkylines/Dealer'sLife2 + Chrome/Outlook/Capcut，Skill Registry + Planner + Memory + SAM/GroundingDINO 视觉，MIT |
 | [[ai-game-devtools/agent-group-chat]] —

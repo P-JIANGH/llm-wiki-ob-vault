@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 470 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 471 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -488,4 +488,5 @@
 |||| [[ai-game-devtools/lemur]] — XLang Lab+Salesforce 70B LLM，NLP+Code 平衡训练，10:1 代码文本比预训练，WebArena/MINT/InterCode agent 评测，Apache |
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |
 ||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包
-- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)
+|- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)
+- [[ai-game-devtools/follow-your-click]] — AAAI 2025 开放域区域图像动画：点击选区+短提示词精确控制局部运动，AnimateDiff 时序扩散管线+IP-Adapter 视觉条件化，无需密集运动掩码

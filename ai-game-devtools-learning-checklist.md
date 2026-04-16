@@ -221,7 +221,7 @@
 |- [2026-04-16] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
 |- [2026-04-16] Ragas | https://github.com/explodinggradients/ragas
 |- [2026-04-16] RPBench-Auto | https://github.com/boson-ai/RPBench-Auto
-- [ ] SWE-agent | https://github.com/princeton-nlp/SWE-agent
+|- [2026-04-16] SWE-agent | https://github.com/princeton-nlp/SWE-agent
 - [ ] TaskGen | https://github.com/simbianai/taskgen
 - [ ] TEN Agent | https://github.com/TEN-framework/TEN-Agent
 - [ ] Translation Agent | https://github.com/andrewyng/translation-agent

@@ -1204,3 +1204,9 @@
 - Created: ai-game-devtools/fastrag.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-15])
 - Updated: index.md (added fastrag entry under AI Game DevTools section)
+## [2026-04-16] ingest | GameGen-O — 腾讯游戏视频生成模型
+- Source: 36氪报道 + 官方信息综合（GitHub 克隆失败，通过 Web 提取替代）
+- Created: raw/articles/ai-game-devtools/gamegen-o.md
+- Created: ai-game-devtools/gamegen-o.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added gamegen-o entry under AI Game DevTools section)

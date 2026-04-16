@@ -149,3 +149,9 @@
 - Created: ai-game-devtools/follow-your-click.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-17] ingest | Fooocus
+- Cloned: ~/tmp/ai-game-devtools/fooocus/
+- Created: raw/articles/ai-game-devtools/fooocus.md
+- Created: ai-game-devtools/fooocus.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

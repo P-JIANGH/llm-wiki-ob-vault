@@ -1229,3 +1229,9 @@
 - Created: ai-game-devtools/genesis.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added genesis entry under AI Game DevTools section)
+## [2026-04-16] ingest | gigax — 游戏运行时 LLM NPC 框架
+- Cloned: ~/tmp/ai-game-devtools/gigax/
+- Created: raw/articles/ai-game-devtools/gigax.md
+- Created: ai-game-devtools/gigax.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added entry)

@@ -1296,3 +1296,10 @@
 - Created: ai-game-devtools/kwaiagents.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md
+
+## [2026-04-16] ingest | LangChain — LLM应用开发框架
+- Cloned: ~/tmp/ai-game-devtools/langchain/
+- Created: raw/articles/ai-game-devtools/langchain.md
+- Created: ai-game-devtools/langchain.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md

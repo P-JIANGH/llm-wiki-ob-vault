@@ -203,7 +203,7 @@
 - [2026-04-16] IoA | https://github.com/OpenBMB/IoA
 - [2026-04-16] Jaaz | https://github.com/11cafe/jaaz
 - [2026-04-16] KwaiAgents | https://github.com/KwaiKEG/KwaiAgents
-- [ ] LangChain | https://github.com/langchain-ai/langchain
+- [2026-04-16] LangChain | https://github.com/langchain-ai/langchain
 - [ ] LangGraph Studio | https://github.com/langchain-ai/langgraph-studio
 - [ ] LARP | https://github.com/MiAO-AI-Lab/LARP
 - [ ] LLama Agentic System | https://github.com/meta-llama/llama-agentic-system

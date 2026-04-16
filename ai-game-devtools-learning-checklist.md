@@ -254,7 +254,7 @@
 
 ## Image (75)
 - [2026-04-17] AnyText | https://github.com/tyxsspa/AnyText
-- [ ] AutoStudio | https://github.com/donahowe/AutoStudio
+- [2026-04-17] AutoStudio | https://github.com/donahowe/AutoStudio
 - [ ] BAGEL | https://github.com/ByteDance-Seed/Bagel
 - [ ] Blender-ControlNet | https://github.com/coolzilj/Blender-ControlNet
 - [ ] BriVL | https://github.com/BAAI-WuDao/BriVL

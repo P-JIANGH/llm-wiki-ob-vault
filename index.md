@@ -166,8 +166,9 @@
 ||||| [[ai-game-devtools/stable-lm]] — Stability AI 开源 LLM 系列（3B/7B/13B），StableLM-3B-4E1T 多 epoch 训练 4T tokens SOTA，CC BY-SA-4.0 |
 |||||| [[ai-game-devtools/webgpt]] — 0hq 纯浏览器端 GPT 推理：WebGPU + WGSL 自定义着色器，117M~1.5B 模型免构建直接开 HTML 运行，适合教育目的，MIT |
 ||||||| [[ai-game-devtools/wordgpt]] — filippofinke Microsoft Word Office 插件：OpenAI text-davinci-003 集成，Prompt 输入→生成→插入文档，React + Fluent UI，MIT |
-| [[ai-game-devtools/nvidia-nemo-agent-toolkit]] — NVIDIA 开源多智能体编排框架（Apache 2.0）：框架无关的 Agent 连接层，插件支持 LangChain/CrewAI/LlamaIndex 等 7+ 框架，企业级可观测性+评估+安全测试，CLI 工作流驱动，Python 3.11-3.13，无需 GPU |
-| [[ai-game-devtools/sotana]] — DeepSoftwareAnalytics 软件工程指令微调模型：LLaMA + LoRA（7B/13B/30B），覆盖 Stack Overflow 问答/代码生成/代码摘要三类任务，PEFT 高效微调 |
+|| [[ai-game-devtools/nvidia-nemo-agent-toolkit]] — NVIDIA 开源多智能体编排框架（Apache 2.0）：框架无关的 Agent 连接层，插件支持 LangChain/CrewAI/LlamaIndex 等 7+ 框架，企业级可观测性+评估+安全测试，CLI 工作流驱动，Python 3.11-3.13，无需 GPU |
+|| [[ai-game-devtools/open-oasis]] — Decart×Etched 交互式世界模型：DiT 架构 + ViT VAE，键盘动作→自回归游戏画面帧生成，500M 参数开源版，HuggingFace 权重 |
+|| [[ai-game-devtools/sotana]] — DeepSoftwareAnalytics 软件工程指令微调模型：LLaMA + LoRA（7B/13B/30B），覆盖 Stack Overflow 问答/代码生成/代码摘要三类任务，PEFT 高效微调 |
 
 ## Code Tools
 

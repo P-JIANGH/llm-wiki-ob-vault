@@ -504,3 +504,10 @@
 - Created: ai-game-devtools/nvidia-nemo-agent-toolkit.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added nvidia-nemo-agent-toolkit entry under AI Game DevTools section)
+
+## [2026-04-16] ingest | Open-Oasis — AI游戏开发工具
+- Cloned: N/A (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/open-oasis.md
+- Created: ai-game-devtools/open-oasis.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added open-oasis entry under AI Game DevTools section)

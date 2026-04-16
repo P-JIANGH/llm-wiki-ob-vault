@@ -227,7 +227,7 @@
 - [2026-04-16] Translation Agent | https://github.com/andrewyng/translation-agent
 - [2026-04-16] Twitter | https://github.com/wordware-ai/twitter
 - [2026-04-16] Video2Game | https://github.com/video2game/video2game
-- [ ] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
+|- [2026-04-16] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
 
 ## Code (21)
 - [2026-04-15] AI Code Translator | https://github.com/mckaywrigley/ai-code-translator

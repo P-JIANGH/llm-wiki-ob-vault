@@ -584,3 +584,9 @@
 - Created: ai-game-devtools/video2game.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added video2game entry)
+## [2026-04-16] ingest | WebDesignAgent — 阿里达摩院自主网站生成 Agent
+- Source: GitHub (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/webdesignagent.md
+- Created: ai-game-devtools/webdesignagent.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added webdesignagent entry)

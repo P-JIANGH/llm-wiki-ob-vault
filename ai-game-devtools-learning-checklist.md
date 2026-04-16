@@ -232,7 +232,7 @@
 ## Code (21)
 - [2026-04-15] AI Code Translator | https://github.com/mckaywrigley/ai-code-translator
 - [2026-04-16] aiXcoder-7B | https://github.com/aixcoder-plugin/aiXcoder-7B
-- [ ] bloop | https://github.com/BloopAI/bloop
+- [2026-04-16] bloop | https://github.com/BloopAI/bloop
 - [ ] Chapyter | https://github.com/chapyter/chapyter
 - [ ] CodeGeeX | https://github.com/THUDM/CodeGeeX
 - [ ] CodeGeeX2 | https://github.com/THUDM/CodeGeeX2

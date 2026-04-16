@@ -3,6 +3,12 @@
      3|> Chronological record of all wiki actions. Append-only.
      4|> Format: `## [YYYY-MM-DD] action | subject`
      5|> Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-16] ingest | bloop — BloopAI AI代码搜索工具
+- Cloned: ~/tmp/ai-game-devtools/bloop/ (via gitcode.com mirror; GitHub clone failed)
+- Created: raw/articles/ai-game-devtools/bloop.md
+- Created: ai-game-devtools/bloop.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added bloop entry under Code Tools section)
 ## [2026-04-16] ingest | Pipecat — pipecat-ai 实时语音/多模态 AI Agent 框架
 - Cloned: ~/tmp/ai-game-devtools/pipecat/
 - Created: raw/articles/ai-game-devtools/pipecat.md

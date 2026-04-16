@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-16] ingest | LangGraph Studio — LangChain Agent IDE
+- Cloned: ~/tmp/ai-game-devtools/langgraph-studio/ (fork mirror)
+- Created: raw/articles/ai-game-devtools/langgraph-studio.md
+- Created: ai-game-devtools/langgraph-studio.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added langgraph-studio entry under AI Game DevTools section)
 ## [2026-04-16] ingest | HY-World 1.5 — 腾讯混元实时交互世界模型 WorldPlay
 - Cloned: ~/tmp/ai-game-devtools/hy-world-1.5/
 - Created: raw/articles/ai-game-devtools/hy-world-1.5.md

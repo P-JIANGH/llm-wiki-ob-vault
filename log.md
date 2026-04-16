@@ -542,3 +542,9 @@
 - Created: ai-game-devtools/ragas.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added ragas entry)
+## [2026-04-16] ingest | RPBench-Auto — boson-ai LLM 角色扮演自动化评测流水线
+- Cloned: ~/tmp/ai-game-devtools/rpbench-auto/
+- Created: raw/articles/ai-game-devtools/rpbench-auto.md
+- Created: ai-game-devtools/rpbench-auto.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added rpbench-auto entry)

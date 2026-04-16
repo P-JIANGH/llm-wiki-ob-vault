@@ -194,8 +194,9 @@
 | [[ai-game-devtools/codegen]] — Salesforce 开源代码生成模型家族（CodeGen1/2/2.5），7B-16B 参数，ICLR 2023，7B 超 16B 性能，StarCoderData 预训练，Apache 2.0 |
 || [[ai-game-devtools/codegen2]] — Salesforce CodeGen 第二代（1B/3.7B/7B/16B）：原生代码 infilling 支持，19 种编程语言，The Stack v1.1 去重数据，ICLR 2023，研究用途 |
 ||| [[ai-game-devtools/code-llama]] — Meta AI 基于 Llama 2 的代码大模型（7B/13B/34B/70B）：Base/Python/Instruct 三变体，16K训练/100K推理上下文，代码填充(infilling)能力，Llama 2 Community License |
-| [[ai-game-devtools/deepseek-coder]] — DeepSeekAI 代码语言模型系列（1B-33B）：2T tokens 预训练，86 种语言，16K FIM 代码补全，HumanEval 超越 CodeLlama-34B，MIT |
-|| [[ai-game-devtools/codetf]] — Salesforce Code LLM 工具库：推理/微调/评估/数据集/代码工具一站式 Python 库，15+ 语言 tree-sitter AST 解析，PEFT 微调，pass@k/CodeBLEU 评测，~14 行代码完成微调，Apache 2.0
+|| [[ai-game-devtools/deepseek-coder]] — DeepSeekAI 代码语言模型系列（1B-33B）：2T tokens 预训练，86 种语言，16K FIM 代码补全，HumanEval 超越 CodeLlama-34B，MIT |
+|| [[ai-game-devtools/starcoder]] — BigCode (HuggingFace+ServiceNow) 开源代码模型：80+ 语言，The Stack 数据集训练，OpenRAIL-M 许可，支持 PEFT 微调+8-bit量化(<20GB)，StarChat 编码助手变体 |
+||| [[ai-game-devtools/codetf]] — Salesforce Code LLM 工具库：推理/微调/评估/数据集/代码工具一站式 Python 库，15+ 语言 tree-sitter AST 解析，PEFT 微调，pass@k/CodeBLEU 评测，~14 行代码完成微调，Apache 2.0
 ||| [[ai-game-devtools/code-world-model]] — Meta FAIR 32B 代码世界模型：Dense decoder-only，交替局部/全局注意力(3:1)，131K context，Python执行轨迹+3M Agent交互轨迹中训练+多任务RL，SWE-bench Verified 65.8(+tts)
 ||| [[ai-game-devtools/codet5]] — Salesforce 代码理解与生成模型家族：CodeT5 (EMNLP 2021, T5 encoder-decoder, 8 语言, CodeXGLUE SOTA) + CodeT5+ (2023, 220M-16B, 灵活模式, HumanEval 36.1% Pass@1), 初始化自 CodeGen, BSD-3 |
 || [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT ||

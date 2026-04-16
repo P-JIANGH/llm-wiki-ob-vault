@@ -675,3 +675,9 @@
 - Created: ai-game-devtools/scikit-llm.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added scikit-llm entry under AI Game DevTools section)
+## [2026-04-17] ingest | StarCoder — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/starcoder/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/starcoder.md
+- Created: ai-game-devtools/starcoder.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added starcoder entry under Code Tools section)

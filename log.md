@@ -131,4 +131,9 @@
 - Created: raw/articles/ai-game-devtools/dwpose.md
 - Created: ai-game-devtools/dwpose.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
-- Updated: index.md (added dwpose entry under AI Game DevTools section, updated page count 468→469)
+- Updated: index.md (added dwpose entry under AI Game DevTools section, updated page count 468→469)## [2026-04-17] ingest | EasyPhoto — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/easyphoto/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/easyphoto.md
+- Created: ai-game-devtools/easyphoto.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added easyphoto entry under AI Game DevTools section, updated page count 469→470)

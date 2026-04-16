@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 469 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 470 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -104,6 +104,7 @@
 ||| [[ai-game-devtools/crewai]] — joaomdmoura 独立多Agent框架（无LangChain依赖）：Crew（自主Agent协作）+Flow（事件驱动生产工作流）+Sequential/Hierarchical双进程，5.76x快于LangGraph，MIT ||
 ||| [[ai-game-devtools/datarus-jupyter-agent]] — DatarusAI 数据科学 Jupyter Agent：基于 Datarus-R1-14B（Qwen 2.5 微调）驱动多步推理，Docker+Jupyter 隔离执行环境，ReAct/CoT 双模式，自动纠错，生成分析 Notebook，Apache 2.0 |
 | [[ai-game-devtools/everything-ai]] — AstraBert Docker 多任务 AI 助手：18 种任务模式（RAG/文本/图像/音频/视频/蛋白质折叠），Qdrant + llama.cpp + HuggingFace，支持本地 GGUF 和云端 API，MIT |
+|| [[ai-game-devtools/easyphoto]] — 阿里巴巴 PAI AI 人像生成 WebUI 插件：5-20 张人脸照训练数字分身 LoRA + 两阶段扩散生成 + ControlNet 条件控制 + LCM 加速/视频生成/虚拟试衣，Apache 2.0 |
 | [[ai-game-devtools/fabric]] — Daniel Miessler 开源 AI 增强框架（Go）：Pattern 模式管理 20+ AI 提供商，CLI + REST API + Docker，prompts 即单元解决问题，MIT |
 | [[ai-game-devtools/fastgpt]] — labring AI Agent 构建平台：可视化 Flow 工作流编排 + 知识库 RAG + 双向 MCP + OpenAI 兼容 API + Docker 一键部署，FastGPT Open Source License |
 | [[ai-game-devtools/fastrag]] — IntelLabs 高效 RAG 框架：基于 [[Haystack]] v2 构建，ColBERT+PLAID 高效检索 + REPLUG/FiD 多文档生成器 + Gaudi/ONNX/OpenVINO 多后端，已存档 |

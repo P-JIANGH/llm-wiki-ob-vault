@@ -3,6 +3,12 @@
 > Chronological record of all wiki actions. Append-only.
 > Format: `## [YYYY-MM-DD] action | subject`
 > Actions: ingest, update, query, lint, create, archive, delete
+## [2026-04-16] ingest | LARP — MiAO 语言角色 Agent 认知架构
+- Cloned: ~/tmp/ai-game-devtools/larp/
+- Created: raw/articles/ai-game-devtools/larp.md
+- Created: ai-game-devtools/larp.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added larp entry under AI Game DevTools section)
 ## [2026-04-16] ingest | LangGraph Studio — LangChain Agent IDE
 - Cloned: ~/tmp/ai-game-devtools/langgraph-studio/ (fork mirror)
 - Created: raw/articles/ai-game-devtools/langgraph-studio.md

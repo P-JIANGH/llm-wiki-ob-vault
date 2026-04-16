@@ -223,7 +223,7 @@
 |- [2026-04-16] RPBench-Auto | https://github.com/boson-ai/RPBench-Auto
 |- [2026-04-16] SWE-agent | https://github.com/princeton-nlp/SWE-agent
 - [2026-04-16] TaskGen | https://github.com/simbianai/taskgen
-- [ ] TEN Agent | https://github.com/TEN-framework/TEN-Agent
+|- [2026-04-16] TEN Agent | https://github.com/TEN-framework/TEN-Agent
 - [ ] Translation Agent | https://github.com/andrewyng/translation-agent
 - [ ] Twitter | https://github.com/wordware-ai/twitter
 - [ ] Video2Game | https://github.com/video2game/video2game

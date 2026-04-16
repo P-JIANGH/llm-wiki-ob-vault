@@ -200,7 +200,7 @@
 - [2026-04-16] HunyuanWorld-Voyager | https://github.com/Tencent-Hunyuan/HunyuanWorld-Voyager
 - [2026-04-16] HY-World 1.5 | https://github.com/Tencent-Hunyuan/HY-WorldPlay
 - [2026-04-16] Interactive LLM Powered NPCs | https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs
-- [ ] IoA | https://github.com/OpenBMB/IoA
+- [2026-04-16] IoA | https://github.com/OpenBMB/IoA
 - [ ] Jaaz | https://github.com/11cafe/jaaz
 - [ ] KwaiAgents | https://github.com/KwaiKEG/KwaiAgents
 - [ ] LangChain | https://github.com/langchain-ai/langchain

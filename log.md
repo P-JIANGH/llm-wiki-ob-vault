@@ -1277,3 +1277,9 @@
 - Created: ai-game-devtools/hunyuanworld-voyager.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md
+## [2026-04-16] ingest | IoA (Internet of Agents)
+- Cloned: ~/tmp/ai-game-devtools/ioa/
+- Created: raw/articles/ai-game-devtools/ioa.md
+- Created: ai-game-devtools/ioa.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md

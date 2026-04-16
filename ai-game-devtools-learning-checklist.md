@@ -267,7 +267,7 @@
 - [2026-04-17] DeepFloyd IF | https://github.com/deep-floyd/IF
 - [2026-04-17] Depth Anything V2 | https://github.com/DepthAnything/Depth-Anything-V2
 - [2026-04-17] Depth map library and poser | https://github.com/jexom/sd-webui-depth-lib
-- [ ] Disco Diffusion | https://github.com/alembics/disco-diffusion
+- [2026-04-17] Disco Diffusion | https://github.com/alembics/disco-diffusion
 - [ ] DragGAN | https://github.com/XingangPan/DragGAN
 - [ ] DWPose | https://github.com/idea-research/dwpose
 - [ ] EasyPhoto | https://github.com/aigc-apps/sd-webui-EasyPhoto

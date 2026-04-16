@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 466 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 467 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -196,6 +196,8 @@
 ||| [[ai-game-devtools/webdesignagent]] — 阿里达摩院自主网站生成 Agent：多模态输入(文本/模板/图片)→结构规划→Tailwind CSS 网页生成，GUI+CLI 双模式，人机反馈循环，Apache 2.0
 |||| [[ai-game-devtools/wordware-twitter]] — Wordware AI Twitter 人格分析 Agent：Next.js + TypeScript + Neon DB + Drizzle ORM，三通道 Twitter 数据抓取降级（API/Apify/SocialData），模块化 Prompt 系统（ROAST/FULL/PAIR），Stripe + PostHog + Loops 完整 SaaS 架构
 || [[ai-game-devtools/csgo]] — InstantX 内容-风格解耦图像生成框架：SDXL 基座 + IP-Adapter，4 内容 Token + 16/32 风格 Token，支持文本/图像/编辑驱动风格化合成，DeepSpeed Zero2 训练，HuggingFace 权重 |
+
+|| [[ai-game-devtools/disco-diffusion]] — alembics AI艺术/动画生成Colab工具箱：Katherine Crowson 512×512扩散模型+CLIP引导，5种动画模式(2D/3D/Turbo/Warp/VR)，MiDaS+AdaBins双深度估计，OpenCLIP/风格化模型支持，MIT |
 
 ## Code Tools
 

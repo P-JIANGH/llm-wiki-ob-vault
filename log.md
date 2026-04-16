@@ -114,3 +114,9 @@
 - Created: ai-game-devtools/sd-webui-depth-lib.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added sd-webui-depth-lib entry under AI Game DevTools section, updated page count 310→466)
+## [2026-04-17] ingest | Disco Diffusion — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/disco-diffusion/ (gitcode.com mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/disco-diffusion.md
+- Created: ai-game-devtools/disco-diffusion.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added disco-diffusion entry under AI Game DevTools section, updated page count 466→467)

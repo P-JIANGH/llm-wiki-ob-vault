@@ -241,7 +241,7 @@
 - [2026-04-17] CodeGen2 | https://github.com/salesforce/CodeGen2
 - [2026-04-16] Code Llama | https://github.com/facebookresearch/codellama
 - [2026-04-17] CodeTF | https://github.com/salesforce/codetf
-- [ ] CodeT5 | https://github.com/salesforce/codet5
+- [2026-04-17] CodeT5 | https://github.com/salesforce/codet5
 - [ ] Code World Model (CWM) | https://github.com/facebookresearch/cwm
 - [ ] DeepSeek Coder | https://github.com/deepseek-ai/DeepSeek-Coder
 - [ ] PandasAI | https://github.com/gventuri/pandas-ai

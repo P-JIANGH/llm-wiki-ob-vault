@@ -645,3 +645,9 @@
 - Created: ai-game-devtools/codetf.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added codetf entry under Code Tools section)
+## [2026-04-17] ingest | CodeT5 — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/codet5/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/codet5.md
+- Created: ai-game-devtools/codet5.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added codet5 entry under Code Tools section)

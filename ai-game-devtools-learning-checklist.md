@@ -256,7 +256,7 @@
 - [2026-04-17] AnyText | https://github.com/tyxsspa/AnyText
 - [2026-04-17] AutoStudio | https://github.com/donahowe/AutoStudio
 - [2026-04-17] BAGEL | https://github.com/ByteDance-Seed/Bagel
-- [ ] Blender-ControlNet | https://github.com/coolzilj/Blender-ControlNet
+- [2026-04-17] Blender-ControlNet | https://github.com/coolzilj/Blender-ControlNet
 - [ ] BriVL | https://github.com/BAAI-WuDao/BriVL
 - [ ] CatVTON | https://github.com/Zheng-Chong/CatVTON
 - [ ] CLIPasso | https://github.com/yael-vinker/CLIPasso

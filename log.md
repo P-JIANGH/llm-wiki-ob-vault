@@ -38,3 +38,10 @@
 - Created: ai-game-devtools/bagel.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added bagel entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | Blender-ControlNet — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/blender-controlnet/
+- Created: raw/articles/ai-game-devtools/blender-controlnet.md
+- Created: ai-game-devtools/blender-controlnet.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added blender-controlnet entry under AI Game DevTools section)

@@ -1247,6 +1247,12 @@
 - Created: ai-game-devtools/hunyuan-gamecraft.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-16] ingest | HunyuanWorld 1.0
+- Cloned: ~/tmp/ai-game-devtools/hunyuanworld-1.0/
+- Created: raw/articles/ai-game-devtools/hunyuanworld-1.0.md
+- Created: ai-game-devtools/hunyuanworld-1.0.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md
 ## [2026-04-16] ingest | aiXcoder-7B
 - Cloned: ~/tmp/ai-game-devtools/aixcoder-7b/
 - Created: raw/articles/ai-game-devtools/aixcoder-7b.md

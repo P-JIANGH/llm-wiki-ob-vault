@@ -191,7 +191,7 @@
 - [2026-04-15] GameAISDK | https://github.com/Tencent/GameAISDK
 - [2026-04-16] GameGen-O | https://github.com/GameGen-O/GameGen-O
 - [2026-04-16] GenAgent | https://github.com/xxyQwQ/GenAgent
-- [ ] Generative Agents | https://github.com/joonspk-research/generative_agents
+- [2026-04-16] Generative Agents | https://github.com/joonspk-research/generative_agents
 - [ ] Genesis | https://github.com/Genesis-Embodied-AI/Genesis
 - [ ] gigax | https://github.com/GigaxGames/gigax
 - [ ] HippoRAG | https://github.com/OSU-NLP-Group/HippoRAG

@@ -81,6 +81,7 @@
 | [[ai-game-devtools/agent-k]] — mikekelly 自进化 AGI 系统：LangGraph + LangChain，4个 Kernel Agent（Hermes/AgentSmith/ToolMaker/WebResearcher）协作，可动态创建新 Agent，MIT |
 | [[ai-game-devtools/agent-laboratory]] — SamuelSchmidgall/Johns Hopkins LLM 自主研究 Agent：4阶段流水线（文献综述→实验→报告）+ AgentRxiv 知识累积框架，o1/o3-mini/GPT-4o/DeepSeek-V3，MIT |
 | [[ai-game-devtools/agentsims]] — PTA Studio 模拟城镇 LLM Agent 评测沙盒：QA评估+Github Actions CI、多智能体+建筑+NPC经济系统，ArXiv 2308.04026 |
+| [[ai-game-devtools/generative-agents]] — Stanford 交互式人类行为模拟（UIST 2023）：LLM驱动的25个AI角色在Smallville小镇生活，Memory Stream记忆架构+Reflection反思机制启发了 [[ai-town]] 和 [[cat-town]]，arXiv 2304.03442 |
 | [[ai-game-devtools/ai-town]] — a16z-infra 虚拟小镇模拟：Convex + PixiJS + Ollama/OpenAI，AI 角色自主聊天社交，灵感来自 Stanford Generative Agents 论文，JS/TS 入门套件 |
 || [[ai-game-devtools/cat-town]] — ykhli 猫咪主题模拟游戏：基于 AI-town fork，像素猫咪角色 + Cat Town Live Demo (Fly.io)，MIT |
 || [[ai-game-devtools/character-glm-6b]] — 聆心智能&清华大学 CoAI 角色扮演对话大模型：基于 ChatGLM2-6B 微调，7维属性+行为建模，一致性/拟人化/吸引力三维评估，角色扮演场景超越 GPT-3.5，不可商用 |

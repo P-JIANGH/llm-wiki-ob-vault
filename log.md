@@ -1216,3 +1216,10 @@
 - Created: ai-game-devtools/genagent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added genagent entry under AI Game DevTools section)
+
+## [2026-04-16] ingest | Generative Agents — Stanford 交互式人类行为模拟
+- Cloned: ~/tmp/ai-game-devtools/generative-agents/ (GitHub)
+- Created: raw/articles/ai-game-devtools/generative-agents.md
+- Created: ai-game-devtools/generative-agents.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added generative-agents entry under AI Game DevTools section)

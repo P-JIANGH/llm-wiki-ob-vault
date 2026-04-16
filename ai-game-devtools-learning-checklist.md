@@ -215,7 +215,7 @@
 |- [2026-04-16] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
 |- [2026-04-16] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
 |- [2026-04-16] Oasis | https://github.com/etched-ai/open-oasis
-- [ ] OmAgent | https://github.com/om-ai-lab/OmAgent
+- [2026-04-16] OmAgent | https://github.com/om-ai-lab/OmAgent
 - [ ] OpenAgents | https://github.com/xlang-ai/OpenAgents
 - [ ] Pipecat | https://github.com/pipecat-ai/pipecat
 - [ ] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent

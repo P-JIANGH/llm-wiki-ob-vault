@@ -80,3 +80,10 @@
 - Created: ai-game-devtools/conceptlab.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added conceptlab entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | ControlNet — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/controlnet/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/controlnet.md
+- Created: ai-game-devtools/controlnet.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added controlnet entry under AI Game DevTools section)

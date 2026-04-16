@@ -262,7 +262,7 @@
 - [2026-04-17] CLIPasso | https://github.com/yael-vinker/CLIPasso
 - [2026-04-17] ComfyUI | https://github.com/comfyanonymous/ComfyUI
 - [2026-04-17] ConceptLab | https://github.com/kfirgoldberg/ConceptLab
-- [ ] ControlNet | https://github.com/lllyasviel/ControlNet
+- [2026-04-17] ControlNet | https://github.com/lllyasviel/ControlNet
 - [ ] CSGO | https://github.com/instantX-research/CSGO
 - [ ] DeepFloyd IF | https://github.com/deep-floyd/IF
 - [ ] Depth Anything V2 | https://github.com/DepthAnything/Depth-Anything-V2

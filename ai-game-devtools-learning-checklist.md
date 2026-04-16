@@ -211,7 +211,7 @@
 |- [2026-04-16] Matrix-Game | https://github.com/SkyworkAI/Matrix-Game
 - [2026-04-16] MindSearch | https://github.com/InternLM/MindSearch
 - [2026-04-16] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
-- [ ] MMRole | https://github.com/YanqiDai/MMRole
+- [2026-04-16] MMRole | https://github.com/YanqiDai/MMRole
 - [ ] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
 - [ ] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
 - [ ] Oasis | https://github.com/etched-ai/open-oasis

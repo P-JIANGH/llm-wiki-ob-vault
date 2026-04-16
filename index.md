@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 310 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 466 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -153,6 +153,7 @@
 || [[ai-game-devtools/deepfloyd-if]] — DeepFloyd Lab/StabilityAI 级联像素扩散文本到图像模型：T5+三级UNet（64→256→1024px），FID 6.66 SOTA，支持 Dream/风格迁移/超分辨率/修复四种模式，Modified MIT |
 || [[ai-game-devtools/dclm]] — MLFoundations LLM 训练框架：300T+ tokens 数据集构建流程，Ray 分布式处理 + Rust deduplication，支持 400M-7B 规模模型训练评估 |
 || [[ai-game-devtools/depth-anything-v2]] — HKU+TikTok 单目深度估计 V2：DINOv2 ViT 骨干(4档:24.8M~1.3B)+DPT 解码头，中间层特征提取，Apple Core ML/TensorRT/ComfyUI/Transformers 集成，V2-Small Apache-2.0 可商用 |
+|| [[ai-game-devtools/sd-webui-depth-lib]] — jexom A1111 WebUI 深度图管理插件：预置手部/形状深度图库 + Fabric.js 画布组合编辑 + 一键发送到 [[ai-game-devtools/controlnet]]，开源无 LICENSE |
 || [[ai-game-devtools/interactml-unity]]
 || [[ai-game-devtools/iml-ue4]] — Interactml Unreal Engine 4/5 C++ 插件：与 Unity 版共享 RapidLib 后端，kNN/MLP/DTW，原生 Blueprint 节点配置，Win64，MIT |
 || [[ai-game-devtools/index-1.9b]] |

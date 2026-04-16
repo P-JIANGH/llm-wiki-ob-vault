@@ -114,7 +114,8 @@
 | [[ai-game-devtools/interactive-llm-powered-npcs]] — AkshitIreddy 游戏 NPC 实时对话系统：DeepFace 面部识别+Cohere LLM+LangChain+ChromaDB 生成对话，SadTalker 唇形动画+Edge-TTS 语音，Pixel 替换叠加层适配任意游戏无需源码修改，MIT |
 || [[ai-game-devtools/matrix-game]] — Skywork AI 开源交互式游戏世界模型系列：Wan2.2 DiT 架构+键鼠动作条件化+长程记忆+流式生成，3.0 支持 INT8 量化/异步 VAE/FSDP，MIT |
 | [[ai-game-devtools/hipporag]] — OSU-NLP-Group 神经生物学启发 LLM 长期记忆框架（NeurIPS '24 / ICML '25）：知识图谱 + OpenIE + 非参数持续学习，多跳关联检索 SOTA，低索引成本 |
-||| [[ai-game-devtools/atomic-agents]]
+||| [[ai-game-devtools/mindsearch]] — InternLM 开源 AI 深度搜索框架：动态图分解子问题 + 并行 SearcherAgent（ThreadPoolExecutor/asyncio）+ 5 种搜索引擎 + SSE 流式可视化，arXiv 2407.20183，Apache 2.0 ||
+|| [[ai-game-devtools/atomic-agents]]
 | [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
 | [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |
 | [[ai-game-devtools/aworld]] — inclusionAI 多智能体 Agent Harness 框架：CAST 代码分析 + Benchmark-Driven Development + Self-Evolution Loop，GAIA/OSWorld/XBench 多项 Leaderboard 1st，MIT |

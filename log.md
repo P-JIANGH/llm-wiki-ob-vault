@@ -31,3 +31,10 @@
 - Created: ai-game-devtools/autostudio.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added autostudio entry under AI Game DevTools section)
+
+## [2026-04-17] ingest | BAGEL — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/bagel/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/bagel.md
+- Created: ai-game-devtools/bagel.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added bagel entry under AI Game DevTools section)

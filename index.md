@@ -125,7 +125,8 @@
 | [[ai-game-devtools/mug-diffusion]] — Keytoyze AI 音游谱面自动生成工具：基于 Stable Diffusion 改造+音频波形条件化，支持 4K VSRG，osu!/Etterna 难度控制+风格控制，Gradio WebUI，CC0 1.0
 || [[ai-game-devtools/anytext]] — Alibaba ICLR 2024 Spotlight 多语言视觉文本生成扩散模型：SD1.5+ControlNet 架构+OCR 感知损失，中英双语文字无缝融入图像，FP16 ~7.5GB VRAM，LoRA 支持，AnyText2 已发布
 || [[ai-game-devtools/atomic-agents]]
-| [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
+||| [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
+|| [[ai-game-devtools/bagel]] — ByteDance-Seed 开源统一多模态模型（7B 激活/14B 总参）：MoT 架构融合视觉理解+文生图+图像编辑+世界建模，MMBench 85.0 超 Qwen2.5-VL，GenEval 0.82 匹敌 FLUX-1.dev，Apache 2.0 |
 || [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |
 || [[ai-game-devtools/autostudio]] — donahowe/AutoStudio CVPRW 2026 多轮交互式图像生成框架：四智能体（Subject Manager/LayoutGenerator/Supervisor/Drawer）+ Parallel-UNet + 免训练，保持多主题一致性，FID +13.65% |
 | [[ai-game-devtools/aworld]] — inclusionAI 多智能体 Agent Harness 框架：CAST 代码分析 + Benchmark-Driven Development + Self-Evolution Loop，GAIA/OSWorld/XBench 多项 Leaderboard 1st，MIT |

@@ -253,7 +253,7 @@
 |- [2026-04-17] Void | https://github.com/voideditor/void
 
 ## Image (75)
-- [ ] AnyText | https://github.com/tyxsspa/AnyText
+- [2026-04-17] AnyText | https://github.com/tyxsspa/AnyText
 - [ ] AutoStudio | https://github.com/donahowe/AutoStudio
 - [ ] BAGEL | https://github.com/ByteDance-Seed/Bagel
 - [ ] Blender-ControlNet | https://github.com/coolzilj/Blender-ControlNet

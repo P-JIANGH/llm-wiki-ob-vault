@@ -250,7 +250,7 @@
 |- [2026-04-17] StarCoder | https://github.com/bigcode-project/starcoder
 |- [2026-04-17] StarCoder 2 | https://github.com/bigcode-project/starcoder2
 - [2026-04-17] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI
-- [ ] Void | https://github.com/voideditor/void
+|- [2026-04-17] Void | https://github.com/voideditor/void
 
 ## Image (75)
 - [ ] AnyText | https://github.com/tyxsspa/AnyText

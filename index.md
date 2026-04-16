@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: N+27 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: N+28 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -202,7 +202,8 @@
 ||| [[ai-game-devtools/codet5]] — Salesforce 代码理解与生成模型家族：CodeT5 (EMNLP 2021, T5 encoder-decoder, 8 语言, CodeXGLUE SOTA) + CodeT5+ (2023, 220M-16B, 灵活模式, HumanEval 36.1% Pass@1), 初始化自 CodeGen, BSD-3 |
 ||| [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT ||
 ||| [[ai-game-devtools/pandas-ai]] — Sinaptik AI 自然语言数据分析工具：LiteLLM 驱动 + DuckDB SQL 引擎 + 代码生成→执行→解析流水线 + Docker 沙箱安全执行，支持 DataFrame 对话问答/图表生成/多表关联查询，MIT |
-| [[ai-game-devtools/unitygen-ai]] — himanshuskyrockets Unity Editor AI 代码生成插件：OpenAI Codex(text-davinci) 驱动代码生成，EditorWindow UI + ScriptableObject 配置 API Key，alpha 阶段作者已弃用，MIT |
+|| [[ai-game-devtools/unitygen-ai]] — himanshuskyrockets Unity Editor AI 代码生成插件：OpenAI Codex(text-davinci) 驱动代码生成，EditorWindow UI + ScriptableObject 配置 API Key，alpha 阶段作者已弃用，MIT ||
+|| [[ai-game-devtools/void]] — voideditor 开源 Cursor 替代 IDE：VSCode 1.99.3 fork，Electron 双进程架构，OpenAI/Anthropic/Gemini/Ollama/Groq/Mistral 多 Provider 接入，Fast/Slow Apply 代码修改系统，MCP 支持，MIT，开发已暂停 |
 
 ## Open Source Games
 

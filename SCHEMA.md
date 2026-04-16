@@ -34,7 +34,7 @@ Add new tags here BEFORE using them.
 **Tools & Tech:**
 - tool, cli, script, automation, script
 - netsuite, oracle, flowable, prisma, nextjs, python, typescript, docker
-- rust, tauri, desktop-app, semantic-search, code
+- rust, tauri, desktop-app, semantic-search, code, code-generation, code-completion
 
 **Meta:**
 - notes, learning, how-to, reference, decision, retrospective, tip, pitfall

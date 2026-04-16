@@ -235,7 +235,7 @@
 - [2026-04-16] bloop | https://github.com/BloopAI/bloop
 - [2026-04-16] Chapyter | https://github.com/chapyter/chapyter
 - [2026-04-16] CodeGeeX | https://github.com/THUDM/CodeGeeX
-- [ ] CodeGeeX2 | https://github.com/THUDM/CodeGeeX2
+- [2026-04-16] CodeGeeX2 | https://github.com/THUDM/CodeGeeX2
 - [ ] CodeGeeX4 | https://github.com/THUDM/CodeGeeX4
 - [ ] CodeGen | https://github.com/salesforce/CodeGen
 - [ ] CodeGen2 | https://github.com/salesforce/CodeGen2

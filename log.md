@@ -608,3 +608,10 @@
 - Created: ai-game-devtools/chapyter.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added chapyter entry under Code Tools section)
+## [2026-04-16] ingest | CodeGeeX2 — THUDM 6B 多语言代码生成模型
+- Cloned: ~/tmp/ai-game-devtools/codegeex2/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/codegeex2.md
+- Created: ai-game-devtools/codegeex2.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added codegeex2 entry under Code Tools section)
+- Updated: SCHEMA.md (added code-generation, code-completion tags to taxonomy)

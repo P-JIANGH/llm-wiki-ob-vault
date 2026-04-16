@@ -1241,3 +1241,9 @@
 - Created: ai-game-devtools/hipporag.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-16] ingest | Hunyuan-GameCraft
+- Cloned: ~/tmp/ai-game-devtools/hunyuan-gamecraft/
+- Created: raw/articles/ai-game-devtools/hunyuan-gamecraft.md
+- Created: ai-game-devtools/hunyuan-gamecraft.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

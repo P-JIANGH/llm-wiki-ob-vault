@@ -73,6 +73,7 @@
 | [[ai-game-devtools/ai-writer]] — BlinkDL AI小说续写工具：RWKV 模型（12层/768维）+ 8849字词表，ctx_len=512，网文专精，已过时推荐 [[RWKV-Runner]]，Apache 2.0 |
 | [[ai-game-devtools/notebook-ai]] — indentlabs 写作/跑团世界观构建平台：32+内容类型（角色/地点/物品/魔法等）+关系图谱+隐私控制，Ruby on Rails 6.1 + React |
 | [[ai-game-devtools/novel]] — steven-tey Notion风格 WYSIWYG 编辑器 + OpenAI 自动补全，Tiptap 2 + Vercel AI SDK，多框架支持（Svelte/Vue/VSCode），Apache-2.0 |
+| [[ai-game-devtools/jaaz]] — 11cafe 开源多模态画布创意 Agent：无限画布 + AI Agent 生成图片/视频（GPT-4o/Midjourney/Flux/ComfyUI），LangGraph 编排 + tldraw 画布，隐私优先支持本地部署，AGPL |
 | [[ai-game-devtools/unreal-engine-5-llama-lora]] — bublint 用 UE 5.1 文档微调 Llama-7b LoRA：8bit 加载 + text-generation-webui 训练，8小时 3090Ti 完成，构建本地 UE5 问答助手，MIT |
 || [[ai-game-devtools/unrealgpt]] — TREE Industries UE5.6 AI Agent 插件：编辑器内 Chat 界面 + GPT Responses API + Python 脚本执行 + 场景查询 + Replicate 内容生成，Apache 2.0 |
 || [[ai-game-devtools/xagent]] — OpenBMB 开源 LLM 自主 Agent：Dispatcher+Planner+Actor 三层架构 + Docker 沙箱安全隔离，50+ 真实任务评测超越 AutoGPT，Apache 2.0 |

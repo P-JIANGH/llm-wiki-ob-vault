@@ -201,7 +201,7 @@
 - [2026-04-16] HY-World 1.5 | https://github.com/Tencent-Hunyuan/HY-WorldPlay
 - [2026-04-16] Interactive LLM Powered NPCs | https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs
 - [2026-04-16] IoA | https://github.com/OpenBMB/IoA
-- [ ] Jaaz | https://github.com/11cafe/jaaz
+- [2026-04-16] Jaaz | https://github.com/11cafe/jaaz
 - [ ] KwaiAgents | https://github.com/KwaiKEG/KwaiAgents
 - [ ] LangChain | https://github.com/langchain-ai/langchain
 - [ ] LangGraph Studio | https://github.com/langchain-ai/langgraph-studio

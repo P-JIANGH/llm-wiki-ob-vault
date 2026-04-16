@@ -1290,3 +1290,9 @@
 - Created: ai-game-devtools/jaaz.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md
+## [2026-04-16] ingest | KwaiAgents — 快手LLM Agent系统
+- Cloned: ~/tmp/ai-game-devtools/kwaiagents/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/kwaiagents.md
+- Created: ai-game-devtools/kwaiagents.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md

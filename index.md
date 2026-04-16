@@ -80,6 +80,7 @@
 | [[ai-game-devtools/agent-group-chat]] — MikeGu721/复旦 多智能体群聊模拟：竞争→合作→反射四阶段循环，LLM驱动角色对话，n-gram熵评估涌现行为，arXiv 2403.13433 |
 || [[ai-game-devtools/agentbench]] — THUDM LLM Agent 评测基准：8种环境（OS/DB/KG/游戏/推理等），评估 LLM 作为自主 Agent 的规划与工具使用能力，arXiv 2308.03688，MIT |
 || [[ai-game-devtools/ioa]] — OpenBMB 多智能体协作框架：AutoGPT/Open Interpreter异构 Agent 自主组队 + WebSocket 实时通信 + Milvus 向量注册，Apache 2.0 |
+|| [[ai-game-devtools/kwaiagents]] — 快手 KwaiKEG LLM Agent 系统：KAgentSys-Lite + KAgentLMs(Meta-agent tuning 微调 Qwen/Baichuan) + KAgentInstruct(200K指令) + KAgentBench(3K评测)，KAgentBench 5维度评测（规划/工具使用/反思/总结/画像），Apache 2.0 |
 || [[ai-game-devtools/agent-laboratory]] — SamuelSchmidgall/Johns Hopkins LLM 自主研究 Agent：4阶段流水线（文献综述→实验→报告）+ AgentRxiv 知识累积框架，o1/o3-mini/GPT-4o/DeepSeek-V3，MIT |
 | [[ai-game-devtools/agentsims]] — PTA Studio 模拟城镇 LLM Agent 评测沙盒：QA评估+Github Actions CI、多智能体+建筑+NPC经济系统，ArXiv 2308.04026 |
 | [[ai-game-devtools/generative-agents]] — Stanford 交互式人类行为模拟（UIST 2023）：LLM驱动的25个AI角色在Smallville小镇生活，Memory Stream记忆架构+Reflection反思机制启发了 [[ai-town]] 和 [[cat-town]]，arXiv 2304.03442 |

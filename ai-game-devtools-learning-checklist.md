@@ -202,7 +202,7 @@
 - [2026-04-16] Interactive LLM Powered NPCs | https://github.com/AkshitIreddy/Interactive-LLM-Powered-NPCs
 - [2026-04-16] IoA | https://github.com/OpenBMB/IoA
 - [2026-04-16] Jaaz | https://github.com/11cafe/jaaz
-- [ ] KwaiAgents | https://github.com/KwaiKEG/KwaiAgents
+- [2026-04-16] KwaiAgents | https://github.com/KwaiKEG/KwaiAgents
 - [ ] LangChain | https://github.com/langchain-ai/langchain
 - [ ] LangGraph Studio | https://github.com/langchain-ai/langgraph-studio
 - [ ] LARP | https://github.com/MiAO-AI-Lab/LARP

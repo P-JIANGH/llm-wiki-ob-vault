@@ -402,8 +402,9 @@
 ||||| [[ai-game-devtools/qwen2.5-coder]] — Alibaba 通义千问代码模型（Qwen2.5-Coder→Qwen3-Coder），358 语言，256K context，Agentic Coding 支持 Qwen Code/CLINE/Claude Code，Apache 2.0 |
 ||||||| [[ai-game-devtools/repoagent]] — OpenBMB 仓库级代码文档生成框架：Git 变更检测 + Jedi AST 分析 + LLM 生成 Markdown 文档，支持 pre-commit 钩子自动更新文档、Chat With Repo RAG 问答，Apache 2.0 |
 ||||||| [[ai-game-devtools/s1]] — SimpleScaling 测试时扩展 LLM：Qwen2.5-32B 微调 + Budget Forcing，仅 1K 样本达到 o1-preview 水平，MIT |
-| [[ai-game-devtools/sanity-ai-engine]] — Unity 游戏 AI 引擎：经典路径规划（A*/LPA*）+ 转向行为 + 图抽象层，MIT |
-|| [[ai-game-devtools/seed-oss]] — ByteDance 36B 开源 LLM（Base/Instruct），512K 上下文 + Thinking Budget 控制，SWE-Bench 47% / TAU1-Retail 70.4%（开源 SOTA），Apache 2.0 |
+|| [[ai-game-devtools/sanity-ai-engine]] — Unity 游戏 AI 引擎：经典路径规划（A*/LPA*）+ 转向行为 + 图抽象层，MIT |
+||| [[ai-game-devtools/scikit-llm]] — 将 LLM 集成到 scikit-learn：零/少样本分类、摘要、翻译、NER、向量化，支持 OpenAI/Vertex/Claude 三 Provider，sklearn Pipeline 兼容，MIT |
+||| [[ai-game-devtools/seed-oss]] — ByteDance 36B 开源 LLM（Base/Instruct），512K 上下文 + Thinking Budget 控制，SWE-Bench 47% / TAU1-Retail 70.4%（开源 SOTA），Apache 2.0 |
 ||| [[ai-game-devtools/yi]] — 01.AI 零一万物双语 LLM 系列（6B/9B/34B），3T tokens 预训练，AlpacaEval 第二名（仅次于 GPT-4 Turbo），Yi-VL 多模态模型 MMMU 基准开源第一 |
 || [[ai-game-devtools/search-gpt]] — 早期 RAG 概念验证 CLI：Google CSE + GPT-3.5-turbo，实时网页抓取+token感知上下文注入，MIT |
 || [[ai-game-devtools/skythought]] — NovaSky AI 推理模型训练+评测框架：Sky-T1 系列（32B/7B/mini）基于 Qwen-32B 微调，全量开源数据和权重，skythought CLI 支持 15 种推理 benchmark 评测，Apache 2.0 |

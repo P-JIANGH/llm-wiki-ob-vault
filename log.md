@@ -669,3 +669,9 @@
 - Created: ai-game-devtools/pandas-ai.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added pandas-ai entry under Code Tools section)
+## [2026-04-17] ingest | Scikit-LLM — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/scikit-llm/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/scikit-llm.md
+- Created: ai-game-devtools/scikit-llm.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added scikit-llm entry under AI Game DevTools section)

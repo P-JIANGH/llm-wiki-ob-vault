@@ -554,3 +554,9 @@
 - Created: ai-game-devtools/swe-agent.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
 - Updated: index.md (added swe-agent entry)
+## [2026-04-16] ingest | TaskGen — 基于任务的 Agent 框架，StrictJSON 结构化输出
+- Cloned: ~/tmp/ai-game-devtools/taskgen/
+- Created: raw/articles/ai-game-devtools/taskgen.md
+- Created: ai-game-devtools/taskgen.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-16])
+- Updated: index.md (added taskgen entry)

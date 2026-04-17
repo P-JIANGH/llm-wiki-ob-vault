@@ -36,4 +36,11 @@
 - Created: raw/articles/ai-game-devtools/llama-mesh.md
 - Created: ai-game-devtools/llama-mesh.md
 - Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
+|- Updated: index.md
+
+## [2026-04-18] ingest | MaterialSeg3D
+- Cloned: ~/tmp/ai-game-devtools/materialseg3d/
+- Created: raw/articles/ai-game-devtools/materialseg3d.md
+- Created: ai-game-devtools/materialseg3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 514→515)

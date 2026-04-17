@@ -366,3 +366,9 @@
 - Created: ai-game-devtools/seed-story.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added seed-story entry under AI Game DevTools section, total pages: 500)
+## [2026-04-17] ingest | SAM 2 (Segment Anything Model 2) — AI游戏开发工具
+- Source: https://github.com/facebookresearch/segment-anything-2 (GitHub/gitcode/gitee clone all failed; web_extract fallback)
+- Created: raw/articles/ai-game-devtools/segment-anything-2.md
+- Created: ai-game-devtools/segment-anything-2.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added segment-anything-2 entry, total pages: 501)

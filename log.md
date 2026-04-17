@@ -235,3 +235,9 @@
 - Created: ai-game-devtools/kolors.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-17] ingest | LaVi-Bridge
+- Source: GitHub web_extract (clone failed: GitHub timeout + gitcode 403 + gitee unreachable)
+- Created: raw/articles/ai-game-devtools/lavi-bridge.md
+- Created: ai-game-devtools/lavi-bridge.md
+- Updated: ai-game-devtools-learning-checklist.md (marked LaVi-Bridge as [2026-04-17])
+- Updated: index.md (added entry, total pages: 483)

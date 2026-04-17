@@ -287,7 +287,7 @@
 - [2026-04-17] InstantID | https://github.com/InstantID/InstantID
 |- [2026-04-17] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
 |- [2026-04-17] Kolors | https://github.com/Kwai-Kolors/Kolors
-|- [ ] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
+|- [2026-04-17] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
 |- [ ] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
 |- [ ] LlamaGen | https://github.com/FoundationVision/LlamaGen
 |- [ ] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0

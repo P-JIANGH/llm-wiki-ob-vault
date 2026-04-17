@@ -361,7 +361,7 @@
 |- [2026-04-18] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
 - [2026-04-18] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d
 |- [2026-04-18] DUSt3R | https://github.com/naver/dust3r
-- [ ] GALA3D | https://github.com/VDIGPKU/GALA3D
+|- [2026-04-18] GALA3D | https://github.com/VDIGPKU/GALA3D
 - [ ] GaussCtrl | https://github.com/ActiveVisionLab/gaussctrl
 - [ ] GaussianCube | https://github.com/GaussianCube/GaussianCube
 - [ ] GaussianDreamer | https://github.com/hustvl/GaussianDreamer

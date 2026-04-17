@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 531 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 532 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -248,6 +248,7 @@
 ||||| [[ai-game-devtools/city-dreamer]] — CVPR 2024 组合式无限 3D 城生成模型：VQVAE 布局生成器 + GANcraft 风格背景/建筑实例生成器，patch-based 无限城市合成，NTU S-Lab，Gradio 演示+CLI
 ||||| [[ai-game-devtools/dream-catalyst]] — KAIST CVML ICLR 2025 快速 3D 编辑框架：SDS 采样动力学分析 + 三参数(χ/δ/γ)控制可编辑性与身份保持，Fast Mode 仅需 1/3 迭代，NeRF+3DGS 双支持 |
 ||||| [[ai-game-devtools/dreamgaussian4d]] — NTU S-Lab arXiv 2023 生成式 4D 高斯场景：单图→静态3D(LGM/DreamGaussian)→K-planes形变场→动态4D高斯，支持Image/Video-to-4D、viser GUI、Gradio Demo
+|||| [[ai-game-devtools/gala3d]] — 北京大学 VDIG Lab ICML 2024 文本到3D场景生成：LLM布局先验+3D高斯溅射+组合扩散优化四阶段管线，支持文本驱动场景编辑，学术免费商用需授权
 ||||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |
 ||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
 ||||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0

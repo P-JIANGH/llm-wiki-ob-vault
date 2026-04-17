@@ -158,3 +158,9 @@
 - Created: ai-game-devtools/dust3r.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 531→532)
+## [2026-04-18] ingest | GALA3D
+- Cloned: ~/tmp/ai-game-devtools/gala3d/
+- Created: raw/articles/ai-game-devtools/gala3d.md
+- Created: ai-game-devtools/gala3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added GALA3D entry, total pages 531→532)

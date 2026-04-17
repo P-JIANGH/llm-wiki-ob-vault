@@ -494,3 +494,10 @@
 - Created: ai-game-devtools/uso.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
 - Updated: index.md (added entry, pages 508→509)
+
+## [2026-04-18] ingest | DreamMat — AI游戏开发工具
+- Cloned: GitHub (web extract; GitHub timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/dreammat.md
+- Created: ai-game-devtools/dreammat.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
+- Updated: index.md (added entry, pages 509→510)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 501 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 502 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -228,7 +228,8 @@
 ||||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
 |||| [[ai-game-devtools/stable-diffusion-3-5]] — Stability AI SD3.5 官方推理参考实现：MM-DiT 架构+三文本编码器(CLIP-L/CLIP-bigG/T5-XXL)+16 通道 VAE，支持 Large/Turbo/Medium 变体+ControlNet，官方推荐 [[ai-game-devtools/comfyui]] 作为生产推理 UI |
 |||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
-|- [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
+| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
+| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
 ||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型：512×512达100 FPS(SD v1.5的30x)、1024×1024达30 FPS(SDXL的60x)，轻量VAE解码器+特征匹配损失+ControlNet扩展，DreamShaper多风格权重，MIT |
 
 ## Texture (3D Asset Generation)

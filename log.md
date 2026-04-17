@@ -188,3 +188,9 @@
 - Created: ai-game-devtools/holo-dreamer.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added HoloDreamer entry, total pages 535→536)
+## [2026-04-18] ingest | Hunyuan3D-1.0
+- Cloned: ~/tmp/ai-game-devtools/hunyuan3d-1/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hunyuan3d-1.md
+- Created: ai-game-devtools/hunyuan3d-1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added hunyuan3d-1 entry)

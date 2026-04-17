@@ -366,7 +366,7 @@
 - [2026-04-18] GaussianCube | https://github.com/GaussianCube/GaussianCube
 |- [2026-04-18] GaussianDreamer | https://github.com/hustvl/GaussianDreamer
 |- [2026-04-18] HoloDreamer | https://github.com/zhouhyOcean/HoloDreamer
-- [ ] Hunyuan3D-1.0 | https://github.com/Tencent/Hunyuan3D-1
+- [2026-04-18] Hunyuan3D-1.0 | https://github.com/Tencent/Hunyuan3D-1
 - [ ] Hunyuan3D 2.0 | https://github.com/Tencent/Hunyuan3D-2
 - [ ] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
 - [ ] Infinigen | https://github.com/princeton-vl/infinigen

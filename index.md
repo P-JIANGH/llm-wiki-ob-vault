@@ -254,6 +254,7 @@
 ||||| [[ai-game-devtools/holo-dreamer]] — 北京大学+鹏城实验室 arXiv 2024 文本到3D全景场景生成：等距柱状全景图初始化 + 3DGS两阶段重建（预优化→Inpainting→迁移优化），圆形混合消除接缝，MIT |
 |||||||| [[ai-game-devtools/gala3d]] — 北京大学 VDIG Lab ICML 2024 文本到3D场景生成：LLM布局先验+3D高斯溅射+组合扩散优化四阶段管线，支持文本驱动场景编辑，学术免费商用需授权
 ||||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |
+|||||| [[ai-game-devtools/hunyuan3d-1]] — 腾讯混元统一文本/图像到 3D 生成框架：两阶段管线（多视角扩散 4s + 前馈重建 7s），lite/std 双版本，Gradio Web UI，10-25 秒生成 3D mesh，Apache 2.0 + 非商用权重 |
 ||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
 ||||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0
 |||| [[ai-game-devtools/dust3r]] — Naver Labs CVPR 2024 免 COLMAP 3D 重建基础模型：ViT-L/B 非对称编码器直接回归 pointmaps+相机位姿+置信度，2+图片输入→全局对齐点云，HuggingFace Hub 集成，CC BY-NC-SA 4.0

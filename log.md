@@ -209,3 +209,9 @@
 - Created: ai-game-devtools/img2img-turbo.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added img2img-turbo entry under AI Game DevTools section)
+## [2026-04-17] ingest | Infinity — AI游戏开发工具
+- Source: GitHub web_extract (clone failed: GitHub timeout + gitcode 403 + gitee unreachable)
+- Created: raw/articles/ai-game-devtools/infinity.md
+- Created: ai-game-devtools/infinity.md
+- Updated: ai-game-devtools-learning-checklist.md (marked Infinity as [2026-04-17])
+- Updated: index.md (added entry, total pages: 480)

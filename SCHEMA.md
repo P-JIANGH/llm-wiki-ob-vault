@@ -29,12 +29,16 @@ Add new tags here BEFORE using them.
 
 **Topics:**
 - project, architecture, backend, frontend, database, devops, infra, api, framework
-- ai, llm, ml, agent, workflow
+- ai, llm, ml, agent, workflow, multimodal, vision, vlm, game-engine
 
 **Tools & Tech:**
 - tool, cli, script, automation, script
 - netsuite, oracle, flowable, prisma, nextjs, python, typescript, docker
 - rust, tauri, desktop-app, semantic-search, code, code-generation, code-completion
+- image-generation, diffusion, autoregressive, 3d, video, audio, music, avatar, animation
+
+**Open Source & Licensing:**
+- open-source
 
 **Meta:**
 - notes, learning, how-to, reference, decision, retrospective, tip, pitfall

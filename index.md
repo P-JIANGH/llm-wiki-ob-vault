@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 479 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 480 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -98,6 +98,7 @@
 | [[ai-game-devtools/anime-gf]] — cyan/moecorp 桌面 LLM 聊天前端：Electron + React + tRPC + SQLite，支持 OpenAI/Anthropic/Mistral/Together AI 及任意 OpenAI兼容端点，角色卡系统，AGPL |
 | [[ai-game-devtools/agentscope]] — 阿里巴巴通义实验室 Agent 框架（Apache 2.0）：ReAct/Voice/多Agent 工作流 + MCP/A2A 协议 + Trinity-RFT RL 微调 + K8s/OTel 生产部署，支持狼人杀等游戏示例 |
 || [[ai-game-devtools/behaviac]] — 腾讯游戏AI行为框架：行为树/FSM/HTN三种范式，编辑器仅Windows+运行时C++/C#全平台，支持热重载，BSD 3-Clause |
+| [[ai-game-devtools/infinity]] — FoundationVision 按位自回归图像生成框架：无限词表 Tokenizer + IVC（8.8T→0.13M 参数）+ BSC 自校正，CVPR 2025 Oral，1024×1024 图像 0.8s 生成，超越 SD3/SDXL |
 ||| [[ai-game-devtools/byzer-agent]] — allwefantasy 分布式 Agent 框架：Ray + AutoGen 内核，支持本地/远程 Agent 通信，@byzerllm 装饰器定义 Prompt/Reply，Apache 2.0 |
 ||| [[ai-game-devtools/comorag]] — EternityJune25 认知启发的记忆组织 RAG 系统：Reason→Probe→Retrieve→Consolidate→Resolve 迭代推理循环，三层记忆（Veridical/Semantic/Episodic），200K+ token 长叙事问答优于基线 11%，arXiv 2508.10419，MIT |
 ||| [[ai-game-devtools/buffer-of-thoughts]] — 北京大学&UC Berkeley&Stanford 思维增强推理框架（NeurIPS 2024 Spotlight）：Meta Buffer 存储可复用思维模板+LightRAG检索，Llama3-8B+BoT可超越Llama3-70B，成本仅ToT的12%，MIT ||

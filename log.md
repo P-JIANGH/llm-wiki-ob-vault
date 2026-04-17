@@ -83,3 +83,10 @@
 - Created: ai-game-devtools/animate3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 519→520)
+
+## [2026-04-18] ingest | Anything-3D
+- Cloned: ~/tmp/ai-game-devtools/anything-3d/ (via gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/anything-3d.md
+- Created: ai-game-devtools/anything-3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 520→521)

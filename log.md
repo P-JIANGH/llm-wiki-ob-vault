@@ -24,3 +24,9 @@
 - Created: ai-game-devtools/instruct-humans.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 512→513)
+## [2026-04-18] ingest | InteX
+- Cloned: ~/tmp/ai-game-devtools/intex/
+- Created: raw/articles/ai-game-devtools/intex.md
+- Created: ai-game-devtools/intex.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 513→514)

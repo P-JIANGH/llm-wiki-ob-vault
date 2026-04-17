@@ -176,3 +176,9 @@
 - Created: ai-game-devtools/gaussiancube.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added GaussianCube entry, total pages 533→534)
+## [2026-04-18] ingest | GaussianDreamer
+- Cloned: ~/tmp/ai-game-devtools/gaussiandreamer/
+- Created: raw/articles/ai-game-devtools/gaussiandreamer.md
+- Created: ai-game-devtools/gaussiandreamer.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added GaussianDreamer entry under Texture section, total pages 534→535)

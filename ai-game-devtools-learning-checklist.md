@@ -301,7 +301,7 @@
 ||- [2026-04-17] Omost | https://github.com/lllyasviel/Omost
 |- [2026-04-17] Openpose Editor | https://github.com/fkunn1326/openpose-editor
 |- [2026-04-17] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
-|- [ ] PosterCraft | https://github.com/Ephemeral182/PosterCraft
+||- [2026-04-17] PosterCraft | https://github.com/Ephemeral182/PosterCraft
 |- [ ] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
 |- [ ] PuLID | https://github.com/ToTheBeginning/PuLID
 |- [ ] Qwen-Image | https://github.com/QwenLM/Qwen-Image

@@ -328,3 +328,10 @@
 - Created: ai-game-devtools/paints-undo.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+
+## [2026-04-17] ingest | PosterCraft — AI游戏开发工具
+- Source: https://github.com/Ephemeral182/PosterCraft (GitHub/gitcode/gitee clone all failed; web_extract fallback)
+- Created: raw/articles/ai-game-devtools/poster-craft.md
+- Created: ai-game-devtools/poster-craft.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added poster-craft entry under AI Game DevTools section, total pages: 494)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 493 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 494 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -486,6 +486,7 @@
 |||| [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（Janus/JanusFlow/Janus-Pro 1B-7B），解耦视觉编码器分离理解与生成任务，单一自回归 transformer 处理图文，arXiv 2024-2025 |
 ||||||| [[ai-game-devtools/minigpt-4]] — Vision-CAIR/EAIST VLM：冻结 ViT+Q-Former 连接冻结 LLM（Vicuna/LLaMA-2），两阶段对齐训练，图像描述/故事生成/游戏资产理解，BSD 3-Clause |
 ||| [[ai-game-devtools/pllava]] — NUS 参数自由 LLaVA 视频扩展：时序池化策略解决 dominant patch 问题，Video ChatGPT 3.48/5 SOTA（+0.31 超 GPT4V），MVBench 58.1%（+14.5% 超 GPT4V），7B/13B/34B |
+|| [[ai-game-devtools/poster-craft]] — ICLR'26 高质量美学海报生成：四阶段训练（文字渲染→海报微调→RL 美学优化→视觉语言反馈），Text-Render-2M/HQ-Poster-100K 数据集，开源文字渲染 SOTA 接近 Gemini 2.0 |
 ||| [[ai-game-devtools/video-agent]] — ECCV 2024 记忆增强多模态 Agent：Temporal+Object 双层记忆系统 + LangChain ReAct，GPT-4o 驱动工具调用回答视频问题，Video-LLaVA/GPT-4V 双 VQA 后端 |
 || [[ai-game-devtools/video-ccam]] — 腾讯多媒体团队视频-语言大模型（4B/7B/9B/14B），Causal Cross-Attention Masks 机制提升长短视频理解，Video-MME 57.4（有字幕），开源 MLLM SOTA |
 || [[ai-game-devtools/video-llava]] — PKU-YuanGroup 统一图像+视频 VLM

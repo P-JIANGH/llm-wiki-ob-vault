@@ -296,3 +296,9 @@
 - Created: ai-game-devtools/nextstep-1.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added nextstep-1 entry, total pages: 490)
+## [2026-04-17] ingest | OmniGen
+- Cloned: ~/tmp/ai-game-devtools/omnigen/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/omnigen.md
+- Created: ai-game-devtools/omnigen.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added omnigen entry, total pages: 491)

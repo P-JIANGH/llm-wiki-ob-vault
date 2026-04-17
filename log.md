@@ -140,3 +140,9 @@
 - Created: ai-game-devtools/direct3d-s2.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 527→528)
+## [2026-04-18] ingest | DreamCatalyst
+- Cloned: ~/tmp/ai-game-devtools/dream-catalyst/
+- Created: raw/articles/ai-game-devtools/dream-catalyst.md
+- Created: ai-game-devtools/dream-catalyst.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 528→529)

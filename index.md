@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 528 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 529 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -245,7 +245,8 @@
 ||| [[ai-game-devtools/any2point]] — ECCV 2024 3D理解框架：3D-to-Any虚拟投影+Guided Adapter，适配CLIP/DINOv2/ImageBind到点云任务，仅0.8M参数达SOTA，支持语言/视觉/音频模态
 ||||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |
 ||||| [[ai-game-devtools/direct3d-s2]] — DreamTechAI NeurIPS 2025 大规模 3D 生成框架：Spatial Sparse Attention (SSA) 加速 DiT，8 GPU 训练 1024³ 分辨率 SDF 网格，v1.1 比 FlashAttention-2 快 12.2× 前向/19.7× 反向，单图→OBJ 网格，MIT |
-||||| [[ai-game-devtools/city-dreamer]] — CVPR 2024 组合式无限 3D 城生成模型：VQVAE 布局生成器 + GANcraft 风格背景/建筑实例生成器，patch-based 无限城市合成，NTU S-Lab，Gradio 演示+CLI |
+||||| [[ai-game-devtools/city-dreamer]] — CVPR 2024 组合式无限 3D 城生成模型：VQVAE 布局生成器 + GANcraft 风格背景/建筑实例生成器，patch-based 无限城市合成，NTU S-Lab，Gradio 演示+CLI
+|||| [[ai-game-devtools/dream-catalyst]] — KAIST CVML ICLR 2025 快速 3D 编辑框架：SDS 采样动力学分析 + 三参数(χ/δ/γ)控制可编辑性与身份保持，Fast Mode 仅需 1/3 迭代，NeRF+3DGS 双支持 |
 |||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |
 ||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
 |||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0

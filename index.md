@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 523 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 524 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -238,7 +238,8 @@
 |||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
 
 ## Texture (3D Asset Generation)
-||| [[ai-game-devtools/animate3d]] — CASIA+阿里 NeurIPS 2024 3D模型动画生成：多视角视频扩散(MV-VDM)+4D-SDS精炼，Mesh/Gaussian Splatting双支持，~15分钟生成动画
+|| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |
+|||| [[ai-game-devtools/animate3d]] — CASIA+阿里 NeurIPS 2024 3D模型动画生成：多视角视频扩散(MV-VDM)+4D-SDS精炼，Mesh/Gaussian Splatting双支持，~15分钟生成动画
 ||| [[ai-game-devtools/any2point]] — ECCV 2024 3D理解框架：3D-to-Any虚拟投影+Guided Adapter，适配CLIP/DINOv2/ImageBind到点云任务，仅0.8M参数达SOTA，支持语言/视觉/音频模态
 |||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |
 ||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |

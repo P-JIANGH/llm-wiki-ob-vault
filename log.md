@@ -110,3 +110,9 @@
 - Created: ai-game-devtools/blender-mcp.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under AI Game DevTools section)
+## [2026-04-18] ingest | CF-3DGS
+- Cloned: ~/tmp/ai-game-devtools/cf-3dgs/
+- Created: raw/articles/ai-game-devtools/cf-3dgs.md
+- Created: ai-game-devtools/cf-3dgs.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 523→524)

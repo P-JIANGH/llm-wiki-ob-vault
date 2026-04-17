@@ -173,3 +173,9 @@
 - Created: ai-game-devtools/hivision-id-photos.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added hivision-id-photos entry)
+## [2026-04-17] ingest | Hua — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/hua/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hua.md
+- Created: ai-game-devtools/hua.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added hua entry)

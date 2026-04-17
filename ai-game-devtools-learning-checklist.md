@@ -309,7 +309,7 @@
 |- [2026-04-17] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
 |- [2026-04-17] SEED-Story | https://github.com/TencentARC/SEED-Story
 |- [2026-04-17] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
-|- [ ] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
+|- [2026-04-17] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
 |- [ ] SDXS | https://github.com/IDKiro/sdxs
 |- [ ] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
 |- [ ] Stable.art | https://github.com/isekaidev/stable.art

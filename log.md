@@ -372,3 +372,9 @@
 - Created: ai-game-devtools/segment-anything-2.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added segment-anything-2 entry, total pages: 501)
+## [2026-04-17] ingest | sd-webui-controlnet — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/sd-webui-controlnet/ (via gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/sd-webui-controlnet.md
+- Created: ai-game-devtools/sd-webui-controlnet.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added sd-webui-controlnet entry under AI Game DevTools section, total pages: 502)

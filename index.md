@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 511 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 512 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -237,6 +237,7 @@
 ||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |
 ||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |
 ||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
+||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0 |
 
 ## Code Tools
 

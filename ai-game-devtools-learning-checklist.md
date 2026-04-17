@@ -333,7 +333,7 @@
 - [2026-04-17] CRM | https://github.com/thu-ml/CRM
 - [2026-04-18] DreamMat | https://github.com/zzzyuqing/DreamMat
 - [2026-04-17] DreamSpace | https://github.com/ybbbbt/dreamspace
-- [ ] Dream Textures | https://github.com/carson-katri/dream-textures
+- [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
 - [ ] InstructHumans | https://github.com/viridityzhu/InstructHumans
 - [ ] InteX | https://github.com/ashawkey/InTeX
 - [ ] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh

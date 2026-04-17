@@ -11,4 +11,10 @@
 - Created: ai-game-devtools/dreamspace.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 510→511)
-- Rotated: log.md → log-2026.md (503 entries archived)
+|- Rotated: log.md → log-2026.md (503 entries archived)
+## [2026-04-18] ingest | Dream Textures
+- Cloned: ~/tmp/ai-game-devtools/dream-textures/ (via gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/dream-textures.md
+- Created: ai-game-devtools/dream-textures.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 511→512)

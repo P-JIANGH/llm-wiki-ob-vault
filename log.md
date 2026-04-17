@@ -335,3 +335,10 @@
 - Created: ai-game-devtools/poster-craft.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added poster-craft entry under AI Game DevTools section, total pages: 494)
+
+## [2026-04-17] ingest | PromptEnhancer — AI游戏开发工具
+- Source: https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer (GitHub/gitcode/gitee clone all failed; web_extract fallback)
+- Created: raw/articles/ai-game-devtools/prompt-enhancer.md
+- Created: ai-game-devtools/prompt-enhancer.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added prompt-enhancer entry under AI Game DevTools section, total pages: 495)

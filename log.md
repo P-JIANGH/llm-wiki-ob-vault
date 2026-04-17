@@ -62,3 +62,10 @@
 - Created: ai-game-devtools/paint-it.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 516→517)
+
+## [2026-04-18] ingest | X-Mesh
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/x-mesh.md
+- Created: ai-game-devtools/x-mesh.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 517→518)

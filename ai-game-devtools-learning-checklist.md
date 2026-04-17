@@ -341,7 +341,7 @@
 - [2026-04-18] MeshAnything | https://github.com/buaacyw/MeshAnything
 |- [2026-04-18] Neuralangelo | https://github.com/NVlabs/neuralangelo
 |- [2026-04-18] Paint-it | https://github.com/postech-ami/paint-it
-- [ ] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
+- [2026-04-18] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
 
 ## Shader (1)
 - [ ] AI Shader | https://github.com/keijiro/AIShader

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 496 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 497 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -122,10 +122,11 @@
 |||||| [[ai-game-devtools/pulid]] — ByteDance NeurIPS 2024 零样本身份保留图像生成：对比对齐+注意力注入，单图即生成，支持 SDXL/FLUX，12GB VRAM 可运行，ID 保真度 +5pp(v0.9.1)
 |||||| [[ai-game-devtools/omnigen]] — VectorSpaceLab 统一图像生成模型：Phi-3+DiT 架构，无需额外插件(ControlNet/IP-Adapter)直接多模态 prompt 生成，支持文本到图像/主体驱动/身份保留/图像编辑，MIT
 ||||| [[ai-game-devtools/omnigen2]] — VectorSpaceLab/BAAI 下一代多模态图像生成：双解码通路(文本/图像独立参数)+解耦Tokenizer，新增视觉理解能力，TeaCache/TaylorSeer加速推理，最低17GB VRAM，MIT
-|||||| [[ai-game-devtools/omost]] — lllyasviel LLM 图像组合工具：LLM 生成 Python Canvas 代码描述空间布局（9×9×9=729 种边界框）+ 注意力分数操纵渲染，自然语言空间编码（非像素坐标），子提示<75 tokens 避免 CLIP 截断，Llama-3/Phi-3 基座 8GB VRAM
-||||||| [[ai-game-devtools/openpose-editor]] — Fkunn1326 A1111 WebUI 人体姿态编辑插件：Fabric.js Canvas 手动编辑骨骼关键点 + PyTorch OpenPose 自动检测，一键发送到 ControlNet，MIT
-|||||||- [[ai-game-devtools/irg]] — Osilly ICLR 2026 首个交错推理图像生成模型：Prompt→文本推理→初始图像→自我反思→精炼图像，GenEval 0.85 SoTA，基于 [[ai-game-devtools/bagel]] 架构，SFT+RL统一训练，Apache 2.0
-|||||| [[ai-game-devtools/kolors]]
+||||||| [[ai-game-devtools/omost]] — lllyasviel LLM 图像组合工具：LLM 生成 Python Canvas 代码描述空间布局（9×9×9=729 种边界框）+ 注意力分数操纵渲染，自然语言空间编码（非像素坐标），子提示<75 tokens 避免 CLIP 截断，Llama-3/Phi-3 基座 8GB VRAM
+|||||||| [[ai-game-devtools/openpose-editor]] — Fkunn1326 A1111 WebUI 人体姿态编辑插件：Fabric.js Canvas 手动编辑骨骼关键点 + PyTorch OpenPose 自动检测，一键发送到 ControlNet，MIT
+||||||||- [[ai-game-devtools/irg]] — Osilly ICLR 2026 首个交错推理图像生成模型：Prompt→文本推理→初始图像→自我反思→精炼图像，GenEval 0.85 SoTA，基于 [[ai-game-devtools/bagel]] 架构，SFT+RL统一训练，Apache 2.0
+|||||||| [[ai-game-devtools/qwen-image]] — Alibaba Qwen 团队 20B MMDiT 图像基础模型：复杂文字渲染（中文最强）+ 精确图像编辑，多版本（T2I/Edit/Layered/2.0），Apache 2.0 开源，AI Arena 开源第一
+||||||| [[ai-game-devtools/kolors]]
 |||||| [[ai-game-devtools/hy-world-1.5]] — 腾讯混元 WorldPlay 实时交互世界模型
 ||| [[ai-game-devtools/genagent]] — xxyQwQ/港科大 CVPR 2025 LLM Agent：在ComfyUI中自动生成Stable Diffusion工作流
 || [[ai-game-devtools/genesis]] — Genesis-Embodied-AI 通用物理引擎平台：6种求解器统一框架（Rigid/MPM/SPH/FEM/PBD/SF），43M FPS @ RTX 4090，光线追踪渲染+生成式数据引擎，Apache 2.0 |

@@ -404,3 +404,9 @@
 - Created: ai-game-devtools/stable-cascade.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-17] ingest | Stable Diffusion — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/stable-diffusion/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/stable-diffusion.md
+- Created: ai-game-devtools/stable-diffusion.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added stable-diffusion entry)

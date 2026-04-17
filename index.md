@@ -523,7 +523,8 @@
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |
 ||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包
 |- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)
-||- [[ai-game-devtools/stable-cascade]] Stable Cascade — Stability AI 级联图像生成（Würstchen 架构），压缩因子 42，16× 效率提升，支持 ControlNet/LoRA，MIT 代码 + 非商用权重
+|||- [[ai-game-devtools/stable-cascade]] Stable Cascade — Stability AI 级联图像生成（Würstchen 架构），压缩因子 42，16× 效率提升，支持 ControlNet/LoRA，MIT 代码 + 非商用权重
+||- [[ai-game-devtools/stable-diffusion]] Stable Diffusion — CompVis/Stability AI 奠基性潜在扩散模型：860M UNet + 123M CLIP ViT-L/14 文本编码器、8 倍压缩 latent 空间、LAION-5B 训练，CreativeML OpenRAIL M 许可
 |- [[ai-game-devtools/migc]] — 浙大 ReLER Lab CVPR 2024 Highlight 多实例图像生成控制器：Fourier位置编码+SAC空间自适应，COCO-MIG基准SOTA(MIOU 0.56/成功率66%)，Adapter架构，SD1.4/1.5兼容，非商用许可
 | [[ai-game-devtools/mimicbrush]] — 阿里达摩院零样本图像编辑工具：双U-Net架构（主UNet+ReferenceNet），参考图像纹理/风格迁移，深度引导结构保持，Gradio WebUI，HuggingFace+ModelScope权重
 - [[ai-game-devtools/follow-your-click]] — AAAI 2025 开放域区域图像动画：点击选区+短提示词精确控制局部运动，AnimateDiff 时序扩散管线+IP-Adapter 视觉条件化，无需密集运动掩码

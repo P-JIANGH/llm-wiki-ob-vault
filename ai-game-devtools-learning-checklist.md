@@ -280,7 +280,7 @@
 |- [2026-04-17] Hua | https://github.com/BlinkDL/Hua
 |- [2026-04-17] Hunyuan-DiT | https://github.com/Tencent/HunyuanDiT
 |- [ ] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
-|- [ ] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
+|- [2026-04-17] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
 |- [ ] IC-Light | https://github.com/lllyasviel/IC-Light
 |- [ ] img2img-turbo | https://github.com/GaParmar/img2img-turbo
 |- [ ] Infinity | https://github.com/FoundationVision/Infinity

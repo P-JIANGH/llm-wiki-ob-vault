@@ -116,3 +116,9 @@
 - Created: ai-game-devtools/cf-3dgs.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 523→524)
+## [2026-04-18] ingest | CharacterGen
+- Source: web_extract (GitHub/gitcode/gitee clone all failed — timeout/403)
+- Created: raw/articles/ai-game-devtools/character-gen.md
+- Created: ai-game-devtools/character-gen.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 524→525)

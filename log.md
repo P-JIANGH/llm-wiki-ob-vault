@@ -170,3 +170,9 @@
 - Created: ai-game-devtools/gaussctrl.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added GaussCtrl entry under Texture section, total pages 532→533)
+## [2026-04-18] ingest | GaussianCube
+- Cloned: ~/tmp/ai-game-devtools/gaussiancube/
+- Created: raw/articles/ai-game-devtools/gaussiancube.md
+- Created: ai-game-devtools/gaussiancube.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added GaussianCube entry, total pages 533→534)

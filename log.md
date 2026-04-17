@@ -44,3 +44,9 @@
 - Created: ai-game-devtools/materialseg3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 514→515)
+## [2026-04-18] ingest | MeshAnything
+- Cloned: ~/tmp/ai-game-devtools/meshanything/
+- Created: raw/articles/ai-game-devtools/meshanything.md
+- Created: ai-game-devtools/meshanything.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 515→516)

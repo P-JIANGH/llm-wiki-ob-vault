@@ -338,7 +338,7 @@
 |- [2026-04-18] InteX | https://github.com/ashawkey/InTeX
 - [2026-04-18] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
 - [2026-04-18] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_
-- [ ] MeshAnything | https://github.com/buaacyw/MeshAnything
+- [2026-04-18] MeshAnything | https://github.com/buaacyw/MeshAnything
 - [ ] Neuralangelo | https://github.com/NVlabs/neuralangelo
 - [ ] Paint-it | https://github.com/postech-ami/paint-it
 - [ ] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh

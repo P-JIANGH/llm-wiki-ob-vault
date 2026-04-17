@@ -134,3 +134,9 @@
 - Created: ai-game-devtools/city-dreamer.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 526→527)
+## [2026-04-18] ingest | Direct3D-S2
+- Cloned: ~/tmp/ai-game-devtools/direct3d-s2/
+- Created: raw/articles/ai-game-devtools/direct3d-s2.md
+- Created: ai-game-devtools/direct3d-s2.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 527→528)

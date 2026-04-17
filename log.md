@@ -102,3 +102,11 @@
 - Created: ai-game-devtools/blender-gpt.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under AI Game DevTools section, pages 522→523)
+## [2026-04-18] ingest | Blender-GPT (TREE-Ind fork)
+- Checklist date updated (wiki pages already existed from prior run)
+## [2026-04-18] ingest | BlenderMCP
+- Source: web_extract (GitHub/gitcode/gitee clone all failed — timeout/403)
+- Created: raw/articles/ai-game-devtools/blender-mcp.md
+- Created: ai-game-devtools/blender-mcp.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under AI Game DevTools section)

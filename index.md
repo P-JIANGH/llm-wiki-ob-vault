@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 499 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 500 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -478,7 +478,8 @@
 ||||||||||| [[ai-game-devtools/llava-plus-plus]] — MBZUAI LLaVA 1.5 扩展：Phi-3-V（3.8B）+ LLaMA-3-V（8B），CLIP ViT-L/14 336px，LoRA/全量微调，Apache 2.0 |
 ||| [[ai-game-devtools/llava-onevision]] — LLaVA-VL 开源 VLM（0.5B/7B/72B），SIGLIP-SO400M + Qwen-2.0，单图+多图+视频统一理解，47 benchmark SOTA 媲美 GPT-4V，支持 SGLang 部署 |
 |||||||||||| [[ai-game-devtools/dots-vlm1]]
-| [[ai-game-devtools/sharegpt4v]] — USTC 上海AI Lab VLM 数据集+模型（7B/13B），GPT4V生成100K+1.2M高质量字幕，LLaVA架构+CLIP视觉编码+Vicuna基座，ECCV 2024 |
+|| [[ai-game-devtools/sharegpt4v]] — USTC 上海AI Lab VLM 数据集+模型（7B/13B），GPT4V生成100K+1.2M高质量字幕，LLaVA架构+CLIP视觉编码+Vicuna基座，ECCV 2024 |
+|| [[ai-game-devtools/seed-story]] — TencentARC 多模态长故事生成模型：3阶段训练(SD-XL de-tokenizer+MLLM指令微调+适配)，角色/风格一致，最长25序列，StoryStream数据集，Apache 2.0 |
 |||||||| [[ai-game-devtools/lumina-dimoo]] — Alpha-VLLM 全模态离散扩散生成+理解模型：DiMOO 架构统一 T2I/I2I/图像修复/外绘/视觉 QA，VQ 离散码 + 去噪扩散，ML-Cache 2× 加速，A800 58.2s→32.2s，UniGenBench 开源统一模型第一 |
  || [[ai-game-devtools/kangaroo]]
  | [[ai-game-devtools/kwai-keye-vl]] — 快手可灵 VLM 系列（8B/671B），SigLIP+SlowFast Video Encoding，视频理解 SOTA，128K context，Apache 2.0 |

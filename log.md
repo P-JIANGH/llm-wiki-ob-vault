@@ -360,3 +360,9 @@
 - Created: ai-game-devtools/rich-text-to-image.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added rich-text-to-image entry under AI Game DevTools section, total pages: 498)
+## [2026-04-17] ingest | SEED-Story — AI游戏开发工具
+- Source: https://github.com/TencentARC/SEED-Story (GitHub/gitcode/gitee clone all failed; web_extract fallback)
+- Created: raw/articles/ai-game-devtools/seed-story.md
+- Created: ai-game-devtools/seed-story.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added seed-story entry under AI Game DevTools section, total pages: 500)

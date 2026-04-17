@@ -307,7 +307,7 @@
 |- [2026-04-17] Qwen-Image | https://github.com/QwenLM/Qwen-Image
 |- [2026-04-17] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
 |- [2026-04-17] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
-|- [ ] SEED-Story | https://github.com/TencentARC/SEED-Story
+|- [2026-04-17] SEED-Story | https://github.com/TencentARC/SEED-Story
 |- [ ] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
 |- [ ] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
 |- [ ] SDXS | https://github.com/IDKiro/sdxs

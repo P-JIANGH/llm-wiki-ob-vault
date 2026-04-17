@@ -348,9 +348,9 @@
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added poster-craft entry under AI Game DevTools section, total pages: 494)
 
-## [2026-04-17] ingest | PromptEnhancer — AI游戏开发工具
-- Source: https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer (GitHub/gitcode/gitee clone all failed; web_extract fallback)
-- Created: raw/articles/ai-game-devtools/prompt-enhancer.md
-- Created: ai-game-devtools/prompt-enhancer.md
+## [2026-04-17] ingest | Rich-Text-to-Image — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/rich-text-to-image/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/rich-text-to-image.md
+- Created: ai-game-devtools/rich-text-to-image.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
-- Updated: index.md (added prompt-enhancer entry under AI Game DevTools section, total pages: 495)
+- Updated: index.md (added rich-text-to-image entry under AI Game DevTools section, total pages: 498)

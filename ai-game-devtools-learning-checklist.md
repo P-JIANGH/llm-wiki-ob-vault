@@ -305,7 +305,7 @@
 ||- [2026-04-17] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
 |- [2026-04-17] PuLID | https://github.com/ToTheBeginning/PuLID
 |- [2026-04-17] Qwen-Image | https://github.com/QwenLM/Qwen-Image
-|- [ ] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
+|- [2026-04-17] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
 |- [ ] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
 |- [ ] SEED-Story | https://github.com/TencentARC/SEED-Story
 |- [ ] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2

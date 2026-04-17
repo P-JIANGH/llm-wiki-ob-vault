@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 505 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 506 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -527,6 +527,7 @@
 |||- [[ai-game-devtools/stable-cascade]] Stable Cascade — Stability AI 级联图像生成（Würstchen 架构），压缩因子 42，16× 效率提升，支持 ControlNet/LoRA，MIT 代码 + 非商用权重
 |||- [[ai-game-devtools/stable-diffusion]] Stable Diffusion — CompVis/Stability AI 奠基性潜在扩散模型：860M UNet + 123M CLIP ViT-L/14 文本编码器、8 倍压缩 latent 空间、LAION-5B 训练，CreativeML OpenRAIL M 许可
 |||- [[ai-game-devtools/stable-diffusion-webui]] AUTOMATIC1111 最流行 SD WebUI：Gradio 构建，txt2img/img2img/inpaint/超分/人脸修复/LoRA/扩展生态，4GB 起，AGPL
+|||| [[ai-game-devtools/sygil-webui]] Sygil-Dev 早期 SD WebUI：Streamlit 主推 + Gradio 遗留，K-Diffusion 采样器 + GFPGAN/RealESRGAN 增强 + Textual Inversion + CLIP Interrogator + Stable Horde 桥接，4GB 可运行，AGPL-3.0
 |- [[ai-game-devtools/migc]] — 浙大 ReLER Lab CVPR 2024 Highlight 多实例图像生成控制器：Fourier位置编码+SAC空间自适应，COCO-MIG基准SOTA(MIOU 0.56/成功率66%)，Adapter架构，SD1.4/1.5兼容，非商用许可
 | [[ai-game-devtools/mimicbrush]] — 阿里达摩院零样本图像编辑工具：双U-Net架构（主UNet+ReferenceNet），参考图像纹理/风格迁移，深度引导结构保持，Gradio WebUI，HuggingFace+ModelScope权重
 - [[ai-game-devtools/follow-your-click]] — AAAI 2025 开放域区域图像动画：点击选区+短提示词精确控制局部运动，AnimateDiff 时序扩散管线+IP-Adapter 视觉条件化，无需密集运动掩码

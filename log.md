@@ -422,3 +422,9 @@
 - Created: ai-game-devtools/stable-diffusion-webui.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (+1 page, total 505)
+## [2026-04-17] ingest | Sygil-Dev Stable Diffusion Web UI — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/sygil-webui/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/sygil-webui.md
+- Created: ai-game-devtools/sygil-webui.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (+1 page, total 506)

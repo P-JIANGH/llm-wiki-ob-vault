@@ -288,7 +288,7 @@
 |- [2026-04-17] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
 |- [2026-04-17] Kolors | https://github.com/Kwai-Kolors/Kolors
 |- [2026-04-17] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
-|- [ ] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
+|- [2026-04-17] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
 |- [ ] LlamaGen | https://github.com/FoundationVision/LlamaGen
 |- [ ] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
 |- [ ] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 525 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 526 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -96,6 +96,7 @@
 | [[ai-game-devtools/ai-town]] — a16z-infra 虚拟小镇模拟：Convex + PixiJS + Ollama/OpenAI，AI 角色自主聊天社交，灵感来自 Stanford Generative Agents 论文，JS/TS 入门套件 |
 || [[ai-game-devtools/cat-town]] — ykhli 猫咪主题模拟游戏：基于 AI-town fork，像素猫咪角色 + Cat Town Live Demo (Fly.io)，MIT |
 || [[ai-game-devtools/character-glm-6b]] — 聆心智能&清华大学 CoAI 角色扮演对话大模型：基于 ChatGLM2-6B 微调，7维属性+行为建模，一致性/拟人化/吸引力三维评估，角色扮演场景超越 GPT-3.5，不可商用 |
+|| [[ai-game-devtools/chatgpt-maya]] — LouisRossouw Maya ChatGPT 代码生成工具：自然语言提示→GPT-3生成Maya Python代码→exec()直接执行，简单自动化可用、复杂请求不佳，需mayapy安装openai包 |
 || [[ai-game-devtools/anime-gf]] — cyan/moecorp 桌面 LLM 聊天前端：Electron + React + tRPC + SQLite，支持 OpenAI/Anthropic/Mistral/Together AI 及任意 OpenAI兼容端点，角色卡系统，AGPL |
 | [[ai-game-devtools/anything-3d]] — Anything-of-anything 单视图3D重建框架：SAM分割+3DFuse/Zero-1-to-3/NeRF/HRN四路管线，单图→3D物体/新视角/面部重建，PyTorch3D+VoxNeRF，arXiv 2304.10261 |
 | [[ai-game-devtools/agentscope]] — 阿里巴巴通义实验室 Agent 框架（Apache 2.0）：ReAct/Voice/多Agent 工作流 + MCP/A2A 协议 + Trinity-RFT RL 微调 + K8s/OTel 生产部署，支持狼人杀等游戏示例 |

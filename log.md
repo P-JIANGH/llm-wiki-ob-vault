@@ -122,3 +122,9 @@
 - Created: ai-game-devtools/character-gen.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 524→525)
+## [2026-04-18] ingest | chatGPT-maya
+- Cloned: ~/tmp/ai-game-devtools/chatgpt-maya/
+- Created: raw/articles/ai-game-devtools/chatgpt-maya.md
+- Created: ai-game-devtools/chatgpt-maya.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under AI Game DevTools section, pages 525→526)

@@ -368,7 +368,7 @@
 |- [2026-04-18] HoloDreamer | https://github.com/zhouhyOcean/HoloDreamer
 |- [2026-04-18] Hunyuan3D-1.0 | https://github.com/Tencent/Hunyuan3D-1
 |- [2026-04-18] Hunyuan3D 2.0 | https://github.com/Tencent/Hunyuan3D-2
-|- [ ] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
+|- [2026-04-18] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
 |- [ ] Infinigen | https://github.com/princeton-vl/infinigen
 - [ ] Interactive3D | https://github.com/interactive-3d/interactive3d
 - [ ] Isotropic3D | https://github.com/pkunliu/Isotropic3D

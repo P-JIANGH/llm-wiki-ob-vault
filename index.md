@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 495 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 496 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -118,7 +118,8 @@
 ||||| [[ai-game-devtools/hunyuan-gamecraft]] — 腾讯混元游戏视频生成：参考图+文本+键鼠动作→生成连贯游戏录像，混合历史条件+模型蒸馏(8步)，1M+ AAA游戏训练，HuggingFace开源 |
 |||| [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成模型：文本/图像→360°全景图→分层3D mesh（背景+2层前景+天空），可导出Draco压缩mesh用于游戏引擎，BRISQUE/NIQE/CLIP 全面SOTA，Apache 2.0 |
 ||||| [[ai-game-devtools/hunyuanworld-voyager]] — 腾讯混元 Voyager 可探索3D世界视频生成：单图→世界一致RGB-D视频+相机路径控制，WorldScore Benchmark综合第1（77.62），支持点云导出，Apache 2.0 |
-|||||- [[ai-game-devtools/instantid]] — InstantX Team/小红书 零样本身份保留图像生成：单图即可保持面部特征+文本可控，无需微调，IdentityNet(ControlNet)+IP-Adapter架构，LCM加速兼容，Kolors适配，Apache 2.0
+||||||- [[ai-game-devtools/instantid]] — InstantX Team/小红书 零样本身份保留图像生成：单图即可保持面部特征+文本可控，无需微调，IdentityNet(ControlNet)+IP-Adapter架构，LCM加速兼容，Kolors适配，Apache 2.0
+|||||| [[ai-game-devtools/pulid]] — ByteDance NeurIPS 2024 零样本身份保留图像生成：对比对齐+注意力注入，单图即生成，支持 SDXL/FLUX，12GB VRAM 可运行，ID 保真度 +5pp(v0.9.1)
 |||||| [[ai-game-devtools/omnigen]] — VectorSpaceLab 统一图像生成模型：Phi-3+DiT 架构，无需额外插件(ControlNet/IP-Adapter)直接多模态 prompt 生成，支持文本到图像/主体驱动/身份保留/图像编辑，MIT
 ||||| [[ai-game-devtools/omnigen2]] — VectorSpaceLab/BAAI 下一代多模态图像生成：双解码通路(文本/图像独立参数)+解耦Tokenizer，新增视觉理解能力，TeaCache/TaylorSeer加速推理，最低17GB VRAM，MIT
 |||||| [[ai-game-devtools/omost]] — lllyasviel LLM 图像组合工具：LLM 生成 Python Canvas 代码描述空间布局（9×9×9=729 种边界框）+ 注意力分数操纵渲染，自然语言空间编码（非像素坐标），子提示<75 tokens 避免 CLIP 截断，Llama-3/Phi-3 基座 8GB VRAM

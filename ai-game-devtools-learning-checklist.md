@@ -303,7 +303,7 @@
 |- [2026-04-17] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
 ||- [2026-04-17] PosterCraft | https://github.com/Ephemeral182/PosterCraft
 ||- [2026-04-17] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
-|- [ ] PuLID | https://github.com/ToTheBeginning/PuLID
+|- [2026-04-17] PuLID | https://github.com/ToTheBeginning/PuLID
 |- [ ] Qwen-Image | https://github.com/QwenLM/Qwen-Image
 |- [ ] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
 |- [ ] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster

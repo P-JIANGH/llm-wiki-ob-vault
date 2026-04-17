@@ -325,7 +325,7 @@
 |- [2026-04-17] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
 |- [2026-04-18] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
 |- [2026-04-18] UltraEdit | https://github.com/HaozheZhao/UltraEdit
-|- [ ] UltraPixel | https://github.com/catcathh/UltraPixel
+|- [2026-04-18] UltraPixel | https://github.com/catcathh/UltraPixel
 |- [ ] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
 |- [ ] USO | https://github.com/bytedance/USO
 

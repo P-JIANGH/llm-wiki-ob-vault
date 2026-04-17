@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 506 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 507 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -525,9 +525,10 @@
 |||| [[ai-game-devtools/lemur]] — XLang Lab+Salesforce 70B LLM，NLP+Code 平衡训练，10:1 代码文本比预训练，WebArena/MINT/InterCode agent 评测，Apache |
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |
 ||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包
-|- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)
-|||- [[ai-game-devtools/stable-cascade]] Stable Cascade — Stability AI 级联图像生成（Würstchen 架构），压缩因子 42，16× 效率提升，支持 ControlNet/LoRA，MIT 代码 + 非商用权重
-|||- [[ai-game-devtools/stable-diffusion]] Stable Diffusion — CompVis/Stability AI 奠基性潜在扩散模型：860M UNet + 123M CLIP ViT-L/14 文本编码器、8 倍压缩 latent 空间、LAION-5B 训练，CreativeML OpenRAIL M 许可
+||- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)
+||||- [[ai-game-devtools/stable-cascade]] Stable Cascade — Stability AI 级联图像生成（Würstchen 架构），压缩因子 42，16× 效率提升，支持 ControlNet/LoRA，MIT 代码 + 非商用权重
+||||| [[ai-game-devtools/ultrapixel]] — NeurIPS 2024 超高分辨率图像合成模型：基于 StableCascade+Trans-inR，支持 T2I/LoRA/ControlNet 工作流，4K 生成，tiled decoding 将 4096² 显存从 OOM 降至 9-11GB
+||||- [[ai-game-devtools/stable-diffusion]] Stable Diffusion — CompVis/Stability AI 奠基性潜在扩散模型：860M UNet + 123M CLIP ViT-L/14 文本编码器、8 倍压缩 latent 空间、LAION-5B 训练，CreativeML OpenRAIL M 许可
 |||- [[ai-game-devtools/stable-diffusion-webui]] AUTOMATIC1111 最流行 SD WebUI：Gradio 构建，txt2img/img2img/inpaint/超分/人脸修复/LoRA/扩展生态，4GB 起，AGPL
 |||| [[ai-game-devtools/sygil-webui]] Sygil-Dev 早期 SD WebUI：Streamlit 主推 + Gradio 遗留，K-Diffusion 采样器 + GFPGAN/RealESRGAN 增强 + Textual Inversion + CLIP Interrogator + Stable Horde 桥接，4GB 可运行，AGPL-3.0
 |- [[ai-game-devtools/migc]] — 浙大 ReLER Lab CVPR 2024 Highlight 多实例图像生成控制器：Fourier位置编码+SAC空间自适应，COCO-MIG基准SOTA(MIOU 0.56/成功率66%)，Adapter架构，SD1.4/1.5兼容，非商用许可

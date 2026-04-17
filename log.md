@@ -473,3 +473,10 @@
 - Created: ai-game-devtools/ultraedit.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
 - Updated: index.md (added entry, pages 505→506)
+
+## [2026-04-18] ingest | UltraPixel — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/ultrapixel/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/ultrapixel.md
+- Created: ai-game-devtools/ultrapixel.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
+- Updated: index.md (added entry, pages 506→507)

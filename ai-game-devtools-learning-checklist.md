@@ -356,7 +356,7 @@
 - [2026-04-18] CF-3DGS | https://github.com/NVlabs/CF-3DGS
 - [2026-04-18] CharacterGen | https://github.com/zjp-shadow/CharacterGen
 - [2026-04-18] chatGPT-maya | https://github.com/LouisRossouw/chatGPT-maya
-- [ ] CityDreamer | https://github.com/hzxie/city-dreamer
+- [2026-04-18] CityDreamer | https://github.com/hzxie/city-dreamer
 - [ ] Direct3D-S2 | https://github.com/DreamTechAI/Direct3D-S2
 - [ ] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
 - [ ] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d

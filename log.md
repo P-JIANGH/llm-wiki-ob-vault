@@ -128,3 +128,9 @@
 - Created: ai-game-devtools/chatgpt-maya.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under AI Game DevTools section, pages 525→526)
+## [2026-04-18] ingest | CityDreamer
+- Source: web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/city-dreamer.md
+- Created: ai-game-devtools/city-dreamer.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 526→527)

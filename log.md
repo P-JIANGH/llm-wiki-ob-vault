@@ -215,3 +215,10 @@
 - Created: ai-game-devtools/infinity.md
 - Updated: ai-game-devtools-learning-checklist.md (marked Infinity as [2026-04-17])
 - Updated: index.md (added entry, total pages: 480)
+
+## [2026-04-17] ingest | InstantID
+- Cloned: ~/tmp/ai-game-devtools/instantid/
+- Created: raw/articles/ai-game-devtools/instantid.md
+- Created: ai-game-devtools/instantid.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

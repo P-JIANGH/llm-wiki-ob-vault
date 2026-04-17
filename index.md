@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 480 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 481 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -117,6 +117,7 @@
 ||||| [[ai-game-devtools/hunyuan-gamecraft]] — 腾讯混元游戏视频生成：参考图+文本+键鼠动作→生成连贯游戏录像，混合历史条件+模型蒸馏(8步)，1M+ AAA游戏训练，HuggingFace开源 |
 |||| [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成模型：文本/图像→360°全景图→分层3D mesh（背景+2层前景+天空），可导出Draco压缩mesh用于游戏引擎，BRISQUE/NIQE/CLIP 全面SOTA，Apache 2.0 |
 ||||| [[ai-game-devtools/hunyuanworld-voyager]] — 腾讯混元 Voyager 可探索3D世界视频生成：单图→世界一致RGB-D视频+相机路径控制，WorldScore Benchmark综合第1（77.62），支持点云导出，Apache 2.0 |
+|||- [[ai-game-devtools/instantid]] — InstantX Team/小红书 零样本身份保留图像生成：单图即可保持面部特征+文本可控，无需微调，IdentityNet(ControlNet)+IP-Adapter架构，LCM加速兼容，Kolors适配，Apache 2.0
 ||||| [[ai-game-devtools/hy-world-1.5]] — 腾讯混元 WorldPlay 实时交互世界模型：24 FPS流式生成+WASD/鼠标动作控制+长期几何一致性，基于HunyuanVideo-8B或WAN-5B骨干，Context Forcing蒸馏防止误差漂移，Apache 2.0 |
 ||| [[ai-game-devtools/genagent]] — xxyQwQ/港科大 CVPR 2025 LLM Agent：在ComfyUI中自动生成Stable Diffusion工作流
 || [[ai-game-devtools/genesis]] — Genesis-Embodied-AI 通用物理引擎平台：6种求解器统一框架（Rigid/MPM/SPH/FEM/PBD/SF），43M FPS @ RTX 4090，光线追踪渲染+生成式数据引擎，Apache 2.0 |

@@ -359,7 +359,7 @@
 - [2026-04-18] CityDreamer | https://github.com/hzxie/city-dreamer
 - [2026-04-18] Direct3D-S2 | https://github.com/DreamTechAI/Direct3D-S2
 |- [2026-04-18] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
-- [ ] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d
+- [2026-04-18] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d
 - [ ] DUSt3R | https://github.com/naver/dust3r
 - [ ] GALA3D | https://github.com/VDIGPKU/GALA3D
 - [ ] GaussCtrl | https://github.com/ActiveVisionLab/gaussctrl

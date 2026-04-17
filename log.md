@@ -146,3 +146,9 @@
 - Created: ai-game-devtools/dream-catalyst.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 528→529)
+## [2026-04-18] ingest | DreamGaussian4D
+- Cloned: ~/tmp/ai-game-devtools/dreamgaussian4d/
+- Created: raw/articles/ai-game-devtools/dreamgaussian4d.md
+- Created: ai-game-devtools/dreamgaussian4d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 530→531)

@@ -398,3 +398,9 @@
 - Created: ai-game-devtools/stable-art.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-17] ingest | Stable Cascade
+- Cloned: ~/tmp/ai-game-devtools/stable-cascade/ (via gitcode.com mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/stable-cascade.md
+- Created: ai-game-devtools/stable-cascade.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

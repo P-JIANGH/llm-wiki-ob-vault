@@ -313,7 +313,7 @@
 |- [2026-04-17] SDXS | https://github.com/IDKiro/sdxs
 |- [2026-04-17] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
 |- [2026-04-17] Stable.art | https://github.com/isekaidev/stable.art
-|- [ ] Stable Cascade | https://github.com/Stability-AI/StableCascade
+|- [2026-04-17] Stable Cascade | https://github.com/Stability-AI/StableCascade
 |- [ ] Stable Diffusion | https://github.com/CompVis/stable-diffusion
 |- [ ] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
 |- [ ] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui

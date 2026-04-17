@@ -314,3 +314,10 @@
 - Created: ai-game-devtools/omost.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added omost entry under Image section, total pages: 492)
+
+## [2026-04-17] ingest | Openpose Editor — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/openpose-editor/
+- Created: raw/articles/ai-game-devtools/openpose-editor.md
+- Created: ai-game-devtools/openpose-editor.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added openpose-editor entry under Image section, total pages: 493)

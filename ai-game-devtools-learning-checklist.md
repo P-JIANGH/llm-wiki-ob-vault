@@ -299,7 +299,7 @@
 ||- [2026-04-17] OmniGen | https://github.com/VectorSpaceLab/OmniGen
 ||- [2026-04-17] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
 ||- [2026-04-17] Omost | https://github.com/lllyasviel/Omost
-|- [ ] Openpose Editor | https://github.com/fkunn1326/openpose-editor
+|- [2026-04-17] Openpose Editor | https://github.com/fkunn1326/openpose-editor
 |- [ ] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
 |- [ ] PosterCraft | https://github.com/Ephemeral182/PosterCraft
 |- [ ] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer

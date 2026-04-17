@@ -271,3 +271,9 @@
 - Created: ai-game-devtools/lumina-mgpt.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added lumina-mgpt entry, total pages: 487)
+## [2026-04-17] ingest | MakeAnything
+- Cloned: ~/tmp/ai-game-devtools/makeanything/
+- Created: raw/articles/ai-game-devtools/makeanything.md
+- Created: ai-game-devtools/makeanything.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added makeanything entry, total pages: 488)

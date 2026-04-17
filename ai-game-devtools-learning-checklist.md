@@ -292,7 +292,7 @@
 |-[2026-04-17] LlamaGen | https://github.com/FoundationVision/LlamaGen
 |- [2026-04-17] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
 |- [2026-04-17] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
-|- [ ] MakeAnything | https://github.com/showlab/MakeAnything
+|- [2026-04-17] MakeAnything | https://github.com/showlab/MakeAnything
 |- [ ] MIGC | https://github.com/limuloo/MIGC
 |- [ ] MimicBrush | https://github.com/ali-vilab/MimicBrush
 |- [ ] NextStep-1 | https://github.com/stepfun-ai/NextStep-1

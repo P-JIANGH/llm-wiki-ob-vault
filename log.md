@@ -466,3 +466,10 @@
 - Created: ai-game-devtools/syncdreamer.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
 - Updated: index.md (added entry, pages 504→505)
+
+## [2026-04-18] ingest | UltraEdit — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/ultraedit/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/ultraedit.md
+- Created: ai-game-devtools/ultraedit.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
+- Updated: index.md (added entry, pages 505→506)

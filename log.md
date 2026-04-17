@@ -76,3 +76,10 @@
 - Created: ai-game-devtools/ai-shader.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under AI Game DevTools section, pages 518→519)
+
+## [2026-04-18] ingest | Animate3D
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/animate3d.md
+- Created: ai-game-devtools/animate3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 519→520)

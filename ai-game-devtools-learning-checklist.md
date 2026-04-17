@@ -295,7 +295,7 @@
 |- [2026-04-17] MakeAnything | https://github.com/showlab/MakeAnything
 |- [2026-04-17] MIGC | https://github.com/limuloo/MIGC
 |- [2026-04-17] MimicBrush | https://github.com/ali-vilab/MimicBrush
-|- [ ] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
+|- [2026-04-17] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
 |- [ ] OmniGen | https://github.com/VectorSpaceLab/OmniGen
 |- [ ] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
 |- [ ] Omost | https://github.com/lllyasviel/Omost

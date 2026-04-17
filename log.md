@@ -290,3 +290,9 @@
 - Created: ai-game-devtools/migc.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added migc entry under AI Game DevTools section, total pages: 489)
+## [2026-04-17] ingest | NextStep-1
+- Cloned: ~/tmp/ai-game-devtools/nextstep-1/
+- Created: raw/articles/ai-game-devtools/nextstep-1.md
+- Created: ai-game-devtools/nextstep-1.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added nextstep-1 entry, total pages: 490)

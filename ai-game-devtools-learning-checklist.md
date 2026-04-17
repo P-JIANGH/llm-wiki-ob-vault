@@ -372,7 +372,7 @@
 |- [2026-04-18] Infinigen | https://github.com/princeton-vl/infinigen
 |- [2026-04-18] Interactive3D | https://github.com/interactive-3d/interactive3d
 - [2026-04-18] Isotropic3D | https://github.com/pkunliu/Isotropic3D
-- [ ] LION | https://github.com/nv-tlabs/LION
+|- [2026-04-18] LION | https://github.com/nv-tlabs/LION
 - [ ] Make-It-3D | https://github.com/junshutang/Make-It-3D
 - [ ] MVDream | https://github.com/MV-Dream/MVDream
 - [ ] NVIDIA Instant NeRF | https://github.com/NVlabs/instant-ngp

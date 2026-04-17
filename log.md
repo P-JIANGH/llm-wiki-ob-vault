@@ -229,3 +229,10 @@
 - Created: ai-game-devtools/isotropic3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added isotropic3d entry, total pages 540→541)
+
+## [2026-04-18] ingest | LION
+- Cloned: ~/tmp/ai-game-devtools/lion/ (from gitcode.com mirror, GitHub timeout)
+- Created: raw/articles/ai-game-devtools/lion.md
+- Created: ai-game-devtools/lion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added lion entry, total pages 541→542)

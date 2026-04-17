@@ -339,7 +339,7 @@
 - [2026-04-18] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
 - [2026-04-18] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_
 - [2026-04-18] MeshAnything | https://github.com/buaacyw/MeshAnything
-- [ ] Neuralangelo | https://github.com/NVlabs/neuralangelo
+|- [2026-04-18] Neuralangelo | https://github.com/NVlabs/neuralangelo
 - [ ] Paint-it | https://github.com/postech-ami/paint-it
 - [ ] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
 

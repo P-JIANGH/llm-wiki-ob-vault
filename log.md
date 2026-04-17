@@ -50,3 +50,9 @@
 - Created: ai-game-devtools/meshanything.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 515→516)
+## [2026-04-18] ingest | Neuralangelo
+- Cloned: ~/tmp/ai-game-devtools/neuralangelo/
+- Created: raw/articles/ai-game-devtools/neuralangelo.md
+- Created: ai-game-devtools/neuralangelo.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section)

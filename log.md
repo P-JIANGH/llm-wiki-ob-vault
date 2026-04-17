@@ -208,3 +208,10 @@
 - Created: ai-game-devtools/hunyuan3d-2-1.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added hunyuan3d-2-1 entry, total pages 537→538)
+
+## [2026-04-18] ingest | Infinigen
+- Cloned: ~/tmp/ai-game-devtools/infinigen/
+- Created: raw/articles/ai-game-devtools/infinigen.md
+- Created: ai-game-devtools/infinigen.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added infinigen entry, total pages 538→539)

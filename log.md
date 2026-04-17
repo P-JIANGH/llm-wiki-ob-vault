@@ -487,3 +487,10 @@
 - Created: ai-game-devtools/unity-ml-stable-diffusion.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
 - Updated: index.md (added entry, pages 507→508)
+
+## [2026-04-18] ingest | USO — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/uso/ (gitee.com mirror; GitHub timeout, gitcode 403)
+- Created: raw/articles/ai-game-devtools/uso.md
+- Created: ai-game-devtools/uso.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
+- Updated: index.md (added entry, pages 508→509)

@@ -327,7 +327,7 @@
 |- [2026-04-18] UltraEdit | https://github.com/HaozheZhao/UltraEdit
 |- [2026-04-18] UltraPixel | https://github.com/catcathh/UltraPixel
 ||- [2026-04-18] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
-|- [ ] USO | https://github.com/bytedance/USO
+|- [2026-04-18] USO | https://github.com/bytedance/USO
 
 ## Texture (12)
 - [2026-04-17] CRM | https://github.com/thu-ml/CRM

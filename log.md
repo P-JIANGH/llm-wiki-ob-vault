@@ -302,3 +302,9 @@
 - Created: ai-game-devtools/omnigen.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added omnigen entry, total pages: 491)
+## [2026-04-17] ingest | OmniGen2
+- Cloned: ~/tmp/ai-game-devtools/omnigen2/ (GitHub/gitcode/gitee all failed; web_extract fallback)
+- Created: raw/articles/ai-game-devtools/omnigen2.md
+- Created: ai-game-devtools/omnigen2.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added omnigen2 entry, total pages: 492)

@@ -297,7 +297,7 @@
 |- [2026-04-17] MimicBrush | https://github.com/ali-vilab/MimicBrush
 ||- [2026-04-17] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
 ||- [2026-04-17] OmniGen | https://github.com/VectorSpaceLab/OmniGen
-||- [ ] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
+||- [2026-04-17] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
 ||- [ ] Omost | https://github.com/lllyasviel/Omost
 |- [ ] Openpose Editor | https://github.com/fkunn1326/openpose-editor
 |- [ ] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO

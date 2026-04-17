@@ -30,3 +30,10 @@
 - Created: ai-game-devtools/intex.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 513→514)
+
+## [2026-04-18] ingest | LLaMA-Mesh
+- Cloned: ~/tmp/ai-game-devtools/llama-mesh/
+- Created: raw/articles/ai-game-devtools/llama-mesh.md
+- Created: ai-game-devtools/llama-mesh.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

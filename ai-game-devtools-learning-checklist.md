@@ -336,7 +336,7 @@
 - [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
 |- [2026-04-18] InstructHumans | https://github.com/viridityzhu/InstructHumans
 |- [2026-04-18] InteX | https://github.com/ashawkey/InTeX
-- [ ] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
+- [2026-04-18] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
 - [ ] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_
 - [ ] MeshAnything | https://github.com/buaacyw/MeshAnything
 - [ ] Neuralangelo | https://github.com/NVlabs/neuralangelo

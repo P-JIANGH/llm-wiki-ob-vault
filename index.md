@@ -240,6 +240,7 @@
 |||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0
 ||||| [[ai-game-devtools/instruct-humans]] — NUS IEEE TMM 3D人类纹理指令编辑：自然语言提示修改角色纹理（如"变成小丑"），保持角色一致性+动画支持，kaolin+SMPL-X，学术引用
 |||| [[ai-game-devtools/intex]] — arXiv 2024 交互式文本到纹理合成：统一深度感知修复，多视角遍历+Stable Diffusion 生成，法线/深度/ip2p/深度修复多种控制模式，DearPyGui 实时 GUI，UV 空间自动融合，支持 LCM 加速
+|| [[ai-game-devtools/llama-mesh]] — NVIDIA Toronto AI Lab + 清华大学 LLM 驱动 3D 网格生成：OBJ 文本化表示 + Llama 3.1 8B 微调，对话生成 3D 模型，非商业 License
 
 ## Code Tools
 

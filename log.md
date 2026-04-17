@@ -164,3 +164,9 @@
 - Created: ai-game-devtools/gala3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added GALA3D entry, total pages 531→532)
+## [2026-04-18] ingest | GaussCtrl
+- Source: ActiveVisionLab/gaussctrl (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/gaussctrl.md
+- Created: ai-game-devtools/gaussctrl.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added GaussCtrl entry under Texture section, total pages 532→533)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 478 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 479 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -497,4 +497,5 @@
 - [[ai-game-devtools/follow-your-click]] — AAAI 2025 开放域区域图像动画：点击选区+短提示词精确控制局部运动，AnimateDiff 时序扩散管线+IP-Adapter 视觉条件化，无需密集运动掩码
 |- [[ai-game-devtools/fooocus]] lllyasviel SDXL 图像生成工具：离线/免费/零配置，<3 次点击出图，4GB VRAM 可用，GPT-2 提示词扩展引擎，自研 inpaint 模型 + 负 ADM 引导，GPL v3
 || [[ai-game-devtools/hua]] — BlinkDL AI 图像编辑器前端：Canvas 画布式 SD 操作界面（txt2img/img2img/修复/扩展），纯 Vanilla JS 168KB 单文件，通过 CORS 连接本地 AUTOMATIC1111 WebUI API，Apache 2.0
-|| [[ai-game-devtools/giffusion]] — Stable Diffusion GIF/视频生成 Web UI：关键帧动画+音频驱动+Deforum 兼容运动控制，HuggingFace Diffusers 兼容，Comet ML 集成
+||| [[ai-game-devtools/giffusion]] — Stable Diffusion GIF/视频生成 Web UI：关键帧动画+音频驱动+Deforum 兼容运动控制，HuggingFace Diffusers 兼容，Comet ML 集成
+||| [[ai-game-devtools/ic-light]] — lllyasviel 图像光照操控工具：基于 SD1.5 改造 UNet 输入通道(8/12通道)，文本/背景条件重打光 + 法线估计，ICLR 2025，HuggingFace Space 在线可用

@@ -223,8 +223,9 @@
 ||| [[ai-game-devtools/llamagen]] — FoundationVision 自回归图像生成模型：VQ-VAE tokenizer + GPT next-token prediction，111M-3B 参数规模，FID 2.18（ImageNet），超越 diffusion 方法，MIT，vLLM 300-400% 加速 |
 ||||| [[ai-game-devtools/lumina-image-2-0]] — Alpha-VLLM 统一高效图像生成 DiT 框架（ICCV 2025）：Gemma-2-2B 文本编码+FLUX-VAE-16CH，2.6B 参数/1024 分辨率，Flash Attention+RMSNorm+多求解器(Midpoint/Euler/DPM)，Diffusers/ComfyUI 集成，LoRA 微调，Apache 2.0 |
 || [[ai-game-devtools/lumina-mgpt]] — Alpha-VLLM 多模态自回归模型家族：Chameleon 架构扩展+VQ-VAE 图像 token 化，7B/34B 参数，支持文本生成图像/图像理解/Omni 多任务（深度/分割/姿态），FSDP 训练+Gradio 演示，Apache 2.0 |
-|| [[ai-game-devtools/makeanything]] — NUS Show Lab FLUX.1 多域程序序列生成：Asymmetric LoRA 21域共享 + Recraft 图生序列(4/9帧)，1024/1056分辨率，覆盖乐高/绘画/雕塑等21创意域，HuggingFace权重+数据集 |
-|| [[ai-game-devtools/sd-webui-controlnet]] — Mikubill A1111 WebUI ControlNet 扩展：20+预处理器(姿态/深度/边缘/法线)、多路ControlNet输入、3种控制模式、Reference-Only、IP-Adapter集成，GPL v3 |
+||| [[ai-game-devtools/makeanything]] — NUS Show Lab FLUX.1 多域程序序列生成：Asymmetric LoRA 21域共享 + Recraft 图生序列(4/9帧)，1024/1056分辨率，覆盖乐高/绘画/雕塑等21创意域，HuggingFace权重+数据集 |
+||| [[ai-game-devtools/sd-webui-controlnet]] — Mikubill A1111 WebUI ControlNet 扩展：20+预处理器(姿态/深度/边缘/法线)、多路ControlNet输入、3种控制模式、Reference-Only、IP-Adapter集成，GPL v3 |
+||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型：512×512达100 FPS(SD v1.5的30x)、1024×1024达30 FPS(SDXL的60x)，轻量VAE解码器+特征匹配损失+ControlNet扩展，DreamShaper多风格权重，MIT |
 
 ## Texture (3D Asset Generation)
 ||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |

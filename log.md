@@ -191,3 +191,9 @@
 - Created: ai-game-devtools/hunyuanimage-3-0.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added hunyuanimage-3-0 entry)
+## [2026-04-17] ingest | HunyuanImage-2.1 — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/hunyuanimage-2-1/
+- Created: raw/articles/ai-game-devtools/hunyuanimage-2-1.md
+- Created: ai-game-devtools/hunyuanimage-2-1.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added hunyuanimage-2-1 entry)

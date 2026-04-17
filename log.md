@@ -55,4 +55,10 @@
 - Created: raw/articles/ai-game-devtools/neuralangelo.md
 - Created: ai-game-devtools/neuralangelo.md
 - Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry under Texture section)
+|- Updated: index.md (added entry under Texture section)
+## [2026-04-18] ingest | Paint-it
+- Cloned: GitHub/gitcode/gitee all failed; used web_extract fallback
+- Created: raw/articles/ai-game-devtools/paint-it.md
+- Created: ai-game-devtools/paint-it.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 516→517)

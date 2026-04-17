@@ -340,7 +340,7 @@
 - [2026-04-18] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_
 - [2026-04-18] MeshAnything | https://github.com/buaacyw/MeshAnything
 |- [2026-04-18] Neuralangelo | https://github.com/NVlabs/neuralangelo
-- [ ] Paint-it | https://github.com/postech-ami/paint-it
+|- [2026-04-18] Paint-it | https://github.com/postech-ami/paint-it
 - [ ] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
 
 ## Shader (1)

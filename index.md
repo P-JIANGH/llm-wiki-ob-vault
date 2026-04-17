@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 516 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 517 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -243,7 +243,8 @@
 ||| [[ai-game-devtools/llama-mesh]] — NVIDIA Toronto AI Lab + 清华大学 LLM 驱动 3D 网格生成：OBJ 文本化表示 + Llama 3.1 8B 微调，对话生成 3D 模型，非商业 License
 |||| [[ai-game-devtools/materialseg3d]] — ACM MM 2024 Oral 3D 材质分割管线：2D 先验知识驱动 PBR 材质标注，GET3D+Text2Tex+mmsegmentation 三模块，MIO 数据集，Gradio 交互界面
 || [[ai-game-devtools/meshanything]] — 自回归 Transformer 网格生成模型（350M参数）：网格/点云输入 → 简化艺术家风格网格输出（≤800面/30秒），Michelangelo 点云编码器 + Shape-OPT + 噪声抵抗解码器，SLab 许可
-||| [[ai-game-devtools/neuralangelo]] — NVIDIA CVPR 2023 高保真神经表面重建：SDF-based NeRF + hashgrid 编码 + coarse-to-fine 训练，从视频重建带纹理 3D 网格，COLMAP 集成管线，NVIDIA 许可
+|||| [[ai-game-devtools/neuralangelo]] — NVIDIA CVPR 2023 高保真神经表面重建：SDF-based NeRF + hashgrid 编码 + coarse-to-fine 训练，从视频重建带纹理 3D 网格，COLMAP 集成管线，NVIDIA 许可
+||| [[ai-game-devtools/paint-it]] — CVPR 2024 文本驱动 PBR 纹理合成：Deep Image Prior + 未修改 SDS + nvdiffrast 微分渲染，生成 diffuse/roughness/metalness/normal 四张贴图，支持 Objaverse 批量/SMPL 人体纹理，学术许可
 
 ## Code Tools
 

@@ -459,3 +459,10 @@
 - Created: ai-game-devtools/streamdiffusion.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added entry, pages 503→504)
+
+## [2026-04-18] ingest | SyncDreamer — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/syncdreamer/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/syncdreamer.md
+- Created: ai-game-devtools/syncdreamer.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
+- Updated: index.md (added entry, pages 504→505)

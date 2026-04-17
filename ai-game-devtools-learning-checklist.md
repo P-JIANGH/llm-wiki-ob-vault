@@ -323,7 +323,7 @@
 |- [2026-04-17] StableStudio | https://github.com/Stability-AI/StableStudio
 |- [2026-04-18] StoryMaker | https://github.com/RedAIGC/StoryMaker
 |- [2026-04-17] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
-|- [ ] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
+|- [2026-04-18] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
 |- [ ] UltraEdit | https://github.com/HaozheZhao/UltraEdit
 |- [ ] UltraPixel | https://github.com/catcathh/UltraPixel
 |- [ ] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion

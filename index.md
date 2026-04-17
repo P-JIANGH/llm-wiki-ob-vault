@@ -247,6 +247,7 @@
 
 ## Open Source Games
 
+| [[ai-game-devtools/paints-undo]] — lllyasviel 数字绘画行为模拟模型：SD1.5修改架构+VideoCrafter多帧插值，输入成品图→输出绘画过程视频（Ctrl+Z效果），24GB VRAM，Apache 2.0 |
 - [[open-source-game/athena-crisis]] — 现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容），Steam 商业化
 - [[open-source-game/the-battle-for-wesnoth]] — 高奇幻回合策略，WML+Lua 内容脚本系统，86K commits，C++17 + SDL2
 - [[open-source-game/vcmi]] — Heroes of Might and Magic III 完全开源引擎重实现，C++20 C/S 架构，Bonus DAG 传播系统，Callback 接口三层分离，多 AI 并存，ERM+Lua 双脚本

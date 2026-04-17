@@ -96,3 +96,9 @@
 - Created: ai-game-devtools/any2point.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 521→522)
+## [2026-04-18] ingest | BlenderGPT
+- Cloned: ~/tmp/ai-game-devtools/blender-gpt/
+- Created: raw/articles/ai-game-devtools/blender-gpt.md
+- Created: ai-game-devtools/blender-gpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under AI Game DevTools section, pages 522→523)

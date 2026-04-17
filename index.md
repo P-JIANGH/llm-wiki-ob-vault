@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 522 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 523 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -146,7 +146,8 @@
 || [[ai-game-devtools/atomic-agents]]
 ||| [[ai-game-devtools/autoagents]] — LinkSoul/IJCAI 2024 自动多 Agent 生成框架：LLM 驱动动态生成专家角色+执行计划，Observer 三层反射检查（Agents/Plan/Action），MIT |
 ||| [[ai-game-devtools/bagel]] — ByteDance-Seed 开源统一多模态模型（7B 激活/14B 总参）：MoT 架构融合视觉理解+文生图+图像编辑+世界建模，MMBench 85.0 超 Qwen2.5-VL，GenEval 0.82 匹敌 FLUX-1.dev，Apache 2.0 |
-|| [[ai-game-devtools/blender-controlnet]] — coolzilj Blender + A1111 WebUI API 桥接脚本：F12 渲染→Compositor 条件图(canny/depth/openpose/seg)→POST /txt2img→AI 生成图加载回 Image Editor，支持 4 种 ControlNet 单位并行，MIT |
+||| [[ai-game-devtools/blender-controlnet]] — coolzilj Blender + A1111 WebUI API 桥接脚本：F12 渲染→Compositor 条件图(canny/depth/openpose/seg)→POST /txt2img→AI 生成图加载回 Image Editor，支持 4 种 ControlNet 单位并行，MIT |
+||| [[ai-game-devtools/blender-gpt]] — gd3kr Blender GPT-4 插件：自然语言→Blender Python 代码生成+自动执行，侧边栏聊天界面+代码查看器，OpenAI API 集成，MIT |
 || [[ai-game-devtools/brivl]] — BAAI WuDao 中文图文多模态预训练模型（1B 参数）：EfficientNet-B5 + Chinese RoBERTa 双编码器 + MoCo 对比学习，图文检索超 CLIP/UNITER，可独立部署
 || [[ai-game-devtools/autogen]] — Microsoft Research 多 Agent 协作框架（维护模式）：Core/AgentChat/Extensions 三层架构，MCP/A2A 支持，后继者 Microsoft Agent Framework，MIT |
 || [[ai-game-devtools/autostudio]] — donahowe/AutoStudio CVPRW 2026 多轮交互式图像生成框架：四智能体（Subject Manager/LayoutGenerator/Supervisor/Drawer）+ Parallel-UNet + 免训练，保持多主题一致性，FID +13.65% |

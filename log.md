@@ -391,3 +391,10 @@
 - Created: ai-game-devtools/skywork-unipic.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+
+## [2026-04-17] ingest | Stable.art
+- Cloned: ~/tmp/ai-game-devtools/stable-art/ (via gitcode.com mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/stable-art.md
+- Created: ai-game-devtools/stable-art.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

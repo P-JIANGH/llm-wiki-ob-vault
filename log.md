@@ -182,3 +182,9 @@
 - Created: ai-game-devtools/gaussiandreamer.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added GaussianDreamer entry under Texture section, total pages 534→535)
+## [2026-04-18] ingest | HoloDreamer
+- Cloned: ~/tmp/ai-game-devtools/holo-dreamer/
+- Created: raw/articles/ai-game-devtools/holo-dreamer.md
+- Created: ai-game-devtools/holo-dreamer.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added HoloDreamer entry, total pages 535→536)

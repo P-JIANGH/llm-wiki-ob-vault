@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 485 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 486 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -211,6 +211,7 @@
 || [[ai-game-devtools/draggan]] — MPI Informatik SIGGRAPH 2023 交互式图像操控工具：基于 StyleGAN3 潜在空间点拖拽变形，实时优化保持逼真度，支持 ImGui 桌面 GUI + Gradio Web/Docker/Colab，PTI 反转编辑真实图像，CC-BY-NC 4.0 |
 ||| [[ai-game-devtools/dwpose]] — IDEA-Research ICCV 2023 全身姿态估计：两阶段知识蒸馏(RTMPose+YOLOX)，替换 ControlNet 中 OpenPose，Whole AP 0.665(384×288)，ONNX 推理，Apache 2.0 |
 ||| [[ai-game-devtools/llamagen]] — FoundationVision 自回归图像生成模型：VQ-VAE tokenizer + GPT next-token prediction，111M-3B 参数规模，FID 2.18（ImageNet），超越 diffusion 方法，MIT，vLLM 300-400% 加速 |
+|||| [[ai-game-devtools/lumina-image-2-0]] — Alpha-VLLM 统一高效图像生成 DiT 框架（ICCV 2025）：Gemma-2-2B 文本编码+FLUX-VAE-16CH，2.6B 参数/1024 分辨率，Flash Attention+RMSNorm+多求解器(Midpoint/Euler/DPM)，Diffusers/ComfyUI 集成，LoRA 微调，Apache 2.0 |
 
 ## Texture (3D Asset Generation)
 ||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |

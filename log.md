@@ -259,3 +259,9 @@
 - Created: ai-game-devtools/llamagen.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added llamagen entry, total pages: 485)
+## [2026-04-17] ingest | Lumina-Image 2.0
+- Cloned: ~/tmp/ai-game-devtools/lumina-image-2-0/
+- Created: raw/articles/ai-game-devtools/lumina-image-2-0.md
+- Created: ai-game-devtools/lumina-image-2-0.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added lumina-image-2-0 entry, total pages: 486)

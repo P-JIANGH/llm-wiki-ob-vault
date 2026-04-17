@@ -290,7 +290,7 @@
 |- [2026-04-17] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
 |- [2026-04-17] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
 |-[2026-04-17] LlamaGen | https://github.com/FoundationVision/LlamaGen
-|- [ ] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
+|- [2026-04-17] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
 |- [ ] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
 |- [ ] MakeAnything | https://github.com/showlab/MakeAnything
 |- [ ] MIGC | https://github.com/limuloo/MIGC

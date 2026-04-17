@@ -321,7 +321,7 @@
 |[2026-04-17] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
 |- [2026-04-17] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
 |- [2026-04-17] StableStudio | https://github.com/Stability-AI/StableStudio
-|- [ ] StoryMaker | https://github.com/RedAIGC/StoryMaker
+|- [2026-04-18] StoryMaker | https://github.com/RedAIGC/StoryMaker
 |- [ ] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
 |- [ ] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
 |- [ ] UltraEdit | https://github.com/HaozheZhao/UltraEdit

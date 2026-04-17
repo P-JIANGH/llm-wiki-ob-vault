@@ -384,3 +384,10 @@
 - Created: ai-game-devtools/sdxs.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added SDXS entry under Image section)
+
+## [2026-04-17] ingest | SkyworkUniPic
+- Source: https://github.com/SkyworkAI/UniPic (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/skywork-unipic.md
+- Created: ai-game-devtools/skywork-unipic.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

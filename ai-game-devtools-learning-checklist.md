@@ -311,7 +311,7 @@
 |- [2026-04-17] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
 |- [2026-04-17] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
 |- [2026-04-17] SDXS | https://github.com/IDKiro/sdxs
-|- [ ] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
+|- [2026-04-17] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
 |- [ ] Stable.art | https://github.com/isekaidev/stable.art
 |- [ ] Stable Cascade | https://github.com/Stability-AI/StableCascade
 |- [ ] Stable Diffusion | https://github.com/CompVis/stable-diffusion

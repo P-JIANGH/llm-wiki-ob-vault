@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 503 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 504 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -226,6 +226,7 @@
 ||| [[ai-game-devtools/makeanything]] — NUS Show Lab FLUX.1 多域程序序列生成：Asymmetric LoRA 21域共享 + Recraft 图生序列(4/9帧)，1024/1056分辨率，覆盖乐高/绘画/雕塑等21创意域，HuggingFace权重+数据集 |
 ||| [[ai-game-devtools/sd-webui-controlnet]] — Mikubill A1111 WebUI ControlNet 扩展：20+预处理器(姿态/深度/边缘/法线)、多路ControlNet输入、3种控制模式、Reference-Only、IP-Adapter集成，GPL v3 |
 |||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
+|||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
 |- [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
 ||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型：512×512达100 FPS(SD v1.5的30x)、1024×1024达30 FPS(SDXL的60x)，轻量VAE解码器+特征匹配损失+ControlNet扩展，DreamShaper多风格权重，MIT |
 

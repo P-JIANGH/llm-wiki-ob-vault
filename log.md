@@ -222,3 +222,10 @@
 - Created: ai-game-devtools/interactive3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added interactive3d entry, total pages 539→540)
+
+## [2026-04-18] ingest | Isotropic3D
+- Cloned: ~/tmp/ai-game-devtools/isotropic3d/
+- Created: raw/articles/ai-game-devtools/isotropic3d.md
+- Created: ai-game-devtools/isotropic3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added isotropic3d entry, total pages 540→541)

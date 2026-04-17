@@ -247,3 +247,9 @@
 - Created: ai-game-devtools/layer-diffusion.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added layer-diffusion entry, total pages: 484)
+## [2026-04-17] ingest | LlamaGen — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/llamagen/ (gitcode mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/llamagen.md
+- Created: ai-game-devtools/llamagen.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added llamagen entry, total pages: 485)

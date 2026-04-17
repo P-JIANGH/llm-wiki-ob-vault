@@ -229,3 +229,9 @@
 - Created: ai-game-devtools/instantid.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-17] ingest | Kolors
+- Cloned: ~/tmp/ai-game-devtools/kolors/
+- Created: raw/articles/ai-game-devtools/kolors.md
+- Created: ai-game-devtools/kolors.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

@@ -334,7 +334,7 @@
 - [2026-04-18] DreamMat | https://github.com/zzzyuqing/DreamMat
 - [2026-04-17] DreamSpace | https://github.com/ybbbbt/dreamspace
 - [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
-- [ ] InstructHumans | https://github.com/viridityzhu/InstructHumans
+|- [2026-04-18] InstructHumans | https://github.com/viridityzhu/InstructHumans
 - [ ] InteX | https://github.com/ashawkey/InTeX
 - [ ] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
 - [ ] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_

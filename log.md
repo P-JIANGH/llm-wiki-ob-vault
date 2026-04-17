@@ -18,3 +18,9 @@
 - Created: ai-game-devtools/dream-textures.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 511→512)
+## [2026-04-18] ingest | InstructHumans
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/instruct-humans.md
+- Created: ai-game-devtools/instruct-humans.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 512→513)

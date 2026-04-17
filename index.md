@@ -505,6 +505,7 @@
 |||| [[ai-game-devtools/kimi-k2]] — Moonshot AI 1T 参数 MoE LLM（激活 32B），MuonClip 优化器，Agent 任务开源 SOTA（SWE-bench 65.8%），128K context，MIT |
 ||| [[ai-game-devtools/hugging-face-api-unity-integration]] — Hugging Face 官方 Unity 包
 |- [[ai-game-devtools/flux]] FLUX — Open-weight image generation model family by Black Forest Labs (flow matching transformer)
+|- [[ai-game-devtools/migc]] — 浙大 ReLER Lab CVPR 2024 Highlight 多实例图像生成控制器：Fourier位置编码+SAC空间自适应，COCO-MIG基准SOTA(MIOU 0.56/成功率66%)，Adapter架构，SD1.4/1.5兼容，非商用许可
 - [[ai-game-devtools/follow-your-click]] — AAAI 2025 开放域区域图像动画：点击选区+短提示词精确控制局部运动，AnimateDiff 时序扩散管线+IP-Adapter 视觉条件化，无需密集运动掩码
 ||- [[ai-game-devtools/fooocus]] lllyasviel SDXL 图像生成工具：离线/免费/零配置，<3 次点击出图，4GB VRAM 可用，GPT-2 提示词扩展引擎，自研 inpaint 模型 + 负 ADM 引导，GPL v3
 ||- [[ai-game-devtools/img2img-turbo]] CMU+Adobe 单步扩散图像翻译工具：SD-Turbo+LoRA+对抗学习，pix2pix-turbo(配对)/CycleGAN-Turbo(非配对)，512×512 仅 0.11s(A100)，支持草图→图像/边线→图像/天气迁移

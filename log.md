@@ -215,3 +215,10 @@
 - Created: ai-game-devtools/infinigen.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added infinigen entry, total pages 538→539)
+
+## [2026-04-18] ingest | Interactive3D
+- Cloned: GitHub timeout, gitcode 403, gitee unavailable → web_extract fallback
+- Created: raw/articles/ai-game-devtools/interactive3d.md
+- Created: ai-game-devtools/interactive3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added interactive3d entry, total pages 539→540)

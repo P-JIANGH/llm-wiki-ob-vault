@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 539 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 540 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -257,7 +257,8 @@
 ||||| [[ai-game-devtools/hunyuan3d-2-0]] — 腾讯混元两阶段 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，单图→高分辨率 mesh，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM
 ||||| [[ai-game-devtools/hunyuan3d-2-1]] — 腾讯混元第三代 3D 资产生成：完全开源权重+训练代码，PBR 纹理管线（金属反射/次表面散射），Shape 3.3B + Paint 2B，四项形状基准 SOTA，29GB VRAM
 |||||| [[ai-game-devtools/hunyuan3d-1]] — 腾讯混元统一文本/图像到 3D 生成框架：两阶段管线（多视角扩散 4s + 前馈重建 7s），lite/std 双版本，Gradio Web UI，10-25 秒生成 3D mesh，Apache 2.0 + 非商用权重 |
-|||||| [[ai-game-devtools/infinigen]] — Princeton V&L Lab CVPR 2023/2024/2025 程序化 3D 世界生成：Blender bpy 后端，自然场景/室内房间/可关节资产三大模块，完整 Ground Truth 标注管线，SLURM 集群并行，BSD-3-Clause
+||||||| [[ai-game-devtools/infinigen]] — Princeton V&L Lab CVPR 2023/2024/2025 程序化 3D 世界生成：Blender bpy 后端，自然场景/室内房间/可关节资产三大模块，完整 Ground Truth 标注管线，SLURM 集群并行，BSD-3-Clause
+||||| [[ai-game-devtools/interactive3d]] — CVPR 2024 交互式 3D 生成框架：用户迭代引导的生成→编辑→精炼循环，Gradio Web UI + 键盘实时控制，基于 threestudio 框架，支持渐进式 3D 资产创作
 ||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
 ||||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0
 |||| [[ai-game-devtools/dust3r]] — Naver Labs CVPR 2024 免 COLMAP 3D 重建基础模型：ViT-L/B 非对称编码器直接回归 pointmaps+相机位姿+置信度，2+图片输入→全局对齐点云，HuggingFace Hub 集成，CC BY-NC-SA 4.0

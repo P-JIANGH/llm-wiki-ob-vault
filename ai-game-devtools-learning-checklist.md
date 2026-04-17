@@ -370,7 +370,7 @@
 |- [2026-04-18] Hunyuan3D 2.0 | https://github.com/Tencent/Hunyuan3D-2
 |- [2026-04-18] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
 |- [2026-04-18] Infinigen | https://github.com/princeton-vl/infinigen
-- [ ] Interactive3D | https://github.com/interactive-3d/interactive3d
+|- [2026-04-18] Interactive3D | https://github.com/interactive-3d/interactive3d
 - [ ] Isotropic3D | https://github.com/pkunliu/Isotropic3D
 - [ ] LION | https://github.com/nv-tlabs/LION
 - [ ] Make-It-3D | https://github.com/junshutang/Make-It-3D

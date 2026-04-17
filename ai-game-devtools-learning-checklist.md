@@ -318,7 +318,7 @@
 |- [2026-04-17] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
 |- [2026-04-17] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
 ||- [2026-04-17] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
-|- [ ] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
+|[2026-04-17] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
 |- [ ] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
 |- [ ] StableStudio | https://github.com/Stability-AI/StableStudio
 |- [ ] StoryMaker | https://github.com/RedAIGC/StoryMaker

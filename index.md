@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 506 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 500 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -538,3 +538,4 @@
 |||| [[ai-game-devtools/ic-light]] — lllyasviel 图像光照操控工具：基于 SD1.5 改造 UNet 输入通道(8/12通道)，文本/背景条件重打光 + 法线估计，ICLR 2025，HuggingFace Space 在线可用
 ||||| [[ai-game-devtools/lavi-bridge]] — ECCV 2024 语言-视觉桥接框架：LoRA/Adapter 连接 T5/Llama-2 与 SD U-Net/PixArt，冻结权重模块化组合，HuggingFace 预训练权重
 ||||| [[ai-game-devtools/layer-diffusion]] — lllyasviel 原生透明图像层扩散：latent transparency 编码 alpha 通道，SDXL/SD1.5 双架构支持，Forge/Diffusers CLI 双实现，8GB VRAM 可用
+|| [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro AUTOMATIC1111 WebUI 简体中文本地化扩展：0313版本，覆盖 ControlNet/openpose-editor/SAM 等9个扩展翻译，AI辅助翻译（ChatGPT+有道），双模式（纯中文/中英双语）

@@ -428,3 +428,10 @@
 - Created: ai-game-devtools/sygil-webui.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (+1 page, total 506)
+
+## [2026-04-17] ingest | Stable Diffusion WebUI Chinese
+- Cloned: ~/tmp/ai-game-devtools/stable-diffusion-webui-chinese/
+- Created: raw/articles/ai-game-devtools/stable-diffusion-webui-chinese.md
+- Created: ai-game-devtools/stable-diffusion-webui-chinese.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

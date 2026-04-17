@@ -69,3 +69,10 @@
 - Created: ai-game-devtools/x-mesh.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 517→518)
+
+## [2026-04-18] ingest | AI Shader
+- Cloned: ~/tmp/ai-game-devtools/ai-shader/ (web extract; GitHub/gitcode/gitee all failed)
+- Created: raw/articles/ai-game-devtools/ai-shader.md
+- Created: ai-game-devtools/ai-shader.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under AI Game DevTools section, pages 518→519)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 517 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 518 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -76,7 +76,8 @@
 || [[ai-game-devtools/llama-index]] — run-llama LLM 数据框架：300+集成/RAG管道/LlamaParse文档处理/多向量存储/图RAG，5行代码入门，MIT |
 || [[ai-game-devtools/llama2-webui]] — Llama 2 本地 Web UI + PyPI 封装包，支持 llama.cpp/transformers/GPTQ 多后端，MIT |
 | [[ai-game-devtools/text-generation-webui]] — oobabooga Gradio LLM Web UI：5后端(llama.cpp/ExLlamaV3/TensorRT-LLM)、多模态/Tool Calling/LoRA训练/图像生成，OpenAI兼容API，MIT |
-| [[ai-game-devtools/ai-writer]] — BlinkDL AI小说续写工具：RWKV 模型（12层/768维）+ 8849字词表，ctx_len=512，网文专精，已过时推荐 [[RWKV-Runner]]，Apache 2.0 |
+|| [[ai-game-devtools/ai-writer]] — BlinkDL AI小说续写工具：RWKV 模型（12层/768维）+ 8849字词表，ctx_len=512，网文专精，已过时推荐 [[RWKV-Runner]]，Apache 2.0 |
+|| [[ai-game-devtools/ai-shader]] — keijiro ChatGPT GLSL Shader 生成器：自然语言→Shader 代码，Unity Editor 集成，OpenAI API Key 配置，PoC（10 commits）|
 | [[ai-game-devtools/notebook-ai]] — indentlabs 写作/跑团世界观构建平台：32+内容类型（角色/地点/物品/魔法等）+关系图谱+隐私控制，Ruby on Rails 6.1 + React |
 | [[ai-game-devtools/novel]] — steven-tey Notion风格 WYSIWYG 编辑器 + OpenAI 自动补全，Tiptap 2 + Vercel AI SDK，多框架支持（Svelte/Vue/VSCode），Apache-2.0 |
 | [[ai-game-devtools/jaaz]] — 11cafe 开源多模态画布创意 Agent：无限画布 + AI Agent 生成图片/视频（GPT-4o/Midjourney/Flux/ComfyUI），LangGraph 编排 + tldraw 画布，隐私优先支持本地部署，AGPL |

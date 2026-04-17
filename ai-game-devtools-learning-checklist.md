@@ -344,7 +344,7 @@
 - [2026-04-18] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
 
 ## Shader (1)
-- [ ] AI Shader | https://github.com/keijiro/AIShader
+- [2026-04-18] AI Shader | https://github.com/keijiro/AIShader
 
 ## 3D Model (47)
 - [ ] Animate3D | https://github.com/yanqinJiang/Animate3D

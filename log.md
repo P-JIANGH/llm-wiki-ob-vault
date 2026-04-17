@@ -167,3 +167,9 @@
 - Created: ai-game-devtools/grounded-segment-anything.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-17] ingest | HivisionIDPhotos — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/hivision-id-photos/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hivision-id-photos.md
+- Created: ai-game-devtools/hivision-id-photos.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added hivision-id-photos entry)

@@ -152,3 +152,9 @@
 - Created: ai-game-devtools/dreamgaussian4d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section, pages 530→531)
+## [2026-04-18] ingest | DUSt3R
+- Cloned: ~/tmp/ai-game-devtools/dust3r/
+- Created: raw/articles/ai-game-devtools/dust3r.md
+- Created: ai-game-devtools/dust3r.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 531→532)

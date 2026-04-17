@@ -333,7 +333,7 @@
 - [2026-04-17] CRM | https://github.com/thu-ml/CRM
 - [2026-04-18] DreamMat | https://github.com/zzzyuqing/DreamMat
 - [2026-04-17] DreamSpace | https://github.com/ybbbbt/dreamspace
-- [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
+|- [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
 |- [2026-04-18] InstructHumans | https://github.com/viridityzhu/InstructHumans
 |- [2026-04-18] InteX | https://github.com/ashawkey/InTeX
 - [2026-04-18] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
@@ -360,7 +360,7 @@
 - [2026-04-18] Direct3D-S2 | https://github.com/DreamTechAI/Direct3D-S2
 |- [2026-04-18] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
 - [2026-04-18] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d
-- [ ] DUSt3R | https://github.com/naver/dust3r
+|- [2026-04-18] DUSt3R | https://github.com/naver/dust3r
 - [ ] GALA3D | https://github.com/VDIGPKU/GALA3D
 - [ ] GaussCtrl | https://github.com/ActiveVisionLab/gaussctrl
 - [ ] GaussianCube | https://github.com/GaussianCube/GaussianCube

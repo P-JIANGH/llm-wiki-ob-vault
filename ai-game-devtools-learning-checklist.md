@@ -282,7 +282,7 @@
 |- [2026-04-17] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
 |- [2026-04-17] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
 |- [2026-04-17] IC-Light | https://github.com/lllyasviel/IC-Light
-|- [ ] img2img-turbo | https://github.com/GaParmar/img2img-turbo
+|- [2026-04-17] img2img-turbo | https://github.com/GaParmar/img2img-turbo
 |- [ ] Infinity | https://github.com/FoundationVision/Infinity
 |- [ ] InstantID | https://github.com/InstantID/InstantID
 |- [ ] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation

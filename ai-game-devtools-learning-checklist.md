@@ -277,57 +277,57 @@
 - [2026-04-17] GIFfusion | https://github.com/DN6/giffusion
 |- [2026-04-17] Grounded-Segment-Anything | https://github.com/IDEA-Research/Grounded-Segment-Anything
 - [2026-04-17] HivisionIDPhotos | https://github.com/Zeyi-Lin/HivisionIDPhotos
-- [2026-04-17] Hua | https://github.com/BlinkDL/Hua
-- [ ] Hunyuan-DiT | https://github.com/Tencent/HunyuanDiT
-- [ ] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
-- [ ] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
-- [ ] IC-Light | https://github.com/lllyasviel/IC-Light
-- [ ] img2img-turbo | https://github.com/GaParmar/img2img-turbo
-- [ ] Infinity | https://github.com/FoundationVision/Infinity
-- [ ] InstantID | https://github.com/InstantID/InstantID
-- [ ] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
-- [ ] Kolors | https://github.com/Kwai-Kolors/Kolors
-- [ ] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
-- [ ] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
-- [ ] LlamaGen | https://github.com/FoundationVision/LlamaGen
-- [ ] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
-- [ ] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
-- [ ] MakeAnything | https://github.com/showlab/MakeAnything
-- [ ] MIGC | https://github.com/limuloo/MIGC
-- [ ] MimicBrush | https://github.com/ali-vilab/MimicBrush
-- [ ] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
-- [ ] OmniGen | https://github.com/VectorSpaceLab/OmniGen
-- [ ] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
-- [ ] Omost | https://github.com/lllyasviel/Omost
-- [ ] Openpose Editor | https://github.com/fkunn1326/openpose-editor
-- [ ] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
-- [ ] PosterCraft | https://github.com/Ephemeral182/PosterCraft
-- [ ] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
-- [ ] PuLID | https://github.com/ToTheBeginning/PuLID
-- [ ] Qwen-Image | https://github.com/QwenLM/Qwen-Image
-- [ ] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
-- [ ] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
-- [ ] SEED-Story | https://github.com/TencentARC/SEED-Story
-- [ ] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
-- [ ] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
-- [ ] SDXS | https://github.com/IDKiro/sdxs
-- [ ] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
-- [ ] Stable.art | https://github.com/isekaidev/stable.art
-- [ ] Stable Cascade | https://github.com/Stability-AI/StableCascade
-- [ ] Stable Diffusion | https://github.com/CompVis/stable-diffusion
-- [ ] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
-- [ ] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
-- [ ] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
-- [ ] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
-- [ ] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
-- [ ] StableStudio | https://github.com/Stability-AI/StableStudio
-- [ ] StoryMaker | https://github.com/RedAIGC/StoryMaker
-- [ ] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
-- [ ] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
-- [ ] UltraEdit | https://github.com/HaozheZhao/UltraEdit
-- [ ] UltraPixel | https://github.com/catcathh/UltraPixel
-- [ ] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
-- [ ] USO | https://github.com/bytedance/USO
+|- [2026-04-17] Hua | https://github.com/BlinkDL/Hua
+|- [2026-04-17] Hunyuan-DiT | https://github.com/Tencent/HunyuanDiT
+|- [ ] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
+|- [ ] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
+|- [ ] IC-Light | https://github.com/lllyasviel/IC-Light
+|- [ ] img2img-turbo | https://github.com/GaParmar/img2img-turbo
+|- [ ] Infinity | https://github.com/FoundationVision/Infinity
+|- [ ] InstantID | https://github.com/InstantID/InstantID
+|- [ ] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
+|- [ ] Kolors | https://github.com/Kwai-Kolors/Kolors
+|- [ ] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
+|- [ ] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
+|- [ ] LlamaGen | https://github.com/FoundationVision/LlamaGen
+|- [ ] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
+|- [ ] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
+|- [ ] MakeAnything | https://github.com/showlab/MakeAnything
+|- [ ] MIGC | https://github.com/limuloo/MIGC
+|- [ ] MimicBrush | https://github.com/ali-vilab/MimicBrush
+|- [ ] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
+|- [ ] OmniGen | https://github.com/VectorSpaceLab/OmniGen
+|- [ ] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
+|- [ ] Omost | https://github.com/lllyasviel/Omost
+|- [ ] Openpose Editor | https://github.com/fkunn1326/openpose-editor
+|- [ ] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
+|- [ ] PosterCraft | https://github.com/Ephemeral182/PosterCraft
+|- [ ] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
+|- [ ] PuLID | https://github.com/ToTheBeginning/PuLID
+|- [ ] Qwen-Image | https://github.com/QwenLM/Qwen-Image
+|- [ ] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
+|- [ ] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
+|- [ ] SEED-Story | https://github.com/TencentARC/SEED-Story
+|- [ ] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
+|- [ ] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
+|- [ ] SDXS | https://github.com/IDKiro/sdxs
+|- [ ] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
+|- [ ] Stable.art | https://github.com/isekaidev/stable.art
+|- [ ] Stable Cascade | https://github.com/Stability-AI/StableCascade
+|- [ ] Stable Diffusion | https://github.com/CompVis/stable-diffusion
+|- [ ] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
+|- [ ] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
+|- [ ] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
+|- [ ] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
+|- [ ] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
+|- [ ] StableStudio | https://github.com/Stability-AI/StableStudio
+|- [ ] StoryMaker | https://github.com/RedAIGC/StoryMaker
+|- [ ] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
+|- [ ] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
+|- [ ] UltraEdit | https://github.com/HaozheZhao/UltraEdit
+|- [ ] UltraPixel | https://github.com/catcathh/UltraPixel
+|- [ ] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
+|- [ ] USO | https://github.com/bytedance/USO
 
 ## Texture (12)
 - [ ] CRM | https://github.com/thu-ml/CRM

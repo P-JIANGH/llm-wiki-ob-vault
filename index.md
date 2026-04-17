@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 475 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 476 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -110,6 +110,7 @@
 | [[ai-game-devtools/fastrag]] — IntelLabs 高效 RAG 框架：基于 [[Haystack]] v2 构建，ColBERT+PLAID 高效检索 + REPLUG/FiD 多文档生成器 + Gaudi/ONNX/OpenVINO 多后端，已存档 |
 |||| [[ai-game-devtools/gameaisdk]] — 腾讯开源游戏AI工具包：基于游戏画面采集→图像识别(DQN/IM/RainBOW强化学习)→手机端动作执行，支持跑酷/吃鸡/射击/MOBA类游戏自动化测试，GPL v3 |
 ||| [[ai-game-devtools/gamegen-o]] — 腾讯光子×港科大×中科大 首个开放世界游戏视频生成Transformer模型，支持文本/操作信号/视频提示多模态控制，OGameData 15K 视频数据集，业内称"游戏工作室ChatGPT时刻" |
+||- [[ai-game-devtools/hunyuan-dit]] — 腾讯混元开源 DiT 文本到图像生成模型（1.5B 参数）：中英双语 CLIP+T5 双编码器 + DialogGen 多轮对话 + LoRA/ControlNet/IP-Adapter 全支持，ComfyUI/Diffusers 集成，6GB VRAM 可运行
 |||| [[ai-game-devtools/hunyuan-gamecraft]] — 腾讯混元游戏视频生成：参考图+文本+键鼠动作→生成连贯游戏录像，混合历史条件+模型蒸馏(8步)，1M+ AAA游戏训练，HuggingFace开源 |
 |||| [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成模型：文本/图像→360°全景图→分层3D mesh（背景+2层前景+天空），可导出Draco压缩mesh用于游戏引擎，BRISQUE/NIQE/CLIP 全面SOTA，Apache 2.0 |
 ||||| [[ai-game-devtools/hunyuanworld-voyager]] — 腾讯混元 Voyager 可探索3D世界视频生成：单图→世界一致RGB-D视频+相机路径控制，WorldScore Benchmark综合第1（77.62），支持点云导出，Apache 2.0 |

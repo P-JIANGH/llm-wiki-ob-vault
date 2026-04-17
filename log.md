@@ -179,3 +179,9 @@
 - Created: ai-game-devtools/hua.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
 - Updated: index.md (added hua entry)
+## [2026-04-17] ingest | Hunyuan-DiT — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/hunyuan-dit/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hunyuan-dit.md
+- Created: ai-game-devtools/hunyuan-dit.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added hunyuan-dit entry)

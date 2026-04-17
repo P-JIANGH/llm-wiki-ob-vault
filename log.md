@@ -194,3 +194,10 @@
 - Created: ai-game-devtools/hunyuan3d-1.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added hunyuan3d-1 entry)
+
+## [2026-04-18] ingest | Hunyuan3D 2.0
+- Cloned: GitHub timeout, gitcode 403, gitee unavailable → web_extract fallback
+- Created: raw/articles/ai-game-devtools/hunyuan3d-2-0.md
+- Created: ai-game-devtools/hunyuan3d-2-0.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added hunyuan3d-2-0 entry, total pages 536→537)

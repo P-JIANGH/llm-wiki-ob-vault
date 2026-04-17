@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 472 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 473 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -199,7 +199,8 @@
 || [[ai-game-devtools/csgo]] — InstantX 内容-风格解耦图像生成框架：SDXL 基座 + IP-Adapter，4 内容 Token + 16/32 风格 Token，支持文本/图像/编辑驱动风格化合成，DeepSpeed Zero2 训练，HuggingFace 权重 |
 
 || [[ai-game-devtools/disco-diffusion]] — alembics AI艺术/动画生成Colab工具箱：Katherine Crowson 512×512扩散模型+CLIP引导，5种动画模式(2D/3D/Turbo/Warp/VR)，MiDaS+AdaBins双深度估计，OpenCLIP/风格化模型支持，MIT |
-||| [[ai-game-devtools/draggan]] — MPI Informatik SIGGRAPH 2023 交互式图像操控工具：基于 StyleGAN3 潜在空间点拖拽变形，实时优化保持逼真度，支持 ImGui 桌面 GUI + Gradio Web/Docker/Colab，PTI 反转编辑真实图像，CC-BY-NC 4.0 |
+||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |
+|| [[ai-game-devtools/draggan]] — MPI Informatik SIGGRAPH 2023 交互式图像操控工具：基于 StyleGAN3 潜在空间点拖拽变形，实时优化保持逼真度，支持 ImGui 桌面 GUI + Gradio Web/Docker/Colab，PTI 反转编辑真实图像，CC-BY-NC 4.0 |
 ||| [[ai-game-devtools/dwpose]] — IDEA-Research ICCV 2023 全身姿态估计：两阶段知识蒸馏(RTMPose+YOLOX)，替换 ControlNet 中 OpenPose，Whole AP 0.665(384×288)，ONNX 推理，Apache 2.0 |
 
 ## Code Tools

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 503 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 504 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -542,3 +542,4 @@
 ||||| [[ai-game-devtools/layer-diffusion]] — lllyasviel 原生透明图像层扩散：latent transparency 编码 alpha 通道，SDXL/SD1.5 双架构支持，Forge/Diffusers CLI 双实现，8GB VRAM 可用
 || [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro AUTOMATIC1111 WebUI 简体中文本地化扩展：0313版本，覆盖 ControlNet/openpose-editor/SAM 等9个扩展翻译，AI辅助翻译（ChatGPT+有道），双模式（纯中文/中英双语）
 || [[ai-game-devtools/storymaker]] — RED-AIGC 多角色一致性图像生成：InsightFace 面部编码 + CLIP ViT-H-14 视觉特征 + LoRA-IP 注意力注入 SDXL，支持最多 3 角色同场景 + 服装迁移，Apache 2.0
+|| [[ai-game-devtools/streamdiffusion]] — cumulo-autumn 实时交互图像生成管线：Stream Batch/RCFG/相似度过滤/TensorRT 加速，SD-turbo 达 106 FPS，支持 txt2img/img2img/vid2vid，Apache 2.0

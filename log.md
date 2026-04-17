@@ -453,3 +453,9 @@
 - Created: ai-game-devtools/storymaker.md
 - Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-18])
 - Updated: index.md (added entry, pages 502→503)
+## [2026-04-17] ingest | StreamDiffusion — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/streamdiffusion/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/streamdiffusion.md
+- Created: ai-game-devtools/streamdiffusion.md
+- Updated: ai-game-devtools-learning-checklist.md (mark [2026-04-17])
+- Updated: index.md (added entry, pages 503→504)

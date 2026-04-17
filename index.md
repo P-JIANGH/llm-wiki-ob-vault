@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-17 | Total pages: 498 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-17 | Total pages: 499 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -125,7 +125,8 @@
 ||||||| [[ai-game-devtools/omost]] — lllyasviel LLM 图像组合工具：LLM 生成 Python Canvas 代码描述空间布局（9×9×9=729 种边界框）+ 注意力分数操纵渲染，自然语言空间编码（非像素坐标），子提示<75 tokens 避免 CLIP 截断，Llama-3/Phi-3 基座 8GB VRAM
 |||||||| [[ai-game-devtools/openpose-editor]] — Fkunn1326 A1111 WebUI 人体姿态编辑插件：Fabric.js Canvas 手动编辑骨骼关键点 + PyTorch OpenPose 自动检测，一键发送到 ControlNet，MIT
 ||||||||- [[ai-game-devtools/irg]] — Osilly ICLR 2026 首个交错推理图像生成模型：Prompt→文本推理→初始图像→自我反思→精炼图像，GenEval 0.85 SoTA，基于 [[ai-game-devtools/bagel]] 架构，SFT+RL统一训练，Apache 2.0
-||||||||| [[ai-game-devtools/qwen-image]] — Alibaba Qwen 团队 20B MMDiT 图像基础模型：复杂文字渲染（中文最强）+ 精确图像编辑，多版本（T2I/Edit/Layered/2.0），Apache 2.0 开源，AI Arena 开源第一
+||||||| [[ai-game-devtools/rpg-diffusionmaster]] — ICML 2024 区域扩散范式：MLLM(GPT-4/DeepSeek-R1)自动拆解复杂提示为区域子提示+比例分配，SDXL/SD1.5/SD2.1/IterComp 多后端，零训练即插即用，支持 ControlNet 集成，Apache 2.0
+|||||||| [[ai-game-devtools/qwen-image]] — Alibaba Qwen 团队 20B MMDiT 图像基础模型：复杂文字渲染（中文最强）+ 精确图像编辑，多版本（T2I/Edit/Layered/2.0），Apache 2.0 开源，AI Arena 开源第一
 ||||||| [[ai-game-devtools/rich-text-to-image]] — UMD/Adobe/CMU ICCV 2023 富文本控制图像生成：字体颜色→精确色彩、字体大小→Token权重、字体样式→局部艺术风格、脚注→补充描述，Quill编辑器→JSON→区域扩散，SD1.5/SDXL/Animagine-XL后端，MIT
 ||||||| [[ai-game-devtools/kolors]]
 |||||| [[ai-game-devtools/hy-world-1.5]] — 腾讯混元 WorldPlay 实时交互世界模型

@@ -349,7 +349,7 @@
 ## 3D Model (47)
 - [2026-04-18] Animate3D | https://github.com/yanqinJiang/Animate3D
 - [2026-04-18] Anything-3D | https://github.com/Anything-of-anything/Anything-3D
-- [ ] Any2Point | https://github.com/Ivan-Tang-3D/Any2Point
+- [2026-04-18] Any2Point | https://github.com/Ivan-Tang-3D/Any2Point
 - [ ] BlenderGPT | https://github.com/gd3kr/BlenderGPT
 - [ ] Blender-GPT | https://github.com/TREE-Ind/Blender-GPT
 - [ ] BlenderMCP | https://github.com/ahujasid/blender-mcp

@@ -90,3 +90,9 @@
 - Created: ai-game-devtools/anything-3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 520→521)
+## [2026-04-18] ingest | Any2Point
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/any2point.md
+- Created: ai-game-devtools/any2point.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section, pages 521→522)

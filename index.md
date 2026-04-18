@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 568 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 569 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -230,6 +230,7 @@
 || [[ai-game-devtools/duix]] — duix.com 移动端实时 AI Avatar SDK：Android/iOS 原生部署 + NCNN/ONNX 离线推理 + PCM流式音频驱动 + 口型同步/动作控制，<120ms延迟，Community License |
 ||| [[ai-game-devtools/echomimic]] — Ant Group AAAI 2025 音频驱动肖像动画：SD v1.5 扩散 + Whisper-Tiny 音频编码 + 轻量地标 CNN，支持纯音频/纯地标/混合三种驱动，HDTF FID 29.13/FVD 493，超越 SadTalker/AniPortrait/Hallo，学术研究许可 |
 ||| [[ai-game-devtools/emoportraits]] — Nikita Drobyshev arXiv 2024 情绪增强单镜头头像生成：两阶段 volumetric 3D 表示(基础avatar+情绪增强)，VoxCeleb2 HQ+FEED 数据集训练，视频驱动运动迁移+极端/非对称表情保留 |
+|| [[ai-game-devtools/emovoca]] — WACV 2025 语音驱动情感 3D 说话头像：Spiral Autoencoder 双编码(说话+情感)共享解码器 + FLAME 3D 人脸模型 + Wav2Vec2 音频特征，11 种情绪/3 级强度可控，CC BY-NC 4.0 |
 
 ||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

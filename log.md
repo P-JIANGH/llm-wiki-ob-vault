@@ -415,5 +415,11 @@
 - Cloned: ~/tmp/ai-game-devtools/emoportraits/ (GitHub direct)
 - Created: raw/articles/ai-game-devtools/emoportraits.md
 - Created: ai-game-devtools/emoportraits.md
-- Updated: ai-game-devtools-learning-checklist.md
+|- Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 567→568)
+## [2026-04-18] ingest | EmoVOCA
+- Cloned: ~/tmp/ai-game-devtools/emovoca/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/emovoca.md
+- Created: ai-game-devtools/emovoca.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 568→569)

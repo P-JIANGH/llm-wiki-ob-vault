@@ -408,7 +408,7 @@
 |- [2026-04-18] E3 Gen | https://github.com/olivia23333/E3Gen
 - [2026-04-18] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
 |- [2026-04-19] GeneAvatar | https://github.com/zju3dv/GeneAvatar
-- [ ] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
+- [2026-04-18] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
 - [ ] Hallo | https://github.com/fudan-generative-vision/hallo
 - [ ] Hallo2 | https://github.com/fudan-generative-vision/hallo2
 - [ ] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait

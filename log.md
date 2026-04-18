@@ -441,3 +441,9 @@
 - Created: ai-game-devtools/geneavatar.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry)
+## [2026-04-18] ingest | GeneFace++
+- Cloned: ~/tmp/ai-game-devtools/geneface-plus-plus/ (gitcode.com mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/geneface-plus-plus.md
+- Created: ai-game-devtools/geneface-plus-plus.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 601→601)

@@ -275,3 +275,9 @@
 - Created: ai-game-devtools/phys-rig.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (pages 545→546)
+## [2026-04-18] ingest | Point·E
+- Cloned: ~/tmp/ai-game-devtools/point-e/
+- Created: raw/articles/ai-game-devtools/point-e.md
+- Created: ai-game-devtools/point-e.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (pages 546→547)

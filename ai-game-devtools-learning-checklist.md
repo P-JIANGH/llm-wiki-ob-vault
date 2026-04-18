@@ -379,7 +379,7 @@
 - [2026-04-18] Paint3D | https://github.com/OpenTexture/Paint3D
 - [2026-04-18] PAniC-3D | https://github.com/shuhongchen/panic3d-anime-reconstruction
 |- [2026-04-18] PhysRig | https://github.com/haoz19/PhysRig
-- [ ] Point·E | https://github.com/openai/point-e
+|- [2026-04-18] Point·E | https://github.com/openai/point-e
 - [ ] SF3D | https://github.com/Stability-AI/stable-fast-3d
 - [ ] Shap-E | https://github.com/openai/shap-e
 - [ ] Stable Dreamfusion | https://github.com/ashawkey/stable-dreamfusion

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 545 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 546 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -273,8 +273,9 @@
 || [[ai-game-devtools/make-it-3d]] — 单图到高保真 3D 内容生成（ICCV 2023）：两阶段 NeRF 优化（Coarse+Refine），SD 2.0 扩散先验引导 + DPT 深度 + SAM 分割，OBJ mesh 导出
 || [[ai-game-devtools/meshanything]] — 自回归 Transformer 网格生成模型（350M参数）：网格/点云输入 → 简化艺术家风格网格输出（≤800面/30秒），Michelangelo 点云编码器 + Shape-OPT + 噪声抵抗解码器，SLab 许可
 ||| [[ai-game-devtools/neuralangelo]] — NVIDIA CVPR 2023 高保真神经表面重建：SDF-based NeRF + hashgrid 编码 + coarse-to-fine 训练，从视频重建带纹理 3D 网格，COLMAP 集成管线，NVIDIA 许可
-|| [[ai-game-devtools/paint-it]] — CVPR 2024 文本驱动 PBR 纹理合成：Deep Image Prior + 未修改 SDS + nvdiffrast 微分渲染，生成 diffuse/roughness/metalness/normal 四张贴图，支持 Objaverse 批量/SMPL 人体纹理，学术许可
-||| [[ai-game-devtools/x-mesh]] — ICCV 2023 文本驱动 3D 网格风格化：动态文本引导 + SDS 优化同步改造几何和纹理，MIT-30 基准评测，PyTorch+kaolin，学术许可
+|||| [[ai-game-devtools/paint-it]] — CVPR 2024 文本驱动 PBR 纹理合成：Deep Image Prior + 未修改 SDS + nvdiffrast 微分渲染，生成 diffuse/roughness/metalness/normal 四张贴图，支持 Objaverse 批量/SMPL 人体纹理，学术许可
+|||| [[ai-game-devtools/phys-rig]] — ICCV 2025 可微分物理绑定框架：MPM 物质点法替代 LBS，骨骼嵌入软体体积模拟，端到端可训练材质参数（杨氏模量/泊松比），支持软组织/尾巴/耳朵二级运动
+|||| [[ai-game-devtools/x-mesh]] — ICCV 2023 文本驱动 3D 网格风格化：动态文本引导 + SDS 优化同步改造几何和纹理，MIT-30 基准评测，PyTorch+kaolin，学术许可
 
 ## Code Tools
 

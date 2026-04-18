@@ -269,3 +269,9 @@
 - Created: ai-game-devtools/panic3d-anime-reconstruction.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-18] ingest | PhysRig
+- Source: web_extract (GitHub/gitcode/gitee clone all failed; network timeout)
+- Created: raw/articles/ai-game-devtools/phys-rig.md
+- Created: ai-game-devtools/phys-rig.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (pages 545→546)

@@ -453,3 +453,9 @@
 - Created: ai-game-devtools/hallo.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 601→602)
+## [2026-04-19] ingest | Hallo2
+- Cloned: ~/tmp/ai-game-devtools/hallo2/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hallo2.md
+- Created: ai-game-devtools/hallo2.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 602→603)

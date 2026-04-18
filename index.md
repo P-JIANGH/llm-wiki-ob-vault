@@ -236,6 +236,7 @@
 ||| [[ai-game-devtools/geneavatar]] — CVPR 2024 单图像 3D 头部 Avatar 编辑框架：3DMM 驱动三平面修改场 + 体渲染几何变形/纹理混合 + 自动解码优化实现 2D→3D 编辑提升，支持 INSTA/NeRFBlendShape/Next3D 多种表示，代码待发布
 ||| [[ai-game-devtools/geneface-plus-plus]] — 中科院/浙大 通用稳定实时音频驱动 3D 说话头像生成：三阶段管线(Audio2Motion VAE → PostNet CNN+LLE → RADNeRF 渲染)，3DMM(BFM2009)参数化表示，支持眨眼注入/口型幅度控制，PyTorch+CUDA 11.7，预训练权重可下载 |
 ||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
+||| [[ai-game-devtools/hallo2]] — 复旦大学 ICLR 2025 长时长高分辨率音频驱动肖像动画：两阶段管线(扩散动画+CodeFormer超分)，支持4K/最长1小时输出，基于SD 1.5+AnimateDiff v2+Wav2Vec+InsightFace
 
 |||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

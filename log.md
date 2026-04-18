@@ -363,3 +363,9 @@
 - Created: ai-game-devtools/wonder3d.md
 - Updated: ai-game-devtools-learning-checklist.md (marked Wonder3D with date)
 - Updated: index.md (added entry under 3D Model section)
+## [2026-04-18] ingest | Zero-1-to-3
+- Cloned: ~/tmp/ai-game-devtools/zero-1-to-3/ (via gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/zero-1-to-3.md
+- Created: ai-game-devtools/zero-1-to-3.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 559→560)

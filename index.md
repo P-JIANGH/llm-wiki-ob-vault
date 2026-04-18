@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 559 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 560 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -603,6 +603,7 @@
 || [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro AUTOMATIC1111 WebUI 简体中文本地化扩展：0313版本，覆盖 ControlNet/openpose-editor/SAM 等9个扩展翻译，AI辅助翻译（ChatGPT+有道），双模式（纯中文/中英双语）
 || [[ai-game-devtools/storymaker]] — RED-AIGC 多角色一致性图像生成：InsightFace 面部编码 + CLIP ViT-H-14 视觉特征 + LoRA-IP 注意力注入 SDXL，支持最多 3 角色同场景 + 服装迁移，Apache 2.0
 ||| [[ai-game-devtools/streamdiffusion]] — cumulo-autumn 实时交互图像生成管线：Stream Batch/RCFG/相似度过滤/TensorRT 加速，SD-turbo 达 106 FPS，支持 txt2img/img2img/vid2vid，Apache 2.0
-|||| [[ai-game-devtools/syncdreamer]] — HKU 多视角扩散模型：单张 RGBA 输入 → 16 视角同步生成（DepthWiseAttention 跨视角一致性），支持 NeuS/NeRF 3D 重建 → mesh 导出，MIT
-|||| [[ai-game-devtools/ultraedit]] — 北大/BIGAI/UCLA/UIUC 指令式图像编辑大规模数据集：4M+ 自由形态 + 100K+ 区域编辑样本，真实图像锚点（非AI生成），SD3/SDXL/SD1.5 两阶段微调，HuggingFace Gradio 演示
+||||| [[ai-game-devtools/syncdreamer]] — HKU 多视角扩散模型：单张 RGBA 输入 → 16 视角同步生成（DepthWiseAttention 跨视角一致性），支持 NeuS/NeRF 3D 重建 → mesh 导出，MIT
+||||| [[ai-game-devtools/zero-1-to-3]] — Columbia Univ ICCV 2023 单图→3D 新视角合成：相机位姿条件化 SD 微调（CLIP 图像编码+hybrid 条件），Zero123-XL 变体，22GB VRAM，解决 Janus 问题，MIT
+||||| [[ai-game-devtools/ultraedit]] — 北大/BIGAI/UCLA/UIUC 指令式图像编辑大规模数据集：4M+ 自由形态 + 100K+ 区域编辑样本，真实图像锚点（非AI生成），SD3/SDXL/SD1.5 两阶段微调，HuggingFace Gradio 演示
 |||| [[ai-game-devtools/uso]] — 字节跳动 UXO 团队统一风格+主体驱动图像生成：FLUX+SigLIP+LoRA 架构，三元组数据集+解耦学习+奖励学习，支持主体/风格/布局保留/多风格融合，FP8 模式仅需 16GB 显存，原生 ComfyUI 支持，Apache 2.0

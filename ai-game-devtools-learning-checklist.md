@@ -393,7 +393,7 @@
 |- [2026-04-18] UnityGaussianSplatting | https://github.com/aras-p/UnityGaussianSplatting
 - [2026-04-18] ViVid-1-to-3 | https://github.com/ubc-vision/vivid123
 - [2026-04-18] Wonder3D | https://github.com/xxlong0/Wonder3D
-- [ ] Zero-1-to-3 | https://github.com/cvlab-columbia/zero123
+- [2026-04-18] Zero-1-to-3 | https://github.com/cvlab-columbia/zero123
 
 ## Avatar (29)
 - [ ] AniPortrait | https://github.com/Zejun-Yang/AniPortrait

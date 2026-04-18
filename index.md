@@ -299,6 +299,7 @@
 || [[ai-game-devtools/void]] — voideditor 开源 Cursor 替代 IDE：VSCode 1.99.3 fork，Electron 双进程架构，OpenAI/Anthropic/Gemini/Ollama/Groq/Mistral 多 Provider 接入，Fast/Slow Apply 代码修改系统，MCP 支持，MIT，开发已暂停 |
 
 || [[ai-game-devtools/paint3d]] — OpenTexture CVPR 2024 3D 纹理生成：粗到细两阶段管线（深度生成→UV修复→2K上采样），无光照 albedo 贴图，kaolin 可微分渲染，Apache 2.0 |
+|| [[ai-game-devtools/panic3d-anime-reconstruction]] — CVPR 2023 动漫角色单视图3D重建：线条填充模型+EG3D体积辐射场，单张动漫肖像→风格化3D角色头部，11.2k VRoid+1k VTuber数据集+AnimeRecon基准，支持说话头部动画扩展 |
 
 ## Open Source Games
 

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 565 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 566 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -227,6 +227,7 @@
 || [[ai-game-devtools/ditto-talkinghead]] — Ant Group ACM MM 2025 实时说话头部合成：motion-space 扩散(LMDM) + HuBERT 音频编码 + LivePortrait 面部操控，TensorRT/PyTorch 双后端，实时流式推理，Apache 2.0 |
 ||| [[ai-game-devtools/chatdollkit]] — uezo Unity 3D 虚拟助手 SDK：LLM(ChatGPT/Claude/Gemini/Dify) + STT/TTS 完整语音管线，VRM 表情/动画/口型同步驱动，支持 WebGL/iOS/VR/AR，Silero VAD + Barge-in 打断 + 多 AITuber 对话，MIT |
 ||| [[ai-game-devtools/dreamtalk]] — 清华大学&蚂蚁 arXiv 2023 扩散模型音频驱动说话头像生成：Wav2Vec2音频编码 + 3DMM风格扩散(DDPM/DDIM) + PIRender面部渲染，多风格控制(CFG)，支持歌曲/多语言/嘈杂音频，非商用许可 |
+|| [[ai-game-devtools/duix]] — duix.com 移动端实时 AI Avatar SDK：Android/iOS 原生部署 + NCNN/ONNX 离线推理 + PCM流式音频驱动 + 口型同步/动作控制，<120ms延迟，Community License |
 
 ||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

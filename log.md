@@ -399,3 +399,9 @@
 - Created: ai-game-devtools/dreamtalk.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 564→565)
+## [2026-04-18] ingest | Duix
+- Cloned: ~/tmp/ai-game-devtools/duix/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/duix.md
+- Created: ai-game-devtools/duix.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 565→566)

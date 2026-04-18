@@ -401,7 +401,7 @@
 - [2026-04-18] ChatdollKit | https://github.com/uezo/ChatdollKit
 - [2026-04-18] Ditto | https://github.com/antgroup/ditto-talkinghead
 - [2026-04-18] DreamTalk | https://github.com/ali-vilab/dreamtalk
-- [ ] Duix | https://github.com/GuijiAI/duix.ai
+- [2026-04-18] Duix | https://github.com/GuijiAI/duix.ai
 - [ ] EchoMimic | https://github.com/BadToBest/EchoMimic
 - [ ] EMOPortraits | https://github.com/neeek2303/EMOPortraits
 - [ ] EmoVOCA | https://github.com/miccunifi/EmoVOCA

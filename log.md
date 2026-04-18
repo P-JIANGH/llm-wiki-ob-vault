@@ -423,3 +423,9 @@
 - Created: ai-game-devtools/emovoca.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 568→569)
+## [2026-04-18] ingest | E3 Gen
+- Source: https://github.com/olivia23333/E3Gen (web_extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/e3-gen.md
+- Created: ai-game-devtools/e3-gen.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 569→570)

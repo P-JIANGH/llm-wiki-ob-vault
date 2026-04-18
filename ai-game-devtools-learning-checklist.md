@@ -405,7 +405,7 @@
 |- [2026-04-18] EchoMimic | https://github.com/BadToBest/EchoMimic
 - [2026-04-18] EMOPortraits | https://github.com/neeek2303/EMOPortraits
 |- [2026-04-18] EmoVOCA | https://github.com/miccunifi/EmoVOCA
-- [ ] E3 Gen | https://github.com/olivia23333/E3Gen
+|- [2026-04-18] E3 Gen | https://github.com/olivia23333/E3Gen
 - [ ] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
 - [ ] GeneAvatar | https://github.com/zju3dv/GeneAvatar
 - [ ] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus

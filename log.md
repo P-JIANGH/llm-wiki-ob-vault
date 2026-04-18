@@ -287,3 +287,9 @@
 - Created: ai-game-devtools/stable-fast-3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (pages 547→548)
+## [2026-04-18] ingest | Shap-E
+- Cloned: ~/tmp/ai-game-devtools/shap-e/
+- Created: raw/articles/ai-game-devtools/shap-e.md
+- Created: ai-game-devtools/shap-e.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (pages 548→549)

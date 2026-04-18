@@ -250,3 +250,10 @@
 - Created: ai-game-devtools/mvdream.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added mvdream entry, total pages 543→544)
+
+## [2026-04-18] ingest | NVIDIA Instant NeRF
+- Cloned: ~/tmp/ai-game-devtools/instant-ngp/ (from gitcode.com mirror, GitHub timeout)
+- Created: raw/articles/ai-game-devtools/instant-ngp.md
+- Created: ai-game-devtools/instant-ngp.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added instant-ngp entry, total pages 544→545)

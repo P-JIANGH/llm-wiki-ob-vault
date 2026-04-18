@@ -406,7 +406,7 @@
 - [2026-04-18] EMOPortraits | https://github.com/neeek2303/EMOPortraits
 |- [2026-04-18] EmoVOCA | https://github.com/miccunifi/EmoVOCA
 |- [2026-04-18] E3 Gen | https://github.com/olivia23333/E3Gen
-- [ ] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
+- [2026-04-18] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
 - [ ] GeneAvatar | https://github.com/zju3dv/GeneAvatar
 - [ ] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
 - [ ] Hallo | https://github.com/fudan-generative-vision/hallo

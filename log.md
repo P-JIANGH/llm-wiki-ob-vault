@@ -429,3 +429,9 @@
 - Created: ai-game-devtools/e3-gen.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 569→570)
+## [2026-04-18] ingest | ExAvatar
+- Cloned: ~/tmp/ai-game-devtools/exavatar/
+- Created: raw/articles/ai-game-devtools/exavatar.md
+- Created: ai-game-devtools/exavatar.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 570→600)

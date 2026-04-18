@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 570 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 600 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -232,6 +232,7 @@
 |||| [[ai-game-devtools/emoportraits]] — Nikita Drobyshev arXiv 2024 情绪增强单镜头头像生成：两阶段 volumetric 3D 表示(基础avatar+情绪增强)，VoxCeleb2 HQ+FEED 数据集训练，视频驱动运动迁移+极端/非对称表情保留 |
 ||| [[ai-game-devtools/emovoca]] — WACV 2025 语音驱动情感 3D 说话头像：Spiral Autoencoder 双编码(说话+情感)共享解码器 + FLAME 3D 人脸模型 + Wav2Vec2 音频特征，11 种情绪/3 级强度可控，CC BY-NC 4.0 |
 ||| [[ai-game-devtools/e3-gen]] — ACM MM '24 3D 人体 Avatar 生成：SMPL-X + FLAME 模型集成 + 自定义 Deformer，2×RTX 3090 训练，支持生成/迁移/编辑/新姿态动画，学术研究许可 |
+|| [[ai-game-devtools/exavatar]] — ECCV 2024 全身可驱动 3D 高斯 Avatar：SMPL-X+FLAME 参数化驱动 + 修改版 3DGS 外观建模，手机视频→可动画 Avatar，支持自定义/NeuMan/XHumans 数据集 |
 
 |||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

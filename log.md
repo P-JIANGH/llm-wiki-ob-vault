@@ -339,3 +339,10 @@
 - Created: ai-game-devtools/triposr.md
 - Updated: ai-game-devtools-learning-checklist.md (marked TripoSR with date)
 - Updated: index.md (added entry in 3D Model section, bumped page count to 556)
+
+## [2026-04-18] ingest | Unique3D
+- Cloned: ~/tmp/ai-game-devtools/unique3d/
+- Created: raw/articles/ai-game-devtools/unique3d.md
+- Created: ai-game-devtools/unique3d.md
+- Updated: ai-game-devtools-learning-checklist.md (marked Unique3D with date)
+- Updated: index.md (added entry in 3D Model section, bumped page count to 557)

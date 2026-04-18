@@ -389,7 +389,7 @@
 |- [2026-04-18] 3DTopia-XL | https://github.com/3DTopia/3DTopia-XL
 - [2026-04-18] threestudio | https://github.com/threestudio-project/threestudio
 |- [2026-04-18] TripoSR | https://github.com/VAST-AI-Research/TripoSR
-- [ ] Unique3D | https://github.com/AiuniAI/Unique3D
+- [2026-04-18] Unique3D | https://github.com/AiuniAI/Unique3D
 - [ ] UnityGaussianSplatting | https://github.com/aras-p/UnityGaussianSplatting
 - [ ] ViVid-1-to-3 | https://github.com/ubc-vision/vivid123
 - [ ] Wonder3D | https://github.com/xxlong0/Wonder3D

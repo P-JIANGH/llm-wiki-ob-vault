@@ -314,3 +314,9 @@
 - Created: ai-game-devtools/3d-llm.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry in Texture section, bumped page count to 552)
+## [2026-04-18] ingest | 3DTopia
+- Cloned: ~/tmp/ai-game-devtools/3dtopia/
+- Created: raw/articles/ai-game-devtools/3dtopia.md
+- Created: ai-game-devtools/3dtopia.md
+- Updated: ai-game-devtools-learning-checklist.md (marked 3DTopia with date)
+- Updated: index.md (added entry in Texture/3D section, bumped page count to 553)

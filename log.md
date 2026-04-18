@@ -307,3 +307,10 @@
 - Created: ai-game-devtools/step1x-3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, bumped page count to 551)
+
+## [2026-04-18] ingest | 3D-LLM
+- Source: GitHub web extract (clone failed from GitHub/gitcode/gitee; empty repo on gitcode)
+- Created: raw/articles/ai-game-devtools/3d-llm.md
+- Created: ai-game-devtools/3d-llm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Texture section, bumped page count to 552)

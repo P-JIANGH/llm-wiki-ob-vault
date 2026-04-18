@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 551 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 552 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -244,6 +244,7 @@
 ||| [[ai-game-devtools/character-gen]] — VAST-AI SIGGRAPH'24 单图→3D角色生成：多视角姿态规范化(A-pose)+两阶段管线(2D扩散→3D重建)，基于Tune-A-Video+TripoSR，Gradio演示+Mixamo绑骨支持
 ||||| [[ai-game-devtools/animate3d]] — CASIA+阿里 NeurIPS 2024 3D模型动画生成：多视角视频扩散(MV-VDM)+4D-SDS精炼，Mesh/Gaussian Splatting双支持，~15分钟生成动画
 ||| [[ai-game-devtools/any2point]] — ECCV 2024 3D理解框架：3D-to-Any虚拟投影+Guided Adapter，适配CLIP/DINOv2/ImageBind到点云任务，仅0.8M参数达SOTA，支持语言/视觉/音频模态
+||| [[ai-game-devtools/3d-llm]] — UMass Amherst NeurIPS 2023 Spotlight 首个原生处理3D表示的LLM：基于BLIP2/salesforce-lavis，支持物体级(Objaverse)和场景级(ScanNet/HM3D)3D问答，SAM+CLIP三阶段3D特征提取管线
 ||||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |
 ||||| [[ai-game-devtools/direct3d-s2]] — DreamTechAI NeurIPS 2025 大规模 3D 生成框架：Spatial Sparse Attention (SSA) 加速 DiT，8 GPU 训练 1024³ 分辨率 SDF 网格，v1.1 比 FlashAttention-2 快 12.2× 前向/19.7× 反向，单图→OBJ 网格，MIT |
 ||||| [[ai-game-devtools/city-dreamer]] — CVPR 2024 组合式无限 3D 城生成模型：VQVAE 布局生成器 + GANcraft 风格背景/建筑实例生成器，patch-based 无限城市合成，NTU S-Lab，Gradio 演示+CLI

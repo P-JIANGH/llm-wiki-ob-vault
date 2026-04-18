@@ -236,3 +236,10 @@
 - Created: ai-game-devtools/lion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added lion entry, total pages 541→542)
+
+## [2026-04-18] ingest | Make-It-3D
+- Cloned: ~/tmp/ai-game-devtools/make-it-3d/
+- Created: raw/articles/ai-game-devtools/make-it-3d.md
+- Created: ai-game-devtools/make-it-3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added make-it-3d entry, total pages 542→543)

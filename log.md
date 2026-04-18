@@ -380,4 +380,10 @@
 - Created: raw/articles/ai-game-devtools/calm.md
 - Created: ai-game-devtools/calm.md
 - Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added Avatar entry, pages 561→562)
+|- Updated: index.md (added Avatar entry, pages 561→562)
+## [2026-04-18] ingest | ChatdollKit
+- Cloned: ~/tmp/ai-game-devtools/chatdollkit/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/chatdollkit.md
+- Created: ai-game-devtools/chatdollkit.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 562→563)

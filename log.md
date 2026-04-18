@@ -320,3 +320,9 @@
 - Created: ai-game-devtools/3dtopia.md
 - Updated: ai-game-devtools-learning-checklist.md (marked 3DTopia with date)
 - Updated: index.md (added entry in Texture/3D section, bumped page count to 553)
+## [2026-04-18] ingest | 3DTopia-XL
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/3dtopia-xl.md
+- Created: ai-game-devtools/3dtopia-xl.md
+- Updated: ai-game-devtools-learning-checklist.md (marked 3DTopia-XL with date)
+- Updated: index.md (added entry in 3D Model section, bumped page count to 554)

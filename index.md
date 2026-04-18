@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 553 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 554 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -261,6 +261,7 @@
 |||||| [[ai-game-devtools/hunyuan3d-1]] — 腾讯混元统一文本/图像到 3D 生成框架：两阶段管线（多视角扩散 4s + 前馈重建 7s），lite/std 双版本，Gradio Web UI，10-25 秒生成 3D mesh，Apache 2.0 + 非商用权重 |
 |||||| [[ai-game-devtools/stable-dreamfusion]] — Jiaxiang Tang DreamFusion 开源实现：Stable Diffusion 替代 Imagen + SDS 损失 + NeRF(Instant-NGP/Vanilla/Taichi) + DMTet 网格提取 + PerP-Neg 多面缓解，SD 1.5/2.0/2.1/DeepFloyd-IF/Zero-1-to-3 后端
 |||||| [[ai-game-devtools/3dtopia]] — NTU/Tencent 两阶段文本到3D生成：Stage 1 扩散模型快速生成候选+Stage 2 threefiner网格精化，Triplane+EG3D渲染器，DDIM/DPM-Solver采样，arXiv 2403.02234
+|||||| [[ai-game-devtools/3dtopia-xl]] — CVPR 2025 Highlight 3D PBR资产生成：PrimX原始体表示+3D DiT扩散架构，单图/文本→高质量mesh+PBR材质，Objaverse子集训练，HuggingFace Demo
 |||||| [[ai-game-devtools/stable-fast-3d]] — Stability AI 单图像→3D 网格前馈重建模型（基于 TripoSR 改进），UV 自动展开 + PBR 材质预测(albedo/roughness/metallic/normal) + 光照解耦，6GB VRAM，ComfyUI 集成，非商用许可 |
 |||||| [[ai-game-devtools/step1x-3d]] — 阶跃星辰两阶段 3D 资产生成：VAE-DiT 几何(1.3B) + SD-XL 纹理(3.5B)，2M 清洗数据集，830K UID 开源，LoRA 可迁移，Apache 2.0 |
 ||||||| [[ai-game-devtools/infinigen]] — Princeton V&L Lab CVPR 2023/2024/2025 程序化 3D 世界生成：Blender bpy 后端，自然场景/室内房间/可关节资产三大模块，完整 Ground Truth 标注管线，SLURM 集群并行，BSD-3-Clause

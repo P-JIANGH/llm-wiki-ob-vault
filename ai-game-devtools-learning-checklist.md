@@ -386,7 +386,7 @@
 |- [2026-04-18] Step1X-3D | https://github.com/stepfun-ai/Step1X-3D
 |- [2026-04-18] 3D-LLM | https://github.com/UMass-Foundation-Model/3D-LLM
 |- [2026-04-18] 3DTopia | https://github.com/3DTopia/3DTopia
-|- [ ] 3DTopia-XL | https://github.com/3DTopia/3DTopia-XL
+|- [2026-04-18] 3DTopia-XL | https://github.com/3DTopia/3DTopia-XL
 - [ ] threestudio | https://github.com/threestudio-project/threestudio
 - [ ] TripoSR | https://github.com/VAST-AI-Research/TripoSR
 - [ ] Unique3D | https://github.com/AiuniAI/Unique3D

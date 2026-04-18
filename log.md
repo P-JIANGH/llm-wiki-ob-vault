@@ -393,3 +393,9 @@
 - Created: ai-game-devtools/ditto-talkinghead.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 563→564)
+## [2026-04-18] ingest | DreamTalk
+- Cloned: ~/tmp/ai-game-devtools/dreamtalk/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/dreamtalk.md
+- Created: ai-game-devtools/dreamtalk.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 564→565)

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 564 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 565 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -225,7 +225,8 @@
 || [[ai-game-devtools/aniportrait]] — Tencent Games Zhiji 音频驱动肖像动画：wav2vec2 → audio2mesh/audio2pose → 3DMM参数 + AnimateDiff Motion Module 3D UNet，支持自驱动/人脸重演/音频驱动三模式，Apache 2.0 |
 || [[ai-game-devtools/calm]] — NVIDIA Research Isaac Gym 虚拟角色控制：CALM对抗式潜在模型 + HRL两级架构（HLC任务决策/LLC运动执行），AMP动作先预训练 + 风格约束精确训练 + 无额外推理，剑盾风格人形角色，NVIDIA License |
 || [[ai-game-devtools/ditto-talkinghead]] — Ant Group ACM MM 2025 实时说话头部合成：motion-space 扩散(LMDM) + HuBERT 音频编码 + LivePortrait 面部操控，TensorRT/PyTorch 双后端，实时流式推理，Apache 2.0 |
-|| [[ai-game-devtools/chatdollkit]] — uezo Unity 3D 虚拟助手 SDK：LLM(ChatGPT/Claude/Gemini/Dify) + STT/TTS 完整语音管线，VRM 表情/动画/口型同步驱动，支持 WebGL/iOS/VR/AR，Silero VAD + Barge-in 打断 + 多 AITuber 对话，MIT |
+||| [[ai-game-devtools/chatdollkit]] — uezo Unity 3D 虚拟助手 SDK：LLM(ChatGPT/Claude/Gemini/Dify) + STT/TTS 完整语音管线，VRM 表情/动画/口型同步驱动，支持 WebGL/iOS/VR/AR，Silero VAD + Barge-in 打断 + 多 AITuber 对话，MIT |
+||| [[ai-game-devtools/dreamtalk]] — 清华大学&蚂蚁 arXiv 2023 扩散模型音频驱动说话头像生成：Wav2Vec2音频编码 + 3DMM风格扩散(DDPM/DDIM) + PIRender面部渲染，多风格控制(CFG)，支持歌曲/多语言/嘈杂音频，非商用许可 |
 
 ||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

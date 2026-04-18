@@ -281,3 +281,9 @@
 - Created: ai-game-devtools/point-e.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (pages 546→547)
+## [2026-04-18] ingest | SF3D
+- Cloned: ~/tmp/ai-game-devtools/stable-fast-3d/
+- Created: raw/articles/ai-game-devtools/stable-fast-3d.md
+- Created: ai-game-devtools/stable-fast-3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (pages 547→548)

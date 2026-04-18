@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 601 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-19 | Total pages: 602 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -235,6 +235,7 @@
 ||| [[ai-game-devtools/exavatar]] — ECCV 2024 全身可驱动 3D 高斯 Avatar：SMPL-X+FLAME 参数化驱动 + 修改版 3DGS 外观建模，手机视频→可动画 Avatar，支持自定义/NeuMan/XHumans 数据集 |
 ||| [[ai-game-devtools/geneavatar]] — CVPR 2024 单图像 3D 头部 Avatar 编辑框架：3DMM 驱动三平面修改场 + 体渲染几何变形/纹理混合 + 自动解码优化实现 2D→3D 编辑提升，支持 INSTA/NeRFBlendShape/Next3D 多种表示，代码待发布
 ||| [[ai-game-devtools/geneface-plus-plus]] — 中科院/浙大 通用稳定实时音频驱动 3D 说话头像生成：三阶段管线(Audio2Motion VAE → PostNet CNN+LLE → RADNeRF 渲染)，3DMM(BFM2009)参数化表示，支持眨眼注入/口型幅度控制，PyTorch+CUDA 11.7，预训练权重可下载 |
+||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
 
 |||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

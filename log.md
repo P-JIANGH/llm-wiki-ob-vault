@@ -447,3 +447,9 @@
 - Created: ai-game-devtools/geneface-plus-plus.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 601→601)
+## [2026-04-19] ingest | Hallo
+- Cloned: ~/tmp/ai-game-devtools/hallo/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hallo.md
+- Created: ai-game-devtools/hallo.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 601→602)

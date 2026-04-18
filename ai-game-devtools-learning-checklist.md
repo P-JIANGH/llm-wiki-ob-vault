@@ -409,9 +409,9 @@
 - [2026-04-18] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
 |- [2026-04-19] GeneAvatar | https://github.com/zju3dv/GeneAvatar
 - [2026-04-18] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
-- [ ] Hallo | https://github.com/fudan-generative-vision/hallo
-- [ ] Hallo2 | https://github.com/fudan-generative-vision/hallo2
-- [ ] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
+|- [2026-04-19] Hallo | https://github.com/fudan-generative-vision/hallo
+|- [ ] Hallo2 | https://github.com/fudan-generative-vision/hallo2
+|- [ ] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
 - [ ] HunyuanVideo-Avatar | https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar
 - [ ] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
 - [ ] Linly-Talker | https://github.com/Kedreamix/Linly-Talker

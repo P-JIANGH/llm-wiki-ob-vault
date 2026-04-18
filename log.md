@@ -257,3 +257,9 @@
 - Created: ai-game-devtools/instant-ngp.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added instant-ngp entry, total pages 544→545)
+## [2026-04-18] ingest | Paint3D
+- Cloned: ~/tmp/ai-game-devtools/paint3d/
+- Created: raw/articles/ai-game-devtools/paint3d.md
+- Created: ai-game-devtools/paint3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

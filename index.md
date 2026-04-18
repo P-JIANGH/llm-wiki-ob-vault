@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 544 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 545 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -297,6 +297,8 @@
 ||| [[ai-game-devtools/pandas-ai]] — Sinaptik AI 自然语言数据分析工具：LiteLLM 驱动 + DuckDB SQL 引擎 + 代码生成→执行→解析流水线 + Docker 沙箱安全执行，支持 DataFrame 对话问答/图表生成/多表关联查询，MIT |
 || [[ai-game-devtools/unitygen-ai]] — himanshuskyrockets Unity Editor AI 代码生成插件：OpenAI Codex(text-davinci) 驱动代码生成，EditorWindow UI + ScriptableObject 配置 API Key，alpha 阶段作者已弃用，MIT ||
 || [[ai-game-devtools/void]] — voideditor 开源 Cursor 替代 IDE：VSCode 1.99.3 fork，Electron 双进程架构，OpenAI/Anthropic/Gemini/Ollama/Groq/Mistral 多 Provider 接入，Fast/Slow Apply 代码修改系统，MCP 支持，MIT，开发已暂停 |
+
+|| [[ai-game-devtools/paint3d]] — OpenTexture CVPR 2024 3D 纹理生成：粗到细两阶段管线（深度生成→UV修复→2K上采样），无光照 albedo 贴图，kaolin 可微分渲染，Apache 2.0 |
 
 ## Open Source Games
 

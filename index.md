@@ -283,7 +283,8 @@
 ||| [[ai-game-devtools/neuralangelo]] — NVIDIA CVPR 2023 高保真神经表面重建：SDF-based NeRF + hashgrid 编码 + coarse-to-fine 训练，从视频重建带纹理 3D 网格，COLMAP 集成管线，NVIDIA 许可
 |||| [[ai-game-devtools/paint-it]] — CVPR 2024 文本驱动 PBR 纹理合成：Deep Image Prior + 未修改 SDS + nvdiffrast 微分渲染，生成 diffuse/roughness/metalness/normal 四张贴图，支持 Objaverse 批量/SMPL 人体纹理，学术许可
 |||| [[ai-game-devtools/phys-rig]] — ICCV 2025 可微分物理绑定框架：MPM 物质点法替代 LBS，骨骼嵌入软体体积模拟，端到端可训练材质参数（杨氏模量/泊松比），支持软组织/尾巴/耳朵二级运动
-|||| [[ai-game-devtools/x-mesh]] — ICCV 2023 文本驱动 3D 网格风格化：动态文本引导 + SDS 优化同步改造几何和纹理，MIT-30 基准评测，PyTorch+kaolin，学术许可
+||||| [[ai-game-devtools/x-mesh]] — ICCV 2023 文本驱动 3D 网格风格化：动态文本引导 + SDS 优化同步改造几何和纹理，MIT-30 基准评测，PyTorch+kaolin，学术许可 |
+|| [[ai-game-devtools/unity-gaussian-splatting]] — Aras Pranckevicius Unity 3DGS 实时渲染工具包：BiRP/URP/HDRP 三管线适配，GPU 基数排序，PLY→Unity 资产转换，147 FPS(RTX 3080 Ti)，支持 VR，MIT |
 
 ## Code Tools
 

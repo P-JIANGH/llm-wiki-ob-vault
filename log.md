@@ -345,4 +345,9 @@
 - Created: raw/articles/ai-game-devtools/unique3d.md
 - Created: ai-game-devtools/unique3d.md
 - Updated: ai-game-devtools-learning-checklist.md (marked Unique3D with date)
-- Updated: index.md (added entry in 3D Model section, bumped page count to 557)
+## [2026-04-18] ingest | UnityGaussianSplatting
+- Cloned: ~/tmp/ai-game-devtools/unity-gaussian-splatting/ (via gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/unity-gaussian-splatting.md
+- Created: ai-game-devtools/unity-gaussian-splatting.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Texture section)

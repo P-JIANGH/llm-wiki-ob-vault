@@ -396,7 +396,7 @@
 - [2026-04-18] Zero-1-to-3 | https://github.com/cvlab-columbia/zero123
 
 ## Avatar (29)
-- [ ] AniPortrait | https://github.com/Zejun-Yang/AniPortrait
+- [2026-04-18] AniPortrait | https://github.com/Zejun-Yang/AniPortrait
 - [ ] CALM | https://github.com/NVlabs/CALM
 - [ ] ChatdollKit | https://github.com/uezo/ChatdollKit
 - [ ] Ditto | https://github.com/antgroup/ditto-talkinghead

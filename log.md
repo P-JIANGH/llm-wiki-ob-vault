@@ -369,3 +369,9 @@
 - Created: ai-game-devtools/zero-1-to-3.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 559→560)
+## [2026-04-18] ingest | AniPortrait
+- Cloned: ~/tmp/ai-game-devtools/aniportrait/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/aniportrait.md
+- Created: ai-game-devtools/aniportrait.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar section, pages 560→561)

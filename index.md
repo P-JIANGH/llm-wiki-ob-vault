@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 560 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 561 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -217,10 +217,14 @@
 ||| [[ai-game-devtools/translation-agent]] — Andrew Ng 反射式 Agent 翻译工作流：翻译→反思→改进三步循环，支持区域语言变体/术语表定制，Gradio WebUI 多 LLM 端点，MIT
 ||| [[ai-game-devtools/video2game]] — 视频转 3D 游戏场景管线：NeRF→网格提取→纹理烘焙→碰撞体生成→Three.js/Unreal 集成，Omnidata 先验+V-HACD 凸分解，单视频生成可交互 3D 环境
 ||| [[ai-game-devtools/webdesignagent]] — 阿里达摩院自主网站生成 Agent：多模态输入(文本/模板/图片)→结构规划→Tailwind CSS 网页生成，GUI+CLI 双模式，人机反馈循环，Apache 2.0
-|||| [[ai-game-devtools/wordware-twitter]] — Wordware AI Twitter 人格分析 Agent：Next.js + TypeScript + Neon DB + Drizzle ORM，三通道 Twitter 数据抓取降级（API/Apify/SocialData），模块化 Prompt 系统（ROAST/FULL/PAIR），Stripe + PostHog + Loops 完整 SaaS 架构
-|| [[ai-game-devtools/csgo]] — InstantX 内容-风格解耦图像生成框架：SDXL 基座 + IP-Adapter，4 内容 Token + 16/32 风格 Token，支持文本/图像/编辑驱动风格化合成，DeepSpeed Zero2 训练，HuggingFace 权重 |
+|| [[ai-game-devtools/wordware-twitter]] — Wordware AI Twitter 人格分析 Agent：Next.js + TypeScript + Neon DB + Drizzle ORM，三通道 Twitter 数据抓取降级（API/Apify/SocialData），模块化 Prompt 系统（ROAST/FULL/PAIR），Stripe + PostHog + Loops 完整 SaaS 架构
+||| [[ai-game-devtools/csgo]] — InstantX 内容-风格解耦图像生成框架：SDXL 基座 + IP-Adapter，4 内容 Token + 16/32 风格 Token，支持文本/图像/编辑驱动风格化合成，DeepSpeed Zero2 训练，HuggingFace 权重 |
 
-|| [[ai-game-devtools/disco-diffusion]] — alembics AI艺术/动画生成Colab工具箱：Katherine Crowson 512×512扩散模型+CLIP引导，5种动画模式(2D/3D/Turbo/Warp/VR)，MiDaS+AdaBins双深度估计，OpenCLIP/风格化模型支持，MIT |
+## Avatar
+
+|| [[ai-game-devtools/aniportrait]] — Tencent Games Zhiji 音频驱动肖像动画：wav2vec2 → audio2mesh/audio2pose → 3DMM参数 + AnimateDiff Motion Module 3D UNet，支持自驱动/人脸重演/音频驱动三模式，Apache 2.0 |
+
+||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |
 ||| [[ai-game-devtools/segment-anything-2]] — Meta FAIR 通用图像/视频分割基础模型：Hiera backbone + streaming memory，实时视频分割，4 种尺寸（38.9M-224.4M），最高 91 FPS (A100)，SA-V 数据集，Apache 2.0 |
 ||| [[ai-game-devtools/hivision-id-photos]]

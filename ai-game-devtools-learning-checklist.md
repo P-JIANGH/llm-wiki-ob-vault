@@ -374,7 +374,7 @@
 - [2026-04-18] Isotropic3D | https://github.com/pkunliu/Isotropic3D
 |- [2026-04-18] LION | https://github.com/nv-tlabs/LION
 |- [2026-04-18] Make-It-3D | https://github.com/junshutang/Make-It-3D
-- [ ] MVDream | https://github.com/MV-Dream/MVDream
+- [2026-04-18] MVDream | https://github.com/MV-Dream/MVDream
 - [ ] NVIDIA Instant NeRF | https://github.com/NVlabs/instant-ngp
 - [ ] Paint3D | https://github.com/OpenTexture/Paint3D
 - [ ] PAniC-3D | https://github.com/shuhongchen/panic3d-anime-reconstruction

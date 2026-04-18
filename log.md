@@ -243,3 +243,10 @@
 - Created: ai-game-devtools/make-it-3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added make-it-3d entry, total pages 542→543)
+
+## [2026-04-18] ingest | MVDream
+- Cloned: ~/tmp/ai-game-devtools/mvdream-code/ (from bytedance/MVDream via gitcode mirror)
+- Created: raw/articles/ai-game-devtools/mvdream.md
+- Created: ai-game-devtools/mvdream.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added mvdream entry, total pages 543→544)

@@ -300,3 +300,10 @@
 - Created: ai-game-devtools/stable-dreamfusion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (pages 549→550)
+
+## [2026-04-18] ingest | Step1X-3D
+- Cloned: ~/tmp/ai-game-devtools/step1x-3d/
+- Created: raw/articles/ai-game-devtools/step1x-3d.md
+- Created: ai-game-devtools/step1x-3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, bumped page count to 551)

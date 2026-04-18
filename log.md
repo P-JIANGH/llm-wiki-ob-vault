@@ -293,3 +293,10 @@
 - Created: ai-game-devtools/shap-e.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (pages 548→549)
+
+## [2026-04-18] ingest | Stable Dreamfusion
+- Cloned: ~/tmp/ai-game-devtools/stable-dreamfusion/ (from gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/stable-dreamfusion.md
+- Created: ai-game-devtools/stable-dreamfusion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (pages 549→550)

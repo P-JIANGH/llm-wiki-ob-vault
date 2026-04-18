@@ -382,7 +382,7 @@
 |- [2026-04-18] Point·E | https://github.com/openai/point-e
 |- [2026-04-18] SF3D | https://github.com/Stability-AI/stable-fast-3d
 |- [2026-04-18] Shap-E | https://github.com/openai/shap-e
-|- [ ] Stable Dreamfusion | https://github.com/ashawkey/stable-dreamfusion
+|- [2026-04-18] Stable Dreamfusion | https://github.com/ashawkey/stable-dreamfusion
 - [ ] Step1X-3D | https://github.com/stepfun-ai/Step1X-3D
 - [ ] 3D-LLM | https://github.com/UMass-Foundation-Model/3D-LLM
 - [ ] 3DTopia | https://github.com/3DTopia/3DTopia

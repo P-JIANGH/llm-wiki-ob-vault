@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 549 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 550 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -258,6 +258,7 @@
 ||||| [[ai-game-devtools/hunyuan3d-2-0]] — 腾讯混元两阶段 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，单图→高分辨率 mesh，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM
 ||||| [[ai-game-devtools/hunyuan3d-2-1]] — 腾讯混元第三代 3D 资产生成：完全开源权重+训练代码，PBR 纹理管线（金属反射/次表面散射），Shape 3.3B + Paint 2B，四项形状基准 SOTA，29GB VRAM
 |||||| [[ai-game-devtools/hunyuan3d-1]] — 腾讯混元统一文本/图像到 3D 生成框架：两阶段管线（多视角扩散 4s + 前馈重建 7s），lite/std 双版本，Gradio Web UI，10-25 秒生成 3D mesh，Apache 2.0 + 非商用权重 |
+||||| [[ai-game-devtools/stable-dreamfusion]] — Jiaxiang Tang DreamFusion 开源实现：Stable Diffusion 替代 Imagen + SDS 损失 + NeRF(Instant-NGP/Vanilla/Taichi) + DMTet 网格提取 + PerP-Neg 多面缓解，SD 1.5/2.0/2.1/DeepFloyd-IF/Zero-1-to-3 后端
 ||||| [[ai-game-devtools/stable-fast-3d]] — Stability AI 单图像→3D 网格前馈重建模型（基于 TripoSR 改进），UV 自动展开 + PBR 材质预测(albedo/roughness/metallic/normal) + 光照解耦，6GB VRAM，ComfyUI 集成，非商用许可 |
 ||||||| [[ai-game-devtools/infinigen]] — Princeton V&L Lab CVPR 2023/2024/2025 程序化 3D 世界生成：Blender bpy 后端，自然场景/室内房间/可关节资产三大模块，完整 Ground Truth 标注管线，SLURM 集群并行，BSD-3-Clause
 |||||| [[ai-game-devtools/instant-ngp]] — NVIDIA SIGGRAPH 2022 即时神经图形原语：多分辨率哈希编码+tiny-cuda-nn，NeRF 训练<5秒(RTX 3090)，支持 NeRF/SDF/神经图像/体积渲染，VR+Python绑定，NVIDIA NC许可

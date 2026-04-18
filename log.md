@@ -351,3 +351,9 @@
 - Created: ai-game-devtools/unity-gaussian-splatting.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Texture section)
+## [2026-04-18] ingest | ViVid-1-to-3
+- Cloned: ~/tmp/ai-game-devtools/vivid-1-to-3/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/vivid-1-to-3.md
+- Created: ai-game-devtools/vivid-1-to-3.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under 3D Model section)

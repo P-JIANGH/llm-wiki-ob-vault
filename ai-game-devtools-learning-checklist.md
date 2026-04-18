@@ -397,7 +397,7 @@
 
 ## Avatar (29)
 - [2026-04-18] AniPortrait | https://github.com/Zejun-Yang/AniPortrait
-- [ ] CALM | https://github.com/NVlabs/CALM
+- [2026-04-18] CALM | https://github.com/NVlabs/CALM
 - [ ] ChatdollKit | https://github.com/uezo/ChatdollKit
 - [ ] Ditto | https://github.com/antgroup/ditto-talkinghead
 - [ ] DreamTalk | https://github.com/ali-vilab/dreamtalk

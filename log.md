@@ -375,3 +375,9 @@
 - Created: ai-game-devtools/aniportrait.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar section, pages 560→561)
+## [2026-04-18] ingest | CALM
+- Cloned: ~/tmp/ai-game-devtools/calm/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/calm.md
+- Created: ai-game-devtools/calm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 561→562)

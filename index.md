@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 561 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 562 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -223,6 +223,7 @@
 ## Avatar
 
 || [[ai-game-devtools/aniportrait]] — Tencent Games Zhiji 音频驱动肖像动画：wav2vec2 → audio2mesh/audio2pose → 3DMM参数 + AnimateDiff Motion Module 3D UNet，支持自驱动/人脸重演/音频驱动三模式，Apache 2.0 |
+| [[ai-game-devtools/calm]] — NVIDIA Research Isaac Gym 虚拟角色控制：CALM对抗式潜在模型 + HRL两级架构（HLC任务决策/LLC运动执行），AMP动作先预训练 + 风格约束精确训练 + 无额外推理，剑盾风格人形角色，NVIDIA License |
 
 ||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

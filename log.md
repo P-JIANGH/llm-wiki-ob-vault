@@ -405,3 +405,9 @@
 - Created: ai-game-devtools/duix.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 565→566)
+## [2026-04-18] ingest | EchoMimic
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/echomimic.md
+- Created: ai-game-devtools/echomimic.md
+- Updated: ai-game-devtools-learning-checklist.md (marked EchoMimic with date)
+- Updated: index.md (added Avatar entry, pages 566→567)

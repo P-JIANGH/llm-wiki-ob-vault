@@ -402,7 +402,7 @@
 - [2026-04-18] Ditto | https://github.com/antgroup/ditto-talkinghead
 - [2026-04-18] DreamTalk | https://github.com/ali-vilab/dreamtalk
 - [2026-04-18] Duix | https://github.com/GuijiAI/duix.ai
-- [ ] EchoMimic | https://github.com/BadToBest/EchoMimic
+|- [2026-04-18] EchoMimic | https://github.com/BadToBest/EchoMimic
 - [ ] EMOPortraits | https://github.com/neeek2303/EMOPortraits
 - [ ] EmoVOCA | https://github.com/miccunifi/EmoVOCA
 - [ ] E3 Gen | https://github.com/olivia23333/E3Gen

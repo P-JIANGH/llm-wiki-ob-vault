@@ -403,7 +403,7 @@
 - [2026-04-18] DreamTalk | https://github.com/ali-vilab/dreamtalk
 - [2026-04-18] Duix | https://github.com/GuijiAI/duix.ai
 |- [2026-04-18] EchoMimic | https://github.com/BadToBest/EchoMimic
-- [ ] EMOPortraits | https://github.com/neeek2303/EMOPortraits
+- [2026-04-18] EMOPortraits | https://github.com/neeek2303/EMOPortraits
 - [ ] EmoVOCA | https://github.com/miccunifi/EmoVOCA
 - [ ] E3 Gen | https://github.com/olivia23333/E3Gen
 - [ ] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE

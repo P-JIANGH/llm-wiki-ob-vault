@@ -411,3 +411,9 @@
 - Created: ai-game-devtools/echomimic.md
 - Updated: ai-game-devtools-learning-checklist.md (marked EchoMimic with date)
 - Updated: index.md (added Avatar entry, pages 566→567)
+## [2026-04-18] ingest | EMOPortraits
+- Cloned: ~/tmp/ai-game-devtools/emoportraits/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/emoportraits.md
+- Created: ai-game-devtools/emoportraits.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 567→568)

@@ -435,3 +435,9 @@
 - Created: ai-game-devtools/exavatar.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 570→600)
+## [2026-04-19] ingest | GeneAvatar
+- Cloned: ~/tmp/ai-game-devtools/geneavatar/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/geneavatar.md
+- Created: ai-game-devtools/geneavatar.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry)

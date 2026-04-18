@@ -357,3 +357,9 @@
 - Created: ai-game-devtools/vivid-1-to-3.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under 3D Model section)
+## [2026-04-18] ingest | Wonder3D
+- Cloned: ~/tmp/ai-game-devtools/wonder3d/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/wonder3d.md
+- Created: ai-game-devtools/wonder3d.md
+- Updated: ai-game-devtools-learning-checklist.md (marked Wonder3D with date)
+- Updated: index.md (added entry under 3D Model section)

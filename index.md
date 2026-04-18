@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-18 | Total pages: 558 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-18 | Total pages: 559 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -314,6 +314,7 @@
 ||| [[ai-game-devtools/shap-e]] — OpenAI 条件化3D隐式函数生成（2023）：文本/图像→潜在扩散(300M)→NeRF隐式场，可渲染/导出网格，transmitter/text300M/image300M三模型，MIT |
 ||| [[ai-game-devtools/unique3d]] — Tsinghua 单图→高质量3D网格生成：四阶段管线（多视图扩散→法线预测→微分网格重建→纹理投影），~30秒生成带纹理GLB，nvdiffrast可微渲染+连续重网格化优化，Gradio/ComfyUI支持 |
 ||| [[ai-game-devtools/vivid-1-to-3]] — UBC Vision CVPR 2024 单图→多视角视频扩散新视图合成：Zero-1-to-3 (UNet2D) + Zeroscope v2 (UNet3D) 双管线，CLIPCameraProjection相机位姿注入，25帧256×256，Apache 2.0 |
+|||| [[ai-game-devtools/wonder3d]] — HKU CVPR 2024 Highlight 单图→3D重建：跨域扩散模型联合生成6视角法线贴图+彩色图+法线融合网格提取，2-3分钟/张，正交相机假设，Instant-NSR/NeuS双后端，MIT |
 
 ## Open Source Games
 

@@ -387,3 +387,9 @@
 - Created: ai-game-devtools/chatdollkit.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 562→563)
+## [2026-04-18] ingest | Ditto
+- Cloned: ~/tmp/ai-game-devtools/ditto-talkinghead/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/ditto-talkinghead.md
+- Created: ai-game-devtools/ditto-talkinghead.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 563→564)

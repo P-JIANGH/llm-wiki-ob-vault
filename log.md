@@ -332,3 +332,10 @@
 - Created: ai-game-devtools/threestudio.md
 - Updated: ai-game-devtools-learning-checklist.md (marked threestudio with date)
 - Updated: index.md (added entry in 3D Model section, bumped page count to 555)
+
+## [2026-04-18] ingest | TripoSR
+- Cloned: ~/tmp/ai-game-devtools/triposr/
+- Created: raw/articles/ai-game-devtools/triposr.md
+- Created: ai-game-devtools/triposr.md
+- Updated: ai-game-devtools-learning-checklist.md (marked TripoSR with date)
+- Updated: index.md (added entry in 3D Model section, bumped page count to 556)

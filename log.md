@@ -193,3 +193,9 @@
 - Created: ai-game-devtools/hunyuan-video.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 637→638)
+## [2026-04-20] ingest | InfiniteTalk
+- Source: https://github.com/MeiGen-AI/InfiniteTalk (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/infinite-talk.md
+- Created: ai-game-devtools/infinite-talk.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 638→639)

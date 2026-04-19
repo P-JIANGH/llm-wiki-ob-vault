@@ -438,7 +438,7 @@
 - [2026-04-19] ID-Animator | https://github.com/ID-Animator/ID-Animator
 - [2026-04-19] HY-Motion 1.0 | https://github.com/Tencent-Hunyuan/HY-Motion-1.0
 - [2026-04-19] Index-AniSora | https://github.com/bilibili/Index-anisora
-- [ ] SadTalker | https://github.com/Winfredy/SadTalker
+- [2026-04-19] SadTalker | https://github.com/Winfredy/SadTalker
 - [ ] SadTalker-Video-Lip-Sync | https://github.com/Zz-ww/SadTalker-Video-Lip-Sync
 - [ ] ToonComposer | https://github.com/TencentARC/ToonComposer
 - [ ] TaleCrafter | https://github.com/VideoCrafter/TaleCrafter

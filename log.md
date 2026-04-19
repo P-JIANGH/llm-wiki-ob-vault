@@ -60,3 +60,9 @@
 - Created: ai-game-devtools/index-anisora.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 619→620)
+## [2026-04-19] ingest | SadTalker
+- Cloned: ~/tmp/ai-game-devtools/sadtalker/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/sadtalker.md
+- Created: ai-game-devtools/sadtalker.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 620→621)

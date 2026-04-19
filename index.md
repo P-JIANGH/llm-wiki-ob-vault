@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-19 | Total pages: 620 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-19 | Total pages: 621 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -251,8 +251,9 @@
    247||||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
    248||||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
    249||||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
-   250||||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
-   251|||||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
+|||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
+|||||| [[ai-game-devtools/sadtalker]] — CVPR 2023 音频驱动肖像动画：3DMM系数管线(Audio→表情/姿态)+face-vid2vid渲染，支持参考视频/Still模式/GFPGAN增强/512px高分辨率，SD WebUI扩展+Gradio+Discord，Apache 2.0
+|||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
    252||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
    253||||||| [[ai-game-devtools/topo4d]] — ECCV 2024 + T-PAMI 2025 拓扑保持 4D 头部捕捉：3D 高斯中心绑定网格顶点→规则布线动态面部网格+8K毛孔级纹理，多视角时序图像输入，消除手动对齐
    254||| [[ai-game-devtools/unity-ai-with-chatgpt]] — haili1234 Unity ChatGPT+UnityChan 语音交互展示：ChatGPT API 对话 + Unity-chan 3D 角色 + TTS 语音输出 + CMake 跨平台构建(Andoird/iOS/macOS/Win)，99 stars

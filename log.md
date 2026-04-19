@@ -253,3 +253,9 @@
 - Created: ai-game-devtools/money-printer-turbo.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-20] ingest | Mora
+- Cloned: ~/tmp/ai-game-devtools/mora/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/mora.md
+- Created: ai-game-devtools/mora.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 648→649)

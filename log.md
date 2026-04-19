@@ -84,3 +84,10 @@
 - Created: ai-game-devtools/talecrafter.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 622→623)
+
+## [2026-04-19] ingest | ToonCrafter
+- Cloned: ~/tmp/ai-game-devtools/tooncrafter/
+- Created: raw/articles/ai-game-devtools/tooncrafter.md
+- Created: ai-game-devtools/tooncrafter.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

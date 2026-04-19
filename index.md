@@ -277,6 +277,7 @@
    271|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理
 ||||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
 ||||| [[ai-game-devtools/tooncomposer]] — TencentARC ICLR 2026 卡通制作生成式后关键帧工具：基于 Wan2.1-I2V-14B，草图+颜色掩码→完整卡通动画序列(480p/608p, 61帧)，~57GB VRAM，Gradio Web UI
+||||| [[ai-game-devtools/tooncrafter]] — CUHK+腾讯 SIGGRAPH Asia 2024 卡通插值扩散模型：起始帧+结束帧→16帧平滑动画(512x320)，DualRef VAE+3D UNet时间注意力，DDIM采样，~24GB VRAM，ComfyUI/Colab/Windows多平台支持
 |||| [[ai-game-devtools/talecrafter]] — VideoCrafter SIGGRAPH Asia 2023 交互式故事可视化工具：S2P故事→T2L布局→C-T2I可控图像→I2V动画四模块管线，多角色一致性，学术研究许可
 
 ## Texture (3D Asset Generation)

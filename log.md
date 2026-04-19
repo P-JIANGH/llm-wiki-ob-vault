@@ -48,3 +48,9 @@
 - Created: ai-game-devtools/id-animator.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 617→618)
+## [2026-04-19] ingest | HY-Motion 1.0
+- Cloned: ~/tmp/ai-game-devtools/hy-motion-1-0/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/hy-motion-1-0.md
+- Created: ai-game-devtools/hy-motion-1-0.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 618→619)

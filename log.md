@@ -72,3 +72,9 @@
 - Created: raw/articles/ai-game-devtools/sadtalker-video-lip-sync.md
 - Created: ai-game-devtools/sadtalker-video-lip-sync.md
 - Updated: ai-game-devtools-learning-checklist.md
+## [2026-04-19] ingest | ToonComposer
+- Source: GitHub web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/tooncomposer.md
+- Created: ai-game-devtools/tooncomposer.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 621→622)

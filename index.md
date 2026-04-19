@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-19 | Total pages: 621 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-19 | Total pages: 622 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -275,9 +275,10 @@
    269||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
    270||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
    271|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理
-   272||||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
-   273|
-   274|## Texture (3D Asset Generation)
+||||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
+|||| [[ai-game-devtools/tooncomposer]] — TencentARC ICLR 2026 卡通制作生成式后关键帧工具：基于 Wan2.1-I2V-14B，草图+颜色掩码→完整卡通动画序列(480p/608p, 61帧)，~57GB VRAM，Gradio Web UI
+
+## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |
    276|||| [[ai-game-devtools/character-gen]] — VAST-AI SIGGRAPH'24 单图→3D角色生成：多视角姿态规范化(A-pose)+两阶段管线(2D扩散→3D重建)，基于Tune-A-Video+TripoSR，Gradio演示+Mixamo绑骨支持
    277|||||| [[ai-game-devtools/animate3d]] — CASIA+阿里 NeurIPS 2024 3D模型动画生成：多视角视频扩散(MV-VDM)+4D-SDS精炼，Mesh/Gaussian Splatting双支持，~15分钟生成动画

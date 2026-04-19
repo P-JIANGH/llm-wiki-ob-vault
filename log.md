@@ -536,3 +536,9 @@
 - Created: ai-game-devtools/stableavatar.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added stableavatar entry)
+## [2026-04-19] ingest | AnimateAnyone
+- Cloned: ~/tmp/ai-game-devtools/animate-anyone/ (via gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/animate-anyone.md
+- Created: ai-game-devtools/animate-anyone.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added animate-anyone entry)

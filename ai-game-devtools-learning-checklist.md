@@ -427,7 +427,7 @@
 - [ ] UnityAIWithChatGPT | https://github.com/haili1234/UnityAIWithChatGPT
 
 ## Animation (17)
-- [ ] Animate Anyone | https://github.com/HumanAIGC/AnimateAnyone
+- [2026-04-19] Animate Anyone | https://github.com/HumanAIGC/AnimateAnyone
 - [ ] AnimateDiff | https://github.com/guoyww/animatediff/
 - [ ] AnimateLCM | https://github.com/G-U-N/AnimateLCM
 - [ ] Animate-X | https://github.com/Lucaria-Academy/Animate-X

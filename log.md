@@ -529,3 +529,10 @@
 - Created: ai-game-devtools/portrait-4d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added portrait-4d entry)
+
+## [2026-04-19] ingest | StableAvatar
+- Cloned: ~/tmp/ai-game-devtools/stableavatar/
+- Created: raw/articles/ai-game-devtools/stableavatar.md
+- Created: ai-game-devtools/stableavatar.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added stableavatar entry)

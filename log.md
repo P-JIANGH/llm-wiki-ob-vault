@@ -91,3 +91,10 @@
 - Created: ai-game-devtools/tooncrafter.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+
+## [2026-04-20] ingest | Wav2Lip
+- Cloned: ~/tmp/ai-game-devtools/wav2lip/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/wav2lip.md
+- Created: ai-game-devtools/wav2lip.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 623→624)

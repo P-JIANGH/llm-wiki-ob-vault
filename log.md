@@ -235,3 +235,9 @@
 - Created: ai-game-devtools/mini-gemini.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 645→646)
+## [2026-04-20] ingest | Mochi 1
+- Cloned: ~/tmp/ai-game-devtools/mochi-1/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/mochi-1.md
+- Created: ai-game-devtools/mochi-1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 646→647)

@@ -235,7 +235,8 @@
 |||| [[ai-game-devtools/index-anisora]] — Bilibili 开源动漫视频生成模型（IJCAI'25）：V1基于CogVideoX-5B/V2基于Wan2.1-14B，时空掩码模块+多引导控制（姿态/深度/线稿/音频），VBench运动平滑度99.34 SOTA，RLHF训练管线，1000万+数据支持
    222|
 || [[ai-game-devtools/mini-gemini]] — Mini-Gemini (MGM) 多模态 VLM 系列（2B~34B/MoE）：双视觉编码器+Patch Info Mining，同时支持图像理解与生成，Apache 2.0 代码
-   223|||||| [[ai-game-devtools/hotshot-xl]] — Natural Synthetics 文本到GIF扩散模型：SDXL兼容+LoRA直加载+ControlNet(canny/depth)条件，8FPS/1s默认，7档宽高比，Apache 2.0
+|||| [[ai-game-devtools/mochi-1]] — Genmo 10B 参数文本到视频扩散模型：AsymmDiT 非对称架构（视觉 dim 3072 / 文本 dim 1536）+ AsymmVAE（8x8 空间/6x 时间压缩），Apache 2.0，单卡需 ~60GB VRAM
+||||| [[ai-game-devtools/hotshot-xl]] — Natural Synthetics 文本到GIF扩散模型
 |||| [[ai-game-devtools/diffsynth-studio]] — ModelScope 开源扩散模型引擎：FLUX/Wan/Qwen-Image 等多模型推理+训练+极低显存管理(6GB)，Apache 2.0
 |||| [[ai-game-devtools/dolphin]] — BUAA+NTU 视频交互平台：LangChain Agent + 17 种视频工具（理解/处理/生成/音频/图像），多 GPU 分配 + YAML 配置驱动 + Gradio UI，支持中英双语
 |||| [[ai-game-devtools/dream-cinema]] — 清华大学电影迁移框架：3D AIGC 角色生成 + 相机轨迹优化 + 结构引导运动迁移，arXiv 2408.12601，MIT，代码未发布

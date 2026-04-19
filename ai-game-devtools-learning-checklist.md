@@ -467,7 +467,7 @@
 |- [2026-04-20] Lynx | https://github.com/bytedance/lynx
 |- [2026-04-20] MIMO | https://github.com/menyifang/MIMO
 |- [2026-04-20] Mini-Gemini | https://github.com/dvlab-research/MiniGemini
-- [ ] Mochi 1 | https://github.com/genmoai/models
+|- [2026-04-20] Mochi 1 | https://github.com/genmoai/models
 - [ ] MOFA-Video | https://github.com/MyNiuuu/MOFA-Video
 - [ ] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
 - [ ] Mora | https://github.com/lichao-sun/Mora

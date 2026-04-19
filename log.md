@@ -128,3 +128,9 @@
 - Created: ai-game-devtools/video-of-thought.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 628→629)
+## [2026-04-20] ingest | CogVLM
+- Cloned: ~/tmp/ai-game-devtools/cogvlm/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/cogvlm.md
+- Created: ai-game-devtools/cogvlm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 629→630)

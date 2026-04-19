@@ -289,3 +289,9 @@
 - Created: ai-game-devtools/open-sora.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 653→654)
+## [2026-04-20] ingest | Open-Sora Plan
+- Cloned: ~/tmp/ai-game-devtools/open-sora-plan/ (gitcode.com mirror; GitHub failed)
+- Created: raw/articles/ai-game-devtools/open-sora-plan.md
+- Created: ai-game-devtools/open-sora-plan.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 654→655)

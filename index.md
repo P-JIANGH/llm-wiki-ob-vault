@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 639 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 640 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -98,6 +98,7 @@
    98|||| [[ai-game-devtools/codef]] — 内容变形场视频处理（CVPR 2024 Highlight）：Canonical content field + temporal deformation field 联合优化，零训练将图像算法提升到视频，10GB VRAM |
     99|||| [[ai-game-devtools/cogvideox]] — THUDM/ZhipuAI 开源视频生成模型家族：CogVideoX1.5-5B(1360×768/16fps)+2B/5B，T2V/I2V 双模，3D Causal VAE，diffusers 最低 3.6GB(INT8)，Apache 2.0 |
 |||| [[ai-game-devtools/hunyuan-video]] — 腾讯混元 13B+ 参数开源视频生成模型：双流→单流 Full Attention Transformer + MLLM 文本编码器 + 3D VAE，专业评测综合排名 #1（运动质量 66.5%），720p 需 ~60GB VRAM，支持 FP8 量化/xDiT 多卡并行，Apache 2.0 |
+||||| [[ai-game-devtools/hunyuanvideo-1-5]] — 腾讯混元轻量级视频生成模型（8.3B 参数）：SSTA 选择性滑动注意力 + 3D Causal VAE，最低 14GB VRAM，CFG/Step 蒸馏 75% 加速 + 480→720→1080p 三级超分，Diffusers/ComfyUI/LightX2V 全支持，Tencent Hunyuan Community License |
     99|| [[ai-game-devtools/cogvlm]] — THUDM/ZhipuAI 开源 VLM 双模型：CogVLM-17B(10B视觉+7B语言,490×490)+CogAgent-18B(11B视觉+7B语言,1120×1120+GUI Agent)，MM-VET 52.8 SOTA，CVPR 2024 Highlight，INT4 仅需 11GB，Apache-2.0 |
     99||| [[ai-game-devtools/character-glm-6b]] — 聆心智能&清华大学 CoAI 角色扮演对话大模型：基于 ChatGLM2-6B 微调，7维属性+行为建模，一致性/拟人化/吸引力三维评估，角色扮演场景超越 GPT-3.5，不可商用 |
     99||| [[ai-game-devtools/chatgpt-maya]] — LouisRossouw Maya ChatGPT 代码生成工具：自然语言提示→GPT-3生成Maya Python代码→exec()直接执行，简单自动化可用、复杂请求不佳，需mayapy安装openai包 |

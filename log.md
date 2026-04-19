@@ -197,5 +197,11 @@
 - Source: https://github.com/MeiGen-AI/InfiniteTalk (web extract; GitHub/gitcode/gitee clone all failed)
 - Created: raw/articles/ai-game-devtools/infinite-talk.md
 - Created: ai-game-devtools/infinite-talk.md
-- Updated: ai-game-devtools-learning-checklist.md
+|- Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 638→639)
+## [2026-04-20] ingest | HunyuanVideo-1.5
+- Cloned: ~/tmp/ai-game-devtools/hunyuanvideo-1-5/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hunyuanvideo-1-5.md
+- Created: ai-game-devtools/hunyuanvideo-1-5.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 639→640)

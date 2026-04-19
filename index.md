@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 624 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 625 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -279,7 +279,8 @@
 ||||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
 ||||| [[ai-game-devtools/tooncomposer]] — TencentARC ICLR 2026 卡通制作生成式后关键帧工具：基于 Wan2.1-I2V-14B，草图+颜色掩码→完整卡通动画序列(480p/608p, 61帧)，~57GB VRAM，Gradio Web UI
 ||||| [[ai-game-devtools/tooncrafter]] — CUHK+腾讯 SIGGRAPH Asia 2024 卡通插值扩散模型：起始帧+结束帧→16帧平滑动画(512x320)，DualRef VAE+3D UNet时间注意力，DDIM采样，~24GB VRAM，ComfyUI/Colab/Windows多平台支持
-|||| [[ai-game-devtools/talecrafter]] — VideoCrafter SIGGRAPH Asia 2023 交互式故事可视化工具：S2P故事→T2L布局→C-T2I可控图像→I2V动画四模块管线，多角色一致性，学术研究许可
+||||| [[ai-game-devtools/talecrafter]] — VideoCrafter SIGGRAPH Asia 2023 交互式故事可视化工具：S2P故事→T2L布局→C-T2I可控图像→I2V动画四模块管线，多角色一致性，学术研究许可
+||||| [[ai-game-devtools/animate-a-story]] — AILab-CVC arXiv 2023 检索增强故事视频生成：Motion Structure Retrieval + 结构引导T2V两大模块，深度图运动控制 + 概念个性化跨片段角色一致性，学术研究许可
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

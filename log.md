@@ -92,6 +92,12 @@
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
 
+## [2026-04-20] ingest | Animate-A-Story
+- Source: https://github.com/VideoCrafter/Animate-A-Story (web extract; GitHub/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/animate-a-story.md
+- Created: ai-game-devtools/animate-a-story.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 624→625)
 ## [2026-04-20] ingest | Wav2Lip
 - Cloned: ~/tmp/ai-game-devtools/wav2lip/ (GitHub direct)
 - Created: raw/articles/ai-game-devtools/wav2lip.md

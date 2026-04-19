@@ -446,7 +446,7 @@
 - [2026-04-20] Wav2Lip | https://github.com/Rudrabha/Wav2Lip
 
 ## Video (59)
-- [ ] Animate-A-Story | https://github.com/VideoCrafter/Animate-A-Story
+- [2026-04-20] Animate-A-Story | https://github.com/VideoCrafter/Animate-A-Story
 - [ ] BackgroundRemover | https://github.com/nadermx/backgroundremover
 - [ ] CoDeF | https://github.com/qiuyu96/codef
 - [ ] CogVideoX | https://github.com/THUDM/CogVideo

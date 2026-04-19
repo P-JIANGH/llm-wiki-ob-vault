@@ -457,7 +457,7 @@
 - [2026-04-20] DreamCinema | https://github.com/chen-wl20/DreamCinema
 |- [2026-04-20] EDGE | https://github.com/Stanford-TML/EDGE
 |- [2026-04-20] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas
-|- [ ] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
+|- [2026-04-20] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
 - [ ] HuMo | https://github.com/Phantom-video/HuMo
 - [ ] HunyuanVideo | https://github.com/Tencent/HunyuanVideo
 - [ ] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5

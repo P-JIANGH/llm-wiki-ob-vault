@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 635 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 636 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -227,7 +227,8 @@
    221|||| [[ai-game-devtools/csgo]] — InstantX 内容-风格解耦图像生成框架：SDXL 基座 + IP-Adapter，4 内容 Token + 16/32 风格 Token，支持文本/图像/编辑驱动风格化合成，DeepSpeed Zero2 训练，HuggingFace 权重 |
 |||| [[ai-game-devtools/index-anisora]] — Bilibili 开源动漫视频生成模型（IJCAI'25）：V1基于CogVideoX-5B/V2基于Wan2.1-14B，时空掩码模块+多引导控制（姿态/深度/线稿/音频），VBench运动平滑度99.34 SOTA，RLHF训练管线，1000万+数据支持
    222|
-   223||||| [[ai-game-devtools/diffsynth-studio]] — ModelScope 开源扩散模型引擎：FLUX/Wan/Qwen-Image 等多模型推理+训练+极低显存管理(6GB)，Apache 2.0
+   223|||||| [[ai-game-devtools/hotshot-xl]] — Natural Synthetics 文本到GIF扩散模型：SDXL兼容+LoRA直加载+ControlNet(canny/depth)条件，8FPS/1s默认，7档宽高比，Apache 2.0
+|||| [[ai-game-devtools/diffsynth-studio]] — ModelScope 开源扩散模型引擎：FLUX/Wan/Qwen-Image 等多模型推理+训练+极低显存管理(6GB)，Apache 2.0
 |||| [[ai-game-devtools/dolphin]] — BUAA+NTU 视频交互平台：LangChain Agent + 17 种视频工具（理解/处理/生成/音频/图像），多 GPU 分配 + YAML 配置驱动 + Gradio UI，支持中英双语
 |||| [[ai-game-devtools/dream-cinema]] — 清华大学电影迁移框架：3D AIGC 角色生成 + 相机轨迹优化 + 结构引导运动迁移，arXiv 2408.12601，MIT，代码未发布
 | [[ai-game-devtools/edge]] — Stanford TML CVPR 2023 音乐驱动可编辑舞蹈生成：Transformer Decoder + Gaussian Diffusion + Jukebox 音乐特征 + FiLM 条件调制，支持关节级编辑和帧间插补，AIST++ 数据集

@@ -173,3 +173,9 @@
 - Created: ai-game-devtools/follow-your-canvas.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 634→635)
+## [2026-04-20] ingest | Hotshot-XL
+- Cloned: ~/tmp/ai-game-devtools/hotshot-xl/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hotshot-xl.md
+- Created: ai-game-devtools/hotshot-xl.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 635→636)

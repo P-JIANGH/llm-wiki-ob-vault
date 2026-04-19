@@ -241,3 +241,9 @@
 - Created: ai-game-devtools/mochi-1.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 646→647)
+## [2026-04-20] ingest | MOFA-Video
+- Cloned: ~/tmp/ai-game-devtools/mofa-video/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/mofa-video.md
+- Created: ai-game-devtools/mofa-video.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 646→647)

@@ -416,7 +416,7 @@
 - [2026-04-19] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
 - [2026-04-19] Linly-Talker | https://github.com/Kedreamix/Linly-Talker
 - [2026-04-19] LivePortrait | https://github.com/KwaiVGI/LivePortrait
-- [ ] MotionGPT | https://github.com/OpenMotionLab/MotionGPT
+- [2026-04-19] MotionGPT | https://github.com/OpenMotionLab/MotionGPT
 - [ ] MusePose | https://github.com/TMElyralab/MusePose
 - [ ] MuseTalk | https://github.com/TMElyralab/MuseTalk
 - [ ] MuseV | https://github.com/TMElyralab/MuseV

@@ -465,3 +465,9 @@
 - Created: ai-game-devtools/hunyuan-portrait.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 603→604)
+## [2026-04-19] ingest | HunyuanVideo-Avatar
+- Cloned: ~/tmp/ai-game-devtools/hunyuanvideo-avatar/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hunyuanvideo-avatar.md
+- Created: ai-game-devtools/hunyuanvideo-avatar.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry)

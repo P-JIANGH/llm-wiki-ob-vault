@@ -110,3 +110,9 @@
 - Created: ai-game-devtools/backgroundremover.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 625→626)
+## [2026-04-20] ingest | CoDeF
+- Cloned: ~/tmp/ai-game-devtools/codef/ (redirected to ant-research/CoDeF; GitHub direct)
+- Created: raw/articles/ai-game-devtools/codef.md
+- Created: ai-game-devtools/codef.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 626→627)

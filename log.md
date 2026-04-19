@@ -122,3 +122,9 @@
 - Created: ai-game-devtools/cogvideox.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 627→628)
+## [2026-04-20] ingest | Video-of-Thought
+- Cloned: ~/tmp/ai-game-devtools/video-of-thought/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/video-of-thought.md
+- Created: ai-game-devtools/video-of-thought.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 628→629)

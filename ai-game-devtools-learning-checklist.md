@@ -435,7 +435,7 @@
 - [2026-04-19] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
 - [2026-04-19] FaceFusion | https://github.com/facefusion/facefusion
 - [2026-04-19] GeneFace | https://github.com/yerfor/GeneFace
-- [ ] ID-Animator | https://github.com/ID-Animator/ID-Animator
+- [2026-04-19] ID-Animator | https://github.com/ID-Animator/ID-Animator
 - [ ] HY-Motion 1.0 | https://github.com/Tencent-Hunyuan/HY-Motion-1.0
 - [ ] Index-AniSora | https://github.com/bilibili/Index-anisora
 - [ ] SadTalker | https://github.com/Winfredy/SadTalker

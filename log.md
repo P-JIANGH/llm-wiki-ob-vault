@@ -42,3 +42,9 @@
 - Created: ai-game-devtools/geneface.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 617→618)
+## [2026-04-19] ingest | ID-Animator
+- Cloned: ~/tmp/ai-game-devtools/id-animator/
+- Created: raw/articles/ai-game-devtools/id-animator.md
+- Created: ai-game-devtools/id-animator.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 617→618)

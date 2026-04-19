@@ -434,7 +434,7 @@
 - [2026-04-19] AnimationGPT | https://github.com/fyyakaxyy/AnimationGPT
 - [2026-04-19] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
 - [2026-04-19] FaceFusion | https://github.com/facefusion/facefusion
-- [ ] GeneFace | https://github.com/yerfor/GeneFace
+- [2026-04-19] GeneFace | https://github.com/yerfor/GeneFace
 - [ ] ID-Animator | https://github.com/ID-Animator/ID-Animator
 - [ ] HY-Motion 1.0 | https://github.com/Tencent-Hunyuan/HY-Motion-1.0
 - [ ] Index-AniSora | https://github.com/bilibili/Index-anisora

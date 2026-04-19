@@ -36,3 +36,9 @@
 - Created: ai-game-devtools/facefusion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 616→617)
+## [2026-04-19] ingest | GeneFace
+- Cloned: ~/tmp/ai-game-devtools/geneface/ (gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/geneface.md
+- Created: ai-game-devtools/geneface.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 617→618)

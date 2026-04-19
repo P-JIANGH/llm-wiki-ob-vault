@@ -186,3 +186,10 @@
 - Created: ai-game-devtools/humo.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 636→637)
+
+## [2026-04-20] ingest | HunyuanVideo
+- Source: https://github.com/Tencent/HunyuanVideo (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/hunyuan-video.md
+- Created: ai-game-devtools/hunyuan-video.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 637→638)

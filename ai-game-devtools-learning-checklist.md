@@ -459,8 +459,8 @@
 |- [2026-04-20] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas
 |- [2026-04-20] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
 |- [2026-04-20] HuMo | https://github.com/Phantom-video/HuMo
-- [ ] HunyuanVideo | https://github.com/Tencent/HunyuanVideo
-- [ ] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
+|- [2026-04-20] HunyuanVideo | https://github.com/Tencent/HunyuanVideo
+|- [ ] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
 - [ ] InfiniteTalk | https://github.com/MeiGen-AI/InfiniteTalk
 - [ ] LongLive | https://github.com/NVlabs/LongLive
 - [ ] LTX-Video | https://github.com/Lightricks/LTX-Video

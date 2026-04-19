@@ -211,3 +211,9 @@
 - Created: ai-game-devtools/longlive.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 640→641)
+## [2026-04-20] ingest | LTX-Video — Lightricks DiT视频生成模型
+- Cloned: ~/tmp/ai-game-devtools/ltx-video/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/ltx-video.md
+- Created: ai-game-devtools/ltx-video.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 641→642)

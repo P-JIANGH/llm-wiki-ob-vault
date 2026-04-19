@@ -463,7 +463,7 @@
 |- [2026-04-20] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
 - [2026-04-20] InfiniteTalk | https://github.com/MeiGen-AI/InfiniteTalk
 - [2026-04-20] LongLive | https://github.com/NVlabs/LongLive
-- [ ] LTX-Video | https://github.com/Lightricks/LTX-Video
+- [2026-04-20] LTX-Video | https://github.com/Lightricks/LTX-Video
 - [ ] Lynx | https://github.com/bytedance/lynx
 - [ ] MIMO | https://github.com/menyifang/MIMO
 - [ ] Mini-Gemini | https://github.com/dvlab-research/MiniGemini

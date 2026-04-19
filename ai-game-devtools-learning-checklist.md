@@ -413,7 +413,7 @@
 |- [2026-04-19] Hallo2 | https://github.com/fudan-generative-vision/hallo2
 |- [2026-04-19] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
 - [2026-04-19] HunyuanVideo-Avatar | https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar
-- [ ] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
+- [2026-04-19] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
 - [ ] Linly-Talker | https://github.com/Kedreamix/Linly-Talker
 - [ ] LivePortrait | https://github.com/KwaiVGI/LivePortrait
 - [ ] MotionGPT | https://github.com/OpenMotionLab/MotionGPT

@@ -238,7 +238,8 @@
 ||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
 ||| [[ai-game-devtools/hallo2]] — 复旦大学 ICLR 2025 长时长高分辨率音频驱动肖像动画：两阶段管线(扩散动画+CodeFormer超分)，支持4K/最长1小时输出，基于SD 1.5+AnimateDiff v2+Wav2Vec+InsightFace
 |||| [[ai-game-devtools/hunyuan-portrait]] — 腾讯混元 CVPR 2025 视频驱动肖像动画：SVD UNet3D 主干+DINOv2 身份编码+ArcFace 特征+HeadExpression/HeadPose 运动解耦，IntensityAwareMotionRefiner 精炼，软掩码贴回原分辨率，单3090可运行
-|||| [[ai-game-devtools/hunyuanvideo-avatar]] — 腾讯混元 MM-DiT 架构音频驱动多人角色动画：角色图像注入模块+情感控制(AEM)+面部感知音频适配器(FAA)独立注入，支持写实/卡通/3D/拟人多风格，10GB-96GB VRAM 弹性配置
+||||| [[ai-game-devtools/hunyuanvideo-avatar]] — 腾讯混元 MM-DiT 架构音频驱动多人角色动画：角色图像注入模块+情感控制(AEM)+面部感知音频适配器(FAA)独立注入，支持写实/卡通/3D/拟人多风格，10GB-96GB VRAM 弹性配置
+|||| [[ai-game-devtools/intrinsic-avatar]] — CVPR 2024 单目视频动态人体逆渲染：显式光线追踪+物理 PBR 材质分解(albedo/roughness/metallic/normal)，SMPL 参数化驱动+LBS 变形+NeRFAcc 重要性采样，支持新视角合成+HDRI 重打光
 
 |||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

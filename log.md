@@ -471,3 +471,9 @@
 - Created: ai-game-devtools/hunyuanvideo-avatar.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry)
+## [2026-04-19] ingest | IntrinsicAvatar
+- Cloned: ~/tmp/ai-game-devtools/intrinsic-avatar/ (GitHub web extract; clone failed)
+- Created: raw/articles/ai-game-devtools/intrinsic-avatar.md
+- Created: ai-game-devtools/intrinsic-avatar.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry)

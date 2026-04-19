@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-19 | Total pages: 608 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-19 | Total pages: 609 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -246,6 +246,7 @@
 |||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
 |||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
 |||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
+|||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
 
 ||||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

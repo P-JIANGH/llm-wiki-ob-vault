@@ -522,3 +522,10 @@
 - Created: ai-game-devtools/musev.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added musev entry)
+
+## [2026-04-19] ingest | Portrait4D
+- Cloned: ~/tmp/ai-game-devtools/portrait-4d/
+- Created: raw/articles/ai-game-devtools/portrait-4d.md
+- Created: ai-game-devtools/portrait-4d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added portrait-4d entry)

@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 625 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 626 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -161,6 +161,7 @@
    160||||| [[ai-game-devtools/conceptlab]] — Tel Aviv University VLM引导创意概念生成：Kandinsky 2.1 扩散先验 + BLIP VLM 自适应负约束，生成从未存在的新概念/进化混合/风格创造，MIT |
    161|||| [[ai-game-devtools/controlnet]] — ICCV 2023：零卷积架构(SD encoder locked+trainable copy)控制扩散模型，9种条件图(canny/depth/pose/seg/normal等)，可组合多ControlNet并行，支持Guess Mode无提示生成 |
    162|| [[ai-game-devtools/aworld]] — inclusionAI 多智能体 Agent Harness 框架：CAST 代码分析 + Benchmark-Driven Development + Self-Evolution Loop，GAIA/OSWorld/XBench 多项 Leaderboard 1st，MIT |
+|| [[ai-game-devtools/backgroundremover]] — nadermx U2Net AI 抠图工具：CLI+HTTP API+Python 库+Docker 支持，图像/视频/批量/管道模式，Alpha 精细抠边，ProRes 4444 透明视频输出，GPU 加速 5-10x，MIT |
    163|| [[ai-game-devtools/cradle]] — BAAI 游戏/软件 Agent 框架： screenshot→LLM推理→键鼠动作，RDR2/Stardew/CitiesSkylines/Dealer'sLife2 + Chrome/Outlook/Capcut，Skill Registry + Planner + Memory + SAM/GroundingDINO 视觉，MIT |
    164|| [[ai-game-devtools/agent-group-chat]] —
    165||| [[ai-game-devtools/longcat-flash]] — 美团 560B MoE LLM（激活 27B），ScMoE 架构 >100 TPS，128K context，Agent 任务 SOTA（τ²-Bench 73.68），MIT |

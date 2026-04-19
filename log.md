@@ -104,3 +104,9 @@
 - Created: ai-game-devtools/wav2lip.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 623→624)
+## [2026-04-20] ingest | BackgroundRemover
+- Cloned: ~/tmp/ai-game-devtools/backgroundremover/ (gitcode.com mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/backgroundremover.md
+- Created: ai-game-devtools/backgroundremover.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 625→626)

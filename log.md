@@ -140,3 +140,10 @@
 - Created: ai-game-devtools/conr.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 630→631)
+
+## [2026-04-20] ingest | DiffSynth-Studio
+- Cloned: ~/tmp/ai-game-devtools/diffutoon/
+- Created: raw/articles/ai-game-devtools/diffsynth-studio.md
+- Created: ai-game-devtools/diffsynth-studio.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-19 | Total pages: 614 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-19 | Total pages: 615 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -627,6 +627,7 @@
 ||- [[ai-game-devtools/animatediff]] — 上海AI实验室 ICLR 2024 Spotlight 即插即用动画生成器：Motion Module 插入 SD UNet 时序层，零初始化参数，支持 v1/v2/v3/SDXL 四版本 + MotionLoRA 摄像机控制 + SparseCtrl 稀疏条件，社区模型即插即用无需微调
 ||- [[ai-game-devtools/animatelcm]] — CUHK-MMLab 快速动画生成框架：解耦一致性学习范式，SD15/SVD/I2V 三模型，25 步扩散→1-8 步 LCM 推理，支持 ComfyUI/IP-Adapter/ControlNet 零样本接入，MIT
 |- [[ai-game-devtools/animate-x]] — Ant Group ICLR 2025 通用角色动画框架：LDM + Pose Indicator（隐式CLIP特征+显式输入模拟），支持人类+拟人化角色（游戏/动画/海报），A²Bench基准，超越AnimateAnyone真人局限
+| [[ai-game-devtools/animation-gpt]] — fyyakaxyy 格斗风格文本到角色动画生成：基于 MotionGPT 训练，首创 CombatMotion 数据集（CMP 8,700 格斗动画×3文本标注 + CMR 14,883 原始），游戏资产 FBX→SMPL 重定向→GPT-4 标注管线，MIT
 |||- [[ai-game-devtools/fooocus]] lllyasviel SDXL 图像生成工具：离线/免费/零配置，<3 次点击出图，4GB VRAM 可用，GPT-2 提示词扩展引擎，自研 inpaint 模型 + 负 ADM 引导，GPL v3
 ||- [[ai-game-devtools/img2img-turbo]] CMU+Adobe 单步扩散图像翻译工具：SD-Turbo+LoRA+对抗学习，pix2pix-turbo(配对)/CycleGAN-Turbo(非配对)，512×512 仅 0.11s(A100)，支持草图→图像/边线→图像/天气迁移
 || [[ai-game-devtools/hua]] — BlinkDL AI 图像编辑器前端：Canvas 画布式 SD 操作界面（txt2img/img2img/修复/扩展），纯 Vanilla JS 168KB 单文件，通过 CORS 连接本地 AUTOMATIC1111 WebUI API，Apache 2.0

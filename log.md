@@ -560,3 +560,10 @@
 - Created: ai-game-devtools/unity-ai-with-chatgpt.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added unity-ai-with-chatgpt entry, pages 611→612)
+
+## [2026-04-19] ingest | AnimateDiff
+- Cloned: ~/tmp/ai-game-devtools/animatediff/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/animatediff.md
+- Created: ai-game-devtools/animatediff.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry)

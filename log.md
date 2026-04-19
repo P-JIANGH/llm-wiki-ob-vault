@@ -489,3 +489,9 @@
 - Created: ai-game-devtools/liveportrait.md
 - Updated: index.md (added Avatar entry)
 - NOTE: Checklist NOT updated (clone failed, will retry next cron)
+## [2026-04-19] ingest | LivePortrait
+- Cloned: ~/tmp/ai-game-devtools/live-portrait/
+- Created: raw/articles/ai-game-devtools/live-portrait.md
+- Created: ai-game-devtools/liveportrait.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added liveportrait entry)

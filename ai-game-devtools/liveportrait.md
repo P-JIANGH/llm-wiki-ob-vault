@@ -1,65 +1,73 @@
 ---
-title: LivePortrait — 高效肖像动画
+title: LivePortrait — 快手高效肖像动画框架
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [avatar, tool, open-source, animation, ai-model]
-sources: [raw/articles/ai-game-devtools/liveportrait.md]
+tags: [avatar, tool, open-source, video, ai]
+sources:
+  - raw/articles/ai-game-devtools/live-portrait.md
 ---
 
-# LivePortrait: Efficient Portrait Animation
+# LivePortrait — 快手高效肖像动画框架
 
 ## 概述
+LivePortrait 是快手（Kuaishou）开源的高效肖像动画框架，使用单个驱动视频或图像驱动肖像图像/视频生成自然的面部动画。核心创新在于 **Stitching（缝合）** 和 **Retargeting（重定向）** 控制技术。
 
-LivePortrait 是快手（Kuaishou Technology）联合 USTC 和复旦大学开发的**高效肖像动画**工具，2024 年 7 月开源。通过 stitching 和 retargeting 控制技术，将静态人像照片（人、猫、狗）配合驱动视频/图像生成动态肖像视频，支持 image-to-video 和 video-to-video 两种工作流。
+## 关键特性
 
-## 核心架构
-
-- **Stitching & Retargeting 控制**: 核心机制，将驱动视频的面部动作精确映射到源肖像上，保持身份一致性
-- **双模式推理**: Humans 模式（通用人像）+ Animals 模式（猫狗肖像，基于 X-Pose 检测器）
-- **Motion Template (.pkl)**: 预生成的运动模板文件，支持快速推理和隐私保护（无需传递原始驱动视频）
-- **Image-driven mode**: 支持用静态图像而非视频作为驱动输入
-- **Regional control**: 可精确控制面部特定区域的动作
-
-## 技术特点
-
-| 维度 | 细节 |
+| 特性 | 说明 |
 |------|------|
-| 输入 | 方形肖像照片 + 驱动视频/图像/.pkl 模板 |
-| 输出 | MP4 视频 |
-| 推理入口 | `inference.py` / `inference_animals.py` |
-| 平台支持 | Linux (NVIDIA), Windows (NVIDIA), macOS (Apple Silicon) |
-| 加速方案 | torch.compile (20-30% 提速，首次编译约 1 分钟) |
-| 框架 | PyTorch 2.3.0, Python 3.10 |
-| 模型下载 | HuggingFace (KlingTeam/LivePortrait) |
-| 用户界面 | Gradio (app.py / app_animals.py) |
+| 图像/视频输入 | 支持静态照片和视频作为源输入 |
+| 驱动模式 | 视频驱动、图像驱动、Motion Template (.pkl) 驱动 |
+| Stitching 控制 | 将动画面部与原图背景无缝融合 |
+| Retargeting 控制 | 通过参数缩放精确控制表情/姿态强度 |
+| 多主体支持 | 人类（Humans mode）、猫/狗（Animals mode） |
+| 自动裁剪 | `--flag_crop_driving_video` 自动 1:1 裁剪驱动视频 |
+| torch.compile 加速 | 首次推理优化后提速 20-30% |
+| 跨平台 | Linux / Windows / macOS (Apple Silicon MPS) |
 
-## 平台兼容性
+## 架构
 
-- **Linux/Windows NVIDIA**: 完整功能，含 Animals 模式
-- **macOS Apple Silicon**: Humans 模式可用（需 PYTORCH_ENABLE_MPS_FALLBACK=1），Animals 模式不支持
-- **Windows CUDA 12.4+**: 可能不稳定，建议降级到 CUDA 11.8
+### 核心管线（`live_portrait_pipeline.py`）
+1. **面部检测与关键点**: InsightFace (RetinaFace) → 106 点面部 landmarks
+2. **外观特征提取**: 从源图像提取 appearance features
+3. **运动参数提取**: 从驱动视频提取 3DMM 运动参数
+4. **Stitching 模块**: 动画面部与原图背景融合
+5. **Retargeting 模块**: 表情/姿态强度参数化控制
+6. **渲染输出**: 生成动画帧 → FFmpeg 视频编码
+
+### Animals Mode
+- 使用 **X-Pose**（IDEA-Research）进行动物关键点检测
+- 需要编译 CUDA OP `MultiScaleDeformableAttention`
+- `--driving_multiplier` 控制动画幅度
+
+## 技术栈
+- **Python 3.10 + PyTorch**: 深度学习框架
+- **ONNX Runtime GPU**: 推理加速
+- **InsightFace**: 面部检测与关键点（内置依赖）
+- **X-Pose**: 动物关键点检测（Animals mode 可选）
+- **Gradio**: Web UI 界面
+- **FFmpeg**: 视频编解码
+
+## 许可证
+Apache 2.0
 
 ## 社区生态
-
-- **FasterLivePortrait**: TensorRT 优化版本，提升推理速度
-- **ComfyUI-AdvancedLivePortrait**: ComfyUI 节点集成，支持精确肖像编辑
-- **Windows 一键安装器**: 自动更新支持
-- **LivePortrait-Mcp**: Model Context Protocol 服务器封装
-- **Remotion 封装**: React/Next.js 集成方案
-- **移动端部署**: MLC-LLM 集成
-- 被广泛应用于快手、抖音、剪映、微信视频号等平台
-
-## 与同类工具差异
-
-- 对比 [[ai-game-devtools/hallo]]：LivePortrait 专注图像/视频驱动的面部重演（无需音频），Hallo 是音频驱动的说话人生成（需语音输入），两者互补
-- 对比 [[ai-game-devtools/echomimic]]：EchoMimic 同时支持音频和地标驱动，LivePortrait 仅支持视觉驱动但速度更快、平台兼容性更广（含 macOS）
-- 对比 [[ai-game-devtools/ditto-talkinghead]]：Ditto 基于 S2G-MDDiffusion 做音频驱动姿态生成并引用 LivePortrait 做地标操作；LivePortrait 是纯视觉驱动的端到端方案
-- 独特优势：Motion Template 系统、跨平台支持、Animals 模式（猫狗肖像）
+- **FasterLivePortrait**: TensorRT 加速版本
+- **ComfyUI-AdvancedLivePortrait**: ComfyUI 实时预览节点
+- **FacePoke**: 鼠标实时控制头部变换应用
+- **FaceFusion 3.0**: 集成 LivePortrait 作为 expression_restorer/face_editor
+- **sd-webui-live-portrait**: Stable Diffusion WebUI 扩展插件
+- 多个 HuggingFace Spaces 和 Replicate 在线演示
 
 ## 相关链接
-
 - GitHub: https://github.com/KwaiVGI/LivePortrait
-- 论文: https://arxiv.org/pdf/2407.03168
-- 项目主页: https://liveportrait.github.io/
-- HuggingFace: https://huggingface.co/KlingTeam/LivePortrait
+- arXiv: https://arxiv.org/pdf/2407.03168
+- 项目主页: https://liveportrait.github.io
+- HuggingFace: https://huggingface.co/spaces/KlingTeam/LivePortrait
+
+## 与同类工具比较
+- 与 [[ai-game-devtools/hallo]]（复旦音频驱动）不同，LivePortrait 使用**视频/图像驱动**而非音频驱动
+- 与 [[ai-game-devtools/hallo2]] 相比，LivePortrait 支持精确的表情/姿态参数编辑（retargeting）
+- 与 [[ai-game-devtools/echo-mimic]]（蚂蚁音频驱动）互补，分别面向视觉驱动和音频驱动场景
+- [[ai-game-devtools/chatdollkit]] 可集成 LivePortrait 作为 Avatar 渲染后端

@@ -508,3 +508,10 @@
 - Created: ai-game-devtools/musepose.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added musepose entry)
+
+## [2026-04-19] ingest | MuseTalk
+- Cloned: ~/tmp/ai-game-devtools/musetalk/
+- Created: raw/articles/ai-game-devtools/musetalk.md
+- Created: ai-game-devtools/musetalk.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added musetalk entry)

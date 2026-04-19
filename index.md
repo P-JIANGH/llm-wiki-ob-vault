@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-19 | Total pages: 607 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-19 | Total pages: 608 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -243,9 +243,10 @@
 |||| [[ai-game-devtools/liveportrait]] — 快手高效视频驱动肖像动画：Stitching+Retargeting 控制、图像/视频双模输入、Animals mode（猫/狗）、Motion Template 隐私保护、跨平台支持、Apache 2.0
 ||||| [[ai-game-devtools/motiongpt]] — OpenMotionLab NeurIPS 2023 统一运动-语言模型：VQ-VAE将3D运动离散化为token+T5/GPT-2联合训练，支持文本到运动/运动字幕/运动预测/运动补间四任务，MIT
 |||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
-||||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
+|||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
+|||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
 
-|||| [[ai-game-devtools/disco-diffusion]]
+||||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |
 ||| [[ai-game-devtools/segment-anything-2]] — Meta FAIR 通用图像/视频分割基础模型：Hiera backbone + streaming memory，实时视频分割，4 种尺寸（38.9M-224.4M），最高 91 FPS (A100)，SA-V 数据集，Apache 2.0 |
 ||| [[ai-game-devtools/hivision-id-photos]]

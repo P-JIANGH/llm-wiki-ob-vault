@@ -418,7 +418,7 @@
 - [2026-04-19] LivePortrait | https://github.com/KwaiVGI/LivePortrait
 - [2026-04-19] MotionGPT | https://github.com/OpenMotionLab/MotionGPT
 - [2026-04-19] MusePose | https://github.com/TMElyralab/MusePose
-- [ ] MuseTalk | https://github.com/TMElyralab/MuseTalk
+- [2026-04-19] MuseTalk | https://github.com/TMElyralab/MuseTalk
 - [ ] MuseV | https://github.com/TMElyralab/MuseV
 - [ ] Portrait4D | https://github.com/YuDeng/Portrait-4D
 - [ ] StableAvatar | https://github.com/Francis-Rings/StableAvatar

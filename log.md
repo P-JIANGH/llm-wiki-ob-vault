@@ -167,3 +167,9 @@
 - Created: ai-game-devtools/edge.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 633→634)
+## [2026-04-20] ingest | Follow-Your-Canvas
+- Source: https://github.com/mayuelala/FollowYourCanvas (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/follow-your-canvas.md
+- Created: ai-game-devtools/follow-your-canvas.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 634→635)

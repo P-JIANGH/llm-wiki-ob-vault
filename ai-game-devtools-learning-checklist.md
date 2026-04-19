@@ -471,7 +471,7 @@
 |- [2026-04-20] MOFA-Video | https://github.com/MyNiuuu/MOFA-Video
 |- [2026-04-20] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
 - [2026-04-20] Mora | https://github.com/lichao-sun/Mora
-- [ ] MotionClone | https://github.com/Bujiazi/MotionClone
+|- [2026-04-20] MotionClone | https://github.com/Bujiazi/MotionClone
 - [ ] MotionDirector | https://github.com/showlab/MotionDirector
 - [ ] Mov2mov | https://github.com/Scholar01/sd-webui-mov2mov
 - [ ] MoviiGen 1.1 | https://github.com/ZulutionAI/MoviiGen1.1

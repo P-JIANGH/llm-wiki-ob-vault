@@ -205,3 +205,9 @@
 - Created: ai-game-devtools/hunyuanvideo-1-5.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 639→640)
+## [2026-04-20] ingest | LongLive
+- Cloned: ~/tmp/ai-game-devtools/longlive/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/longlive.md
+- Created: ai-game-devtools/longlive.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 640→641)

@@ -459,3 +459,9 @@
 - Created: ai-game-devtools/hallo2.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 602→603)
+## [2026-04-19] ingest | HunyuanPortrait
+- Cloned: ~/tmp/ai-game-devtools/hunyuan-portrait/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/hunyuan-portrait.md
+- Created: ai-game-devtools/hunyuan-portrait.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Avatar entry, pages 603→604)

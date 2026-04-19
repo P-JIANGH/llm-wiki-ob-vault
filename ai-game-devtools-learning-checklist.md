@@ -411,7 +411,7 @@
 - [2026-04-18] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
 |- [2026-04-19] Hallo | https://github.com/fudan-generative-vision/hallo
 |- [2026-04-19] Hallo2 | https://github.com/fudan-generative-vision/hallo2
-|- [ ] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
+|- [2026-04-19] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
 - [ ] HunyuanVideo-Avatar | https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar
 - [ ] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
 - [ ] Linly-Talker | https://github.com/Kedreamix/Linly-Talker

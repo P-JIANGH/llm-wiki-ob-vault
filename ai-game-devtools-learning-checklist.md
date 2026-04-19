@@ -469,7 +469,7 @@
 |- [2026-04-20] Mini-Gemini | https://github.com/dvlab-research/MiniGemini
 |- [2026-04-20] Mochi 1 | https://github.com/genmoai/models
 |- [2026-04-20] MOFA-Video | https://github.com/MyNiuuu/MOFA-Video
-- [ ] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
+|- [2026-04-20] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
 - [ ] Mora | https://github.com/lichao-sun/Mora
 - [ ] MotionClone | https://github.com/Bujiazi/MotionClone
 - [ ] MotionDirector | https://github.com/showlab/MotionDirector

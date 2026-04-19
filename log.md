@@ -247,3 +247,9 @@
 - Created: ai-game-devtools/mofa-video.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 646→647)
+## [2026-04-20] ingest | MoneyPrinterTurbo
+- Cloned: ~/tmp/ai-game-devtools/money-printer-turbo/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/money-printer-turbo.md
+- Created: ai-game-devtools/money-printer-turbo.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

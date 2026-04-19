@@ -154,3 +154,10 @@
 - Created: ai-game-devtools/dolphin.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 631→632)
+
+## [2026-04-20] ingest | DreamCinema
+- Cloned: ~/tmp/ai-game-devtools/dream-cinema/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/dream-cinema.md
+- Created: ai-game-devtools/dream-cinema.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 632→633)

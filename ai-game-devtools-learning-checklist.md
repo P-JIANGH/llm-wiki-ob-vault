@@ -432,7 +432,7 @@
 |- [2026-04-19] AnimateLCM | https://github.com/G-U-N/AnimateLCM
 |- [2026-04-19] Animate-X | https://github.com/Lucaria-Academy/Animate-X
 - [2026-04-19] AnimationGPT | https://github.com/fyyakaxyy/AnimationGPT
-- [ ] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
+- [2026-04-19] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
 - [ ] FaceFusion | https://github.com/facefusion/facefusion
 - [ ] GeneFace | https://github.com/yerfor/GeneFace
 - [ ] ID-Animator | https://github.com/ID-Animator/ID-Animator

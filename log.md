@@ -548,3 +548,9 @@
 - Created: ai-game-devtools/style-avatar3d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added style-avatar3d entry)
+## [2026-04-19] ingest | Topo4D
+- Source: https://github.com/XuanchenLi/Topo4D (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/topo4d.md
+- Created: ai-game-devtools/topo4d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added topo4d entry, pages 610→611)

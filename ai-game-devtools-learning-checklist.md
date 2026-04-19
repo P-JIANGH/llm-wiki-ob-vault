@@ -423,7 +423,7 @@
 - [2026-04-19] Portrait4D | https://github.com/YuDeng/Portrait-4D
 - [2026-04-19] StableAvatar | https://github.com/Francis-Rings/StableAvatar
 - [2026-04-19] StyleAvatar3D | https://github.com/icoz69/StyleAvatar3D
-- [ ] Topo4D | https://github.com/XuanchenLi/Topo4D
+- [2026-04-19] Topo4D | https://github.com/XuanchenLi/Topo4D
 - [ ] UnityAIWithChatGPT | https://github.com/haili1234/UnityAIWithChatGPT
 
 ## Animation (17)

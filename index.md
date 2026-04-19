@@ -631,6 +631,7 @@
 ||||| [[ai-game-devtools/layer-diffusion]] — lllyasviel 原生透明图像层扩散：latent transparency 编码 alpha 通道，SDXL/SD1.5 双架构支持，Forge/Diffusers CLI 双实现，8GB VRAM 可用
 || [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro AUTOMATIC1111 WebUI 简体中文本地化扩展：0313版本，覆盖 ControlNet/openpose-editor/SAM 等9个扩展翻译，AI辅助翻译（ChatGPT+有道），双模式（纯中文/中英双语）
 || [[ai-game-devtools/storymaker]] — RED-AIGC 多角色一致性图像生成：InsightFace 面部编码 + CLIP ViT-H-14 视觉特征 + LoRA-IP 注意力注入 SDXL，支持最多 3 角色同场景 + 服装迁移，Apache 2.0
+||| [[ai-game-devtools/style-avatar3d]] — 3D 风格化头像生成：预训练图文扩散模型生成多视角训练数据 + StyleGAN 潜在扩散，支持图像输入→多风格 3D avatar，代码未开源（公司政策），MIT
 ||| [[ai-game-devtools/streamdiffusion]] — cumulo-autumn 实时交互图像生成管线：Stream Batch/RCFG/相似度过滤/TensorRT 加速，SD-turbo 达 106 FPS，支持 txt2img/img2img/vid2vid，Apache 2.0
 ||||| [[ai-game-devtools/syncdreamer]] — HKU 多视角扩散模型：单张 RGBA 输入 → 16 视角同步生成（DepthWiseAttention 跨视角一致性），支持 NeuS/NeRF 3D 重建 → mesh 导出，MIT
 ||||| [[ai-game-devtools/zero-1-to-3]] — Columbia Univ ICCV 2023 单图→3D 新视角合成：相机位姿条件化 SD 微调（CLIP 图像编码+hybrid 条件），Zero123-XL 变体，22GB VRAM，解决 Janus 问题，MIT

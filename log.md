@@ -542,3 +542,9 @@
 - Created: ai-game-devtools/animate-anyone.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added animate-anyone entry)
+## [2026-04-19] ingest | StyleAvatar3D
+- Cloned: ~/tmp/ai-game-devtools/style-avatar3d/
+- Created: raw/articles/ai-game-devtools/style-avatar3d.md
+- Created: ai-game-devtools/style-avatar3d.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added style-avatar3d entry)

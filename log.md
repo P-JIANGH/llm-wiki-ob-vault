@@ -179,3 +179,10 @@
 - Created: ai-game-devtools/hotshot-xl.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 635→636)
+
+## [2026-04-20] ingest | HuMo
+- Source: https://github.com/Phantom-video/HuMo (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/humo.md
+- Created: ai-game-devtools/humo.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 636→637)

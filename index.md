@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 636 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 637 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -122,8 +122,9 @@
    119|||||||- [[ai-game-devtools/hunyuanimage-3-0]] — 腾讯混元原生多模态 MoE 图像模型（80B 总参/13B 激活）：自回归架构（非 DiT）、Prompt Self-Rewrite、CoT 思维链、图文到图像编辑、多图融合，3×80GB 可运行 Base 版
    120|||||||- [[ai-game-devtools/nextstep-1]] — StepFun 14B 自回归图像生成模型：连续 Token（非 VQ 离散化）+ Qwen2.5-14B 骨干 + 157M Flow Matching Head 双头架构，统一 next-token 预测框架，ICLR 2026 Oral
    121|||||| [[ai-game-devtools/hunyuan-gamecraft]] — 腾讯混元游戏视频生成：参考图+文本+键鼠动作→生成连贯游戏录像，混合历史条件+模型蒸馏(8步)，1M+ AAA游戏训练，HuggingFace开源 |
-||||| [[ai-game-devtools/hy-motion-1-0]] — 腾讯混元十亿参数文本到3D动作生成模型：DiT+Flow Matching架构，1.0B标准版/0.46B轻量版，>3000小时预训练+RLHF，SMPL骨骼输出，需24-26GB VRAM |
-   122||||| [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成模型：文本/图像→360°全景图→分层3D mesh（背景+2层前景+天空），可导出Draco压缩mesh用于游戏引擎，BRISQUE/NIQE/CLIP 全面SOTA，Apache 2.0 |
+|||||| [[ai-game-devtools/hy-motion-1-0]] — 腾讯混元十亿参数文本到3D动作生成模型：DiT+Flow Matching架构，1.0B标准版/0.46B轻量版，>3000小时预训练+RLHF，SMPL骨骼输出，需24-26GB VRAM |
+|||||| [[ai-game-devtools/humo]] — 清华&字节跳动人物中心视频生成模型：17B/1.7B双版本，文本+图像+音频多模态条件控制，基于Wan2.1+Whisper，HuMoSet数据集，720P推荐，HuggingFace权重
+|||||| [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成模型：文本/图像→360°全景图→分层3D mesh（背景+2层前景+天空），可导出Draco压缩mesh用于游戏引擎，BRISQUE/NIQE/CLIP 全面SOTA，Apache 2.0 |
    123|||||| [[ai-game-devtools/hunyuanworld-voyager]] — 腾讯混元 Voyager 可探索3D世界视频生成：单图→世界一致RGB-D视频+相机路径控制，WorldScore Benchmark综合第1（77.62），支持点云导出，Apache 2.0 |
    124|||||||- [[ai-game-devtools/instantid]] — InstantX Team/小红书 零样本身份保留图像生成：单图即可保持面部特征+文本可控，无需微调，IdentityNet(ControlNet)+IP-Adapter架构，LCM加速兼容，Kolors适配，Apache 2.0
    125||||||| [[ai-game-devtools/pulid]] — ByteDance NeurIPS 2024 零样本身份保留图像生成：对比对齐+注意力注入，单图即生成，支持 SDXL/FLUX，12GB VRAM 可运行，ID 保真度 +5pp(v0.9.1)

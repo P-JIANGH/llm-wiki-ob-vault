@@ -477,7 +477,7 @@
 |- [2026-04-20] MoviiGen 1.1 | https://github.com/ZulutionAI/MoviiGen1.1
 |- [2026-04-20] Open-Sora | https://github.com/hpcaitech/Open-Sora
 |- [2026-04-20] Open-Sora | https://github.com/PKU-YuanGroup/Open-Sora-Plan
-- [ ] Ovi | https://github.com/character-ai/Ovi
+|- [2026-04-20] Ovi | https://github.com/character-ai/Ovi
 - [ ] Ruyi | https://github.com/IamCreateAI/Ruyi-Models
 - [ ] ShortGPT | https://github.com/RayVentura/ShortGPT
 - [ ] Step-Video-T2V | https://github.com/stepfun-ai/Step-Video-T2V

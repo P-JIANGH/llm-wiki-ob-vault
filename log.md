@@ -295,3 +295,9 @@
 - Created: ai-game-devtools/open-sora-plan.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 654→655)
+## [2026-04-20] ingest | Ovi
+- Cloned: ~/tmp/ai-game-devtools/ovi/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/ovi.md
+- Created: ai-game-devtools/ovi.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 655→656)

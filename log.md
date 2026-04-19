@@ -13,3 +13,9 @@
 - Created: ai-game-devtools/animatelcm.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 612→613)
+## [2026-04-19] ingest | Animate-X
+- Source: GitHub + arXiv paper (GitHub clone failed, web extract fallback used)
+- Created: raw/articles/ai-game-devtools/animate-x.md
+- Created: ai-game-devtools/animate-x.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry)

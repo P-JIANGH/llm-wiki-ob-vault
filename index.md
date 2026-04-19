@@ -234,269 +234,270 @@
    234|||| [[ai-game-devtools/emovoca]] — WACV 2025 语音驱动情感 3D 说话头像：Spiral Autoencoder 双编码(说话+情感)共享解码器 + FLAME 3D 人脸模型 + Wav2Vec2 音频特征，11 种情绪/3 级强度可控，CC BY-NC 4.0 |
    235|||| [[ai-game-devtools/e3-gen]] — ACM MM '24 3D 人体 Avatar 生成：SMPL-X + FLAME 模型集成 + 自定义 Deformer，2×RTX 3090 训练，支持生成/迁移/编辑/新姿态动画，学术研究许可 |
    236|||| [[ai-game-devtools/exavatar]] — ECCV 2024 全身可驱动 3D 高斯 Avatar：SMPL-X+FLAME 参数化驱动 + 修改版 3DGS 外观建模，手机视频→可动画 Avatar，支持自定义/NeuMan/XHumans 数据集 |
-   237|||| [[ai-game-devtools/geneavatar]] — CVPR 2024 单图像 3D 头部 Avatar 编辑框架：3DMM 驱动三平面修改场 + 体渲染几何变形/纹理混合 + 自动解码优化实现 2D→3D 编辑提升，支持 INSTA/NeRFBlendShape/Next3D 多种表示，代码待发布
-   238|||| [[ai-game-devtools/geneface-plus-plus]] — 中科院/浙大 通用稳定实时音频驱动 3D 说话头像生成：三阶段管线(Audio2Motion VAE → PostNet CNN+LLE → RADNeRF 渲染)，3DMM(BFM2009)参数化表示，支持眨眼注入/口型幅度控制，PyTorch+CUDA 11.7，预训练权重可下载 |
-   239|||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
-   240||||| [[ai-game-devtools/hallo2]] — 复旦大学 ICLR 2025 长时长高分辨率音频驱动肖像动画：两阶段管线(扩散动画+CodeFormer超分)，支持4K/最长1小时输出，基于SD 1.5+AnimateDiff v2+Wav2Vec+InsightFace
-   241|||||| [[ai-game-devtools/hunyuan-portrait]] — 腾讯混元 CVPR 2025 视频驱动肖像动画：SVD UNet3D 主干+DINOv2 身份编码+ArcFace 特征+HeadExpression/HeadPose 运动解耦，IntensityAwareMotionRefiner 精炼，软掩码贴回原分辨率，单3090可运行
-   242||||||| [[ai-game-devtools/hunyuanvideo-avatar]] — 腾讯混元 MM-DiT 架构音频驱动多人角色动画：角色图像注入模块+情感控制(AEM)+面部感知音频适配器(FAA)独立注入，支持写实/卡通/3D/拟人多风格，10GB-96GB VRAM 弹性配置
-   243|||||||| [[ai-game-devtools/intrinsic-avatar]] — CVPR 2024 单目视频动态人体逆渲染：显式光线追踪+物理 PBR 材质分解(albedo/roughness/metallic/normal)，SMPL 参数化驱动+LBS 变形+NeRFAcc 重要性采样，支持新视角合成+HDRI 重打光
-   244||||| [[ai-game-devtools/liveportrait]] — 快手高效视频驱动肖像动画：Stitching+Retargeting 控制、图像/视频双模输入、Animals mode（猫/狗）、Motion Template 隐私保护、跨平台支持、Apache 2.0
-   245|||||| [[ai-game-devtools/motiongpt]] — OpenMotionLab NeurIPS 2023 统一运动-语言模型：VQ-VAE将3D运动离散化为token+T5/GPT-2联合训练，支持文本到运动/运动字幕/运动预测/运动补间四任务，MIT
-   246||||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
-   247||||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
-   248||||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
-   249||||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
-   250|||||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
-   251||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
-   252||||||| [[ai-game-devtools/topo4d]] — ECCV 2024 + T-PAMI 2025 拓扑保持 4D 头部捕捉：3D 高斯中心绑定网格顶点→规则布线动态面部网格+8K毛孔级纹理，多视角时序图像输入，消除手动对齐
-   253||| [[ai-game-devtools/unity-ai-with-chatgpt]] — haili1234 Unity ChatGPT+UnityChan 语音交互展示：ChatGPT API 对话 + Unity-chan 3D 角色 + TTS 语音输出 + CMake 跨平台构建(Andoird/iOS/macOS/Win)，99 stars
-   254||||||| [[ai-game-devtools/disco-diffusion]]
-   255|||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |
-   256|||| [[ai-game-devtools/segment-anything-2]] — Meta FAIR 通用图像/视频分割基础模型：Hiera backbone + streaming memory，实时视频分割，4 种尺寸（38.9M-224.4M），最高 91 FPS (A100)，SA-V 数据集，Apache 2.0 |
-   257|||| [[ai-game-devtools/hivision-id-photos]]
-   258||| [[ai-game-devtools/draggan]] — MPI Informatik SIGGRAPH 2023 交互式图像操控工具：基于 StyleGAN3 潜在空间点拖拽变形，实时优化保持逼真度，支持 ImGui 桌面 GUI + Gradio Web/Docker/Colab，PTI 反转编辑真实图像，CC-BY-NC 4.0 |
-   259|||| [[ai-game-devtools/dwpose]] — IDEA-Research ICCV 2023 全身姿态估计：两阶段知识蒸馏(RTMPose+YOLOX)，替换 ControlNet 中 OpenPose，Whole AP 0.665(384×288)，ONNX 推理，Apache 2.0 |
-   260|||| [[ai-game-devtools/llamagen]] — FoundationVision 自回归图像生成模型：VQ-VAE tokenizer + GPT next-token prediction，111M-3B 参数规模，FID 2.18（ImageNet），超越 diffusion 方法，MIT，vLLM 300-400% 加速 |
-   261|||||| [[ai-game-devtools/lumina-image-2-0]] — Alpha-VLLM 统一高效图像生成 DiT 框架（ICCV 2025）：Gemma-2-2B 文本编码+FLUX-VAE-16CH，2.6B 参数/1024 分辨率，Flash Attention+RMSNorm+多求解器(Midpoint/Euler/DPM)，Diffusers/ComfyUI 集成，LoRA 微调，Apache 2.0 |
-   262||| [[ai-game-devtools/lumina-mgpt]] — Alpha-VLLM 多模态自回归模型家族：Chameleon 架构扩展+VQ-VAE 图像 token 化，7B/34B 参数，支持文本生成图像/图像理解/Omni 多任务（深度/分割/姿态），FSDP 训练+Gradio 演示，Apache 2.0 |
-   263|||| [[ai-game-devtools/makeanything]] — NUS Show Lab FLUX.1 多域程序序列生成：Asymmetric LoRA 21域共享 + Recraft 图生序列(4/9帧)，1024/1056分辨率，覆盖乐高/绘画/雕塑等21创意域，HuggingFace权重+数据集 |
-   264|||| [[ai-game-devtools/sd-webui-controlnet]] — Mikubill A1111 WebUI ControlNet 扩展：20+预处理器(姿态/深度/边缘/法线)、多路ControlNet输入、3种控制模式、Reference-Only、IP-Adapter集成，GPL v3 |
-   265|||||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
-   266||||| [[ai-game-devtools/stable-diffusion-3-5]] — Stability AI SD3.5 官方推理参考实现：MM-DiT 架构+三文本编码器(CLIP-L/CLIP-bigG/T5-XXL)+16 通道 VAE，支持 Large/Turbo/Medium 变体+ControlNet，官方推荐 [[ai-game-devtools/comfyui]] 作为生产推理 UI |
-   267||||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
-   268||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
-   269||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
-   270|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理
-   271||||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
-   272|
-   273|## Texture (3D Asset Generation)
-   274|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |
-   275|||| [[ai-game-devtools/character-gen]] — VAST-AI SIGGRAPH'24 单图→3D角色生成：多视角姿态规范化(A-pose)+两阶段管线(2D扩散→3D重建)，基于Tune-A-Video+TripoSR，Gradio演示+Mixamo绑骨支持
-   276|||||| [[ai-game-devtools/animate3d]] — CASIA+阿里 NeurIPS 2024 3D模型动画生成：多视角视频扩散(MV-VDM)+4D-SDS精炼，Mesh/Gaussian Splatting双支持，~15分钟生成动画
-   277|||| [[ai-game-devtools/any2point]] — ECCV 2024 3D理解框架：3D-to-Any虚拟投影+Guided Adapter，适配CLIP/DINOv2/ImageBind到点云任务，仅0.8M参数达SOTA，支持语言/视觉/音频模态
-   278|||| [[ai-game-devtools/3d-llm]] — UMass Amherst NeurIPS 2023 Spotlight 首个原生处理3D表示的LLM：基于BLIP2/salesforce-lavis，支持物体级(Objaverse)和场景级(ScanNet/HM3D)3D问答，SAM+CLIP三阶段3D特征提取管线
-   279|||||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |
-   280|||||| [[ai-game-devtools/direct3d-s2]] — DreamTechAI NeurIPS 2025 大规模 3D 生成框架：Spatial Sparse Attention (SSA) 加速 DiT，8 GPU 训练 1024³ 分辨率 SDF 网格，v1.1 比 FlashAttention-2 快 12.2× 前向/19.7× 反向，单图→OBJ 网格，MIT |
-   281|||||| [[ai-game-devtools/city-dreamer]] — CVPR 2024 组合式无限 3D 城生成模型：VQVAE 布局生成器 + GANcraft 风格背景/建筑实例生成器，patch-based 无限城市合成，NTU S-Lab，Gradio 演示+CLI
-   282|||||| [[ai-game-devtools/dream-catalyst]] — KAIST CVML ICLR 2025 快速 3D 编辑框架：SDS 采样动力学分析 + 三参数(χ/δ/γ)控制可编辑性与身份保持，Fast Mode 仅需 1/3 迭代，NeRF+3DGS 双支持 |
-   283||||||| [[ai-game-devtools/dreamgaussian4d]] — NTU S-Lab arXiv 2023 生成式 4D 高斯场景：单图→静态3D(LGM/DreamGaussian)→K-planes形变场→动态4D高斯，支持Image/Video-to-4D、viser GUI、Gradio Demo
-   284|||||| [[ai-game-devtools/gaussctrl]] — Oxford+MBZUAI ECCV 2024 3DGS 文本编辑工具：NeRFStudio 扩散模型驱动，多视角一致性编辑（默认4参考视图），Lang-SAM 掩码，BSD
-   285||||||| [[ai-game-devtools/gaussiancube]] — USTC+MSRA NeurIPS 2024 结构化辐射表示：Optimal Transport 将高斯重排为体素网格 + 3D U-Net 扩散模型，参数少1-2个数量级，支持文本/类别/无条件3D生成，HuggingFace预训练
-   286||||||| [[ai-game-devtools/gaussiandreamer]] — HUST+华为 CVPR 2024 文本到3D高斯生成：Shap-E 3D扩散初始化 + SD 2D扩散指导，15分钟单GPU，T³Bench平均45.7超越ProlificDreamer，支持Avatar/Unity导出，Apache 2.0 |
-   287|||||| [[ai-game-devtools/holo-dreamer]] — 北京大学+鹏城实验室 arXiv 2024 文本到3D全景场景生成：等距柱状全景图初始化 + 3DGS两阶段重建（预优化→Inpainting→迁移优化），圆形混合消除接缝，MIT |
-   288||||||||| [[ai-game-devtools/gala3d]] — 北京大学 VDIG Lab ICML 2024 文本到3D场景生成：LLM布局先验+3D高斯溅射+组合扩散优化四阶段管线，支持文本驱动场景编辑，学术免费商用需授权
-   289|||||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |
-   290|||||| [[ai-game-devtools/hunyuan3d-2-0]] — 腾讯混元两阶段 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，单图→高分辨率 mesh，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM
-   291|||||| [[ai-game-devtools/hunyuan3d-2-1]] — 腾讯混元第三代 3D 资产生成：完全开源权重+训练代码，PBR 纹理管线（金属反射/次表面散射），Shape 3.3B + Paint 2B，四项形状基准 SOTA，29GB VRAM
-   292||||||| [[ai-game-devtools/hunyuan3d-1]] — 腾讯混元统一文本/图像到 3D 生成框架：两阶段管线（多视角扩散 4s + 前馈重建 7s），lite/std 双版本，Gradio Web UI，10-25 秒生成 3D mesh，Apache 2.0 + 非商用权重 |
-   293||||||| [[ai-game-devtools/stable-dreamfusion]] — Jiaxiang Tang DreamFusion 开源实现：Stable Diffusion 替代 Imagen + SDS 损失 + NeRF(Instant-NGP/Vanilla/Taichi) + DMTet 网格提取 + PerP-Neg 多面缓解，SD 1.5/2.0/2.1/DeepFloyd-IF/Zero-1-to-3 后端
-   294||||||| [[ai-game-devtools/threestudio]] — threestudio-project 统一 3D 内容生成框架：插件式架构+OmegaConf 配置，支持 DreamFusion/ProlificDreamer/HiFA/Magic123/Gaussian Splatting/InstructNeRF2NeRF 等 10+ 方法，Apache-2.0，~7k stars
-   295|||||| [[ai-game-devtools/triposr]] — Tripo AI × Stability AI 单图→3D 前馈重建模型(LRM)，Transformer+Triplane+NeRF 管线，<0.5秒(A100)，6GB VRAM，DINOv2 图像编码+Marching Cubes 提取，MIT
-   296||||||| [[ai-game-devtools/3dtopia]] — NTU/Tencent 两阶段文本到3D生成：Stage 1 扩散模型快速生成候选+Stage 2 threefiner网格精化，Triplane+EG3D渲染器，DDIM/DPM-Solver采样，arXiv 2403.02234
-   297||||||| [[ai-game-devtools/3dtopia-xl]] — CVPR 2025 Highlight 3D PBR资产生成：PrimX原始体表示+3D DiT扩散架构，单图/文本→高质量mesh+PBR材质，Objaverse子集训练，HuggingFace Demo
-   298||||||| [[ai-game-devtools/stable-fast-3d]] — Stability AI 单图像→3D 网格前馈重建模型（基于 TripoSR 改进），UV 自动展开 + PBR 材质预测(albedo/roughness/metallic/normal) + 光照解耦，6GB VRAM，ComfyUI 集成，非商用许可 |
-   299||||||| [[ai-game-devtools/step1x-3d]] — 阶跃星辰两阶段 3D 资产生成：VAE-DiT 几何(1.3B) + SD-XL 纹理(3.5B)，2M 清洗数据集，830K UID 开源，LoRA 可迁移，Apache 2.0 |
-   300|||||||| [[ai-game-devtools/infinigen]] — Princeton V&L Lab CVPR 2023/2024/2025 程序化 3D 世界生成：Blender bpy 后端，自然场景/室内房间/可关节资产三大模块，完整 Ground Truth 标注管线，SLURM 集群并行，BSD-3-Clause
-   301||||||| [[ai-game-devtools/instant-ngp]] — NVIDIA SIGGRAPH 2022 即时神经图形原语：多分辨率哈希编码+tiny-cuda-nn，NeRF 训练<5秒(RTX 3090)，支持 NeRF/SDF/神经图像/体积渲染，VR+Python绑定，NVIDIA NC许可
-   302|||||| [[ai-game-devtools/isotropic3d]] — PKU arXiv 2024 图像到3D生成：单张RGBA图的CLIP图像embedding作为SDS引导（无需文本prompt），基于threestudio框架+NeRF体积渲染+多视角扩散指导，A100 GPU
-   303|||||| [[ai-game-devtools/interactive3d]] — CVPR 2024 交互式 3D 生成框架：用户迭代引导的生成→编辑→精炼循环，Gradio Web UI + 键盘实时控制，基于 threestudio 框架，支持渐进式 3D 资产创作
-   304|||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
-   305|||||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0
-   306||||| [[ai-game-devtools/dust3r]] — Naver Labs CVPR 2024 免 COLMAP 3D 重建基础模型：ViT-L/B 非对称编码器直接回归 pointmaps+相机位姿+置信度，2+图片输入→全局对齐点云，HuggingFace Hub 集成，CC BY-NC-SA 4.0
-   307||||||| [[ai-game-devtools/instruct-humans]]
-   308||||| [[ai-game-devtools/intex]] — arXiv 2024 交互式文本到纹理合成：统一深度感知修复，多视角遍历+Stable Diffusion 生成，法线/深度/ip2p/深度修复多种控制模式，DearPyGui 实时 GUI，UV 空间自动融合，支持 LCM 加速
-   309||||| [[ai-game-devtools/llama-mesh]] — NVIDIA Toronto AI Lab + 清华大学 LLM 驱动 3D 网格生成：OBJ 文本化表示 + Llama 3.1 8B 微调，对话生成 3D 模型，非商业 License
-   310|||||| [[ai-game-devtools/lion]] — NVIDIA T-Labs NeurIPS 2022 3D 点云扩散生成模型：两阶段 VAE+两级扩散先验（全局形状+局部细节），PVCNN2 骨干+CLIP 文本条件化(text2shape)，HuggingFace checkpoint 可用，NVIDIA 专有许可
-   311||||| [[ai-game-devtools/materialseg3d]] — ACM MM 2024 Oral 3D 材质分割管线：2D 先验知识驱动 PBR 材质标注，GET3D+Text2Tex+mmsegmentation 三模块，MIO 数据集，Gradio 交互界面
-   312||| [[ai-game-devtools/make-it-3d]] — 单图到高保真 3D 内容生成（ICCV 2023）：两阶段 NeRF 优化（Coarse+Refine），SD 2.0 扩散先验引导 + DPT 深度 + SAM 分割，OBJ mesh 导出
-   313||| [[ai-game-devtools/meshanything]] — 自回归 Transformer 网格生成模型（350M参数）：网格/点云输入 → 简化艺术家风格网格输出（≤800面/30秒），Michelangelo 点云编码器 + Shape-OPT + 噪声抵抗解码器，SLab 许可
-   314|||| [[ai-game-devtools/neuralangelo]] — NVIDIA CVPR 2023 高保真神经表面重建：SDF-based NeRF + hashgrid 编码 + coarse-to-fine 训练，从视频重建带纹理 3D 网格，COLMAP 集成管线，NVIDIA 许可
-   315||||| [[ai-game-devtools/paint-it]] — CVPR 2024 文本驱动 PBR 纹理合成：Deep Image Prior + 未修改 SDS + nvdiffrast 微分渲染，生成 diffuse/roughness/metalness/normal 四张贴图，支持 Objaverse 批量/SMPL 人体纹理，学术许可
-   316||||| [[ai-game-devtools/phys-rig]] — ICCV 2025 可微分物理绑定框架：MPM 物质点法替代 LBS，骨骼嵌入软体体积模拟，端到端可训练材质参数（杨氏模量/泊松比），支持软组织/尾巴/耳朵二级运动
-   317|||||| [[ai-game-devtools/x-mesh]] — ICCV 2023 文本驱动 3D 网格风格化：动态文本引导 + SDS 优化同步改造几何和纹理，MIT-30 基准评测，PyTorch+kaolin，学术许可 |
-   318||| [[ai-game-devtools/unity-gaussian-splatting]] — Aras Pranckevicius Unity 3DGS 实时渲染工具包：BiRP/URP/HDRP 三管线适配，GPU 基数排序，PLY→Unity 资产转换，147 FPS(RTX 3080 Ti)，支持 VR，MIT |
-   319|
-   320|## Code Tools
-   321|
-   322|| [[ai-game-devtools/bloop]] — BloopAI AI代码搜索工具：Rust后端+Tauri桌面+React前端，Tantivy全文搜索+Qdrant语义搜索+Tree-sitter AST解析，ONNX端侧embedding，Apache 2.0 |
-   323|| [[ai-game-devtools/chapyter]] — Shannon Shen JupyterLab 扩展：%%chat magic 命令将自然语言转为 Python 代码并自动执行，guidance prompt 模板 + OpenAI/Azure API，JupyterLab≥4.0，BSD 3-Clause |
-   324||| [[ai-game-devtools/codegeex]] — THUDM 13B 多语言代码生成模型（Python/C++/Java/JS/Go），850B tokens 预训练，HumanEval-X 评测，VS Code/JetBrains 插件，跨平台 Ascend/NVIDIA，KDD 2023，Apache 2.0 |
-   325|||| [[ai-game-devtools/codegeex2]] — THUDM CodeGeeX 第二代：6B 参数+ChatGLM2架构+600B代码预训练，HumanEval Pass@1 35.9%超越Starcoder-15B，INT4量化仅5.5GB显存，94 tok/s，Apache 2.0 |
-   326|||| [[ai-game-devtools/codegeex4]] — THUDM CodeGeeX 第四代：9B参数+GLM-4基座，128K上下文，HumanEval 82.3%，唯一支持Function Call的代码模型，Ollama/vLLM/Candle多部署方式，Apache 2.0 |
-   327|| [[ai-game-devtools/aixcoder-7b]] — aiXcoder 7B 代码大模型：1.2T Tokens 训练，结构化 AST-FIM 训练任务（70%），7B 参数 RoPE/SwiGLU/GQA，nl2code 超越 CodeLlama 34B，跨文件代码理解，int8/int4 量化，Apache-2.0 |
-   328|| [[ai-game-devtools/codegen]] — Salesforce 开源代码生成模型家族（CodeGen1/2/2.5），7B-16B 参数，ICLR 2023，7B 超 16B 性能，StarCoderData 预训练，Apache 2.0 |
-   329||| [[ai-game-devtools/codegen2]] — Salesforce CodeGen 第二代（1B/3.7B/7B/16B）：原生代码 infilling 支持，19 种编程语言，The Stack v1.1 去重数据，ICLR 2023，研究用途 |
-   330|||| [[ai-game-devtools/code-llama]] — Meta AI 基于 Llama 2 的代码大模型（7B/13B/34B/70B）：Base/Python/Instruct 三变体，16K训练/100K推理上下文，代码填充(infilling)能力，Llama 2 Community License |
-   331||| [[ai-game-devtools/deepseek-coder]] — DeepSeekAI 代码语言模型系列（1B-33B）：2T tokens 预训练，86 种语言，16K FIM 代码补全，HumanEval 超越 CodeLlama-34B，MIT |
-   332||| [[ai-game-devtools/starcoder]] — BigCode (HuggingFace+ServiceNow) 开源代码模型：80+ 语言，The Stack 数据集训练，OpenRAIL-M 许可，支持 PEFT 微调+8-bit量化(<20GB)，StarChat 编码助手变体 |
-   333|||| [[ai-game-devtools/starcoder-2]] — StarCoder 第二代：3B/7B/15B 三档模型，600+ 语言，16K context，GQA+Sliding Window，The Stack v2 训练（3T-4T tokens），bitsandbytes 量化支持，Apache 2.0 |
-   334|||| [[ai-game-devtools/codetf]] — Salesforce Code LLM 工具库：推理/微调/评估/数据集/代码工具一站式 Python 库，15+ 语言 tree-sitter AST 解析，PEFT 微调，pass@k/CodeBLEU 评测，~14 行代码完成微调，Apache 2.0
-   335|||| [[ai-game-devtools/code-world-model]] — Meta FAIR 32B 代码世界模型：Dense decoder-only，交替局部/全局注意力(3:1)，131K context，Python执行轨迹+3M Agent交互轨迹中训练+多任务RL，SWE-bench Verified 65.8(+tts)
-   336|||| [[ai-game-devtools/codet5]] — Salesforce 代码理解与生成模型家族：CodeT5 (EMNLP 2021, T5 encoder-decoder, 8 语言, CodeXGLUE SOTA) + CodeT5+ (2023, 220M-16B, 灵活模式, HumanEval 36.1% Pass@1), 初始化自 CodeGen, BSD-3 |
-   337|||| [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT ||
-   338|||| [[ai-game-devtools/pandas-ai]] — Sinaptik AI 自然语言数据分析工具：LiteLLM 驱动 + DuckDB SQL 引擎 + 代码生成→执行→解析流水线 + Docker 沙箱安全执行，支持 DataFrame 对话问答/图表生成/多表关联查询，MIT |
-   339||| [[ai-game-devtools/unitygen-ai]] — himanshuskyrockets Unity Editor AI 代码生成插件：OpenAI Codex(text-davinci) 驱动代码生成，EditorWindow UI + ScriptableObject 配置 API Key，alpha 阶段作者已弃用，MIT ||
-   340||| [[ai-game-devtools/void]] — voideditor 开源 Cursor 替代 IDE：VSCode 1.99.3 fork，Electron 双进程架构，OpenAI/Anthropic/Gemini/Ollama/Groq/Mistral 多 Provider 接入，Fast/Slow Apply 代码修改系统，MCP 支持，MIT，开发已暂停 |
-   341|
-   342||| [[ai-game-devtools/paint3d]] — OpenTexture CVPR 2024 3D 纹理生成：粗到细两阶段管线（深度生成→UV修复→2K上采样），无光照 albedo 贴图，kaolin 可微分渲染，Apache 2.0 |
-   343||| [[ai-game-devtools/panic3d-anime-reconstruction]] — CVPR 2023 动漫角色单视图3D重建：线条填充模型+EG3D体积辐射场，单张动漫肖像→风格化3D角色头部，11.2k VRoid+1k VTuber数据集+AnimeRecon基准，支持说话头部动画扩展 |
-   344||| [[ai-game-devtools/point-e]] — OpenAI 3D点云扩散生成系统（2022）：从图像/文本生成点云→4x上采样→SDF网格转换，Model Zoo 40M~1B共8个模型，基于guided-diffusion+CLIP，1024步扩散，MIT |
-   345|||| [[ai-game-devtools/shap-e]] — OpenAI 条件化3D隐式函数生成（2023）：文本/图像→潜在扩散(300M)→NeRF隐式场，可渲染/导出网格，transmitter/text300M/image300M三模型，MIT |
-   346|||| [[ai-game-devtools/unique3d]] — Tsinghua 单图→高质量3D网格生成：四阶段管线（多视图扩散→法线预测→微分网格重建→纹理投影），~30秒生成带纹理GLB，nvdiffrast可微渲染+连续重网格化优化，Gradio/ComfyUI支持 |
-   347|||| [[ai-game-devtools/vivid-1-to-3]] — UBC Vision CVPR 2024 单图→多视角视频扩散新视图合成：Zero-1-to-3 (UNet2D) + Zeroscope v2 (UNet3D) 双管线，CLIPCameraProjection相机位姿注入，25帧256×256，Apache 2.0 |
-   348||||| [[ai-game-devtools/wonder3d]] — HKU CVPR 2024 Highlight 单图→3D重建：跨域扩散模型联合生成6视角法线贴图+彩色图+法线融合网格提取，2-3分钟/张，正交相机假设，Instant-NSR/NeuS双后端，MIT |
-   349|
-   350|## Open Source Games
-   351|
-   352|| [[ai-game-devtools/paints-undo]] — lllyasviel 数字绘画行为模拟模型：SD1.5修改架构+VideoCrafter多帧插值，输入成品图→输出绘画过程视频（Ctrl+Z效果），24GB VRAM，Apache 2.0 |
-   353|- [[open-source-game/athena-crisis]] — 现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容），Steam 商业化
-   354|- [[open-source-game/the-battle-for-wesnoth]] — 高奇幻回合策略，WML+Lua 内容脚本系统，86K commits，C++17 + SDL2
-   355|- [[open-source-game/vcmi]] — Heroes of Might and Magic III 完全开源引擎重实现，C++20 C/S 架构，Bonus DAG 传播系统，Callback 接口三层分离，多 AI 并存，ERM+Lua 双脚本
-   356|- [[open-source-game/unciv]] — Civilization V 开源复刻 for Android & Desktop，LibGDX 跨平台，JSON 数据驱动规则集，Ktor 多人网络，Mod 系统，141K LOC Kotlin，Apache 2.0
-   357|- [[open-source-game/0-ad]] —
-   358|- [[open-source-game/freeorion]] — 4X 太空帝国回合策略，致敬 Master of Orion，C++20 + GiGi GUI + FOCS Python 脚本驱动，约 183K LOC C++
-   359|- [[open-source-game/freecol]] — Colonization 开源复刻，Java 11 + Ant 构建，826 源文件，XML 数据驱动规则，模块化 client/server 架构，GPLv2
-   360|- [[open-source-game/freeciv]] — Civilization 风格帝国建设回合策略，C 语言 + Meson 构建，server/client/common 三层模块化架构，191K LOC，约 29 年活跃开发，能力字符串版本协议支持多客户端网络互通，GPLv2
-   361|- [[open-source-game/openxcom]] — X-COM: UFO Enemy Unknown / Terror From the Deep 开源复刻，C++/SDL，646 C++源文件，Geoscape/Battlescape/Basescape 三层模块架构，YAML Mod 规则集系统，2.1k stars，GPLv2
-   362|- [[open-source-game/mindustry]] — 自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人
-   363|- [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，GPLv3
-   364|- [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY
-   365|- [[open-source-game/openenroth]] — Might and Magic VI-VIII 引擎清洁室重实现，C++23 + CMake，子系统模块化架构（Engine/GUI/Media/Scripting），LuaJIT + sol2 脚本，22 第三方子模块，~136K LOC，仅 MM7 可玩，GPLv2
-   366|- [[open-source-game/opennox]] — Nox (Westwood 2000) 引擎清洁室重实现，SDL2+OpenGL+OpenAL 跨平台抽象，compat 层分离，Emscripten WebAssembly 支持，自研 VQA 视频解码器，MIT
-   367|- [[open-source-game/openpanzer]] — 纯 HTML5/JS/Canvas 回合制坦克战，致敬 Panzer General 2，无第三方依赖，XML 剧本+Python 工具链转换，localStorage 存档，GPLv2
-   368|- [[open-source-game/re3]] — GTA III 逆向工程重实现，Theseus之船渐进式替换策略，librw 自研 RenderWare 替代渲染引擎，D3D9/OGL3.3 双后端，约 188K LOC C/C++，需原版游戏数据
-   369|- [[open-source-game/reone]] — KotOR/KotOR 2 引擎清洁室重实现，SDL2+OpenGL 3.3 自研引擎，NWScript 虚拟机，GFF/2DA 资源解析，~438 源文件，C++17，GPLv3
-   370|- [[open-source-game/severed-chains]] — Legend of Dragoon PS1 逆向工程 Java 重实现，904 Java 文件，PS1 硬件仿真层(GTE/GPU/SPU)，Event-based 模组 API
-   371|- [[open-source-game/permafrost-engine]] — OpenGL 3.3 RTS 游戏引擎，纯 C + Python 2.7 脚本，GPU 骨骼动画+分层流场寻路+Fiber 协作多任务，旗舰游戏 EVERGLORY
-   372|- [[open-source-game/freeserf-net]] — The Settlers I 清洁室 C# 重实现，Silk.NET 跨平台渲染，BASS 音频，多人网络开发中，MIT
-   373|- [[open-source-game/pooltool]] — Python 台球物理沙盒，Panda3D 渲染 + numba JIT 物理，事件驱动碰撞解析，多碰撞模型可插拔（Stronge/Mathavan/Han），JOSS 论文发表，Apache 2.0
-   374|- [[open-source-game/open-golf]] — 跨平台迷你高尔夫游戏，纯 C 自研物理引擎（BVH 碰撞），Sokol 跨平台 3D 渲染，ImGui 内置关卡编辑器，光照贴图烘焙（xatlas+lightmapper），支持 Windows/Linux/macOS/Android/iOS/Web
-   375|- [[open-source-game/standard-of-iron]] — 布匿战争历史 RTS，C++20/Qt6/OpenGL 3.3，ECS 架构，骨骼动画+布料物理，MIT
-   376|- [[open-source-game/cnc-tiberian-dawn]] — EA 官方 C&C 原版（1995）源码，Watcom C++ + x86 汇编，OOP 类层次架构 (Foot/Unit/Building/AircraftClass)，IPX/Modem 多人大战雾系统，GPLv3
-   377|- [[open-source-game/cataclysm-dark-days-ahead]] — 后世界末日生存 roguelike，480K LOC C++ JSON数据驱动 (~130K行JSON内容)，双渲染器 SDL2/Tiles+Ncurses，CC BY-SA 3.0，16.2k stars
-   378|- [[open-source-game/daggerfall-unity]] — Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect 原生资产读取，QuestMachine 任务系统，FullSerializer 存档，ModManager 模组支持，MIT
-   379|- [[open-source-game/devilutionx]] — Diablo + Hellfire 开源端口，清洁室逆向工程，259 C++/163 H ~54K LOC，CMake 多平台（17+平台），帧同步多人 dvlnet/，Lua 脚本扩展，MIT
-   380|- [[open-source-game/freeablo]] — Diablo 1 引擎清洁室重实现，双线程架构（渲染/逻辑分离），确定性锁步网络，Nuklear GUI，~38K LOC C++17，**已归档**，MIT
-   381|- [[open-source-game/fheroes2]] — Heroes of Might and Magic II 清洁室重实现，~210K LOC C++，纯 SDL2 无游戏引擎，engine/ + fheroes2/ 模块分离，多平台 Win/Mac/Linux/Android/iOS/Switch/Vita，engine/ 自研图像/音频/渲染系统，GPLv2
-   382|- [[open-source-game/open-diablo-2]] — Go + Ebiten 2D 引擎实现的 Diablo 2 开源复刻，模块化架构（d2app/d2core/d2game/d2networking），帧同步 P2P 多人，otto JS 脚本引擎，**项目已拆分**：引擎→Abyss Engine，游戏→OpenDiablo2
-   383|- [[open-source-game/abyss-engine]] — Diablo 2 纯 C 清洁室重实现引擎，SDL2+FFmpeg+LibArchive 依赖栈，~72 文件 ~4859 LOC C99，OpenDiablo2 拆分后的独立引擎层，MIT
-   384|- [[open-source-game/veloren]] — Rust 体素多人 RPG，400K LOC，24 crates workspace，ECS (specs) + QUIC 网络 + 自研体素渲染器，GPLv3，~16K commits
-   385|- [[open-source-game/space-station-14]] — Space Station 13 现代 C# 重制版，Robust Toolbox 自研引擎，Entity-Component 架构，YAML 原型数据驱动，MIT+CC-BY-SA
-   386|- [[open-source-game/exult]] — Ultima VII 游戏引擎清洁室重实现，SDL 跨平台，完整支持《黑门》+《毒岛》，GPL v2，~48K LOC C++
-   387|- [[open-source-game/u7-revisited]] — Ultima VII: The Black Gate 3D 重制引擎，Ghost（raylib 3D渲染）+ Geist（Lua脚本）双引擎架构，~49.5K LOC C++
-   388|- [[open-source-game/gemrb]] — Infinity Engine 重实现（Baldur's Gate / Icewind Dale / Planescape: Torment），C++14 + Python3 脚本，40+ 插件化架构，46K LOC 核心引擎，GPLv2
-   389|
-   390|||
-   391|||| [[open-source-game/commander-keen-in-keen-dreams]]
-   392|| [[open-source-game/doom-3-bfg]] — id Tech 4 引擎源码，含 Portal 渲染、Lua 脚本、BFG Edition 收录 Doom Classic，GPL |
-   393|| [[open-source-game/doom-64-re]] — Doom 64 完全逆向工程，C+MIPS 汇编，N64 SDK 交叉编译，~50K LOC C |
-   394|||| [[open-source-game/doom]] — id Software 经典 FPS，1997年 Carmack 开源，BSP 树渲染，GPLv2，约 54K LOC C |
-   395|| [[open-source-game/quake]] — 1996 年 3D FPS 里程碑，WinQuake+GLQuake+QuakeWorld，GPLv2，约 87K LOC C |
-   396|| [[open-source-game/quake-2]] — 1997 年 3D FPS，双渲染器架构（OpenGL + Software），143K LOC C，GPLv2 |
-   397|| [[open-source-game/quake-iii-arena]] — id Software 竞技场射击，QVM 虚拟机架构，纯多人竞技，GPL |
-   398|| [[open-source-game/chocolate-doom]] — 精准还原 DOS Doom（含 bug）的开源端口，SDL2 跨平台，GPL |
-   399|| [[open-source-game/chocolate-quake]] — 精准还原 Quake v1.09 DOS 体验，Bug 兼容优先，纯软件渲染，C99+CMake |
-   400|| [[open-source-game/fteqw]] — 先进可移植 Quake 引擎，多后端渲染(OpenGL/Vulkan/Software/D3D)，GPL-2.0 |
-   401|| [[open-source-game/uzdoom]] — GZDoom/ZDoom 延续，双渲染器架构(OpenGL/Vulkan+软件)，ZScript 虚拟机，~592K LOC C++ |
-   402|| [[open-source-game/assault-cube]] — CUBE Engine 派生 FPS，ZLIB 极宽松许可，低延迟 ENet 网络，协作地图编辑 |
-   403|| [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 2 代体素 FPS，实时游戏内地图编辑，ENet UDP，~65K LOC C++ |
-   404|| [[open-source-game/red-eclipse]] — 竞技场射击，Tesseract（Cube 2 派生）引擎，跑酷射击融合，内置协作地图编辑器，GPLv3 |
-   405|| [[open-source-game/xonotic]] — Darkplaces 引擎（Quake 分支），精湛移动机械（Bunny Hop/Strafe Jump），.pk3dir 数据包格式，GPLv3 |
-   406|| [[open-source-game/liblast]] — Godot 4 多人 FPS，Freeman Character System + Godot Jolt 物理，⚠️ 主仓库已弃用迁移至 liblast-framework |
-   407|| [[open-source-game/supertuxkart]] — 开源卡丁车派对游戏，Bullet Physics 趣味物理，ENet UDP + 事件回滚网络同步，约 274K LOC C++ |
-   408|| [[open-source-game/kkrieger]] — Farbrausch 96KB demo 工具链，Werkkzeug3 引擎分支，Portal 渲染/6-Pass 光照/V2 合成器，约 122K LOC C++ |
-   409|| [[open-source-game/descent-3]] — 经典 6DOF 太空射击，SDL3+OpenGL 跨平台，GPL-3.0，需原版游戏数据 |
-   410|| [[open-source-game/avp-forever]] — Aliens versus Predator (1999) 源码维护，多分支 rebasing 策略叠加各分支源码 |
-   411|| [[open-source-game/beyond-all-reason]] — Spring/Recoil 引擎 RTS 游戏，约4.3GB仓库（含资源），Lua数据驱动，GL4着色器，BARb AI JSON配置分层设计 |
-   412|- [[open-source-game/nakedavp]] — Aliens vs Predator Classic (2000) SDL3 现代化端口，双渲染器自动降级（OpenGL/GLES2）
-   413|- [[open-source-game/naev]] — 2D 太空贸易战斗 RPG，灵感来自 Escape Velocity 系列，C+Rust 混合 + Meson 构建，SDL3+OpenGL 3.3+，GPLv3，插件系统支持
-   414|- [[open-source-game/ambermoon-net]] — Ambermoon 经典 RPG 的完整 C# 重写，多平台（Win/Linux/Mac），.NET 6，模块化架构（Core/Data/Renderer/Frontend 分层），MIT
-   415|- [[open-source-game/oolite]] — Elite (1984) 风格太空开放世界贸易战斗，Objective-C + C 双后端架构(Cocoa+SDL)，GPLv2，OXP 插件扩展系统，无原版游戏数据依赖
-   416|- [[open-source-game/omnispeak]] — Commander Keen 4/5/6 开源重实现，多后端渲染架构（SDL2/GL/Vulkan/SDL3），Nuked OPL3 FM 合成器，约 51.8K LOC C
-   417|| [[open-source-game/the-dark-mod]] — Doom 3/id Tech 4 引擎潜行 FPS，AAS 区域感知+AI 通信子系统，170+ 社区任务 |
-   418|| [[open-source-game/duke-nukem-3d]] — 3D Realms 经典 FPS，Build Engine 驱动，Ken Silverman Sector/Portal 渲染，GPLv2 |
-   419|| [[open-source-game/eduke32]] — 先进 Build Engine 端口，多游戏支持(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，GPLv2 |
-   420|| [[open-source-game/raze]] — Build engine 多游戏合一引擎，GZDoom 技术栈，三渲染器架构(GL/GLES/Vulkan)，~578K LOC C++ |
-   421|| [[open-source-game/jfduke3d]] — Jonathon Fowler 的 Duke Nukem 3D 开源移植版，SDL2 跨平台，Polymost OpenGL 渲染，GPLv2 |
-   422|| [[open-source-game/jfshadowwarrior]] — Jonathon Fowler 的 Shadow Warrior 现代端口，Polymost OpenGL/GLES2，多平台，GPLv2 |
-   423|| [[open-source-game/buildgdx]] — Build Engine 的 Java/LibGDX 跨平台移植，三渲染器，支持 Duke3D/Shadow Warrior/Blood，~74K LOC Java |
-   424|| [[open-source-game/nubuildgdx]] — BuildGDX 稳定化分支（stability-first fork），atsb 维护，libGDX 1.9.10 旧依赖 |
-   425|| [[open-source-game/nblood]] — Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，GNU Make 跨平台构建 |
-   426|| [[open-source-game/rigel-engine]] — Duke Nukem II 清洁室逆向重实现，C++17/SDL2+OpenGL 双渲染器，~45K LOC，GPLv2 |
-   427|| [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，~67K LOC C++，CMake+SDL2 |
-   428|| [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译 |
-   429|| [[open-source-game/shadow-warrior]] — 3D Realms 经典 FPS，Build 引擎，118K LOC C，GPL+商业数据双许可 |
-   430|| [[open-source-game/wolfenstein-3d]] — id Software 1992 经典 FPS，Raycasting 渲染，Borland C++ 3.0 + 80x86 汇编 |
-   431|| [[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+ |
-   432|| [[open-source-game/super-mario-64]] — N64 经典 3D 平台跳跃完整反编译源码，2746 C 文件，多版本构建，GPLv2 |
-   433|| [[open-source-game/portal64]] — Valve Portal N64 demake，移除 libultra 私有库，Skeletool64 骨骼动画+显示列表生成，17 室可玩，EPA/GJK 碰撞，约 41K LOC C |
-   434|| [[open-source-game/vvvvvv]] — 重力翻转像素平台游戏，SDL2 极简依赖全部静态链接，Entity 159K+Game 229K+Editor 141K LOC，完整内置关卡编辑器 |
-   435|| [[open-source-game/surreal-engine]] — Unreal Engine 1 清洁室重实现，C++20/D3D11+Vulkan 双渲染器，~99K LOC |
-   436|| [[open-source-game/micropolisjs]] — SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度追踪，GPLv3 |
-   437|| [[open-source-game/openttd]] — Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展 |
-   438|| [[open-source-game/open-goal]] — Jak & Daxter PC 移植，2.3M LOC GOAL 反编译+自研 GOAL 编译器+decompiler，Jak1 Complete/Jak2 Beta |
-   439|||| [[open-source-game/openrct2]] — RollerCoaster Tycoon 2 开源重实现，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作 |
-   440|- [[open-source-game/openrw]] — GTA III 清洁室重实现开源引擎，rwcore/rwengine/rwgame 模块化架构，OpenGL + Bullet Physics + SDL2，GPLv3，需原版游戏数据
-   441|- [[open-source-game/openlara]] — 古墓丽影经典引擎开源重实现，多后端渲染架构（OpenGL/D3D8/D3D9/D3D11/Vulkan/Software），32 平台支持，固定点数学引擎，BSD 2-Clause
-   442|- [[open-source-game/croftengine]] — Tomb Raider 1 引擎重制，v2.5.0，LGPLv3，支持幽灵竞速/合作/Glidos 纹理包，FFmpeg 视频解码，双渲染器架构(OpenGL+软件)，Boost+spdlog+FFmpeg 依赖栈
-   443|- [[open-source-game/tomb-engine]] — Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版
-   444|- [[open-source-game/lugaru]] — 跨平台 3D 动作游戏，兔人 Turner 武斗狼族阴谋，C++/SDL2/OpenGL ~38K LOC，双层骨骼动画插值（animCurrent+frameTarget），9种AI行为状态机（passive/guard/attack等），GPLv2+源码/CC BY-SA 3.0 资产双许可
-   445|- [[open-source-game/overgrowth]] — Lugaru 续作，3D 动作冒险游戏，~227K LOC C++ 自研引擎（SDL2+OpenGL），AngelScript 脚本+Bullet Physics+Recast 导航，Apache 2.0 极宽松许可，需商业版游戏数据
-   446|||||| [[open-source-game/openra]] — C# RTS 引擎
-   447||| [[open-source-game/openbw]] — StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ 架构（bwgame.h 22K行），确定性锁步网络 sync.h，BWAPI 兼容层 mini-openbwapi |
-   448||| [[open-source-game/openkore]] — Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接（XKore/XKore2/XKoreProxy），txt 数据驱动配置，GPLv2 |
-   449|- [[open-source-game/minosoft]] — Minecraft 客户端完全从零重写（Kotlin/Java ~27K LOC），三模块架构（Core/Eros/Rendering），支持 1.7-1.20.4 多版本协议，Netty 网络层，事件驱动渲染，zstd 资产压缩，GPLv3
-   450|- [[open-source-game/openko]] — Knight Online (1298/9) 清洁室逆向开源复刻，双端分离架构（Client DirectX9 + Server 跨平台 CMake），~265K LOC C++，多进程服务器(AIServer/Ebenezer/Aujard/ItemManager)，自定义二进制网络协议(LZF压缩+JvCryption加密)，学术目的，早期开发
-   451|| [[open-source-game/openloco]] — Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，运输帝国经营模拟 |
-   452|| [[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑 |
-   453|| [[open-source-game/keeper-fx]] — Dungeon Keeper 开源增强版，A* 寻路(ariadne)+Lua 脚本 API+ENet 多人，~235K LOC C/C++，GPLv2 |
-   454|| [[open-source-game/julius]] — Caesar III 清洁室重实现，SDL2 跨平台，100% 存档兼容，约93K LOC C |
-   455|| [[open-source-game/akhenaten]] — Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，GNU AGPL |
-   456|| [[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI |
-   457|| [[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，GDScript |
-   458|| [[open-source-game/egregoria]] — Cities: Skylines 风格 Rust 城市建造，确定性锁步网络，PBR wgpu 渲染器 |
-   459|| [[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗 |
-   460|| [[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C，SNES 仿真层+逐帧 RAM 验证 |
-   461|| [[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构 |
-   462||| [[open-source-game/dead-ascend]] — Qt/QML 手绘点击冒险游戏，僵尸塔楼密室解谜，Tiled TMX 地图格式，跨平台 |
-   463||- [[open-source-game/hnefatafl]] — 北欧棋（Hnefatafl）Copenhagen 风格完整解决方案：引擎(GTP风格协议)+客户端(Iced)+服务器+AI，约 9017 LOC Rust，AGPLv3 |
-   464||||| [[open-source-game/dune-ii-the-maker]] — C++23 重制 Dune II，SDL2 全家桶，三速 tick 游戏循环(thinkFast/Normal/Slow)，cGameState 状态机，cPlayerBrain Mission 队列 AI，INI 配置驱动数据，superweapon 系统(DeathHand/Fremen/Saboteur) |
-   465|||| [[open-source-game/command-conquer-remastered-collection]] — EA 官方开源 C&C 泰伯利亚黎明+红色警戒源码，C + 内联汇编 + C# 地图编辑器，GPL v3，需持有原版游戏 |
-   466|||| [[open-source-game/cn-c-red-alert]] — EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB 多层架构(CODE/WIN32LIB/VQA/IPX)，Watcom+TASM 编译，GPL v3 |
-   467|||| [[open-source-game/torcs]] — 开源 3D 赛车模拟器，plib OpenGL 渲染，模块化物理仿真(simu)，标准化 Robot AI 接口，广泛用于学术研究 |
-   468|| [[open-source-game/rigs-of-rods]] — 软体物理沙盒，节点-弹簧车辆形变实时仿真，OGRE 1.11 + AngelScript，2005 年项目，GPLv2 |
-   469|| [[open-source-game/ddnet]] — Teeworlds DDRace 模组社区延续版，合作 2D 平台跳跃，C++/Rust 混合架构，CMake+Ninja 构建 |
-   470|| [[open-source-game/sonic-robo-blast-2]] — 3D 索尼克同人作，基于 Doom Legacy 双渲染器（OpenGL+SDL2），Lua 脚本+DEHACKED 扩展，252K LOC C |
-   471|| [[open-source-game/frogatto]] — Anura 引擎动作冒险平台跳跃游戏，引擎/模块分离架构，FFC 数据驱动脚本，16 语言本地化 |
-   472|| [[open-source-game/fish-folk-jumpy]] — Fish Folk 战术 2D 射击游戏，Bevy/Rust + rapier2d 确定性物理，2-4 人本地/联机，bones_framework 游戏框架 |
-   473|| [[open-source-game/fish-folk-punchy]] — Fish Folk 2.5D 清版动作游戏，Bevy 0.9 + Rapier2D 物理，figher_state.rs 2228 行状态机，支持 WASM/Web 原生运行 |
-   474|| [[open-source-game/commander-genius]] — Commander Keen 1-6 + Dreams 开源解释器，C++ 完全重写（仅存 0.02% CloneKeen 代码），SDL2+OpenGL，LUA Mod，多人 4 人支持 |
-   475|| [[open-source-game/whatajong]] — 麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT |
-   476|| [[open-source-game/blockout-ii]] — 3D 俄罗斯方块，C++/OpenGL/SDL，评估函数 Bot AI + 回放系统 + 在线排行榜，GPLv2，~12K LOC |
-   477|| [[open-source-game/stunt-rally-3]] — 3D 科幻赛车+Ogre-Next 渲染+VDrift 仿真，内置赛道编辑器，232 条赛道，33 辆载具，GPLv3 |
-   478|| [[open-source-game/rvgl]] — Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人 |
-   479|| [[open-source-game/yorg]] — TrackMania 风格开源赛车，Panda3D 引擎驱动，Python 3.x，多人 XMPP 同步，GPLv3 |
-   480|- [[open-source-game/fallout-community-edition]] — Fallout 1 引擎清洁室重实现，SDL2 跨平台，135K LOC C++，保留原版 gameplay + bugfix + QoL 改进，MIT
-   481|- [[open-source-game/fallout2-ce]] — Fallout 2 清洁室重实现，C++17/SDL2 多平台支持(GitHub API 分析：4.5MB+ C++，378 源码文件)，Sfall 兼容性层，保留原版 gameplay+bugfix+QoL，需原版游戏数据
-   482|- [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike，~412K LOC C++，双模式渲染(ASCII+SDL Tiles)，.des Vault 手绘关卡，17+ 神祇契约，数据驱动配置，GPLv2+，20年迭代
-   483||| [[open-source-game/opennefia]] — Elona 日本 roguelike RPG 的模块化开源引擎复刻，.NET 8.0 + Love2dCS，Harmony 运行时补丁 + NuGet Mod 加载器，2058 C# + 436 Lua 文件
-   484||| [[open-source-game/openmw]] — Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，完整工具链(opencs/bsatool/esmtool/navmeshtool)，GPLv3，v0.51.0
-   485||| [[open-source-game/nethack]] — 经典 Roguelike 地下城探索，Rogue/Hack 直系后裔，3.7 开发中；纯 C 无引擎架构
-   486||| [[open-source-game/brogue-ce]] — 极简主义 Roguelike，Pure C 代码库，22个.c模块+Dijkstra寻路+确定性游戏回放系统
-   487|- [[open-source-game/shattered-pixel-dungeon]] — 传统 Roguelike 地牢爬行器，libGDX 跨平台架构（Desktop/Android/iOS），Java/JDK 21，程序化关卡生成，5 大区域+天赋系统，6k stars，GPLv3
-   488|- [[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/Roguelike/城市建造等），含源码链接 |
-   489|
-   490|- [[open-source-game/trigger-rally]] — 纯 C++ 拉力赛车游戏，PEngine/PSim/Trigger 三层架构，程序化地形高度图生成，GPL v2
-   491|- [[open-source-game/vdrift]] — 开源漂移赛车模拟器，Bullet 物理 + SDL3
-   492|- [[open-source-game/wipeout-rewrite]] — wipEout (1995 PSX) 清洁室重实现，纯 C 双平台后端(SDL2/Sokol) + 三渲染器架构
-   493|| [[open-source-game/kandria]] — Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL 渲染，~19K LOC 全 Lisp，BVH2 碰撞检测，内置关卡编辑器
-   494|- [[open-source-game/meritous]] — PSI 能量攻击动作地牢探索，纯 C + SDL 程序化地牢生成，约 10K LOC，GPLv3
-   495|- [[open-source-game/sdl-sopwith]] — 经典一战双翼机射击游戏 SDL 移植版，平台抽象架构(src/核心+sdl/平台层)，TCP/IP 多人，PC Speaker 音效模拟，自定义 .sop 关卡格式，GPLv2
-   496|- [[open-source-game/taisei]] — 东方 Project 同人弹幕射击游戏，C11 + SDL3 + OpenGL 自研渲染管线，~3.2M LOC C，多平台支持（Win/Linux/macOS/Web/Nintendo Switch）
-   497|- [[open-source-game/warzone-2100]] — 开源 3D RTS，含剧情战役+10人多人，157K LOC C++，多渲染后端(OpenGL/Vulkan/GLES)，400+科技树
-   498|- [[open-source-game/zero-k]] — Spring Engine 纯 Lua 游戏内容仓库，GadgetHandler 模块化事件驱动，物理弹道+智能单位预判，PBR 自定义 Shader，GPL v2
-   499|- [[open-source-game/war1gus]] — Warcraft: Orcs & Humans 重实现，基于 Stratagus 引擎，C++17 + Lua 脚本数据驱动，GPLv2
-   500|- [[open-source-game/stargus]] — StarCraft 1998 资产导入 Stratagus 引擎的工具，多格式转换层（GRP/CHK/CASC/SMACKER），startool MPQ 提取，约 15K LOC C++，GPLv2
-   501|
+   237|||| [[ai-game-devtools/facefusion]] — 行业领先的人脸操作平台：人脸检测/交换/增强/唇同步/表情恢复等多处理器组合，Gradio Web UI + headless/batch 模式 + 作业管理系统，OpenRAIL-AS 许可 |
+   238|||| [[ai-game-devtools/geneavatar]] — CVPR 2024 单图像 3D 头部 Avatar 编辑框架：3DMM 驱动三平面修改场 + 体渲染几何变形/纹理混合 + 自动解码优化实现 2D→3D 编辑提升，支持 INSTA/NeRFBlendShape/Next3D 多种表示，代码待发布
+   239|||| [[ai-game-devtools/geneface-plus-plus]] — 中科院/浙大 通用稳定实时音频驱动 3D 说话头像生成：三阶段管线(Audio2Motion VAE → PostNet CNN+LLE → RADNeRF 渲染)，3DMM(BFM2009)参数化表示，支持眨眼注入/口型幅度控制，PyTorch+CUDA 11.7，预训练权重可下载 |
+   240|||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
+   241||||| [[ai-game-devtools/hallo2]] — 复旦大学 ICLR 2025 长时长高分辨率音频驱动肖像动画：两阶段管线(扩散动画+CodeFormer超分)，支持4K/最长1小时输出，基于SD 1.5+AnimateDiff v2+Wav2Vec+InsightFace
+   242|||||| [[ai-game-devtools/hunyuan-portrait]] — 腾讯混元 CVPR 2025 视频驱动肖像动画：SVD UNet3D 主干+DINOv2 身份编码+ArcFace 特征+HeadExpression/HeadPose 运动解耦，IntensityAwareMotionRefiner 精炼，软掩码贴回原分辨率，单3090可运行
+   243||||||| [[ai-game-devtools/hunyuanvideo-avatar]] — 腾讯混元 MM-DiT 架构音频驱动多人角色动画：角色图像注入模块+情感控制(AEM)+面部感知音频适配器(FAA)独立注入，支持写实/卡通/3D/拟人多风格，10GB-96GB VRAM 弹性配置
+   244|||||||| [[ai-game-devtools/intrinsic-avatar]] — CVPR 2024 单目视频动态人体逆渲染：显式光线追踪+物理 PBR 材质分解(albedo/roughness/metallic/normal)，SMPL 参数化驱动+LBS 变形+NeRFAcc 重要性采样，支持新视角合成+HDRI 重打光
+   245||||| [[ai-game-devtools/liveportrait]] — 快手高效视频驱动肖像动画：Stitching+Retargeting 控制、图像/视频双模输入、Animals mode（猫/狗）、Motion Template 隐私保护、跨平台支持、Apache 2.0
+   246|||||| [[ai-game-devtools/motiongpt]] — OpenMotionLab NeurIPS 2023 统一运动-语言模型：VQ-VAE将3D运动离散化为token+T5/GPT-2联合训练，支持文本到运动/运动字幕/运动预测/运动补间四任务，MIT
+   247||||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
+   248||||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
+   249||||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
+   250||||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
+   251|||||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
+   252||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
+   253||||||| [[ai-game-devtools/topo4d]] — ECCV 2024 + T-PAMI 2025 拓扑保持 4D 头部捕捉：3D 高斯中心绑定网格顶点→规则布线动态面部网格+8K毛孔级纹理，多视角时序图像输入，消除手动对齐
+   254||| [[ai-game-devtools/unity-ai-with-chatgpt]] — haili1234 Unity ChatGPT+UnityChan 语音交互展示：ChatGPT API 对话 + Unity-chan 3D 角色 + TTS 语音输出 + CMake 跨平台构建(Andoird/iOS/macOS/Win)，99 stars
+   255||||||| [[ai-game-devtools/disco-diffusion]]
+   256|||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |
+   257|||| [[ai-game-devtools/segment-anything-2]] — Meta FAIR 通用图像/视频分割基础模型：Hiera backbone + streaming memory，实时视频分割，4 种尺寸（38.9M-224.4M），最高 91 FPS (A100)，SA-V 数据集，Apache 2.0 |
+   258|||| [[ai-game-devtools/hivision-id-photos]]
+   259||| [[ai-game-devtools/draggan]] — MPI Informatik SIGGRAPH 2023 交互式图像操控工具：基于 StyleGAN3 潜在空间点拖拽变形，实时优化保持逼真度，支持 ImGui 桌面 GUI + Gradio Web/Docker/Colab，PTI 反转编辑真实图像，CC-BY-NC 4.0 |
+   260|||| [[ai-game-devtools/dwpose]] — IDEA-Research ICCV 2023 全身姿态估计：两阶段知识蒸馏(RTMPose+YOLOX)，替换 ControlNet 中 OpenPose，Whole AP 0.665(384×288)，ONNX 推理，Apache 2.0 |
+   261|||| [[ai-game-devtools/llamagen]] — FoundationVision 自回归图像生成模型：VQ-VAE tokenizer + GPT next-token prediction，111M-3B 参数规模，FID 2.18（ImageNet），超越 diffusion 方法，MIT，vLLM 300-400% 加速 |
+   262|||||| [[ai-game-devtools/lumina-image-2-0]] — Alpha-VLLM 统一高效图像生成 DiT 框架（ICCV 2025）：Gemma-2-2B 文本编码+FLUX-VAE-16CH，2.6B 参数/1024 分辨率，Flash Attention+RMSNorm+多求解器(Midpoint/Euler/DPM)，Diffusers/ComfyUI 集成，LoRA 微调，Apache 2.0 |
+   263||| [[ai-game-devtools/lumina-mgpt]] — Alpha-VLLM 多模态自回归模型家族：Chameleon 架构扩展+VQ-VAE 图像 token 化，7B/34B 参数，支持文本生成图像/图像理解/Omni 多任务（深度/分割/姿态），FSDP 训练+Gradio 演示，Apache 2.0 |
+   264|||| [[ai-game-devtools/makeanything]] — NUS Show Lab FLUX.1 多域程序序列生成：Asymmetric LoRA 21域共享 + Recraft 图生序列(4/9帧)，1024/1056分辨率，覆盖乐高/绘画/雕塑等21创意域，HuggingFace权重+数据集 |
+   265|||| [[ai-game-devtools/sd-webui-controlnet]] — Mikubill A1111 WebUI ControlNet 扩展：20+预处理器(姿态/深度/边缘/法线)、多路ControlNet输入、3种控制模式、Reference-Only、IP-Adapter集成，GPL v3 |
+   266|||||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
+   267||||| [[ai-game-devtools/stable-diffusion-3-5]] — Stability AI SD3.5 官方推理参考实现：MM-DiT 架构+三文本编码器(CLIP-L/CLIP-bigG/T5-XXL)+16 通道 VAE，支持 Large/Turbo/Medium 变体+ControlNet，官方推荐 [[ai-game-devtools/comfyui]] 作为生产推理 UI |
+   268||||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
+   269||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
+   270||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
+   271|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理
+   272||||| [[ai-game-devtools/sdxs]] — IDKiro 实时一步潜扩散模型
+   273|
+   274|## Texture (3D Asset Generation)
+   275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |
+   276|||| [[ai-game-devtools/character-gen]] — VAST-AI SIGGRAPH'24 单图→3D角色生成：多视角姿态规范化(A-pose)+两阶段管线(2D扩散→3D重建)，基于Tune-A-Video+TripoSR，Gradio演示+Mixamo绑骨支持
+   277|||||| [[ai-game-devtools/animate3d]] — CASIA+阿里 NeurIPS 2024 3D模型动画生成：多视角视频扩散(MV-VDM)+4D-SDS精炼，Mesh/Gaussian Splatting双支持，~15分钟生成动画
+   278|||| [[ai-game-devtools/any2point]] — ECCV 2024 3D理解框架：3D-to-Any虚拟投影+Guided Adapter，适配CLIP/DINOv2/ImageBind到点云任务，仅0.8M参数达SOTA，支持语言/视觉/音频模态
+   279|||| [[ai-game-devtools/3d-llm]] — UMass Amherst NeurIPS 2023 Spotlight 首个原生处理3D表示的LLM：基于BLIP2/salesforce-lavis，支持物体级(Objaverse)和场景级(ScanNet/HM3D)3D问答，SAM+CLIP三阶段3D特征提取管线
+   280|||||| [[ai-game-devtools/crm]] — 清华大学单图→3D 有纹理网格生成模型：两阶段扩散（多视角像素图+CCM几何纹理图）+ FlexiCubes + nvdiffrast 渲染，10 秒生成带 UV 纹理 OBJ，arXiv 2024 |
+   281|||||| [[ai-game-devtools/direct3d-s2]] — DreamTechAI NeurIPS 2025 大规模 3D 生成框架：Spatial Sparse Attention (SSA) 加速 DiT，8 GPU 训练 1024³ 分辨率 SDF 网格，v1.1 比 FlashAttention-2 快 12.2× 前向/19.7× 反向，单图→OBJ 网格，MIT |
+   282|||||| [[ai-game-devtools/city-dreamer]] — CVPR 2024 组合式无限 3D 城生成模型：VQVAE 布局生成器 + GANcraft 风格背景/建筑实例生成器，patch-based 无限城市合成，NTU S-Lab，Gradio 演示+CLI
+   283|||||| [[ai-game-devtools/dream-catalyst]] — KAIST CVML ICLR 2025 快速 3D 编辑框架：SDS 采样动力学分析 + 三参数(χ/δ/γ)控制可编辑性与身份保持，Fast Mode 仅需 1/3 迭代，NeRF+3DGS 双支持 |
+   284||||||| [[ai-game-devtools/dreamgaussian4d]] — NTU S-Lab arXiv 2023 生成式 4D 高斯场景：单图→静态3D(LGM/DreamGaussian)→K-planes形变场→动态4D高斯，支持Image/Video-to-4D、viser GUI、Gradio Demo
+   285|||||| [[ai-game-devtools/gaussctrl]] — Oxford+MBZUAI ECCV 2024 3DGS 文本编辑工具：NeRFStudio 扩散模型驱动，多视角一致性编辑（默认4参考视图），Lang-SAM 掩码，BSD
+   286||||||| [[ai-game-devtools/gaussiancube]] — USTC+MSRA NeurIPS 2024 结构化辐射表示：Optimal Transport 将高斯重排为体素网格 + 3D U-Net 扩散模型，参数少1-2个数量级，支持文本/类别/无条件3D生成，HuggingFace预训练
+   287||||||| [[ai-game-devtools/gaussiandreamer]] — HUST+华为 CVPR 2024 文本到3D高斯生成：Shap-E 3D扩散初始化 + SD 2D扩散指导，15分钟单GPU，T³Bench平均45.7超越ProlificDreamer，支持Avatar/Unity导出，Apache 2.0 |
+   288|||||| [[ai-game-devtools/holo-dreamer]] — 北京大学+鹏城实验室 arXiv 2024 文本到3D全景场景生成：等距柱状全景图初始化 + 3DGS两阶段重建（预优化→Inpainting→迁移优化），圆形混合消除接缝，MIT |
+   289||||||||| [[ai-game-devtools/gala3d]] — 北京大学 VDIG Lab ICML 2024 文本到3D场景生成：LLM布局先验+3D高斯溅射+组合扩散优化四阶段管线，支持文本驱动场景编辑，学术免费商用需授权
+   290|||||| [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具：几何+光照感知 ControlNet + SDS 优化生成 albedo/roughness/metallic 贴图，基于 threestudio 框架，MIT |
+   291|||||| [[ai-game-devtools/hunyuan3d-2-0]] — 腾讯混元两阶段 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，单图→高分辨率 mesh，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM
+   292|||||| [[ai-game-devtools/hunyuan3d-2-1]] — 腾讯混元第三代 3D 资产生成：完全开源权重+训练代码，PBR 纹理管线（金属反射/次表面散射），Shape 3.3B + Paint 2B，四项形状基准 SOTA，29GB VRAM
+   293||||||| [[ai-game-devtools/hunyuan3d-1]] — 腾讯混元统一文本/图像到 3D 生成框架：两阶段管线（多视角扩散 4s + 前馈重建 7s），lite/std 双版本，Gradio Web UI，10-25 秒生成 3D mesh，Apache 2.0 + 非商用权重 |
+   294||||||| [[ai-game-devtools/stable-dreamfusion]] — Jiaxiang Tang DreamFusion 开源实现：Stable Diffusion 替代 Imagen + SDS 损失 + NeRF(Instant-NGP/Vanilla/Taichi) + DMTet 网格提取 + PerP-Neg 多面缓解，SD 1.5/2.0/2.1/DeepFloyd-IF/Zero-1-to-3 后端
+   295||||||| [[ai-game-devtools/threestudio]] — threestudio-project 统一 3D 内容生成框架：插件式架构+OmegaConf 配置，支持 DreamFusion/ProlificDreamer/HiFA/Magic123/Gaussian Splatting/InstructNeRF2NeRF 等 10+ 方法，Apache-2.0，~7k stars
+   296|||||| [[ai-game-devtools/triposr]] — Tripo AI × Stability AI 单图→3D 前馈重建模型(LRM)，Transformer+Triplane+NeRF 管线，<0.5秒(A100)，6GB VRAM，DINOv2 图像编码+Marching Cubes 提取，MIT
+   297||||||| [[ai-game-devtools/3dtopia]] — NTU/Tencent 两阶段文本到3D生成：Stage 1 扩散模型快速生成候选+Stage 2 threefiner网格精化，Triplane+EG3D渲染器，DDIM/DPM-Solver采样，arXiv 2403.02234
+   298||||||| [[ai-game-devtools/3dtopia-xl]] — CVPR 2025 Highlight 3D PBR资产生成：PrimX原始体表示+3D DiT扩散架构，单图/文本→高质量mesh+PBR材质，Objaverse子集训练，HuggingFace Demo
+   299||||||| [[ai-game-devtools/stable-fast-3d]] — Stability AI 单图像→3D 网格前馈重建模型（基于 TripoSR 改进），UV 自动展开 + PBR 材质预测(albedo/roughness/metallic/normal) + 光照解耦，6GB VRAM，ComfyUI 集成，非商用许可 |
+   300||||||| [[ai-game-devtools/step1x-3d]] — 阶跃星辰两阶段 3D 资产生成：VAE-DiT 几何(1.3B) + SD-XL 纹理(3.5B)，2M 清洗数据集，830K UID 开源，LoRA 可迁移，Apache 2.0 |
+   301|||||||| [[ai-game-devtools/infinigen]] — Princeton V&L Lab CVPR 2023/2024/2025 程序化 3D 世界生成：Blender bpy 后端，自然场景/室内房间/可关节资产三大模块，完整 Ground Truth 标注管线，SLURM 集群并行，BSD-3-Clause
+   302||||||| [[ai-game-devtools/instant-ngp]] — NVIDIA SIGGRAPH 2022 即时神经图形原语：多分辨率哈希编码+tiny-cuda-nn，NeRF 训练<5秒(RTX 3090)，支持 NeRF/SDF/神经图像/体积渲染，VR+Python绑定，NVIDIA NC许可
+   303|||||| [[ai-game-devtools/isotropic3d]] — PKU arXiv 2024 图像到3D生成：单张RGBA图的CLIP图像embedding作为SDS引导（无需文本prompt），基于threestudio框架+NeRF体积渲染+多视角扩散指导，A100 GPU
+   304|||||| [[ai-game-devtools/interactive3d]] — CVPR 2024 交互式 3D 生成框架：用户迭代引导的生成→编辑→精炼循环，Gradio Web UI + 键盘实时控制，基于 threestudio 框架，支持渐进式 3D 资产创作
+   305|||| [[ai-game-devtools/dreamspace]] — IEEE VR 2024 文本驱动全景纹理传播框架：粗到细全景纹理生成 + 双纹理对齐 + 分离式传播策略（置信区域 inpaint + 隐式模仿网络），支持 VR 头显部署 |
+   306|||||| [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion 纹理插件：文字生成无缝贴图/纹理投影/Inpaint-Outpaint/Cycles AI 渲染通道/4x 超分，HuggingFace Diffusers 后端，本地+云端，GPL-3.0
+   307||||| [[ai-game-devtools/dust3r]] — Naver Labs CVPR 2024 免 COLMAP 3D 重建基础模型：ViT-L/B 非对称编码器直接回归 pointmaps+相机位姿+置信度，2+图片输入→全局对齐点云，HuggingFace Hub 集成，CC BY-NC-SA 4.0
+   308||||||| [[ai-game-devtools/instruct-humans]]
+   309||||| [[ai-game-devtools/intex]] — arXiv 2024 交互式文本到纹理合成：统一深度感知修复，多视角遍历+Stable Diffusion 生成，法线/深度/ip2p/深度修复多种控制模式，DearPyGui 实时 GUI，UV 空间自动融合，支持 LCM 加速
+   310||||| [[ai-game-devtools/llama-mesh]] — NVIDIA Toronto AI Lab + 清华大学 LLM 驱动 3D 网格生成：OBJ 文本化表示 + Llama 3.1 8B 微调，对话生成 3D 模型，非商业 License
+   311|||||| [[ai-game-devtools/lion]] — NVIDIA T-Labs NeurIPS 2022 3D 点云扩散生成模型：两阶段 VAE+两级扩散先验（全局形状+局部细节），PVCNN2 骨干+CLIP 文本条件化(text2shape)，HuggingFace checkpoint 可用，NVIDIA 专有许可
+   312||||| [[ai-game-devtools/materialseg3d]] — ACM MM 2024 Oral 3D 材质分割管线：2D 先验知识驱动 PBR 材质标注，GET3D+Text2Tex+mmsegmentation 三模块，MIO 数据集，Gradio 交互界面
+   313||| [[ai-game-devtools/make-it-3d]] — 单图到高保真 3D 内容生成（ICCV 2023）：两阶段 NeRF 优化（Coarse+Refine），SD 2.0 扩散先验引导 + DPT 深度 + SAM 分割，OBJ mesh 导出
+   314||| [[ai-game-devtools/meshanything]] — 自回归 Transformer 网格生成模型（350M参数）：网格/点云输入 → 简化艺术家风格网格输出（≤800面/30秒），Michelangelo 点云编码器 + Shape-OPT + 噪声抵抗解码器，SLab 许可
+   315|||| [[ai-game-devtools/neuralangelo]] — NVIDIA CVPR 2023 高保真神经表面重建：SDF-based NeRF + hashgrid 编码 + coarse-to-fine 训练，从视频重建带纹理 3D 网格，COLMAP 集成管线，NVIDIA 许可
+   316||||| [[ai-game-devtools/paint-it]] — CVPR 2024 文本驱动 PBR 纹理合成：Deep Image Prior + 未修改 SDS + nvdiffrast 微分渲染，生成 diffuse/roughness/metalness/normal 四张贴图，支持 Objaverse 批量/SMPL 人体纹理，学术许可
+   317||||| [[ai-game-devtools/phys-rig]] — ICCV 2025 可微分物理绑定框架：MPM 物质点法替代 LBS，骨骼嵌入软体体积模拟，端到端可训练材质参数（杨氏模量/泊松比），支持软组织/尾巴/耳朵二级运动
+   318|||||| [[ai-game-devtools/x-mesh]] — ICCV 2023 文本驱动 3D 网格风格化：动态文本引导 + SDS 优化同步改造几何和纹理，MIT-30 基准评测，PyTorch+kaolin，学术许可 |
+   319||| [[ai-game-devtools/unity-gaussian-splatting]] — Aras Pranckevicius Unity 3DGS 实时渲染工具包：BiRP/URP/HDRP 三管线适配，GPU 基数排序，PLY→Unity 资产转换，147 FPS(RTX 3080 Ti)，支持 VR，MIT |
+   320|
+   321|## Code Tools
+   322|
+   323|| [[ai-game-devtools/bloop]] — BloopAI AI代码搜索工具：Rust后端+Tauri桌面+React前端，Tantivy全文搜索+Qdrant语义搜索+Tree-sitter AST解析，ONNX端侧embedding，Apache 2.0 |
+   324|| [[ai-game-devtools/chapyter]] — Shannon Shen JupyterLab 扩展：%%chat magic 命令将自然语言转为 Python 代码并自动执行，guidance prompt 模板 + OpenAI/Azure API，JupyterLab≥4.0，BSD 3-Clause |
+   325||| [[ai-game-devtools/codegeex]] — THUDM 13B 多语言代码生成模型（Python/C++/Java/JS/Go），850B tokens 预训练，HumanEval-X 评测，VS Code/JetBrains 插件，跨平台 Ascend/NVIDIA，KDD 2023，Apache 2.0 |
+   326|||| [[ai-game-devtools/codegeex2]] — THUDM CodeGeeX 第二代：6B 参数+ChatGLM2架构+600B代码预训练，HumanEval Pass@1 35.9%超越Starcoder-15B，INT4量化仅5.5GB显存，94 tok/s，Apache 2.0 |
+   327|||| [[ai-game-devtools/codegeex4]] — THUDM CodeGeeX 第四代：9B参数+GLM-4基座，128K上下文，HumanEval 82.3%，唯一支持Function Call的代码模型，Ollama/vLLM/Candle多部署方式，Apache 2.0 |
+   328|| [[ai-game-devtools/aixcoder-7b]] — aiXcoder 7B 代码大模型：1.2T Tokens 训练，结构化 AST-FIM 训练任务（70%），7B 参数 RoPE/SwiGLU/GQA，nl2code 超越 CodeLlama 34B，跨文件代码理解，int8/int4 量化，Apache-2.0 |
+   329|| [[ai-game-devtools/codegen]] — Salesforce 开源代码生成模型家族（CodeGen1/2/2.5），7B-16B 参数，ICLR 2023，7B 超 16B 性能，StarCoderData 预训练，Apache 2.0 |
+   330||| [[ai-game-devtools/codegen2]] — Salesforce CodeGen 第二代（1B/3.7B/7B/16B）：原生代码 infilling 支持，19 种编程语言，The Stack v1.1 去重数据，ICLR 2023，研究用途 |
+   331|||| [[ai-game-devtools/code-llama]] — Meta AI 基于 Llama 2 的代码大模型（7B/13B/34B/70B）：Base/Python/Instruct 三变体，16K训练/100K推理上下文，代码填充(infilling)能力，Llama 2 Community License |
+   332||| [[ai-game-devtools/deepseek-coder]] — DeepSeekAI 代码语言模型系列（1B-33B）：2T tokens 预训练，86 种语言，16K FIM 代码补全，HumanEval 超越 CodeLlama-34B，MIT |
+   333||| [[ai-game-devtools/starcoder]] — BigCode (HuggingFace+ServiceNow) 开源代码模型：80+ 语言，The Stack 数据集训练，OpenRAIL-M 许可，支持 PEFT 微调+8-bit量化(<20GB)，StarChat 编码助手变体 |
+   334|||| [[ai-game-devtools/starcoder-2]] — StarCoder 第二代：3B/7B/15B 三档模型，600+ 语言，16K context，GQA+Sliding Window，The Stack v2 训练（3T-4T tokens），bitsandbytes 量化支持，Apache 2.0 |
+   335|||| [[ai-game-devtools/codetf]] — Salesforce Code LLM 工具库：推理/微调/评估/数据集/代码工具一站式 Python 库，15+ 语言 tree-sitter AST 解析，PEFT 微调，pass@k/CodeBLEU 评测，~14 行代码完成微调，Apache 2.0
+   336|||| [[ai-game-devtools/code-world-model]] — Meta FAIR 32B 代码世界模型：Dense decoder-only，交替局部/全局注意力(3:1)，131K context，Python执行轨迹+3M Agent交互轨迹中训练+多任务RL，SWE-bench Verified 65.8(+tts)
+   337|||| [[ai-game-devtools/codet5]] — Salesforce 代码理解与生成模型家族：CodeT5 (EMNLP 2021, T5 encoder-decoder, 8 语言, CodeXGLUE SOTA) + CodeT5+ (2023, 220M-16B, 灵活模式, HumanEval 36.1% Pass@1), 初始化自 CodeGen, BSD-3 |
+   338|||| [[ai-game-devtools/ai-code-translator]] — mckaywrigley 代码翻译 Web UI：Next.js + CodeMirror + OpenAI API，几百行代码，支持 JS/Python/Go/Rust/C++/Java/Ruby 多语言互译，MIT ||
+   339|||| [[ai-game-devtools/pandas-ai]] — Sinaptik AI 自然语言数据分析工具：LiteLLM 驱动 + DuckDB SQL 引擎 + 代码生成→执行→解析流水线 + Docker 沙箱安全执行，支持 DataFrame 对话问答/图表生成/多表关联查询，MIT |
+   340||| [[ai-game-devtools/unitygen-ai]] — himanshuskyrockets Unity Editor AI 代码生成插件：OpenAI Codex(text-davinci) 驱动代码生成，EditorWindow UI + ScriptableObject 配置 API Key，alpha 阶段作者已弃用，MIT ||
+   341||| [[ai-game-devtools/void]] — voideditor 开源 Cursor 替代 IDE：VSCode 1.99.3 fork，Electron 双进程架构，OpenAI/Anthropic/Gemini/Ollama/Groq/Mistral 多 Provider 接入，Fast/Slow Apply 代码修改系统，MCP 支持，MIT，开发已暂停 |
+   342|
+   343||| [[ai-game-devtools/paint3d]] — OpenTexture CVPR 2024 3D 纹理生成：粗到细两阶段管线（深度生成→UV修复→2K上采样），无光照 albedo 贴图，kaolin 可微分渲染，Apache 2.0 |
+   344||| [[ai-game-devtools/panic3d-anime-reconstruction]] — CVPR 2023 动漫角色单视图3D重建：线条填充模型+EG3D体积辐射场，单张动漫肖像→风格化3D角色头部，11.2k VRoid+1k VTuber数据集+AnimeRecon基准，支持说话头部动画扩展 |
+   345||| [[ai-game-devtools/point-e]] — OpenAI 3D点云扩散生成系统（2022）：从图像/文本生成点云→4x上采样→SDF网格转换，Model Zoo 40M~1B共8个模型，基于guided-diffusion+CLIP，1024步扩散，MIT |
+   346|||| [[ai-game-devtools/shap-e]] — OpenAI 条件化3D隐式函数生成（2023）：文本/图像→潜在扩散(300M)→NeRF隐式场，可渲染/导出网格，transmitter/text300M/image300M三模型，MIT |
+   347|||| [[ai-game-devtools/unique3d]] — Tsinghua 单图→高质量3D网格生成：四阶段管线（多视图扩散→法线预测→微分网格重建→纹理投影），~30秒生成带纹理GLB，nvdiffrast可微渲染+连续重网格化优化，Gradio/ComfyUI支持 |
+   348|||| [[ai-game-devtools/vivid-1-to-3]] — UBC Vision CVPR 2024 单图→多视角视频扩散新视图合成：Zero-1-to-3 (UNet2D) + Zeroscope v2 (UNet3D) 双管线，CLIPCameraProjection相机位姿注入，25帧256×256，Apache 2.0 |
+   349||||| [[ai-game-devtools/wonder3d]] — HKU CVPR 2024 Highlight 单图→3D重建：跨域扩散模型联合生成6视角法线贴图+彩色图+法线融合网格提取，2-3分钟/张，正交相机假设，Instant-NSR/NeuS双后端，MIT |
+   350|
+   351|## Open Source Games
+   352|
+   353|| [[ai-game-devtools/paints-undo]] — lllyasviel 数字绘画行为模拟模型：SD1.5修改架构+VideoCrafter多帧插值，输入成品图→输出绘画过程视频（Ctrl+Z效果），24GB VRAM，Apache 2.0 |
+   354|- [[open-source-game/athena-crisis]] — 现代复古回合战术策略，100K+ LOC 开源引擎，pnpm monorepo（athena/apollo/hera/ui/dionysus 包分离），TypeScript + Vite，MIT（代码）/ 专有（内容），Steam 商业化
+   355|- [[open-source-game/the-battle-for-wesnoth]] — 高奇幻回合策略，WML+Lua 内容脚本系统，86K commits，C++17 + SDL2
+   356|- [[open-source-game/vcmi]] — Heroes of Might and Magic III 完全开源引擎重实现，C++20 C/S 架构，Bonus DAG 传播系统，Callback 接口三层分离，多 AI 并存，ERM+Lua 双脚本
+   357|- [[open-source-game/unciv]] — Civilization V 开源复刻 for Android & Desktop，LibGDX 跨平台，JSON 数据驱动规则集，Ktor 多人网络，Mod 系统，141K LOC Kotlin，Apache 2.0
+   358|- [[open-source-game/0-ad]] —
+   359|- [[open-source-game/freeorion]] — 4X 太空帝国回合策略，致敬 Master of Orion，C++20 + GiGi GUI + FOCS Python 脚本驱动，约 183K LOC C++
+   360|- [[open-source-game/freecol]] — Colonization 开源复刻，Java 11 + Ant 构建，826 源文件，XML 数据驱动规则，模块化 client/server 架构，GPLv2
+   361|- [[open-source-game/freeciv]] — Civilization 风格帝国建设回合策略，C 语言 + Meson 构建，server/client/common 三层模块化架构，191K LOC，约 29 年活跃开发，能力字符串版本协议支持多客户端网络互通，GPLv2
+   362|- [[open-source-game/openxcom]] — X-COM: UFO Enemy Unknown / Terror From the Deep 开源复刻，C++/SDL，646 C++源文件，Geoscape/Battlescape/Basescape 三层模块架构，YAML Mod 规则集系统，2.1k stars，GPLv2
+   363|- [[open-source-game/mindustry]] — 自动化塔防 RTS，Arc Engine + 代码生成 ECS + 帧同步多人
+   364|- [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言架构，Cython 绑定，nyan 配置格式，GPLv3
+   365|- [[open-source-game/openhv]] — OpenRA 引擎科幻 RTS Mod，改编自 Hard Vacuum，MiniYAML 数据驱动，C# Traits 系统，源码 GPLv3 + 内容 CC BY
+   366|- [[open-source-game/openenroth]] — Might and Magic VI-VIII 引擎清洁室重实现，C++23 + CMake，子系统模块化架构（Engine/GUI/Media/Scripting），LuaJIT + sol2 脚本，22 第三方子模块，~136K LOC，仅 MM7 可玩，GPLv2
+   367|- [[open-source-game/opennox]] — Nox (Westwood 2000) 引擎清洁室重实现，SDL2+OpenGL+OpenAL 跨平台抽象，compat 层分离，Emscripten WebAssembly 支持，自研 VQA 视频解码器，MIT
+   368|- [[open-source-game/openpanzer]] — 纯 HTML5/JS/Canvas 回合制坦克战，致敬 Panzer General 2，无第三方依赖，XML 剧本+Python 工具链转换，localStorage 存档，GPLv2
+   369|- [[open-source-game/re3]] — GTA III 逆向工程重实现，Theseus之船渐进式替换策略，librw 自研 RenderWare 替代渲染引擎，D3D9/OGL3.3 双后端，约 188K LOC C/C++，需原版游戏数据
+   370|- [[open-source-game/reone]] — KotOR/KotOR 2 引擎清洁室重实现，SDL2+OpenGL 3.3 自研引擎，NWScript 虚拟机，GFF/2DA 资源解析，~438 源文件，C++17，GPLv3
+   371|- [[open-source-game/severed-chains]] — Legend of Dragoon PS1 逆向工程 Java 重实现，904 Java 文件，PS1 硬件仿真层(GTE/GPU/SPU)，Event-based 模组 API
+   372|- [[open-source-game/permafrost-engine]] — OpenGL 3.3 RTS 游戏引擎，纯 C + Python 2.7 脚本，GPU 骨骼动画+分层流场寻路+Fiber 协作多任务，旗舰游戏 EVERGLORY
+   373|- [[open-source-game/freeserf-net]] — The Settlers I 清洁室 C# 重实现，Silk.NET 跨平台渲染，BASS 音频，多人网络开发中，MIT
+   374|- [[open-source-game/pooltool]] — Python 台球物理沙盒，Panda3D 渲染 + numba JIT 物理，事件驱动碰撞解析，多碰撞模型可插拔（Stronge/Mathavan/Han），JOSS 论文发表，Apache 2.0
+   375|- [[open-source-game/open-golf]] — 跨平台迷你高尔夫游戏，纯 C 自研物理引擎（BVH 碰撞），Sokol 跨平台 3D 渲染，ImGui 内置关卡编辑器，光照贴图烘焙（xatlas+lightmapper），支持 Windows/Linux/macOS/Android/iOS/Web
+   376|- [[open-source-game/standard-of-iron]] — 布匿战争历史 RTS，C++20/Qt6/OpenGL 3.3，ECS 架构，骨骼动画+布料物理，MIT
+   377|- [[open-source-game/cnc-tiberian-dawn]] — EA 官方 C&C 原版（1995）源码，Watcom C++ + x86 汇编，OOP 类层次架构 (Foot/Unit/Building/AircraftClass)，IPX/Modem 多人大战雾系统，GPLv3
+   378|- [[open-source-game/cataclysm-dark-days-ahead]] — 后世界末日生存 roguelike，480K LOC C++ JSON数据驱动 (~130K行JSON内容)，双渲染器 SDL2/Tiles+Ncurses，CC BY-SA 3.0，16.2k stars
+   379|- [[open-source-game/daggerfall-unity]] — Unity 引擎重制《上古卷轴 II：匕首雨》，DaggerfallConnect 原生资产读取，QuestMachine 任务系统，FullSerializer 存档，ModManager 模组支持，MIT
+   380|- [[open-source-game/devilutionx]] — Diablo + Hellfire 开源端口，清洁室逆向工程，259 C++/163 H ~54K LOC，CMake 多平台（17+平台），帧同步多人 dvlnet/，Lua 脚本扩展，MIT
+   381|- [[open-source-game/freeablo]] — Diablo 1 引擎清洁室重实现，双线程架构（渲染/逻辑分离），确定性锁步网络，Nuklear GUI，~38K LOC C++17，**已归档**，MIT
+   382|- [[open-source-game/fheroes2]] — Heroes of Might and Magic II 清洁室重实现，~210K LOC C++，纯 SDL2 无游戏引擎，engine/ + fheroes2/ 模块分离，多平台 Win/Mac/Linux/Android/iOS/Switch/Vita，engine/ 自研图像/音频/渲染系统，GPLv2
+   383|- [[open-source-game/open-diablo-2]] — Go + Ebiten 2D 引擎实现的 Diablo 2 开源复刻，模块化架构（d2app/d2core/d2game/d2networking），帧同步 P2P 多人，otto JS 脚本引擎，**项目已拆分**：引擎→Abyss Engine，游戏→OpenDiablo2
+   384|- [[open-source-game/abyss-engine]] — Diablo 2 纯 C 清洁室重实现引擎，SDL2+FFmpeg+LibArchive 依赖栈，~72 文件 ~4859 LOC C99，OpenDiablo2 拆分后的独立引擎层，MIT
+   385|- [[open-source-game/veloren]] — Rust 体素多人 RPG，400K LOC，24 crates workspace，ECS (specs) + QUIC 网络 + 自研体素渲染器，GPLv3，~16K commits
+   386|- [[open-source-game/space-station-14]] — Space Station 13 现代 C# 重制版，Robust Toolbox 自研引擎，Entity-Component 架构，YAML 原型数据驱动，MIT+CC-BY-SA
+   387|- [[open-source-game/exult]] — Ultima VII 游戏引擎清洁室重实现，SDL 跨平台，完整支持《黑门》+《毒岛》，GPL v2，~48K LOC C++
+   388|- [[open-source-game/u7-revisited]] — Ultima VII: The Black Gate 3D 重制引擎，Ghost（raylib 3D渲染）+ Geist（Lua脚本）双引擎架构，~49.5K LOC C++
+   389|- [[open-source-game/gemrb]] — Infinity Engine 重实现（Baldur's Gate / Icewind Dale / Planescape: Torment），C++14 + Python3 脚本，40+ 插件化架构，46K LOC 核心引擎，GPLv2
+   390|
+   391|||
+   392|||| [[open-source-game/commander-keen-in-keen-dreams]]
+   393|| [[open-source-game/doom-3-bfg]] — id Tech 4 引擎源码，含 Portal 渲染、Lua 脚本、BFG Edition 收录 Doom Classic，GPL |
+   394|| [[open-source-game/doom-64-re]] — Doom 64 完全逆向工程，C+MIPS 汇编，N64 SDK 交叉编译，~50K LOC C |
+   395|||| [[open-source-game/doom]] — id Software 经典 FPS，1997年 Carmack 开源，BSP 树渲染，GPLv2，约 54K LOC C |
+   396|| [[open-source-game/quake]] — 1996 年 3D FPS 里程碑，WinQuake+GLQuake+QuakeWorld，GPLv2，约 87K LOC C |
+   397|| [[open-source-game/quake-2]] — 1997 年 3D FPS，双渲染器架构（OpenGL + Software），143K LOC C，GPLv2 |
+   398|| [[open-source-game/quake-iii-arena]] — id Software 竞技场射击，QVM 虚拟机架构，纯多人竞技，GPL |
+   399|| [[open-source-game/chocolate-doom]] — 精准还原 DOS Doom（含 bug）的开源端口，SDL2 跨平台，GPL |
+   400|| [[open-source-game/chocolate-quake]] — 精准还原 Quake v1.09 DOS 体验，Bug 兼容优先，纯软件渲染，C99+CMake |
+   401|| [[open-source-game/fteqw]] — 先进可移植 Quake 引擎，多后端渲染(OpenGL/Vulkan/Software/D3D)，GPL-2.0 |
+   402|| [[open-source-game/uzdoom]] — GZDoom/ZDoom 延续，双渲染器架构(OpenGL/Vulkan+软件)，ZScript 虚拟机，~592K LOC C++ |
+   403|| [[open-source-game/assault-cube]] — CUBE Engine 派生 FPS，ZLIB 极宽松许可，低延迟 ENet 网络，协作地图编辑 |
+   404|| [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 2 代体素 FPS，实时游戏内地图编辑，ENet UDP，~65K LOC C++ |
+   405|| [[open-source-game/red-eclipse]] — 竞技场射击，Tesseract（Cube 2 派生）引擎，跑酷射击融合，内置协作地图编辑器，GPLv3 |
+   406|| [[open-source-game/xonotic]] — Darkplaces 引擎（Quake 分支），精湛移动机械（Bunny Hop/Strafe Jump），.pk3dir 数据包格式，GPLv3 |
+   407|| [[open-source-game/liblast]] — Godot 4 多人 FPS，Freeman Character System + Godot Jolt 物理，⚠️ 主仓库已弃用迁移至 liblast-framework |
+   408|| [[open-source-game/supertuxkart]] — 开源卡丁车派对游戏，Bullet Physics 趣味物理，ENet UDP + 事件回滚网络同步，约 274K LOC C++ |
+   409|| [[open-source-game/kkrieger]] — Farbrausch 96KB demo 工具链，Werkkzeug3 引擎分支，Portal 渲染/6-Pass 光照/V2 合成器，约 122K LOC C++ |
+   410|| [[open-source-game/descent-3]] — 经典 6DOF 太空射击，SDL3+OpenGL 跨平台，GPL-3.0，需原版游戏数据 |
+   411|| [[open-source-game/avp-forever]] — Aliens versus Predator (1999) 源码维护，多分支 rebasing 策略叠加各分支源码 |
+   412|| [[open-source-game/beyond-all-reason]] — Spring/Recoil 引擎 RTS 游戏，约4.3GB仓库（含资源），Lua数据驱动，GL4着色器，BARb AI JSON配置分层设计 |
+   413|- [[open-source-game/nakedavp]] — Aliens vs Predator Classic (2000) SDL3 现代化端口，双渲染器自动降级（OpenGL/GLES2）
+   414|- [[open-source-game/naev]] — 2D 太空贸易战斗 RPG，灵感来自 Escape Velocity 系列，C+Rust 混合 + Meson 构建，SDL3+OpenGL 3.3+，GPLv3，插件系统支持
+   415|- [[open-source-game/ambermoon-net]] — Ambermoon 经典 RPG 的完整 C# 重写，多平台（Win/Linux/Mac），.NET 6，模块化架构（Core/Data/Renderer/Frontend 分层），MIT
+   416|- [[open-source-game/oolite]] — Elite (1984) 风格太空开放世界贸易战斗，Objective-C + C 双后端架构(Cocoa+SDL)，GPLv2，OXP 插件扩展系统，无原版游戏数据依赖
+   417|- [[open-source-game/omnispeak]] — Commander Keen 4/5/6 开源重实现，多后端渲染架构（SDL2/GL/Vulkan/SDL3），Nuked OPL3 FM 合成器，约 51.8K LOC C
+   418|| [[open-source-game/the-dark-mod]] — Doom 3/id Tech 4 引擎潜行 FPS，AAS 区域感知+AI 通信子系统，170+ 社区任务 |
+   419|| [[open-source-game/duke-nukem-3d]] — 3D Realms 经典 FPS，Build Engine 驱动，Ken Silverman Sector/Portal 渲染，GPLv2 |
+   420|| [[open-source-game/eduke32]] — 先进 Build Engine 端口，多游戏支持(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，GPLv2 |
+   421|| [[open-source-game/raze]] — Build engine 多游戏合一引擎，GZDoom 技术栈，三渲染器架构(GL/GLES/Vulkan)，~578K LOC C++ |
+   422|| [[open-source-game/jfduke3d]] — Jonathon Fowler 的 Duke Nukem 3D 开源移植版，SDL2 跨平台，Polymost OpenGL 渲染，GPLv2 |
+   423|| [[open-source-game/jfshadowwarrior]] — Jonathon Fowler 的 Shadow Warrior 现代端口，Polymost OpenGL/GLES2，多平台，GPLv2 |
+   424|| [[open-source-game/buildgdx]] — Build Engine 的 Java/LibGDX 跨平台移植，三渲染器，支持 Duke3D/Shadow Warrior/Blood，~74K LOC Java |
+   425|| [[open-source-game/nubuildgdx]] — BuildGDX 稳定化分支（stability-first fork），atsb 维护，libGDX 1.9.10 旧依赖 |
+   426|| [[open-source-game/nblood]] — Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，GNU Make 跨平台构建 |
+   427|| [[open-source-game/rigel-engine]] — Duke Nukem II 清洁室逆向重实现，C++17/SDL2+OpenGL 双渲染器，~45K LOC，GPLv2 |
+   428|| [[open-source-game/ecwolf]] — Wolfenstein 3D 增强源码端口，ZDoom 体验+原版 Raycasting，~67K LOC C++，CMake+SDL2 |
+   429|| [[open-source-game/wolf4sdl]] — Wolfenstein 3D SDL 移植版，OPL2 双模拟器（GPL/MAME），version.h 多版本条件编译 |
+   430|| [[open-source-game/shadow-warrior]] — 3D Realms 经典 FPS，Build 引擎，118K LOC C，GPL+商业数据双许可 |
+   431|| [[open-source-game/wolfenstein-3d]] — id Software 1992 经典 FPS，Raycasting 渲染，Borland C++ 3.0 + 80x86 汇编 |
+   432|| [[open-source-game/scummvm]] — 经典图形冒险引擎复刻，支持141+游戏引擎（SCUMM/Myst/Blade Runner等），GPLv3+ |
+   433|| [[open-source-game/super-mario-64]] — N64 经典 3D 平台跳跃完整反编译源码，2746 C 文件，多版本构建，GPLv2 |
+   434|| [[open-source-game/portal64]] — Valve Portal N64 demake，移除 libultra 私有库，Skeletool64 骨骼动画+显示列表生成，17 室可玩，EPA/GJK 碰撞，约 41K LOC C |
+   435|| [[open-source-game/vvvvvv]] — 重力翻转像素平台游戏，SDL2 极简依赖全部静态链接，Entity 159K+Game 229K+Editor 141K LOC，完整内置关卡编辑器 |
+   436|| [[open-source-game/surreal-engine]] — Unreal Engine 1 清洁室重实现，C++20/D3D11+Vulkan 双渲染器，~99K LOC |
+   437|| [[open-source-game/micropolisjs]] — SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度追踪，GPLv3 |
+   438|| [[open-source-game/openttd]] — Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展 |
+   439|| [[open-source-game/open-goal]] — Jak & Daxter PC 移植，2.3M LOC GOAL 反编译+自研 GOAL 编译器+decompiler，Jak1 Complete/Jak2 Beta |
+   440|||| [[open-source-game/openrct2]] — RollerCoaster Tycoon 2 开源重实现，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作 |
+   441|- [[open-source-game/openrw]] — GTA III 清洁室重实现开源引擎，rwcore/rwengine/rwgame 模块化架构，OpenGL + Bullet Physics + SDL2，GPLv3，需原版游戏数据
+   442|- [[open-source-game/openlara]] — 古墓丽影经典引擎开源重实现，多后端渲染架构（OpenGL/D3D8/D3D9/D3D11/Vulkan/Software），32 平台支持，固定点数学引擎，BSD 2-Clause
+   443|- [[open-source-game/croftengine]] — Tomb Raider 1 引擎重制，v2.5.0，LGPLv3，支持幽灵竞速/合作/Glidos 纹理包，FFmpeg 视频解码，双渲染器架构(OpenGL+软件)，Boost+spdlog+FFmpeg 依赖栈
+   444|- [[open-source-game/tomb-engine]] — Tomb Raider 1-5 引擎清洁室重实现，~180K LOC C++，sol2 Lua 绑定三层 ScriptInterface(Game/Level/State)，SMAA+SSAO+高帧率现代渲染管线，支持无缝关卡转换+无限制地图大小，MIT 修改版
+   445|- [[open-source-game/lugaru]] — 跨平台 3D 动作游戏，兔人 Turner 武斗狼族阴谋，C++/SDL2/OpenGL ~38K LOC，双层骨骼动画插值（animCurrent+frameTarget），9种AI行为状态机（passive/guard/attack等），GPLv2+源码/CC BY-SA 3.0 资产双许可
+   446|- [[open-source-game/overgrowth]] — Lugaru 续作，3D 动作冒险游戏，~227K LOC C++ 自研引擎（SDL2+OpenGL），AngelScript 脚本+Bullet Physics+Recast 导航，Apache 2.0 极宽松许可，需商业版游戏数据
+   447|||||| [[open-source-game/openra]] — C# RTS 引擎
+   448||| [[open-source-game/openbw]] — StarCraft: Brood War 核心引擎清洁室重实现，header-only C++ 架构（bwgame.h 22K行），确定性锁步网络 sync.h，BWAPI 兼容层 mini-openbwapi |
+   449||| [[open-source-game/openkore]] — Ragnarok Online 自动化助手，Perl + C XS 扩展，Task 链式 AI 架构，三模式连接（XKore/XKore2/XKoreProxy），txt 数据驱动配置，GPLv2 |
+   450|- [[open-source-game/minosoft]] — Minecraft 客户端完全从零重写（Kotlin/Java ~27K LOC），三模块架构（Core/Eros/Rendering），支持 1.7-1.20.4 多版本协议，Netty 网络层，事件驱动渲染，zstd 资产压缩，GPLv3
+   451|- [[open-source-game/openko]] — Knight Online (1298/9) 清洁室逆向开源复刻，双端分离架构（Client DirectX9 + Server 跨平台 CMake），~265K LOC C++，多进程服务器(AIServer/Ebenezer/Aujard/ItemManager)，自定义二进制网络协议(LZF压缩+JvCryption加密)，学术目的，早期开发
+   452|| [[open-source-game/openloco]] — Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，运输帝国经营模拟 |
+   453|| [[open-source-game/corsixth]] — Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑 |
+   454|| [[open-source-game/keeper-fx]] — Dungeon Keeper 开源增强版，A* 寻路(ariadne)+Lua 脚本 API+ENet 多人，~235K LOC C/C++，GPLv2 |
+   455|| [[open-source-game/julius]] — Caesar III 清洁室重实现，SDL2 跨平台，100% 存档兼容，约93K LOC C |
+   456|| [[open-source-game/akhenaten]] — Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，GNU AGPL |
+   457|| [[open-source-game/citybound]] — 微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI |
+   458|| [[open-source-game/unknown-horizons]] — 2D 实时策略城市建造模拟，FIFE→Godot 4 移植项目，GDScript |
+   459|| [[open-source-game/egregoria]] — Cities: Skylines 风格 Rust 城市建造，确定性锁步网络，PBR wgpu 渲染器 |
+   460|| [[open-source-game/pioneer]] — 31世纪银河太空冒险RPG，程序化星系/经济/派系系统，开放世界探索+贸易+战斗 |
+   461|| [[open-source-game/zelda3]] — Zelda A Link to the Past 完全重实现，70-80kLOC C，SNES 仿真层+逐帧 RAM 验证 |
+   462|| [[open-source-game/the-legend-of-zelda-twilight-princess]] — Zelda TP 反向工程，字节级匹配反编译，多版本条件编译架构 |
+   463||| [[open-source-game/dead-ascend]] — Qt/QML 手绘点击冒险游戏，僵尸塔楼密室解谜，Tiled TMX 地图格式，跨平台 |
+   464||- [[open-source-game/hnefatafl]] — 北欧棋（Hnefatafl）Copenhagen 风格完整解决方案：引擎(GTP风格协议)+客户端(Iced)+服务器+AI，约 9017 LOC Rust，AGPLv3 |
+   465||||| [[open-source-game/dune-ii-the-maker]] — C++23 重制 Dune II，SDL2 全家桶，三速 tick 游戏循环(thinkFast/Normal/Slow)，cGameState 状态机，cPlayerBrain Mission 队列 AI，INI 配置驱动数据，superweapon 系统(DeathHand/Fremen/Saboteur) |
+   466|||| [[open-source-game/command-conquer-remastered-collection]] — EA 官方开源 C&C 泰伯利亚黎明+红色警戒源码，C + 内联汇编 + C# 地图编辑器，GPL v3，需持有原版游戏 |
+   467|||| [[open-source-game/cn-c-red-alert]] — EA 官方红色警戒(1996)源码，Westwood DOS 游戏，C++17.9MB/Assembly 5.1MB 多层架构(CODE/WIN32LIB/VQA/IPX)，Watcom+TASM 编译，GPL v3 |
+   468|||| [[open-source-game/torcs]] — 开源 3D 赛车模拟器，plib OpenGL 渲染，模块化物理仿真(simu)，标准化 Robot AI 接口，广泛用于学术研究 |
+   469|| [[open-source-game/rigs-of-rods]] — 软体物理沙盒，节点-弹簧车辆形变实时仿真，OGRE 1.11 + AngelScript，2005 年项目，GPLv2 |
+   470|| [[open-source-game/ddnet]] — Teeworlds DDRace 模组社区延续版，合作 2D 平台跳跃，C++/Rust 混合架构，CMake+Ninja 构建 |
+   471|| [[open-source-game/sonic-robo-blast-2]] — 3D 索尼克同人作，基于 Doom Legacy 双渲染器（OpenGL+SDL2），Lua 脚本+DEHACKED 扩展，252K LOC C |
+   472|| [[open-source-game/frogatto]] — Anura 引擎动作冒险平台跳跃游戏，引擎/模块分离架构，FFC 数据驱动脚本，16 语言本地化 |
+   473|| [[open-source-game/fish-folk-jumpy]] — Fish Folk 战术 2D 射击游戏，Bevy/Rust + rapier2d 确定性物理，2-4 人本地/联机，bones_framework 游戏框架 |
+   474|| [[open-source-game/fish-folk-punchy]] — Fish Folk 2.5D 清版动作游戏，Bevy 0.9 + Rapier2D 物理，figher_state.rs 2228 行状态机，支持 WASM/Web 原生运行 |
+   475|| [[open-source-game/commander-genius]] — Commander Keen 1-6 + Dreams 开源解释器，C++ 完全重写（仅存 0.02% CloneKeen 代码），SDL2+OpenGL，LUA Mod，多人 4 人支持 |
+   476|| [[open-source-game/whatajong]] — 麻将消消乐 Roguelite，Solid.js + TypeScript + Electron，Vanilla Extract CSS，rand-seed 确定性随机，Howler.js 音频，MIT |
+   477|| [[open-source-game/blockout-ii]] — 3D 俄罗斯方块，C++/OpenGL/SDL，评估函数 Bot AI + 回放系统 + 在线排行榜，GPLv2，~12K LOC |
+   478|| [[open-source-game/stunt-rally-3]] — 3D 科幻赛车+Ogre-Next 渲染+VDrift 仿真，内置赛道编辑器，232 条赛道，33 辆载具，GPLv3 |
+   479|| [[open-source-game/rvgl]] — Re-Volt 现代跨平台复刻，SDL2+OpenGL/Vulkan，核心私有+工具链/资产开源，Pack 内容管理系统，支持 16 人多人 |
+   480|| [[open-source-game/yorg]] — TrackMania 风格开源赛车，Panda3D 引擎驱动，Python 3.x，多人 XMPP 同步，GPLv3 |
+   481|- [[open-source-game/fallout-community-edition]] — Fallout 1 引擎清洁室重实现，SDL2 跨平台，135K LOC C++，保留原版 gameplay + bugfix + QoL 改进，MIT
+   482|- [[open-source-game/fallout2-ce]] — Fallout 2 清洁室重实现，C++17/SDL2 多平台支持(GitHub API 分析：4.5MB+ C++，378 源码文件)，Sfall 兼容性层，保留原版 gameplay+bugfix+QoL，需原版游戏数据
+   483|- [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike，~412K LOC C++，双模式渲染(ASCII+SDL Tiles)，.des Vault 手绘关卡，17+ 神祇契约，数据驱动配置，GPLv2+，20年迭代
+   484||| [[open-source-game/opennefia]] — Elona 日本 roguelike RPG 的模块化开源引擎复刻，.NET 8.0 + Love2dCS，Harmony 运行时补丁 + NuGet Mod 加载器，2058 C# + 436 Lua 文件
+   485||| [[open-source-game/openmw]] — Morrowind 引擎清洁室重实现，C++20 + OpenSceneGraph + Bullet Physics，双脚本系统(遗留MWScript+现代Lua)，完整工具链(opencs/bsatool/esmtool/navmeshtool)，GPLv3，v0.51.0
+   486||| [[open-source-game/nethack]] — 经典 Roguelike 地下城探索，Rogue/Hack 直系后裔，3.7 开发中；纯 C 无引擎架构
+   487||| [[open-source-game/brogue-ce]] — 极简主义 Roguelike，Pure C 代码库，22个.c模块+Dijkstra寻路+确定性游戏回放系统
+   488|- [[open-source-game/shattered-pixel-dungeon]] — 传统 Roguelike 地牢爬行器，libGDX 跨平台架构（Desktop/Android/iOS），Java/JDK 21，程序化关卡生成，5 大区域+天赋系统，6k stars，GPLv3
+   489|- [[open-source-games-list]] — GitHub 开源游戏精选列表：18+ 品类（FPS/RPG/RTS/Roguelike/城市建造等），含源码链接 |
+   490|
+   491|- [[open-source-game/trigger-rally]] — 纯 C++ 拉力赛车游戏，PEngine/PSim/Trigger 三层架构，程序化地形高度图生成，GPL v2
+   492|- [[open-source-game/vdrift]] — 开源漂移赛车模拟器，Bullet 物理 + SDL3
+   493|- [[open-source-game/wipeout-rewrite]] — wipEout (1995 PSX) 清洁室重实现，纯 C 双平台后端(SDL2/Sokol) + 三渲染器架构
+   494|| [[open-source-game/kandria]] — Common Lisp 动作 RPG，TRIAL 引擎 + alloy OpenGL 渲染，~19K LOC 全 Lisp，BVH2 碰撞检测，内置关卡编辑器
+   495|- [[open-source-game/meritous]] — PSI 能量攻击动作地牢探索，纯 C + SDL 程序化地牢生成，约 10K LOC，GPLv3
+   496|- [[open-source-game/sdl-sopwith]] — 经典一战双翼机射击游戏 SDL 移植版，平台抽象架构(src/核心+sdl/平台层)，TCP/IP 多人，PC Speaker 音效模拟，自定义 .sop 关卡格式，GPLv2
+   497|- [[open-source-game/taisei]] — 东方 Project 同人弹幕射击游戏，C11 + SDL3 + OpenGL 自研渲染管线，~3.2M LOC C，多平台支持（Win/Linux/macOS/Web/Nintendo Switch）
+   498|- [[open-source-game/warzone-2100]] — 开源 3D RTS，含剧情战役+10人多人，157K LOC C++，多渲染后端(OpenGL/Vulkan/GLES)，400+科技树
+   499|- [[open-source-game/zero-k]] — Spring Engine 纯 Lua 游戏内容仓库，GadgetHandler 模块化事件驱动，物理弹道+智能单位预判，PBR 自定义 Shader，GPL v2
+   500|- [[open-source-game/war1gus]] — Warcraft: Orcs & Humans 重实现，基于 Stratagus 引擎，C++17 + Lua 脚本数据驱动，GPLv2
+   501|- [[open-source-game/stargus]] — StarCraft 1998 资产导入 Stratagus 引擎的工具，多格式转换层（GRP/CHK/CASC/SMACKER），startool MPQ 提取，约 15K LOC C++，GPLv2
+   502|
 | [[ai-game-devtools/drawing-spinup]] — SIGGRAPH Asia 2024: 单张 2D 角色画 → 3D rigged 动画角色 |

@@ -433,7 +433,7 @@
 |- [2026-04-19] Animate-X | https://github.com/Lucaria-Academy/Animate-X
 - [2026-04-19] AnimationGPT | https://github.com/fyyakaxyy/AnimationGPT
 - [2026-04-19] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
-- [ ] FaceFusion | https://github.com/facefusion/facefusion
+- [2026-04-19] FaceFusion | https://github.com/facefusion/facefusion
 - [ ] GeneFace | https://github.com/yerfor/GeneFace
 - [ ] ID-Animator | https://github.com/ID-Animator/ID-Animator
 - [ ] HY-Motion 1.0 | https://github.com/Tencent-Hunyuan/HY-Motion-1.0

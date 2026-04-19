@@ -30,3 +30,9 @@
 - Created: ai-game-devtools/drawing-spinup.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, pages 615→616)
+## [2026-04-19] ingest | FaceFusion
+- Cloned: ~/tmp/ai-game-devtools/facefusion/ (gitcode.com mirror, GitHub timeout)
+- Created: raw/articles/ai-game-devtools/facefusion.md
+- Created: ai-game-devtools/facefusion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 616→617)

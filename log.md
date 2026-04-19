@@ -282,4 +282,10 @@
 - Created: raw/articles/ai-game-devtools/moviigen-1-1.md
 - Created: ai-game-devtools/moviigen-1-1.md
 - Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 652→653)
+- Updated: index.md (total pages 653→654)
+## [2026-04-20] ingest | Open-Sora
+- Cloned: ~/tmp/ai-game-devtools/open-sora/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/open-sora.md
+- Created: ai-game-devtools/open-sora.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 653→654)

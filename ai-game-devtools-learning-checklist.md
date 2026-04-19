@@ -475,8 +475,8 @@
 - [2026-04-20] MotionDirector | https://github.com/showlab/MotionDirector
 |- [2026-04-20] Mov2mov | https://github.com/Scholar01/sd-webui-mov2mov
 |- [2026-04-20] MoviiGen 1.1 | https://github.com/ZulutionAI/MoviiGen1.1
-- [ ] Open-Sora | https://github.com/hpcaitech/Open-Sora
-- [ ] Open-Sora | https://github.com/PKU-YuanGroup/Open-Sora-Plan
+|- [2026-04-20] Open-Sora | https://github.com/hpcaitech/Open-Sora
+|- [ ] Open-Sora | https://github.com/PKU-YuanGroup/Open-Sora-Plan
 - [ ] Ovi | https://github.com/character-ai/Ovi
 - [ ] Ruyi | https://github.com/IamCreateAI/Ruyi-Models
 - [ ] ShortGPT | https://github.com/RayVentura/ShortGPT

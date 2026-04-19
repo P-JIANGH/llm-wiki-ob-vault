@@ -246,7 +246,8 @@
 |||| [[ai-game-devtools/dream-cinema]] — 清华大学电影迁移框架：3D AIGC 角色生成 + 相机轨迹优化 + 结构引导运动迁移，arXiv 2408.12601，MIT，代码未发布
 || [[ai-game-devtools/edge]] — Stanford TML CVPR 2023 音乐驱动可编辑舞蹈生成：Transformer Decoder + Gaussian Diffusion + Jukebox 音乐特征 + FiLM 条件调制，支持关节级编辑和帧间插补，AIST++ 数据集
 ||| [[ai-game-devtools/motionclone]] — Bujiazi 免训练运动克隆视频生成框架：稀疏时序注意力权重作为运动表征，单次去噪步提取(无需DDIM反转)，支持T2V/I2V/草图到视频，基于SD 1.5+AnimateDiff v3
-||| [[ai-game-devtools/motiondirector]] — 新国大 Show Lab 视频运动定制扩散模型：双路径 LoRA（空间外观+时间运动），ZeroScope/ModelScopeT2V 基础，14GB VRAM/数分钟训练，支持运动/电影镜头/图像动画/外观+运动联合定制，HuggingFace Spaces of the Week
+|||| [[ai-game-devtools/motiondirector]] — 新国大 Show Lab 视频运动定制扩散模型：双路径 LoRA（空间外观+时间运动），ZeroScope/ModelScopeT2V 基础，14GB VRAM/数分钟训练，支持运动/电影镜头/图像动画/外观+运动联合定制，HuggingFace Spaces of the Week
+|| [[ai-game-devtools/open-sora]] — HPCAitech 开源视频生成项目（ColossalAI 团队）：11B MMDiT 模型，T2V+I2V 统一，Rectified Flow+3D-VAE+Score Condition，$200K 训练成本，VBench 接近 Sora（差距 0.69%），Apache 2.0
 ## Avatar
    224|
    225||| [[ai-game-devtools/animate-anyone]] — Alibaba 智能计算研究院扩散模型角色动画框架：ReferenceNet + Pose Guider + 时空注意力UNet，单图+姿态序列→一致性动画视频，DeepGPU加速 ~40%，支持虚拟试衣/说话头像集成

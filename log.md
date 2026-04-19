@@ -229,3 +229,9 @@
 - Created: ai-game-devtools/mimo.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 643→645)
+## [2026-04-20] ingest | Mini-Gemini
+- Cloned: ~/tmp/ai-game-devtools/mini-gemini/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/mini-gemini.md
+- Created: ai-game-devtools/mini-gemini.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 645→646)

@@ -259,3 +259,9 @@
 - Created: ai-game-devtools/mora.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 648→649)
+## [2026-04-20] ingest | MotionClone
+- Cloned: ~/tmp/ai-game-devtools/motionclone/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/motionclone.md
+- Created: ai-game-devtools/motionclone.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 649→650)

@@ -441,7 +441,7 @@
 - [2026-04-19] SadTalker | https://github.com/Winfredy/SadTalker
 - [2026-04-19] SadTalker-Video-Lip-Sync | https://github.com/Zz-ww/SadTalker-Video-Lip-Sync
 |- [2026-04-19] ToonComposer | https://github.com/TencentARC/ToonComposer
-- [ ] TaleCrafter | https://github.com/VideoCrafter/TaleCrafter
+- [2026-04-19] TaleCrafter | https://github.com/VideoCrafter/TaleCrafter
 - [ ] ToonCrafter | https://github.com/ToonCrafter/ToonCrafter
 - [ ] Wav2Lip | https://github.com/Rudrabha/Wav2Lip
 

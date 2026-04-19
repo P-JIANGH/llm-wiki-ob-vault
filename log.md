@@ -78,3 +78,9 @@
 - Created: ai-game-devtools/tooncomposer.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 621→622)
+## [2026-04-19] ingest | TaleCrafter
+- Source: GitHub web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/talecrafter.md
+- Created: ai-game-devtools/talecrafter.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 622→623)

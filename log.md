@@ -277,3 +277,9 @@
 - Created: ai-game-devtools/sd-webui-mov2mov.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 652→653)
+## [2026-04-20] ingest | MoviiGen 1.1
+- Cloned: ~/tmp/ai-game-devtools/moviigen-1-1/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/moviigen-1-1.md
+- Created: ai-game-devtools/moviigen-1-1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 652→653)

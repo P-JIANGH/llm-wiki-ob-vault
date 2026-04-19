@@ -501,3 +501,10 @@
 - Created: ai-game-devtools/motiongpt.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added motiongpt entry)
+
+## [2026-04-19] ingest | MusePose
+- Cloned: ~/tmp/ai-game-devtools/musepose/
+- Created: raw/articles/ai-game-devtools/musepose.md
+- Created: ai-game-devtools/musepose.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added musepose entry)

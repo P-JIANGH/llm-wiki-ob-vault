@@ -241,8 +241,9 @@
 |||||| [[ai-game-devtools/hunyuanvideo-avatar]] — 腾讯混元 MM-DiT 架构音频驱动多人角色动画：角色图像注入模块+情感控制(AEM)+面部感知音频适配器(FAA)独立注入，支持写实/卡通/3D/拟人多风格，10GB-96GB VRAM 弹性配置
 ||||||| [[ai-game-devtools/intrinsic-avatar]] — CVPR 2024 单目视频动态人体逆渲染：显式光线追踪+物理 PBR 材质分解(albedo/roughness/metallic/normal)，SMPL 参数化驱动+LBS 变形+NeRFAcc 重要性采样，支持新视角合成+HDRI 重打光
 |||| [[ai-game-devtools/liveportrait]] — 快手高效视频驱动肖像动画：Stitching+Retargeting 控制、图像/视频双模输入、Animals mode（猫/狗）、Motion Template 隐私保护、跨平台支持、Apache 2.0
-|||| [[ai-game-devtools/motiongpt]] — OpenMotionLab NeurIPS 2023 统一运动-语言模型：VQ-VAE将3D运动离散化为token+T5/GPT-2联合训练，支持文本到运动/运动字幕/运动预测/运动补间四任务，MIT
-||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
+||||| [[ai-game-devtools/motiongpt]] — OpenMotionLab NeurIPS 2023 统一运动-语言模型：VQ-VAE将3D运动离散化为token+T5/GPT-2联合训练，支持文本到运动/运动字幕/运动预测/运动补间四任务，MIT
+|||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
+||||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
 
 |||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

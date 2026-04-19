@@ -554,3 +554,9 @@
 - Created: ai-game-devtools/topo4d.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added topo4d entry, pages 610→611)
+## [2026-04-19] ingest | UnityAIWithChatGPT
+- Source: https://github.com/haili1234/UnityAIWithChatGPT (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/unity-ai-with-chatgpt.md
+- Created: ai-game-devtools/unity-ai-with-chatgpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added unity-ai-with-chatgpt entry, pages 611→612)

@@ -424,7 +424,7 @@
 - [2026-04-19] StableAvatar | https://github.com/Francis-Rings/StableAvatar
 - [2026-04-19] StyleAvatar3D | https://github.com/icoz69/StyleAvatar3D
 - [2026-04-19] Topo4D | https://github.com/XuanchenLi/Topo4D
-- [ ] UnityAIWithChatGPT | https://github.com/haili1234/UnityAIWithChatGPT
+- [2026-04-19] UnityAIWithChatGPT | https://github.com/haili1234/UnityAIWithChatGPT
 
 ## Animation (17)
 - [2026-04-19] Animate Anyone | https://github.com/HumanAIGC/AnimateAnyone

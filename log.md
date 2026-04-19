@@ -223,3 +223,9 @@
 - Created: ai-game-devtools/lynx.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 642→643)
+## [2026-04-20] ingest | MIMO
+- Source: web extract (GitHub timeout, gitcode 403, gitee unreachable)
+- Created: raw/articles/ai-game-devtools/mimo.md
+- Created: ai-game-devtools/mimo.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 643→645)

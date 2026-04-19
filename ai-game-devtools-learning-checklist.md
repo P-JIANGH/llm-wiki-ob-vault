@@ -429,7 +429,7 @@
 ## Animation (17)
 - [2026-04-19] Animate Anyone | https://github.com/HumanAIGC/AnimateAnyone
 - [2026-04-19] AnimateDiff | https://github.com/guoyww/animatediff/
-- [ ] AnimateLCM | https://github.com/G-U-N/AnimateLCM
+|- [2026-04-19] AnimateLCM | https://github.com/G-U-N/AnimateLCM
 - [ ] Animate-X | https://github.com/Lucaria-Academy/Animate-X
 - [ ] AnimationGPT | https://github.com/fyyakaxyy/AnimationGPT
 - [ ] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp

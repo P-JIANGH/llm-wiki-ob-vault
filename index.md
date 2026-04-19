@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 651 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 652 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -296,8 +296,9 @@
    263||| [[ai-game-devtools/lumina-mgpt]] — Alpha-VLLM 多模态自回归模型家族：Chameleon 架构扩展+VQ-VAE 图像 token 化，7B/34B 参数，支持文本生成图像/图像理解/Omni 多任务（深度/分割/姿态），FSDP 训练+Gradio 演示，Apache 2.0 |
    264|||| [[ai-game-devtools/makeanything]] — NUS Show Lab FLUX.1 多域程序序列生成：Asymmetric LoRA 21域共享 + Recraft 图生序列(4/9帧)，1024/1056分辨率，覆盖乐高/绘画/雕塑等21创意域，HuggingFace权重+数据集 |
    265|||| [[ai-game-devtools/sd-webui-controlnet]] — Mikubill A1111 WebUI ControlNet 扩展：20+预处理器(姿态/深度/边缘/法线)、多路ControlNet输入、3种控制模式、Reference-Only、IP-Adapter集成，GPL v3 |
-   266|||||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
-   267||||| [[ai-game-devtools/stable-diffusion-3-5]] — Stability AI SD3.5 官方推理参考实现：MM-DiT 架构+三文本编码器(CLIP-L/CLIP-bigG/T5-XXL)+16 通道 VAE，支持 Large/Turbo/Medium 变体+ControlNet，官方推荐 [[ai-game-devtools/comfyui]] 作为生产推理 UI |
+   266|||| [[ai-game-devtools/sd-webui-mov2mov]] — Scholar01 stable-diffusion-webui 视频转视频插件：逐帧 img2img 处理+视频重打包，关键帧+Ebsynth 插值减少闪烁(beta/仅 Windows)，OpenCV+imageio 管线，MIT |
+   267||||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
+   268||||| [[ai-game-devtools/stable-diffusion-3-5]] — Stability AI SD3.5 官方推理参考实现：MM-DiT 架构+三文本编码器(CLIP-L/CLIP-bigG/T5-XXL)+16 通道 VAE，支持 Large/Turbo/Medium 变体+ControlNet，官方推荐 [[ai-game-devtools/comfyui]] 作为生产推理 UI |
    268||||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
    269||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
    270||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT

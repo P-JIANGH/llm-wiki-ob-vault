@@ -270,4 +270,10 @@
 - Created: raw/articles/ai-game-devtools/motiondirector.md
 - Created: ai-game-devtools/motiondirector.md
 - Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 650→651)
+- Updated: index.md (total pages 651→652)
+## [2026-04-20] ingest | Mov2mov
+- Cloned: ~/tmp/ai-game-devtools/sd-webui-mov2mov/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/sd-webui-mov2mov.md
+- Created: ai-game-devtools/sd-webui-mov2mov.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 652→653)

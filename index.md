@@ -253,6 +253,7 @@
    249||||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
 |||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
 |||||| [[ai-game-devtools/sadtalker]] — CVPR 2023 音频驱动肖像动画：3DMM系数管线(Audio→表情/姿态)+face-vid2vid渲染，支持参考视频/Still模式/GFPGAN增强/512px高分辨率，SD WebUI扩展+Gradio+Discord，Apache 2.0
+|||||| [[ai-game-devtools/sadtalker-video-lip-sync]] — SadTalker视频唇形同步改进：视频输入+Wav2Lip唇形生成+GFPGAN/GPEN区域增强+DAIN插帧(25→50/100fps)，5阶段管线，学术研究许可
 |||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
    252||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
    253||||||| [[ai-game-devtools/topo4d]] — ECCV 2024 + T-PAMI 2025 拓扑保持 4D 头部捕捉：3D 高斯中心绑定网格顶点→规则布线动态面部网格+8K毛孔级纹理，多视角时序图像输入，消除手动对齐

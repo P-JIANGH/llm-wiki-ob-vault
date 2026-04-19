@@ -453,7 +453,7 @@
 - [2026-04-20] CogVLM | https://github.com/THUDM/CogVLM
 - [2026-04-20] CoNR | https://github.com/megvii-research/CoNR
 - [2026-04-20] Diffutoon | https://github.com/modelscope/DiffSynth-Studio
-- [ ] dolphin | https://github.com/kaleido-lab/dolphin
+- [2026-04-20] dolphin | https://github.com/kaleido-lab/dolphin
 - [ ] DreamCinema | https://github.com/chen-wl20/DreamCinema
 - [ ] EDGE | https://github.com/Stanford-TML/EDGE
 - [ ] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas

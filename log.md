@@ -147,3 +147,10 @@
 - Created: ai-game-devtools/diffsynth-studio.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+
+## [2026-04-20] ingest | Dolphin
+- Cloned: ~/tmp/ai-game-devtools/dolphin/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/dolphin.md
+- Created: ai-game-devtools/dolphin.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 631→632)

@@ -134,3 +134,9 @@
 - Created: ai-game-devtools/cogvlm.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 629→630)
+## [2026-04-20] ingest | CoNR
+- Cloned: ~/tmp/ai-game-devtools/conr/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/conr.md
+- Created: ai-game-devtools/conr.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 630→631)

@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 630 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 631 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -263,7 +263,8 @@
    252||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
    253||||||| [[ai-game-devtools/topo4d]] — ECCV 2024 + T-PAMI 2025 拓扑保持 4D 头部捕捉：3D 高斯中心绑定网格顶点→规则布线动态面部网格+8K毛孔级纹理，多视角时序图像输入，消除手动对齐
    254||| [[ai-game-devtools/unity-ai-with-chatgpt]] — haili1234 Unity ChatGPT+UnityChan 语音交互展示：ChatGPT API 对话 + Unity-chan 3D 角色 + TTS 语音输出 + CMake 跨平台构建(Andoird/iOS/macOS/Win)，99 stars
-||| [[ai-game-devtools/wav2lip]] — IIIT Hyderabad ACM MM 2020 音频驱动唇形同步：U-Net 编码器-解码器 + SyncNet 专家判别器作为感知损失，LRS2 训练，支持任意身份/语言/CGI 面孔，非商用许可
+|| [[ai-game-devtools/conr]] — 旷视研究院 IJCAI 2023 协作神经渲染：ResNet50/18 双骨干 + CINN Shader + RGBA Decoder，动漫角色设定图(PNG透明)+UDP姿态序列→舞蹈视频，Streamlit WebUI + FFmpeg输出，无3D建模需求
+|| [[ai-game-devtools/wav2lip]] — IIIT Hyderabad ACM MM 2020 音频驱动唇形同步：U-Net 编码器-解码器 + SyncNet 专家判别器作为感知损失，LRS2 训练，支持任意身份/语言/CGI 面孔，非商用许可
    255||||||| [[ai-game-devtools/disco-diffusion]]
    256|||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |
    257|||| [[ai-game-devtools/segment-anything-2]] — Meta FAIR 通用图像/视频分割基础模型：Hiera backbone + streaming memory，实时视频分割，4 种尺寸（38.9M-224.4M），最高 91 FPS (A100)，SA-V 数据集，Apache 2.0 |

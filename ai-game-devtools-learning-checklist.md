@@ -451,7 +451,7 @@
 - [2026-04-20] CoDeF | https://github.com/qiuyu96/codef
 - [2026-04-20] CogVideoX | https://github.com/THUDM/CogVideo
 - [2026-04-20] CogVLM | https://github.com/THUDM/CogVLM
-- [ ] CoNR | https://github.com/megvii-research/CoNR
+- [2026-04-20] CoNR | https://github.com/megvii-research/CoNR
 - [ ] Diffutoon | https://github.com/modelscope/DiffSynth-Studio
 - [ ] dolphin | https://github.com/kaleido-lab/dolphin
 - [ ] DreamCinema | https://github.com/chen-wl20/DreamCinema

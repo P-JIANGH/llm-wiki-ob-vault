@@ -54,3 +54,9 @@
 - Created: ai-game-devtools/hy-motion-1-0.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 618→619)
+## [2026-04-19] ingest | Index-AniSora
+- Source: GitHub web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/index-anisora.md
+- Created: ai-game-devtools/index-anisora.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 619→620)

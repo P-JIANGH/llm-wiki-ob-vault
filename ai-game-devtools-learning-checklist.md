@@ -437,7 +437,7 @@
 - [2026-04-19] GeneFace | https://github.com/yerfor/GeneFace
 - [2026-04-19] ID-Animator | https://github.com/ID-Animator/ID-Animator
 - [2026-04-19] HY-Motion 1.0 | https://github.com/Tencent-Hunyuan/HY-Motion-1.0
-- [ ] Index-AniSora | https://github.com/bilibili/Index-anisora
+- [2026-04-19] Index-AniSora | https://github.com/bilibili/Index-anisora
 - [ ] SadTalker | https://github.com/Winfredy/SadTalker
 - [ ] SadTalker-Video-Lip-Sync | https://github.com/Zz-ww/SadTalker-Video-Lip-Sync
 - [ ] ToonComposer | https://github.com/TencentARC/ToonComposer

@@ -483,3 +483,9 @@
 - Created: ai-game-devtools/linly-talker.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Avatar entry, pages 604→605)
+## [2026-04-19] ingest | LivePortrait
+- Source: raw/articles/ai-game-devtools/liveportrait.md (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/liveportrait.md
+- Created: ai-game-devtools/liveportrait.md
+- Updated: index.md (added Avatar entry)
+- NOTE: Checklist NOT updated (clone failed, will retry next cron)

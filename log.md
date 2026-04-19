@@ -265,3 +265,9 @@
 - Created: ai-game-devtools/motionclone.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 649→650)
+## [2026-04-20] ingest | MotionDirector
+- Cloned: ~/tmp/ai-game-devtools/motiondirector/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/motiondirector.md
+- Created: ai-game-devtools/motiondirector.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 650→651)

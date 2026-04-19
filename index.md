@@ -245,6 +245,7 @@
 |||| [[ai-game-devtools/linly-talker]] — Kedreamix 数字人智能对话系统：ASR(Whisper/FunASR)→LLM(Linly/Qwen/Gemini/ChatGPT)→TTS(Edge/CosyVoice)→Avatar(SadTalker/MuseTalk)完整管线，Gradio WebUI 支持图片上传对话+语音克隆(GPT-SoVITS)，MIT
 |||| [[ai-game-devtools/musepose]] — TME Lyra Lab 姿态驱动虚拟人生成框架：SD 1.5+AnimateDiff Motion Module+DWPose姿态条件，Reference/Denoising UNet+Pose Guider+Mutual Self-Attention管线，独有Pose Align算法，MIT代码/非商用模型
 |||| [[ai-game-devtools/musetalk]] — TME Lyra Lab 实时音频驱动唇同步模型：ft-mse-vae 潜空间单步修复 + whisper-tiny 音频编码 + SD UNet cross-attention，30fps+(V100)/多语言/bbox_shift 可调嘴部开合，MIT
+|||| [[ai-game-devtools/musev]] — TME Lyra Lab 虚拟人视频生成框架：视觉条件并行去噪支持无限长度视频，Text/Image/Video2Video，SD生态兼容(LoRA/ControlNet/IPAdapter)，ReferenceNet身份保真，~12GB VRAM，MIT代码/非商用模型
 
 ||||| [[ai-game-devtools/disco-diffusion]]
 ||| [[ai-game-devtools/grounded-segment-anything]] — IDEA Research 开源视觉检测+分割流水线：Grounding DINO 零样本检测 + SAM 像素级分割 + Stable Diffusion 重绘，6种交互模式Gradio App，ICCV 2023 Demo，Apache 2.0 |

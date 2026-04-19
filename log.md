@@ -515,3 +515,10 @@
 - Created: ai-game-devtools/musetalk.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added musetalk entry)
+
+## [2026-04-19] ingest | MuseV
+- Cloned: ~/tmp/ai-game-devtools/musev/
+- Created: raw/articles/ai-game-devtools/musev.md
+- Created: ai-game-devtools/musev.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added musev entry)

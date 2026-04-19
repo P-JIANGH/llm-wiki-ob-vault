@@ -161,3 +161,9 @@
 - Created: ai-game-devtools/dream-cinema.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 632→633)
+## [2026-04-20] ingest | EDGE
+- Cloned: ~/tmp/ai-game-devtools/edge/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/edge.md
+- Created: ai-game-devtools/edge.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 633→634)

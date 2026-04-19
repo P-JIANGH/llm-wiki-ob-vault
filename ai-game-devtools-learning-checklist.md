@@ -455,7 +455,7 @@
 - [2026-04-20] Diffutoon | https://github.com/modelscope/DiffSynth-Studio
 - [2026-04-20] dolphin | https://github.com/kaleido-lab/dolphin
 - [2026-04-20] DreamCinema | https://github.com/chen-wl20/DreamCinema
-- [ ] EDGE | https://github.com/Stanford-TML/EDGE
+|- [2026-04-20] EDGE | https://github.com/Stanford-TML/EDGE
 - [ ] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas
 - [ ] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
 - [ ] HuMo | https://github.com/Phantom-video/HuMo

@@ -116,3 +116,9 @@
 - Created: ai-game-devtools/codef.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 626→627)
+## [2026-04-20] ingest | CogVideoX
+- Cloned: ~/tmp/ai-game-devtools/cogvideox/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/cogvideox.md
+- Created: ai-game-devtools/cogvideox.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 627→628)

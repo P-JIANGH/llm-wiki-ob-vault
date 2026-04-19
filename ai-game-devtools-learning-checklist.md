@@ -449,7 +449,7 @@
 - [2026-04-20] Animate-A-Story | https://github.com/VideoCrafter/Animate-A-Story
 - [2026-04-20] BackgroundRemover | https://github.com/nadermx/backgroundremover
 - [2026-04-20] CoDeF | https://github.com/qiuyu96/codef
-- [ ] CogVideoX | https://github.com/THUDM/CogVideo
+- [2026-04-20] CogVideoX | https://github.com/THUDM/CogVideo
 - [ ] CogVLM | https://github.com/THUDM/CogVLM
 - [ ] CoNR | https://github.com/megvii-research/CoNR
 - [ ] Diffutoon | https://github.com/modelscope/DiffSynth-Studio

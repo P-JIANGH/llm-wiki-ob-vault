@@ -217,3 +217,9 @@
 - Created: ai-game-devtools/ltx-video.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 641→642)
+## [2026-04-20] ingest | Lynx
+- Cloned: ~/tmp/ai-game-devtools/lynx/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/lynx.md
+- Created: ai-game-devtools/lynx.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 642→643)

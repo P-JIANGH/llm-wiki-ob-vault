@@ -1,4 +1,10 @@
 # Wiki Log
+## [2026-04-20] ingest | NeuralSound
+- Source: https://github.com/hellojxt/NeuralSound (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/neural-sound.md
+- Created: ai-game-devtools/neural-sound.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Audio section, pages 749→750)
 ## [2026-04-20] ingest | MeanAudio
 - Cloned: ~/tmp/ai-game-devtools/mean-audio/
 - Created: raw/articles/ai-game-devtools/mean-audio.md

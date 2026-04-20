@@ -1,4 +1,10 @@
      # Wiki Log
+## [2026-04-20] ingest | V-JEPA
+- Cloned: ~/tmp/ai-game-devtools/v-jepa/
+- Created: raw/articles/ai-game-devtools/v-jepa.md
+- Created: ai-game-devtools/v-jepa.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 686→687)
 ## [2026-04-20] ingest | VideoElevator
 - Source: web extract (GitHub timed out; gitcode 403; gitee unreachable; README extracted)
 - Created: raw/articles/ai-game-devtools/video-elevator.md

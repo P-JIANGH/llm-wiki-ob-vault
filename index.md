@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 686 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 687 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -109,7 +109,8 @@
 ||||||| [[ai-game-devtools/step-video-t2v]] — 阶跃星辰 30B 参数文本到视频扩散模型：DiT 48层架构 + 深度压缩Video-VAE(16×16空间/8×时间) + 双语StepLLM+CLIP文本编码 + Video-DPO偏好优化，204帧/最高768px，4×80GB GPU，Turbo版10-15步，Apache 2.0 代码/非商用权重
     99|| [[ai-game-devtools/ovi]] — Character AI 双模态音视频生成模型（11B 参数）
 || [[ai-game-devtools/cogvlm]] — THUDM/ZhipuAI 开源 VLM 双模型：CogVLM-17B(10B视觉+7B语言,490×490)+CogAgent-18B(11B视觉+7B语言,1120×1120+GUI Agent)，MM-VET 52.8 SOTA，CVPR 2024 Highlight，INT4 仅需 11GB，Apache-2.0 |
-||| [[ai-game-devtools/visualrwkv]] — howard-hou 基于 RWKV 架构的视觉语言模型：SigLIP+DINOv2+SAM 三编码器融合，0.1B~7B 多尺度，v7.0 VQAv2 79.84 超越 v6 同量级，RNN O(n) 推理适合实时游戏场景，arXiv 2406.13362 |
+|| [[ai-game-devtools/visualrwkv]] — howard-hou 基于 RWKV 架构的视觉语言模型：SigLIP+DINOv2+SAM 三编码器融合，0.1B~7B 多尺度，v7.0 VQAv2 79.84 超越 v6 同量级，RNN O(n) 推理适合实时游戏场景，arXiv 2406.13362 |
+|||| [[ai-game-devtools/v-jepa]] — Meta FAIR 视频自监督学习：ViT 编码器 + 预测器在 latent space 预测掩码区域特征，无需预训练/负样本/标注，冻结骨干+轻量 probe 即达 K400 82.0%/IN1K 77.4%，ViT-L/H 双尺度，CC BY-NC 4.0 |
     99||| [[ai-game-devtools/character-glm-6b]] — 聆心智能&清华大学 CoAI 角色扮演对话大模型：基于 ChatGLM2-6B 微调，7维属性+行为建模，一致性/拟人化/吸引力三维评估，角色扮演场景超越 GPT-3.5，不可商用 |
     99||| [[ai-game-devtools/chatgpt-maya]] — LouisRossouw Maya ChatGPT 代码生成工具：自然语言提示→GPT-3生成Maya Python代码→exec()直接执行，简单自动化可用、复杂请求不佳，需mayapy安装openai包 |
    100||| [[ai-game-devtools/anime-gf]] — cyan/moecorp 桌面 LLM 聊天前端：Electron + React + tRPC + SQLite，支持 OpenAI/Anthropic/Mistral/Together AI 及任意 OpenAI兼容端点，角色卡系统，AGPL |

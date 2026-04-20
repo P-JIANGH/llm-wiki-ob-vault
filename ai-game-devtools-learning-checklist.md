@@ -572,7 +572,7 @@
 - [2026-04-21] MahaTTS | https://github.com/dubverse-ai/MahaTTS
 |- [2026-04-21] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
 |- [2026-04-21] MeloTTS | https://github.com/myshell-ai/MeloTTS
-- [ ] MetaVoice-1B | https://github.com/metavoiceio/metavoice-src
+- [2026-04-21] MetaVoice-1B | https://github.com/metavoiceio/metavoice-src
 - [ ] Mini-Omni | https://github.com/gpt-omni/mini-omni
 - [ ] One-Shot-Voice-Cloning | https://github.com/CMsmartvoice/One-Shot-Voice-Cloning
 - [ ] OpenVoice | https://github.com/myshell-ai/OpenVoice

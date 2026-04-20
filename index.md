@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 742 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 743 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -382,7 +382,8 @@
 | [[ai-game-devtools/audio-diffusion-pytorch]] — ArchineTAI 音频扩散生成库：无条件/文本条件生成+自编码+上采样+声码器+修复，UNetV0+V-Diffusion+DDIM，MIT 无预训练模型
 || [[ai-game-devtools/audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器：agc-continuous(32ch,100Hz)/agc-discrete(24阶段RVQ,50Hz)，基于DAC架构+EMA+CLAP感知损失，盲测ELO优于EnCodec/DAC
 ||| [[ai-game-devtools/audioldm-2]] — AudioLDM 2 通用音频生成框架：潜在扩散模型+自监督预训练，文本→音效/音乐/语音，48kHz高保真+超分辨率修复，Diffusers集成3x加速，MIT
-|| [[ai-game-devtools/audiox]] — HKUST ICLR 2026 统一音频生成框架：DiT+多模态自适应融合(MAF)，文本/视频/音频→音效/音乐(T2A/T2M/V2A/V2M)，IF-caps 700万样本，CC-BY-NC 4.0
+||| [[ai-game-devtools/audiox]] — HKUST ICLR 2026 统一音频生成框架：DiT+多模态自适应融合(MAF)，文本/视频/音频→音效/音乐(T2A/T2M/V2A/V2M)，IF-caps 700万样本，CC-BY-NC 4.0
+|| [[ai-game-devtools/auffusion]] — BUPT 文本到音频扩散模型：适配 Stable Diffusion T2I 架构到 TTA，CLIPTextModel+UNet2DCondition+HiFi-GAN 声码器，支持文本生成/风格迁移/音频修复/prompt2prompt 控制，Apache 2.0
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

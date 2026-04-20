@@ -564,3 +564,9 @@
 - Created: ai-game-devtools/audiox.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, bumped total to 742)
+## [2026-04-20] ingest | Auffusion
+- Cloned: ~/tmp/ai-game-devtools/auffusion/
+- Created: raw/articles/ai-game-devtools/auffusion.md
+- Created: ai-game-devtools/auffusion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Auffusion entry under Audio section, bumped total to 743)

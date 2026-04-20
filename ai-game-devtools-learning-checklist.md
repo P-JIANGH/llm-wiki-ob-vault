@@ -516,7 +516,7 @@
 |- [2026-04-20] AudioLCM | https://github.com/liuhuadai/AudioLCM
 |- [2026-04-20] AudioLDM 2 | https://github.com/haoheliu/audioldm2
 |- [2026-04-20] AudioX | https://github.com/ZeyueT/AudioX
-|- [ ] Auffusion | https://github.com/happylittlecat2333/Auffusion
+|- [2026-04-20] Auffusion | https://github.com/happylittlecat2333/Auffusion
 - [ ] CTAG | https://github.com/PapayaResearch/ctag
 - [ ] FoleyCrafter | https://github.com/open-mmlab/FoleyCrafter
 - [ ] HunyuanVideo-Foley | https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley

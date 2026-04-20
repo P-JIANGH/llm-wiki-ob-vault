@@ -529,7 +529,7 @@
 - [2026-04-20] SEE-2-SOUND | https://github.com/see2sound/see2sound
 - [2026-04-20] SyncFusion | https://github.com/mcomunita/syncfusion
 - [2026-04-20] TANGO | https://github.com/declare-lab/tango
-- [ ] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
+|- [2026-04-21] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
 - [ ] VTA-LDM | https://github.com/ariesssxu/vta-ldm
 - [ ] WavJourney | https://github.com/Audio-AGI/WavJourney
 

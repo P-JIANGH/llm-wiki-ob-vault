@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 753 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | Total pages: 754 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -395,6 +395,7 @@
 ||| [[ai-game-devtools/see-2-sound]] — 多伦多大学 零样本图像→5.1环绕声空间音频生成：SAM分割+Depth Anything深度估计+CoDi扩散音频生成+pyroomacoustics RIR空间化，A100 80GB优化，Gradio Demo+Docker支持
 ||| [[ai-game-devtools/syncfusion]] — Queen Mary+Sapienza ICASSP 2024 视频→Foley音效合成：Onset Model(ResNet视频编码器检测动作起始点) + Diffusion Model(audio-diffusion-pytorch+CLAP条件化)双管线，音频/文本双条件控制，Greatest Hits数据集，自动同步游戏音效生成
 ||| [[ai-game-devtools/tango]] — declare-lab LLM 引导潜扩散文本到音频生成：Flan-T5 冻结文本编码器 + UNet2DConditionModel 扩散模型 + AudioLDM VAE，866M 参数；Tango 2 引入 DPO 偏好对齐(Audio-Alpaca 15K配对数据)，OVL 3.99 SOTA，CC BY-NC-ND 4.0
+||| [[ai-game-devtools/think-sound]] — 浙江大学 NeurIPS 2025 统一 Any2Audio 生成框架：CoT 推理引导 + Flow Matching，三阶段管线（Foley生成→对象级精炼→目标音频编辑），MM-DiT 骨干+Stable Audio VAE，支持视频/文本/音频→音频，Apache 2.0（研究用途）
 
 
 ## Texture (3D Asset Generation)

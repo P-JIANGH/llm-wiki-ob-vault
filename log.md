@@ -649,3 +649,9 @@
 - Created: ai-game-devtools/tango.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry in Audio section, total pages 752→753)
+## [2026-04-21] ingest | ThinkSound
+- Cloned: ~/tmp/ai-game-devtools/think-sound/
+- Created: raw/articles/ai-game-devtools/think-sound.md
+- Created: ai-game-devtools/think-sound.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

@@ -493,7 +493,7 @@
 - [2026-04-20] Tora | https://github.com/ali-videoai/Tora
 |- [2026-04-20] Track-Anything | https://github.com/gaomingqi/Track-Anything
 - [2026-04-20] Tune-A-Video | https://github.com/showlab/Tune-A-Video
-- [ ] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
+- [2026-04-20] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
 - [ ] VGen | https://github.com/ali-vilab/i2vgen-xl
 - [ ] ViewCrafter | https://github.com/Drexubery/ViewCrafter
 - [ ] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT

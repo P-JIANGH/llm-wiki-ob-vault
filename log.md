@@ -401,3 +401,9 @@
 - Created: ai-game-devtools/tune-a-video.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 680→681)
+## [2026-04-20] ingest | Vchitect-2.0
+- Source: GitHub README (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/vchitect-2-0.md
+- Created: ai-game-devtools/vchitect-2-0.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 681→682)

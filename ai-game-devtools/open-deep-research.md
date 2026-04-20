@@ -47,7 +47,7 @@ npm start
 
 ## Game Dev Relevance
 
-Can be used for [[multi-agent-interactive-classroom]]-style deep research workflows, or as a research engine for [[ai-game-devtools]] discovery — feeding into game content pipelines by gathering structured knowledge from the web.
+Can be used for [[multi-agent-interactive-classroom]]-style deep research workflows, or as a research engine for `ai-game-devtools` discovery — feeding into game content pipelines by gathering structured knowledge from the web.
 
 ## Related
 

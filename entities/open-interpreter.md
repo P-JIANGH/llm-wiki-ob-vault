@@ -4,7 +4,8 @@ created: 2026-04-20
 updated: 2026-04-20
 type: entity
 tags: [ai, tool, open-source]
-sources: ["general knowledge"]
+sources: ["general knowledge"]aliases: ["Open Interpreter"]
+
 ---
 
 # Open Interpreter

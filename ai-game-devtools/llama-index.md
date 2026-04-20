@@ -1,4 +1,5 @@
 # LlamaIndex
+aliases: ["LlamaIndex", "LlamaIndex"]
 
 ---
 title: LlamaIndex

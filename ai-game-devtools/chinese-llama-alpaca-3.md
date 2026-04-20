@@ -5,6 +5,8 @@ updated: 2026-04-13
 type: entity
 tags: [llm, open-source, chinese, instruction-tuning, game-dev]
 sources: [raw/articles/ai-game-devtools/chinese-llama-alpaca-3.md]
+aliases: ["百川智能"]
+
 ---
 
 # Chinese-LLaMA-Alpaca-3

@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [llm, agent, research, autonomous, open-source, game]
-sources: [raw/articles/ai-game-devtools/agent-laboratory.md]aliases: ["AgentLaboratory"]
+sources: [raw/articles/ai-game-devtools/agent-laboratory.md]
+aliases: ["AgentLaboratory"]
 
 ---
 

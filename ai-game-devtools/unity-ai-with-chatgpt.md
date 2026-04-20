@@ -5,6 +5,8 @@ updated: 2026-04-19
 type: entity
 tags: [llm, unity, tool, game-engine, open-source, avatar]
 sources: [raw/articles/ai-game-devtools/unity-ai-with-chatgpt.md]
+aliases: ["UnityChatGPT"]
+
 ---
 
 # UnityAIWithChatGPT

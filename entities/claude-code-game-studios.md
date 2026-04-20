@@ -5,6 +5,8 @@ updated: 2026-04-08
 type: entity
 tags: [project, workflow, agent, multi-agent, claude-code]
 sources: [raw/articles/claude-code-game-studios-2026.md]
+aliases: ["claude-code-game-studio-directory-structure"]
+
 ---
 
 # Claude Code Game Studios
@@ -59,9 +61,9 @@ See [[claude-code-game-studio-directory-structure]] for details.
 ## Agent Hierarchy
 
 ### Leadership Tier (Opus model)
-- **[[creative-director]]** — Creative authority: vision, pillars, aesthetic direction, scope arbitration
-- **[[technical-director]]** — Technical authority: architecture, engine choices, code quality gates
-- **[[producer]]** — Production: sprint planning, milestone tracking, risk, cross-department coordination
+- **`creative-director`** — Creative authority: vision, pillars, aesthetic direction, scope arbitration
+- **`technical-director`** — Technical authority: architecture, engine choices, code quality gates
+- **`producer`** — Production: sprint planning, milestone tracking, risk, cross-department coordination
 
 ### Department Heads (Opus/Sonnet)
 - **Art Director** — Visual execution of creative direction
@@ -71,8 +73,8 @@ See [[claude-code-game-studio-directory-structure]] for details.
 - **Community Manager** — Player community, social media, communications
 
 ### Leads (Sonnet model)
-- **[[game-designer]]** — Core loops, systems, progression, combat mechanics
-- **[[lead-programmer]]** — Code architecture, coding standards, code review
+- **`game-designer`** — Core loops, systems, progression, combat mechanics
+- **`lead-programmer`** — Code architecture, coding standards, code review
 - **Level Designer**, **Systems Designer**, **Economy Designer**, **Live Ops Designer**, **Localization Lead**
 
 ### Specialists ( Sonnet/Haiku)

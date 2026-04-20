@@ -4,7 +4,8 @@ created: 2026-04-13
 updated: 2026-04-13
 type: entity
 tags: [ai, llm, agent, workflow, tool, open-source]
-sources: [raw/articles/ai-game-devtools/auto-gpt.md]aliases: ["AutoGPT"]
+sources: [raw/articles/ai-game-devtools/auto-gpt.md]
+aliases: ["AutoGPT"]
 
 ---
 

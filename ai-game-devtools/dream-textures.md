@@ -5,6 +5,8 @@ updated: 2026-04-18
 type: entity
 tags: [tool, blender, texture, image-generation, diffusion, open-source, ai]
 sources: [raw/articles/ai-game-devtools/dream-textures.md]
+aliases: ["DreamTextures"]
+
 ---
 
 # Dream Textures

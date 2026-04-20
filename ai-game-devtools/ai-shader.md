@@ -4,7 +4,8 @@ created: 2026-04-18
 updated: 2026-04-18
 type: entity
 tags: [tool, open-source, code-generation, ai]
-sources: [raw/articles/ai-game-devtools/ai-shader.md]aliases: ["AIShader"]
+sources: [raw/articles/ai-game-devtools/ai-shader.md]
+aliases: ["AIShader"]
 
 ---
 

@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [ai-model, vlm, multimodal, on-device, open-source, llm]
-sources: [raw/articles/ai-game-devtools/minicpm-llama3-v-2.5.md]aliases: ["MiniCPM-Llama3-V-2_5"]
+sources: [raw/articles/ai-game-devtools/minicpm-llama3-v-2.5.md]
+aliases: ["MiniCPM-Llama3-V-2_5"]
 
 ---
 

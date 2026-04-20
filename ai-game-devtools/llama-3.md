@@ -5,6 +5,8 @@ updated: 2026-04-14
 type: entity
 tags: [llm, model, meta, open-source, game-dev, text-generation]
 sources: [raw/articles/ai-game-devtools/llama-3.md]
+aliases: ["Meta-Llama-3"]
+
 ---
 
 # Llama 3

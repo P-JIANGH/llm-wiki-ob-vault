@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/jaaz.md]
 
 # Jaaz
 
-Open-source multimodal canvas creative agent — an open-source alternative to [[Canva]] and [[Manus]] focused on privacy and local deployment. Provides an infinite canvas for visual storyboarding combined with AI agents that generate images and videos from natural language.
+Open-source multimodal canvas creative agent — an open-source alternative to `Canva` and [[Manus]] focused on privacy and local deployment. Provides an infinite canvas for visual storyboarding combined with AI agents that generate images and videos from natural language.
 
 ## Overview
 
@@ -55,7 +55,7 @@ Jaaz is positioned as the world's first open-source multimodal canvas creative a
 
 ## Comparison with Similar Tools
 
-| Dimension | Jaaz | [[Canva]] | [[Manus]] |
+| Dimension | Jaaz | `Canva` | [[Manus]] |
 |-----------|------|-----------|-----------|
 | License | AGPL (open-source) | Proprietary | Proprietary |
 | Local部署 | ✅ Full offline | ❌ Cloud only | ❌ Cloud only |

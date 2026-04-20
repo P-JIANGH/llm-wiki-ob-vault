@@ -506,3 +506,9 @@
 - Created: ai-game-devtools/audiogen-codec.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under Audio section, total pages 698→717)
+## [2026-04-20] ingest | AudioGPT
+- Cloned: ~/tmp/ai-game-devtools/audiogpt/
+- Created: raw/articles/ai-game-devtools/audiogpt.md
+- Created: ai-game-devtools/audiogpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added AudioGPT to Audio section)

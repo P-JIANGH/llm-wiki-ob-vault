@@ -51,7 +51,7 @@ Supported plugins:
 
 ## Architecture
 
-Built on [[Hugging Face Transformers]], MOSS uses:
+Built on `Hugging Face Transformers`, MOSS uses:
 - [[LLaMA-style architecture]] adapted for Chinese
 - Custom MossBlock modules for model parallelism
 - Triton-based GPTQ quantization for efficient inference (Linux only)

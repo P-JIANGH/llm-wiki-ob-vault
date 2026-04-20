@@ -78,7 +78,7 @@ GameAISDK/
 
 ## Related
 
-- [[agent]] — general AI agent paradigm
+- `agent` — general AI agent paradigm
 - [[reinforcement-learning]] — DQN, IM, RainBOW underlying techniques
 - [[agentgpt]] — autonomous agent platform (different approach)
 - [[agentscope]] — another multi-agent framework in this wiki

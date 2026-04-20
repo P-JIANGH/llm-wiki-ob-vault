@@ -31,7 +31,7 @@
 | `[[MiniCPM]]` | 有 `minicpm-2b`, `minicpm-llama3-v-2.5`, `minicpm-v-4.0` | 需要决定：创建 `minicpm.md` 综述页，还是将链接改为具体版本 |
 | `[[UnityChatGPT]]` | `ai-game-devtools/unity-openai-api-integration` | 改为 `[[ai-game-devtools/unity-openai-api-integration]]` |
 | `[[claude-code-game-studio-directory-structure]]` | `entities/claude-code-game-studios` | 检查内容后修正 |
-| `[[creative-director]]` / `[[producer]]` / `[[game-designer]]` / `[[technical-director]]` / `[[lead-programmer]]` | 不存在 | 这些是角色页面，需决定：创建还是在引用处改为纯文本 |
+| ``creative-director`` / ``producer`` / ``game-designer`` / ``technical-director`` / ``lead-programmer`` | 不存在 | 这些是角色页面，需决定：创建还是在引用处改为纯文本 |
 
 #### 1B. 知名项目未建页（批量创建，~20-30 个）
 
@@ -153,5 +153,5 @@
 2. **页面创建质量**: 快速创建的页面可能信息不足。优先创建高频引用页面，低频次页面可延迟。
 3. **标签扩张 vs 严格**: 添加太多标签会稀释分类效果。建议只添加在 5+ 页面中使用的标签，其余替换为已有标签。
 4. **Open Questions**:
-   - `[[creative-director]]` 等角色页面是否值得创建？（这些是游戏开发角色概念）
+   - ``creative-director`` 等角色页面是否值得创建？（这些是游戏开发角色概念）
    - 低频次断裂 wikilink 是否应该批量转为纯文本/代码格式？（推荐是）

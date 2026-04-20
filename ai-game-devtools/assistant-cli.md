@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/assistant-cli.md]
 
 # Assistant CLI
 
-A Node.js CLI tool for integrating with [[OpenAI ChatGPT]] service directly from the terminal, developed by Paolo Di Ciaula.
+A Node.js CLI tool for integrating with `OpenAI ChatGPT` service directly from the terminal, developed by Paolo Di Ciaula.
 
 ## Overview
 

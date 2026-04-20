@@ -73,7 +73,7 @@ Uses Google Programmable Search Engine (free tier available).
 
 ## Context in AI Game Dev Tooling
 
-SearchGPT represents an early (2023) [[retrieval-augmented generation]] pattern implemented as a minimal CLI. It predates dedicated RAG frameworks like [[LangChain]] and [[LlamaIndex]] and demonstrates the core concept: augmenting LLM generation with retrieved web context. In the game dev context, similar patterns are used to give AI NPCs or AI assistants access to game wikis, documentation, or live game state.
+SearchGPT represents an early (2023) `retrieval-augmented generation` pattern implemented as a minimal CLI. It predates dedicated RAG frameworks like [[LangChain]] and [[LlamaIndex]] and demonstrates the core concept: augmenting LLM generation with retrieved web context. In the game dev context, similar patterns are used to give AI NPCs or AI assistants access to game wikis, documentation, or live game state.
 
 ## Comparison with Similar Tools
 
@@ -82,7 +82,7 @@ SearchGPT represents an early (2023) [[retrieval-augmented generation]] pattern 
 | SearchGPT | Google CSE + GPT-3.5 CLI | Earliest simple proof-of-concept |
 | [[LangChain]] | Framework with many retrieval backends | Production RAG |
 | [[Perplexica]] | Open-source Perplexity clone | Web search + LLM |
-| [[LLM Answer Engine]] | Next.js + web search | Production web app |
+| `LLM Answer Engine` | Next.js + web search | Production web app |
 
 ## Links
 

@@ -51,7 +51,7 @@ Built on a mixture of [[ai-game-devtools/stable-diffusion-webui]] (A1111) and [[
 ### Prompt Processing
 
 - **Wildcard system:** `__color__ flower` — random from `wildcards/` files
-- **Array processing:** `[[red, green, blue]]` — generates one image per element
+- **Array processing:** ``red, green, blue`` — generates one image per element
 - **Inline LoRAs:** `<lora:sunflowers:1.2>`
 - **A1111-compatible weights:** `(text:1.5)`
 

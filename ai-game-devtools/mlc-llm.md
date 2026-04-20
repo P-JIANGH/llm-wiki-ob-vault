@@ -5,6 +5,8 @@ updated: 2026-04-14
 type: entity
 tags: [ai, llm, ml, tool, open-source]
 sources: [raw/articles/ai-game-devtools/mlc-llm.md]
+aliases: ["TVM"]
+
 ---
 
 # MLC LLM

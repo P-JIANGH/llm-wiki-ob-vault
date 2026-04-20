@@ -80,4 +80,4 @@ CodeGeeX4、DeepSeek Coder、StarCoder 2 等均为通用代码模型，缺乏游
 ## 来源
 
 - 原始 README: `/home/jianghao/ai-game-devtools/README.md`
-- 原始 source: [[raw/articles/yuan-manx-ai-game-devtools-2026.md]]
+- 原始 source: `raw/articles/yuan-manx-ai-game-devtools-2026.md`

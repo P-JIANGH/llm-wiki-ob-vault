@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 717 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 722 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -19,6 +19,8 @@
     19|| [[ai-game-devtools/academicodec]] — 高校开源音频 Codec 工具包：EnCodec/SoundStream/HiFi-Codec 训练代码+预训练权重，GRVQ 仅 4 codebook 高保真重建，适用于 VALL-E/AudioLM/MusicLM，MIT |
     19||| [[ai-game-devtools/01-project]] — OpenInterpreter 开源语音接口设备：Open Interpreter 驱动自然语言控制电脑，LiveKit 实时语音 + Deepgram STT + ElevenLabs TTS，支持 ESP32/桌面/移动端，AGPL |
     20|| [[open-deep-research]] — dzhng/Duet 深度研究 Agent：Firecrawl 搜索爬取 + o3-mini/R1 模型，递归深度搜索 + 并发处理，<500 LoC 极简实现，MIT |
+    20|| [[open-interpreter]] — KillianLucas 本地代码执行 LLM 助手：自然语言→终端/浏览器/文件操作，OpenAI 兼容 API，MIT，让 AI 直接操控你的电脑 |
+    21|| [[llocal-search]] — nilsherzig 本地 AI 搜索 Agent：Ollama + langchaingo + SearXNG + ChromaDB，完全本地运行无需 API Key，MIT |
     21||| [[ai-game-devtools/logic-games-solver]] — fabridigua AI 解数独/Stars/Skyscrapers 逻辑游戏：OpenCV 透视变换 + Keras CNN（MNIST）识别 + CSP 回溯求解，Python/TensorFlow |
     22|| [[aios]] — agiresearch AI Agent 操作系统：LLM 内核抽象层（调度/记忆/存储/工具），COLM 2025 论文，支持 OpenAGI/AutoGen/MetaGPT，Remote Kernel 模式支持边缘设备 |
     23|| [[chatdev]] — OpenBMB 零代码多智能体平台：YAML 配置驱动工作流（游戏开发/3D生成/数据分析/深度研究），Python SDK + Vue3 前端，NeurIPS 2025，Puppeteer-style RL 编排 |
@@ -27,6 +29,7 @@
     26|| [[ai-game-devtools/unity-chatgpt]] — dilmerv Unity ChatGPT 实验项目：自然语言提示让 AI 动态生成 Unity C# 代码创建立方体、操控角色行为，Unity 2021.3+，MIT |
     27|| [[autoresearch]] — Karpathy 自主 LLM 研究框架：agent 修改 train.py → 5分钟实验 → val_bpb 评估 → keep/discard 循环，MIT，70.3k stars |
     28|| [[chatrwkv]] — BlinkDL RWKV-7 100% RNN LLM：Time Mixing + Channel Mixing，O(n) 推理复杂度，3GB VRAM 跑 14B 模型，HuggingFace 权重，MIT |
+    28||| [[ai-game-devtools/rwkv-lm]] — BlinkDL RWKV 语言模型：RNN 式 Transformer 架构，线性注意力 + 高效推理，RWKV-4/5/6/7 全系列，Apache 2.0 |
     28||| [[ai-game-devtools/rwkv-runner]] — josStorer RWKV 模型 GUI/CLI 运行工具：一键下载模型+Gradio 对话界面+OpenAI 兼容 API，支持 RWKV-4/5/6/7 全系列，Apache 2.0 |
     29||| [[stanford-alpaca]] — Stanford 指令微调 LLaMA 模型（7B/13B），52K Self-Instruct 数据训练，< $500 数据生成成本，CC BY-NC 4.0，2023 年开源 LLM 里程碑 |
     30||| [[chinese-llama-alpaca-3]] — ymcui 中文 Llama-3 第三期：8B 基座+Instruct-v3（Elo 1627），原版 128K 词表复用，GQA+LoRA，HuggingFace/ModelScope |
@@ -55,6 +58,7 @@
     53|| [[microverse-project]] — Godot 4 多智能体 AI 社交模拟沙盒游戏 |
     54|| [[microverse-code-structure]] — Microverse 代码结构 / 模块解析 |
     55|| [[openbmb]] — 北京人工智能研究院 & 面壁智能，MiniCPM / VoxCPM 等模型背后的研究组织 |
+    55||| [[ai-game-devtools/minicpm]] — OpenBMB 面壁智能高效小语言模型系列：MiniCPM-2B/4B 端侧部署 + MiniCPM-V 多模态 + MiniCPM-o 全模态，性能匹敌同量级 Llama，Apache 2.0 |
     56||| [[langflow]] — logspace AI 可视化 LLM 工作流构建器：拖放节点图 + FastAPI + LangChain，支持 50+ LLM/向量库，MIT |
     57||| [[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源 |
     58||| [[voxcpm]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言 |
@@ -71,6 +75,7 @@
     70|## AI Game DevTools
 
     71|
+    72|| [[ai-game-devtools/llama]] — Meta 基础 LLM 系列（1/2/3），7B-405B 多尺寸，开源 LLM 基石，Llama 2/3 Community License |
     72|| [[ai-game-devtools/llama-cpp]] — ggerganov 纯 C/C++ LLM 推理引擎：GGUF 格式 + 2-8bit 量化，CPU/GPU 跨平台部署，MIT，70K+ stars |
     73|| [[ai-game-devtools/llava]] — UW-Madison 多模态视觉语言模型：CLIP ViT + Vicuna LLM + 线性投影层，开源 VLM 标杆，接近 GPT-4V 视觉指令跟随能力 |
     74|| [[ai-game-devtools/nanochat]] — Karpathy 极简聊天机器人训练代码：比 nanoGPT 更精简的对话模型训练管线，教育用途，单 GPU 可训练 |
@@ -352,8 +357,9 @@
 
 ## Audio
 
-| [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音生成工具包：TTS(8种架构)/VC/SVC/TTA/声码器全支持，Emilia 200k小时数据集，MIT
-| [[ai-game-devtools/audio-editing]] — Technion ICML 2024 DDPM 反演零样本音频编辑：AudioLDM/TANGO/AudioLDM2/StableAudio 多后端，文本提示+无监督双模式，MedleyMDPrompts数据集，MIT+CC BY-SA 4.0
+|| [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音生成工具包：TTS(8种架构)/VC/SVC/TTA/声码器全支持，Emilia 200k小时数据集，MIT
+|| [[ai-game-devtools/audiogpt]] — AIGC-Audio ChatGPT 驱动的音频理解与生成系统：LangChain Agent 调度 15+ 基础模型，覆盖语音/歌唱/音效/数字人，arXiv 2304.12995
+|| [[ai-game-devtools/audio-editing]] — Technion ICML 2024 DDPM 反演零样本音频编辑：AudioLDM/TANGO/AudioLDM2/StableAudio 多后端，文本提示+无监督双模式，MedleyMDPrompts数据集，MIT+CC BY-SA 4.0
 | [[ai-game-devtools/audio-diffusion-pytorch]] — ArchineTAI 音频扩散生成库：无条件/文本条件生成+自编码+上采样+声码器+修复，UNetV0+V-Diffusion+DDIM，MIT 无预训练模型
 | [[ai-game-devtools/audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器：agc-continuous(32ch,100Hz)/agc-discrete(24阶段RVQ,50Hz)，基于DAC架构+EMA+CLAP感知损失，盲测ELO优于EnCodec/DAC
 

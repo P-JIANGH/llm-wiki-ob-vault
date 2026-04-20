@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/lemur.md]
 
 # Lemur
 
-[[Lemur]] is an open foundation model optimized for both natural language and code, purpose-built as the backbone of versatile language agents. Developed by [[XLang Lab]] and [[Salesforce Research]], it achieves state-of-the-art performance among open-source models on agent benchmarks.
+[[Lemur]] is an open foundation model optimized for both natural language and code, purpose-built as the backbone of versatile language agents. Developed by `XLang Lab` and `Salesforce Research`, it achieves state-of-the-art performance among open-source models on agent benchmarks.
 
 ## Overview
 

@@ -5,6 +5,8 @@ updated: 2026-04-20
 type: entity
 tags: [ai, llm, vlm, tool, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/cogvlm.md]
+aliases: ["CogVLM2"]
+
 ---
 
 # CogVLM & CogAgent

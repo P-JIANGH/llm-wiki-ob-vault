@@ -17,7 +17,7 @@ sources: [raw/articles/ai-game-devtools/unrealgpt.md]
 - **Author:** TREE Industries
 - **License:** Apache 2.0
 - **Engine:** [[Unreal Engine]] 5.6
-- **Category:** [[ai-model]] / [[agent]] / Game Development Tool
+- **Category:** [[ai-model]] / `agent` / Game Development Tool
 - **GitHub:** https://github.com/TREE-Ind/UnrealGPT
 
 ## Key Features

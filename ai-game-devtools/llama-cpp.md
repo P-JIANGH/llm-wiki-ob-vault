@@ -5,6 +5,8 @@ updated: 2026-04-20
 type: entity
 tags: [ai, llm, tool, open-source]
 sources: [web:https://github.com/ggerganov/llama.cpp]
+aliases: ["llama.cpp"]
+
 ---
 
 # llama.cpp

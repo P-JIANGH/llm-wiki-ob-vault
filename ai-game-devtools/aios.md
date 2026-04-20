@@ -4,7 +4,8 @@ created: 2026-04-12
 updated: 2026-04-12
 type: entity
 tags: [ai, llm, agent, tool, open-source, game-engine]
-sources: [raw/articles/ai-game-devtools/aios.md]aliases: ["AIOS"]
+sources: [raw/articles/ai-game-devtools/aios.md]
+aliases: ["AIOS"]
 
 ---
 

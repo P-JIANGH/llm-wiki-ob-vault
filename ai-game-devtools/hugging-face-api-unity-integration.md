@@ -60,7 +60,7 @@ Most tasks use `TaskBase` (single string input). Contextual tasks (`QuestionAnsw
 ## Relationship to Other Tools
 
 - Related to [[chatgpt-api-unity]] (mochi-neko) and [[chatgptforunity]] (sunsvip) — all three provide LLM API access in Unity, but this is Hugging Face's official package supporting 9000+ open-source models vs those targeting OpenAI's API
-- Part of the broader [[ai-game-devtools-catalog]] ecosystem tracked by [[ai-game-devtools]]
+- Part of the broader [[ai-game-devtools-catalog]] ecosystem tracked by `ai-game-devtools`
 
 ## Key Files
 

@@ -5,6 +5,8 @@ updated: 2026-04-10
 type: entity
 tags: [project, agent, open-source, llm]
 sources: [raw/articles/nanobot-readme-2026.md]
+aliases: ["OpenClaw"]
+
 ---
 
 # OpenClaw

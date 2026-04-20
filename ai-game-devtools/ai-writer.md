@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [ai-model, tool, llm, open-source]
-sources: [raw/articles/ai-game-devtools/ai-writer.md]aliases: ["AIWriter"]
+sources: [raw/articles/ai-game-devtools/ai-writer.md]
+aliases: ["AIWriter"]
 
 ---
 
@@ -16,7 +17,7 @@ AI 小说续写工具，基于 [[ChatRWKV]] 同款的 **RWKV 模型**（纯 RNN 
 
 | 属性 | 值 |
 |------|-----|
-| 作者 | [[@BlinkDL]] |
+| 作者 | `@BlinkDL` |
 | 许可证 | Apache 2.0 |
 | GitHub | https://github.com/BlinkDL/AI-Writer |
 | 训练数据 | 中文网文（玄幻、言情） |

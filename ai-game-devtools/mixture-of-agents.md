@@ -5,6 +5,8 @@ updated: 2026-04-16
 type: entity
 tags: [llm, ai-model, open-source, framework, architecture]
 sources: [raw/articles/ai-game-devtools/mixture-of-agents.md]
+aliases: ["meta-gpt"]
+
 ---
 
 # Mixture-of-Agents (MoA)

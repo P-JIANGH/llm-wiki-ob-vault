@@ -61,8 +61,8 @@ Unlike general [[VLM]] approaches (GPT4o, Qwen2-VL), POINTS-Reader is purpose-bu
 
 ## Related Links
 
-- [[HuggingFace Model]](https://huggingface.co/tencent/POINTS-Reader)
-- [[HuggingFace Demo]](https://huggingface.co/spaces/prithivMLmods/POINTS-Reader-OCR)
+- `HuggingFace Model`(https://huggingface.co/tencent/POINTS-Reader)
+- `HuggingFace Demo`(https://huggingface.co/spaces/prithivMLmods/POINTS-Reader-OCR)
 - [[arXiv Paper]](https://huggingface.co/papers/2509.01215)
 - [[SGLang Deployment Guide]](https://github.com/Tencent/POINTS-Reader#sglang)
 

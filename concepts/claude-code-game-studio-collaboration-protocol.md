@@ -286,6 +286,6 @@ User: "Yes."
 - [[claude-code-game-studios]] — Project overview
 - [[claude-code-game-studio-architecture]] — Agent hierarchy, coordination rules, model tiers
 - [[claude-code-game-studio-directory-structure]] — Directory structure
-- [[game-designer]] — Game designer agent role (applies this protocol)
-- [[creative-director]] — Creative director agent role (applies this protocol)
-- [[producer]] — Producer agent role (applies this protocol)
+- `game-designer` — Game designer agent role (applies this protocol)
+- `creative-director` — Creative director agent role (applies this protocol)
+- `producer` — Producer agent role (applies this protocol)

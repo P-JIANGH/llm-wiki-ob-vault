@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [ai-model, benchmark, agent, llm, evaluation, game]
-sources: [raw/articles/ai-game-devtools/agentbench.md]aliases: ["AgentBench"]
+sources: [raw/articles/ai-game-devtools/agentbench.md]
+aliases: ["AgentBench"]
 
 ---
 

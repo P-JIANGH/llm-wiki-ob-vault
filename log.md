@@ -1,4 +1,18 @@
 # Wiki Log
+## [2026-04-20] create | llama-cpp
+- Created: ai-game-devtools/llama-cpp.md
+- Updated: index.md (added 6 entries under AI Game DevTools section, pages 694→700)
+- Updated: log.md
+## [2026-04-20] create | llava
+- Created: ai-game-devtools/llava.md
+## [2026-04-20] create | nanochat
+- Created: ai-game-devtools/nanochat.md
+## [2026-04-20] create | nanogpt
+- Created: ai-game-devtools/nanogpt.md
+## [2026-04-20] create | sglang
+- Created: ai-game-devtools/sglang.md
+## [2026-04-20] create | vLLM
+- Created: ai-game-devtools/vllm.md
 ## [2026-04-20] ingest | ArchiSound
 - Cloned: ~/tmp/ai-game-devtools/audio-diffusion-pytorch/
 - Created: raw/articles/ai-game-devtools/audio-diffusion-pytorch.md
@@ -480,3 +494,15 @@
 - Created: ai-game-devtools/audio-editing.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 693→694)
+## [2026-04-20] create | 4 missing high-frequency targets
+- Created: ai-game-devtools/haystack.md (deepset RAG framework)
+- Created: ai-game-devtools/rwkv-runner.md (RWKV model GUI/CLI tool)
+|- Created: ai-game-devtools/blip-2.md (Salesforce VLM, Q-Former)
+|- Created: ai-game-devtools/streamlit.md (Python ML web framework)
+|- Updated: index.md (added 4 entries, pages 694→698)
+## [2026-04-20] ingest | Audiogen Codec
+- Cloned: ~/tmp/ai-game-devtools/audiogen-codec/
+- Created: raw/articles/ai-game-devtools/audiogen-codec.md
+- Created: ai-game-devtools/audiogen-codec.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Audio section, total pages 698→717)

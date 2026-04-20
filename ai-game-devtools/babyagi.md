@@ -4,7 +4,8 @@ created: 2026-04-13
 updated: 2026-04-13
 type: entity
 tags: [ai-model, tool, open-source, agent, llm]
-sources: [raw/articles/ai-game-devtools/babyagi.md]
+sources: [raw/articles/ai-game-devtools/babyagi.md]aliases: ["BabyAGI"]
+
 ---
 
 # BabyAGI

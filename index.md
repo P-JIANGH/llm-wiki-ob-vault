@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 694 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 717 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -27,6 +27,7 @@
     26|| [[ai-game-devtools/unity-chatgpt]] — dilmerv Unity ChatGPT 实验项目：自然语言提示让 AI 动态生成 Unity C# 代码创建立方体、操控角色行为，Unity 2021.3+，MIT |
     27|| [[autoresearch]] — Karpathy 自主 LLM 研究框架：agent 修改 train.py → 5分钟实验 → val_bpb 评估 → keep/discard 循环，MIT，70.3k stars |
     28|| [[chatrwkv]] — BlinkDL RWKV-7 100% RNN LLM：Time Mixing + Channel Mixing，O(n) 推理复杂度，3GB VRAM 跑 14B 模型，HuggingFace 权重，MIT |
+    28||| [[ai-game-devtools/rwkv-runner]] — josStorer RWKV 模型 GUI/CLI 运行工具：一键下载模型+Gradio 对话界面+OpenAI 兼容 API，支持 RWKV-4/5/6/7 全系列，Apache 2.0 |
     29||| [[stanford-alpaca]] — Stanford 指令微调 LLaMA 模型（7B/13B），52K Self-Instruct 数据训练，< $500 数据生成成本，CC BY-NC 4.0，2023 年开源 LLM 里程碑 |
     30||| [[chinese-llama-alpaca-3]] — ymcui 中文 Llama-3 第三期：8B 基座+Instruct-v3（Elo 1627），原版 128K 词表复用，GQA+LoRA，HuggingFace/ModelScope |
     31||| [[openmaic]] — THU-MAIC 开源多智能体互动教室平台：两阶段课程生成（Outline→Scene）、LangGraph Director Graph 编排、AI Provider 抽象层（1300+行支持 9+ 提供商）、PBL Agentic Loop + MCP Tools、PPTX/HTML 导出、MinerU PDF 解析，v0.1.0，AGPL-3.0 |
@@ -67,10 +68,16 @@
     66|| [[microverse-character-system]] — 8 角色人格/职位/说话风格（CharacterPersonality） |
     67|| [[microverse-dialog-system]] — DialogService/ConversationManager/BackgroundStoryManager |
     68|| [[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态） |
-    69|
     70|## AI Game DevTools
+
     71|
-    72|| [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
+    72|| [[ai-game-devtools/llama-cpp]] — ggerganov 纯 C/C++ LLM 推理引擎：GGUF 格式 + 2-8bit 量化，CPU/GPU 跨平台部署，MIT，70K+ stars |
+    73|| [[ai-game-devtools/llava]] — UW-Madison 多模态视觉语言模型：CLIP ViT + Vicuna LLM + 线性投影层，开源 VLM 标杆，接近 GPT-4V 视觉指令跟随能力 |
+    74|| [[ai-game-devtools/nanochat]] — Karpathy 极简聊天机器人训练代码：比 nanoGPT 更精简的对话模型训练管线，教育用途，单 GPU 可训练 |
+    75|| [[ai-game-devtools/nanogpt]] — Karpathy 极简 GPT 训练代码（~300 行）：完整 GPT-2 架构复现，AdamW+DDP 分布式训练，PyTorch 单文件实现，MIT |
+    76|| [[ai-game-devtools/sglang]] — 结构化 LLM 生成语言：RadixAttention 树状 KV 缓存自动共享前缀计算，正则约束输出 + Jump-forward 解码，比 vLLM 快 3.2×（多轮场景） |
+    77|| [[ai-game-devtools/vllm]] — UC Berkeley 高吞吐 LLM 推理引擎：PagedAttention 分页 KV 缓存消除碎片 + 连续批处理 + OpenAI 兼容 API，2-4× 吞吐量优势，Apache 2.0 |
+    78|| [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
     73|| [[ai-game-devtools/dify]] — LangGenius 开源 LLM 应用开发平台：可视化 Workflow + RAG Pipeline + Agent(Function Calling/ReAct) + 100+ 模型接入 + LLMOps，Docker 一键部署，Dify Open Source License |
     74||| [[ai-game-devtools/langchain]] — langchain-ai LLM 应用开发框架：Chain/Agent/Memory/Tool/Prompt 抽象 + LangGraph 编排，monorepo 结构（core/v1/partners），MIT |
     75||| [[ai-game-devtools/langgraph-studio]] — LangChain Agent IDE：可视化图结构调试 + Thread 状态编辑 + Interrupt 断点控制 + 热重载，Desktop/Web 双模式，需 LangSmith 认证 |
@@ -109,6 +116,7 @@
 ||||||| [[ai-game-devtools/moviigen-1-1]] — ZuluVision 电影级视频生成模型：Wan2.1-14B 微调（60 审美维度/11 专业评估）、+14.6% 清晰度/+4.3% 真实感、FastVideo 序列并行训练、720P/1080P、Qwen2.5 Prompt 扩展
 ||||||| [[ai-game-devtools/step-video-t2v]] — 阶跃星辰 30B 参数文本到视频扩散模型：DiT 48层架构 + 深度压缩Video-VAE(16×16空间/8×时间) + 双语StepLLM+CLIP文本编码 + Video-DPO偏好优化，204帧/最高768px，4×80GB GPU，Turbo版10-15步，Apache 2.0 代码/非商用权重
     99|| [[ai-game-devtools/ovi]] — Character AI 双模态音视频生成模型（11B 参数）
+|| [[ai-game-devtools/blip-2]] — Salesforce 视觉语言模型：Q-Former 桥接冻结 ViT 视觉编码器+冻结 LLM，两阶段预训练，BSD 3-Clause，LAVIS 框架核心模型 |
 || [[ai-game-devtools/cogvlm]] — THUDM/ZhipuAI 开源 VLM 双模型：CogVLM-17B(10B视觉+7B语言,490×490)+CogAgent-18B(11B视觉+7B语言,1120×1120+GUI Agent)，MM-VET 52.8 SOTA，CVPR 2024 Highlight，INT4 仅需 11GB，Apache-2.0 |
 || [[ai-game-devtools/visualrwkv]] — howard-hou 基于 RWKV 架构的视觉语言模型：SigLIP+DINOv2+SAM 三编码器融合，0.1B~7B 多尺度，v7.0 VQAv2 79.84 超越 v6 同量级，RNN O(n) 推理适合实时游戏场景，arXiv 2406.13362 |
 |||| [[ai-game-devtools/v-jepa]] — Meta FAIR 视频自监督学习：ViT 编码器 + 预测器在 latent space 预测掩码区域特征，无需预训练/负样本/标注，冻结骨干+轻量 probe 即达 K400 82.0%/IN1K 77.4%，ViT-L/H 双尺度，CC BY-NC 4.0 |
@@ -128,7 +136,8 @@
    111||| [[ai-game-devtools/easyphoto]] — 阿里巴巴 PAI AI 人像生成 WebUI 插件：5-20 张人脸照训练数字分身 LoRA + 两阶段扩散生成 + ControlNet 条件控制 + LCM 加速/视频生成/虚拟试衣，Apache 2.0 |
    112|| [[ai-game-devtools/fabric]] — Daniel Miessler 开源 AI 增强框架（Go）：Pattern 模式管理 20+ AI 提供商，CLI + REST API + Docker，prompts 即单元解决问题，MIT |
    113|| [[ai-game-devtools/fastgpt]] — labring AI Agent 构建平台：可视化 Flow 工作流编排 + 知识库 RAG + 双向 MCP + OpenAI 兼容 API + Docker 一键部署，FastGPT Open Source License |
-   114|| [[ai-game-devtools/fastrag]] — IntelLabs 高效 RAG 框架：基于 [[Haystack]] v2 构建，ColBERT+PLAID 高效检索 + REPLUG/FiD 多文档生成器 + Gaudi/ONNX/OpenVINO 多后端，已存档 |
+   114|| [[ai-game-devtools/haystack]] — deepset 开源 RAG 框架：Pipeline 组件化架构（DocumentStore/Embedder/Retriever/LLMGenerator/Ranker），20+ 向量数据库后端，v2 重构组件接口，Apache 2.0 |
+   114|| [[ai-game-devtools/fastrag]] — IntelLabs 高效 RAG 框架：基于 [[ai-game-devtools/haystack]] v2 构建，ColBERT+PLAID 高效检索 + REPLUG/FiD 多文档生成器 + Gaudi/ONNX/OpenVINO 多后端，已存档 |
    115||||| [[ai-game-devtools/gameaisdk]] — 腾讯开源游戏AI工具包：基于游戏画面采集→图像识别(DQN/IM/RainBOW强化学习)→手机端动作执行，支持跑酷/吃鸡/射击/MOBA类游戏自动化测试，GPL v3 |
    116|||| [[ai-game-devtools/gamegen-o]] — 腾讯光子×港科大×中科大 首个开放世界游戏视频生成Transformer模型，支持文本/操作信号/视频提示多模态控制，OGameData 15K 视频数据集，业内称"游戏工作室ChatGPT时刻" |
    117||||- [[ai-game-devtools/hunyuan-dit]] — 腾讯混元开源 DiT 文本到图像生成模型（1.5B 参数）：中英双语 CLIP+T5 双编码器 + DialogGen 多轮对话 + LoRA/ControlNet/IP-Adapter 全支持，ComfyUI/Diffusers 集成，6GB VRAM 可运行
@@ -241,6 +250,7 @@
    220|||| [[ai-game-devtools/video-of-thought]] — 首个视频 Chain-of-Thought 推理框架（ICML 2024 Oral）：MotionEpic 视频 MLLM(Vicuna-7B+CLIP ViT-L/14+STSG 图编码器) + 5 步 VoT 推理链(任务定义→对象跟踪→动作分析→排序问答→答案验证)，BSD
    221|||| [[ai-game-devtools/webdesignagent]] — 阿里达摩院自主网站生成 Agent：多模态输入(文本/模板/图片)→结构规划→Tailwind CSS 网页生成，GUI+CLI 双模式，人机反馈循环，Apache 2.0
    221||| [[ai-game-devtools/wordware-twitter]] — Wordware AI Twitter 人格分析 Agent：Next.js + TypeScript + Neon DB + Drizzle ORM，三通道 Twitter 数据抓取降级（API/Apify/SocialData），模块化 Prompt 系统（ROAST/FULL/PAIR），Stripe + PostHog + Loops 完整 SaaS 架构
+   221|| [[ai-game-devtools/streamlit]] — Snowflake 开源 Python Web 框架：纯 Python 构建 ML/Data 应用，@st.cache 缓存系统+多模态组件+chat_message 对话 UI，HuggingFace Spaces 默认支持，Apache 2.0 |
    221|||| [[ai-game-devtools/csgo]] — InstantX 内容-风格解耦图像生成框架：SDXL 基座 + IP-Adapter，4 内容 Token + 16/32 风格 Token，支持文本/图像/编辑驱动风格化合成，DeepSpeed Zero2 训练，HuggingFace 权重 |
 |||| [[ai-game-devtools/index-anisora]] — Bilibili 开源动漫视频生成模型（IJCAI'25）：V1基于CogVideoX-5B/V2基于Wan2.1-14B，时空掩码模块+多引导控制（姿态/深度/线稿/音频），VBench运动平滑度99.34 SOTA，RLHF训练管线，1000万+数据支持
    222|
@@ -345,6 +355,7 @@
 | [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音生成工具包：TTS(8种架构)/VC/SVC/TTA/声码器全支持，Emilia 200k小时数据集，MIT
 | [[ai-game-devtools/audio-editing]] — Technion ICML 2024 DDPM 反演零样本音频编辑：AudioLDM/TANGO/AudioLDM2/StableAudio 多后端，文本提示+无监督双模式，MedleyMDPrompts数据集，MIT+CC BY-SA 4.0
 | [[ai-game-devtools/audio-diffusion-pytorch]] — ArchineTAI 音频扩散生成库：无条件/文本条件生成+自编码+上采样+声码器+修复，UNetV0+V-Diffusion+DDIM，MIT 无预训练模型
+| [[ai-game-devtools/audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器：agc-continuous(32ch,100Hz)/agc-discrete(24阶段RVQ,50Hz)，基于DAC架构+EMA+CLAP感知损失，盲测ELO优于EnCodec/DAC
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

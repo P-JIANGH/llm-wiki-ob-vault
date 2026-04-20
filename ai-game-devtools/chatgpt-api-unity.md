@@ -4,7 +4,8 @@ created: 2026-04-13
 updated: 2026-04-13
 type: entity
 tags: [llm, unity, tool, game-engine, open-source]
-sources: [raw/articles/ai-game-devtools/chatgpt-api-unity.md]
+sources: [raw/articles/ai-game-devtools/chatgpt-api-unity.md]aliases: ["ChatGPTAPIUnity"]
+
 ---
 
 # ChatGPT-API-unity

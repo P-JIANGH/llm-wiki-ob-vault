@@ -5,6 +5,7 @@ updated: 2026-04-10
 type: concept
 tags: [ai, llm, framework, backend]
 sources: [raw/articles/coze-studio-github-2026.md]
+aliases: [Eino]
 ---
 
 # Eino Framework

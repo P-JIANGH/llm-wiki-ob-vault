@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [vlm, multimodal, model, open-source, image, video]
-sources: [raw/articles/ai-game-devtools/llava-onevision.md]
+sources: [raw/articles/ai-game-devtools/llava-onevision.md]aliases: ["LLaVA-OneVision", "LLaVA OV"]
+
 ---
 
 # LLaVA-OneVision

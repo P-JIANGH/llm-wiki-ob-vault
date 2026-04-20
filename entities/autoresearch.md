@@ -4,7 +4,8 @@ created: 2026-04-10
 updated: 2026-04-10
 type: entity
 tags: [ai, llm, agent, autonomous-research, karpathy]
-sources: [raw/articles/karpathy-autoresearch-2026.md]
+sources: [raw/articles/karpathy-autoresearch-2026.md]aliases: ["Autoresearch"]
+
 ---
 
 # Autoresearch (karpathy/autoresearch)

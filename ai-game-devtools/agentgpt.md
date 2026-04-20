@@ -4,7 +4,8 @@ created: 2026-04-12
 updated: 2026-04-12
 type: entity
 tags: [ai-model, tool, open-source, agent, llm]
-sources: [raw/articles/ai-game-devtools/agentgpt.md]
+sources: [raw/articles/ai-game-devtools/agentgpt.md]aliases: ["AgentGPT"]
+
 ---
 
 # AgentGPT

@@ -5,6 +5,7 @@ updated: 2026-04-20
 type: concept
 tags: [mcp, llm, agent, cpp]
 sources: [local/FinceptTerminal/fincept-qt/src/mcp/McpTypes.h, McpManager.h]
+aliases: [MCP, Model Context Protocol]
 ---
 
 # MCP System (Model Context Protocol)

@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [ai, llm, agent, tool, game-engine]
-sources: [raw/articles/ai-game-devtools/agentsims.md]
+sources: [raw/articles/ai-game-devtools/agentsims.md]aliases: ["AgentSims"]
+
 ---
 
 # AgentSims

@@ -5,6 +5,7 @@ updated: 2026-04-10
 type: entity
 tags: [project, agent, framework, langgraph, bytedance]
 sources: [raw/articles/deer-flow-readme-2026.md, modules: sandbox/tools.py+sandbox/security.py+sandbox/local_sandbox.py+agents/factory.py+agents/memory/*+subagents/executor.py+subagents/registry.py+runtime/*+skills/manager.py]
+aliases: [DeerFlow]
 ---
 
 # DeerFlow

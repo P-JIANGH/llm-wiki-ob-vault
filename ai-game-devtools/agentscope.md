@@ -4,7 +4,8 @@ created: 2026-04-15
 updated: 2026-04-15
 type: entity
 tags: [agent, framework, llm, multi-agent, python, open-source, tool, voice, rl]
-sources: [raw/articles/ai-game-devtools/agentscope.md]
+sources: [raw/articles/ai-game-devtools/agentscope.md]aliases: ["AgentScope"]
+
 ---
 
 # AgentScope

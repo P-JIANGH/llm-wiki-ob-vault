@@ -522,4 +522,12 @@
 - Created: ai-game-devtools/fireredtts-2.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (total pages 942→943)
+## [2026-04-21] checklist update | GLM-4-Voice
+- Previously ingested via web_extract (all clones failed), checklist now marked complete
+## [2026-04-21] ingest | Glow-TTS
+- Cloned: ~/tmp/ai-game-devtools/glow-tts/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/glow-tts.md
+- Created: ai-game-devtools/glow-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 944→945)
 

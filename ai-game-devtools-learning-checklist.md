@@ -562,8 +562,8 @@
 - [2026-04-21] DEX-TTS | https://github.com/winddori2002/DEX-TTS
 - [2026-04-21] EmotiVoice | https://github.com/netease-youdao/EmotiVoice
 - [2026-04-21] FireRedTTS-2 | https://github.com/FireRedTeam/FireRedTTS2
-- [ ] GLM-4-Voice | https://github.com/THUDM/GLM-4-Voice
-- [ ] Glow-TTS | https://github.com/jaywalnut310/glow-tts
+- [2026-04-21] GLM-4-Voice | https://github.com/THUDM/GLM-4-Voice
+- [2026-04-21] Glow-TTS | https://github.com/jaywalnut310/glow-tts
 - [ ] GPT-SoVITS | https://github.com/RVC-Boss/GPT-SoVITS
 - [ ] Higgs Audio | https://github.com/boson-ai/higgs-audio
 - [ ] IndexTTS2 | https://github.com/index-tts/index-tts

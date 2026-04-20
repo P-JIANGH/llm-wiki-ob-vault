@@ -376,3 +376,9 @@
 - Created: ai-game-devtools/visualrwkv.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 665→666)
+## [2026-04-20] ingest | Text2Video-Zero
+- Cloned: ~/tmp/ai-game-devtools/text2video-zero/
+- Created: raw/articles/ai-game-devtools/text2video-zero.md
+- Created: ai-game-devtools/text2video-zero.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 666→667)

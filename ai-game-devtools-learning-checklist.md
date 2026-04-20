@@ -489,7 +489,7 @@
 |- [2026-04-20] StoryDiffusion | https://github.com/HVision-NKU/StoryDiffusion
 |- [2026-04-20] StoryMem | https://github.com/Kevin-thu/StoryMem
 |- [2026-04-20] StreamingT2V | https://github.com/Picsart-AI-Research/StreamingT2V
-- [ ] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
+|- [2026-04-20] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
 - [ ] Tora | https://github.com/ali-videoai/Tora
 - [ ] Track-Anything | https://github.com/gaomingqi/Track-Anything
 - [ ] Tune-A-Video | https://github.com/showlab/Tune-A-Video

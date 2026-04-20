@@ -391,7 +391,8 @@
 ||| [[ai-game-devtools/midashenglm]] — 小米 MiDashengLM-7B 音频理解大模型：Dasheng 编码器+Qwen2.5-Omni Thinker 解码器，caption-based 对齐（非 ASR），20× batch 加速，38K 小时 ACAVCaps 训练，Apache 2.0
 |||| [[ai-game-devtools/mmaudio]] — UIUC+Sony CVPR 2025 视频→音频同步生成：多模态联合训练（audio-visual + audio-text 数据集），Flow Matching + Transformer，CLIP 视觉 + Synchformer 同步 + OpenCLIP 文本条件，BigVGAN 声码器，~6GB 显存(16-bit)，16k/44k 双变体，MIT 代码+CC-BY-NC 4.0 权重
 ||| [[ai-game-devtools/neural-sound]] — PKU+UMD 学习模态声音合成（SIGGRAPH 2022）：3D稀疏卷积+LOBPCG振动求解器+辐射网络预测FFAT地图，RTX 3080 Ti <1秒生成，物理逼真游戏音效，含DeepModal替代方案
-|| [[ai-game-devtools/qwen2-audio]] — 阿里通义千问音频-语言模型：7B参数，Voice Chat / Audio Analysis 双模式，三阶段训练管线，13基准SOTA（ASR/S2TT/SER/VSC），HuggingFace原生集成，支持游戏NPC语音对话
+||| [[ai-game-devtools/qwen2-audio]] — 阿里通义千问音频-语言模型：7B参数，Voice Chat / Audio Analysis 双模式，三阶段训练管线，13基准SOTA（ASR/S2TT/SER/VSC），HuggingFace原生集成，支持游戏NPC语音对话
+|| [[ai-game-devtools/see-2-sound]] — 多伦多大学 零样本图像→5.1环绕声空间音频生成：SAM分割+Depth Anything深度估计+CoDi扩散音频生成+pyroomacoustics RIR空间化，A100 80GB优化，Gradio Demo+Docker支持
 
 
 ## Texture (3D Asset Generation)

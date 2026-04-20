@@ -1,4 +1,10 @@
 # Wiki Log
+## [2026-04-20] ingest | SEE-2-SOUND
+- Cloned: ~/tmp/ai-game-devtools/see-2-sound/
+- Created: raw/articles/ai-game-devtools/see-2-sound.md
+- Created: ai-game-devtools/see-2-sound.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md
 ## [2026-04-20] ingest | Qwen2-Audio
 - Cloned: ~/tmp/ai-game-devtools/qwen2-audio/
 - Created: raw/articles/ai-game-devtools/qwen2-audio.md

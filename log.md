@@ -1,4 +1,10 @@
-     1|     1|## [2026-04-21] ingest | Bert-VITS2
+     1|     1|## [2026-04-21] ingest | ChatTTS
+- Cloned: ~/tmp/ai-game-devtools/chat-tts/ (gitcode mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/chat-tts.md
+- Created: ai-game-devtools/chat-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 938→939)
+## [2026-04-21] ingest | Bert-VITS2
 - Cloned: ~/tmp/ai-game-devtools/bert-vits2/ (web extract; GitHub/gitcode/gitee clone all failed)
 - Created: raw/articles/ai-game-devtools/bert-vits2.md
 - Created: ai-game-devtools/bert-vits2.md

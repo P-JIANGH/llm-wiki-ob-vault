@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-21 | Total pages: 938 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-21 | Total pages: 939 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -504,4 +504,5 @@
 - [[ai-game-devtools/applio]] 高质量语音转换工具，RVC架构+Gradio UI+TTS管线+插件系统，MIT，稳定期维护
 - [[ai-game-devtools/bark]] Suno 开源 transformer 文本到音频模型：13种语言语音+音乐/音效生成+100+说话人预设，MIT，🤗 Transformers 集成
 - [[ai-game-devtools/chatterbox]] — Resemble AI's open-source TTS & voice conversion, 350M Turbo model with paralinguistic tags
+- [[ai-game-devtools/chat-tts]] — 2noise 对话式 TTS 模型：100k+小时中英双语训练、细粒度韵律控制（笑声/停顿）、多说话人、流式生成、4GB VRAM 可运行，AGPLv3+/CC BY-NC 4.0
 

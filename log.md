@@ -466,3 +466,9 @@
 - Created: ai-game-devtools/applio.md (entity page: high-quality voice conversion, RVC architecture + Gradio UI + TTS pipeline)
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added Speech section with Applio entry, pages: 935→936)
+## [2026-04-21] ingest | Bark
+- Cloned: ~/tmp/ai-game-devtools/bark/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/bark.md
+- Created: ai-game-devtools/bark.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added Speech section entry, pages: 936→937)

@@ -437,3 +437,9 @@
 - Created: ai-game-devtools/view-crafter.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 683→684)
+## [2026-04-20] ingest | Wan2.1
+- Source: GitHub README (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/wan2-1.md
+- Created: ai-game-devtools/wan2-1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 684→685)

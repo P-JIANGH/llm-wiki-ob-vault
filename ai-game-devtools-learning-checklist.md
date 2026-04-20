@@ -527,7 +527,7 @@
 - [2026-04-20] NeuralSound | https://github.com/hellojxt/NeuralSound
 - [2026-04-20] Qwen2-Audio | https://github.com/QwenLM/Qwen2-Audio
 - [2026-04-20] SEE-2-SOUND | https://github.com/see2sound/see2sound
-- [ ] SyncFusion | https://github.com/mcomunita/syncfusion
+- [2026-04-20] SyncFusion | https://github.com/mcomunita/syncfusion
 - [ ] TANGO | https://github.com/declare-lab/tango
 - [ ] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
 - [ ] VTA-LDM | https://github.com/ariesssxu/vta-ldm

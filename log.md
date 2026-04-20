@@ -637,3 +637,9 @@
 - Created: ai-game-devtools/mmaudio.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry in Audio section, total pages 749→750)
+## [2026-04-20] ingest | SyncFusion
+- Cloned: ~/tmp/ai-game-devtools/syncfusion/
+- Created: raw/articles/ai-game-devtools/syncfusion.md
+- Created: ai-game-devtools/syncfusion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Audio section, total pages 751→752)

@@ -545,3 +545,9 @@
 - Created: ai-game-devtools/higgs-audio.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-21] ingest | IndexTTS2
+- Cloned: ~/tmp/ai-game-devtools/index-tts2/
+- Created: raw/articles/ai-game-devtools/index-tts2.md
+- Created: ai-game-devtools/index-tts2.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 946→947)

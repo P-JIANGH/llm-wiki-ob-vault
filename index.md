@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 658 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 659 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -103,8 +103,9 @@
 |||||| [[ai-game-devtools/longlive]] — NVIDIA Labs 实时交互式长视频生成（ICLR 2026）：Wan2.1 基座 + Self-Forcing score distillation，240s 长视频/20.7 FPS 实时推理/32 H100 GPU-days 微调，Apache 2.0 |
 ||||| [[ai-game-devtools/ltx-video]] — Lightricks 首个 DiT 架构统一视频生成模型：T2V/I2V/V2V/关键帧多模式 + 4K/50FPS 单次推理，2B/13B 双尺寸 + FP8 量化 + LoRA 微调，Apache 2.0 |
 |||||| [[ai-game-devtools/lynx]] — ByteDance 高保真个性化视频生成（CVPR 2026）：Wan2.1-T2V-14B DiT 基座 + ID-Adapter/Ref-Adapter 双适配器，单图→身份一致视频，Full/Lite 双版本，Apache 2.0 |
-|||||| [[ai-game-devtools/moviigen-1-1]] — ZuluVision 电影级视频生成模型：Wan2.1-14B 微调（60 审美维度/11 专业评估）、+14.6% 清晰度/+4.3% 真实感、FastVideo 序列并行训练、720P/1080P、Qwen2.5 Prompt 扩展 |
-    99|| [[ai-game-devtools/ovi]] — Character AI 双模态音视频生成模型（11B 参数）：Twin Backbone 架构（Wan2.2 视频分支 + 自研 5B 音频分支 + MMAudio VAE），联合扩散去噪同步生成视频+音频，支持 t2v/i2v/t2i2v 三模式，10s/5s 视频 @ 960×960/24FPS，FP8/qint8 量化最低 24GB VRAM，ComfyUI 集成
+||||||| [[ai-game-devtools/moviigen-1-1]] — ZuluVision 电影级视频生成模型：Wan2.1-14B 微调（60 审美维度/11 专业评估）、+14.6% 清晰度/+4.3% 真实感、FastVideo 序列并行训练、720P/1080P、Qwen2.5 Prompt 扩展
+||||||| [[ai-game-devtools/step-video-t2v]] — 阶跃星辰 30B 参数文本到视频扩散模型：DiT 48层架构 + 深度压缩Video-VAE(16×16空间/8×时间) + 双语StepLLM+CLIP文本编码 + Video-DPO偏好优化，204帧/最高768px，4×80GB GPU，Turbo版10-15步，Apache 2.0 代码/非商用权重
+    99|| [[ai-game-devtools/ovi]] — Character AI 双模态音视频生成模型（11B 参数）
 || [[ai-game-devtools/cogvlm]] — THUDM/ZhipuAI 开源 VLM 双模型：CogVLM-17B(10B视觉+7B语言,490×490)+CogAgent-18B(11B视觉+7B语言,1120×1120+GUI Agent)，MM-VET 52.8 SOTA，CVPR 2024 Highlight，INT4 仅需 11GB，Apache-2.0 |
     99||| [[ai-game-devtools/character-glm-6b]] — 聆心智能&清华大学 CoAI 角色扮演对话大模型：基于 ChatGLM2-6B 微调，7维属性+行为建模，一致性/拟人化/吸引力三维评估，角色扮演场景超越 GPT-3.5，不可商用 |
     99||| [[ai-game-devtools/chatgpt-maya]] — LouisRossouw Maya ChatGPT 代码生成工具：自然语言提示→GPT-3生成Maya Python代码→exec()直接执行，简单自动化可用、复杂请求不佳，需mayapy安装openai包 |

@@ -315,3 +315,9 @@
 - Created: ai-game-devtools/shortgpt.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 657→658)
+## [2026-04-20] ingest | Step-Video-T2V
+- Cloned: ~/tmp/ai-game-devtools/step-video-t2v/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/step-video-t2v.md
+- Created: ai-game-devtools/step-video-t2v.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 658→659)

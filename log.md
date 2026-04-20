@@ -407,3 +407,9 @@
 - Created: ai-game-devtools/magenta.md
 - Updated: ai-game-devtools-learning-checklist.md (Music section)
 - Updated: index.md (added entry, pages: 929→930)
+## [2026-04-21] ingest | MusicGen
+- Cloned: ~/tmp/ai-game-devtools/musicgen/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/musicgen.md
+- Updated: ai-game-devtools/musicgen.md (enriched with training framework, model matrix, AudioCraft ecosystem)
+- Updated: ai-game-devtools-learning-checklist.md (Music section)
+- Updated: index.md (enhanced entry with architecture details)

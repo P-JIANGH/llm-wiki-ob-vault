@@ -583,3 +583,9 @@
 - Created: ai-game-devtools/foley-crafter.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added FoleyCrafter entry to Audio section)
+## [2026-04-20] ingest | HunyuanVideo-Foley
+- Cloned: ~/tmp/ai-game-devtools/hunyuanvideo-foley/
+- Created: raw/articles/ai-game-devtools/hunyuanvideo-foley.md
+- Created: ai-game-devtools/hunyuanvideo-foley.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added HunyuanVideo-Foley entry to Audio section, bumped total to 746)

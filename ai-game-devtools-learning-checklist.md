@@ -548,7 +548,7 @@
 
 ## Singing Voice (4)
 - [2026-04-21] DiffSinger | https://github.com/MoonInTheRiver/DiffSinger
-- [ ] Retrieval-based-Voice-Conversion-WebUI | https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI
+|- [2026-04-21] Retrieval-based-Voice-Conversion-WebUI | https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI
 - [ ] so-vits-svc | https://github.com/svc-develop-team/so-vits-svc
 - [ ] VI-SVS | https://github.com/PlayVoice/VI-SVS
 

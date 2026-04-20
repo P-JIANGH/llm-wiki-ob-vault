@@ -439,3 +439,10 @@
 - Created: ai-game-devtools/diffsinger.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Singing Voice section)
+
+## [2026-04-21] ingest | Retrieval-based-Voice-Conversion-WebUI
+- Cloned: ~/tmp/ai-game-devtools/retrieval-based-voice-conversion-webui/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/retrieval-based-voice-conversion-webui.md
+- Created: ai-game-devtools/retrieval-based-voice-conversion-webui.md (entity page: VITS-based voice conversion with FAISS retrieval)
+- Updated: ai-game-devtools-learning-checklist.md (Singing Voice section)
+- Updated: index.md (added Singing Voice entry, pages: 933→934)

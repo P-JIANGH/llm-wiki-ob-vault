@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 932 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | 2026-04-21 | Total pages: 933 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -813,3 +813,5 @@
 | [[open-source-game/warsmash-mod-engine]] — warsmashmodengine/ ├── core/ 核心游戏引擎 ├── desktop/ 桌面启动器 ├── server/ 服务器组件 ├── shared/ 共享代码 ├── fdfparser/ FDF（Font Definition File）解析器 ├── jassparser/  |
 | [[open-source-game/widelands]] — src/ ai/ — ComputerPlayer AI + defaultai base/ — 基础工具（随机数/日志/异常） chat/ — 聊天系统 commands/ — 命令队列（cmdqueue.h，驱动回放/同步） economy/ — 经济系统（50+ 文件）：舰队/Flag/War |
 | [[open-source-game/wyrmsun]] — Wyrmsun 是游戏内容仓库，而非独立游戏。与 opensourcegame/war1gus 同构： |
+## Singing Voice
+- [[ai-game-devtools/diffsinger]] Singing voice synthesis via shallow diffusion mechanism (AAAI-2022), MIDI-controlled vocal generation

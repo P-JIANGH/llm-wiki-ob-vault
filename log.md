@@ -432,3 +432,10 @@
 - Updated: ai-game-devtools-learning-checklist.md (Music section)
 - Updated: index.md (added entry in AI Game DevTools section, restored corrupted index, pages: 931→932)
 - Note: index.md was restored from git commit 544a93f (corrupted at 3c290b4)
+
+## [2026-04-21] ingest | DiffSinger
+- Cloned: ~/tmp/ai-game-devtools/diffsinger/
+- Created: raw/articles/ai-game-devtools/diffsinger.md
+- Created: ai-game-devtools/diffsinger.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Singing Voice section)

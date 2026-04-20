@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 692 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 693 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -343,6 +343,7 @@
 ## Audio
 
 | [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音生成工具包：TTS(8种架构)/VC/SVC/TTA/声码器全支持，Emilia 200k小时数据集，MIT
+| [[ai-game-devtools/audio-diffusion-pytorch]] — ArchineTAI 音频扩散生成库：无条件/文本条件生成+自编码+上采样+声码器+修复，UNetV0+V-Diffusion+DDIM，MIT 无预训练模型
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

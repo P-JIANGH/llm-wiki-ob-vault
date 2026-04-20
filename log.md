@@ -1,4 +1,10 @@
 # Wiki Log
+## [2026-04-20] ingest | ArchiSound
+- Cloned: ~/tmp/ai-game-devtools/audio-diffusion-pytorch/
+- Created: raw/articles/ai-game-devtools/audio-diffusion-pytorch.md
+- Created: ai-game-devtools/audio-diffusion-pytorch.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 692→693)
 ## [2026-04-20] ingest | AcademiCodec
 - Cloned: ~/tmp/ai-game-devtools/academicodec/
 - Created: raw/articles/ai-game-devtools/academicodec.md

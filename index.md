@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 662 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 663 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -309,6 +309,7 @@
    267||||| [[ai-game-devtools/stable-art]] — isekaidev 开源 Photoshop 插件(v23.3.0+)：Vue 2 + Adobe UXP 将 Stable Diffusion(Automatic1111 后端)嵌入 PSD 工作流，选区即蒙版零门槛 inpaint，Lexica.art 提示词搜索集成，MIT |
    268||||| [[ai-game-devtools/stable-diffusion-3-5]] — Stability AI SD3.5 官方推理参考实现：MM-DiT 架构+三文本编码器(CLIP-L/CLIP-bigG/T5-XXL)+16 通道 VAE，支持 Large/Turbo/Medium 变体+ControlNet，官方推荐 [[ai-game-devtools/comfyui]] 作为生产推理 UI |
    268||||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
+||||| [[ai-game-devtools/stablevideo]] — ICCV 2023 文本驱动视频编辑工具：NLA 分层图集分解 + ControlNet 条件扩散 + AGGNet 一致性聚合，支持前景/背景独立编辑，14GB VRAM 可运行，MIT
    269||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
    270||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
    271|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理

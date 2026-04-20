@@ -419,3 +419,9 @@
 - Created: ai-game-devtools/riffusion-app.md
 - Updated: ai-game-devtools-learning-checklist.md (Music section)
 - Updated: index.md (added entry in AI Game DevTools section, pages: 930→931)
+## [2026-04-21] ingest | SonicMaster
+- Cloned: ~/tmp/ai-game-devtools/sonicmaster/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/sonicmaster.md
+- Created: ai-game-devtools/sonicmaster.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Music section entry)

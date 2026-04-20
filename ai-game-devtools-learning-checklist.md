@@ -543,7 +543,7 @@
 - [2026-04-21] Magenta | https://github.com/magenta/magenta
 - [2026-04-21] MusicGen | https://github.com/facebookresearch/audiocraft
 - [2026-04-21] Riffusion App | https://github.com/riffusion/riffusion-app
-- [ ] SonicMaster | https://github.com/AMAAI-Lab/SonicMaster
+- [2026-04-21] SonicMaster | https://github.com/AMAAI-Lab/SonicMaster
 - [ ] YuE | https://github.com/multimodal-art-projection/YuE
 
 ## Singing Voice (4)

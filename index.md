@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 679 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 680 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -317,6 +317,7 @@
 |||||||| [[ai-game-devtools/storymem]] — 清华大学多镜头长视频叙事生成：Wan2.2 MoE 基座 + M2V LoRA 微调（记忆条件视频扩散），逐镜头生成 + 关键帧记忆更新保持角色一致性，30×8-12镜头ST-Bench评测集，Apache 2.0
 ||||||| [[ai-game-devtools/streamingt2v]] — Picsart AI Research 自回归长视频生成框架（CVPR 2025）：StreamingSVD 实现，自回归分段拼接 200 帧/8 秒视频，随机混合降 VRAM 至 24GB，基座模型无关，MIT 代码/非商用
 ||||||| [[ai-game-devtools/text2video-zero]] — Picsart AI Research 零样本视频生成（arXiv 2023）：Cross-Frame Attention + Motion Field Latent Warping，SD 直接转视频无需训练，支持 Pose/Edge/Depth/Instruct-Pix2Pix 多模式，Diffusers 已集成(v0.15.0+)，最低 7GB VRAM，CreativeML Open RAIL-M
+||||||| [[ai-game-devtools/track-anything]] — SUSTech VIP Lab 视频目标跟踪与分割交互工具：SAM + XMem + E2FGVI 三模型管线，点击指定任意目标/多目标跟踪/视频修复，ArXiv 2023，MIT
 |   269||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
    270||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
    271|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理

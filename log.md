@@ -388,3 +388,9 @@
 - Created: ai-game-devtools/text2video-zero.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 666→667)
+## [2026-04-20] ingest | Track-Anything
+- Cloned: ~/tmp/ai-game-devtools/track-anything/ (gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/track-anything.md
+- Created: ai-game-devtools/track-anything.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 679→680)

@@ -407,3 +407,9 @@
 - Created: ai-game-devtools/vchitect-2-0.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 681→682)
+## [2026-04-20] ingest | VGen
+- Cloned: ~/tmp/ai-game-devtools/vgen/
+- Created: raw/articles/ai-game-devtools/vgen.md
+- Created: ai-game-devtools/vgen.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 682→683)

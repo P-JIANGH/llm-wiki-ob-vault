@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-21 | Total pages: 937 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-21 | Total pages: 938 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -349,14 +349,15 @@
    349|| [[ai-game-devtools/babyagi-ui]] — BabyAGI UI (miurla/babyagiui) is a webbased user interface that brings BabyAGI(https://github.com/yoheinakajima/babyagi) into the browser — think Chat |
    350|| [[ai-game-devtools/baichuan-13b]] — 百川智能开发的 130 亿参数开源可商用双语 LLM（Base + Chat 两个版本），2023 年 8 月发布。在 CEval、MMLU、CMMLU 等权威中英文 benchmark 上取得同尺寸最优效果。 |
    351|| [[ai-game-devtools/baichuan-2]] — 在多个权威中英文 benchmark 上显著超越 LLaMA213B： |
-   352|| [[ai-game-devtools/baichuan-7b]] — 基于Hugging Face Transformers实现，支持AutoModelForCausalLM直接加载。 |
-   353|| [[ai-game-devtools/bisheng]] — Bisheng is an open LLM application devops platform focused on enterprise scenarios, developed by DataElement(https://github.com/dataelement). Named af |
-   354|| [[ai-game-devtools/cambrian-1]] — Cambrian1 是由 NYU Vision X（Yann LeCun、Saining Xie 参与）开发的开源多模态大语言模型（MLLM），主打视觉中心能力。发布于 20240624，提供 8B / 13B / 34B 三种参数规模，在多项 benchmark 上与 GPT4V、GeminiPr |
-   355|| [[ai-game-devtools/character-llm]] — CharacterLLM 是一个可训练的角色扮演 LLM agent，由复旦大学 NLP 实验室于 EMNLP 2023 发表。与基于 Prompt 的角色扮演不同，CharacterLLM 通过 Experience Reconstruction 技术对 LLaMA7B 进行微调，使模型内化特定人 |
-   356|| [[ai-game-devtools/chatyuan]] — ChatYuanlargev2 是由 ClueAI（元语智能） 开发的中英双语对话大语言模型，发布于 2023 年 3 月 23 日。基于 T5 架构，是 ChatGPT 风格的功能型对话模型。 |
-   357|| [[ai-game-devtools/cogvlm2]] — CogVLM2 is THUDM/ZhipuAI's secondgeneration Visual Language Model series, based on MetaLlama38BInstruct with a visual expert adapter. Released 2024052 |
-   358|| [[ai-game-devtools/deepseek-r1]] — DeepSeekR1 是 DeepSeekAI 发布的第一代推理模型系列，包括 DeepSeekR1Zero（纯 RL 无 SFT）和 DeepSeekR1（冷启动 + RL）。基于 DeepSeekV3Base 的 MoE 架构（671B 总参，37B 激活），在数学、代码和推理任务上性能与 Op |
-   359|| [[ai-game-devtools/dots-vlm1]] — dots.vlm1 是小红书（rednotehilab）发布的首个视觉语言模型，属于 dots 模型家族。基于 12 亿参数的 NaViT 视觉编码器和 DeepSeek V3 LLM 构建，在 OCR/文档理解、STEM 推理、多图像理解等多个基准上达到接近 SOTA水平。 |
+   352|   352|| [[ai-game-devtools/baichuan-7b]] — 基于Hugging Face Transformers实现，支持AutoModelForCausalLM直接加载。 |
+   353|   353|| [[ai-game-devtools/bert-vits2]] — VITS2+多语言BERT语音合成：BERT语义特征增强音素级语音生成、多说话人训练、ONNX导出、VTuber/NPC语音，短期维护暂停（后继[[ai-game-devtools/fish-speech]]） |
+   354|   354|| [[ai-game-devtools/bisheng]] — Bisheng is an open LLM application devops platform focused on enterprise scenarios, developed by DataElement(https://github.com/dataelement). Named af |
+   355|   355|| [[ai-game-devtools/cambrian-1]] — Cambrian1 是由 NYU Vision X（Yann LeCun、Saining Xie 参与）开发的开源多模态大语言模型（MLLM），主打视觉中心能力。发布于 20240624，提供 8B / 13B / 34B 三种参数规模，在多项 benchmark 上与 GPT4V、GeminiPr |
+   356|   356|| [[ai-game-devtools/character-llm]] — CharacterLLM 是一个可训练的角色扮演 LLM agent，由复旦大学 NLP 实验室于 EMNLP 2023 发表。与基于 Prompt 的角色扮演不同，CharacterLLM 通过 Experience Reconstruction 技术对 LLaMA7B 进行微调，使模型内化特定人 |
+   357|   357|| [[ai-game-devtools/chatyuan]] — ChatYuanlargev2 是由 ClueAI（元语智能） 开发的中英双语对话大语言模型，发布于 2023 年 3 月 23 日。基于 T5 架构，是 ChatGPT 风格的功能型对话模型。 |
+   358|   358|| [[ai-game-devtools/cogvlm2]] — CogVLM2 is THUDM/ZhipuAI's secondgeneration Visual Language Model series, based on MetaLlama38BInstruct with a visual expert adapter. Released 2024052 |
+   359|   359|| [[ai-game-devtools/deepseek-r1]] — DeepSeekR1 是 DeepSeekAI 发布的第一代推理模型系列，包括 DeepSeekR1Zero（纯 RL 无 SFT）和 DeepSeekR1（冷启动 + RL）。基于 DeepSeekV3Base 的 MoE 架构（671B 总参，37B 激活），在数学、代码和推理任务上性能与 Op |
+   360|   360|| [[ai-game-devtools/dots-vlm1]] — dots.vlm1 是小红书（rednotehilab）发布的首个视觉语言模型，属于 dots 模型家族。基于 12 亿参数的 NaViT 视觉编码器和 DeepSeek V3 LLM 构建，在 OCR/文档理解、STEM 推理、多图像理解等多个基准上达到接近 SOTA水平。 |
    360|| [[ai-game-devtools/evf-sam]] — EVFSAM 是由华中科技大学（HUST）和 vivo AI Lab 联合开发的开源多模态分割模型，将 SAM（Segment Anything Model）的图像分割能力与文本提示相结合，实现"指代表达分割"（Referring Expression Segmentation）。支持图像和视频的文 |
    361|| [[ai-game-devtools/flux]] — FLUX is the openweight image generation model family by Black Forest Labs (https://bfl.ai), founded by Stability AI alumni including Robin Rombach (co |
    362|| [[ai-game-devtools/follow-your-click]] — AAAI 2025 论文官方实现：开放域区域图像动画，通过简短文本提示精确控制静态图像的局部运动，无需复杂指令或密集运动掩码。 |

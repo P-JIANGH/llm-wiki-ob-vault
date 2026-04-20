@@ -555,7 +555,7 @@
 ## Speech (48)
 - [2026-04-21] Applio | https://github.com/IAHispano/Applio
 - [2026-04-21] Bark | https://github.com/suno-ai/bark
-- [ ] Bert-VITS2 | https://github.com/fishaudio/Bert-VITS2
+- [2026-04-21] Bert-VITS2 | https://github.com/fishaudio/Bert-VITS2
 - [ ] Chatterbox | https://github.com/resemble-ai/chatterbox
 - [ ] ChatTTS | https://github.com/2noise/ChatTTS
 - [ ] CosyVoice | https://github.com/FunAudioLLM/CosyVoice

@@ -1,4 +1,10 @@
-     1|     1|## [2026-04-20] ingest | FluxMusic
+     1|     1|## [2026-04-21] ingest | Bert-VITS2
+- Cloned: ~/tmp/ai-game-devtools/bert-vits2/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/bert-vits2.md
+- Created: ai-game-devtools/bert-vits2.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 937→938)
+## [2026-04-20] ingest | FluxMusic
      2|- Cloned: ~/tmp/ai-game-devtools/flux-music/ (GitHub direct, success)
      3|- Created: raw/articles/ai-game-devtools/flux-music.md
      4|- Created: ai-game-devtools/flux-music.md

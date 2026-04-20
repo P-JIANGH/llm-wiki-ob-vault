@@ -478,3 +478,8 @@
 - Created: ai-game-devtools/bark.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added Speech section entry, pages: 936→937)
+## [2026-04-21] ingest | Chatterbox
+- Cloned: ~/tmp/ai-game-devtools/chatterbox/
+- Created: raw/articles/ai-game-devtools/chatterbox.md
+- Created: ai-game-devtools/chatterbox.md
+- Updated: ai-game-devtools-learning-checklist.md

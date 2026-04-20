@@ -503,4 +503,5 @@
 ## Speech
 - [[ai-game-devtools/applio]] 高质量语音转换工具，RVC架构+Gradio UI+TTS管线+插件系统，MIT，稳定期维护
 - [[ai-game-devtools/bark]] Suno 开源 transformer 文本到音频模型：13种语言语音+音乐/音效生成+100+说话人预设，MIT，🤗 Transformers 集成
+- [[ai-game-devtools/chatterbox]] — Resemble AI's open-source TTS & voice conversion, 350M Turbo model with paralinguistic tags
 

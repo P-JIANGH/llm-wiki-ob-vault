@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 749 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 750 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -389,7 +389,8 @@
 |||| [[ai-game-devtools/hunyuanvideo-foley]] — 腾讯混元端到端视频音效生成模型：多模态扩散+表征对齐，视频+文本→48kHz 高保真 Foley 音效，XXL/XL 双尺寸，MovieGen-Audio-Bench & Kling-Audio-Eval 全面 SOTA，Apache 2.0
 |||| [[ai-game-devtools/make-an-audio-3]] — Flow-based 大型扩散 Transformer 文本→音频/音乐生成：CFM+NeuralODE 采样，M/XL/XXL/3B 多尺寸，支持 T2A/T2M/V2A，PyTorch Lightning+BigVGAN，Flash Attention
 ||| [[ai-game-devtools/midashenglm]] — 小米 MiDashengLM-7B 音频理解大模型：Dasheng 编码器+Qwen2.5-Omni Thinker 解码器，caption-based 对齐（非 ASR），20× batch 加速，38K 小时 ACAVCaps 训练，Apache 2.0
-||| [[ai-game-devtools/mmaudio]] — UIUC+Sony CVPR 2025 视频→音频同步生成：多模态联合训练（audio-visual + audio-text 数据集），Flow Matching + Transformer，CLIP 视觉 + Synchformer 同步 + OpenCLIP 文本条件，BigVGAN 声码器，~6GB 显存(16-bit)，16k/44k 双变体，MIT 代码+CC-BY-NC 4.0 权重
+|||| [[ai-game-devtools/mmaudio]] — UIUC+Sony CVPR 2025 视频→音频同步生成：多模态联合训练（audio-visual + audio-text 数据集），Flow Matching + Transformer，CLIP 视觉 + Synchformer 同步 + OpenCLIP 文本条件，BigVGAN 声码器，~6GB 显存(16-bit)，16k/44k 双变体，MIT 代码+CC-BY-NC 4.0 权重
+|| [[ai-game-devtools/neural-sound]] — PKU+UMD 学习模态声音合成（SIGGRAPH 2022）：3D稀疏卷积+LOBPCG振动求解器+辐射网络预测FFAT地图，RTX 3080 Ti <1秒生成，物理逼真游戏音效，含DeepModal替代方案
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

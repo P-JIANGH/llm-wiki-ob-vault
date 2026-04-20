@@ -530,7 +530,7 @@
 - [2026-04-20] SyncFusion | https://github.com/mcomunita/syncfusion
 - [2026-04-20] TANGO | https://github.com/declare-lab/tango
 |- [2026-04-21] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
-- [ ] VTA-LDM | https://github.com/ariesssxu/vta-ldm
+- [2026-04-21] VTA-LDM | https://github.com/ariesssxu/vta-ldm
 - [ ] WavJourney | https://github.com/Audio-AGI/WavJourney
 
 ## Music (11)

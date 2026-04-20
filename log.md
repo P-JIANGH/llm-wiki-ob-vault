@@ -655,3 +655,10 @@
 - Created: ai-game-devtools/think-sound.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+
+## [2026-04-21] ingest | VTA-LDM
+- Source: GitHub README (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/vta-ldm.md
+- Created: ai-game-devtools/vta-ldm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added VTA-LDM entry under Audio section)

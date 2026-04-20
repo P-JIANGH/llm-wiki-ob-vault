@@ -551,3 +551,10 @@
 - Created: ai-game-devtools/index-tts2.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (total pages 946→947)
+
+## [2026-04-21] ingest | Kitten TTS
+- Cloned: ~/tmp/ai-game-devtools/kitten-tts/
+- Created: raw/articles/ai-game-devtools/kitten-tts.md
+- Created: ai-game-devtools/kitten-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 947→948)

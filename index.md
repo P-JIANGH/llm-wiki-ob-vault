@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 690 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 691 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -16,6 +16,7 @@
     16|| [[agentgpt]] — reworkd 开源浏览器端自主 AI Agent 平台：Next.js / Docker 部署，1.5k+ commits，12 releases，支持中/英/匈牙利语 |
     17|| [[babyagi]] — yoheinakajima 实验性自构建 Agent 框架：functionz 图结构函数注册表（依赖/触发器/密钥管理），SQLAlchemy + Flask Dashboard，MIT，已存档 |
     18|| [[llocal-search]] — nilsherzig 本地 AI 搜索 Agent：Ollama + langchaingo + SearXNG + ChromaDB，完全本地运行无需 API Key，MIT |
+    19|| [[ai-game-devtools/academicodec]] — 高校开源音频 Codec 工具包：EnCodec/SoundStream/HiFi-Codec 训练代码+预训练权重，GRVQ 仅 4 codebook 高保真重建，适用于 VALL-E/AudioLM/MusicLM，MIT |
     19||| [[ai-game-devtools/01-project]] — OpenInterpreter 开源语音接口设备：Open Interpreter 驱动自然语言控制电脑，LiveKit 实时语音 + Deepgram STT + ElevenLabs TTS，支持 ESP32/桌面/移动端，AGPL |
     20|| [[open-deep-research]] — dzhng/Duet 深度研究 Agent：Firecrawl 搜索爬取 + o3-mini/R1 模型，递归深度搜索 + 并发处理，<500 LoC 极简实现，MIT |
     21||| [[ai-game-devtools/logic-games-solver]] — fabridigua AI 解数独/Stars/Skyscrapers 逻辑游戏：OpenCV 透视变换 + Keras CNN（MNIST）识别 + CSP 回溯求解，Python/TensorFlow |

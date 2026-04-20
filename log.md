@@ -1,4 +1,10 @@
-     # Wiki Log
+# Wiki Log
+## [2026-04-20] ingest | AcademiCodec
+- Cloned: ~/tmp/ai-game-devtools/academicodec/
+- Created: raw/articles/ai-game-devtools/academicodec.md
+- Created: ai-game-devtools/academicodec.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, bumped total pages to 691)
 ## [2026-04-20] ingest | Wan2.2
 - Cloned: ~/tmp/ai-game-devtools/wan2-2/
 - Created: raw/articles/ai-game-devtools/wan2-2.md

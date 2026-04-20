@@ -507,7 +507,7 @@
 |- [2026-04-20] Waver | https://github.com/FoundationVision/Waver
 
 ## Audio (25)
-- [ ] AcademiCodec | https://github.com/yangdongchao/AcademiCodec
+- [2026-04-20] AcademiCodec | https://github.com/yangdongchao/AcademiCodec
 - [ ] Amphion | https://github.com/open-mmlab/Amphion
 - [ ] ArchiSound | https://github.com/archinetai/audio-diffusion-pytorch
 - [ ] AudioEditing | https://github.com/HilaManor/AudioEditingCode

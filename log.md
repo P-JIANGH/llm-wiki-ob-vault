@@ -425,3 +425,10 @@
 - Created: ai-game-devtools/sonicmaster.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Music section entry)
+## [2026-04-21] ingest | YuE
+- Cloned: ~/tmp/ai-game-devtools/yue/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/yue.md
+- Created: ai-game-devtools/yue.md (entity page: HKUST/M-A-P 音乐基础模型)
+- Updated: ai-game-devtools-learning-checklist.md (Music section)
+- Updated: index.md (added entry in AI Game DevTools section, restored corrupted index, pages: 931→932)
+- Note: index.md was restored from git commit 544a93f (corrupted at 3c290b4)

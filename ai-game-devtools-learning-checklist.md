@@ -544,7 +544,7 @@
 - [2026-04-21] MusicGen | https://github.com/facebookresearch/audiocraft
 - [2026-04-21] Riffusion App | https://github.com/riffusion/riffusion-app
 - [2026-04-21] SonicMaster | https://github.com/AMAAI-Lab/SonicMaster
-- [ ] YuE | https://github.com/multimodal-art-projection/YuE
+- [2026-04-21] YuE | https://github.com/multimodal-art-projection/YuE
 
 ## Singing Voice (4)
 - [ ] DiffSinger | https://github.com/MoonInTheRiver/DiffSinger

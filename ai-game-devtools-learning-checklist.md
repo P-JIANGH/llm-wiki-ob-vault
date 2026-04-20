@@ -538,7 +538,7 @@
 |- [2026-04-21] Chord2Melody | https://github.com/tanreinama/chord2melody
 - [2026-04-21] Diff-BGM | https://github.com/sizhelee/Diff-BGM
 - [2026-04-20] FluxMusic | https://github.com/feizc/FluxMusic
-- [ ] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton
+- [2026-04-21] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton
 - [ ] Jukebox | https://github.com/openai/jukebox
 - [ ] Magenta | https://github.com/magenta/magenta
 - [ ] MusicGen | https://github.com/facebookresearch/audiocraft

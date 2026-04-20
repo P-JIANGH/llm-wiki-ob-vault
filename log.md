@@ -375,6 +375,12 @@
    369|- Created: ai-game-devtools/diff-bgm.md
    370|- Updated: ai-game-devtools-learning-checklist.md
    371|- Updated: index.md (added diff-bgm entry, total 920 pages)
+## [2026-04-21] ingest | GPTAbleton
+- Source: web_extract (GitHub clone timed out; gitcode/gitee unavailable)
+- Created: raw/articles/ai-game-devtools/gptableton.md
+- Created: ai-game-devtools/gptableton.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Audio section entry)
    372|
 ## [2026-04-20] ingest | FinceptTerminal source code deep study
 - Source: ~/FinceptTerminal (Fincept Corporation financial terminal v4.0.2)

@@ -540,6 +540,7 @@
 || [[ai-game-devtools/auffusion]] — BUPT 文本到音频扩散模型：适配 Stable Diffusion T2I 架构到 TTA，CLIPTextModel+UNet2DCondition+HiFi-GAN 声码器，支持文本生成/风格迁移/音频修复/prompt2prompt 控制，Apache 2.0
 ||| [[ai-game-devtools/ctag]] — MIT ICML 2024 进化优化文本到音频生成：CLAP 语义匹配 + evosax 30+ 进化策略 + SynthAX JAX 合成器，非神经网络方法，参数可编辑可解释，MIT
 || [[ai-game-devtools/foley-crafter]] — open-mmlab 视频驱动音效（Foley）生成框架：Auffusion 基座 + ControlNet 时间适配器（视觉 onset 检测同步）+ IP-Adapter 语义适配器（CLIP 视觉编码），视频→对齐音效，Gradio Web UI，2024 arXiv 2407.01494
+|| [[ai-game-devtools/gptableton]] — BurnedGuitarist GPT→Ableton MIDI 桥接工具：自然语言提示→GPT 生成同步三轨 MIDI 表（旋律/鼓/贝斯），OSC 注入 Ableton Live 剪贴，Python+python-osc+Max for Live，MIT
 |||| [[ai-game-devtools/hunyuanvideo-foley]] — 腾讯混元端到端视频音效生成模型：多模态扩散+表征对齐，视频+文本→48kHz 高保真 Foley 音效，XXL/XL 双尺寸，MovieGen-Audio-Bench & Kling-Audio-Eval 全面 SOTA，Apache 2.0
 |||| [[ai-game-devtools/make-an-audio-3]] — Flow-based 大型扩散 Transformer 文本→音频/音乐生成：CFM+NeuralODE 采样，M/XL/XXL/3B 多尺寸，支持 T2A/T2M/V2A，PyTorch Lightning+BigVGAN，Flash Attention
 ||| [[ai-game-devtools/midashenglm]] — 小米 MiDashengLM-7B 音频理解大模型：Dasheng 编码器+Qwen2.5-Omni Thinker 解码器，caption-based 对齐（非 ASR），20× batch 加速，38K 小时 ACAVCaps 训练，Apache 2.0

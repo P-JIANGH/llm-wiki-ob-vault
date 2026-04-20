@@ -1,3 +1,9 @@
+## [2026-04-21] ingest | AnyAccomp
+- Cloned: ~/tmp/ai-game-devtools/any-accomp/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/any-accomp.md
+- Created: ai-game-devtools/any-accomp.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 917→918)
 ## [2026-04-20] ingest | MOFA-Video
 - Cloned: ~/tmp/ai-game-devtools/mofa-video/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/mofa-video.md

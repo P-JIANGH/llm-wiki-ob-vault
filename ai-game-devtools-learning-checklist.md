@@ -534,7 +534,7 @@
 - [2026-04-21] WavJourney | https://github.com/Audio-AGI/WavJourney
 
 ## Music (11)
-- [ ] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp
+- [2026-04-21] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp
 - [ ] Chord2Melody | https://github.com/tanreinama/chord2melody
 - [ ] Diff-BGM | https://github.com/sizhelee/Diff-BGM
 - [ ] FluxMusic | https://github.com/feizc/FluxMusic

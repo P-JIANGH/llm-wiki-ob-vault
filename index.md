@@ -518,3 +518,4 @@
 - [[ai-game-devtools/index-tts2]] — Bilibili IndexTTS Team 自回归零样本 TTS（arXiv 2506.21619）：首个支持精确语音时长控制的自回归 TTS、情感-音色解耦、8维情感向量+Qwen3文本情感控制、中英双语，Bilibili 自定义许可
 - [[ai-game-devtools/liquid-audio]] — Liquid AI 端到端语音到语音基础模型 LFM2.5-Audio-1.5B：Interleaved/Sequential 双生成模式、Conformer+LFM2+Depthformer+Mimi 8-codebook 架构、实时多轮对话/ASR/TTS 三合一、24kHz 输出、4 预设声音，LFM Open License v1.0
 - [[ai-game-devtools/matcha-tts]] — KTH 条件流匹配快速 TTS：Conformer 编码器+CFM 解码器+MAS 对齐+HiFi-GAN，非自回归 ODE 语音合成、10 步欧拉推理、多说话人、ONNX 导出、MIT
+- [[ai-game-devtools/melotts]] — MIT/MyShell 多语言多口音 TTS：VITS2 架构+BERT 特征注入、11 种语言/口音、CPU 实时推理、中英日法韩西、MIT 可商用许可

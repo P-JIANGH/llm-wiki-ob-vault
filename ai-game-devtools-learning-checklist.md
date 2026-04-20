@@ -508,7 +508,7 @@
 
 ## Audio (25)
 - [2026-04-20] AcademiCodec | https://github.com/yangdongchao/AcademiCodec
-- [ ] Amphion | https://github.com/open-mmlab/Amphion
+|- [2026-04-20] Amphion | https://github.com/open-mmlab/Amphion
 - [ ] ArchiSound | https://github.com/archinetai/audio-diffusion-pytorch
 - [ ] AudioEditing | https://github.com/HilaManor/AudioEditingCode
 - [ ] Audiogen Codec | https://github.com/AudiogenAI/agc

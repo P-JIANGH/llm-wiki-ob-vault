@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 691 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 692 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -339,6 +339,10 @@
 |||||| [[ai-game-devtools/animate-a-story]] — AILab-CVC arXiv 2023 检索增强故事视频生成：Motion Structure Retrieval + 结构引导T2V两大模块，深度图运动控制 + 概念个性化跨片段角色一致性，学术研究许可
 ||||||| [[ai-game-devtools/follow-your-canvas]] — AAAI 2025 高分辨率视频 Outpainting：原始视频边界外扩展新内容，SD 2.1 + AnimateDiff 管线 + SAM + Qwen-VL-Chat 自动提示，60GB VRAM
 || [[ai-game-devtools/sorawebui]] — SoraWebui 开源 Sora 文本到视频 Web 客户端：Next.js + TypeScript + Tailwind CSS + Vercel 一键部署 + Google 登录 + i18n 三语支持，依赖 FakeSoraAPI 模拟后端，等待 OpenAI 官方 Sora API 发布
+
+## Audio
+
+| [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音生成工具包：TTS(8种架构)/VC/SVC/TTA/声码器全支持，Emilia 200k小时数据集，MIT
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

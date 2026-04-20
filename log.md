@@ -462,3 +462,9 @@
 - Created: ai-game-devtools/wan2-1.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 684→685)
+## [2026-04-20] ingest | Amphion
+- Cloned: ~/tmp/ai-game-devtools/amphion/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/amphion.md
+- Created: ai-game-devtools/amphion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 691→692)

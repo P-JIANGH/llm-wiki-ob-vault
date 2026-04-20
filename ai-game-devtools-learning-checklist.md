@@ -570,7 +570,7 @@
 - [2026-04-21] Kitten TTS | https://github.com/KittenML/KittenTTS
 - [2026-04-21] Liquid Audio | https://github.com/Liquid4All/liquid-audio
 - [2026-04-21] MahaTTS | https://github.com/dubverse-ai/MahaTTS
-- [ ] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
+|- [2026-04-21] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
 - [ ] MeloTTS | https://github.com/myshell-ai/MeloTTS
 - [ ] MetaVoice-1B | https://github.com/metavoiceio/metavoice-src
 - [ ] Mini-Omni | https://github.com/gpt-omni/mini-omni

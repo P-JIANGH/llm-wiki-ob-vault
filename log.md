@@ -571,3 +571,9 @@
 - Created: ai-game-devtools/liquid-audio.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (total pages 948→949)
+## [2026-04-21] ingest | Matcha-TTS
+- Cloned: ~/tmp/ai-game-devtools/matcha-tts/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/matcha-tts.md
+- Created: ai-game-devtools/matcha-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 950→951)

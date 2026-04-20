@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-21 | Total pages: 950 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-21 | Total pages: 951 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -517,3 +517,4 @@
 - [[ai-game-devtools/gpt-sovits]] — RVC-Boss 少样本语音克隆 TTS 系统：GPT+SoVITS 双阶段架构、5 秒零样本/1 分钟微调、中英日韩粤五语支持、UVR5/ASR/切片集成工具链、V1→V2→V3→V4→V2Pro 多版本迭代，MIT
 - [[ai-game-devtools/index-tts2]] — Bilibili IndexTTS Team 自回归零样本 TTS（arXiv 2506.21619）：首个支持精确语音时长控制的自回归 TTS、情感-音色解耦、8维情感向量+Qwen3文本情感控制、中英双语，Bilibili 自定义许可
 - [[ai-game-devtools/liquid-audio]] — Liquid AI 端到端语音到语音基础模型 LFM2.5-Audio-1.5B：Interleaved/Sequential 双生成模式、Conformer+LFM2+Depthformer+Mimi 8-codebook 架构、实时多轮对话/ASR/TTS 三合一、24kHz 输出、4 预设声音，LFM Open License v1.0
+- [[ai-game-devtools/matcha-tts]] — KTH 条件流匹配快速 TTS：Conformer 编码器+CFM 解码器+MAS 对齐+HiFi-GAN，非自回归 ODE 语音合成、10 步欧拉推理、多说话人、ONNX 导出、MIT

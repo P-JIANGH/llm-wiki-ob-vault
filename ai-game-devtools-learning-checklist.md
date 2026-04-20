@@ -537,7 +537,7 @@
 - [2026-04-21] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp
 |- [2026-04-21] Chord2Melody | https://github.com/tanreinama/chord2melody
 - [2026-04-21] Diff-BGM | https://github.com/sizhelee/Diff-BGM
-- [ ] FluxMusic | https://github.com/feizc/FluxMusic
+- [2026-04-20] FluxMusic | https://github.com/feizc/FluxMusic
 - [ ] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton
 - [ ] Jukebox | https://github.com/openai/jukebox
 - [ ] Magenta | https://github.com/magenta/magenta

@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 920 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 928 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -63,6 +63,12 @@
 | [[concepts/deer-flow-subagent]] — DeerFlow 中将复杂任务委托给后台子 Agent 执行的机制，核心是 SubagentExecutor + 三线程池架构。 |
 | [[concepts/eino-framework]] — Eino Framework |
 | [[concepts/fincept-terminal-architecture]] — Fincept Terminal v4 是纯原生 C++20 桌面应用，使用 Qt6 做 UI 和渲染，嵌入 Python 3.11+ 做分析引擎，在单一原生二进制中提供 Bloomberg Terminal 级别的性能。跨 Windows/macOS/Linux 三平台。 |
+| [[concepts/fincept-ai-agents]] — Fincept 内置 37 个 AI Agent，Trader/Investor 人格（Buffett/Graham/Lynch/Munger/Klarman/Marks...）、经济分析、地缘政治，Agno 框架驱动，支持多模型/工具调用/团队协作 |
+| [[concepts/fincept-auth-system]] — JWT 登录 + OTP/MFA 验证 + PIN 锁屏 + 会话恢复 + 设备 ID 生成，多层安全认证体系 |
+| [[concepts/fincept-data-connectors]] — 100+ 数据连接器，覆盖市场数据（Yahoo/Polygon/Kraken/AkShare）、经济数据（FRED/IMF/World Bank/DBnomics）、另类数据（Adanos/Polymarket） |
+| [[concepts/fincept-storage-system]] — SQLite 持久化 + Repository 模式（17+ 仓库）+ Migration 系统（18 个版本）+ CacheManager + SecureStorage 四层架构 |
+| [[concepts/fincept-ui-system]] — Obsidian 风格暗色主题 Qt6 组件库：55 个源文件实现 Card/SearchBar/DataTable/ChartFactory/MarkdownRenderer 等，ADS Docking 系统 |
+| [[concepts/fincept-workflow-engine]] — 可视化节点编辑器 + DAG 工作流引擎：NodeRegistry 注册、WorkflowExecutor 拓扑排序+并行执行、28+ 节点类别（Triggers/MarketData/Trading/AI/ControlFlow） |
 | [[concepts/flowgram]] — FlowGram |
 | [[concepts/godot-vs-unity-unreal]] — Godot (MIT) 完全免费，无版税，无隐藏费用 游戏代码和引擎均为 MIT，闭源游戏也完全合法 适合独立开发者和小团队 |
 | [[concepts/llm-providers]] — LlmService 支持多 LLM Provider，通过统一的 API 接口调用不同的模型。 |
@@ -72,6 +78,7 @@
 | [[concepts/muon-optimizer]] — 问题： 标准 Adam 对 2D 矩阵（如 linear layer weights）不是最优的。 |
 | [[concepts/provider-registry]] — 一种插拔式（pluggable）LLM Provider 架构模式，通过单一数据结构（ProviderSpec 元组）集中定义所有 Provider 元数据，告别 ifelif 链。 |
 | [[concepts/pubsub-pattern]] — 发布/订阅模式是一种消息传递范式， publishers（发布者）和 subscribers（订阅者）通过 topic（主题）解耦。发布者不知道谁在订阅，订阅者不知道谁在发布。 |
+| [[concepts/quantlib-integration]] — QuantLib 封装层，18 个量化分析模块：期权定价/风险管理/随机过程/波动率建模/固定收益 |
 | [[concepts/python-integration]] — C++ 通过 PythonRunner (QProcess 子进程) 调用 scripts/ 下 100+ Python 脚本。脚本输出 JSON 到 stdout，C++ 解析后通过 DataHub 分发。 |
 
 ## Game Projects & Studios
@@ -101,6 +108,7 @@
 || [[ai-game-devtools/any-accomp]] — Amphion Team 通用伴奏生成框架：Chromagram + VQ-VAE 量化旋律瓶颈 + Flow Matching 生成伴奏，支持人声/独奏乐器输入，Gradio UI，24kHz/3-30秒输入，MIT |
 || [[ai-game-devtools/chord2melody]] — tanreinama GPT-2 自动作曲工具：和弦进行→MIDI 旋律生成、已有 MIDI 续写、5 轨/17 轨 GM 乐器输出、14 种和弦类型，MIT |
 | [[ai-game-devtools/echo-mimic]] — Ant Group 音频驱动肖像动画：SD 1.5 扩散 + Whisper-Tiny 音频编码 + 地标 CNN，支持纯音频/纯地标/混合三种驱动，超越 SadTalker/Hallo，AAAI 2025 |
+||| [[ai-game-devtools/flux-music]] — 首个 Rectified Flow + 双流 Transformer 文本到音乐生成模型：T5-XXL+CLAP-L 条件编码 + AudioLDM2 VAE/Vocoder，支持 Small/Base/Large/Giant/Giant-Full 五种规格（512~2048 hidden），50 步采样，16kHz/10.24 秒，arXiv 2409.00587 |
 | [[ai-game-devtools/hunyuan3d-2]] — 腾讯混元 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，文本/图像→高分辨率 3D 网格，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM，Apache 2.0 |
 | [[ai-game-devtools/infllm-v2]] — 清华 InfLLM 高效长上下文推理：分块注意力 + 内存池压缩，O(L) 时间/内存复杂度，有效无限上下文窗口 (2M+ tokens)，兼容 Llama/Mistral/Qwen，MIT |
 | [[ai-game-devtools/llama2-c]] — Karpathy llama2.c 纯 C 实现 (~700 行)：零依赖 Llama 2 推理，无 PyTorch/CUDA，自定义二进制权重格式，INT8 量化支持，教育/嵌入式 AI，MIT |
@@ -628,6 +636,7 @@
 
 | [[entities/clawteam]] — Agent Swarm Intelligence 框架，由 hkuds 开发。GitHub: https://github.com/HKUDS/ClawTeam v0.3 MIT License |
 | [[entities/deer-flow]] — Super Agent Harness，基于 LangGraph + LangChain，由 ByteDance 开发。GitHub Trending 1（20260228）。v2.0 从零重写，与 v1.x 无共享代码。 |
+| [[entities/fincept-terminal]] — Fincept Corporation 开源金融情报平台，C++20/Qt6，100+ 数据连接器，37 AI Agent，16 broker 集成，AGPL-3.0 许可 |
 | [[entities/hkuds]] — Hong Kong University Data Science Lab — 香港大学数据科学实验室。 |
 | [[entities/langchain]] — LLM 应用开发框架，提供：Chain（链式调用）/ Agent（工具 + 推理）/ Memory（上下文持久化）/ Tool（工具集成）/ Prompt（模板管理）。 |
 | [[entities/langgraph]] — 由 langchain 开发的 multiagent 编排框架，以 graph 结构建模 agent 工作流：节点 = 工具/LLM/代码，边 = 控制流。 |

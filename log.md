@@ -589,3 +589,9 @@
 - Created: ai-game-devtools/hunyuanvideo-foley.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added HunyuanVideo-Foley entry to Audio section, bumped total to 746)
+## [2026-04-20] ingest | Make-An-Audio 3
+- Cloned: ~/tmp/ai-game-devtools/make-an-audio-3/
+- Created: raw/articles/ai-game-devtools/make-an-audio-3.md
+- Created: ai-game-devtools/make-an-audio-3.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Audio section, total pages 746→747)

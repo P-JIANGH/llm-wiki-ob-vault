@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 746 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 747 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -387,6 +387,7 @@
 ||| [[ai-game-devtools/ctag]] — MIT ICML 2024 进化优化文本到音频生成：CLAP 语义匹配 + evosax 30+ 进化策略 + SynthAX JAX 合成器，非神经网络方法，参数可编辑可解释，MIT
 || [[ai-game-devtools/foley-crafter]] — open-mmlab 视频驱动音效（Foley）生成框架：Auffusion 基座 + ControlNet 时间适配器（视觉 onset 检测同步）+ IP-Adapter 语义适配器（CLIP 视觉编码），视频→对齐音效，Gradio Web UI，2024 arXiv 2407.01494
 |||| [[ai-game-devtools/hunyuanvideo-foley]] — 腾讯混元端到端视频音效生成模型：多模态扩散+表征对齐，视频+文本→48kHz 高保真 Foley 音效，XXL/XL 双尺寸，MovieGen-Audio-Bench & Kling-Audio-Eval 全面 SOTA，Apache 2.0
+||| [[ai-game-devtools/make-an-audio-3]] — Flow-based 大型扩散 Transformer 文本→音频/音乐生成：CFM+NeuralODE 采样，M/XL/XXL/3B 多尺寸，支持 T2A/T2M/V2A，PyTorch Lightning+BigVGAN，Flash Attention
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

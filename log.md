@@ -1,4 +1,10 @@
      # Wiki Log
+## [2026-04-20] ingest | StoryMem
+- Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
+- Created: raw/articles/ai-game-devtools/storymem.md
+- Created: ai-game-devtools/storymem.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 666→667)
 ## [2026-04-20] ingest | Ruyi (图像到视频扩散模型)
 - Cloned: ~/tmp/ai-game-devtools/ruyi/
 - Created: raw/articles/ai-game-devtools/ruyi.md

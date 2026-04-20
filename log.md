@@ -395,3 +395,9 @@
 - Created concepts/fincept-data-connectors.md — 100+ data source connectors
 - Updated concepts/fincept-terminal-architecture.md with accurate file counts and new cross-references
 - Updated index.md: added 8 entries (7 concepts + 1 entity), total pages 928
+## [2026-04-21] ingest | Jukebox
+- Cloned: ~/tmp/ai-game-devtools/jukebox/
+- Created: raw/articles/ai-game-devtools/jukebox.md
+- Created: ai-game-devtools/jukebox.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, bumped count to 929)

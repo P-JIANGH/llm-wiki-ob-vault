@@ -817,3 +817,4 @@
 - [[ai-game-devtools/diffsinger]] Singing voice synthesis via shallow diffusion mechanism (AAAI-2022), MIDI-controlled vocal generation
 - [[ai-game-devtools/retrieval-based-voice-conversion-webui]] RVC 开源变声框架：VITS 架构 + top-1 FAISS 检索替换杜绝音色泄漏，~10 分钟数据可训练，实时变声 170ms 延迟，支持 CUDA/DirectML/ROCm/MPS，MIT
 - [[ai-game-devtools/so-vits-svc]] 开源歌唱语音转换框架：SoftVC 编码器 + VITS 架构 + 浅层扩散 + 13 种 speech encoder + 音色混合/聚类/特征检索，AGPL 3.0
+- [[ai-game-devtools/vi-svs]] VITS简化版歌声合成系统（去除MAS/DurationPredictor），变分推理+对抗训练，Apache 2.0

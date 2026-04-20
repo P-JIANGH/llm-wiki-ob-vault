@@ -550,7 +550,7 @@
 - [2026-04-21] DiffSinger | https://github.com/MoonInTheRiver/DiffSinger
 |- [2026-04-21] Retrieval-based-Voice-Conversion-WebUI | https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI
 - [2026-04-21] so-vits-svc | https://github.com/svc-develop-team/so-vits-svc
-- [ ] VI-SVS | https://github.com/PlayVoice/VI-SVS
+- [2026-04-21] VI-SVS | https://github.com/PlayVoice/VI-SVS
 
 ## Speech (48)
 - [ ] Applio | https://github.com/IAHispano/Applio

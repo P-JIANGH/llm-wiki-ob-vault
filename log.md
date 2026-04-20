@@ -452,3 +452,10 @@
 - Created: ai-game-devtools/so-vits-svc.md (entity page: SoftVC+VITS singing voice conversion)
 - Updated: ai-game-devtools-learning-checklist.md (Singing Voice section)
 - Updated: index.md (added Singing Voice entry, pages: 934→935)
+
+## [2026-04-21] ingest | VI-SVS
+- Cloned: ~/tmp/ai-game-devtools/vi-svs/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/vi-svs.md
+- Created: ai-game-devtools/vi-svs.md (entity page: VITS-based singing voice synthesis, Apache 2.0)
+- Updated: ai-game-devtools-learning-checklist.md (Singing Voice section)
+- Updated: index.md (added Singing Voice entry)

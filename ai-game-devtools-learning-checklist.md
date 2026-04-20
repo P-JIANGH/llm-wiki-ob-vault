@@ -518,7 +518,7 @@
 |- [2026-04-20] AudioX | https://github.com/ZeyueT/AudioX
 |- [2026-04-20] Auffusion | https://github.com/happylittlecat2333/Auffusion
 - [2026-04-20] CTAG | https://github.com/PapayaResearch/ctag
-- [ ] FoleyCrafter | https://github.com/open-mmlab/FoleyCrafter
+- [2026-04-20] FoleyCrafter | https://github.com/open-mmlab/FoleyCrafter
 - [ ] HunyuanVideo-Foley | https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley
 - [ ] Make-An-Audio 3 | https://github.com/Text-to-Audio/Make-An-Audio-3
 - [ ] MeanAudio | https://github.com/xiquan-li/MeanAudio

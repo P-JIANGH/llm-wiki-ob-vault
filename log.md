@@ -576,3 +576,10 @@
 - Created: ai-game-devtools/ctag.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added CTAG entry to Audio section)
+
+## [2026-04-20] ingest | FoleyCrafter
+- Cloned: ~/tmp/ai-game-devtools/foley-crafter/
+- Created: raw/articles/ai-game-devtools/foley-crafter.md
+- Created: ai-game-devtools/foley-crafter.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added FoleyCrafter entry to Audio section)

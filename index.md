@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 929 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | Total pages: 930 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -114,8 +114,9 @@
 | [[ai-game-devtools/llama2-c]] — Karpathy llama2.c 纯 C 实现 (~700 行)：零依赖 Llama 2 推理，无 PyTorch/CUDA，自定义二进制权重格式，INT8 量化支持，教育/嵌入式 AI，MIT |
 | [[ai-game-devtools/litgpt]] — Lightning AI 轻量 GPT 实现：模块化 Llama/Mistral/Phi 等架构支持，LoRA/QLoRA 微调 + 多后端推理 + 量化，Lightning Fabric 分布式训练，Apache 2.0 |
 | [[ai-game-devtools/llava-next]] — 下一代 LLaVA 多模态模型：任意分辨率处理 + 图文交错理解 + 视频扩展，Llama 3/Qwen/Mistral 多 LLM 骨干，Apache 2.0 |
-|| [[ai-game-devtools/jukebox]] — OpenAI 先驱性自回归音乐生成模型（5B/5B_lyrics/1B_lyrics）：3级 VQ-VAE+分层 Transformer，支持歌词/艺术家/流派条件+音频提示，V100 3小时/20秒，非商用许可证
-|| [[ai-game-devtools/musicgen]] — Meta AI 音乐生成模型：单阶段自回归 Transformer + EnCodec 神经编解码器，300M~3.3B 多尺寸，文本/音频/旋律条件，CC BY-NC 4.0 |
+||| [[ai-game-devtools/jukebox]] — OpenAI 先驱性自回归音乐生成模型（5B/5B_lyrics/1B_lyrics）：3级 VQ-VAE+分层 Transformer，支持歌词/艺术家/流派条件+音频提示，V100 3小时/20秒，非商用许可证
+||| [[ai-game-devtools/magenta]] — Google Brain AI 艺术与音乐生成研究项目：MelodyRNN/MusicVAE/NSynth/GANSynth 等多模型家族，MIDI/符号音乐+波形合成，pip 安装，~40 CLI 工具，Apache 2.0（已存档）
+||| [[ai-game-devtools/musicgen]] — Meta AI 音乐生成模型：单阶段自回归 Transformer + EnCodec 神经编解码器，300M~3.3B 多尺寸，文本/音频/旋律条件，CC BY-NC 4.0 |
 | [[ai-game-devtools/qwen2-5]] — 阿里通义 Qwen 2.5 系列 (0.5B~72B)：128K 上下文，29+ 语言，强编码/数学能力，Base/Instruct/Coder/Math 变体，Apache 2.0 |
 | [[ai-game-devtools/visual-agent-bench]] — THUDM 视觉语言 Agent 评测基准：VQA/图像操作/图表推理/UI 导航多任务，评估 LLaVA/Qwen-VL/GPT-4V/Gemini 等 VLM Agent，Apache 2.0 |
 

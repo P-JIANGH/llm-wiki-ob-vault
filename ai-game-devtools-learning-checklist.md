@@ -540,7 +540,7 @@
 - [2026-04-20] FluxMusic | https://github.com/feizc/FluxMusic
 - [2026-04-21] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton
 - [2026-04-21] Jukebox | https://github.com/openai/jukebox
-- [ ] Magenta | https://github.com/magenta/magenta
+- [2026-04-21] Magenta | https://github.com/magenta/magenta
 - [ ] MusicGen | https://github.com/facebookresearch/audiocraft
 - [ ] Riffusion App | https://github.com/riffusion/riffusion-app
 - [ ] SonicMaster | https://github.com/AMAAI-Lab/SonicMaster

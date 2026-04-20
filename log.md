@@ -401,3 +401,9 @@
 - Created: ai-game-devtools/jukebox.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry, bumped count to 929)
+## [2026-04-21] ingest | Magenta
+- Cloned: ~/tmp/ai-game-devtools/magenta/ (gitcode.com mirror; GitHub direct failed)
+- Created: raw/articles/ai-game-devtools/magenta.md
+- Created: ai-game-devtools/magenta.md
+- Updated: ai-game-devtools-learning-checklist.md (Music section)
+- Updated: index.md (added entry, pages: 929→930)

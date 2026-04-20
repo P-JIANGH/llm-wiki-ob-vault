@@ -538,3 +538,10 @@
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (total pages 944→945)
 
+
+## [2026-04-21] ingest | Higgs Audio
+- Cloned: ~/tmp/ai-game-devtools/higgs-audio/
+- Created: raw/articles/ai-game-devtools/higgs-audio.md
+- Created: ai-game-devtools/higgs-audio.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

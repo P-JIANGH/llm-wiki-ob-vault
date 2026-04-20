@@ -145,6 +145,7 @@
    145|| [[ai-game-devtools/jaaz]] — 11cafe 开源多模态画布创意 Agent：无限画布 + AI Agent 生成图片/视频（GPT-4o/Midjourney/Flux/ComfyUI），LangGraph 编排 + tldraw 画布，隐私优先支持本地部署，AGPL |
    146||| [[ai-game-devtools/ragas]] — VibrantLabs LLM 应用评估框架：RAG/LLM 客观指标 + 测试数据自动生成 + LangChain/LlamaIndex 集成 + 生产反馈循环，Apache-2.0 |
    147||| [[ai-game-devtools/rpbench-auto]] — boson-ai LLM 角色扮演自动化评测流水线：ArenaHard 范式 pairwise 对比 + 裁判 LLM 打分 + Elo 排名（MLE/Online/WHR），覆盖 17+ 模型，Apache 2.0 |
+|| [[ai-game-devtools/higgs-audio]] — Boson AI 音频基础模型（3.6B→1B）：Llama-3.2 基座 + DualFFN 音频适配器 + 自研 25fps Tokenizer，EmergentTTS 情感胜率 75.7% 超 GPT-4o-mini-TTS，零样本语音克隆/多说话人对话/多语言，Apache 2.0 |
    148||| [[ai-game-devtools/llm-unity-integration]] — LLM 集成 Unity 架构模式：本地 llama.cpp/云 API/混合三种部署方案，NPC 对话流式输出/行为树集成/任务生成/性能优化全指南 |
    149|| [[ai-game-devtools/unreal-engine-5-llama-lora]] — bublint 用 UE 5.1 文档微调 Llama-7b LoRA：8bit 加载 + text-generation-webui 训练，8小时 3090Ti 完成，构建本地 UE5 问答助手，MIT |
    150||| [[ai-game-devtools/unrealgpt]] — TREE Industries UE5.6 AI Agent 插件：编辑器内 Chat 界面 + GPT Responses API + Python 脚本执行 + 场景查询 + Replicate 内容生成，Apache 2.0 |

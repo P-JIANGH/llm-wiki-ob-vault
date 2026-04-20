@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-21 | Total pages: 941 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-21 | Total pages: 942 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -507,4 +507,5 @@
 - [[ai-game-devtools/chat-tts]] — 2noise 对话式 TTS 模型：100k+小时中英双语训练、细粒度韵律控制（笑声/停顿）、多说话人、流式生成、4GB VRAM 可运行，AGPLv3+/CC BY-NC 4.0
 - [[ai-game-devtools/cosyvoice]] — 阿里 FunAudioLLM 多语言 TTS 系统（LLM+Flow Matching）：9语言+18+中文方言、零样本语音克隆、150ms流式、RL后训练，Apache 2.0
 - [[ai-game-devtools/dex-tts]] — DEX-TTS 扩散模型富有表现力 TTS：RetNet 文本编码 + DiTMask 扩散去噪 + EDM 预条件 + TV/TIV/LF0 风格三分解，支持参考语音风格迁移和无参考 GeDEX 变体，MIT
+- [[ai-game-devtools/emotivoice]] — 网易有道开源情感 TTS 引擎：PromptTTS+JETS 架构，2000+ 音色，中英混合输入，Simbert 风格编码，HiFi-GAN 声码器，OpenAI API 兼容，Apache 2.0
 

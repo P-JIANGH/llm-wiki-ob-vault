@@ -560,7 +560,7 @@
 - [2026-04-21] ChatTTS | https://github.com/2noise/ChatTTS
 - [2026-04-21] CosyVoice | https://github.com/FunAudioLLM/CosyVoice
 - [2026-04-21] DEX-TTS | https://github.com/winddori2002/DEX-TTS
-- [ ] EmotiVoice | https://github.com/netease-youdao/EmotiVoice
+- [2026-04-21] EmotiVoice | https://github.com/netease-youdao/EmotiVoice
 - [ ] FireRedTTS-2 | https://github.com/FireRedTeam/FireRedTTS2
 - [ ] GLM-4-Voice | https://github.com/THUDM/GLM-4-Voice
 - [ ] Glow-TTS | https://github.com/jaywalnut310/glow-tts

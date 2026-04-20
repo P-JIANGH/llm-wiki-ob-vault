@@ -1,3 +1,10 @@
+## [2026-04-21] ingest | EmotiVoice
+- Cloned: ~/tmp/ai-game-devtools/emotivoice/ (gitcode mirror; GitHub timeout)
+- Created: raw/articles/ai-game-devtools/emotivoice.md
+- Created: ai-game-devtools/emotivoice.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 941→942)
+
 ## [2026-04-21] ingest | DEX-TTS
 - Cloned: ~/tmp/ai-game-devtools/dex-tts/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/dex-tts.md

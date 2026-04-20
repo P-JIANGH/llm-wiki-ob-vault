@@ -6,6 +6,8 @@ type: entity
 tags: [ai, llm, agent, project, education]
 sources: [raw/articles/thu-maic-openmaic-source-2026.md]
 ---
+<!-- TODO: This page has 221 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # OpenMAIC
 

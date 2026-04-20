@@ -7,6 +7,8 @@ tags: [project, agent, framework, bytedance]
 sources: [raw/articles/deer-flow-readme-2026.md, modules: sandbox/tools.py+sandbox/security.py+sandbox/local_sandbox.py+agents/factory.py+agents/memory/*+subagents/executor.py+subagents/registry.py+runtime/*+skills/manager.py]
 aliases: [DeerFlow]
 ---
+<!-- TODO: This page has 269 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # DeerFlow
 

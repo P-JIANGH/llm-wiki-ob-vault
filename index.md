@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 754 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | Total pages: 917 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -50,6 +50,29 @@
 | [[tool-registry-pattern]] — 中心注册表工具自注册模式：check_fn 环境门控、循环导入安全、工具集分组 |
 | [[agent-loop-architecture]] — AI Agent 循环架构：持久 Async Loop、并行工具执行、迭代预算控制 |
 | [[openai-tool-calling]] — OpenAI Tool Calling 协议解析：参数类型强制、工具对完整性、多 Provider 格式适配 |
+| [[concepts/agent-loop]] — AI Agent 的核心执行循环模式：LLM 与工具之间反复交互，直到任务完成或达到迭代上限。 |
+| [[concepts/agent-swarm]] — 一种多 Agent 协作架构模式：多个专用 Agent 在一个 Leader 协调下组成团队，共享任务、消息和工作空间，自主完成复杂目标。 |
+| [[concepts/ai-agent-development-platform]] — AI Agent Development Platform |
+| [[concepts/autonomous-llm-research]] — Human 提供： 1. 可修改的代码（train.py） 2. 固定评估标准（prepare.py/valbpb） 3. Agent 指令（program.md） |
+| [[concepts/broker-interface]] — 统一的 broker 抽象接口，BrokerInterface 是所有 broker 适配器的基类。支持 20+ broker，覆盖 Indian、US、International 市场。 |
+| [[concepts/channel-system]] — Channel System 是一种将多聊天平台接入与核心 Agent 逻辑解耦的架构模式。所有渠道通过统一 Message Bus 与核心通信，核心 Agent 不感知具体渠道细节。 |
+| [[concepts/datahub-architecture]] — 每个 screen/widget 独立轮询自己的数据: ~20 dashboard widgets + MarketPanel + WatchlistScreen + PortfolioBlotter 各有自己的 QTimer 55+ screens 有本地 timers 驱动各自的刷新周期 27  |
+| [[concepts/deer-flow-memory]] — DeerFlow 的长期记忆系统，通过 LLM 从对话中提取结构化事实并持久化，在后续交互中自动注入上下文。 |
+| [[concepts/deer-flow-runtime]] — DeerFlow 中 LangGraph agent 的执行环境，包括：RunManager（生命周期）、StreamBridge（流式解耦）、Checkpointer（状态持久化）、Store（KV存储）。 |
+| [[concepts/deer-flow-sandbox]] — DeerFlow 的隔离执行环境，通过虚拟路径映射让 Agent 操作文件/命令而不暴露 host 系统结构。 |
+| [[concepts/deer-flow-subagent]] — DeerFlow 中将复杂任务委托给后台子 Agent 执行的机制，核心是 SubagentExecutor + 三线程池架构。 |
+| [[concepts/eino-framework]] — Eino Framework |
+| [[concepts/fincept-terminal-architecture]] — Fincept Terminal v4 是纯原生 C++20 桌面应用，使用 Qt6 做 UI 和渲染，嵌入 Python 3.11+ 做分析引擎，在单一原生二进制中提供 Bloomberg Terminal 级别的性能。跨 Windows/macOS/Linux 三平台。 |
+| [[concepts/flowgram]] — FlowGram |
+| [[concepts/godot-vs-unity-unreal]] — Godot (MIT) 完全免费，无版税，无隐藏费用 游戏代码和引擎均为 MIT，闭源游戏也完全合法 适合独立开发者和小团队 |
+| [[concepts/llm-providers]] — LlmService 支持多 LLM Provider，通过统一的 API 接口调用不同的模型。 |
+| [[concepts/mcp-system]] — MCP (Model Context Protocol) 让 LLM 能够调用 Fincept Terminal 的原生工具。系统包含: 外部 MCP Server: McpManager 管理生命周期 37 个内置 Tool: 覆盖市场/新闻/Portfolio/交易等 |
+| [[concepts/memory-system]] — AI Agent 中管理长期知识、对话历史和上下文窗口的架构设计。核心挑战：在有限上下文窗口内，维持"活"的记忆而不变成"噪声堆"。 |
+| [[concepts/multi-agent-interactive-classroom]] — Multi-Agent Interactive Classroom |
+| [[concepts/muon-optimizer]] — 问题： 标准 Adam 对 2D 矩阵（如 linear layer weights）不是最优的。 |
+| [[concepts/provider-registry]] — 一种插拔式（pluggable）LLM Provider 架构模式，通过单一数据结构（ProviderSpec 元组）集中定义所有 Provider 元数据，告别 ifelif 链。 |
+| [[concepts/pubsub-pattern]] — 发布/订阅模式是一种消息传递范式， publishers（发布者）和 subscribers（订阅者）通过 topic（主题）解耦。发布者不知道谁在订阅，订阅者不知道谁在发布。 |
+| [[concepts/python-integration]] — C++ 通过 PythonRunner (QProcess 子进程) 调用 scripts/ 下 100+ Python 脚本。脚本输出 JSON 到 stdout，C++ 解析后通过 DataHub 分发。 |
 
 ## Game Projects & Studios
 
@@ -299,6 +322,128 @@
 || [[ai-game-devtools/vgen]] — 阿里巴巴通义实验室全景视频生成生态系统：I2VGen-XL 两阶段图像→视频(1280×720)+DreamVideo 主体/运动定制+HiGen/TF-T2V，Python/PyTorch/YAML 驱动，~2 分钟推理
 |||||| [[ai-game-devtools/view-crafter]] — TPAMI 2025: 视频扩散模型高保真新视角合成，单/稀疏图像→多视角，576×1024/25帧/23.5GB，精确相机位姿控制
 |||| [[ai-game-devtools/video-elevator]] — AAAI 2025 训练-free 视频质量提升框架：T2V时序精炼+T2I空间注入交替管线，无需微调即兼容多种扩散后端，<11GB VRAM可运行
+| [[ai-game-devtools/agent-k]] — The autoagentic AGI. AgentK is a selfevolving AGI made of collaborating agents that can create new agents as needed to complete user tasks. Built on L |
+| [[ai-game-devtools/ai-command]] — AICommand (keijiro/AICommand) is a Unity Editor proofofconcept integration of ChatGPT that allows controlling the Editor using natural language prompt |
+| [[ai-game-devtools/ai-scientist]] — The AI Scientist (by SakanaAI(https://sakana.ai)) is the first fully automated scientific discovery system — an LLMpowered agent that conducts indepen |
+| [[ai-game-devtools/animate-x]] — ICLR 2025 论文：通用角色图像动画框架，基于潜在扩散模型（LDM），适用于多种角色类型（包括拟人化角色） |
+| [[ai-game-devtools/animatediff]] — AnimateDiff 是一个即插即用的运动模块（Motion Module），可将大多数社区 Stable Diffusion 模型转换为文本到视频（T2V）动画生成器，无需额外训练。 |
+| [[ai-game-devtools/animatelcm]] — AnimateLCM (Animate Latent Consistency Model) 是由 CUHKMMLab 团队（FuYun Wang 等）开发的计算高效个性化风格视频生成框架，arXiv 2402.00769。核心创新：将扩散模型动画生成从 2550 步推理加速至 18 步（通常 4 步 |
+| [[ai-game-devtools/animation-gpt]] — GitHub: https://github.com/fyyakaxyy/AnimationGPT License: MIT Authors: Yihao Liao, Yiyu Fu, Ziming Cheng, Jiangfeiyang Wang Year: 2024 |
+| [[ai-game-devtools/assistant-cli]] — A Node.js CLI tool for integrating with OpenAI ChatGPT service directly from the terminal, developed by Paolo Di Ciaula. |
+| [[ai-game-devtools/audiolcm]] — GitHub: https://github.com/liuhuadai/AudioLCM arXiv: 2406.00356(https://arxiv.org/abs/2406.00356v1) HuggingFace: Weights(https://huggingface.co/liuhua |
+| [[ai-game-devtools/auto-gpt]] — AutoGPT is a browserbased AI agent platform (183k GitHub stars) for creating, deploying, and managing continuous AI agents that automate complex workf |
+| [[ai-game-devtools/babyagi-ui]] — BabyAGI UI (miurla/babyagiui) is a webbased user interface that brings BabyAGI(https://github.com/yoheinakajima/babyagi) into the browser — think Chat |
+| [[ai-game-devtools/baichuan-13b]] — 百川智能开发的 130 亿参数开源可商用双语 LLM（Base + Chat 两个版本），2023 年 8 月发布。在 CEval、MMLU、CMMLU 等权威中英文 benchmark 上取得同尺寸最优效果。 |
+| [[ai-game-devtools/baichuan-2]] — 在多个权威中英文 benchmark 上显著超越 LLaMA213B： |
+| [[ai-game-devtools/baichuan-7b]] — 基于Hugging Face Transformers实现，支持AutoModelForCausalLM直接加载。 |
+| [[ai-game-devtools/bisheng]] — Bisheng is an open LLM application devops platform focused on enterprise scenarios, developed by DataElement(https://github.com/dataelement). Named af |
+| [[ai-game-devtools/cambrian-1]] — Cambrian1 是由 NYU Vision X（Yann LeCun、Saining Xie 参与）开发的开源多模态大语言模型（MLLM），主打视觉中心能力。发布于 20240624，提供 8B / 13B / 34B 三种参数规模，在多项 benchmark 上与 GPT4V、GeminiPr |
+| [[ai-game-devtools/character-llm]] — CharacterLLM 是一个可训练的角色扮演 LLM agent，由复旦大学 NLP 实验室于 EMNLP 2023 发表。与基于 Prompt 的角色扮演不同，CharacterLLM 通过 Experience Reconstruction 技术对 LLaMA7B 进行微调，使模型内化特定人 |
+| [[ai-game-devtools/chatyuan]] — ChatYuanlargev2 是由 ClueAI（元语智能） 开发的中英双语对话大语言模型，发布于 2023 年 3 月 23 日。基于 T5 架构，是 ChatGPT 风格的功能型对话模型。 |
+| [[ai-game-devtools/cogvlm2]] — CogVLM2 is THUDM/ZhipuAI's secondgeneration Visual Language Model series, based on MetaLlama38BInstruct with a visual expert adapter. Released 2024052 |
+| [[ai-game-devtools/deepseek-r1]] — DeepSeekR1 是 DeepSeekAI 发布的第一代推理模型系列，包括 DeepSeekR1Zero（纯 RL 无 SFT）和 DeepSeekR1（冷启动 + RL）。基于 DeepSeekV3Base 的 MoE 架构（671B 总参，37B 激活），在数学、代码和推理任务上性能与 Op |
+| [[ai-game-devtools/dots-vlm1]] — dots.vlm1 是小红书（rednotehilab）发布的首个视觉语言模型，属于 dots 模型家族。基于 12 亿参数的 NaViT 视觉编码器和 DeepSeek V3 LLM 构建，在 OCR/文档理解、STEM 推理、多图像理解等多个基准上达到接近 SOTA水平。 |
+| [[ai-game-devtools/evf-sam]] — EVFSAM 是由华中科技大学（HUST）和 vivo AI Lab 联合开发的开源多模态分割模型，将 SAM（Segment Anything Model）的图像分割能力与文本提示相结合，实现"指代表达分割"（Referring Expression Segmentation）。支持图像和视频的文 |
+| [[ai-game-devtools/flux]] — FLUX is the openweight image generation model family by Black Forest Labs (https://bfl.ai), founded by Stability AI alumni including Robin Rombach (co |
+| [[ai-game-devtools/follow-your-click]] — AAAI 2025 论文官方实现：开放域区域图像动画，通过简短文本提示精确控制静态图像的局部运动，无需复杂指令或密集运动掩码。 |
+| [[ai-game-devtools/fooocus]] — Fooocus is an opensource, free, offline image generation tool by lllyasviel (the creator of ControlNet), built on the Stable Diffusion XL architecture |
+| [[ai-game-devtools/gemma]] — Gemma is a family of lightweight, stateoftheart open models built from research and technology used to create Google Gemini models. This repository (g |
+| [[ai-game-devtools/gemma-cpp]] — gemma.cpp is a lightweight, standalone C++ inference engine for Google Gemma foundation models (Gemma 2, Gemma 3, RecurrentGemma, PaliGemma 2). It pri |
+| [[ai-game-devtools/giffusion]] — GIFfusion is an opensource web UI for generating animated GIFs and videos using Stable Diffusion via the Hugging Face Diffusers library. It specialize |
+| [[ai-game-devtools/glm-v]] — GLMV 是智谱AI（Zhipu AI）开源的视觉语言模型（VLM）系列，包含 GLM4.6V、GLM4.5V、GLM4.1V9BThinking 三个主要版本，参数规模覆盖 9B 到 106B，支持原生多模态函数调用、链式推理、任意长宽比图像等能力。GitHub 仓库地址：https://gith |
+| [[ai-game-devtools/hua]] — Hua (画, meaning "paint" in Chinese) is an AI image editor frontend built by BlinkDL (also known for aigamedevtools/chatrwkv and RWKVLM). It provides a |
+| [[ai-game-devtools/hugging-face-api-unity-integration]] — Official Hugging Face Unity package (com.huggingface.api v0.8.0, Unity 2020.3+) providing a clean C facade over the Hugging Face Inference API. Grants |
+| [[ai-game-devtools/hunyuan-mt]] — HunyuanMT 是腾讯混元团队开源的机器翻译模型系列，包含两个核心模型： |
+| [[ai-game-devtools/ic-light]] — ICLight (Imposing Consistent Light) 是由 lllyasviel 开发的图像光照操控项目，基于 Stable Diffusion 1.5 架构，通过扩散模型实现高质量的图像重新打光（relighting）。发表于 ICLR 2025。 |
+| [[ai-game-devtools/imagebind]] — ImageBind 是 Meta AI (FAIR) 开发的六模态联合嵌入模型，将图像、视频、文本、音频、深度图、热成像、IMU 六种模态映射到统一向量空间，实现跨模态检索与组合推理。 |
+| [[ai-game-devtools/img2img-turbo]] — 一句话: CMU + Adobe 联合研发的单步扩散模型图像翻译工具，基于 SDTurbo + LoRA + 对抗学习，实现 0.11s 极速推理（512×512，A100）。 |
+| [[ai-game-devtools/jan]] — Jan is a desktop application that runs local LLMs 100% offline, providing full control and privacy. Think ChatGPT but private, local, and under comple |
+| [[ai-game-devtools/janus]] — Janus is DeepSeek's family of unified multimodal models that simultaneously handle visual understanding (VLM) and texttoimage generation in a single a |
+| [[ai-game-devtools/kangaroo]] — A powerful 8B parameter VideoLanguage Model (Video LMM) developed by KangarooGroup, capable of processing long videos up to 160 frames (22k tokens). A |
+| [[ai-game-devtools/kimi-k2]] — Kimi K2 是 Moonshot AI（Kimikimi 月之暗面）发布的最新一代稀疏混合专家（MoE）大语言模型，总参数 1 万亿，激活参数 320 亿。专为 Agent 能力优化，在代码生成、工具调用和数学推理任务上达到开源 SOTA。 |
+| [[ai-game-devtools/kwai-keye-vl]] — 快手可灵团队（Kwai Keye Team）开发的多模态大语言模型，专注于视频理解、视觉感知和推理任务。 |
+| [[ai-game-devtools/la-vague]] — LaVague is an opensource framework for creating AI Web Agents that automate browserbased processes. Given a natural language objective (e.g., "Print i |
+| [[ai-game-devtools/lamini]] — Lamini 是一个 Python SDK + 云端平台，用于快速构建和微调自定义生成式 AI 模型。提供从数据上传、模型微调、推理到评估的完整 LLM 工作流，并支持基于链式生成器/验证器的 Agentic Pipeline 架构。v3.2.22，Apache 2.0。 |
+| [[ai-game-devtools/lamini-lm]] — Best performers per size: LaMiniFlanT5 variants and LaMiniGPT1.5B are recommended. |
+| [[ai-game-devtools/lavi-bridge]] — ECCV 2024 Bridging Language & Vision Models for TexttoImage Generation |
+| [[ai-game-devtools/layer-diffusion]] — LayerDiffuse 是由 lllyasviel（张吕敏，aigamedevtools/controlnet 和 aigamedevtools/fooocus 的作者）开发的透明图像层扩散项目，通过 latent transparency 技术实现原生透明通道生成，而非后处理抠图。 |
+| [[ai-game-devtools/lemur]] — Lemur is an open foundation model optimized for both natural language and code, purposebuilt as the backbone of versatile language agents. Developed b |
+| [[ai-game-devtools/lepton-ai]] — Photon abstraction — Core class that turns any Python code into a REST API service via @Photon.handler decorator HuggingFace model launcher — Oneliner |
+| [[ai-game-devtools/lit-llama]] — LitLLaMA 是 LLaMA(https://github.com/facebookresearch/llama) 预训练、微调和推理代码的独立开源实现，基于 nanoGPT(https://github.com/karpathy/nanoGPT) 构建，完全使用 Apache 2.0 许可证开 |
+| [[ai-game-devtools/llama-agentic-system]] — Meta 官方提供的 Llama 3.1+ agentic 应用示例项目，现归属 Llama Stack(https://github.com/metallama/llamastack) 生态（仓库地址变更为 llamastack/llamastackapps）。 |
+| [[ai-game-devtools/llasm]] — LLaSM (Large Language and Speech Model) 是首个支持中英文语音文本多模态对话的开源可商用对话模型。由 LinkSoulAI 开发，Apache2.0 许可。 |
+| [[ai-game-devtools/llava-onevision]] — LLaVAOneVision (是 LLaVANeXT 项目的一个子系列) 是一个支持单图、多图和视频输入的多模态大模型（VLM），在 47 个 benchmark 上达到或接近 SOTA，有时甚至媲美顶级商业模型（如 GPT4V、GeminiPro）。 |
+| [[ai-game-devtools/llava-plus-plus]] — LLaVA++ extends the LLaVA 1.5 visual instructionfollowing framework by integrating two new large language models: Phi3 Mini Instruct (3.8B) and LLaMA3 |
+| [[ai-game-devtools/llm.c]] — llm.c 是 Andrej Karpathy 的开源项目，用简洁、纯净的 C/CUDA 实现 LLM（GPT2/GPT3）训练，无需 PyTorch（245MB）或 cPython（107MB）任何外部 ML 框架依赖。项目同时提供 PyTorch 参考实现（traingpt2.py，基于 nan |
+| [[ai-game-devtools/llmunity]] — Undream AI(https://undream.ai) 出品的 Unity LLM 集成插件（v3.0.3），将大语言模型直接嵌入 Unity 游戏引擎，支持 PC/移动端/VR 全平台运行。 |
+| [[ai-game-devtools/longva]] — LongVA (Long Vision Assistant) is a large multimodal model (LMM) developed by SLab at Nanyang Technological University (NTU), led by researchers inclu |
+| [[ai-game-devtools/lumina-dimoo]] — An omni foundational model for seamless multimodal generation and understanding, developed by researchers from Shanghai AI Laboratory, Shanghai Jiao T |
+| [[ai-game-devtools/mean-audio]] — MeanAudio 是基于 MeanFlow 目标的文本到音频生成模型，由上海交通大学 Xiquan Li 等人开发。核心优势是单步生成高质量音频，在单张 RTX 3090 上实时率 (RTF) 仅 0.013。 |
+| [[ai-game-devtools/migc]] — MIGC (MultiInstance Generation Controller) 是浙江大学 ReLER Lab 与华为合作开发的多实例文本到图像生成控制框架。MIGC 解决了标准扩散模型在生成包含多个不同对象且需要精确定位和属性控制的图像时的常见失败模式，通过 adapter 架构实现对每个实 |
+| [[ai-game-devtools/mimicbrush]] — MimicBrush 是阿里巴巴达摩院（alivilab）开发的零样本图像编辑工具，通过参考图像模仿（Reference Imitation）实现对目标图像指定区域的纹理/风格迁移。用户只需提供源图像、绘制编辑区域蒙版、提供参考图像，即可实现高质量的内容替换，同时可选择是否保留原始几何形状。 |
+| [[ai-game-devtools/minicpm-2b]] — MiniCPM2B (OpenBMB/MiniCPM) is an efficient large language model with 2B parameters released in February 2024. Developed by openbmb (Beijing Academy o |
+| [[ai-game-devtools/minicpm-llama3-v-2.5]] — MiniCPMLlama3V 2.5 (OpenBMB, 2024.05.20) is an opensource visual language model achieving GPT4Vlevel performance with only ~3B parameters. It was the  |
+| [[ai-game-devtools/minicpm-v-4.0]] — MiniCPMV 4.0 and MiniCPMo 4.5 (OpenBMB/THUNLP, 2025) are the latest in the MiniCPMV series of ondevice multimodal LLMs. MiniCPMV 4.0 (4.1B params) foc |
+| [[ai-game-devtools/minigpt-4]] — ViT encoder: frozen vision transformer, image size 224×224 QFormer: BLIP2 style, 32 query tokens; maps visual features to LLM embedding space via a si |
+| [[ai-game-devtools/minigpt-5]] — UC Santa Cruz 提出的交叠式图文生成模型，通过 Generative Vokens 机制实现文本与图像的协同生成，无需详细图像描述即可训练。 |
+| [[ai-game-devtools/moe-llava]] — MoELLaVA (Mixture of Experts for Large VisionLanguage Models) 是北京大学 & PKUYuanGroup 提出的基于 MoE 架构的高效多模态大模型，通过稀疏激活参数显著降低计算成本。 |
+| [[ai-game-devtools/moss]] — MOSS is a bilingual (Chinese/English) opensource conversational language model with plugin support, developed by OpenLMLab at Fudan University. The mo |
+| [[ai-game-devtools/mplug-owl]] — mPLUGOwl is a family of MultiModal Large Language Models (MLLMs) developed by Alibaba DAMO Academy(https://damo.alibaba.com/), spanning three major ve |
+| [[ai-game-devtools/omnilmm]] — OmniLMM (OpenBMB MiniCPMV & MiniCPMo) is an opensource suite of ondevice multimodal LLMs for vision, speech, and fullduplex multimodal live streaming. |
+| [[ai-game-devtools/onellm]] — OneLLM (One Framework to Align All Modalities with Language) is a CVPR 2024 unified multimodal framework that aligns 8 modalities with language via a  |
+| [[ai-game-devtools/open-assistant]] — OpenAssistant 是 LAION 发起的开源聊天大模型项目，目标是让每个人都能使用类 ChatGPT 的助手（类比 Stable Diffusion democratize 图像生成）。 |
+| [[ai-game-devtools/opendevin]] — AIdriven autonomous software engineering agent. Formerly known as OpenDevin; rebranded to OpenHands. |
+| [[ai-game-devtools/perplexica]] — GitHub: https://github.com/ItzCrazyKns/Perplexica License: MIT Tech Stack: Next.js, TypeScript, SearxNG, Drizzle ORM, Docker Category: LLM & Tool — AI |
+| [[ai-game-devtools/pllava]] — PLLaVA (Pooling LLaVA) is a parameterfree LLaVA extension that adapts imagelanguage pretrained models for video understanding via temporal pooling, ac |
+| [[ai-game-devtools/points-reader]] — POINTSReader is a distillationfree visionlanguage model for endtoend document conversion, developed by Tencent. It was accepted to EMNLP 2025 Main Con |
+| [[ai-game-devtools/poster-craft]] — PosterCraft 是一个统一框架，用于高质量美学海报生成（ICLR'26），在精确文字渲染、抽象艺术融合和布局风格和谐方面表现出色。 |
+| [[ai-game-devtools/prompt-enhancer]] — Tencent Hunyuan 开源的 CoT（ChainofThought）提示重写工具，将用户输入的简单提示词重构为更清晰、结构化的版本，以提升下游图像生成质量，同时严格保留原始创意意图。 |
+| [[ai-game-devtools/qwen-vl]] — QwenVL 是阿里巴巴通义千问（Qwen）系列的多模态视觉语言大模型（LVLM）。支持图像 + 文本 + 边界框输入，输出文本和边界框。2023年8月由阿里巴巴云开源发布。 |
+| [[ai-game-devtools/qwen1.5]] — Qwen (通义千问) is Alibaba DAMO Academy's opensource LLM series spanning Qwen1.5 → Qwen2 → Qwen2.5 → Qwen3. The QwenLM/Qwen1.5 GitHub repository serves as |
+| [[ai-game-devtools/qwen2]] — Alibaba Cloud（通义千问）第二代大语言模型系列。参数范围 0.5B–72B，支持 vLLM / SGLang / llama.cpp 等推理框架，Apache 2.0 开源。 |
+| [[ai-game-devtools/qwen2.5-coder]] — Alibaba 通义千问代码模型系列，由 Qwen2.5Coder（稠密模型）演进至 Qwen3Coder（Hybrid Attention + MoE）。Qwen3CoderNext 主打 Agentic Coding，支持 Qwen Code、CLINE、Claude Code、OpenClaw |
+| [[ai-game-devtools/qwen3]] — 阿里巴巴通义千问第三代大语言模型，由 Qwen 团队开发。Qwen3 首次引入 MoE 架构和多模态能力，支持 thinking/nonthinking 双模式灵活切换。 |
+| [[ai-game-devtools/repoagent]] — An LLMpowered opensource framework for repositorylevel Python code documentation generation. Built by OpenBMB(https://github.com/OpenBMB). |
+| [[ai-game-devtools/s1]] — s1 是由 SimpleScaling 团队发布的 LLM 推理增强方法，通过测试时扩展（testtime scaling） 和 budget forcing 技术，仅用 1,000 个样本微调即实现了与 OpenAI o1preview 相当的推理能力。核心论文 arXiv:2501.19393( |
+| [[ai-game-devtools/sanity-ai-engine]] — An AI engine for the Unity Game Editor(https://unity.com/) providing classical game AI algorithms through Unity components and scripts. The engine off |
+| [[ai-game-devtools/sapiens]] — Meta Reality Labs 的人体视觉基础模型套件，ECCV 2024 Best Paper Candidate。覆盖 2D pose、part segmentation、depth、normal 全套任务，原生 1024×1024 分辨率，在 3 亿张野外人体图像上预训练，泛化能力强。 |
+| [[ai-game-devtools/scikit-llm]] — ScikitLLM 将强大的语言模型（如 ChatGPT）无缝集成到 scikitlearn 生态中，为文本分析任务提供 LLM 驱动的分类、摘要、翻译、实体识别和向量化功能。通过遵循 sklearn 的 fit/predict/transform API 规范，可无缝嵌入现有的 sklearn P |
+| [[ai-game-devtools/search-gpt]] — A lightweight Node.js CLI tool that connects ChatGPT (GPT3.5turbo) to live Google Search results, enabling internetaware AI responses beyond the model |
+| [[ai-game-devtools/seed-oss]] — ByteDance Seed Team 的 36B 开源 LLM 系列（Base + Instruct），20250820 发布，Apache2.0 许可。 |
+| [[ai-game-devtools/seed-story]] — TencentARC 多模态长故事生成模型，从用户提供的起始图片/文本出发，生成角色和风格一致的多模态叙事序列。 |
+| [[ai-game-devtools/sharegpt4v]] — Improving Large Multimodal Models with Better Captions — ECCV 2024. |
+| [[ai-game-devtools/simpleollamaunity]] — C Unity 包，通过 HTTP 包装 Ollama(https://ollama.com/) REST API，为 Unity 游戏提供本地 LLM 推理能力。支持任何 Ollama 模型（qwen、llama、mistral 等），连接 localhost:11434。 |
+| [[ai-game-devtools/skythought]] — aigamedevtools/skythoughtSkyThought 是 openbmbNovaSky AI（UC Berkeley Sky Computing Lab）开源的推理模型训练与评测框架，核心贡献是 SkyT1 系列可训练的 O1preview 复现模型。 |
+| [[ai-game-devtools/skywork]] — Skywork is a series of large language models developed by the Kunlun Group · Skywork team, released in October 2023. The project opensources base, cha |
+| [[ai-game-devtools/solo]] — SOLO (A Single Transformer for Scalable VisionLanguage Modeling) is a unified VLM architecture published at TMLR (2024). Its key innovation: uses a si |
+| [[ai-game-devtools/stable-cascade]] — Stable Cascade 是由 Stability AI 开发的开源级联图像生成模型。基于 aigamedevtools/wuerstchen 架构，其核心创新在于使用极小的潜在空间（压缩因子 42）进行扩散生成，相比 aigamedevtools/stablediffusionwebuiSta |
+| [[ai-game-devtools/stable-diffusion]] — Stable Diffusion is the foundational latent texttoimage diffusion model developed by CompVis (University of Heidelberg) in collaboration with Stabilit |
+| [[ai-game-devtools/stable-diffusion-webui]] — Stable Diffusion web UI (commonly known as AUTOMATIC1111 WebUI) is the most popular opensource web interface for running stablediffusion models locall |
+| [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro/stablediffusionwebuichinese(https://github.com/VinsonLaro/stablediffusionwebuichinese) 是 AUTOMATIC1111 Stable Diffusion WebUI(https://githu |
+| [[ai-game-devtools/storymaker]] — StoryMaker: Towards consistent characters in texttoimage generation |
+| [[ai-game-devtools/streamdiffusion]] — StreamDiffusion is a pipelinelevel solution for realtime interactive image generation built on top of the diffusers library. It wraps any StableDiffus |
+| [[ai-game-devtools/style-avatar3d]] — StyleAvatar3D: Leveraging ImageText Diffusion Models for HighFidelity 3D Avatar Generation |
+| [[ai-game-devtools/sygil-webui]] — SygilDev 团队开发的 Stable Diffusion 浏览器端 Web UI（2022年），是早期 SD Web 界面之一，与 aigamedevtools/stablediffusionwebui（AUTOMATIC1111）并行开发。提供文生图、图生图、文生视频功能，通过浏览器操作。 |
+| [[ai-game-devtools/syncdreamer]] — SyncDreamer: Generating Multiviewconsistent Images from a Singleview Image |
+| [[ai-game-devtools/tinychatengine]] — Ondevice LLM/VLM inference engine from MIT Han Lab. Runs 4bit quantized LLaMA3/CodeLLaMA/Mistral and VILA/LLaVA on laptops (RTX 4070), Apple M1/M2, an |
+| [[ai-game-devtools/toolbench]] — ToolBench（ToolLLM）是 OpenBMB 开源的大规模指令微调 SFT 数据集项目，旨在赋予开源 LLM 通用工具使用能力，让模型掌握数千种真实世界 REST API。核心贡献是通过 DFSDT（深度优先搜索决策树）方法自动构建高质量工具调用训练数据。 |
+| [[ai-game-devtools/ultraedit]] — UltraEdit is a largescale (~4M editing samples) instructionbased image editing dataset and training framework from Peking University, BIGAI, UCLA, and |
+| [[ai-game-devtools/ultrapixel]] — UltraPixel 是一个超高分辨率图像生成模型，NeurIPS 2024 发表论文。基于 aigamedevtools/stablecascade 和 TransinR 构建，能够生成细节丰富、质量极高的超高分辨率图像。支持文本到图像、个性化 LoRA 和 ControlNet 工作流。 |
+| [[ai-game-devtools/unity-openai-api-integration]] — Integrates OpenAI GPT3 / ChatGPT API into a Unity project for natural language processing capabilities in games. |
+| [[ai-game-devtools/uso]] — USO (Unified Style driven and subjectdriven GeneratiOn) 是字节跳动智能创作实验室 UXO 团队开发的统一图像生成框架，将风格驱动和主体驱动生成统一到单个模型中。基于 aigamedevtools/flux 架构构建，2025 年 8 月开源，A |
+| [[ai-game-devtools/video-agent]] — VideoAgent answers freeform questions about input videos using a twophase architecture: memory construction (extract and store structured information) |
+| [[ai-game-devtools/video-ccam]] — 腾讯多媒体研究团队开发的视频语言多模态大模型（VideoMLLM）系列，核心创新为 Causal CrossAttention Masks（因果交叉注意力掩码），用于提升短视频和长视频的理解能力。 |
+| [[ai-game-devtools/video-llama-3]] — DAMONLPSG 开发的前沿多模态基础模型，专注于图像和视频理解。ArXiv: 2501.13106，Apache 2.0 许可。 |
+| [[ai-game-devtools/video-llava]] — VideoLLaVA: Learning United Visual Representation by Alignment Before Projection |
+| [[ai-game-devtools/video-mamba]] — URL: https://github.com/OpenGVLab/VideoMamba HF: https://huggingface.co/OpenGVLab/VideoMamba Paper: arXiv:2403.06977 License: Apache 2.0 Authors: Kunc |
+| [[ai-game-devtools/video-mme]] — VideoMME (Multimodal Evaluation) is the firstever comprehensive evaluation benchmark for Multimodal Large Language Models (MLLMs) in video analysis. A |
+| [[ai-game-devtools/videollama2]] — VideoLLaMA 2 是 VideoLLaMA 系列的第二代，2024 年 6 月发布。基于 LLaVA 1.5 + FastChat 代码库构建，在多个视频LLM 基准上达到 SOTA（MLVU Top1、VideoMME Top1 ~7B 类模型）。 |
+| [[ai-game-devtools/vila]] — NVlabs 出品的开源 VLM 家族，专注于视频理解与多图理解的效率与精度优化。历经 VILA1.0 → VILA1.5 → NVILA(VILA2.0) → LongVILA 多代迭代，2025年1月并入 NVIDIA Cosmos Nemotron 系列。 |
+| [[ai-game-devtools/vitron]] — Vitron 是 Skywork AI 与新加坡国立大学（NUS）、南洋理工大学（NTU）联合开发的统一像素级视觉 LLM，发表在 NeurIPS 2024。一个模型同时覆盖图像和视频的理解、生成、分割、编辑四大任务。 |
+|| [[ai-game-devtools/wavjourney]] — 萨里大学 LLM 驱动的组合式音频创作：GPT-4 文本→JSON 剧本→Python 代码→多轨混音（语音Bark+音乐MusicGen+音效AudioGen），内置声纹克隆/预设，VRAM>16GB |
+| [[ai-game-devtools/web3-gpt]] — AIpowered smart contract development platform. Chat with agents that can write, deploy, and verify Solidity contracts on EVMcompatible chains. |
+| [[ai-game-devtools/yi]] — 所有 base model 有 200K 上下文变体。 |
+| [[ai-game-devtools/zero-1-to-3]] — Columbia University Computer Vision Lab · ICCV 2023 · MIT License |
 ## Avatar
 
 || [[ai-game-devtools/animate-anyone]] — Alibaba 智能计算研究院扩散模型角色动画框架：ReferenceNet + Pose Guider + 时空注意力UNet，单图+姿态序列→一致性动画视频，DeepGPU加速 ~40%，支持虚拟试衣/说话头像集成
@@ -475,6 +620,21 @@
 ||| [[ai-game-devtools/vivid-1-to-3]] — UBC Vision CVPR 2024 单图→多视角视频扩散新视图合成：Zero-1-to-3 (UNet2D) + Zeroscope v2 (UNet3D) 双管线，CLIPCameraProjection相机位姿注入，25帧256×256，Apache 2.0 |
 |||| [[ai-game-devtools/wonder3d]] — HKU CVPR 2024 Highlight 单图→3D重建：跨域扩散模型联合生成6视角法线贴图+彩色图+法线融合网格提取，2-3分钟/张，正交相机假设，Instant-NSR/NeuS双后端，MIT |
 
+
+## Entities
+
+| [[entities/clawteam]] — Agent Swarm Intelligence 框架，由 hkuds 开发。GitHub: https://github.com/HKUDS/ClawTeam v0.3 MIT License |
+| [[entities/deer-flow]] — Super Agent Harness，基于 LangGraph + LangChain，由 ByteDance 开发。GitHub Trending 1（20260228）。v2.0 从零重写，与 v1.x 无共享代码。 |
+| [[entities/hkuds]] — Hong Kong University Data Science Lab — 香港大学数据科学实验室。 |
+| [[entities/langchain]] — LLM 应用开发框架，提供：Chain（链式调用）/ Agent（工具 + 推理）/ Memory（上下文持久化）/ Tool（工具集成）/ Prompt（模板管理）。 |
+| [[entities/langgraph]] — 由 langchain 开发的 multiagent 编排框架，以 graph 结构建模 agent 工作流：节点 = 工具/LLM/代码，边 = 控制流。 |
+| [[entities/nanobot]] — Ultralightweight personal AI agent，灵感来自 openclaw，由 hkuds 开发。GitHub: https://github.com/HKUDS/nanobot Docs: https://nanobot.wiki v0.1.5 (20260405) |
+| [[entities/openclaw]] — 开源 AI Agent 框架，nanobot 的设计灵感来源，hkuds 的参考架构。 |
+| [[entities/sandbox]] — 一种隔离执行环境模式：让 Agent 的文件操作和命令执行与宿主系统隔离，防止恶意/误操作影响真实系统。 |
+
+## Comparisons
+
+| [[comparisons/open-source-game-engines-comparison]] — Analysis of opensource game engines and frameworks used across the opensource games ecosystem. Relevant for AI game company technology stack decisions |
 ## Open Source Games
 
 | [[ai-game-devtools/paints-undo]] — lllyasviel 数字绘画行为模拟模型：SD1.5修改架构+VideoCrafter多帧插值，输入成品图→输出绘画过程视频（Ctrl+Z效果），24GB VRAM，Apache 2.0 |
@@ -627,4 +787,12 @@
 - [[open-source-game/war1gus]] — Warcraft: Orcs & Humans 重实现，基于 Stratagus 引擎，C++17 + Lua 脚本数据驱动，GPLv2
 - [[open-source-game/stargus]] — StarCraft 1998 资产导入 Stratagus 引擎的工具，多格式转换层（GRP/CHK/CASC/SMACKER），startool MPQ 提取，约 15K LOC C++，GPLv2
 
-| [[ai-game-devtools/drawing-spinup]] — SIGGRAPH Asia 2024: 单张 2D 角色画 → 3D rigged 动画角色 |
+| [[ai-game-devtools/drawing-spinup]] — SIGGRAPH Asia 2024: 单张 2D 角色画 → 3D rigged 动画角色 || [[open-source-game/ancient-beast]] — Phaser CE 2D 游戏引擎：成熟 HTML5 2D 引擎，支持 WebGL/Canvas 渲染 TypeScript 类型安全：src/.ts 核心模块，Phaser 3.x 风格 API Abilities 系统：src/abilities/.ts 每个单位约 300500 LOC，21  |
+| [[open-source-game/cnc-generals-zero-hour]] — Generals/ ├── Code/ │ ├── GameEngine/ 核心游戏引擎 │ │ ├── Source/ │ │ │ ├── Common/ 通用基础类型 │ │ │ ├── GameClient/ 客户端渲染/UI/输入 │ │ │ ├── GameLogic/ 游戏逻辑核心 │  |
+| [[open-source-game/cytopia]] — 这种架构与 opensourcegame/openttdOpenTTD（自定义 2D 渲染）和 opensourcegame/corsixthCorsixTH（SDL 渲染原版资源）属于同一类别——无引擎游戏开发。与它们的区别是 Cytopia 使用等距视角而非俯视角。 |
+| [[open-source-game/hurry-curry]] — 合作烹饪: 多名玩家同时在厨房中分工合作 顾客系统: 顾客生成、点餐、评分完整流程 地图编辑器: 内置 Godot 地图编辑器 Bot 支持: Rust 实现的 AI bot，可作为独立程序运行 回放系统: replaytool 和 replay 模块支持回放功能 国际化: Weblate 翻译系统 |
+| [[open-source-game/speed-dreams]] — simuv2 / simuv2.1 — 早期基础物理 simuv3 — 中期改进版本 simuv4 / simuv4.1 — 当前主要版本 simuv5 — 最新版本（v2.4.0），引入按 AI 水平分级的仿真选项 |
+| [[open-source-game/wargus]] — wartool（数据提取/转换） wartool.cpp 3432 LOC + wartool.h 3006 LOC（最大的文件） 从原始 Warcraft II CD/安装包提取游戏资源（图形/音频/地图） 处理 MPQ 归档（通过 StormLib 库） XMI→MID 音频转换（xmi2mid |
+| [[open-source-game/warsmash-mod-engine]] — warsmashmodengine/ ├── core/ 核心游戏引擎 ├── desktop/ 桌面启动器 ├── server/ 服务器组件 ├── shared/ 共享代码 ├── fdfparser/ FDF（Font Definition File）解析器 ├── jassparser/  |
+| [[open-source-game/widelands]] — src/ ai/ — ComputerPlayer AI + defaultai base/ — 基础工具（随机数/日志/异常） chat/ — 聊天系统 commands/ — 命令队列（cmdqueue.h，驱动回放/同步） economy/ — 经济系统（50+ 文件）：舰队/Flag/War |
+| [[open-source-game/wyrmsun]] — Wyrmsun 是游戏内容仓库，而非独立游戏。与 opensourcegame/war1gus 同构： |

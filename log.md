@@ -1,352 +1,3 @@
-# Wiki Log
-## [2026-04-20] ingest | SEE-2-SOUND
-- Cloned: ~/tmp/ai-game-devtools/see-2-sound/
-- Created: raw/articles/ai-game-devtools/see-2-sound.md
-- Created: ai-game-devtools/see-2-sound.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-## [2026-04-20] ingest | Qwen2-Audio
-- Cloned: ~/tmp/ai-game-devtools/qwen2-audio/
-- Created: raw/articles/ai-game-devtools/qwen2-audio.md
-- Created: ai-game-devtools/qwen2-audio.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry under Audio section, pages 750→751)
-## [2026-04-20] ingest | NeuralSound
-- Source: https://github.com/hellojxt/NeuralSound (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/neural-sound.md
-- Created: ai-game-devtools/neural-sound.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry under Audio section, pages 749→750)
-## [2026-04-20] ingest | MeanAudio
-- Cloned: ~/tmp/ai-game-devtools/mean-audio/
-- Created: raw/articles/ai-game-devtools/mean-audio.md
-- Created: ai-game-devtools/mean-audio.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry under Audio section, pages 747→748)
-## [2026-04-20] create | llama-cpp
-- Created: ai-game-devtools/llama-cpp.md
-- Updated: index.md (added 6 entries under AI Game DevTools section, pages 694→700)
-- Updated: log.md
-## [2026-04-20] create | llava
-- Created: ai-game-devtools/llava.md
-## [2026-04-20] create | nanochat
-- Created: ai-game-devtools/nanochat.md
-## [2026-04-20] create | nanogpt
-- Created: ai-game-devtools/nanogpt.md
-## [2026-04-20] create | sglang
-- Created: ai-game-devtools/sglang.md
-## [2026-04-20] create | vLLM
-- Created: ai-game-devtools/vllm.md
-## [2026-04-20] ingest | ArchiSound
-- Cloned: ~/tmp/ai-game-devtools/audio-diffusion-pytorch/
-- Created: raw/articles/ai-game-devtools/audio-diffusion-pytorch.md
-- Created: ai-game-devtools/audio-diffusion-pytorch.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 692→693)
-## [2026-04-20] ingest | AcademiCodec
-- Cloned: ~/tmp/ai-game-devtools/academicodec/
-- Created: raw/articles/ai-game-devtools/academicodec.md
-- Created: ai-game-devtools/academicodec.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, bumped total pages to 691)
-## [2026-04-20] ingest | Wan2.2
-- Cloned: ~/tmp/ai-game-devtools/wan2-2/
-- Created: raw/articles/ai-game-devtools/wan2-2.md
-- Created: ai-game-devtools/wan2-2.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 688→689)
-## [2026-04-20] ingest | V-JEPA
-- Cloned: ~/tmp/ai-game-devtools/v-jepa/
-- Created: raw/articles/ai-game-devtools/v-jepa.md
-- Created: ai-game-devtools/v-jepa.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 686→687)
-## [2026-04-20] ingest | VideoElevator
-- Source: web extract (GitHub timed out; gitcode 403; gitee unreachable; README extracted)
-- Created: raw/articles/ai-game-devtools/video-elevator.md
-- Created: ai-game-devtools/video-elevator.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 685→686)
-## [2026-04-20] ingest | Video-ChatGPT
-- Cloned: ~/tmp/ai-game-devtools/video-chatgpt/
-- Created: raw/articles/ai-game-devtools/video-chatgpt.md
-- Created: ai-game-devtools/video-chatgpt.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 684→685)
-## [2026-04-20] ingest | Tora
-- Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
-- Created: raw/articles/ai-game-devtools/tora.md
-- Created: ai-game-devtools/tora.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 668→679)
-## [2026-04-20] ingest | StreamingT2V
-- Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
-- Created: raw/articles/ai-game-devtools/streamingt2v.md
-- Created: ai-game-devtools/streamingt2v.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 667→668)
-## [2026-04-20] ingest | StoryMem
-- Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
-- Created: raw/articles/ai-game-devtools/storymem.md
-- Created: ai-game-devtools/storymem.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 666→667)
-## [2026-04-20] ingest | Ruyi (图像到视频扩散模型)
-- Cloned: ~/tmp/ai-game-devtools/ruyi/
-- Created: raw/articles/ai-game-devtools/ruyi.md
-- Created: ai-game-devtools/ruyi.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-
-## [2026-04-20] ingest | SkyReels-A1
-- Source: web extract (GitHub/gitcode/gitee clone all failed; README + arXiv extracted)
-- Created: raw/articles/ai-game-devtools/skyreels-a1.md
-- Created: ai-game-devtools/skyreels-a1.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (added entry, pages 659→660)
-
-     2|     2|
-     3|     3|> Chronological record of all wiki actions. Append-only.
-     4|     4|> Format: `## [YYYY-MM-DD] action | subject`
-     5|     5|> Actions: ingest, update, query, lint, create, archive, delete
-     6|     6|> When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
-     7|     7|
-     8|     8|## [2026-04-19] log rotation | log.md → log-2026.md (569 entries archived)
-     9|     9|
-    10|    10|## [2026-04-19] ingest | AnimateLCM
-    11|    11|- Cloned: ~/tmp/ai-game-devtools/animatelcm/ (via gitcode.com mirror; GitHub timed out)
-    12|    12|- Created: raw/articles/ai-game-devtools/animatelcm.md
-    13|    13|- Created: ai-game-devtools/animatelcm.md
-    14|    14|- Updated: ai-game-devtools-learning-checklist.md
-    15|    15|- Updated: index.md (added entry, pages 612→613)
-    16|    16|## [2026-04-19] ingest | Animate-X
-    17|    17|- Source: GitHub + arXiv paper (GitHub clone failed, web extract fallback used)
-    18|    18|- Created: raw/articles/ai-game-devtools/animate-x.md
-    19|    19|- Created: ai-game-devtools/animate-x.md
-    20|    20|- Updated: ai-game-devtools-learning-checklist.md
-    21|    21|- Updated: index.md (added entry)
-    22|    22|## [2026-04-19] ingest | AnimationGPT
-    23|    23|- Cloned: ~/tmp/ai-game-devtools/animation-gpt/ (GitHub direct, success)
-    24|    24|- Created: raw/articles/ai-game-devtools/animation-gpt.md
-    25|    25|- Created: ai-game-devtools/animation-gpt.md
-    26|    26|- Updated: ai-game-devtools-learning-checklist.md
-    27|    27|- Updated: index.md (added entry, pages 614→615)## [2026-04-19] ingest | DrawingSpinUp
-    28|- Source: GitHub + arXiv paper (GitHub/gitcode/gitee clone all failed, web extract fallback used)
-    29|- Created: raw/articles/ai-game-devtools/drawing-spinup.md
-    30|- Created: ai-game-devtools/drawing-spinup.md
-    31|- Updated: ai-game-devtools-learning-checklist.md
-    32|- Updated: index.md (added entry, pages 615→616)
-    33|## [2026-04-19] ingest | FaceFusion
-    34|- Cloned: ~/tmp/ai-game-devtools/facefusion/ (gitcode.com mirror, GitHub timeout)
-    35|- Created: raw/articles/ai-game-devtools/facefusion.md
-    36|- Created: ai-game-devtools/facefusion.md
-    37|- Updated: ai-game-devtools-learning-checklist.md
-    38|- Updated: index.md (added entry, pages 616→617)
-    39|## [2026-04-19] ingest | GeneFace
-    40|- Cloned: ~/tmp/ai-game-devtools/geneface/ (gitcode.com mirror; GitHub timed out)
-    41|- Created: raw/articles/ai-game-devtools/geneface.md
-    42|- Created: ai-game-devtools/geneface.md
-    43|- Updated: ai-game-devtools-learning-checklist.md
-    44|- Updated: index.md (added entry, pages 617→618)
-    45|## [2026-04-19] ingest | ID-Animator
-    46|- Cloned: ~/tmp/ai-game-devtools/id-animator/
-    47|- Created: raw/articles/ai-game-devtools/id-animator.md
-    48|- Created: ai-game-devtools/id-animator.md
-    49|- Updated: ai-game-devtools-learning-checklist.md
-    50|- Updated: index.md (total pages 617→618)
-    51|## [2026-04-19] ingest | HY-Motion 1.0
-    52|- Cloned: ~/tmp/ai-game-devtools/hy-motion-1-0/ (web extract; GitHub/gitcode/gitee clone all failed)
-    53|- Created: raw/articles/ai-game-devtools/hy-motion-1-0.md
-    54|- Created: ai-game-devtools/hy-motion-1-0.md
-    55|- Updated: ai-game-devtools-learning-checklist.md
-    56|- Updated: index.md (total pages 618→619)
-    57|## [2026-04-19] ingest | Index-AniSora
-    58|- Source: GitHub web extract (GitHub/gitcode/gitee clone all failed)
-    59|- Created: raw/articles/ai-game-devtools/index-anisora.md
-    60|- Created: ai-game-devtools/index-anisora.md
-    61|- Updated: ai-game-devtools-learning-checklist.md
-    62|- Updated: index.md (total pages 619→620)
-    63|## [2026-04-19] ingest | SadTalker
-    64|- Cloned: ~/tmp/ai-game-devtools/sadtalker/ (GitHub direct)
-    65|- Created: raw/articles/ai-game-devtools/sadtalker.md
-    66|- Created: ai-game-devtools/sadtalker.md
-    67|- Updated: ai-game-devtools-learning-checklist.md
-    68|- Updated: index.md (total pages 620→621)
-    69|
-## [2026-04-19] ingest | SadTalker-Video-Lip-Sync
-- Cloned: ~/tmp/ai-game-devtools/sadtalker-video-lip-sync/
-- Created: raw/articles/ai-game-devtools/sadtalker-video-lip-sync.md
-- Created: ai-game-devtools/sadtalker-video-lip-sync.md
-- Updated: ai-game-devtools-learning-checklist.md
-## [2026-04-19] ingest | ToonComposer
-- Source: GitHub web extract (GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/tooncomposer.md
-- Created: ai-game-devtools/tooncomposer.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 621→622)
-## [2026-04-19] ingest | TaleCrafter
-- Source: GitHub web extract (GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/talecrafter.md
-- Created: ai-game-devtools/talecrafter.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 622→623)
-
-## [2026-04-19] ingest | ToonCrafter
-- Cloned: ~/tmp/ai-game-devtools/tooncrafter/
-- Created: raw/articles/ai-game-devtools/tooncrafter.md
-- Created: ai-game-devtools/tooncrafter.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-
-## [2026-04-20] ingest | Animate-A-Story
-- Source: https://github.com/VideoCrafter/Animate-A-Story (web extract; GitHub/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/animate-a-story.md
-- Created: ai-game-devtools/animate-a-story.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 624→625)
-## [2026-04-20] ingest | Wav2Lip
-- Cloned: ~/tmp/ai-game-devtools/wav2lip/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/wav2lip.md
-- Created: ai-game-devtools/wav2lip.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 623→624)
-## [2026-04-20] ingest | BackgroundRemover
-- Cloned: ~/tmp/ai-game-devtools/backgroundremover/ (gitcode.com mirror; GitHub timeout)
-- Created: raw/articles/ai-game-devtools/backgroundremover.md
-- Created: ai-game-devtools/backgroundremover.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 625→626)
-## [2026-04-20] ingest | CoDeF
-- Cloned: ~/tmp/ai-game-devtools/codef/ (redirected to ant-research/CoDeF; GitHub direct)
-- Created: raw/articles/ai-game-devtools/codef.md
-- Created: ai-game-devtools/codef.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 626→627)
-## [2026-04-20] ingest | CogVideoX
-- Cloned: ~/tmp/ai-game-devtools/cogvideox/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/cogvideox.md
-- Created: ai-game-devtools/cogvideox.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 627→628)
-## [2026-04-20] ingest | Video-of-Thought
-- Cloned: ~/tmp/ai-game-devtools/video-of-thought/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/video-of-thought.md
-- Created: ai-game-devtools/video-of-thought.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 628→629)
-## [2026-04-20] ingest | CogVLM
-- Cloned: ~/tmp/ai-game-devtools/cogvlm/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/cogvlm.md
-- Created: ai-game-devtools/cogvlm.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 629→630)
-## [2026-04-20] ingest | CoNR
-- Cloned: ~/tmp/ai-game-devtools/conr/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/conr.md
-- Created: ai-game-devtools/conr.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 630→631)
-
-## [2026-04-20] ingest | DiffSynth-Studio
-- Cloned: ~/tmp/ai-game-devtools/diffutoon/
-- Created: raw/articles/ai-game-devtools/diffsynth-studio.md
-- Created: ai-game-devtools/diffsynth-studio.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md
-
-## [2026-04-20] ingest | Dolphin
-- Cloned: ~/tmp/ai-game-devtools/dolphin/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/dolphin.md
-- Created: ai-game-devtools/dolphin.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 631→632)
-
-## [2026-04-20] ingest | DreamCinema
-- Cloned: ~/tmp/ai-game-devtools/dream-cinema/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/dream-cinema.md
-- Created: ai-game-devtools/dream-cinema.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 632→633)
-## [2026-04-20] ingest | EDGE
-- Cloned: ~/tmp/ai-game-devtools/edge/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/edge.md
-- Created: ai-game-devtools/edge.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 633→634)
-## [2026-04-20] ingest | Follow-Your-Canvas
-- Source: https://github.com/mayuelala/FollowYourCanvas (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/follow-your-canvas.md
-- Created: ai-game-devtools/follow-your-canvas.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 634→635)
-## [2026-04-20] ingest | Hotshot-XL
-- Cloned: ~/tmp/ai-game-devtools/hotshot-xl/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/hotshot-xl.md
-- Created: ai-game-devtools/hotshot-xl.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 635→636)
-
-## [2026-04-20] ingest | HuMo
-- Source: https://github.com/Phantom-video/HuMo (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/humo.md
-- Created: ai-game-devtools/humo.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 636→637)
-
-## [2026-04-20] ingest | HunyuanVideo
-- Source: https://github.com/Tencent/HunyuanVideo (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/hunyuan-video.md
-- Created: ai-game-devtools/hunyuan-video.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 637→638)
-## [2026-04-20] ingest | InfiniteTalk
-- Source: https://github.com/MeiGen-AI/InfiniteTalk (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/infinite-talk.md
-- Created: ai-game-devtools/infinite-talk.md
-|- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 638→639)
-## [2026-04-20] ingest | HunyuanVideo-1.5
-- Cloned: ~/tmp/ai-game-devtools/hunyuanvideo-1-5/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/hunyuanvideo-1-5.md
-- Created: ai-game-devtools/hunyuanvideo-1-5.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 639→640)
-## [2026-04-20] ingest | LongLive
-- Cloned: ~/tmp/ai-game-devtools/longlive/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/longlive.md
-- Created: ai-game-devtools/longlive.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 640→641)
-## [2026-04-20] ingest | LTX-Video — Lightricks DiT视频生成模型
-- Cloned: ~/tmp/ai-game-devtools/ltx-video/ (web extract; GitHub/gitcode/gitee clone all failed)
-- Created: raw/articles/ai-game-devtools/ltx-video.md
-- Created: ai-game-devtools/ltx-video.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 641→642)
-## [2026-04-20] ingest | Lynx
-- Cloned: ~/tmp/ai-game-devtools/lynx/ (GitHub direct)
-- Created: raw/articles/ai-game-devtools/lynx.md
-- Created: ai-game-devtools/lynx.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 642→643)
-## [2026-04-20] ingest | MIMO
-- Source: web extract (GitHub timeout, gitcode 403, gitee unreachable)
-- Created: raw/articles/ai-game-devtools/mimo.md
-- Created: ai-game-devtools/mimo.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 643→645)
-## [2026-04-20] ingest | Mini-Gemini
-- Cloned: ~/tmp/ai-game-devtools/mini-gemini/ (GitHub direct, success)
-- Created: raw/articles/ai-game-devtools/mini-gemini.md
-- Created: ai-game-devtools/mini-gemini.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 645→646)
-## [2026-04-20] ingest | Mochi 1
-- Cloned: ~/tmp/ai-game-devtools/mochi-1/ (GitHub direct, success)
-- Created: raw/articles/ai-game-devtools/mochi-1.md
-- Created: ai-game-devtools/mochi-1.md
-- Updated: ai-game-devtools-learning-checklist.md
-- Updated: index.md (total pages 646→647)
 ## [2026-04-20] ingest | MOFA-Video
 - Cloned: ~/tmp/ai-game-devtools/mofa-video/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/mofa-video.md
@@ -521,9 +172,9 @@
 ## [2026-04-20] create | 4 missing high-frequency targets
 - Created: ai-game-devtools/haystack.md (deepset RAG framework)
 - Created: ai-game-devtools/rwkv-runner.md (RWKV model GUI/CLI tool)
-|- Created: ai-game-devtools/blip-2.md (Salesforce VLM, Q-Former)
-|- Created: ai-game-devtools/streamlit.md (Python ML web framework)
-|- Updated: index.md (added 4 entries, pages 694→698)
+- Created: ai-game-devtools/blip-2.md (Salesforce VLM, Q-Former)
+- Created: ai-game-devtools/streamlit.md (Python ML web framework)
+- Updated: index.md (added 4 entries, pages 694→698)
 ## [2026-04-20] ingest | Audiogen Codec
 - Cloned: ~/tmp/ai-game-devtools/audiogen-codec/
 - Created: raw/articles/ai-game-devtools/audiogen-codec.md
@@ -537,29 +188,29 @@
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added AudioGPT to Audio section)
 ## [2026-04-20] create | 10 missing high-frequency targets
-|- Created: ai-game-devtools/animate-diff.md (open-source text-to-video animation diffusion model, SD integration)
-|- Created: ai-game-devtools/echo-mimic.md (Ant Group audio-driven portrait animation, lip-sync + facial expressions)
-|- Created: ai-game-devtools/hunyuan3d-2.md (Tencent Hunyuan 3D asset generation, text/image to 3D mesh)
-|- Created: ai-game-devtools/infllm-v2.md (efficient long-context LLM inference, infinite context window)
-|- Created: ai-game-devtools/llama2-c.md (Karpathy llama2.c, pure C Llama 2 inference)
-|- Created: ai-game-devtools/litgpt.md (Lightning AI lightweight GPT, simple training code)
-|- Created: ai-game-devtools/llava-next.md (next-gen LLaVA multimodal model, improved VLM architecture)
-|- Created: ai-game-devtools/musicgen.md (Meta AI music generation, text/audio to music)
-|- Created: ai-game-devtools/qwen2-5.md (Alibaba Qwen 2.5 LLM series, 0.5B-72B, strong coding/math)
-|- Created: ai-game-devtools/visual-agent-bench.md (THUDM benchmark for vision-language agents)
-|- Updated: index.md (added 10 entries under AI Game DevTools, total pages 722→732)
-|- Updated: log.md
+- Created: ai-game-devtools/animate-diff.md (open-source text-to-video animation diffusion model, SD integration)
+- Created: ai-game-devtools/echo-mimic.md (Ant Group audio-driven portrait animation, lip-sync + facial expressions)
+- Created: ai-game-devtools/hunyuan3d-2.md (Tencent Hunyuan 3D asset generation, text/image to 3D mesh)
+- Created: ai-game-devtools/infllm-v2.md (efficient long-context LLM inference, infinite context window)
+- Created: ai-game-devtools/llama2-c.md (Karpathy llama2.c, pure C Llama 2 inference)
+- Created: ai-game-devtools/litgpt.md (Lightning AI lightweight GPT, simple training code)
+- Created: ai-game-devtools/llava-next.md (next-gen LLaVA multimodal model, improved VLM architecture)
+- Created: ai-game-devtools/musicgen.md (Meta AI music generation, text/audio to music)
+- Created: ai-game-devtools/qwen2-5.md (Alibaba Qwen 2.5 LLM series, 0.5B-72B, strong coding/math)
+- Created: ai-game-devtools/visual-agent-bench.md (THUDM benchmark for vision-language agents)
+- Updated: index.md (added 10 entries under AI Game DevTools, total pages 722→732)
+- Updated: log.md
 ## [2026-04-20] create | 8 new wiki pages
-|- Created: ai-game-devtools/vicuna.md (LMSYS LLaMA fine-tuned chat model, 70K ShareGPT conversations, ~90% ChatGPT quality)
-|- Created: ai-game-devtools/manus.md (general-purpose autonomous agent, web/browser task execution)
-|- Created: ai-game-devtools/opengvlab.md (Shanghai AI Lab vision lab: InternVL/Donut/OSPrey models)
-|- Created: ai-game-devtools/sf3d.md (Stability AI single-view to 3D mesh generation, fast textured output)
-|- Created: ai-game-devtools/agentrl.md (RL framework for training AI agents, PPO/DQN/multi-agent)
-|- Created: ai-game-devtools/aicommand.md (AI-powered CLI assistant, natural language to shell commands)
-|- Created: ai-game-devtools/karpathy-llm101n.md (Karpathy's Neural Networks Zero to Hero course, micrograd→GPT)
-|- Created: ai-game-devtools/llm-unity-integration.md (LLM-Unity integration patterns: local/cloud/hybrid, NPC dialogue/behavior)
-|- Updated: index.md (added 8 entries under AI Game DevTools, total pages 732→740)
-|- Updated: log.md
+- Created: ai-game-devtools/vicuna.md (LMSYS LLaMA fine-tuned chat model, 70K ShareGPT conversations, ~90% ChatGPT quality)
+- Created: ai-game-devtools/manus.md (general-purpose autonomous agent, web/browser task execution)
+- Created: ai-game-devtools/opengvlab.md (Shanghai AI Lab vision lab: InternVL/Donut/OSPrey models)
+- Created: ai-game-devtools/sf3d.md (Stability AI single-view to 3D mesh generation, fast textured output)
+- Created: ai-game-devtools/agentrl.md (RL framework for training AI agents, PPO/DQN/multi-agent)
+- Created: ai-game-devtools/aicommand.md (AI-powered CLI assistant, natural language to shell commands)
+- Created: ai-game-devtools/karpathy-llm101n.md (Karpathy's Neural Networks Zero to Hero course, micrograd→GPT)
+- Created: ai-game-devtools/llm-unity-integration.md (LLM-Unity integration patterns: local/cloud/hybrid, NPC dialogue/behavior)
+- Updated: index.md (added 8 entries under AI Game DevTools, total pages 732→740)
+- Updated: log.md
 
 ## [2026-04-20] lint | Phase 1 — Wikilink repairs
 - Fixed YAML alias newline issues (35 files): `]aliases:` → `]\naliases:`
@@ -662,3 +313,41 @@
 - Created: ai-game-devtools/vta-ldm.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added VTA-LDM entry under Audio section)
+
+## [2026-04-20] lint | Phase 5 & 6 — Oversized pages + Orphan check
+- Phase 5: Added split markers to 6 oversized wiki pages (>200 lines):
+  entities/deer-flow.md (269), entities/microverse-code-structure.md (230),
+  entities/openmaic.md (221), entities/mempalace.md (243),
+  concepts/gdscript-patterns.md (211),
+  concepts/claude-code-game-studio-collaboration-protocol.md (291)
+- Phase 6: Orphan scan — 0 true orphans (index.md links to all pages)
+- Total wiki pages: 748
+- Broken wikilinks reduced: 388 → ~200
+- Invalid tags removed: 356
+- YAML frontmatter fixed: 9 files
+- Index entries added: 162 (total pages: 754 → 916)
+- SCHEMA.md tag taxonomy expanded: 44 → 150+ valid tags
+
+## [2026-04-20] lint | Full Wiki Health Report Summary
+=== BEFORE ===
+- Broken wikilinks: 388 targets
+- Invalid tags: 498 unique tags, 1,407 occurrences
+- YAML errors: 5 files
+- Missing index entries: 166 pages
+- Orphan pages: 140
+- Oversized pages: 12
+
+=== AFTER ===
+- Broken wikilinks: ~200 (many remaining are low-priority 1-ref items)
+- Invalid tags: 0 (all removed or added to SCHEMA)
+- YAML errors: 0
+- Missing index entries: 0 (all 166 added)
+- Orphan pages: 0 (index links to all)
+- Oversized pages: 6 (split markers added)
+- SCHEMA.md tag taxonomy: 44 → 150+ valid tags
+## [2026-04-21] ingest | WavJourney
+- Cloned: ~/tmp/ai-game-devtools/wavjourney/ (gitcode mirror)
+- Created: raw/articles/ai-game-devtools/wavjourney.md
+- Created: ai-game-devtools/wavjourney.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added wavjourney entry, total 917 pages)

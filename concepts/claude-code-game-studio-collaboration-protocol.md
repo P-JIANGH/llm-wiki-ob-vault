@@ -6,6 +6,8 @@ type: concept
 tags: [workflow, collaboration, decision-making, protocol]
 sources: [raw/articles/claude-code-game-studios-2026.md]
 ---
+<!-- TODO: This page has 291 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # Claude Code Game Studio Collaboration Protocol
 

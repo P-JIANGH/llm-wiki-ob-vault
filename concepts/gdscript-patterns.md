@@ -6,6 +6,8 @@ type: concept
 tags: [godot, gdscript, language]
 sources: [raw/articles/microverse-ksanadock-2026.md]
 ---
+<!-- TODO: This page has 211 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # GDScript Patterns
 

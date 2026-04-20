@@ -6,6 +6,8 @@ type: entity
 tags: [ai, llm, memory, rag, chromadb, vector-database, agent]
 sources: ["https://github.com/milla-jovovich/mempalace"]
 ---
+<!-- TODO: This page has 243 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # MemPalace
 

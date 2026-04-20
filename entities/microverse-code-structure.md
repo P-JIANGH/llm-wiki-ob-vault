@@ -6,6 +6,8 @@ type: entity
 tags: [code, architecture, godot]
 sources: []
 ---
+<!-- TODO: This page has 230 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # Microverse Code Structure
 

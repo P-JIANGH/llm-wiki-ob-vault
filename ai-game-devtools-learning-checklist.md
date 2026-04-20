@@ -531,7 +531,7 @@
 - [2026-04-20] TANGO | https://github.com/declare-lab/tango
 |- [2026-04-21] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
 - [2026-04-21] VTA-LDM | https://github.com/ariesssxu/vta-ldm
-- [ ] WavJourney | https://github.com/Audio-AGI/WavJourney
+- [2026-04-21] WavJourney | https://github.com/Audio-AGI/WavJourney
 
 ## Music (11)
 - [ ] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp

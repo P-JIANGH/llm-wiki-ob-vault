@@ -510,7 +510,7 @@
 - [2026-04-20] AcademiCodec | https://github.com/yangdongchao/AcademiCodec
 |- [2026-04-20] Amphion | https://github.com/open-mmlab/Amphion
 - [2026-04-20] ArchiSound | https://github.com/archinetai/audio-diffusion-pytorch
-- [ ] AudioEditing | https://github.com/HilaManor/AudioEditingCode
+- [2026-04-20] AudioEditing | https://github.com/HilaManor/AudioEditingCode
 - [ ] Audiogen Codec | https://github.com/AudiogenAI/agc
 - [ ] AudioGPT | https://github.com/AIGC-Audio/AudioGPT
 - [ ] AudioLCM | https://github.com/liuhuadai/AudioLCM

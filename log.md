@@ -474,3 +474,9 @@
 - Created: ai-game-devtools/amphion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 691→692)
+## [2026-04-20] ingest | AudioEditing
+- Cloned: ~/tmp/ai-game-devtools/audio-editing/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/audio-editing.md
+- Created: ai-game-devtools/audio-editing.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 693→694)

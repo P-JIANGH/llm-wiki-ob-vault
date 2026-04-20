@@ -643,3 +643,9 @@
 - Created: ai-game-devtools/syncfusion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry in Audio section, total pages 751→752)
+## [2026-04-20] ingest | TANGO
+- Cloned: ~/tmp/ai-game-devtools/tango/
+- Created: raw/articles/ai-game-devtools/tango.md
+- Created: ai-game-devtools/tango.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Audio section, total pages 752→753)

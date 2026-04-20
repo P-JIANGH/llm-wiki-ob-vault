@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 752 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 753 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -393,7 +393,8 @@
 ||| [[ai-game-devtools/neural-sound]] — PKU+UMD 学习模态声音合成（SIGGRAPH 2022）：3D稀疏卷积+LOBPCG振动求解器+辐射网络预测FFAT地图，RTX 3080 Ti <1秒生成，物理逼真游戏音效，含DeepModal替代方案
 ||| [[ai-game-devtools/qwen2-audio]] — 阿里通义千问音频-语言模型：7B参数，Voice Chat / Audio Analysis 双模式，三阶段训练管线，13基准SOTA（ASR/S2TT/SER/VSC），HuggingFace原生集成，支持游戏NPC语音对话
 ||| [[ai-game-devtools/see-2-sound]] — 多伦多大学 零样本图像→5.1环绕声空间音频生成：SAM分割+Depth Anything深度估计+CoDi扩散音频生成+pyroomacoustics RIR空间化，A100 80GB优化，Gradio Demo+Docker支持
-|| [[ai-game-devtools/syncfusion]] — Queen Mary+Sapienza ICASSP 2024 视频→Foley音效合成：Onset Model(ResNet视频编码器检测动作起始点) + Diffusion Model(audio-diffusion-pytorch+CLAP条件化)双管线，音频/文本双条件控制，Greatest Hits数据集，自动同步游戏音效生成
+||| [[ai-game-devtools/syncfusion]] — Queen Mary+Sapienza ICASSP 2024 视频→Foley音效合成：Onset Model(ResNet视频编码器检测动作起始点) + Diffusion Model(audio-diffusion-pytorch+CLAP条件化)双管线，音频/文本双条件控制，Greatest Hits数据集，自动同步游戏音效生成
+||| [[ai-game-devtools/tango]] — declare-lab LLM 引导潜扩散文本到音频生成：Flan-T5 冻结文本编码器 + UNet2DConditionModel 扩散模型 + AudioLDM VAE，866M 参数；Tango 2 引入 DPO 偏好对齐(Audio-Alpaca 15K配对数据)，OVL 3.99 SOTA，CC BY-NC-ND 4.0
 
 
 ## Texture (3D Asset Generation)

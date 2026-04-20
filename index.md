@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-21 | Total pages: 943 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-21 | Total pages: 944 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -509,4 +509,4 @@
 - [[ai-game-devtools/dex-tts]] — DEX-TTS 扩散模型富有表现力 TTS：RetNet 文本编码 + DiTMask 扩散去噪 + EDM 预条件 + TV/TIV/LF0 风格三分解，支持参考语音风格迁移和无参考 GeDEX 变体，MIT
 - [[ai-game-devtools/emotivoice]] — 网易有道开源情感 TTS 引擎：PromptTTS+JETS 架构，2000+ 音色，中英混合输入，Simbert 风格编码，HiFi-GAN 声码器，OpenAI API 兼容，Apache 2.0
 - [[ai-game-devtools/fireredtts-2]] — FireRedTeam 长文本流式多说话人 TTS 系统：双 Transformer 架构+12.5Hz 流式分词器，7 语言+零样本克隆，4 说话人对话生成，首包延迟 140ms，bf16 仅 9GB VRAM，Apache 2.0
-
+- [[ai-game-devtools/glm-4-voice]] — 智谱 AI 端到端中英语音对话模型：Whisper 编码器分词器+GLM-4-9B 语音模态对齐+CosyVoice 流式解码器，20 token 超低延迟合成，支持情感/方言/语速指令调控，Int4 量化支持，Apache 2.0

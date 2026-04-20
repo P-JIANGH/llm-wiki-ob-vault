@@ -1,3 +1,10 @@
+## [2026-04-21] ingest | GLM-4-Voice
+- Source: THUDM/GLM-4-Voice (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/glm-4-voice.md
+- Created: ai-game-devtools/glm-4-voice.md
+- Updated: index.md (total pages 943→944)
+- Note: Checklist NOT updated — clone failed, will retry next cron
+
 ## [2026-04-21] ingest | EmotiVoice
 - Cloned: ~/tmp/ai-game-devtools/emotivoice/ (gitcode mirror; GitHub timeout)
 - Created: raw/articles/ai-game-devtools/emotivoice.md

@@ -352,3 +352,9 @@
 - Created: ai-game-devtools/stable-video-diffusion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 663→664)
+## [2026-04-20] ingest | StoryDiffusion
+- Cloned: ~/tmp/ai-game-devtools/story-diffusion/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/story-diffusion.md
+- Created: ai-game-devtools/story-diffusion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 664→665)

@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 664 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 665 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -311,6 +311,7 @@
    268||||| [[ai-game-devtools/stable-diffusion-cpp]] — leejet 纯 C/C++ 扩散模型推理引擎（ggml 后端）：类 llama.cpp 架构、SD/FLUX/Wan 15+ 模型家族、41 种量化格式、7 种 GPU 后端、多语言绑定(Go/C#/Python/Rust/Dart)，内置 Web UI，MIT |
 ||||| [[ai-game-devtools/stablevideo]] — ICCV 2023 文本驱动视频编辑工具：NLA 分层图集分解 + ControlNet 条件扩散 + AGGNet 一致性聚合，支持前景/背景独立编辑，14GB VRAM 可运行，MIT
 |||||| [[ai-game-devtools/stable-video-diffusion]] — Stability AI 官方生成式模型代码库（sgm 包）：SVD/SVD-XT 图像→视频(14/25帧)、SV3D 单图→环绕视频(21帧)、SV4D 2.0 视频→4D(48帧/12×4视角)、SDXL/SDXL-Turbo，配置驱动架构，MIT 代码
+|||||| [[ai-game-devtools/story-diffusion]] — 南开大学 HVision 长程一致性图像+视频生成（NeurIPS 2024）：Consistent Self-Attention 机制跨多帧保持角色一致，PhotoMaker ID Encoder + LoRA 身份注入，SD1.5/SDXL 热插拔兼容，漫画/两阶段长视频生成，≥20GB VRAM
    269||| [[ai-game-devtools/skywork-unipic]] — Skywork multi-image editing model suite (diffusion + autoregressive, 1-6 input images)
    270||| [[ai-game-devtools/stablestudio]] — Stability AI 开源版 DreamStudio：React + TypeScript + Zustand + Tailwind，插件化后端（SD/ComfyUI/WebGPU），MIT
    271|||| [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro Unity Core ML Stable Diffusion 插件：Apple Silicon 原生推理，编辑器/运行时双模式，支持文生图/图生图/SD-Turbo(LCM)，P/Invoke+C# async 异步管线，ComputeShader 预处理

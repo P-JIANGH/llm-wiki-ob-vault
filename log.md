@@ -446,3 +446,9 @@
 - Created: ai-game-devtools/retrieval-based-voice-conversion-webui.md (entity page: VITS-based voice conversion with FAISS retrieval)
 - Updated: ai-game-devtools-learning-checklist.md (Singing Voice section)
 - Updated: index.md (added Singing Voice entry, pages: 933→934)
+## [2026-04-21] ingest | so-vits-svc
+- Cloned: ~/tmp/ai-game-devtools/so-vits-svc/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/so-vits-svc.md
+- Created: ai-game-devtools/so-vits-svc.md (entity page: SoftVC+VITS singing voice conversion)
+- Updated: ai-game-devtools-learning-checklist.md (Singing Voice section)
+- Updated: index.md (added Singing Voice entry, pages: 934→935)

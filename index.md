@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 934 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | Total pages: 935 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -816,3 +816,4 @@
 ## Singing Voice
 - [[ai-game-devtools/diffsinger]] Singing voice synthesis via shallow diffusion mechanism (AAAI-2022), MIDI-controlled vocal generation
 - [[ai-game-devtools/retrieval-based-voice-conversion-webui]] RVC 开源变声框架：VITS 架构 + top-1 FAISS 检索替换杜绝音色泄漏，~10 分钟数据可训练，实时变声 170ms 延迟，支持 CUDA/DirectML/ROCm/MPS，MIT
+- [[ai-game-devtools/so-vits-svc]] 开源歌唱语音转换框架：SoftVC 编码器 + VITS 架构 + 浅层扩散 + 13 种 speech encoder + 音色混合/聚类/特征检索，AGPL 3.0

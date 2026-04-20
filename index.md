@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 743 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 744 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -384,6 +384,7 @@
 ||| [[ai-game-devtools/audioldm-2]] — AudioLDM 2 通用音频生成框架：潜在扩散模型+自监督预训练，文本→音效/音乐/语音，48kHz高保真+超分辨率修复，Diffusers集成3x加速，MIT
 ||| [[ai-game-devtools/audiox]] — HKUST ICLR 2026 统一音频生成框架：DiT+多模态自适应融合(MAF)，文本/视频/音频→音效/音乐(T2A/T2M/V2A/V2M)，IF-caps 700万样本，CC-BY-NC 4.0
 || [[ai-game-devtools/auffusion]] — BUPT 文本到音频扩散模型：适配 Stable Diffusion T2I 架构到 TTA，CLIPTextModel+UNet2DCondition+HiFi-GAN 声码器，支持文本生成/风格迁移/音频修复/prompt2prompt 控制，Apache 2.0
+|| [[ai-game-devtools/ctag]] — MIT ICML 2024 进化优化文本到音频生成：CLAP 语义匹配 + evosax 30+ 进化策略 + SynthAX JAX 合成器，非神经网络方法，参数可编辑可解释，MIT
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

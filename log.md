@@ -570,3 +570,9 @@
 - Created: ai-game-devtools/auffusion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added Auffusion entry under Audio section, bumped total to 743)
+## [2026-04-20] ingest | CTAG
+- Cloned: ~/tmp/ai-game-devtools/ctag/
+- Created: raw/articles/ai-game-devtools/ctag.md
+- Created: ai-game-devtools/ctag.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added CTAG entry to Audio section)

@@ -1,4 +1,4 @@
-     1|     1|# Wiki Log
+     # Wiki Log
 ## [2026-04-20] ingest | Ruyi (图像到视频扩散模型)
 - Cloned: ~/tmp/ai-game-devtools/ruyi/
 - Created: raw/articles/ai-game-devtools/ruyi.md

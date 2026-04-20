@@ -6,6 +6,13 @@
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
 
+## [2026-04-20] ingest | SkyReels-A1
+- Source: web extract (GitHub/gitcode/gitee clone all failed; README + arXiv extracted)
+- Created: raw/articles/ai-game-devtools/skyreels-a1.md
+- Created: ai-game-devtools/skyreels-a1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 659→660)
+
      2|     2|
      3|     3|> Chronological record of all wiki actions. Append-only.
      4|     4|> Format: `## [YYYY-MM-DD] action | subject`

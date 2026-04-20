@@ -521,7 +521,7 @@
 - [2026-04-20] FoleyCrafter | https://github.com/open-mmlab/FoleyCrafter
 - [2026-04-20] HunyuanVideo-Foley | https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley
 |- [2026-04-20] Make-An-Audio 3 | https://github.com/Text-to-Audio/Make-An-Audio-3
-- [ ] MeanAudio | https://github.com/xiquan-li/MeanAudio
+- [2026-04-20] MeanAudio | https://github.com/xiquan-li/MeanAudio
 - [ ] MiDashengLM | https://github.com/xiaomi-research/dasheng-lm
 - [ ] MMAudio | https://github.com/hkchengrex/MMAudio
 - [ ] NeuralSound | https://github.com/hellojxt/NeuralSound

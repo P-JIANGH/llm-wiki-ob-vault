@@ -1,4 +1,10 @@
 # Wiki Log
+## [2026-04-20] ingest | MeanAudio
+- Cloned: ~/tmp/ai-game-devtools/mean-audio/
+- Created: raw/articles/ai-game-devtools/mean-audio.md
+- Created: ai-game-devtools/mean-audio.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Audio section, pages 747→748)
 ## [2026-04-20] create | llama-cpp
 - Created: ai-game-devtools/llama-cpp.md
 - Updated: index.md (added 6 entries under AI Game DevTools section, pages 694→700)

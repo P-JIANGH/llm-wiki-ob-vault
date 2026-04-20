@@ -413,3 +413,9 @@
 - Updated: ai-game-devtools/musicgen.md (enriched with training framework, model matrix, AudioCraft ecosystem)
 - Updated: ai-game-devtools-learning-checklist.md (Music section)
 - Updated: index.md (enhanced entry with architecture details)
+## [2026-04-21] ingest | Riffusion App
+- Cloned: ~/tmp/ai-game-devtools/riffusion-app/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/riffusion-app.md
+- Created: ai-game-devtools/riffusion-app.md
+- Updated: ai-game-devtools-learning-checklist.md (Music section)
+- Updated: index.md (added entry in AI Game DevTools section, pages: 930→931)

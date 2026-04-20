@@ -5,6 +5,7 @@ updated: 2026-04-20
 type: entity
 tags: [ai, llm, open-source, code-generation]
 sources: [web:https://qwenlm.github.io/blog/qwen2.5, web:https://huggingface.co/Qwen]
+aliases: ["Qwen2.5"]
 ---
 
 # Qwen 2.5

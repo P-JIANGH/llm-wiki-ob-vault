@@ -4,7 +4,8 @@ created: 2026-04-17
 updated: 2026-04-17
 type: entity
 tags: [ai, image-generation, diffusion, open-source, tool]
-sources: [raw/articles/ai-game-devtools/stable-diffusion.md]aliases: ["Stable Diffusion"]
+sources: [raw/articles/ai-game-devtools/stable-diffusion.md]
+aliases: ["Stable Diffusion"]
 
 ---
 

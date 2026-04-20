@@ -512,3 +512,35 @@
 - Created: ai-game-devtools/audiogpt.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added AudioGPT to Audio section)
+## [2026-04-20] create | 10 missing high-frequency targets
+|- Created: ai-game-devtools/animate-diff.md (open-source text-to-video animation diffusion model, SD integration)
+|- Created: ai-game-devtools/echo-mimic.md (Ant Group audio-driven portrait animation, lip-sync + facial expressions)
+|- Created: ai-game-devtools/hunyuan3d-2.md (Tencent Hunyuan 3D asset generation, text/image to 3D mesh)
+|- Created: ai-game-devtools/infllm-v2.md (efficient long-context LLM inference, infinite context window)
+|- Created: ai-game-devtools/llama2-c.md (Karpathy llama2.c, pure C Llama 2 inference)
+|- Created: ai-game-devtools/litgpt.md (Lightning AI lightweight GPT, simple training code)
+|- Created: ai-game-devtools/llava-next.md (next-gen LLaVA multimodal model, improved VLM architecture)
+|- Created: ai-game-devtools/musicgen.md (Meta AI music generation, text/audio to music)
+|- Created: ai-game-devtools/qwen2-5.md (Alibaba Qwen 2.5 LLM series, 0.5B-72B, strong coding/math)
+|- Created: ai-game-devtools/visual-agent-bench.md (THUDM benchmark for vision-language agents)
+|- Updated: index.md (added 10 entries under AI Game DevTools, total pages 722→732)
+|- Updated: log.md
+## [2026-04-20] create | 8 new wiki pages
+|- Created: ai-game-devtools/vicuna.md (LMSYS LLaMA fine-tuned chat model, 70K ShareGPT conversations, ~90% ChatGPT quality)
+|- Created: ai-game-devtools/manus.md (general-purpose autonomous agent, web/browser task execution)
+|- Created: ai-game-devtools/opengvlab.md (Shanghai AI Lab vision lab: InternVL/Donut/OSPrey models)
+|- Created: ai-game-devtools/sf3d.md (Stability AI single-view to 3D mesh generation, fast textured output)
+|- Created: ai-game-devtools/agentrl.md (RL framework for training AI agents, PPO/DQN/multi-agent)
+|- Created: ai-game-devtools/aicommand.md (AI-powered CLI assistant, natural language to shell commands)
+|- Created: ai-game-devtools/karpathy-llm101n.md (Karpathy's Neural Networks Zero to Hero course, micrograd→GPT)
+|- Created: ai-game-devtools/llm-unity-integration.md (LLM-Unity integration patterns: local/cloud/hybrid, NPC dialogue/behavior)
+|- Updated: index.md (added 8 entries under AI Game DevTools, total pages 732→740)
+|- Updated: log.md
+
+## [2026-04-20] ingest | AudioLCM
+- Cloned: ~/tmp/ai-game-devtools/audiolcm/
+- Created: raw/articles/ai-game-devtools/audiolcm.md
+- Created: ai-game-devtools/audiolcm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added AudioLCM entry under Audio section)
+- Updated: log.md

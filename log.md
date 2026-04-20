@@ -1,4 +1,10 @@
 # Wiki Log
+## [2026-04-20] ingest | Qwen2-Audio
+- Cloned: ~/tmp/ai-game-devtools/qwen2-audio/
+- Created: raw/articles/ai-game-devtools/qwen2-audio.md
+- Created: ai-game-devtools/qwen2-audio.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry under Audio section, pages 750→751)
 ## [2026-04-20] ingest | NeuralSound
 - Source: https://github.com/hellojxt/NeuralSound (web extract; GitHub/gitcode/gitee clone all failed)
 - Created: raw/articles/ai-game-devtools/neural-sound.md

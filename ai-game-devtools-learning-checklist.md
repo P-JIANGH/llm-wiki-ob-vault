@@ -525,7 +525,7 @@
 - [2026-04-20] MiDashengLM | https://github.com/xiaomi-research/dasheng-lm
 - [2026-04-20] MMAudio | https://github.com/hkchengrex/MMAudio
 - [2026-04-20] NeuralSound | https://github.com/hellojxt/NeuralSound
-- [ ] Qwen2-Audio | https://github.com/QwenLM/Qwen2-Audio
+- [2026-04-20] Qwen2-Audio | https://github.com/QwenLM/Qwen2-Audio
 - [ ] SEE-2-SOUND | https://github.com/see2sound/see2sound
 - [ ] SyncFusion | https://github.com/mcomunita/syncfusion
 - [ ] TANGO | https://github.com/declare-lab/tango

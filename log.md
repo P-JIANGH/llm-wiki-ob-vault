@@ -558,4 +558,9 @@
 - Created: ai-game-devtools/audioldm-2.md
 - Updated: ai-game-devtools-learning-checklist.md (marked AudioLDM 2)
 - Updated: index.md (added AudioLDM 2 entry under Audio section)
-- Updated: log.md
+- Updated: log.md## [2026-04-20] ingest | AudioX
+- Cloned: ~/tmp/ai-game-devtools/audiox/
+- Created: raw/articles/ai-game-devtools/audiox.md
+- Created: ai-game-devtools/audiox.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, bumped total to 742)

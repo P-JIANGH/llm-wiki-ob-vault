@@ -482,7 +482,7 @@
 |- [2026-04-20] ShortGPT | https://github.com/RayVentura/ShortGPT
 |- [2026-04-20] Step-Video-T2V | https://github.com/stepfun-ai/Step-Video-T2V
 |- [2026-04-20] SkyReels-A1 | https://github.com/SkyworkAI/SkyReels-A1
-|- [ ] SkyReels-V1 | https://github.com/SkyworkAI/SkyReels-V1
+|- [2026-04-20] SkyReels-V1 | https://github.com/SkyworkAI/SkyReels-V1
 - [ ] SoraWebui | https://github.com/SoraWebui/SoraWebui
 - [ ] StableVideo | https://github.com/rese1f/stablevideo
 - [ ] Stable Video Diffusion | https://github.com/Stability-AI/generative-models

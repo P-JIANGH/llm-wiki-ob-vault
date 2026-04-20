@@ -328,3 +328,9 @@
 - Created: ai-game-devtools/step-video-t2v.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 658→659)
+## [2026-04-20] ingest | SkyReels-V1
+- Cloned: ~/tmp/ai-game-devtools/skyreels-v1/
+- Created: raw/articles/ai-game-devtools/skyreels-v1.md
+- Created: ai-game-devtools/skyreels-v1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry)

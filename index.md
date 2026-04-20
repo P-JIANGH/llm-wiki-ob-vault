@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 660 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 661 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -99,6 +99,7 @@
     99|||| [[ai-game-devtools/cogvideox]] — THUDM/ZhipuAI 开源视频生成模型家族：CogVideoX1.5-5B(1360×768/16fps)+2B/5B，T2V/I2V 双模，3D Causal VAE，diffusers 最低 3.6GB(INT8)，Apache 2.0 |
 |||| [[ai-game-devtools/hunyuan-video]] — 腾讯混元 13B+ 参数开源视频生成模型：双流→单流 Full Attention Transformer + MLLM 文本编码器 + 3D VAE，专业评测综合排名 #1（运动质量 66.5%），720p 需 ~60GB VRAM，支持 FP8 量化/xDiT 多卡并行，Apache 2.0 |
 |||||| [[ai-game-devtools/hunyuanvideo-1-5]] — 腾讯混元轻量级视频生成模型（8.3B 参数）：SSTA 选择性滑动注意力 + 3D Causal VAE，最低 14GB VRAM，CFG/Step 蒸馏 75% 加速 + 480→720→1080p 三级超分，Diffusers/ComfyUI/LightX2V 全支持，Tencent Hunyuan Community License |
+||||||| [[ai-game-devtools/skyreels-v1]] — Skywork AI 人类中心视频基础模型（T2V+I2V）：HunyuanVideo微调，VBench 82.43开源SOTA，33表情分类+400动作单元，SkyReelsInfer推理框架支持RTX4090+多卡并行，Apache 2.0
 ||||| [[ai-game-devtools/ruyi]] — CreateAI 图像到视频扩散模型（7B）：768分辨率/24fps/120帧，镜头+运动幅度控制，TeaCache/FP8加速，RTX 3090/4090可运行，ComfyUI 3节点集成，Apache 2.0
 |||||| [[ai-game-devtools/longlive]] — NVIDIA Labs 实时交互式长视频生成（ICLR 2026）：Wan2.1 基座 + Self-Forcing score distillation，240s 长视频/20.7 FPS 实时推理/32 H100 GPU-days 微调，Apache 2.0 |
 ||||| [[ai-game-devtools/ltx-video]] — Lightricks 首个 DiT 架构统一视频生成模型：T2V/I2V/V2V/关键帧多模式 + 4K/50FPS 单次推理，2B/13B 双尺寸 + FP8 量化 + LoRA 微调，Apache 2.0 |

@@ -488,7 +488,7 @@
 |- [2026-04-20] Stable Video Diffusion | https://github.com/Stability-AI/generative-models
 |- [2026-04-20] StoryDiffusion | https://github.com/HVision-NKU/StoryDiffusion
 |- [2026-04-20] StoryMem | https://github.com/Kevin-thu/StoryMem
-- [ ] StreamingT2V | https://github.com/Picsart-AI-Research/StreamingT2V
+|- [2026-04-20] StreamingT2V | https://github.com/Picsart-AI-Research/StreamingT2V
 - [ ] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
 - [ ] Tora | https://github.com/ali-videoai/Tora
 - [ ] Track-Anything | https://github.com/gaomingqi/Track-Anything

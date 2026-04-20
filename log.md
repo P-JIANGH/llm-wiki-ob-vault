@@ -1,4 +1,10 @@
      # Wiki Log
+## [2026-04-20] ingest | StreamingT2V
+- Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
+- Created: raw/articles/ai-game-devtools/streamingt2v.md
+- Created: ai-game-devtools/streamingt2v.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 667→668)
 ## [2026-04-20] ingest | StoryMem
 - Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
 - Created: raw/articles/ai-game-devtools/storymem.md

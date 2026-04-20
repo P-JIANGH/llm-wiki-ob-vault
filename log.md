@@ -1,3 +1,9 @@
+## [2026-04-21] ingest | Chord2Melody
+- Cloned: ~/tmp/ai-game-devtools/chord2melody/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/chord2melody.md
+- Created: ai-game-devtools/chord2melody.md
+- Updated: ai-game-devtools-learning-checklist.md (Music section)
+- Updated: index.md (added entry, pages: 918→919)
 ## [2026-04-21] ingest | AnyAccomp
 - Cloned: ~/tmp/ai-game-devtools/any-accomp/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/any-accomp.md

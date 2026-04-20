@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 918 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | Total pages: 919 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -99,6 +99,7 @@
 
 | [[ai-game-devtools/animate-diff]] — 开源文本到视频动画扩散模型：时序注意力模块插入冻结 SD UNet，支持 SD1.5/SDXL 后端，ComfyUI 集成，AnimateDiff v1/v2/v3 全系列，Apache 2.0 |
 || [[ai-game-devtools/any-accomp]] — Amphion Team 通用伴奏生成框架：Chromagram + VQ-VAE 量化旋律瓶颈 + Flow Matching 生成伴奏，支持人声/独奏乐器输入，Gradio UI，24kHz/3-30秒输入，MIT |
+|| [[ai-game-devtools/chord2melody]] — tanreinama GPT-2 自动作曲工具：和弦进行→MIDI 旋律生成、已有 MIDI 续写、5 轨/17 轨 GM 乐器输出、14 种和弦类型，MIT |
 | [[ai-game-devtools/echo-mimic]] — Ant Group 音频驱动肖像动画：SD 1.5 扩散 + Whisper-Tiny 音频编码 + 地标 CNN，支持纯音频/纯地标/混合三种驱动，超越 SadTalker/Hallo，AAAI 2025 |
 | [[ai-game-devtools/hunyuan3d-2]] — 腾讯混元 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，文本/图像→高分辨率 3D 网格，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM，Apache 2.0 |
 | [[ai-game-devtools/infllm-v2]] — 清华 InfLLM 高效长上下文推理：分块注意力 + 内存池压缩，O(L) 时间/内存复杂度，有效无限上下文窗口 (2M+ tokens)，兼容 Llama/Mistral/Qwen，MIT |

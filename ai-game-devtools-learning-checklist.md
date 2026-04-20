@@ -535,7 +535,7 @@
 
 ## Music (11)
 - [2026-04-21] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp
-- [ ] Chord2Melody | https://github.com/tanreinama/chord2melody
+|- [2026-04-21] Chord2Melody | https://github.com/tanreinama/chord2melody
 - [ ] Diff-BGM | https://github.com/sizhelee/Diff-BGM
 - [ ] FluxMusic | https://github.com/feizc/FluxMusic
 - [ ] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton

@@ -601,3 +601,15 @@
 - Created: ai-game-devtools/make-an-audio-3.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry in Audio section, total pages 746→747)
+## [2026-04-20] ingest | MeanAudio
+- Cloned: ~/tmp/ai-game-devtools/mean-audio/
+- Created: raw/articles/ai-game-devtools/mean-audio.md
+- Created: ai-game-devtools/mean-audio.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Audio section, total pages 747→748)
+## [2026-04-20] ingest | MiDashengLM
+- Cloned: ~/tmp/ai-game-devtools/midashenglm/
+- Created: raw/articles/ai-game-devtools/midashenglm.md
+- Created: ai-game-devtools/midashenglm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Audio section, total pages 748→749)

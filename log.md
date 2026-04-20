@@ -308,3 +308,10 @@
 - Created: ai-game-devtools/ovi.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 655→656)
+
+## [2026-04-20] ingest | ShortGPT
+- Cloned: ~/tmp/ai-game-devtools/shortgpt/
+- Created: raw/articles/ai-game-devtools/shortgpt.md
+- Created: ai-game-devtools/shortgpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 657→658)

@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 657 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 658 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -241,6 +241,7 @@
 ||||| [[ai-game-devtools/mochi-1]] — Genmo 10B 参数文本到视频扩散模型：AsymmDiT 非对称架构（视觉 dim 3072 / 文本 dim 1536）+ AsymmVAE（8x8 空间/6x 时间压缩），Apache 2.0，单卡需 ~60GB VRAM
 |||| [[ai-game-devtools/mora]] — Lehigh 多智能体视频生成框架（arXiv 2403.13248）：SDXL+SVD-XT 多 Agent 协作管线，支持 T2V/I2V/视频扩展/编辑/连接/世界模拟，80s 生成接近 Sora 时长
 || [[ai-game-devtools/money-printer-turbo]] — harry0703 全自动短视频生成工具：主题/关键词→LLM文案+Pexels素材+TTS语音+字幕+BGM→高清视频，15+LLM提供商/MVC架构/FastAPI+Streamlit，MIT
+|| [[ai-game-devtools/shortgpt]] — RayVentura AI 视频自动化框架：LLM驱动JSON编辑管线、短视频/长视频/视频翻译三引擎、MoviePy渲染+ElevenLabs/EdgeTTS配音、Pexels素材源、Gradio UI、Docker部署，MIT
 ||||| [[ai-game-devtools/mofa-video]] — 腾讯 AI Lab/东京大学 ECCV 2024 可控图像动画工具：冻结 SVD 模型 + MOFA-Adapter 注入，支持轨迹/关键点/混合三种控制模式，音频/视频驱动面部动画，长视频生成（周期性采样），Apache 2.0
 ||||| [[ai-game-devtools/hotshot-xl]] — Natural Synthetics 文本到GIF扩散模型
 |||| [[ai-game-devtools/diffsynth-studio]] — ModelScope 开源扩散模型引擎：FLUX/Wan/Qwen-Image 等多模型推理+训练+极低显存管理(6GB)，Apache 2.0

@@ -496,7 +496,7 @@
 - [2026-04-20] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
 |- [2026-04-20] VGen | https://github.com/ali-vilab/i2vgen-xl
 - [2026-04-20] ViewCrafter | https://github.com/Drexubery/ViewCrafter
-- [ ] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
+|- [2026-04-20] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
 - [ ] VideoElevator | https://github.com/YBYBZhang/VideoElevator
 | [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba
 - [2026-04-20] Video-of-Thought | https://github.com/scofield7419/Video-of-Thought

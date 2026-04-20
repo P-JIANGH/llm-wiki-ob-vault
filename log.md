@@ -1,4 +1,10 @@
      # Wiki Log
+## [2026-04-20] ingest | Video-ChatGPT
+- Cloned: ~/tmp/ai-game-devtools/video-chatgpt/
+- Created: raw/articles/ai-game-devtools/video-chatgpt.md
+- Created: ai-game-devtools/video-chatgpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry, pages 684→685)
 ## [2026-04-20] ingest | Tora
 - Source: web extract (GitHub/gitcode/gitee clone all failed; README extracted)
 - Created: raw/articles/ai-game-devtools/tora.md

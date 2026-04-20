@@ -1,4 +1,11 @@
      1|     1|# Wiki Log
+## [2026-04-20] ingest | Ruyi (图像到视频扩散模型)
+- Cloned: ~/tmp/ai-game-devtools/ruyi/
+- Created: raw/articles/ai-game-devtools/ruyi.md
+- Created: ai-game-devtools/ruyi.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md
+
      2|     2|
      3|     3|> Chronological record of all wiki actions. Append-only.
      4|     4|> Format: `## [YYYY-MM-DD] action | subject`

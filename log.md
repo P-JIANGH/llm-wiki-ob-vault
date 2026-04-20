@@ -613,3 +613,9 @@
 - Created: ai-game-devtools/midashenglm.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry in Audio section, total pages 748→749)
+## [2026-04-20] ingest | MMAudio
+- Cloned: ~/tmp/ai-game-devtools/mmaudio/
+- Created: raw/articles/ai-game-devtools/mmaudio.md
+- Created: ai-game-devtools/mmaudio.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry in Audio section, total pages 749→750)

@@ -500,7 +500,7 @@
 - [ ] VideoElevator | https://github.com/YBYBZhang/VideoElevator
 | [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba
 - [2026-04-20] Video-of-Thought | https://github.com/scofield7419/Video-of-Thought
-- [ ] VisualRWKV | https://github.com/howard-hou/VisualRWKV
+- [2026-04-20] VisualRWKV | https://github.com/howard-hou/VisualRWKV
 - [ ] V-JEPA | https://github.com/facebookresearch/jepa
 - [ ] Wan2.1 | https://github.com/Wan-Video/Wan2.1
 - [ ] Wan2.2 | https://github.com/Wan-Video/Wan2.2

@@ -358,3 +358,9 @@
 - Created: ai-game-devtools/story-diffusion.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 664→665)
+## [2026-04-20] ingest | VisualRWKV
+- Cloned: GitHub/gitcode/gitee 全部失败，使用 web_extract 获取 README
+- Created: raw/articles/ai-game-devtools/visualrwkv.md
+- Created: ai-game-devtools/visualrwkv.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 665→666)

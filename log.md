@@ -394,3 +394,10 @@
 - Created: ai-game-devtools/track-anything.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 679→680)
+
+## [2026-04-20] ingest | Tune-A-Video
+- Cloned: ~/tmp/ai-game-devtools/tune-a-video/
+- Created: raw/articles/ai-game-devtools/tune-a-video.md
+- Created: ai-game-devtools/tune-a-video.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 680→681)

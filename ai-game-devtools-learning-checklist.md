@@ -492,7 +492,7 @@
 |- [2026-04-20] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
 - [2026-04-20] Tora | https://github.com/ali-videoai/Tora
 |- [2026-04-20] Track-Anything | https://github.com/gaomingqi/Track-Anything
-- [ ] Tune-A-Video | https://github.com/showlab/Tune-A-Video
+- [2026-04-20] Tune-A-Video | https://github.com/showlab/Tune-A-Video
 - [ ] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
 - [ ] VGen | https://github.com/ali-vilab/i2vgen-xl
 - [ ] ViewCrafter | https://github.com/Drexubery/ViewCrafter

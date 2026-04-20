@@ -558,7 +558,7 @@
 - [2026-04-21] Bert-VITS2 | https://github.com/fishaudio/Bert-VITS2
 - [2026-04-21] Chatterbox | https://github.com/resemble-ai/chatterbox
 - [2026-04-21] ChatTTS | https://github.com/2noise/ChatTTS
-- [ ] CosyVoice | https://github.com/FunAudioLLM/CosyVoice
+- [2026-04-21] CosyVoice | https://github.com/FunAudioLLM/CosyVoice
 - [ ] DEX-TTS | https://github.com/winddori2002/DEX-TTS
 - [ ] EmotiVoice | https://github.com/netease-youdao/EmotiVoice
 - [ ] FireRedTTS-2 | https://github.com/FireRedTeam/FireRedTTS2

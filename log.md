@@ -489,3 +489,9 @@
 - Created: raw/articles/ai-game-devtools/chatterbox.md
 - Created: ai-game-devtools/chatterbox.md
 - Updated: ai-game-devtools-learning-checklist.md
+## [2026-04-21] ingest | CosyVoice
+- Cloned: ~/tmp/ai-game-devtools/cosyvoice/
+- Created: raw/articles/ai-game-devtools/cosyvoice.md
+- Created: ai-game-devtools/cosyvoice.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md

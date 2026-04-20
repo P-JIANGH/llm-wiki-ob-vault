@@ -509,3 +509,10 @@
 - Created: ai-game-devtools/cosyvoice.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md
+## [2026-04-21] ingest | FireRedTTS-2
+- Cloned: ~/tmp/ai-game-devtools/fireredtts-2/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/fireredtts-2.md
+- Created: ai-game-devtools/fireredtts-2.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 942→943)
+

@@ -504,7 +504,7 @@
 - [2026-04-20] V-JEPA | https://github.com/facebookresearch/jepa
 - [2026-04-20] Wan2.1 | https://github.com/Wan-Video/Wan2.1
 - [2026-04-20] Wan2.2 | https://github.com/Wan-Video/Wan2.2
-- [ ] Waver | https://github.com/FoundationVision/Waver
+|- [2026-04-20] Waver | https://github.com/FoundationVision/Waver
 
 ## Audio (25)
 - [ ] AcademiCodec | https://github.com/yangdongchao/AcademiCodec

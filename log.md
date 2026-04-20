@@ -363,3 +363,9 @@
 - Created: ai-game-devtools/wavjourney.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added wavjourney entry, total 917 pages)
+## [2026-04-21] ingest | Diff-BGM
+- Cloned: ~/tmp/ai-game-devtools/diff-bgm/ (GitHub direct)
+- Created: raw/articles/ai-game-devtools/diff-bgm.md
+- Created: ai-game-devtools/diff-bgm.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added diff-bgm entry, total 920 pages)

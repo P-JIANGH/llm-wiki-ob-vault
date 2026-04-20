@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-21 | Total pages: 919 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-21 | Total pages: 920 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -543,6 +543,7 @@
 ||| [[ai-game-devtools/tango]] — declare-lab LLM 引导潜扩散文本到音频生成：Flan-T5 冻结文本编码器 + UNet2DConditionModel 扩散模型 + AudioLDM VAE，866M 参数；Tango 2 引入 DPO 偏好对齐(Audio-Alpaca 15K配对数据)，OVL 3.99 SOTA，CC BY-NC-ND 4.0
 |||| [[ai-game-devtools/think-sound]] — 浙江大学 NeurIPS 2025 统一 Any2Audio 生成框架：CoT 推理引导 + Flow Matching，三阶段管线（Foley生成→对象级精炼→目标音频编辑），MM-DiT 骨干+Stable Audio VAE，支持视频/文本/音频→音频，Apache 2.0（研究用途）
 |||| [[ai-game-devtools/vta-ldm]] — 腾讯 AI Lab 视频到音频生成模型：潜扩散架构 + CLIP4CLIP 视频编码 + 隐藏对齐机制，输入视频→自动生成 Foley/环境声，8×A100 3 天训练，HuggingFace 权重
+|||| [[ai-game-devtools/diff-bgm]] — CVPR 2024 视频背景音乐生成：潜扩散模型（LDM）将 Stable Diffusion 适配到钢琴卷帘空间，支持视频特征/和弦/文本多条件，MIDI 输出，支持补全/自回归生成
 
 
 ## Texture (3D Asset Generation)

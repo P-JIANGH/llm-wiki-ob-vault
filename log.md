@@ -346,3 +346,9 @@
 - Created: ai-game-devtools/stablevideo.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 662→663)
+## [2026-04-20] ingest | Stable Video Diffusion
+- Cloned: ~/tmp/ai-game-devtools/stable-video-diffusion/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/stable-video-diffusion.md
+- Created: ai-game-devtools/stable-video-diffusion.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 663→664)

@@ -495,7 +495,7 @@
 - [2026-04-20] Tune-A-Video | https://github.com/showlab/Tune-A-Video
 - [2026-04-20] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
 |- [2026-04-20] VGen | https://github.com/ali-vilab/i2vgen-xl
-- [ ] ViewCrafter | https://github.com/Drexubery/ViewCrafter
+- [2026-04-20] ViewCrafter | https://github.com/Drexubery/ViewCrafter
 - [ ] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
 - [ ] VideoElevator | https://github.com/YBYBZhang/VideoElevator
 | [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba

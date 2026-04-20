@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-20 | Total pages: 683 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-20 | Total pages: 684 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -258,6 +258,7 @@
 ||| [[ai-game-devtools/open-sora-plan]] — PKU-兔展 开源 Sora 复现项目：8.5B SUV 稀疏 U 型 DiT + 8×8×8 WFVAE 高压缩编解码，40M 视频+1.1B 图像训练，VBench 83.02%（媲美 13B HunyuanVideo），Ascend 910B 全链路训练推理，MIT
 || [[ai-game-devtools/vchitect-2-0]] — Vchitect 团队 2B 参数文本到视频扩散模型：Parallel Transformer 架构，720×480/8fps 基座+VEnhancer 2K/24fps 后处理，Apache 2.0
 || [[ai-game-devtools/vgen]] — 阿里巴巴通义实验室全景视频生成生态系统：I2VGen-XL 两阶段图像→视频(1280×720)+DreamVideo 主体/运动定制+HiGen/TF-T2V，Python/PyTorch/YAML 驱动，~2 分钟推理
+||||| [[ai-game-devtools/view-crafter]] — TPAMI 2025: 视频扩散模型高保真新视角合成，单/稀疏图像→多视角，576×1024/25帧/23.5GB，精确相机位姿控制
 ## Avatar
    224|
    225||| [[ai-game-devtools/animate-anyone]] — Alibaba 智能计算研究院扩散模型角色动画框架：ReferenceNet + Pose Guider + 时空注意力UNet，单图+姿态序列→一致性动画视频，DeepGPU加速 ~40%，支持虚拟试衣/说话头像集成

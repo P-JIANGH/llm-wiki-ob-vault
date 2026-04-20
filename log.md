@@ -413,3 +413,9 @@
 - Created: ai-game-devtools/vgen.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (total pages 682→683)
+## 2026-04-20 ingest | ViewCrafter
+- Source: https://github.com/Drexubery/ViewCrafter (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/view-crafter.md
+- Created: ai-game-devtools/view-crafter.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (total pages 683→684)

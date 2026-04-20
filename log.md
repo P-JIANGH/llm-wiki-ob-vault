@@ -1,3 +1,10 @@
+## [2026-04-21] ingest | DEX-TTS
+- Cloned: ~/tmp/ai-game-devtools/dex-tts/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/dex-tts.md
+- Created: ai-game-devtools/dex-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 940→941)
+
      1|     1|## [2026-04-21] ingest | ChatTTS
 - Cloned: ~/tmp/ai-game-devtools/chat-tts/ (gitcode mirror; GitHub timeout)
 - Created: raw/articles/ai-game-devtools/chat-tts.md

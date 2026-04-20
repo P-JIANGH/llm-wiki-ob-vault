@@ -334,3 +334,9 @@
 - Created: ai-game-devtools/skyreels-v1.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry)
+## [2026-04-20] ingest | SoraWebui
+- Source: GitHub web extract (clone failed: GitHub timeout, gitcode not found, gitee auth error)
+- Created: raw/articles/ai-game-devtools/sorawebui.md
+- Created: ai-game-devtools/sorawebui.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry)

@@ -558,3 +558,9 @@
 - Created: ai-game-devtools/kitten-tts.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (total pages 947→948)
+## [2026-04-21] ingest | Liquid Audio
+- Cloned: ~/tmp/ai-game-devtools/liquid-audio/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/liquid-audio.md
+- Created: ai-game-devtools/liquid-audio.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 948→949)

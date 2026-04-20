@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-     5|> Last updated: 2026-04-21 | Total pages: 948 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|> Last updated: 2026-04-21 | Total pages: 949 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -515,3 +515,4 @@
 - [[ai-game-devtools/glow-tts]] — 首尔国立大学流式并行 TTS 模型：Monotonic Alignment Search (MAS) 自监督对齐+Glow 流式生成，无需外部对齐器，比 Tacotron 2 快一个数量级，HiFi-GAN 声码器集成，多说话人支持，MIT
 - [[ai-game-devtools/gpt-sovits]] — RVC-Boss 少样本语音克隆 TTS 系统：GPT+SoVITS 双阶段架构、5 秒零样本/1 分钟微调、中英日韩粤五语支持、UVR5/ASR/切片集成工具链、V1→V2→V3→V4→V2Pro 多版本迭代，MIT
 - [[ai-game-devtools/index-tts2]] — Bilibili IndexTTS Team 自回归零样本 TTS（arXiv 2506.21619）：首个支持精确语音时长控制的自回归 TTS、情感-音色解耦、8维情感向量+Qwen3文本情感控制、中英双语，Bilibili 自定义许可
+- [[ai-game-devtools/liquid-audio]] — Liquid AI 端到端语音到语音基础模型 LFM2.5-Audio-1.5B：Interleaved/Sequential 双生成模式、Conformer+LFM2+Depthformer+Mimi 8-codebook 架构、实时多轮对话/ASR/TTS 三合一、24kHz 输出、4 预设声音，LFM Open License v1.0

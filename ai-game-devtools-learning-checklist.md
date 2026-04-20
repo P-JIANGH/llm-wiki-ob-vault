@@ -568,7 +568,7 @@
 - [2026-04-21] Higgs Audio | https://github.com/boson-ai/higgs-audio
 - [2026-04-21] IndexTTS2 | https://github.com/index-tts/index-tts
 - [2026-04-21] Kitten TTS | https://github.com/KittenML/KittenTTS
-- [ ] Liquid Audio | https://github.com/Liquid4All/liquid-audio
+- [2026-04-21] Liquid Audio | https://github.com/Liquid4All/liquid-audio
 - [ ] MahaTTS | https://github.com/dubverse-ai/MahaTTS
 - [ ] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
 - [ ] MeloTTS | https://github.com/myshell-ai/MeloTTS

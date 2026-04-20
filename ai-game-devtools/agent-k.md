@@ -47,7 +47,7 @@ AgentSmith designs new agents as Python files in `agents/` and writes correspond
 
 ## Differentiators
 
-Unlike static agent frameworks, Agent K's agents can **write new agents** at runtime. The system starts with a minimal kernel and bootstraps capability by creating specialized agents on demand. [[AutoGen]] and [[MetaGPT]] use pre-defined agent roles; Agent K's [[AgentSmith]] dynamically synthesizes new agent types.
+Unlike static agent frameworks, Agent K's agents can **write new agents** at runtime. The system starts with a minimal kernel and bootstraps capability by creating specialized agents on demand. [[AutoGen]] and [[MetaGPT]] use pre-defined agent roles; Agent K's `AgentSmith` dynamically synthesizes new agent types.
 
 ## License
 

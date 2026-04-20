@@ -3,7 +3,7 @@ title: AniPortrait
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [avatar, animation, open-source, ai-model, diffusion, audio]
+tags: [avatar, animation, open-source, diffusion, audio]
 sources: [raw/articles/ai-game-devtools/aniportrait.md]
 ---
 

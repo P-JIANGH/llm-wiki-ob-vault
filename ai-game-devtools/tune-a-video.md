@@ -3,7 +3,7 @@ title: Tune-A-Video
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, video, diffusion, tool, open-source]
+tags: [video, diffusion, tool, open-source]
 sources: [raw/articles/ai-game-devtools/tune-a-video.md]
 ---
 

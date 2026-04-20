@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/cradle.md]
 
 # Cradle
 
-**Cradle** is a foundation model agent framework for general computer control — allowing AI agents to play and interact with games and software by analyzing screenshots and executing keyboard/mouse actions. Developed by the [[BAAI-Agents]] lab at Beijing Academy of Artificial Intelligence, published in arXiv 2024.
+**Cradle** is a foundation model agent framework for general computer control — allowing AI agents to play and interact with games and software by analyzing screenshots and executing keyboard/mouse actions. Developed by the `BAAI-Agents` lab at Beijing Academy of Artificial Intelligence, published in arXiv 2024.
 
 ## Overview
 

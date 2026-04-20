@@ -3,7 +3,7 @@ title: AnimateDiff
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [diffusion, video, animation, tool, open-source, ai-model]
+tags: [diffusion, video, animation, tool, open-source]
 sources: [raw/articles/ai-game-devtools/animatediff.md]
 ---
 

@@ -79,4 +79,4 @@ Supports **11 emotion categories**: Afraid, Disgust, Irritated, Sad, Happy/Smile
 - [[echo-mimic]] — Audio-driven talking head generation
 - [[aniportrait]] — Portrait animation with audio
 - [[dreamtalk]] — Emotional talking head generation
-- [[flame-3d-face-model]] — FLAME 3D face model used as base mesh
+- `flame-3d-face-model` — FLAME 3D face model used as base mesh

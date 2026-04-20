@@ -3,7 +3,7 @@ title: Claude Code Game Studio Architecture
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [agent, architecture, workflow, coordination, multi-agent]
+tags: [agent, architecture, workflow, multi-agent]
 sources: [raw/articles/claude-code-game-studios-2026.md]
 ---
 

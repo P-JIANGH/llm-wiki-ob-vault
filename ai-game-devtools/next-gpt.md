@@ -3,7 +3,7 @@ title: NExT-GPT
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, multimodal, open-source, tool]
+tags: [multimodal, open-source, tool]
 sources: [raw/articles/ai-game-devtools/next-gpt.md]
 ---
 
@@ -58,7 +58,7 @@ NExT-GPT 是第一个真正意义上端到端的任意模态到任意模态（an
 | NExT-GPT | 文字/图像/视频/音频 | 文字/图像/视频/音频 | 真正 any-to-any，端到端 |
 | [[moshi]] | 文字/音频 | 文字/音频 | 专注实时语音对话 |
 | [[imagebind]] | 6种模态 | 仅嵌入（无生成） | 跨模态检索/理解 |
-| [[mini-gpt-4]] | 文字+图像 | 文字 | 仅理解，无多模态生成 |
+| `mini-gpt-4` | 文字+图像 | 文字 | 仅理解，无多模态生成 |
 
 ## 相关链接
 

@@ -39,9 +39,9 @@ Lemur is evaluated across **13 interactive agent datasets** spanning:
 
 | Benchmark | Domain | Framework |
 |-----------|--------|-----------|
-| MINT | Tool use + multi-hop reasoning | [[MINT]] |
-| WebArena | Web-based task completion | [[WebArena]] |
-| InterCode | Code execution environments | [[InterCode]] |
+| MINT | Tool use + multi-hop reasoning | `MINT` |
+| WebArena | Web-based task completion | `WebArena` |
+| InterCode | Code execution environments | `InterCode` |
 | MMLU/BBH/GSM8K | Foundational language & math | open-instruct |
 | HumanEval/MBPP | Code generation | open-instruct |
 
@@ -55,7 +55,7 @@ Lemur is evaluated across **13 interactive agent datasets** spanning:
 
 - [[auto-gpt]] — autonomous agent platform
 - [[babyagi]] — lightweight AI agent framework
-- [[open-agents]] — OpenAgents platform (sibling project)
+- `open-agents` — OpenAgents platform (sibling project)
 - [[meta-gpt]] — multi-agent framework for software development
 - [[langchain]] — LLM application framework
 - [[autogen]] — Microsoft's multi-agent framework

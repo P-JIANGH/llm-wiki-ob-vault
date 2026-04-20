@@ -3,7 +3,7 @@ title: Microverse Dialog System
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [microverse, ai, dialog, llm, conversation]
+tags: [ai, dialog, llm, conversation]
 sources: []
 ---
 

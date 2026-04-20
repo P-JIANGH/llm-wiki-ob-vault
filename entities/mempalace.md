@@ -3,7 +3,7 @@ title: MemPalace
 created: 2026-04-09
 updated: 2026-04-10
 type: entity
-tags: [ai, llm, memory, rag, chromadb, mcp, vector-database, agent]
+tags: [ai, llm, memory, rag, chromadb, vector-database, agent]
 sources: ["https://github.com/milla-jovovich/mempalace"]
 ---
 

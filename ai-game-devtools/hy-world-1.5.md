@@ -3,13 +3,13 @@ title: HY-World 1.5 (WorldPlay)
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, game, world-model, video-generation, llm, multimodal, open-source]
+tags: [game, world-model, llm, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/hy-world-1.5.md]
 ---
 
 # HY-World 1.5 (WorldPlay)
 
-**HY-World 1.5**（WorldPlay）是腾讯混元于 2025 年 12 月发布的**首个开源实时交互式世界模型**，核心是流式视频扩散模型，支持 24 FPS 流式推理、长期几何一致性、键盘/鼠标动作控制。基于 [[HunyuanVideo-1.5]] 或 [[WAN]] 作为骨干。
+**HY-World 1.5**（WorldPlay）是腾讯混元于 2025 年 12 月发布的**首个开源实时交互式世界模型**，核心是流式视频扩散模型，支持 24 FPS 流式推理、长期几何一致性、键盘/鼠标动作控制。基于 `HunyuanVideo-1.5` 或 `WAN` 作为骨干。
 
 ## 核心创新
 
@@ -54,11 +54,11 @@ Pose string 格式：`action-duration`，支持 WASD 移动 + 上下左右旋转
 
 ## 与同类对比
 
-HY-World 1.5 是 [[GameGen-O]] 的升级方向——从离线生成走向**实时交互**，同时解决了 [[Matrix-Game]] 和 [[GameCraft]] 无法保持长期几何一致性的问题。
+HY-World 1.5 是 [[GameGen-O]] 的升级方向——从离线生成走向**实时交互**，同时解决了 [[Matrix-Game]] 和 `GameCraft` 无法保持长期几何一致性的问题。
 
 ## 发布节点
 
-- 2026-04-16: [[HY-World-2.0]] 发布
+- 2026-04-16: `HY-World-2.0` 发布
 - 2026-03-08: WorldCompass RL 后训练代码开源
 - 2026-01-06: 训练代码 + WorldPlay-5B 轻量版开源
 - 2025-12-17: 首个开源实时交互世界模型发布

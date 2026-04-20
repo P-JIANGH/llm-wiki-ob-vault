@@ -3,7 +3,7 @@ title: Wan2.1
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [video, diffusion, open-source, ai-model]
+tags: [video, diffusion, open-source]
 sources: [raw/articles/ai-game-devtools/wan2-1.md]
 ---
 

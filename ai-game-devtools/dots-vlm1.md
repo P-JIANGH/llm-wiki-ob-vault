@@ -3,7 +3,7 @@ title: dots.vlm1
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai, llm, vlm, multimodal, vision-language-model, open-source]
+tags: [ai, llm, vlm, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/dots-vlm1.md]
 ---
 

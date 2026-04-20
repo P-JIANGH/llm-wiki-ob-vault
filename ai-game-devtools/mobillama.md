@@ -3,7 +3,7 @@ title: MobiLlama
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, model, slm, mbzuai, open-source, text-generation, mobile, game-dev]
+tags: [llm, model, mbzuai, open-source, mobile, game-dev]
 sources: [raw/articles/ai-game-devtools/mobillama.md]
 ---
 
@@ -67,7 +67,7 @@ The 1.2B large-base variant achieves **49.06 average** — outperforming TinyLla
 - **On-device NPC dialogue**: 0.5B model can run locally on mobile/low-end hardware for game NPCs
 - **Lightweight text generation**: Embedded devices, no cloud dependency
 - **Contrast with [[llama-3]]**: Llama 3 targets server/gPU部署; MobiLlama targets edge/mobile
-- **Contrast with [[tinyllama]]**: TinyLlama is 1.1B; MobiLlama achieves similar/higher benchmarks at 0.5B via parameter sharing
+- **Contrast with `tinyllama`**: TinyLlama is 1.1B; MobiLlama achieves similar/higher benchmarks at 0.5B via parameter sharing
 
 ## Links
 

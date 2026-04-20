@@ -3,7 +3,7 @@ title: InteractML-Unreal Engine
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, tool, game-engine, open-source, unreal]
+tags: [tool, game-engine, open-source, unreal]
 sources: [raw/articles/ai-game-devtools/iml-ue4.md]
 ---
 

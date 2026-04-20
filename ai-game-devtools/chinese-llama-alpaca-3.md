@@ -67,4 +67,4 @@ aliases: ["百川智能"]
 
 ## 关联
 
-同家族模型：[[Chinese-LLaMA-Alpaca-2]]、[[Chinese-Mixtral]]、原生基座 [[Meta-Llama-3]]
+同家族模型：`Chinese-LLaMA-Alpaca-2`、`Chinese-Mixtral`、原生基座 [[Meta-Llama-3]]

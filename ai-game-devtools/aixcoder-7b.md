@@ -78,8 +78,8 @@ aiXcoder-7B 可用于游戏开发中的代码生成场景：
 
 - [[CodeGeeX4]] — 另一个国产代码大模型，支持代码生成和翻译
 - [[DeepSeek-Coder]] — DeepSeek 开源的代码大模型
-- [[StarCoder 2]] — BigCode 项目的代码大模型
-- [[Code Llama]] — Meta 开源的代码大模型
+- `StarCoder 2` — BigCode 项目的代码大模型
+- `Code Llama` — Meta 开源的代码大模型
 - [[llm.c]] — Karpathy 的 C 语言 LLM 训练实现
 
 ## 许可

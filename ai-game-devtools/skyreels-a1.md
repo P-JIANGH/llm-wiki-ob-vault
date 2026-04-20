@@ -3,7 +3,7 @@ title: SkyReels-A1
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, tool, video, avatar, animation, open-source, multimodal]
+tags: [tool, video, avatar, animation, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/skyreels-a1.md]
 ---
 

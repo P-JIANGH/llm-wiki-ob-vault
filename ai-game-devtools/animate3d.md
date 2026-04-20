@@ -3,7 +3,7 @@ title: Animate3D — Animating Any 3D Model with Multi-view Video Diffusion
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, animation, open-source, diffusion, python]
+tags: [3d, animation, open-source, diffusion, python]
 sources: [raw/articles/ai-game-devtools/animate3d.md]
 ---
 

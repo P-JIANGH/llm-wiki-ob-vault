@@ -3,7 +3,7 @@ title: VideoAgent
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [vlm, multimodal, agent, video-understanding, reid, tracking, eccv2024]
+tags: [vlm, multimodal, agent, video-understanding, reid, tracking]
 sources: [raw/articles/ai-game-devtools/video-agent.md]
 ---
 
@@ -83,7 +83,7 @@ VideoAgent is a **research tool**, not a game engine plugin. Potential game uses
 - [[ai-game-devtools/pllava]] — PLLaVA uses Video-LLaVA as its base VLM (same VQA backend as VideoAgent)
 - [[ai-game-devtools/cambrian-1]] — Cambrian-1 is a VLM benchmark suite for video understanding
 - [[ai-game-devtools/video-llava]] — Video-LLaVA: unified video-language representation (direct dependency of VideoAgent)
-- [[ai-game-devtools/internvid]] — InternVid video dataset used for ViCLIP pretraining
+- `ai-game-devtools/internvid` — InternVid video dataset used for ViCLIP pretraining
 
 ## Links
 

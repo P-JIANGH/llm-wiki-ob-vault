@@ -3,7 +3,7 @@ title: HunyuanImage-3.0
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, tool, open-source, image-generation, multimodal]
+tags: [tool, open-source, image-generation, multimodal]
 sources: [raw/articles/ai-game-devtools/hunyuanimage-3-0.md]
 ---
 

@@ -537,10 +537,25 @@
 |- Updated: index.md (added 8 entries under AI Game DevTools, total pages 732→740)
 |- Updated: log.md
 
-## [2026-04-20] ingest | AudioLCM
+## [2026-04-20] lint | Phase 1 — Wikilink repairs
+- Fixed YAML alias newline issues (35 files): `]aliases:` → `]\naliases:`
+- Added aliases to existing pages: Eino→Eino Framework, MCP→mcp-system, DeerFlow, AutoGPT, etc.
+- Created 22 new pages: llava, vllm, sglang, llama-cpp, nanogpt, nanochat, haystack, rwkv-runner, blip-2, streamlit, llama, minicpm, rwkv-lm, open-interpreter, vicuna, manus, opengvlab, sf3d, agentrl, aicommand, karpathy-llm101n, llm-unity-integration
+- Converted generic terms to backticks (35): `agent`, `tool`, `pipeline`, `agent`, etc.
+- Updated index.md with new entries
+- Broken wikilinks: 388 → ~220
+
 - Cloned: ~/tmp/ai-game-devtools/audiolcm/
 - Created: raw/articles/ai-game-devtools/audiolcm.md
 - Created: ai-game-devtools/audiolcm.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added AudioLCM entry under Audio section)
+- Updated: log.md
+
+## [2026-04-20] ingest | AudioLDM 2
+- Cloned: ~/tmp/ai-game-devtools/audioldm-2/ (via gitcode.com mirror, GitHub timeout)
+- Created: raw/articles/ai-game-devtools/audioldm-2.md
+- Created: ai-game-devtools/audioldm-2.md
+- Updated: ai-game-devtools-learning-checklist.md (marked AudioLDM 2)
+- Updated: index.md (added AudioLDM 2 entry under Audio section)
 - Updated: log.md

@@ -66,4 +66,4 @@ DWPose is a whole-body pose estimation framework developed by IDEA-Research that
 ## Related
 - [[ai-game-devtools/controlnet]] — DWPose replaces OpenPose as the preprocessor in ControlNet
 - [[ai-game-devtools/openpose-editor]] — Alternative pose editing tool (manual editing vs. automatic detection)
-- [[ai-game-devtools/mmpose]] — Underlying framework that DWPose is built on
+- `ai-game-devtools/mmpose` — Underlying framework that DWPose is built on

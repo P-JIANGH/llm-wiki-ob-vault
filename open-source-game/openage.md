@@ -3,7 +3,7 @@ title: OpenAge
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, rts, age-of-empires, engine, cpp20, python, cython]
+tags: [open-source, game, rts, age-of-empires, python, cython]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 
@@ -39,14 +39,14 @@ openage/          ← Python3 脚本层 (291 .py) + convert/ 游戏转换工具
 
 ### nyan 内容配置格式
 
-- 自研 [[open-source-game/nyan]] 格式（`nyan` 同名仓库），用于替代传统文本/二进制配置
+- 自研 `open-source-game/nyan` 格式（`nyan` 同名仓库），用于替代传统文本/二进制配置
 - 声明式定义游戏对象（单位、建筑、科技等）的属性和关系
 - 支持通过 nyan API 实现 in-game Python console，类似 Blender 的可扩展 API
 - 模组可完全不修改引擎代码，仅通过 nyan 数据文件扩展内容
 
 ### 资产转换管线
 
-- 官方 [[open-source-game/openage-data]] 仓库提供免费资产
+- 官方 `open-source-game/openage-data` 仓库提供免费资产
 - 也支持使用原版 AoE1/AoE2/Definitive Edition 游戏资产
 - `convert/` 目录含媒体转换工具，将原始游戏资产转为 openage 格式
 - 需要原始游戏数据才能运行（不内置）
@@ -80,7 +80,7 @@ openage/          ← Python3 脚本层 (291 .py) + convert/ 游戏转换工具
 
 - [[open-source-games-list]] — 开源游戏总览
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比
-- [[nyan]] — SFTtech 自研内容配置格式
+- `nyan` — SFTtech 自研内容配置格式
 
 ## 开发资源
 

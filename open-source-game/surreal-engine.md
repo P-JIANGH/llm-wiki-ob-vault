@@ -3,7 +3,7 @@ title: Surreal Engine
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game-engine, unreal-engine, ue1, reverse-engineering, c++]
+tags: [open-source, game-engine, unreal-engine, reverse-engineering]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

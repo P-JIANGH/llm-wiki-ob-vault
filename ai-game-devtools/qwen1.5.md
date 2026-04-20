@@ -3,7 +3,7 @@ title: Qwen1.5
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, llm, open-source, multimodal, game-dev]
+tags: [llm, open-source, multimodal, game-dev]
 sources: [raw/articles/ai-game-devtools/qwen1.5.md]
 ---
 

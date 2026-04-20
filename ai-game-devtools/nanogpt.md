@@ -4,7 +4,7 @@ created: 2026-04-20
 updated: 2026-04-20
 type: entity
 tags: [ai, llm, ml, code, open-source, learning]
-sources: [web:https://github.com/karpathy/nanoGPT, web:https://www.youtube.com/watch?v=kCc8FmEb1nY]
+sources: ["web:https://github.com/karpathy/nanoGPT", "web:https://www.youtube.com/watch?v=kCc8FmEb1nY"]
 ---
 
 # nanoGPT

@@ -3,7 +3,7 @@ title: Hunyuan3D-1.0
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, tool, open-source, diffusion, game-engine]
+tags: [3d, tool, open-source, diffusion, game-engine]
 sources: [raw/articles/ai-game-devtools/hunyuan3d-1.md]
 ---
 

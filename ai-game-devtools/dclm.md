@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/dclm.md]
 
 ## Overview
 
-**DCLM** (DataComp-LM) is a comprehensive framework for building and training large language models with diverse datasets. Developed by MLFoundations, it provides a standardized corpus of 300T+ unfiltered tokens from CommonCrawl, pretraining recipes based on the [[openlm|OpenLM]] framework, and an extensive evaluation suite of 50+ downstream tasks.
+**DCLM** (DataComp-LM) is a comprehensive framework for building and training large language models with diverse datasets. Developed by MLFoundations, it provides a standardized corpus of 300T+ unfiltered tokens from CommonCrawl, pretraining recipes based on the `openlm` framework, and an extensive evaluation suite of 50+ downstream tasks.
 
 Paper: [arXiv:2406.11794](https://arxiv.org/abs/2406.11794) | Leaderboard: [datacomp.ai/dclm](https://datacomp.ai/dclm/leaderboard)
 
@@ -48,7 +48,7 @@ Raw Sources (CommonCrawl)
 
 - **DCLM-Pool** — raw CommonCrawl, text-extracted only (resiliparse)
 - **DCLM-RefinedWeb** — processed without final fastText filter
-- **DCLM-BASELINE** — fully processed, available on [[HuggingFace datasets|https://huggingface.co/datasets/mlfoundations/dclm-baseline-1.0]]
+- **DCLM-BASELINE** — fully processed, available on `HuggingFace datasets`
 
 ## Performance Results (7B models, CORE v2)
 

@@ -52,7 +52,7 @@ CRM 采用**两阶段扩散管线**：
 
 CRM 在游戏资产生成管线中的位置：
 
-1. **3D 资产快速原型**：设计师上传概念图 → 10 秒生成带纹理 3D 模型 → 导入 [[UnityGaussianSplatting|Unity]] / [[TripoSR|TripoSR]] 等工具精修
+1. **3D 资产快速原型**：设计师上传概念图 → 10 秒生成带纹理 3D 模型 → 导入 `UnityGaussianSplatting` / [[TripoSR|TripoSR]] 等工具精修
 2. **NPC/道具批量生成**：单图生成多视角一致的 3D 资产，支撑游戏世界的快速内容填充
 3. **纹理自动烘焙**：nvdiffrast 渲染管线直接输出 UV 纹理，游戏引擎直接使用
 4. **AI 纹理工作流**：生成结果可作为 [[DreamTextures|Dream Textures]]、SD ControlNet 等工具的输入，形成"图像→3D→纹理"完整链路
@@ -63,7 +63,7 @@ CRM 在游戏资产生成管线中的位置：
 |------|------|------|------|------|
 | **CRM** | 单图 | 带纹理 OBJ | **10 秒** | 两阶段扩散 + FlexiCubes，精度高 |
 | [[Stable-Dreamfusion]] | 文本/单图 | NeRF → Mesh | 分钟级 | 文本驱动，优化慢 |
-| [[Point·E]] | 文本/单图 | 3D 点云 | 1 分钟 | OpenAI 开源，端侧可跑 |
+| `Point·E` | 文本/单图 | 3D 点云 | 1 分钟 | OpenAI 开源，端侧可跑 |
 | [[Shap-E]] | 文本/单图 | NeRF/GLB | 分钟级 | 微软开源，多格式输出 |
 | [[TripoSR]] | 单图 | Mesh (OBJ/GLB) | **0.5 秒** | 速度最快，精度略低 |
 | [[Zero-1-to-3]] | 单图 | 多视角图 | 秒级 | 仅多视角，无纹理 |

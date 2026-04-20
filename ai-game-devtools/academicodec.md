@@ -50,7 +50,7 @@ sources: [raw/articles/ai-game-devtools/academicodec.md]
 ## 与其他工具的关系
 
 - HiFi-Codec 的 4-codebook 设计被研究者用于实现 [[ai-game-devtools/musicgen]] 的改进版 VALL-E，证明可以获得更好的音频质量
-- Encodec 是 [[ai-game-devtools/audiocraft]]（Meta AudioCraft）的核心组件
+- Encodec 是 `ai-game-devtools/audiocraft`（Meta AudioCraft）的核心组件
 - 与 [[ai-game-devtools/wav2lip]] 等音频驱动视觉模型配合，可构建完整的音视频生成管线
 
 ## 许可证

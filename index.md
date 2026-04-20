@@ -2,7 +2,7 @@
      2|
      3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-20 | Total pages: 740 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-20 | Total pages: 741 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|
      7|## AI / LLM / Agent
      8|
@@ -380,7 +380,8 @@
 || [[ai-game-devtools/audiogpt]] — AIGC-Audio ChatGPT 驱动的音频理解与生成系统：LangChain Agent 调度 15+ 基础模型，覆盖语音/歌唱/音效/数字人，arXiv 2304.12995
 || [[ai-game-devtools/audio-editing]] — Technion ICML 2024 DDPM 反演零样本音频编辑：AudioLDM/TANGO/AudioLDM2/StableAudio 多后端，文本提示+无监督双模式，MedleyMDPrompts数据集，MIT+CC BY-SA 4.0
 | [[ai-game-devtools/audio-diffusion-pytorch]] — ArchineTAI 音频扩散生成库：无条件/文本条件生成+自编码+上采样+声码器+修复，UNetV0+V-Diffusion+DDIM，MIT 无预训练模型
-| [[ai-game-devtools/audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器：agc-continuous(32ch,100Hz)/agc-discrete(24阶段RVQ,50Hz)，基于DAC架构+EMA+CLAP感知损失，盲测ELO优于EnCodec/DAC
+|| [[ai-game-devtools/audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器：agc-continuous(32ch,100Hz)/agc-discrete(24阶段RVQ,50Hz)，基于DAC架构+EMA+CLAP感知损失，盲测ELO优于EnCodec/DAC
+|| [[ai-game-devtools/audioldm-2]] — AudioLDM 2 通用音频生成框架：潜在扩散模型+自监督预训练，文本→音效/音乐/语音，48kHz高保真+超分辨率修复，Diffusers集成3x加速，MIT
 
 ## Texture (3D Asset Generation)
    275|||| [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs CVPR 2024 免 COLMAP 3D 高斯重建：渐进式训练联合优化相机位姿+3D Gaussians，双帧初始化→顺序添加→全局精化，支持 Tanks&Temples/CO3D/自定义视频，NVIDIA 专有许可 |

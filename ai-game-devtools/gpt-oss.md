@@ -41,7 +41,7 @@ Both models use **MXFP4 quantization** on MoE weights and were trained with the 
 | Triton | Reference optimized implementation | Single 80GB GPU |
 | PyTorch | Educational reference | 4×H100 |
 | Metal | Apple Silicon | M-series chips |
-| [[transformers]] | Hugging Face pipeline | Various |
+| `transformers` | Hugging Face pipeline | Various |
 | Ollama / LM Studio | Local / consumer hardware | Consumer GPUs |
 
 ## Tools

@@ -41,7 +41,7 @@ Step1X-3D 是一个面向高保真、可控纹理 3D 资产生成的开源框架
 - VAE 训练（形状自编码器）
 - 3D DiT 扩散模型训练（从零开始）
 - LoRA 微调支持
-- SD-XL 多视图生成训练（ig2mv，基于 [[ai-game-devtools/mv-adapter]] 适配）
+- SD-XL 多视图生成训练（ig2mv，基于 `ai-game-devtools/mv-adapter` 适配）
 
 ## 性能指标
 

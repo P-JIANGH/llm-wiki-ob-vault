@@ -3,7 +3,7 @@ title: Sonic Robo Blast 2
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, platformer, sonic, doom-legacy, 3d, fangame]
+tags: [open-source, game, platformer, sonic, 3d]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 
@@ -112,4 +112,4 @@ SRB2/
 
 - [[open-source-game/hypersomnia]] — 同样竞技向，同样无游戏引擎依赖
 - [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 系列 FPS
-- [[open-source-game/ddrace-network]] — C++/Rust 分层架构参考
+- `open-source-game/ddrace-network` — C++/Rust 分层架构参考

@@ -3,7 +3,7 @@ title: Video-LLaVA
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, vlm, video-understanding, image-understanding, llm, multimodal, open-source, pku-yuangroup]
+tags: [vlm, video-understanding, image-understanding, llm, multimodal, open-source, pku-yuangroup]
 sources: [raw/articles/ai-game-devtools/video-llava.md]
 ---
 
@@ -95,8 +95,8 @@ VideoLlavaForConditionalGeneration
 ## 相关项目
 
 - [[ai-game-devtools/moe-llava]] — MoE-LLaVA: 3B 稀疏模型超越 7B 密集模型
-- [[ai-game-devtools/languagebind]] — LanguageBind: N 模态语言语义对齐（ICLR 2024）
-- [[ai-game-devtools/chat-univi]] — Chat-UniVi: 高效视觉 token 利用
-- [[ai-game-devtools/minicpm-v]] — MiniCPM-V: 高效多模态模型（OpenBMB）
+- `ai-game-devtools/languagebind` — LanguageBind: N 模态语言语义对齐（ICLR 2024）
+- `ai-game-devtools/chat-univi` — Chat-UniVi: 高效视觉 token 利用
+- `ai-game-devtools/minicpm-v` — MiniCPM-V: 高效多模态模型（OpenBMB）
 
 > 同属 PKU-YuanGroup 的多模态 VLM 系列，Video-LLaVA 专注于图像+视频统一理解。

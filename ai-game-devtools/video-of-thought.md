@@ -3,7 +3,7 @@ title: Video-of-Thought (VoT)
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, video, open-source, tool]
+tags: [video, open-source, tool]
 sources: [raw/articles/ai-game-devtools/video-of-thought.md]
 ---
 

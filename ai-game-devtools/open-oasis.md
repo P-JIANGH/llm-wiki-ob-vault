@@ -3,7 +3,7 @@ title: Open-Oasis (Oasis 500M)
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, open-source]
+tags: [tool, open-source]
 sources: [raw/articles/ai-game-devtools/open-oasis.md]
 ---
 

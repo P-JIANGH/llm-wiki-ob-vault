@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/notebook-ai.md]
 
 # Notebook.ai
 
-An open-source [[Ruby on Rails]] web application for writers and roleplayers to create and manage fictional universes and all their components.
+An open-source `Ruby on Rails` web application for writers and roleplayers to create and manage fictional universes and all their components.
 
 ## Overview
 
@@ -64,7 +64,7 @@ While Notebook.ai itself is not primarily an AI tool, it has a documented roadma
 - **Knowledge graph engine** for semantic queries within a universe
 - **ML-generated names** for characters and locations
 
-The platform's structured data model (universes → characters/locations/items with attributes and relationships) positions it well as a **knowledge base** for AI game engines and NPC dialogue systems. Each content page's structured attributes could feed into [[LLM]] prompt engineering pipelines for game world generation.
+The platform's structured data model (universes → characters/locations/items with attributes and relationships) positions it well as a **knowledge base** for AI game engines and NPC dialogue systems. Each content page's structured attributes could feed into `LLM` prompt engineering pipelines for game world generation.
 
 ## Related Tools
 

@@ -3,7 +3,7 @@ title: CroftEngine
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, engine-remake, tomb-raider, cpp]
+tags: [open-source, game, engine-remake, cpp]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

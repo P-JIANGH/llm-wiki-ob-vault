@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/fooocus.md]
 
 **Fooocus** is an open-source, free, offline image generation tool by **lllyasviel** (the creator of ControlNet), built on the **Stable Diffusion XL** architecture with a Gradio-based UI. It is designed to be as simple as online image generators like Midjourney — users only need to focus on prompts, with minimal manual parameter tuning required.
 
-The project is currently in **Limited Long-Term Support (LTS)** mode with bug fixes only, as SDXL-based functionality is considered stable. Users interested in newer architectures like Flux are directed to [[ai-game-devtools/webui-forge]] or [[ai-game-devtools/comfyui]].
+The project is currently in **Limited Long-Term Support (LTS)** mode with bug fixes only, as SDXL-based functionality is considered stable. Users interested in newer architectures like Flux are directed to `ai-game-devtools/webui-forge` or [[ai-game-devtools/comfyui]].
 
 ## Key Features
 

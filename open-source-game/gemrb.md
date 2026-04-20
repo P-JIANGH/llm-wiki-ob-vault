@@ -3,7 +3,7 @@ title: GemRB
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, engine, rpg, infinity-engine, isometric, python-scripting]
+tags: [open-source, game, rpg]
 sources: [https://github.com/gemrb/gemrb]
 ---
 

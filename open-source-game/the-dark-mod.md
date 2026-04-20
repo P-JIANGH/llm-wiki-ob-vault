@@ -3,7 +3,7 @@ title: The Dark Mod
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, stealth-fps, thief-inspired, doom3-engine]
+tags: [open-source, game, doom3-engine]
 sources: [https://github.com/stgatilov/darkmod_src]
 ---
 

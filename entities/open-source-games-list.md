@@ -3,7 +3,7 @@ title: Open Source Games List
 created: 2026-04-08
 updated: 2026-04-08
 type: entity
-tags: [project, reference, open-source, games, directory]
+tags: [project, reference, open-source, directory]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

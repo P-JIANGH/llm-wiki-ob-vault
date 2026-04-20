@@ -3,7 +3,7 @@ title: ToonCrafter
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [ai-model, tool, animation, video, diffusion, open-source]
+tags: [tool, animation, video, diffusion, open-source]
 sources: [raw/articles/ai-game-devtools/tooncrafter.md]
 ---
 

@@ -3,7 +3,7 @@ title: Ambermoon.net
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rpg, classic-reimplementation, csharp, dotnet]
+tags: [open-source, game, rpg, csharp]
 sources: [https://github.com/Pyrdacor/Ambermoon.net]
 ---
 

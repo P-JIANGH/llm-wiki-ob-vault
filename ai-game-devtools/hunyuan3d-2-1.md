@@ -3,7 +3,7 @@ title: Hunyuan3D 2.1 — 高保真 PBR 3D 资产生成
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, tool, open-source, diffusion, pbr]
+tags: [3d, tool, open-source, diffusion, pbr]
 sources:
   - raw/articles/ai-game-devtools/hunyuan3d-2-1.md
 ---

@@ -3,7 +3,7 @@ title: FireRed-OpenStoryline
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai, video, agent, langchain, mcp, open-source]
+tags: [ai, video, agent, open-source]
 sources: [raw/articles/firered-openstoryline-2026.md]
 ---
 

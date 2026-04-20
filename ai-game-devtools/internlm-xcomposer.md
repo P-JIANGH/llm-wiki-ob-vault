@@ -72,4 +72,4 @@ InternLM-XComposer 是上海 AI 实验室开发的多模态大型视觉语言模
 ## 相关子项目
 
 - [[ai-game-devtools/sharegpt4v|ShareGPT4V]]（ECCV 2024）— GPT4-V 生成高质量图文 caption 数据集
-- [[ai-game-devtools/mmdiu|MMDU]] — 多图多轮对话 benchmark
+- `ai-game-devtools/mmdiu` — 多图多轮对话 benchmark

@@ -3,7 +3,7 @@ title: DeerFlow-Runtime
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [runtime, langgraph, streaming, architecture]
+tags: [runtime, streaming, architecture]
 sources: [modules:runtime/__init__.py+runtime/runs/manager.py+runtime/stream_bridge/base.py+runtime/serialization.py]
 ---
 

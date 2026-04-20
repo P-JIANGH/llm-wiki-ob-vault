@@ -3,7 +3,7 @@ title: MusePose
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [avatar, animation, diffusion, open-source, ai-model, video, tool]
+tags: [avatar, animation, diffusion, open-source, video, tool]
 sources: [raw/articles/ai-game-devtools/musepose.md]
 ---
 

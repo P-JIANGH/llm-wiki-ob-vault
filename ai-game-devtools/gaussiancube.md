@@ -59,9 +59,9 @@ All available on HuggingFace:
 Generated GaussianCube results can be converted to mesh using the LGM approach (requires nerfacc, nvdiffrast, PyMCubes).
 
 ## Relationships
-- Built on [[openai-improved-diffusion]] architecture
-- Uses [[3d-gaussian-splatting]] as rendering primitive
-- Related to [[trellis-3d]] (successor 3D diffusion model by same team)
+- Built on `openai-improved-diffusion` architecture
+- Uses `3d-gaussian-splatting` as rendering primitive
+- Related to `trellis-3d` (successor 3D diffusion model by same team)
 - Data construction via separate repo: GaussianCube_Construction
 
 ## Source

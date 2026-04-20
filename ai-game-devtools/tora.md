@@ -3,7 +3,7 @@ title: Tora — Trajectory-oriented Diffusion Transformer for Video Generation
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, video, diffusion, open-source, multimodal]
+tags: [video, diffusion, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/tora.md]
 ---
 

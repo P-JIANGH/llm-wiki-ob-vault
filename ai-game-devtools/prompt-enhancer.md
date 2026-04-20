@@ -3,7 +3,7 @@ title: PromptEnhancer
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, tool, image-generation, open-source, multimodal]
+tags: [tool, image-generation, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/prompt-enhancer.md]
 ---
 

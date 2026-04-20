@@ -3,7 +3,7 @@ title: Quake III Arena
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, id-software, arena-shooter, qvm-vm]
+tags: [open-source, game, fps, id-software, arena-shooter]
 sources: [raw/articles/id-software-quake-iii-arena-gpl.md]
 ---
 

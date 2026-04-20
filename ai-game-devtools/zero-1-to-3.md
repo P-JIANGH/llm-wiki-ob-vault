@@ -3,7 +3,7 @@ title: Zero-1-to-3
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [ai-model, open-source, 3d-generation, diffusion]
+tags: [open-source, 3d-generation, diffusion]
 sources: [raw/articles/ai-game-devtools/zero-1-to-3.md]
 ---
 

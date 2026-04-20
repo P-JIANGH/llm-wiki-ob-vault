@@ -3,7 +3,7 @@ title: CorsixTH
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, business-sim, lua, cpp, sdl]
+tags: [open-source, game, business-sim, lua, cpp]
 sources: [https://github.com/CorsixTH/CorsixTH]
 ---
 

@@ -68,7 +68,7 @@ Messages flow: sidebar → modelCapabilities → sendLLMMessage (electron-main) 
 - vs [[ai-game-devtools/bloop]]: Bloop is AI-powered code search; Void is a full AI IDE with inline code editing
 - vs [[ai-game-devtools/codegeex4]]: CodeGeeX provides code generation as a model/API; Void integrates LLM directly into the editor UI with diff visualization
 - vs [[ai-game-devtools/devon]]: Devon is an AI pair programming assistant (Electron+TUI); Void is a complete VSCode-fork IDE with built-in Apply/diff system
-- vs [[cursor]]: Void aims to be the open-source Cursor alternative with similar agent-on-codebase capabilities
+- vs `cursor`: Void aims to be the open-source Cursor alternative with similar agent-on-codebase capabilities
 
 ## Status
 

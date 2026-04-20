@@ -64,7 +64,7 @@ YAML 配置定义模型/训练/数据设置，通过 `instantiate_from_config()`
 - 大规模训练使用 Stability-AI/datapipelines（webdataset 格式）
 
 ## 与游戏开发的关联
-SVD/SV4D 可用于游戏资产生成（角色动画预览、场景漫游视频、道具多视角展示），SV4D 2.0 支持从简短输入视频生成完整的 4D 资产（多视角+时间），是 AI 辅助游戏内容创作的重要工具。[[ai-game-devtools/comfyui]] 和 [[ai-game-devtools/stable-diffusion-web-ui]] 等工具链已集成 SVD 推理支持。
+SVD/SV4D 可用于游戏资产生成（角色动画预览、场景漫游视频、道具多视角展示），SV4D 2.0 支持从简短输入视频生成完整的 4D 资产（多视角+时间），是 AI 辅助游戏内容创作的重要工具。[[ai-game-devtools/comfyui]] 和 `ai-game-devtools/stable-diffusion-web-ui` 等工具链已集成 SVD 推理支持。
 
 ## 相关链接
 - GitHub: https://github.com/Stability-AI/generative-models

@@ -3,7 +3,7 @@ title: OpenBW
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, starcraft, reverse-engineering, c++]
+tags: [open-source, game, rts, starcraft, reverse-engineering]
 sources: [https://github.com/OpenBW/openbw]
 ---
 

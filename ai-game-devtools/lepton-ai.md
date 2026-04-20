@@ -3,7 +3,7 @@ title: Lepton AI
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, framework, python, tool, ai-model]
+tags: [llm, framework, python, tool]
 sources: [raw/articles/ai-game-devtools/lepton-ai.md]
 ---
 

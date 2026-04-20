@@ -3,7 +3,7 @@ title: Naev
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, space, trading, combat, rpg, 2d]
+tags: [open-source, game, space, rpg, 2d]
 sources: [https://codeberg.org/naev/naev]
 ---
 

@@ -3,7 +3,7 @@ title: Microverse Save System
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [microverse, game-dev, save, persistence, architecture]
+tags: [game-dev, save, persistence, architecture]
 sources: []
 ---
 

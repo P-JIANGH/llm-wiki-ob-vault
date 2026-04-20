@@ -3,7 +3,7 @@ title: Microverse Character System
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [microverse, godot, characters, personality, game-dev]
+tags: [godot, characters, personality, game-dev]
 sources: []
 ---
 

@@ -52,7 +52,7 @@ MimicBrush 是阿里巴巴达摩院（ali-vilab）开发的零样本图像编辑
 
 ## 许可证
 
-仓库未明确声明许可证。基于 SD-1.5（CreativeML Open RAIL-M），代码继承自 [[ai-game-devtools/ip-adapter]] 和 MagicAnimate。
+仓库未明确声明许可证。基于 SD-1.5（CreativeML Open RAIL-M），代码继承自 `ai-game-devtools/ip-adapter` 和 MagicAnimate。
 
 ## 相关链接
 

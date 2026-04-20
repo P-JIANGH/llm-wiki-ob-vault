@@ -3,7 +3,7 @@ title: Panda / PandaLLM / PandaLLMOps
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, tool, open-source, llm, chinese, deepspeed, training]
+tags: [tool, open-source, llm, chinese, deepspeed, training]
 sources: [raw/articles/ai-game-devtools/pandallm.md]
 ---
 

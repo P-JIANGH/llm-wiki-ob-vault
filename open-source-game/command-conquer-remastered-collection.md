@@ -3,7 +3,7 @@ title: Command & Conquer Remastered Collection
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, rts, command-and-conquer, ea, westwood, reverse-engineering, game-engine]
+tags: [open-source, rts, ea, westwood, reverse-engineering, game-engine]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

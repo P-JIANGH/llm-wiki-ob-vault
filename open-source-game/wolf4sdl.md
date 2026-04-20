@@ -3,7 +3,7 @@ title: Wolf4SDL
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, id-software, sdl, reverse-engineering]
+tags: [open-source, game, fps, id-software, reverse-engineering]
 sources: []
 ---
 

@@ -3,7 +3,7 @@ title: Permafrost Engine
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, engine, c, opengl]
+tags: [open-source, game, rts, c, opengl]
 sources: []
 ---
 

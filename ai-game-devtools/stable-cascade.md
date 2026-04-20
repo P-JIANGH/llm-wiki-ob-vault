@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/stable-cascade.md]
 
 # Stable Cascade
 
-**Stable Cascade** 是由 **Stability AI** 开发的开源级联图像生成模型。基于 [[ai-game-devtools/wuerstchen|Würstchen]] 架构，其核心创新在于使用极小的潜在空间（压缩因子 42）进行扩散生成，相比 [[ai-game-devtools/stable-diffusion-webui|Stable Diffusion]] 的压缩因子 8，训练和推理成本降低约 16 倍。
+**Stable Cascade** 是由 **Stability AI** 开发的开源级联图像生成模型。基于 `ai-game-devtools/wuerstchen` 架构，其核心创新在于使用极小的潜在空间（压缩因子 42）进行扩散生成，相比 [[ai-game-devtools/stable-diffusion-webui|Stable Diffusion]] 的压缩因子 8，训练和推理成本降低约 16 倍。
 
 ## 架构设计
 

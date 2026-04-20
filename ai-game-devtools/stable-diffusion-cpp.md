@@ -3,7 +3,7 @@ title: stable-diffusion.cpp
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [tool, open-source, ai-model, multimodal]
+tags: [tool, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/stable-diffusion-cpp.md]
 ---
 

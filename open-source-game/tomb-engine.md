@@ -3,7 +3,7 @@ title: Tomb Engine
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, engine, tomb-raider, lua-scripting, cpp]
+tags: [open-source, game, cpp]
 sources: [https://github.com/TombEngine/TombEngine]
 ---
 

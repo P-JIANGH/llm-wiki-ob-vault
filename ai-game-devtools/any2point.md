@@ -3,7 +3,7 @@ title: Any2Point
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, multimodal, open-source]
+tags: [3d, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/any2point.md]
 ---
 

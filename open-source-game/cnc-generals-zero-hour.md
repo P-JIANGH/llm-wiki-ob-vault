@@ -3,7 +3,7 @@ title: C&C Generals + Zero Hour (EA Source Release)
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, rts, ea, westwood, directx, game-spy]
+tags: [open-source, rts, ea, westwood, directx]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

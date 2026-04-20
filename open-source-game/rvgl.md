@@ -3,7 +3,7 @@ title: RVGL
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, racing, rc-car, cross-platform, sdl2, multiplayer]
+tags: [open-source, game, racing, rc-car, sdl2, multiplayer]
 sources: [https://gitlab.com/re-volt/rvgl-base, https://gitlab.com/re-volt/rvgl-docs]
 ---
 

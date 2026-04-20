@@ -3,7 +3,7 @@ title: Sapiens
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [vlm, model, human-vision, pose-estimation, segmentation, depth-estimation, open-source]
+tags: [vlm, model, human-vision, pose-estimation, depth-estimation, open-source]
 sources: [raw/articles/ai-game-devtools/sapiens.md]
 ---
 
@@ -59,7 +59,7 @@ Sapiens 可用于游戏开发中的人体动作捕捉、角色动画生成、虚
 - 身体部位分割可用于换装系统（character customization）
 - 深度/法线估计用于 3D 人体重建
 
-相关项目：[[ai-game-devtools/cambrian-1]]（VLM 对比）、[[ai-game-devtools/evf-sam]]（SAM 分割）、[[ai-game-devtools/hunyuan3d-1.0]]（3D 重建）。
+相关项目：[[ai-game-devtools/cambrian-1]]（VLM 对比）、[[ai-game-devtools/evf-sam]]（SAM 分割）、`ai-game-devtools/hunyuan3d-1.0`（3D 重建）。
 
 ## Installation
 

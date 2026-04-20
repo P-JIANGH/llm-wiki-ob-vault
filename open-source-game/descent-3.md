@@ -3,7 +3,7 @@ title: Descent 3
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, 6dof, space-shooter, retro, engine]
+tags: [open-source, game, fps, retro]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

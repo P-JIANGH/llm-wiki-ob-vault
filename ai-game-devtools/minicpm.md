@@ -70,8 +70,8 @@ Base model uses Llama2-style license terms; derivatives use BMAB/Yorko licenses.
 
 - [[openbmb]] — The organization behind MiniCPM
 - [[minicpm-2b]] — Original 2B parameter model (dedicated page)
-- [[minicpm-llama3-v-2-5]] — Vision-language variant with Llama-3 backbone
-- [[minicpm-v-4-0]] — Latest multimodal variant
+- `minicpm-llama3-v-2-5` — Vision-language variant with Llama-3 backbone
+- `minicpm-v-4-0` — Latest multimodal variant
 
 ## Links
 

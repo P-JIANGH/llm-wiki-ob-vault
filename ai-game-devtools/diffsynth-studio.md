@@ -3,13 +3,13 @@ title: DiffSynth-Studio
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [diffusion, image-generation, video, tool, open-source, ai-model, framework, python]
+tags: [diffusion, image-generation, video, tool, open-source, framework, python]
 sources: [raw/articles/ai-game-devtools/diffsynth-studio.md]
 ---
 
 # DiffSynth-Studio
 
-**DiffSynth-Studio** 是由 ModelScope 社区开发的开源扩散模型（Diffusion Model）引擎，专注于前沿技术探索和学术研究。配套的 [[diffsynth-engine]] 面向工业级稳定部署。
+**DiffSynth-Studio** 是由 ModelScope 社区开发的开源扩散模型（Diffusion Model）引擎，专注于前沿技术探索和学术研究。配套的 `diffsynth-engine` 面向工业级稳定部署。
 
 ## 概述
 
@@ -72,8 +72,8 @@ diffsynth/
 
 ## 重要衍生项目
 
-- **[[exvideo]]** — 将 SVD 扩展到 128 帧长视频生成
-- **[[diffutoon]]** — 卡通上色解决方案（IJCAI 2024）
+- **`exvideo`** — 将 SVD 扩展到 128 帧长视频生成
+- **`diffutoon`** — 卡通上色解决方案（IJCAI 2024）
 - **EliGen** — 实体级控制图像生成框架
 - **Nexus-Gen** — 统一图像理解、生成、编辑框架
 - **ArtAug** — 合成-理解交互提升图像质量

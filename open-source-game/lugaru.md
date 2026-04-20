@@ -3,7 +3,7 @@ title: Lugaru HD
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, third-person-action, fighting, cross-platform]
+tags: [open-source, game, third-person-action, fighting]
 sources: [raw/articles/lugaru-wolfire-2026.md]
 ---
 
@@ -104,4 +104,4 @@ playercontrolled / gethelptype / getweapontype / pathfindtype
 
 - [[open-source-game/openrw]] — GTA III 重实现，同为 3D 动作游戏
 - [[open-source-game/openlara]] — 古墓丽影引擎重实现，3D 动作参考
-- [[open-source-game/croft-engine]] — Tomb Raider 1 引擎，3D 引擎架构参考
+- `open-source-game/croft-engine` — Tomb Raider 1 引擎，3D 引擎架构参考

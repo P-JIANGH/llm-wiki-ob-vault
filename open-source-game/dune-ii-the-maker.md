@@ -3,7 +3,7 @@ title: Dune II The Maker (D2TM)
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, dune, sdl2, cpp23]
+tags: [open-source, game, rts, sdl2]
 sources: [https://github.com/stefanhendriks/Dune-II---The-Maker]
 ---
 

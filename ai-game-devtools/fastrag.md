@@ -3,7 +3,7 @@ title: fastRAG
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [rag, llm, retrieval, intel, framework, haystack, python]
+tags: [rag, llm, intel, framework, python]
 sources: [raw/articles/ai-game-devtools/fastrag.md]
 ---
 

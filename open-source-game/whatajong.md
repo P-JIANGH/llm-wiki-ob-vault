@@ -3,7 +3,7 @@ title: Whatajong
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, puzzle, roguelike, solid-js, typescript, electron]
+tags: [open-source, game, puzzle, roguelike, typescript, electron]
 sources: [https://github.com/masylum/whatajong]
 ---
 
@@ -27,7 +27,7 @@ sources: [https://github.com/masylum/whatajong]
 ### 前端框架：Solid.js
 - 轻量级响应式 UI 框架（类 React 但编译时优化，无虚拟 DOM）
 - 细粒度响应式系统：createSignal/createEffect/createMemo
-- [[solid-js]] 对比 [[godot-4]]：前者是 Web UI 框架，后者是游戏引擎
+- `solid-js` 对比 [[godot-4]]：前者是 Web UI 框架，后者是游戏引擎
 
 ### 状态管理
 - 分散式状态模块：gameState/deckState/animationState/globalState/runState
@@ -45,7 +45,7 @@ sources: [https://github.com/masylum/whatajong]
 
 ### CSS 方案
 - Vanilla Extract CSS：编译时 CSS-in-TS，零运行时开销
-- [[vanilla-extract]] 对比 [[godot-animation-system]]：前者是 Web CSS 方案，后者是游戏引擎动画
+- `vanilla-extract` 对比 [[godot-animation-system]]：前者是 Web CSS 方案，后者是游戏引擎动画
 
 ### 其他依赖
 - Howler.js：音频播放

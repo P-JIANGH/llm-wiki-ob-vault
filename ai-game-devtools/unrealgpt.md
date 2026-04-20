@@ -9,15 +9,15 @@ sources: [raw/articles/ai-game-devtools/unrealgpt.md]
 
 # UnrealGPT — AI Agent Copilot for Unreal Engine
 
-[[UnrealGPT]] is an **AI-powered editor copilot plugin** for [[Unreal Engine 5.6]]. It runs as a dockable tab inside the UE editor, talks to OpenAI GPT models via the Responses API, and can **inspect and modify your Unreal project** using Python scripts, scene queries, screenshots, and external tools.
+[[UnrealGPT]] is an **AI-powered editor copilot plugin** for `Unreal Engine 5.6`. It runs as a dockable tab inside the UE editor, talks to OpenAI GPT models via the Responses API, and can **inspect and modify your Unreal project** using Python scripts, scene queries, screenshots, and external tools.
 
 ## Overview
 
-- **Type:** Editor + runtime [[Unreal Engine]] plugin
+- **Type:** Editor + runtime `Unreal Engine` plugin
 - **Author:** TREE Industries
 - **License:** Apache 2.0
-- **Engine:** [[Unreal Engine]] 5.6
-- **Category:** [[ai-model]] / `agent` / Game Development Tool
+- **Engine:** `Unreal Engine` 5.6
+- **Category:** `ai-model` / `agent` / Game Development Tool
 - **GitHub:** https://github.com/TREE-Ind/UnrealGPT
 
 ## Key Features

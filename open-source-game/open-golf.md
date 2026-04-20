@@ -3,7 +3,7 @@ title: Open Golf
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, sport, minigolf, cross-platform]
+tags: [open-source, game, sport, minigolf]
 sources: []
 ---
 

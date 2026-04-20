@@ -3,7 +3,7 @@ title: LLM Unity Integration
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [ai, llm, game-engine, integration, pattern]
+tags: [ai, llm, game-engine, integration]
 sources: []
 ---
 

@@ -3,7 +3,7 @@ title: EVF-SAM
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [vlm, multimodal, model, vision, segmentation, open-source]
+tags: [vlm, multimodal, model, vision, open-source]
 sources: [raw/articles/ai-game-devtools/evf-sam.md]
 ---
 

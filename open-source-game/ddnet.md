@@ -3,7 +3,7 @@ title: DDNet (DDraceNetwork)
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, platformer, cooperative, teeworlds-mod, racing, multiplayer]
+tags: [open-source, game, platformer, cooperative, racing, multiplayer]
 sources: [https://github.com/ddnet/ddnet]
 ---
 

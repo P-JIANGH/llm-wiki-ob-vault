@@ -3,7 +3,7 @@ title: SAM 2 (Segment Anything Model 2)
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai, tool, python, ml, open-source, vision, segmentation, computer-vision]
+tags: [ai, tool, python, ml, open-source, vision, computer-vision]
 sources: [raw/articles/ai-game-devtools/segment-anything-2.md]
 ---
 
@@ -14,7 +14,7 @@ SAM 2 (Segment Anything Model 2) is a foundation model by **Meta AI (FAIR)** for
 
 **GitHub:** https://github.com/facebookresearch/segment-anything-2
 **License:** Apache 2.0
-**Organization:** [[facebook-research]] (Meta FAIR)
+**Organization:** `facebook-research` (Meta FAIR)
 
 ## Architecture
 - **Transformer-based**: Simple transformer architecture with streaming memory

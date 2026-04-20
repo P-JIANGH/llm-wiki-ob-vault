@@ -3,7 +3,7 @@ title: Vchitect-2.0
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [video, diffusion, open-source, ai-model, tool]
+tags: [video, diffusion, open-source, tool]
 sources: [raw/articles/ai-game-devtools/vchitect-2-0.md]
 ---
 

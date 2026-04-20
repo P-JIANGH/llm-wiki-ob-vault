@@ -14,7 +14,7 @@ sources: [raw/articles/ai-game-devtools/longcat-flash.md]
 **URL:** https://github.com/meituan-longcat/LongCat-Flash-Chat
 
 ## Overview
-LongCat-Flash is a 560B parameter [[Mixture-of-Experts (MoE)]] language model with dynamic computation — activating 18.6B~31.3B parameters per token (averaging ~27B) based on context. The released **LongCat-Flash-Chat** is a non-thinking foundation model optimized for agentic tasks, supporting 128K context length and achieving competitive performance against DeepSeek V3.1 and Kimi K2.
+LongCat-Flash is a 560B parameter `Mixture-of-Experts (MoE)` language model with dynamic computation — activating 18.6B~31.3B parameters per token (averaging ~27B) based on context. The released **LongCat-Flash-Chat** is a non-thinking foundation model optimized for agentic tasks, supporting 128K context length and achieving competitive performance against DeepSeek V3.1 and Kimi K2.
 
 ## Architecture
 
@@ -61,11 +61,11 @@ Adapted for SGLang and vLLM inference backends.
 ## Relationships
 
 - Competitor to [[DeepSeek-V3]] (MoE architecture, 671B total)
-- Related to [[Kimi K2]] (MoE, 1T total params, agentic focus)
+- Related to `Kimi K2` (MoE, 1T total params, agentic focus)
 - Similar agent optimization approach as [[ChatDev]] multi-agent framework
 - MoE technique compared to [[DBRX]] (Databricks MoE)
 
 ## See Also
 
 - [[ai-game-devtools/cosmos]] — NVIDIA world model platform
-- [[ai-game-devtools/deepseek-r3]] — DeepSeek reasoning model
+- `ai-game-devtools/deepseek-r3` — DeepSeek reasoning model

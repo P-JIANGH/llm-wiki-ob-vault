@@ -3,7 +3,7 @@ title: BlockOut II
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, puzzle, 3d-puzzle]
+tags: [open-source, game, puzzle]
 sources: [raw/articles/blockout-ii-2026.md]
 ---
 

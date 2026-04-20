@@ -67,5 +67,5 @@ sources: [https://github.com/n64decomp/sm64]
 
 ## 相关页面
 
-- [[open-source-game/zelda-3]] — SNES 塞尔达传说反编译，另一个经典 2D→3D 过渡时期作品
+- `open-source-game/zelda-3` — SNES 塞尔达传说反编译，另一个经典 2D→3D 过渡时期作品
 - [[open-source-game/julius]] — Caesar III 反编译，城市建造游戏反编译代表

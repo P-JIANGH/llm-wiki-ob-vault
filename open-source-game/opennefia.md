@@ -3,7 +3,7 @@ title: OpenNefia
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, roguelike, elona, rpg, dotnet, moddable-engine]
+tags: [open-source, game, roguelike, rpg]
 sources: [https://github.com/OpenNefia/OpenNefia]
 ---
 

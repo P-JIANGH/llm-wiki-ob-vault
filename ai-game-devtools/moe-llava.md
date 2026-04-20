@@ -3,7 +3,7 @@ title: MoE-LLaVA
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, vlm, llm, open-source, mixture-of-experts, pku-yuangroup]
+tags: [vlm, llm, open-source, mixture-of-experts, pku-yuangroup]
 sources: [raw/articles/ai-game-devtools/moe-llava.md]
 ---
 
@@ -64,7 +64,7 @@ deepspeed --include localhost:0 moellava/serve/gradio_web_server.py \
 
 - [[minigpt-4]] — 高效 VLM 架构，另一条稀疏化路线
 - [[video-llava]] — 同团队 Video-LLaVA，视频多模态扩展
-- [[languagebind]] — 同团队 LanguageBind，多模态对齐框架
+- `languagebind` — 同团队 LanguageBind，多模态对齐框架
 - [[llama-3]] — LLaVA 的 LLM 基座来源
 - [[imagebind]] — Meta 多模态绑定研究
 

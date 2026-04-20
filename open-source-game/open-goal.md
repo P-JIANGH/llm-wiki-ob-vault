@@ -3,7 +3,7 @@ title: OpenGOAL (jak-project)
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, reverse-engineering, decompiler, lisp, ps2-port]
+tags: [open-source, game, reverse-engineering, decompiler, lisp]
 sources: []
 ---
 
@@ -94,5 +94,5 @@ GOAL 是 Naughty Dog 自研的 Lisp 方言（GAWS?），98% 游戏逻辑用 GOAL
 ## 相关页面
 
 - [[open-source-game/vvvvvv]] — 另一个纯重实现游戏（无引擎）
-- [[open-source-game/zelda-3]] — SNES 反编译项目，同类逆向工程方法论
+- `open-source-game/zelda-3` — SNES 反编译项目，同类逆向工程方法论
 - [[open-source-games-list]] — 开源游戏完整列表

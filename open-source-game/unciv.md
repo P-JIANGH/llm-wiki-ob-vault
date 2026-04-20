@@ -3,7 +3,7 @@ title: Unciv
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, 4x, android, desktop, kotlin]
+tags: [open-source, game, 4x, android, desktop, kotlin]
 sources: []
 ---
 

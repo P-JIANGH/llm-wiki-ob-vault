@@ -3,7 +3,7 @@ title: Devon
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai-model, tool, llm, code, open-source, agent]
+tags: [tool, llm, code, open-source, agent]
 sources: [raw/articles/ai-game-devtools/devon.md]
 ---
 

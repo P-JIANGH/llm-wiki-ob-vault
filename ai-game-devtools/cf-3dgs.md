@@ -3,7 +3,7 @@ title: CF-3DGS
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [ai-model, 3d, open-source, tool, vision]
+tags: [3d, open-source, tool, vision]
 sources: [raw/articles/ai-game-devtools/cf-3dgs.md]
 ---
 

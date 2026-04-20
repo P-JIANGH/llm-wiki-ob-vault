@@ -3,7 +3,7 @@ title: Fallout Community Edition
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rpg, isometric, fallout, clean-room, sdl2]
+tags: [open-source, game, rpg, clean-room, sdl2]
 sources: [https://github.com/alexbatalov/fallout1-ce]
 ---
 
@@ -81,6 +81,6 @@ sources: [https://github.com/alexbatalov/fallout1-ce]
 
 ## 关联项目
 
-- [[open-source-game/fallout-2-community-edition]] — Fallout 2 同期重实现
+- `open-source-game/fallout-2-community-edition` — Fallout 2 同期重实现
 - [[open-source-game/openmw]] — Morrowind 引擎重实现（同为 RPG 重实现参考）
 - [[open-source-game/openra]] — Westwood RTS 重实现（C&C/红警）

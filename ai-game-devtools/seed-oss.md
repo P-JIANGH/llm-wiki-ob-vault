@@ -3,7 +3,7 @@ title: Seed-OSS
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, ai-model, open-source, reasoning, agent, long-context]
+tags: [llm, open-source, reasoning, agent, long-context]
 sources: [raw/articles/ai-game-devtools/seed-oss.md]
 ---
 

@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/search-gpt.md]
 
 # SearchGPT
 
-A lightweight Node.js CLI tool that connects [[ChatGPT]] (GPT-3.5-turbo) to live Google Search results, enabling internet-aware AI responses beyond the model's training cutoff.
+A lightweight Node.js CLI tool that connects `ChatGPT` (GPT-3.5-turbo) to live Google Search results, enabling internet-aware AI responses beyond the model's training cutoff.
 
 ## Overview
 

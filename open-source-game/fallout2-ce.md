@@ -3,7 +3,7 @@ title: Fallout 2 Community Edition
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rpg, classic-reimplementation, cross-platform, c++]
+tags: [open-source, game, rpg]
 sources: [https://github.com/alexbatalov/fallout2-ce]
 ---
 

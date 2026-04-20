@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/llmunity.md]
 
 ## Overview
 
-LLM for Unity 让开发者无需网络请求即可在游戏内创建 AI NPC 对话系统。基于自研的 [[LlamaLib]]（封装 llama.cpp 的 C++/C# 库），支持 GGUF 格式模型本地加载，并内置 RAG 语义检索模块。
+LLM for Unity 让开发者无需网络请求即可在游戏内创建 AI NPC 对话系统。基于自研的 `LlamaLib`（封装 llama.cpp 的 C++/C# 库），支持 GGUF 格式模型本地加载，并内置 RAG 语义检索模块。
 
 ## Key Capabilities
 

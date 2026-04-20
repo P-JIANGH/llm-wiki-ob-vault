@@ -3,7 +3,7 @@ title: 3DTopia-XL
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, diffusion, ai-model, open-source, python, image-generation]
+tags: [3d, diffusion, open-source, python, image-generation]
 sources: [raw/articles/ai-game-devtools/3dtopia-xl.md]
 ---
 

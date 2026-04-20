@@ -52,4 +52,4 @@ Behaviac 专注**游戏AI行为编辑**，区别于通用LLM Agent框架如 [[ai
 
 - 官网: http://www.behaviac.com/
 - GitHub: https://github.com/Tencent/behaviac
-- 腾讯相关项目: [[ai-game-devtools/hunyuan-world-1.0]]（腾讯游戏AI相关）
+- 腾讯相关项目: `ai-game-devtools/hunyuan-world-1.0`（腾讯游戏AI相关）

@@ -3,7 +3,7 @@ title: OpenXcom
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, xcom, tactical-combat, sdl]
+tags: [open-source, game, xcom, tactical-combat]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

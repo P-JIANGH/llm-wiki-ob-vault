@@ -3,7 +3,7 @@ title: War1gus
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, rts, warcraft, stratagus-engine, re-implementation, classic-rts]
+tags: [open-source, rts, warcraft, re-implementation]
 sources: [https://github.com/Wargus/war1gus]
 ---
 

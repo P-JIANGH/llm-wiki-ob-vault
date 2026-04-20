@@ -3,7 +3,7 @@ title: Qwen2.5-Coder / Qwen3-Coder
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, llm, code-model, open-source, agent, multimodal]
+tags: [llm, code-model, open-source, agent, multimodal]
 sources: [raw/articles/ai-game-devtools/qwen2.5-coder.md]
 ---
 
@@ -47,7 +47,7 @@ Qwen3-Coder 是目前 Qwen 代码模型家族的最新代，专注于 **Coding A
 
 ## 与同类工具差异
 
-- **Qwen3-Coder vs [[CodeGen]] / [[CodeLlama]]**：Qwen3-Coder 以 Agentic Coding 为核心，在工具调用和多 Agent 协作场景更强
+- **Qwen3-Coder vs [[CodeGen]] / `CodeLlama`**：Qwen3-Coder 以 Agentic Coding 为核心，在工具调用和多 Agent 协作场景更强
 - **Qwen3-Coder vs [[DeepSeek-Coder]]**：两者性能接近，Qwen3-Coder 生态更广（支持更多 Agent 平台）
 - **Qwen3-Coder vs [[Qwen2]]**：Qwen3-Coder 是 Qwen2 的代码专项版本，在代码补全、执行、仓库理解上有显著优势
 

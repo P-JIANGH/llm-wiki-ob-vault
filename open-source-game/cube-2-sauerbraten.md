@@ -1,5 +1,5 @@
 ---
-title: Cube 2: Sauerbraten
+title: "Cube 2: Sauerbraten"
 created: 2026-04-09
 updated: 2026-04-09
 type: concept

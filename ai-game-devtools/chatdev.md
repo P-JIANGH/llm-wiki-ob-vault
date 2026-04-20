@@ -3,7 +3,7 @@ title: ChatDev 2.0 (DevAll)
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai, llm, agent, multi-agent, workflow, game-dev, zero-code, tool]
+tags: [ai, llm, agent, multi-agent, workflow, game-dev, tool]
 sources: [raw/articles/ai-game-devtools/chatdev.md]
 ---
 
@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/chatdev.md]
 
 ## Overview
 
-**ChatDev 2.0 (DevAll)** is a **Zero-Code Multi-Agent Platform** for "Developing Everything" by [OpenBMB](https://github.com/OpenBMB). It enables users to rapidly build and execute customized multi-agent systems through simple YAML configuration — no coding required. Users define agents, workflows, and tasks to orchestrate complex scenarios across data visualization, 3D generation, deep research, and [[game-dev]].
+**ChatDev 2.0 (DevAll)** is a **Zero-Code Multi-Agent Platform** for "Developing Everything" by [OpenBMB](https://github.com/OpenBMB). It enables users to rapidly build and execute customized multi-agent systems through simple YAML configuration — no coding required. Users define agents, workflows, and tasks to orchestrate complex scenarios across data visualization, 3D generation, deep research, and `game-dev`.
 
 The original ChatDev (v1.x) operated as a **Virtual Software Company**, using specialized agents (CEO, CTO, Programmer, Art Director, etc.) for automated end-to-end software development. That legacy version is preserved on the [`chatdev1.0`](https://github.com/OpenBMB/ChatDev/tree/chatdev1.0) branch.
 

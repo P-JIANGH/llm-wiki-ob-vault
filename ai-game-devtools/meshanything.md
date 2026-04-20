@@ -3,7 +3,7 @@ title: MeshAnything — Artist-Created Mesh Generation with Autoregressive Trans
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, tool, open-source, python]
+tags: [3d, tool, open-source, python]
 sources: [raw/articles/ai-game-devtools/meshanything.md]
 ---
 
@@ -70,15 +70,15 @@ python app.py  # Launches Gradio web UI
 ## Limitations
 
 - **Face count cap:** Cannot generate meshes with more than 800 faces (V1) due to training compute constraints
-- **Input quality:** Feed-forward 3D generation methods often produce bad results; best with 3D reconstruction, scanning, or SDS-based (e.g., [[ai-game-devtools/dreamcraft3d]]) inputs
+- **Input quality:** Feed-forward 3D generation methods often produce bad results; best with 3D reconstruction, scanning, or SDS-based (e.g., `ai-game-devtools/dreamcraft3d`) inputs
 - **Orientation:** Input mesh up vector should be +Y for best results
 - **Normalization:** Input is normalized to unit bounding box automatically
 
 ## Relationships
 
-- Built on ideas from [[ai-game-devtools/meshgpt]] (mesh tokenization + autoregressive generation)
-- Uses [[ai-game-devtools/michelangelo]] point cloud encoder as preprocessing
-- V2 successor: [[ai-game-devtools/meshanything-v2]] (1600 face limit, improved performance)
+- Built on ideas from `ai-game-devtools/meshgpt` (mesh tokenization + autoregressive generation)
+- Uses `ai-game-devtools/michelangelo` point cloud encoder as preprocessing
+- V2 successor: `ai-game-devtools/meshanything-v2` (1600 face limit, improved performance)
 - Related to [[ai-game-devtools/llama-mesh]] — also uses LLM architecture for 3D mesh generation
 - Related to [[ai-game-devtools/crm]] — alternative approach to 3D asset generation via multi-view diffusion
 

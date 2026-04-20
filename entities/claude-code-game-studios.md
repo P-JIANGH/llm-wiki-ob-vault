@@ -3,7 +3,7 @@ title: Claude Code Game Studios
 created: 2026-04-08
 updated: 2026-04-08
 type: entity
-tags: [project, workflow, agent, multi-agent, claude-code]
+tags: [project, workflow, agent, multi-agent]
 sources: [raw/articles/claude-code-game-studios-2026.md]
 aliases: ["claude-code-game-studio-directory-structure"]
 

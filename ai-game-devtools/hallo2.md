@@ -3,7 +3,7 @@ title: Hallo2
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [avatar, video, audio, diffusion, open-source, ai-model]
+tags: [avatar, video, audio, diffusion, open-source]
 sources: [raw/articles/ai-game-devtools/hallo2.md]
 ---
 

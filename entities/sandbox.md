@@ -3,7 +3,7 @@ title: sandbox
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [security, agent, isolation, architecture]
+tags: [agent, isolation, architecture]
 sources: [raw/articles/deer-flow-readme-2026.md]
 ---
 

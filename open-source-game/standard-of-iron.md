@@ -3,7 +3,7 @@ title: Standard of Iron
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, historical, c++, qt6, opengl, ecs]
+tags: [open-source, game, rts, historical, qt6, opengl, ecs]
 sources: []
 ---
 

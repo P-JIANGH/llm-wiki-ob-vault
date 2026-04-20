@@ -3,7 +3,7 @@ title: Baichuan-13B
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [llm, model, bilingual, open-source, china]
+tags: [llm, model, open-source]
 sources: [raw/articles/ai-game-devtools/baichuan-13b.md]
 ---
 

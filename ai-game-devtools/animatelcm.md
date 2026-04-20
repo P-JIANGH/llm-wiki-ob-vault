@@ -3,7 +3,7 @@ title: AnimateLCM
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [animation, video, diffusion, ai-model, open-source, tool, python]
+tags: [animation, video, diffusion, open-source, tool, python]
 sources: [raw/articles/ai-game-devtools/animatelcm.md]
 ---
 
@@ -56,7 +56,7 @@ sources: [raw/articles/ai-game-devtools/animatelcm.md]
 | **AnimateLCM** | 1-8 步 | 个性化视频生成 | 解耦训练，速度极快，支持 SD 生态插件 |
 | [[ai-game-devtools/animatediff]] | 20-50 步 | 通用文本到视频 | Motion Module 可插入任意 SD 模型，但速度慢 |
 | [[ai-game-devtools/stable-video-diffusion]] | 25 步 | 图像到视频 | Stability AI 官方 I2V 模型，AnimateLCM-SVD 基于此加速 |
-| [[ai-game-devtools/animatediff-lcm]] | 4-8 步 | 快速文本到视频 | AnimateDiff + LCM 结合方案 |
+| `ai-game-devtools/animatediff-lcm` | 4-8 步 | 快速文本到视频 | AnimateDiff + LCM 结合方案 |
 
 ## 技术栈
 - Python 3.9 / PyTorch 2.2.0 / diffusers 0.25.1

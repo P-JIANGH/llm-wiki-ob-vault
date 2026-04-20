@@ -3,7 +3,7 @@ title: Wyrmsun
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, rts, stratagus-engine, mythology, history, fantasy]
+tags: [open-source, rts, mythology, fantasy]
 sources: [https://github.com/Andrettin/Wyrmsun]
 ---
 
@@ -99,7 +99,7 @@ Battle for Wesnoth / 0 A.D. / Freeciv / Dungeon Crawl Stone Soup 模块
 | 数据/引擎分离 | 双仓库架构（Wyrmgus/Wyrmsun）使游戏内容与引擎独立演进，[[open-source-game/openra]] 的 Mod 机制同构 |
 | 命名系统 | 程序化人名 + 性格 trait 系统可用于 AI NPC 个性化生成 |
 | 持久英雄跨场景 | 长期状态保持机制（等级/技能/道具）对 AI 游戏存档设计有参考价值 |
-| 物品掉落随机性 | Normal/Magic/Unique 三层物品稀有度设计，[[open-source-game/cataclysm-dda]] 的物品系统可做对比 |
+| 物品掉落随机性 | Normal/Magic/Unique 三层物品稀有度设计，`open-source-game/cataclysm-dda` 的物品系统可做对比 |
 | 模块化内容集成 | modules/ 跨游戏集成模式可作为 AI 游戏"知识图谱扩展"的内容来源 |
 | 内置百科 | 游戏内 encyclopedia 可用于 AI 游戏世界观知识管理 |
 
@@ -107,6 +107,6 @@ Battle for Wesnoth / 0 A.D. / Freeciv / Dungeon Crawl Stone Soup 模块
 
 - [[open-source-game/war1gus]] — Warcraft I 重实现，同为 Stratagus 生态
 - [[open-source-game/wargus]] — Warcraft II 重实现，Stratagus + wartool 数据提取
-- [[open-source-game/battle-for-wesnoth]] — 高奇幻回合策略，Wyrmsun 模块化集成来源
+- `open-source-game/battle-for-wesnoth` — 高奇幻回合策略，Wyrmsun 模块化集成来源
 - [[open-source-game/0-ad]] — 历史古代战争 RTS，提供地图资源
 - [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike，提供内容集成

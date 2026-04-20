@@ -3,7 +3,7 @@ title: gstack
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai, agent, workflow, tool, claude-code]
+tags: [ai, agent, workflow, tool]
 sources: [raw/articles/gstack-garry-tan-2026.md]
 ---
 

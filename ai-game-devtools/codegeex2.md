@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/codegeex2.md]
 
 # CodeGeeX2
 
-**CodeGeeX2** 是 THUDM（清华大学 KEG）多语言代码生成模型 [[ai-game-devtools/codegeex]] 的第二代。基于 [[ai-game-devtools/chatglm2]] 架构，以 60 亿参数 + 600B 代码 token 预训练，多项基准超越 150 亿参数的 StarCoder-15B。最新一代为 [[ai-game-devtools/codegeex4]]。
+**CodeGeeX2** 是 THUDM（清华大学 KEG）多语言代码生成模型 [[ai-game-devtools/codegeex]] 的第二代。基于 `ai-game-devtools/chatglm2` 架构，以 60 亿参数 + 600B 代码 token 预训练，多项基准超越 150 亿参数的 StarCoder-15B。最新一代为 [[ai-game-devtools/codegeex4]]。
 
 ## 核心数据
 

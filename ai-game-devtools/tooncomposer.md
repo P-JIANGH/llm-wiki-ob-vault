@@ -3,7 +3,7 @@ title: ToonComposer
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [animation, video, tool, open-source, ai-model, diffusion]
+tags: [animation, video, tool, open-source, diffusion]
 sources: [raw/articles/ai-game-devtools/tooncomposer.md]
 ---
 

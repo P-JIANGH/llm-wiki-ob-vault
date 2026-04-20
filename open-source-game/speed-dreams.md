@@ -3,7 +3,7 @@ title: Speed Dreams
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, racing-sim, game, fork-of-torcs]
+tags: [open-source, game]
 sources: [https://forge.a-lec.org/xavi/speed-dreams-code]
 ---
 

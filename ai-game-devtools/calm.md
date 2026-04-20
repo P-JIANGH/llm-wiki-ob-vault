@@ -3,7 +3,7 @@ title: CALM
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [ai-model, avatar, animation, open-source, python]
+tags: [avatar, animation, open-source, python]
 sources: [raw/articles/ai-game-devtools/calm.md]
 ---
 

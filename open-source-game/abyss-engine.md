@@ -3,7 +3,7 @@ title: Abyss Engine
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, diablo, arpg, clean-room, engine]
+tags: [open-source, game, arpg, clean-room]
 sources: [https://github.com/AbyssEngine/AbyssEngine]
 ---
 

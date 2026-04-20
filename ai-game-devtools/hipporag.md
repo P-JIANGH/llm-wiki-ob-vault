@@ -3,7 +3,7 @@ title: HippoRAG
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [llm, rag, memory, knowledge-graph, retrieval, open-source, research, agent]
+tags: [llm, rag, memory, knowledge-graph, open-source, research, agent]
 sources: [raw/articles/ai-game-devtools/hipporag.md]
 ---
 

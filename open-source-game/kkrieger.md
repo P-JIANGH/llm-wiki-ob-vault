@@ -3,7 +3,7 @@ title: .kkrieger
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, first-person-shooter, farbrausch, tool-chain]
+tags: [open-source, game, fps, first-person-shooter, tool-chain]
 sources: [https://github.com/farbrausch/fr_public]
 ---
 

@@ -3,7 +3,7 @@ title: wipEout Rewrite
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, racing, psx-demake, retro-reimplementation]
+tags: [open-source, game, racing, retro-reimplementation]
 sources: [https://github.com/phoboslab/wipeout-rewrite]
 ---
 

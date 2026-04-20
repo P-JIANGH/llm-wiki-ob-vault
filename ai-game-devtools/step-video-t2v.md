@@ -3,7 +3,7 @@ title: Step-Video-T2V
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, diffusion, video, open-source, tool]
+tags: [diffusion, video, open-source, tool]
 sources: [raw/articles/ai-game-devtools/step-video-t2v.md]
 ---
 

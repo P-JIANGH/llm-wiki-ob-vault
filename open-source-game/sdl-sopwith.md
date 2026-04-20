@@ -3,7 +3,7 @@ title: SDL Sopwith
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, shoot-em-up, arcade, sdl2, retro, multiplayer]
+tags: [open-source, game, arcade, sdl2, retro, multiplayer]
 sources: [https://github.com/fragglet/sdl-sopwith]
 ---
 

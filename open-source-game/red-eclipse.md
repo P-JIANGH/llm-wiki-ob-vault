@@ -3,7 +3,7 @@ title: Red Eclipse
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, arena-shooter, parkour, tesseract-engine]
+tags: [open-source, game, fps, arena-shooter, tesseract-engine]
 sources: [https://github.com/redeclipse/base]
 ---
 
@@ -70,6 +70,6 @@ Red Eclipse 构建于 [Tesseract](http://tesseract.gg/) 引擎之上，该引擎
 
 ## 相关页面
 
-- [[open-source-game/sauerbraten]] — Cube 2 Engine 起源
-- [[open-source-game/assaultcube]] — CUBE Engine FPS
+- `open-source-game/sauerbraten` — Cube 2 Engine 起源
+- `open-source-game/assaultcube` — CUBE Engine FPS
 - [[open-source-game/xonotic]] — 同类竞技场射击对比

@@ -3,7 +3,7 @@ title: Interactive LLM Powered NPCs
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, game, llm, multimodal, open-source]
+tags: [tool, game, llm, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/interactive-llm-powered-npcs.md]
 ---
 
@@ -73,6 +73,6 @@ Webcam captures player's facial expressions via DeepFace, allowing NPCs to adapt
 
 - [[SadTalker]] — embedded facial animation submodule
 - [[LangChain]] — LLM agent framework powering the dialogue system
-- [[Generative Agents]] — Stanford generative agents project this builds upon
+- `Generative Agents` — Stanford generative agents project this builds upon
 - [[GameGen-O]] — Tencent's game world model for open-world game generation
-- [[CharacterGLM]] — character-focused language model for NPC dialogue
+- `CharacterGLM` — character-focused language model for NPC dialogue

@@ -3,7 +3,7 @@ title: HunyuanWorld 1.0
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, game-engine, 3d-generation, world-model, open-source]
+tags: [tool, game-engine, 3d-generation, world-model, open-source]
 sources: [raw/articles/ai-game-devtools/hunyuanworld-1.0.md]
 ---
 

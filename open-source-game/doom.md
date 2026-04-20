@@ -3,7 +3,7 @@ title: Doom (id Software)
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, retro, id-tech, shooter]
+tags: [open-source, game, fps, retro, shooter]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

@@ -3,7 +3,7 @@ title: ToolBench
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, agent, tool, open-source, openbmb]
+tags: [llm, agent, tool, open-source]
 sources: [raw/articles/ai-game-devtools/toolbench.md]
 ---
 

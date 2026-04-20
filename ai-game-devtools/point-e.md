@@ -3,7 +3,7 @@ title: Point·E — OpenAI 3D 点云生成系统
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, diffusion, open-source, ai-model, tool, multimodal]
+tags: [3d, diffusion, open-source, tool, multimodal]
 sources:
   - raw/articles/ai-game-devtools/point-e.md
 ---

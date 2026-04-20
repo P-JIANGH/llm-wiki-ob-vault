@@ -3,7 +3,7 @@ title: hermes-agent
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [framework, agent, python, nous-research, tool-calling, rl, mcp]
+tags: [framework, agent, python, nous-research, tool-calling, rl]
 sources: [raw/articles/hermes-agent-source-2026.md]
 ---
 
@@ -115,4 +115,4 @@ Identity + MemoryGuidance + SkillsGuidance + PlatformHints
 
 ## Related
 
-[[context-compression]] [[tool-registry-pattern]] [[openai-tool-calling]] [[agent-loop-architecture]] [[nous-research]]
+[[context-compression]] [[tool-registry-pattern]] [[openai-tool-calling]] [[agent-loop-architecture]] `nous-research`

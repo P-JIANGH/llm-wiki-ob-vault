@@ -3,7 +3,7 @@ title: reone
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game-engine, kotor, kotors, star-wars, clean-room, cpp]
+tags: [open-source, game-engine, clean-room, cpp]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

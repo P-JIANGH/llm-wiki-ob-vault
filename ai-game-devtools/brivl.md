@@ -3,7 +3,7 @@ title: BriVL
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, multimodal, vision-language, chinese-llm, open-source, tool]
+tags: [multimodal, vision-language, chinese-llm, open-source, tool]
 sources: [raw/articles/ai-game-devtools/brivl.md]
 ---
 

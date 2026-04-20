@@ -1,14 +1,15 @@
-# LlamaIndex
-aliases: ["LlamaIndex", "LlamaIndex"]
-
 ---
+
 title: LlamaIndex
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
 tags: [framework, ai, llm, tool, python, open-source, agent, workflow]
 sources: [raw/articles/ai-game-devtools/llama-index.md]
+aliases: ["LlamaIndex"]
 ---
+# LlamaIndex
+
 
 ## Overview
 

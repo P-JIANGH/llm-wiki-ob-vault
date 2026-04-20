@@ -3,7 +3,7 @@ title: NakedAVP
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, first-person-shooter, alien, predator, classic-game-port, sdl3, build-engine]
+tags: [open-source, game, fps, first-person-shooter, classic-game-port, build-engine]
 sources: [https://github.com/atsb/NakedAVP]
 ---
 

@@ -3,7 +3,7 @@ title: Qwen2
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, llm, open-source, agent, tool, multilingual, game-engine]
+tags: [llm, open-source, agent, tool, multilingual, game-engine]
 sources: [raw/articles/ai-game-devtools/qwen2.md, raw/articles/ai-game-devtools/qwen1.5.md]
 ---
 

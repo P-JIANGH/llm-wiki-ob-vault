@@ -3,7 +3,7 @@ title: Portal64 Still Alive
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, demake, n64, puzzle, platformer, portal]
+tags: [open-source, demake, n64, puzzle, platformer]
 sources: [https://github.com/mwpenny/portal64-still-alive]
 ---
 

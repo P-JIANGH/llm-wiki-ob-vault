@@ -96,7 +96,7 @@ From `CONTEXT.md`:
 - [[Auto-GPT]] — autonomous agent framework (code execution)
 - [[AgentGPT]] — browser-based agent deployment platform
 - [[LivePortrait]] — voice-driven avatar (related TTS/avatar tech)
-- [[Hugging Face API Unity Integration]] — Unity game engine AI integration pattern
+- `Hugging Face API Unity Integration` — Unity game engine AI integration pattern
 
 ## Safety
 

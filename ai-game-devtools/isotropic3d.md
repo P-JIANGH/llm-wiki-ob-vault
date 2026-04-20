@@ -3,7 +3,7 @@ title: Isotropic3D
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, open-source, tool, diffusion, python]
+tags: [3d, open-source, tool, diffusion, python]
 sources: [raw/articles/ai-game-devtools/isotropic3d.md]
 ---
 

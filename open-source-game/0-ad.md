@@ -3,7 +3,7 @@ title: "0 A.D. Empires Ascendant"
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, historical, c++, javascript, pyrogenesis]
+tags: [open-source, game, rts, historical, javascript, pyrogenesis]
 sources: [https://github.com/0ad/0ad]
 ---
 

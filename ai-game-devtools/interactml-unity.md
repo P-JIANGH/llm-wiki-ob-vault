@@ -3,7 +3,7 @@ title: InteractML-Unity
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, tool, game-engine, open-source, unity]
+tags: [tool, game-engine, open-source, unity]
 sources: [raw/articles/ai-game-devtools/interactml-unity.md]
 ---
 

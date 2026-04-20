@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/fastgpt.md]
 
 # FastGPT
 
-[[labring]] 出品的 **AI Agent 构建平台**，提供开箱即用的数据处理、模型调用能力，支持通过 Flow 可视化工作流编排实现复杂应用场景。
+`labring` 出品的 **AI Agent 构建平台**，提供开箱即用的数据处理、模型调用能力，支持通过 Flow 可视化工作流编排实现复杂应用场景。
 
 ## 概述
 
@@ -65,4 +65,4 @@ FastGPT 是一个企业级 LLM 应用开发平台，核心定位与 [[dify]] 类
 
 ## 相关项目
 
-同属 LLM 应用开发平台，对比 [[dify]]（可视化 Workflow + RAG + [[agent|Agent]]），FastGPT 更偏重开箱即用的企业级 Agent 编排场景。[[autogen]] 和 [[crewai]] 也属多 Agent 协作框架，但 FastGPT 更强调可视化 Flow 而非纯代码编排。
+同属 LLM 应用开发平台，对比 [[dify]]（可视化 Workflow + RAG + `agent`），FastGPT 更偏重开箱即用的企业级 Agent 编排场景。[[autogen]] 和 [[crewai]] 也属多 Agent 协作框架，但 FastGPT 更强调可视化 Flow 而非纯代码编排。

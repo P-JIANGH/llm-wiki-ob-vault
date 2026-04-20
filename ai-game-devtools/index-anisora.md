@@ -3,7 +3,7 @@ title: Index-AniSora
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [ai-model, video-generation, diffusion, open-source, animation]
+tags: [diffusion, open-source, animation]
 sources: [raw/articles/ai-game-devtools/index-anisora.md]
 ---
 

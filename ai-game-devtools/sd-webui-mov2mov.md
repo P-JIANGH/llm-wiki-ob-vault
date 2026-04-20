@@ -24,7 +24,7 @@ Mov2mov is a **video-to-video conversion plugin** for [[stable-diffusion-webui]]
 - **Keyframe compositing:** Dramatically reduces video flicker by processing only keyframes and interpolating between them
 - **Flexible keyframe selection:** Manual selection or auto-generation of keyframe positions
 - **Backpropel keyframe tag:** Propagates keyframe data backward for better consistency
-- **Ebsynth integration:** Uses [[ebsynth]]-style synthesis for smooth frame interpolation
+- **Ebsynth integration:** Uses `ebsynth`-style synthesis for smooth frame interpolation
 
 ## Technical Architecture
 
@@ -59,5 +59,5 @@ Unlike [[video2game]] which generates game environments from video, mov2mov tran
 
 ## Links
 - **GitHub:** https://github.com/Scholar01/sd-webui-mov2mov
-- **Related:** [[sd-webui-bg-mask]] (companion plugin)
+- **Related:** `sd-webui-bg-mask` (companion plugin)
 - **Tutorials:** Bilibili BV1Mo4y1a7DF, BV1rY4y1C7Q5

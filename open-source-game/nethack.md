@@ -3,7 +3,7 @@ title: NetHack
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, roguelike, dungeon-crawler, classic]
+tags: [open-source, game, roguelike, dungeon-crawler]
 sources: [https://github.com/NetHack/NetHack]
 ---
 

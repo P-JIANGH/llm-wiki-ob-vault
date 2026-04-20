@@ -3,7 +3,7 @@ title: Code Llama
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [llm, tool, open-source, code-generation, meta]
+tags: [llm, tool, open-source, code-generation]
 sources: [raw/articles/ai-game-devtools/code-llama.md]
 ---
 

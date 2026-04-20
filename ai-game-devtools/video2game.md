@@ -3,7 +3,7 @@ title: Video2Game
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, game, 3d, nerf, mesh, open-source, tool]
+tags: [game, 3d, nerf, mesh, open-source, tool]
 sources: [raw/articles/ai-game-devtools/video2game.md]
 ---
 
@@ -49,4 +49,4 @@ sources: [raw/articles/ai-game-devtools/video2game.md]
 
 ## 相关项目
 
-[[gamegen-o]] · [[genesis]] · [[hunyuanworld-1.0]] · [[gaussian-dreamer]]
+[[gamegen-o]] · [[genesis]] · [[hunyuanworld-1.0]] · `gaussian-dreamer`

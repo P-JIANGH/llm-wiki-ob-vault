@@ -3,7 +3,7 @@ title: HunyuanWorld-Voyager
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, game-engine, 3d-generation, world-model, video-generation, open-source]
+tags: [tool, game-engine, 3d-generation, world-model, open-source]
 sources: [raw/articles/ai-game-devtools/hunyuanworld-voyager.md]
 ---
 
@@ -28,15 +28,15 @@ sources: [raw/articles/ai-game-devtools/hunyuanworld-voyager.md]
 
 **两组件流水线：**
 
-1. **World-Consistent Video Diffusion**：基于 [[HunyuanVideo-I2V]] 架构的扩散模型，以现有世界观测为条件，联合生成对齐的 RGB 和深度视频序列
+1. **World-Consistent Video Diffusion**：基于 `HunyuanVideo-I2V` 架构的扩散模型，以现有世界观测为条件，联合生成对齐的 RGB 和深度视频序列
 2. **Long-Range World Exploration**：
    - 高效世界缓存（point culling）
    - 自回归推理 + 平滑视频采样
    - 上下文感知一致性实现迭代式场景扩展
 
 **Data Engine**：自动化视频重建流水线：
-- 相机位姿自动估计（类似 [[VGGT]]）
-- 度量深度预测（基于 [[Metric3D]]）
+- 相机位姿自动估计（类似 `VGGT`）
+- 度量深度预测（基于 `Metric3D`）
 - 真实视频 + Unreal Engine 渲染混合，100K+ 视频片段训练集
 
 ## Performance
@@ -79,6 +79,6 @@ WorldScore Benchmark（第1名）：
 
 - [[ai-game-devtools/hunyuanworld-1.0]] — 混元 1.0：文本/图像 → 360°全景图 → 分层3D mesh
 - [[ai-game-devtools/hunyuan-gamecraft]] — 混元游戏视频生成
-- [[ai-game-devtools/hunyuanvideo]] — 混元视频生成
+- `ai-game-devtools/hunyuanvideo` — 混元视频生成
 - [[ai-game-devtools/gamegen-o]] — 腾讯 GameGen-O 开放世界游戏视频生成
 - [[ai-game-devtools/genesis]] — Genesis 通用物理引擎

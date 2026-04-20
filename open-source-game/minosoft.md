@@ -3,7 +3,7 @@ title: Minosoft
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, minecraft-client, kotlin, java, protocol-implementation]
+tags: [open-source, game, minecraft-client, kotlin, java]
 sources: []
 ---
 
@@ -96,5 +96,5 @@ Minosoft 由三个核心模块组成：
 
 ## 相关页面
 
-- [[open-source-game/minecraft-client-comparison]] — Minecraft 客户端开源复刻对比
+- `open-source-game/minecraft-client-comparison` — Minecraft 客户端开源复刻对比
 - [[open-source-game/openmw]] — OpenMW（ Morrowind 引擎重实现，同为清洁室重实现参考）

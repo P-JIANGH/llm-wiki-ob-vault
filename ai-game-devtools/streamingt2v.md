@@ -3,7 +3,7 @@ title: StreamingT2V
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, tool, video-generation, open-source]
+tags: [tool, open-source]
 sources: [raw/articles/ai-game-devtools/streamingt2v.md]
 ---
 

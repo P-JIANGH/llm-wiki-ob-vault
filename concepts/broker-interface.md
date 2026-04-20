@@ -3,7 +3,7 @@ title: BrokerInterface Architecture
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [trading, broker, architecture, fintech]
+tags: [broker, architecture, fintech]
 sources: [local/FinceptTerminal/fincept-qt/src/trading/BrokerInterface.h]
 ---
 

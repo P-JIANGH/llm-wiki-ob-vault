@@ -3,7 +3,7 @@ title: Kandria
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, action-rpg, common-lisp, shirakumo]
+tags: [open-source, game, action-rpg]
 sources: [codeberg:shirakumo/kandria]
 ---
 
@@ -21,7 +21,7 @@ sources: [codeberg:shirakumo/kandria]
 | 渲染/引擎 | TRIAL 引擎 + alloy (OpenGL) |
 | 许可 | 专有 + 贡献条款 |
 | 平台 | AMD64/ARM64 (SBCL, 2GB+ heap) |
-| 依赖引擎 | [[open-source-game/trial]] (Shirakumo TRIAL) |
+| 依赖引擎 | `open-source-game/trial` (Shirakumo TRIAL) |
 
 ## 核心技术点
 
@@ -79,6 +79,6 @@ Shirakumo 的组件式游戏引擎，TRIAL 提供：
 
 ## 相关页面
 
-- [[open-source-game/trial]] — TRIAL 游戏引擎（Kandria 的底层）
+- `open-source-game/trial` — TRIAL 游戏引擎（Kandria 的底层）
 - [[open-source-game/frogatto]] — 同样使用模块化引擎架构的游戏
 - [[open-source-game/openmw]] — 另一个大型开源 RPG 引擎复刻项目

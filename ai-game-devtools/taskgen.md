@@ -3,7 +3,7 @@ title: TaskGen
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, agent, llm, open-source, workflow]
+tags: [tool, agent, llm, open-source, workflow]
 sources: [raw/articles/ai-game-devtools/taskgen.md]
 ---
 

@@ -3,7 +3,7 @@ title: Hurry Curry!
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, multiplayer, cooperative, cooking, godot, rust]
+tags: [open-source, game, multiplayer, cooperative, godot, rust]
 sources: [https://codeberg.org/hurrycurry/hurrycurry]
 ---
 

@@ -3,7 +3,7 @@ title: SkyReels V1
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [video, open-source, ai-model, diffusion, tool]
+tags: [video, open-source, diffusion, tool]
 sources: [raw/articles/ai-game-devtools/skyreels-v1.md]
 ---
 

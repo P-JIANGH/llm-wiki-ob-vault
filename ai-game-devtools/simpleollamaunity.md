@@ -77,4 +77,4 @@ Debug.Log(response);
 
 - [[ai-game-devtools/chatgpt-api-unity]] — Unity + OpenAI ChatGPT API 集成
 - [[ai-game-devtools/chatgptforunity]] — Unity C# 调用 OpenAI GPT-3.5/4
-- [[llm]] — LLM 通识页面
+- `llm` — LLM 通识页面

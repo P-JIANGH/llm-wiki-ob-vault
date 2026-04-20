@@ -41,4 +41,4 @@ sources: [raw/articles/ai-game-devtools/skywork-unipic.md]
 
 ## Relationships
 
-Part of the broader [[image-generation]] tool ecosystem. Uses [[diffusion]] paradigms (UniPic-2/3) alongside [[autoregressive]] modeling (UniPic-1). Compared to [[hunyuan-image-3-0]] and [[kolors]], UniPic emphasizes multi-image editing and distillation-based speedup.
+Part of the broader `image-generation` tool ecosystem. Uses `diffusion` paradigms (UniPic-2/3) alongside `autoregressive` modeling (UniPic-1). Compared to `hunyuan-image-3-0` and [[kolors]], UniPic emphasizes multi-image editing and distillation-based speedup.

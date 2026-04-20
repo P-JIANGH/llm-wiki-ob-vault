@@ -3,7 +3,7 @@ title: Ancient Beast
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, phaser, typescript]
+tags: [open-source, game, phaser, typescript]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 
@@ -74,5 +74,5 @@ src/
 ## 相关页面
 
 - [[open-source-game-engines-comparison]] — 开源游戏引擎横向对比
-- [[phaser-based-games]] — Phaser 引擎游戏合集
-- [[turn-based-strategy-games]] — 回合制策略游戏开源项目
+- `phaser-based-games` — Phaser 引擎游戏合集
+- `turn-based-strategy-games` — 回合制策略游戏开源项目

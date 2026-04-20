@@ -3,7 +3,7 @@ title: StoryDiffusion
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, image-generation, video, diffusion, open-source, tool]
+tags: [image-generation, video, diffusion, open-source, tool]
 sources: [raw/articles/ai-game-devtools/story-diffusion.md]
 ---
 
@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/story-diffusion.md]
 
 StoryDiffusion 是南开大学 HVision 团队提出的长程图像和视频一致性生成框架（NeurIPS 2024），核心创新为 **Consistent Self-Attention（一致性自注意力）** 机制，可在多张图片序列中保持角色/物体的一致性。同时包含运动预测模块，支持从条件图像序列生成连贯长视频。
 
-项目地址: [[https://github.com/HVision-NKU/StoryDiffusion]]
+项目地址: `https://github.com/HVision-NKU/StoryDiffusion`
 论文: arXiv 2405.01434
 项目主页: https://storydiffusion.github.io/
 

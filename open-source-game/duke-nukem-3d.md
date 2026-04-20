@@ -3,7 +3,7 @@ title: Duke Nukem 3D
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, build-engine, dos, 90s, reverse-engineering]
+tags: [open-source, game, fps, build-engine, dos, reverse-engineering]
 sources: []
 ---
 

@@ -88,5 +88,5 @@ Apache 2.0（代码）；模型受 LLaMA/Mistral/Qwen 许可证约束；非商�
 - GitHub: https://github.com/DAMO-NLP-SG/VideoLLaMA2
 - ArXiv: [2406.07476](https://arxiv.org/abs/2406.07476)
 - Demo: [HuggingFace Space](https://huggingface.co/spaces/lixin4ever/VideoLLaMA2)
-- 后续版本: [[ai-game-devtools/videollama3]]
+- 后续版本: `ai-game-devtools/videollama3`
 - 相关项目: [[ai-game-devtools/llava-onevision]], [[ai-game-devtools/qwen-vl]]

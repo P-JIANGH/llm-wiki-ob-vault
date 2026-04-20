@@ -15,7 +15,7 @@ Open-source desktop LLM frontend with character card system, supporting multiple
 
 anime.gf is a private & open-source Electron desktop application that provides a character-driven chat UI for LLMs. Users create "character cards" (persona definitions) and chat with them using configurable LLM backends. Early access alpha v0.0.1™® — positioned as "open source waifus on the desktop."
 
-The app is built with [[electron]] + [[React]] + [[TypeScript]], using [[tailwindcss]] for styling, [[better-sqlite3]] for local storage, and [[tRPC]] for type-safe IPC between the main and renderer processes.
+The app is built with `electron` + `React` + `TypeScript`, using `tailwindcss` for styling, `better-sqlite3` for local storage, and `tRPC` for type-safe IPC between the main and renderer processes.
 
 ## Features
 
@@ -67,7 +67,7 @@ The reply flow: `app.tsx` → user message → `reply.generate()` → `context.g
 
 ## License
 
-[[GNU AGPL v3]] — the full source code is available on GitHub.
+`GNU AGPL v3` — the full source code is available on GitHub.
 
 ## Connections
 

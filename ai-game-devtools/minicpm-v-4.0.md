@@ -3,7 +3,7 @@ title: MiniCPM-V 4.0 / MiniCPM-o
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai-model, vlm, multimodal, on-device, speech, open-source, llm]
+tags: [vlm, multimodal, on-device, speech, open-source, llm]
 sources: [raw/articles/ai-game-devtools/minicpm-v-4.0.md]
 ---
 

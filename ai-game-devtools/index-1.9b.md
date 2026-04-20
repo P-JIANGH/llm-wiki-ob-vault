@@ -3,14 +3,14 @@ title: Index-1.9B
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai-model, llm, chinese-llm, open-source, long-context]
+tags: [llm, chinese-llm, open-source, long-context]
 sources: [raw/articles/ai-game-devtools/index-1.9b.md]
 ---
 
 # Index-1.9B
 
 ## Overview
-Index-1.9B 是由[[Bilibili]] 开发的轻量级大语言模型系列，19亿非词嵌入参数，在2.8T 中英文语料上预训练。包含 Base、Pure、Chat、Character、32K 五个版本。其中 32K 版本以仅 1.9B 参数支持 32K 上下文长度，在长文本评测中甚至超越 7B 模型。
+Index-1.9B 是由`Bilibili` 开发的轻量级大语言模型系列，19亿非词嵌入参数，在2.8T 中英文语料上预训练。包含 Base、Pure、Chat、Character、32K 五个版本。其中 32K 版本以仅 1.9B 参数支持 32K 上下文长度，在长文本评测中甚至超越 7B 模型。
 
 ## Key Facts
 | Hyperparameter | Value |
@@ -32,7 +32,7 @@ Index-1.9B 是由[[Bilibili]] 开发的轻量级大语言模型系列，19亿非
 
 ## Architecture
 - Transformer 因果语言模型
-- [[RoPE]] (Rotary Position Embedding)，32K 版本 base = 32×10000
+- `RoPE` (Rotary Position Embedding)，32K 版本 base = 32×10000
 - Doc Packing 高效长文本训练
 - 两阶段训练：Continue Pre-Train (32K) → SFT (32K)
 - 32K 版本无 RLHF/DPO，专注于长上下文能力

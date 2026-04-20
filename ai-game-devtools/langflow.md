@@ -41,7 +41,7 @@ Langflow is a monorepo with three main layers:
 
 The **component system** is built on [[LangChain]]'s component model. Each component (e.g., LLM, retriever, tool) is a Python class with `display_name`, `description`, `inputs`, `outputs`. Components live in `src/backend/base/langflow/components/` and support hot reload during development via `LFX_DEV=1`.
 
-The **graph execution engine** uses [[NetworkX]] to represent flows as directed graphs, executing them via LangChain's chain abstraction.
+The **graph execution engine** uses `NetworkX` to represent flows as directed graphs, executing them via LangChain's chain abstraction.
 
 ## Tech Stack
 
@@ -78,4 +78,4 @@ make run_cli
 
 ## Game Development Relevance
 
-Langflow can orchestrate multi-step game AI pipelines — for example, connecting a character dialogue LLM → [[RAG]] retrieval over game lore → memory component → tool-calling for game state updates. Its [[MCP]] server export makes it particularly relevant for game engines (Unity/Unreal) that speak MCP to connect external AI services.
+Langflow can orchestrate multi-step game AI pipelines — for example, connecting a character dialogue LLM → `RAG` retrieval over game lore → memory component → tool-calling for game state updates. Its [[MCP]] server export makes it particularly relevant for game engines (Unity/Unreal) that speak MCP to connect external AI services.

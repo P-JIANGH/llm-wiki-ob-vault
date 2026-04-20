@@ -3,7 +3,7 @@ title: Stanford Alpaca
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, ai-model, tool, fine-tuning, instruction-following, open-source]
+tags: [llm, tool, fine-tuning, instruction-following, open-source]
 sources: [raw/articles/ai-game-devtools/stanford-alpaca.md]
 ---
 

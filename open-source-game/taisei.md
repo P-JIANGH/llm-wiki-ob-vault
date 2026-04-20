@@ -3,7 +3,7 @@ title: Taisei Project
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, danmaku, bullet-hell, stg, touhou, sdl3, opengl, c]
+tags: [open-source, game, danmaku, bullet-hell, stg, touhou, opengl, c]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

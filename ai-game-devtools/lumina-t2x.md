@@ -3,7 +3,7 @@ title: Lumina-T2X
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, diffusion, image-generation, video-generation, music-generation, text-to-image, text-to-video, text-to-audio, text-to-music, open-source, llm]
+tags: [diffusion, image-generation, text-to-image, text-to-video, text-to-audio, text-to-music, open-source, llm]
 sources: [raw/articles/ai-game-devtools/lumina-t2x.md]
 ---
 
@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/lumina-t2x.md]
 
 Lumina-T2X 是 [[OpenGVLab]]（上海人工智能研究院）开发的基于 **Flow-based 大规模 Diffusion Transformer** 的多模态文本条件生成模型家族。核心架构为 **Flag-DiT**，支持最高 70 亿参数和 128K token 序列长度，能够将文本描述转换为图像、视频、3D 点云、语音和音乐。
 
-该框架已发表两篇论文（ICLR 2025 Spotlight / NeurIPS 2024），并在 [[Hugging Face Diffusers]] 中得到官方支持。
+该框架已发表两篇论文（ICLR 2025 Spotlight / NeurIPS 2024），并在 `Hugging Face Diffusers` 中得到官方支持。
 
 ## Key Facts
 
@@ -54,7 +54,7 @@ Lumina-T2X 是 [[OpenGVLab]]（上海人工智能研究院）开发的基于 **F
 
 - 与 [[DeepSeek-V3]] 同为多模态生成模型，但 Lumina-T2X 专注于 DiT 架构
 - 与 [[Stable Diffusion]] 同为图像生成模型，但 Lumina-T2X 使用 Flow Matching 而非 DDPM
-- 与 [[Large World Model (LWM)]] 同为长上下文多模态模型（128K token）
+- 与 `Large World Model (LWM)` 同为长上下文多模态模型（128K token）
 - Lumina-mGPT 版本与 [[llama-3]] 类似，都支持文本和图像处理
 
 ## Repository

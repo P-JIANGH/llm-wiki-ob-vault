@@ -3,7 +3,7 @@ title: Omnispeak
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, platformer, reverse-engineering, classic-reimplementation]
+tags: [open-source, game, platformer, reverse-engineering]
 sources: []
 ---
 

@@ -3,14 +3,14 @@ title: ExAvatar — Expressive Whole-Body 3D Gaussian Avatar
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [avatar, 3d, open-source, ai-model, python]
+tags: [avatar, 3d, open-source, python]
 sources: [raw/articles/ai-game-devtools/exavatar.md]
 ---
 
 # ExAvatar — Expressive Whole-Body 3D Gaussian Avatar
 
 ## Overview
-ExAvatar 是 ECCV 2024 发表的**全身可驱动 3D 高斯角色**项目，由 Gyeongsik Moon（前 Meta 研究员）在离开 Meta 后重新实现。它将 [[SMPL-X|ai-game-devtools/smpl-x]] 全身（身体+手部+面部）参数化模型的可驱动性与 [[3D Gaussian Splatting|ai-game-devtools/cf-3dgs]] 的强大外观建模能力相结合，从单目视频（手机拍摄）创建高保真、可动画的 3D 人类 Avatar。
+ExAvatar 是 ECCV 2024 发表的**全身可驱动 3D 高斯角色**项目，由 Gyeongsik Moon（前 Meta 研究员）在离开 Meta 后重新实现。它将 `SMPL-X` 全身（身体+手部+面部）参数化模型的可驱动性与 `3D Gaussian Splatting` 的强大外观建模能力相结合，从单目视频（手机拍摄）创建高保真、可动画的 3D 人类 Avatar。
 
 ## 核心技术
 - **3DGS 外观建模：** 修改版 diff-gaussian-rasterization（支持深度图+mask 渲染），结合 SMPL-X + FLAME 参数驱动

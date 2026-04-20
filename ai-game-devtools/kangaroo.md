@@ -3,7 +3,7 @@ title: Kangaroo
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai-model, vlm, video-understanding, multimodal, open-source]
+tags: [vlm, video-understanding, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/kangaroo.md]
 ---
 

@@ -13,7 +13,7 @@ LLaMA (Large Language Model Meta AI) is a series of foundational large language 
 
 ## Overview
 
-LLaMA was designed as a general-purpose base model trained on publicly available data. Unlike prior generation models that focused on closed weights, Meta released LLaMA with a research-focused license, enabling the open-source community to build fine-tuned derivatives like [[alpaca]], [[vicuna]], and [[chinese-llama-alpaca-3]]. The series has grown from LLaMA 1 (7B–65B) through LLaMA 2 (7B–70B), LLaMA 3 (8B–70B), and LLaMA 3.1 (8B–405B), with each generation expanding parameter range, context window, and training data quality.
+LLaMA was designed as a general-purpose base model trained on publicly available data. Unlike prior generation models that focused on closed weights, Meta released LLaMA with a research-focused license, enabling the open-source community to build fine-tuned derivatives like `alpaca`, [[vicuna]], and [[chinese-llama-alpaca-3]]. The series has grown from LLaMA 1 (7B–65B) through LLaMA 2 (7B–70B), LLaMA 3 (8B–70B), and LLaMA 3.1 (8B–405B), with each generation expanding parameter range, context window, and training data quality.
 
 ## Key Facts
 

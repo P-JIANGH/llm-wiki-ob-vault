@@ -3,7 +3,7 @@ title: The Legend of Zelda Twilight Princess — Reverse Engineering
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, reverse-engineering, gamecube, wii, zelda, decompilation]
+tags: [open-source, game, reverse-engineering, gamecube, wii, decompilation]
 sources: [https://github.com/zeldaret/tp]
 ---
 

@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/datarus-jupyter-agent.md]
 
 # Datarus Jupyter Agent
 
-An autonomous data science agent powered by [[Datarus-R1-14B-Preview]], a 14B parameter model fine-tuned from [[Qwen-2.5-14B-Instruct]]. Executes complex analytical workflows with step-by-step reasoning, automatic error recovery, and Jupyter notebook integration inside isolated Docker containers.
+An autonomous data science agent powered by `Datarus-R1-14B-Preview`, a 14B parameter model fine-tuned from `Qwen-2.5-14B-Instruct`. Executes complex analytical workflows with step-by-step reasoning, automatic error recovery, and Jupyter notebook integration inside isolated Docker containers.
 
 ## Overview
 

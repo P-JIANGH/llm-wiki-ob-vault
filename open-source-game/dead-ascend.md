@@ -3,7 +3,7 @@ title: Dead Ascend
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, qt, qml, adventure, puzzle]
+tags: [open-source, game, qt, adventure, puzzle]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

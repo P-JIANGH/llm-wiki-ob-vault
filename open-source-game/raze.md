@@ -93,4 +93,4 @@ Raze 本身是引擎而非游戏，需要配合原版游戏资源文件（WAD）
 
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比
 - [[open-source-games-list]] — 开源游戏列表总览
-- [[raze-vs-eduke32]] — Raze vs EDuke32 技术对比（TODO）
+- `raze-vs-eduke32` — Raze vs EDuke32 技术对比（TODO）

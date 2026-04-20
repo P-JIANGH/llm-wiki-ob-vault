@@ -3,7 +3,7 @@ title: DevilutionX
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, arpg, diablo, reverse-engineering, network-multiplayer]
+tags: [open-source, game, arpg, reverse-engineering]
 sources: [https://github.com/diasurgical/devilutionX]
 ---
 

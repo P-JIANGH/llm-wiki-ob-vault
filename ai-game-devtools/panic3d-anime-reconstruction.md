@@ -3,7 +3,7 @@ title: PAniC-3D — 动漫角色肖像单视图3D重建
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, open-source, avatar, diffusion, python]
+tags: [3d, open-source, avatar, diffusion, python]
 sources: [raw/articles/ai-game-devtools/panic3d-anime-reconstruction.md]
 ---
 

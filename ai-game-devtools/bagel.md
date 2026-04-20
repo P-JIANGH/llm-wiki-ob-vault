@@ -3,7 +3,7 @@ title: BAGEL
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, vlm, multimodal, image-generation, image-editing, world-modeling, open-source]
+tags: [vlm, multimodal, image-generation, image-editing, world-modeling, open-source]
 sources: [raw/articles/ai-game-devtools/bagel.md]
 ---
 

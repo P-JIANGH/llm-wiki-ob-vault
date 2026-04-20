@@ -3,7 +3,7 @@ title: Open-Sora
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [video, ai-model, open-source, tool, diffusion]
+tags: [video, open-source, tool, diffusion]
 sources: [raw/articles/ai-game-devtools/open-sora.md]
 ---
 

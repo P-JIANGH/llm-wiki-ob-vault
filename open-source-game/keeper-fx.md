@@ -3,7 +3,7 @@ title: KeeperFX
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, dungeon-keeper, rts, god-game, c-cpp]
+tags: [open-source, game, rts, god-game]
 sources: [https://github.com/dkfans/keeperfx]
 ---
 

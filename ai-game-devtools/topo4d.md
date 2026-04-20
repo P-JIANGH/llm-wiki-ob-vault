@@ -3,7 +3,7 @@ title: Topo4D
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [3d, avatar, ai-model, open-source, python, gaussian-splatting]
+tags: [3d, avatar, open-source, python, gaussian-splatting]
 sources: [raw/articles/ai-game-devtools/topo4d.md]
 ---
 

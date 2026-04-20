@@ -3,7 +3,7 @@ title: "GeneFace++"
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [avatar, 3d, audio, ai-model, open-source, python, tool]
+tags: [avatar, 3d, audio, open-source, python, tool]
 sources: [raw/articles/ai-game-devtools/geneface-plus-plus.md]
 ---
 

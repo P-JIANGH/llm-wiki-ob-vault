@@ -3,7 +3,7 @@ title: Freeserf.net
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, city-building, settlers, csharp]
+tags: [open-source, game, rts, city-building, csharp]
 sources: [https://github.com/Pyrdacor/freeserf.net]
 ---
 

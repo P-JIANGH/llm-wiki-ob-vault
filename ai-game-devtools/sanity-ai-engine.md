@@ -3,7 +3,7 @@ title: Sanity AI Engine
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [tool, game, ai-model, open-source]
+tags: [tool, game, open-source]
 sources: [raw/articles/ai-game-devtools/sanity-ai-engine.md]
 ---
 

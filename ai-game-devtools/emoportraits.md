@@ -3,7 +3,7 @@ title: EMOPortraits
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [avatar, ai-model, open-source, python, multimodal, diffusion]
+tags: [avatar, open-source, python, multimodal, diffusion]
 sources: [raw/articles/ai-game-devtools/emoportraits.md]
 ---
 
@@ -21,7 +21,7 @@ Paper: [arXiv 2404.19110](https://arxiv.org/abs/2404.19110) | [Project Page](htt
 
 ### Two-Stage Pipeline
 1. **Stage 1 — Basic Volumetric Avatar**: Constructs a 3D volumetric representation from a single source image using a volumetric avatar model (VA). Encodes head pose, expression, and appearance into a latent space.
-2. **Stage 2 — Emotion Enhancement**: Refines the avatar with emotion-specific details, incorporating the latent emotion space trained on the [[FEED dataset|ai-game-devtools/feed-dataset]] (though this page doesn't exist yet, we note the relationship).
+2. **Stage 2 — Emotion Enhancement**: Refines the avatar with emotion-specific details, incorporating the latent emotion space trained on the `FEED dataset` (though this page doesn't exist yet, we note the relationship).
 
 ### Key Components
 - **Volumetric Avatar Network**: 3D-aware head representation with pose regression
@@ -31,7 +31,7 @@ Paper: [arXiv 2404.19110](https://arxiv.org/abs/2404.19110) | [Project Page](htt
 
 ### Training Setup
 - **Primary Dataset**: VoxCeleb2 HQ (high-quality version, no longer publicly available)
-- **Emotion Dataset**: [[FEED|https://github.com/neeek2303/FEED]] — extreme and asymmetric facial expressions
+- **Emotion Dataset**: `FEED` — extreme and asymmetric facial expressions
 - **Secondary Dataset**: MEAD — additional facial diversity
 - **Framework**: PyTorch with DDP (up to 8 GPUs) or Apex parallel training
 - **Logging**: Weights & Biases (wandb)

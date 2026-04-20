@@ -3,7 +3,7 @@ title: Exult
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rpg, ultraclone, infinity-engine]
+tags: [open-source, game, rpg]
 sources: []
 ---
 

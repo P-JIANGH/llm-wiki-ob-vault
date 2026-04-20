@@ -3,7 +3,7 @@ title: IntrinsicAvatar
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [ai-model, open-source, 3d, avatar]
+tags: [open-source, 3d, avatar]
 sources: [raw/articles/ai-game-devtools/intrinsic-avatar.md]
 ---
 

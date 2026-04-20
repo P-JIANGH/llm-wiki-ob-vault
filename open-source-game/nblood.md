@@ -3,7 +3,7 @@ title: NBlood
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, build-engine, blood, exhumed, redneck-rampage, duke-nukem-3d]
+tags: [open-source, game, fps, build-engine, blood, duke-nukem-3d]
 sources: [https://github.com/NBlood/NBlood]
 ---
 

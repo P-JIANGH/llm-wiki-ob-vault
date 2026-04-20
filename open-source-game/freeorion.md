@@ -3,7 +3,7 @@ title: FreeOrion
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, 4x, space, empire]
+tags: [open-source, game, 4x, space, empire]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

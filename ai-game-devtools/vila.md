@@ -3,13 +3,13 @@ title: VILA
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [vlm, video-understanding, multi-image, model, open-source, nvidia]
+tags: [vlm, video-understanding, model, open-source, nvidia]
 sources: [raw/articles/ai-game-devtools/vila.md]
 ---
 
 # VILA: Optimized Vision Language Models
 
-[[NVlabs]] 出品的开源 VLM 家族，专注于视频理解与多图理解的效率与精度优化。历经 VILA1.0 → VILA1.5 → NVILA(VILA2.0) → LongVILA 多代迭代，2025年1月并入 NVIDIA Cosmos Nemotron 系列。
+`NVlabs` 出品的开源 VLM 家族，专注于视频理解与多图理解的效率与精度优化。历经 VILA1.0 → VILA1.5 → NVILA(VILA2.0) → LongVILA 多代迭代，2025年1月并入 NVIDIA Cosmos Nemotron 系列。
 
 ## 核心模型
 
@@ -27,7 +27,7 @@ sources: [raw/articles/ai-game-devtools/vila.md]
 - **交织图像-文本预训练**（interleaved image-text pretraining）支撑多图 VLM
 - **上下文学习**（in-context learning）能力
 - **3 阶段训练流程**：对齐（CC3M）→ 预训练（MMC4+Coyo）→ SFT（M3IT/FLAN/ShareGPT4V）
-- VILA1.5 的 40B 版本使用 [[InternVL]] 的 InternViT 视觉编码器
+- VILA1.5 的 40B 版本使用 `InternVL` 的 InternViT 视觉编码器
 - [[TinyChatEngine]] 边缘部署（A100/4090/Orin）— NVILA-8B-TinyChat 在 4090 上达 162.7 tok/s
 - 支持 TensorRT-LLM 生产推理
 - FastAPI 服务，OpenAI SDK 兼容接口
@@ -49,9 +49,9 @@ sources: [raw/articles/ai-game-devtools/vila.md]
 
 ## 相关项目
 
-- [[OmniVinci]] (2025/7) — 视觉-音频联合理解 omni-modal LLM，基于 VILA
-- [[Long-RL]] (2025/7) — 长视频 RL 训练框架
-- [[VILA-U]] — 统一视频/图像/语言理解+生成
+- `OmniVinci` (2025/7) — 视觉-音频联合理解 omni-modal LLM，基于 VILA
+- `Long-RL` (2025/7) — 长视频 RL 训练框架
+- `VILA-U` — 统一视频/图像/语言理解+生成
 - [[TinyChatEngine]] — NVL Lab/Han Lab 端侧推理引擎，VILA 是其支持的 VLM 之一
 - [[Cambrian-1]] — NYU 开源 VLM，576 固定视觉 tokens vs VILA 的方案
 

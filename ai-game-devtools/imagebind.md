@@ -3,7 +3,7 @@ title: ImageBind
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai-model, multimodal, open-source]
+tags: [multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/imagebind.md]
 ---
 

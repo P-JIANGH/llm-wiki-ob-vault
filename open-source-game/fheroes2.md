@@ -3,7 +3,7 @@ title: fheroes2
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, heroes-of-might-and-magic, clean-room, sdl2]
+tags: [open-source, game, heroes-of-might-and-magic, clean-room, sdl2]
 sources: [https://github.com/ihhub/fheroes2]
 ---
 

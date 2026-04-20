@@ -3,7 +3,7 @@ title: Qwen-VL
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai-model, vlm, multimodal, open-source, chinese, qwen, alibaba]
+tags: [vlm, multimodal, open-source, chinese, alibaba]
 sources: [raw/articles/ai-game-devtools/qwen-vl.md]
 ---
 

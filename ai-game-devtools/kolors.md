@@ -3,7 +3,7 @@ title: Kolors
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, tool, open-source, image-generation, diffusion, multimodal]
+tags: [tool, open-source, image-generation, diffusion, multimodal]
 sources: [raw/articles/ai-game-devtools/kolors.md]
 ---
 

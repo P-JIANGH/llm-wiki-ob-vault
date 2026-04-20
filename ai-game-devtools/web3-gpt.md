@@ -3,7 +3,7 @@ title: Web3GPT
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai, llm, agent, tool, web3, nextjs, typescript]
+tags: [ai, llm, agent, tool, nextjs, typescript]
 sources: [raw/articles/ai-game-devtools/web3-gpt.md]
 ---
 

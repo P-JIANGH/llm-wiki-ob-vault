@@ -35,7 +35,7 @@ Assistant CLI enables users to interact with ChatGPT without a web browser — b
 
 ## Architecture
 
-The CLI leverages [[Electron]] for browser automation to authenticate with ChatGPT's web service. Rather than using the official OpenAI API (which requires a paid API key), it scrapes the free ChatGPT web interface. The electron layer handles the session cookies and authentication tokens, while the CLI provides a clean terminal interface.
+The CLI leverages `Electron` for browser automation to authenticate with ChatGPT's web service. Rather than using the official OpenAI API (which requires a paid API key), it scrapes the free ChatGPT web interface. The electron layer handles the session cookies and authentication tokens, while the CLI provides a clean terminal interface.
 
 ### Core Dependencies
 

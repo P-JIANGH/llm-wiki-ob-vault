@@ -3,7 +3,7 @@ title: OpenMW
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rpg, engine, c++]
+tags: [open-source, game, rpg]
 sources: [https://github.com/OpenMW/openmw]
 ---
 

@@ -3,7 +3,7 @@ title: JFShadowWarrior
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, build-engine, 3d-realms, cross-platform, sdl2, openGL]
+tags: [open-source, game, fps, build-engine, sdl2, openGL]
 sources: []
 ---
 

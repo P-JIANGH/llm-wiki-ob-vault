@@ -3,7 +3,7 @@ title: LaVague
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, tool, agent, web-automation, open-source]
+tags: [tool, agent, web-automation, open-source]
 sources: [raw/articles/ai-game-devtools/la-vague.md]
 ---
 

@@ -3,7 +3,7 @@ title: Chocolate Doom
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, retro, doom-engine, source-port, preservation]
+tags: [open-source, game, fps, retro, doom-engine, source-port]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

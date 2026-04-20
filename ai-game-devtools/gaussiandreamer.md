@@ -3,7 +3,7 @@ title: GaussianDreamer
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [ai-model, 3d, open-source, tool, diffusion]
+tags: [3d, open-source, tool, diffusion]
 sources: [raw/articles/ai-game-devtools/gaussiandreamer.md]
 ---
 

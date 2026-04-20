@@ -3,7 +3,7 @@ title: DeerFlow-Sandbox
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [sandbox, agent, security, architecture]
+tags: [sandbox, agent, architecture]
 sources: [modules:sandbox/sandbox.py+sandbox/tools.py+sandbox/security.py+sandbox/local/local_sandbox.py]
 ---
 

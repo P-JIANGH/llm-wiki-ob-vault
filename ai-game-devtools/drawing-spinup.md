@@ -3,7 +3,7 @@ title: DrawingSpinUp
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [3d, animation, image-generation, open-source, ai-model, tool]
+tags: [3d, animation, image-generation, open-source, tool]
 sources: [raw/articles/ai-game-devtools/drawing-spinup.md]
 ---
 

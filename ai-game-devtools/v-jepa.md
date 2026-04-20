@@ -3,7 +3,7 @@ title: V-JEPA
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, vision, video, self-supervised, open-source]
+tags: [vision, video, self-supervised, open-source]
 sources: [raw/articles/ai-game-devtools/v-jepa.md]
 ---
 

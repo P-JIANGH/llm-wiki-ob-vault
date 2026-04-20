@@ -19,8 +19,8 @@ GPT4All 采用分层架构：
 
 | 组件 | 技术栈 | 说明 |
 |------|--------|------|
-| [[gpt4all-chat]] | Qt / QML | 跨平台桌面聊天客户端 |
-| [[gpt4all-backend]] | C/C++ + llama.cpp | 推理后端，CPU/GPU 推理引擎 |
+| `gpt4all-chat` | Qt / QML | 跨平台桌面聊天客户端 |
+| `gpt4all-backend` | C/C++ + llama.cpp | 推理后端，CPU/GPU 推理引擎 |
 | Python 绑定 | pybind11 / llmodel C-API | `pip install gpt4all` |
 | TypeScript 绑定 | Node.js | Web/Node 环境支持 |
 
@@ -56,7 +56,7 @@ GPT4All 可用于游戏中的本地 LLM 推理场景：
 | 工具 | 定位 | UI | 游戏集成 |
 |------|------|-----|---------|
 | [[ai-game-devtools/llama-cpp]] | 纯 C++ 推理引擎 | 无 | 嵌入游戏进程 |
-| [[ai-game-devtools/ollama]] | CLI 本地模型管理 | CLI + API | Docker 集成 |
+| `ai-game-devtools/ollama` | CLI 本地模型管理 | CLI + API | Docker 集成 |
 | **GPT4All** | **完整应用平台** | **桌面 GUI** | **Python 绑定嵌入** |
 
 ## 许可证

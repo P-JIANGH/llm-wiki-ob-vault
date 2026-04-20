@@ -3,7 +3,7 @@ title: Vitron
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [vlm, vision-llm, image-generation, video-generation, image-segmentation, video-segmentation, image-editing, video-editing, neurips, open-source]
+tags: [vlm, vision-llm, image-generation, image-segmentation, video-segmentation, image-editing, video-editing, open-source]
 sources: [raw/articles/ai-game-devtools/vitron.md]
 ---
 

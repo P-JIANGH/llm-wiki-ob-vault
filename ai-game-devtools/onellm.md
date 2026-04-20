@@ -3,7 +3,7 @@ title: OneLLM
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, vlm, multimodal, cvpr, open-source]
+tags: [vlm, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/onellm.md]
 ---
 

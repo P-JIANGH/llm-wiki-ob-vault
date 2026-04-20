@@ -3,7 +3,7 @@ title: ECWolf
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, source-port, wolfenstein, raycasting, sdl]
+tags: [open-source, game, fps, source-port, wolfenstein, raycasting]
 sources: []
 ---
 

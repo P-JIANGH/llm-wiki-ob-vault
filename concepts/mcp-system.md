@@ -3,7 +3,7 @@ title: MCP System
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [mcp, llm, agent, cpp]
+tags: [llm, agent, cpp]
 sources: [local/FinceptTerminal/fincept-qt/src/mcp/McpTypes.h, McpManager.h]
 aliases: [MCP, Model Context Protocol]
 ---

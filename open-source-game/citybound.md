@@ -3,7 +3,7 @@ title: Citybound
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, city-builder, simulation, rust, actor-model]
+tags: [open-source, game, city-builder, simulation, rust]
 sources: [https://github.com/citybound/citybound]
 ---
 

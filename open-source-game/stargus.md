@@ -3,7 +3,7 @@ title: Stargus
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, stratagus, starcraft, asset-extraction]
+tags: [open-source, game, rts, stratagus, starcraft]
 sources: []
 ---
 

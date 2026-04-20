@@ -3,7 +3,7 @@ title: Matrix-Game — Skywork AI 交互式游戏世界模型
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, open-source, game-engine, multimodal]
+tags: [tool, open-source, game-engine, multimodal]
 sources: [raw/articles/ai-game-devtools/matrix-game.md]
 ---
 

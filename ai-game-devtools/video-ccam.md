@@ -58,7 +58,8 @@ model = AutoModel.from_pretrained("JaronTHU/Video-CCAM-7B-v1.2",
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 image_processor = AutoImageProcessor.from_pretrained(model_path)
 
-messages = [['role': 'user', 'content': '<video>\n描述视频内容。']]
+messages = `'role': 'user', 'content': '<video>
+描述视频内容。'`
 images = [load_decord('video.mp4', sample_type='uniform', num_frames=32)]
 response = videoccam.chat(messages, images, tokenizer, image_processor, max_new_tokens=512)
 ```

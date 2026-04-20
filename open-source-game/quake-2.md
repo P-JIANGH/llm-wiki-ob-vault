@@ -3,7 +3,7 @@ title: Quake 2
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, fps, id-software, 3d-engine]
+tags: [open-source, game, fps, id-software]
 sources: []
 ---
 
@@ -83,4 +83,4 @@ Quake 2 采用 **ref_soft**（软件渲染）和 **ref_gl**（OpenGL）双渲染
 - [[open-source-game/quake]] — Quake 1 (1996)
 - [[open-source-game/doom]] — Doom (1997)
 - [[open-source-game/doom-3-bfg]] — Doom 3 / id Tech 4
-- [[open-source-game/quake-3-arena]] — Quake 3 Arena (2001)
+- `open-source-game/quake-3-arena` — Quake 3 Arena (2001)

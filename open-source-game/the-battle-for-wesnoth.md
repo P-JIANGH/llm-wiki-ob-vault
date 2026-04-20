@@ -3,7 +3,7 @@ title: The Battle for Wesnoth
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, fantasy, rts]
+tags: [open-source, game, fantasy, rts]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 
@@ -31,7 +31,7 @@ Wesnoth 最具特色的设计：**游戏内容完全由 WML（Wesnoth Markup Lan
 - WML 定义单位属性、战役剧情、地形类型、AI 行为、GUI 界面
 - 战役脚本（`.cfg`）控制叙事分支、触发事件、单位部署
 - 这使非程序员也能创作完整战役——社区拥有数百个自制战役
-- [[open-source-game/wesnoth]] 的 WML 系统类似于 [[open-source-game/OpenRA]] 的 lua 脚本层，但更成熟
+- `open-source-game/wesnoth` 的 WML 系统类似于 [[open-source-game/OpenRA]] 的 lua 脚本层，但更成熟
 
 ### Lua 脚本扩展
 Lua 用于高级逻辑，补充 WML 的局限性：

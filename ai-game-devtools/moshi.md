@@ -3,7 +3,7 @@ title: Moshi
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, speech, audio, open-source, multimodal]
+tags: [speech, audio, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/moshi.md]
 ---
 

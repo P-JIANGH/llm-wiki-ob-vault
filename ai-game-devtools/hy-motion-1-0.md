@@ -3,7 +3,7 @@ title: HY-Motion 1.0
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [ai-model, tool, open-source, animation, diffusion]
+tags: [tool, open-source, animation, diffusion]
 sources: [raw/articles/ai-game-devtools/hy-motion-1-0.md]
 ---
 

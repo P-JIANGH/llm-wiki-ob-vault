@@ -3,7 +3,7 @@ title: Lumina-mGPT
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, autoregressive, image-generation, multimodal, vlm, open-source]
+tags: [autoregressive, image-generation, multimodal, vlm, open-source]
 sources: [raw/articles/ai-game-devtools/lumina-mgpt.md]
 ---
 

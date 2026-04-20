@@ -3,7 +3,7 @@ title: LLaVA++
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [vlm, multimodal, vision-language-model, llm, open-source, mbzuai]
+tags: [vlm, multimodal, llm, open-source, mbzuai]
 sources: [raw/articles/ai-game-devtools/llava-plus-plus.md]
 aliases: ["LLaVA++"]
 
@@ -63,5 +63,5 @@ Visual language models like LLaVA++ can power **in-game NPC dialogue with visual
 
 - [[LLaVA]] — the base framework LLaVA++ extends
 - [[MiniGPT-4]] — another LLaVA-derived VLM
-- [[Phi-3-mini]] — Microsoft's underlying Phi-3 LLM
-- [[LLaMA-3-Instruct]] — Meta's underlying LLaMA-3 model
+- `Phi-3-mini` — Microsoft's underlying Phi-3 LLM
+- `LLaMA-3-Instruct` — Meta's underlying LLaMA-3 model

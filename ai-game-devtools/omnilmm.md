@@ -3,7 +3,7 @@ title: OmniLMM
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, vlm, llm, multimodal, on-device, speech, open-source]
+tags: [vlm, llm, multimodal, on-device, speech, open-source]
 sources: [raw/articles/ai-game-devtools/omnilmm.md]
 ---
 

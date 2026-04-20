@@ -3,7 +3,7 @@ title: StoryMem
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, video, diffusion, open-source, llm]
+tags: [video, diffusion, open-source, llm]
 sources: [raw/articles/ai-game-devtools/storymem.md]
 ---
 

@@ -3,7 +3,7 @@ title: OmniGen2
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, image-generation, open-source, multimodal]
+tags: [image-generation, open-source, multimodal]
 sources: [raw/articles/ai-game-devtools/omnigen2.md]
 ---
 

@@ -3,7 +3,7 @@ title: Bisheng
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai, llm, agent, workflow, enterprise, tool]
+tags: [ai, llm, agent, workflow, tool]
 sources: [raw/articles/ai-game-devtools/bisheng.md]
 ---
 
@@ -41,7 +41,7 @@ Uses the [AGL](https://github.com/dataelement/AgentGuidanceLanguage) (Agent Guid
 
 ## Architecture
 
-Built on top of [[LangChain]], [[LangFlow]], [[Unstructured]], and [[LLaMA-Factory]].
+Built on top of [[LangChain]], [[LangFlow]], `Unstructured`, and `LLaMA-Factory`.
 
 Key modules:
 - `bisheng/chat/` — Conversation and chat management

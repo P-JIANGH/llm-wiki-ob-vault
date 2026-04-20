@@ -3,7 +3,7 @@ title: CharacterGLM-6B
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [llm, agent, tool, ai-model, open-source]
+tags: [llm, agent, tool, open-source]
 sources: [raw/articles/ai-game-devtools/character-glm-6b.md]
 ---
 

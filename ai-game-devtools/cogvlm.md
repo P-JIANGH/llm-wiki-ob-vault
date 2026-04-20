@@ -49,7 +49,7 @@ aliases: ["CogVLM2"]
 ## Key Capabilities
 
 1. **Multi-round visual dialogue** — conversational image understanding
-2. **Visual grounding** — returns bounding box coordinates [[x1,y1,x2,y2]] for mentioned objects
+2. **Visual grounding** — returns bounding box coordinates `x1,y1,x2,y2` for mentioned objects
 3. **GUI Agent (CogAgent)** — plan inference, next action prediction, coordinate-based operations on any GUI screenshot
 4. **OCR enhancements** — improved pre-training for text recognition in images
 5. **OpenAI Vision API compatibility** — drop-in replacement for GPT-4V API calls

@@ -3,7 +3,7 @@ title: InstructHumans
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, avatar, texture, ai-model, open-source]
+tags: [3d, avatar, texture, open-source]
 sources: [raw/articles/ai-game-devtools/instruct-humans.md]
 ---
 

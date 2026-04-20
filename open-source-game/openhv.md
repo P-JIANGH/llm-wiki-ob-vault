@@ -3,7 +3,7 @@ title: OpenHV
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, openra, mod, miniyaml]
+tags: [open-source, game, rts, openra, mod]
 sources: [https://github.com/OpenHV/OpenHV]
 ---
 

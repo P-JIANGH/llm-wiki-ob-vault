@@ -3,7 +3,7 @@ title: Open Source Game Engines Comparison
 created: 2026-04-08
 updated: 2026-04-08
 type: comparison
-tags: [comparison, engine, godot, bevy, unity, open-source, games]
+tags: [comparison, godot, bevy, unity, open-source]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

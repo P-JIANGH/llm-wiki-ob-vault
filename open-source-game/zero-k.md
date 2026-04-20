@@ -3,7 +3,7 @@ title: Zero-K
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rts, spring-engine, lua, physics-projectile]
+tags: [open-source, game, rts, spring-engine, lua]
 sources: [https://github.com/ZeroK-RTS/Zero-K]
 ---
 

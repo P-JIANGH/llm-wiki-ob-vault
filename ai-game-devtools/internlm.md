@@ -3,7 +3,7 @@ title: InternLM
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, ai-model, open-source]
+tags: [llm, open-source]
 sources: [raw/articles/ai-game-devtools/internlm.md]
 ---
 

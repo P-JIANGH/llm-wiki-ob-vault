@@ -3,7 +3,7 @@ title: Janus — DeepSeek Unified Multimodal Model
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, multimodal, vlm, image-generation, deepseek, open-source]
+tags: [multimodal, vlm, image-generation, deepseek, open-source]
 sources: [raw/articles/ai-game-devtools/janus.md]
 ---
 

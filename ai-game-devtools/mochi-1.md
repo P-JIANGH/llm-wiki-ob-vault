@@ -3,7 +3,7 @@ title: Mochi 1
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [video, diffusion, open-source, ai-model, image-generation]
+tags: [video, diffusion, open-source, image-generation]
 sources: [raw/articles/ai-game-devtools/mochi-1.md]
 ---
 

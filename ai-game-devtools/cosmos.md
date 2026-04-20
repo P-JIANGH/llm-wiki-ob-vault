@@ -3,7 +3,7 @@ title: NVIDIA Cosmos
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [ai-model, tool, multimodal, open-source]
+tags: [tool, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/cosmos.md]
 ---
 

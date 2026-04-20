@@ -30,15 +30,25 @@ Add new tags here BEFORE using them.
 **Topics:**
 - project, architecture, backend, frontend, database, devops, infra, api, framework
 - ai, llm, ml, agent, workflow, multimodal, vision, vlm, game-engine
+- game, game-dev, game-genre, simulation, multiplayer, retro, modding
+- multi-agent, reasoning, rag, evaluation, benchmark, fine-tuning, rlhf, distillation, quantization, moe, world-model, inference, on-device, edge, long-context
+- vision-language, speech, computer-vision, semantic-search, vector-database, autonomous
 
 **Tools & Tech:**
-- tool, cli, script, automation, script
+- tool, cli, script, automation
 - netsuite, oracle, flowable, prisma, nextjs, python, typescript, docker
 - rust, tauri, desktop-app, semantic-search, code, code-generation, code-completion
 - image-generation, diffusion, autoregressive, flow-matching, 3d, video, audio, music, avatar, animation
+- unity, godot, sdl2, bevy, panda3d, phaser, idtech, stratagus, ogre-next
+- cpp, java, csharp, lua, javascript, kotlin, go, c, rust, objective-c, cython, lisp, webassembly
+- electron, mobile, android, wasm, qt, qt6, blender
+
+**Organizations:**
+- organization, company, research-lab, university
+- chinese-llm, open-source-game
 
 **Open Source & Licensing:**
-- open-source
+- open-source, community-edition
 
 **Meta:**
 - notes, learning, how-to, reference, decision, retrospective, tip, pitfall

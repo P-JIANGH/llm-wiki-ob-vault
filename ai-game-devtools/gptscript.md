@@ -10,7 +10,7 @@ sources: [raw/articles/ai-game-devtools/gptscript.md]
 # GPTScript
 
 ## Overview
-GPTScript is an open-source framework by [[Acorn Labs]] that enables LLMs to interact with and operate various external systems — from local executables to OpenAPI services, SDK libraries, and RAG-based applications. It provides a unified way to connect LLM agents to real-world tools and data.
+GPTScript is an open-source framework by `Acorn Labs` that enables LLMs to interact with and operate various external systems — from local executables to OpenAPI services, SDK libraries, and RAG-based applications. It provides a unified way to connect LLM agents to real-world tools and data.
 
 ## Key Facts
 
@@ -65,7 +65,7 @@ Scripts use the `.gpt` file extension and define tools, prompts, and LLM interac
 
 ## Comparison to Similar Tools
 
-GPTScript is conceptually similar to [[OpenAI GPTs]] but as a self-hosted, open-source alternative focused on system integration rather than chat assistants. Compared to [[Auto-GPT]], GPTScript is more lightweight and focused on tool-calling rather than autonomous agentic reasoning loops.
+GPTScript is conceptually similar to `OpenAI GPTs` but as a self-hosted, open-source alternative focused on system integration rather than chat assistants. Compared to [[Auto-GPT]], GPTScript is more lightweight and focused on tool-calling rather than autonomous agentic reasoning loops.
 
 ## Related Links
 

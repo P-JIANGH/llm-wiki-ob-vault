@@ -3,7 +3,7 @@ title: GeneAvatar — Generic Expression-Aware Volumetric Head Avatar Editing
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [avatar, 3d, ai-model, open-source, python, multimodal]
+tags: [avatar, 3d, open-source, python, multimodal]
 sources: [raw/articles/ai-game-devtools/geneavatar.md]
 ---
 

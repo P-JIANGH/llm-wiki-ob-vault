@@ -3,7 +3,7 @@ title: Athena Crisis
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, turn-based-strategy, javascript, typescript, monorepo, game-engine]
+tags: [open-source, javascript, typescript, game-engine]
 sources: [raw/articles/athena-crisis-source.md]
 ---
 

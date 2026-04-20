@@ -99,5 +99,5 @@ AIOS can serve as the **agent infrastructure layer** for AI-driven game NPCs and
 
 - [[ai-command]] — Unity plugin for AI command integration in game engines
 - [[autogen]] — Microsoft multi-agent framework supported by AIOS
-- [[openagi]] — OpenAGI agent framework integrated with AIOS
+- `openagi` — OpenAGI agent framework integrated with AIOS
 - [[agentgpt]] — browser-based autonomous agent platform (similar paradigm)

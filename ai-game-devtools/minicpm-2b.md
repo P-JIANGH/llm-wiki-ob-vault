@@ -3,7 +3,7 @@ title: MiniCPM-2B
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, llm, open-source, edge-inference, china, multi-agent]
+tags: [llm, open-source, edge-inference, multi-agent]
 sources: [raw/articles/ai-game-devtools/minicpm-2b.md]
 aliases: ["MiniCPM-2B"]
 

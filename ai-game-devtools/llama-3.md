@@ -3,7 +3,7 @@ title: Llama 3
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, model, meta, open-source, game-dev, text-generation]
+tags: [llm, model, open-source, game-dev]
 sources: [raw/articles/ai-game-devtools/llama-3.md]
 aliases: ["Meta-Llama-3"]
 

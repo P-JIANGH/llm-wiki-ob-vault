@@ -3,7 +3,7 @@ title: VisualRWKV
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [vlm, vision, rwkv, multimodal, open-source, game-dev]
+tags: [vlm, vision, multimodal, open-source, game-dev]
 sources: [raw/articles/ai-game-devtools/visualrwkv.md]
 ---
 
@@ -68,4 +68,4 @@ v7.0 系列在同量级下全面超越 v6，尤其在 VQAv2 和 ScienceQA 上提
 
 - [[chatrwkv]] — RWKV 纯文本对话界面，VisualRWKV 的基础
 - [[RWKV-LM]] — RWKV 主仓库
-- [[vlm]] — 视觉语言模型概念页面
+- `vlm` — 视觉语言模型概念页面

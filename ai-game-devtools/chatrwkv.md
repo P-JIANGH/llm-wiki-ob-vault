@@ -3,7 +3,7 @@ title: ChatRWKV
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [llm, rwkv, rnn, language-model, inference, open-source, game-dev]
+tags: [llm, rnn, language-model, inference, open-source, game-dev]
 sources: [raw/articles/ai-game-devtools/chatrwkv.md]
 ---
 
@@ -76,5 +76,5 @@ RWKV 的 RNN 特性非常适合游戏场景：
 
 - [[RWKV-LM]] — 主训练/微调仓库
 - `@BlinkDL/temp` — HuggingFace 最新 RWKV-7 模型
-- [[rwkv-cpp]] — C++ CPU 推理实现
-- [[ai00-rwkv-server]] — Vulkan 推理 API 服务器
+- `rwkv-cpp` — C++ CPU 推理实现
+- `ai00-rwkv-server` — Vulkan 推理 API 服务器

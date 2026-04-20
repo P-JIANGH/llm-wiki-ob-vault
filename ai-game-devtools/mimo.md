@@ -3,7 +3,7 @@ title: MIMO
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, video, diffusion, avatar, open-source, tool]
+tags: [video, diffusion, avatar, open-source, tool]
 sources: [raw/articles/ai-game-devtools/mimo.md]
 ---
 

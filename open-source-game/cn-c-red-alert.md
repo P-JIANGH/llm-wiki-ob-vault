@@ -3,7 +3,7 @@ title: CnC Red Alert (1996)
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, rts, ea, westwood, isometric, tile-based, dos-era]
+tags: [open-source, rts, ea, westwood]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

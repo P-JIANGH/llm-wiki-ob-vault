@@ -3,7 +3,7 @@ title: 3D-LLM — Injecting the 3D World into Large Language Models
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, llm, ai-model, multimodal, vision, open-source, python]
+tags: [3d, llm, multimodal, vision, open-source, python]
 sources: [raw/articles/ai-game-devtools/3d-llm.md]
 ---
 

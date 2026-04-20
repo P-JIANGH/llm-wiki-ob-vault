@@ -52,4 +52,4 @@ Unlike game engines like [[ai-game-devtools/biomes]] (voxel web game) or agent f
 
 ## Related Concepts
 
-Genesis's MPM solver draws from [[ai-game-devtools/fluidlab|FluidLab]] concepts; its rendering builds on [[LuisaRender]]. It competes with NVIDIA [[OmniGibson]] for embodied AI simulation and pairs with data generation workflows from [[ai-game-devtools/agent-laboratory|Agent Laboratory]].
+Genesis's MPM solver draws from `ai-game-devtools/fluidlab` concepts; its rendering builds on `LuisaRender`. It competes with NVIDIA `OmniGibson` for embodied AI simulation and pairs with data generation workflows from [[ai-game-devtools/agent-laboratory|Agent Laboratory]].

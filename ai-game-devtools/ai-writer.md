@@ -3,7 +3,7 @@ title: AI-Writer
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai-model, tool, llm, open-source]
+tags: [tool, llm, open-source]
 sources: [raw/articles/ai-game-devtools/ai-writer.md]
 aliases: ["AIWriter"]
 

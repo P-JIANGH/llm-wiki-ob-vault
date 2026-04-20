@@ -3,7 +3,7 @@ title: MetaGPT
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, tool, multi-agent, llm, open-source, game-engine]
+tags: [tool, multi-agent, llm, open-source, game-engine]
 sources: [raw/articles/ai-game-devtools/metagpt.md]
 ---
 

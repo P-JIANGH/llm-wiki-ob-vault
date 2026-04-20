@@ -3,7 +3,7 @@ title: MotionLLM
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [vlm, multimodal, model, motion, video-understanding, open-source]
+tags: [vlm, multimodal, model, video-understanding, open-source]
 sources: [raw/articles/ai-game-devtools/motionllm.md]
 ---
 

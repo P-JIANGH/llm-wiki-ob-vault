@@ -62,7 +62,7 @@ UnityGen AI 是一个 Unity Editor 插件，允许开发者在编辑器内通过
 
 ## 与同类工具差异
 
-相较于 [[chatgpt-api-unity]]（异步 ChatGPT API 客户端）和 [[llm-unity]]（基于 llama.cpp 的本地推理），UnityGen AI 是少数提供完整编辑器 UI 的 AI 代码生成方案。但相比 [[starcoder]] 等现代代码模型工具，其使用的 text-davinci 系列已落后，且缺乏本地推理能力。与 [[codegeex4]] 等代码专用模型相比，UnityGen AI 深度集成 Unity 编辑器，但模型能力较弱。
+相较于 [[chatgpt-api-unity]]（异步 ChatGPT API 客户端）和 `llm-unity`（基于 llama.cpp 的本地推理），UnityGen AI 是少数提供完整编辑器 UI 的 AI 代码生成方案。但相比 [[starcoder]] 等现代代码模型工具，其使用的 text-davinci 系列已落后，且缺乏本地推理能力。与 [[codegeex4]] 等代码专用模型相比，UnityGen AI 深度集成 Unity 编辑器，但模型能力较弱。
 
 ## 相关链接
 

@@ -3,7 +3,7 @@ title: Claude Code Game Studio Collaboration Protocol
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [workflow, collaboration, decision-making, design, protocol]
+tags: [workflow, collaboration, decision-making, protocol]
 sources: [raw/articles/claude-code-game-studios-2026.md]
 ---
 

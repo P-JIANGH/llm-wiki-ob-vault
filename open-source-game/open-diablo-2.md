@@ -3,7 +3,7 @@ title: OpenDiablo2
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, arpg, diablo, go, engine]
+tags: [open-source, game, arpg, go]
 sources: [https://github.com/OpenDiablo2/OpenDiablo2]
 ---
 

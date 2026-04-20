@@ -3,7 +3,7 @@ title: GIFfusion — Stable Diffusion GIF & Video Generator
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai, tool, image-generation, video-generation, diffusion, open-source, python]
+tags: [ai, tool, image-generation, diffusion, open-source, python]
 sources: [raw/articles/ai-game-devtools/giffusion.md]
 ---
 

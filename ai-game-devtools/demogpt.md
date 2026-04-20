@@ -3,7 +3,7 @@ title: DemoGPT
 created: 2026-04-13
 updated: 2026-04-13
 type: entity
-tags: [llm, tool, agent, langchain, streamlit, rag, autonomous-agent, open-source]
+tags: [llm, tool, agent, streamlit, rag, autonomous-agent, open-source]
 sources: [raw/articles/ai-game-devtools/demogpt.md]
 ---
 
@@ -15,7 +15,7 @@ An autonomous AI agent framework for **auto-generative AI application generation
 
 DemoGPT takes a natural-language instruction (e.g., "create a weather app") and a title, then auto-generates a working [[Streamlit]] app. It also includes **DemoGPT AgentHub** — a standalone library for building custom AI agents with tools, RAG, and React-style reasoning.
 
-**License:** [[MIT]] | **Python:** ^3.8.1 | **Version:** 1.3.6
+**License:** `MIT` | **Python:** ^3.8.1 | **Version:** 1.3.6
 
 ## Core Pipeline
 
@@ -72,7 +72,7 @@ demogpt_agenthub/    # Reusable agent library
 
 - **Framework:** [[LangChain]] >=0.3,<1
 - **UI:** [[Streamlit]]
-- **RAG:** [[Chroma]] (langchain-chroma)
+- **RAG:** `Chroma` (langchain-chroma)
 - **LLM:** OpenAI API via langchain-openai
 - **Tools:** Tavily, Wikipedia, Arxiv, YouTube, StackOverflow, Pubmed
 - **Parsing:** unstructured, pdf2image, pdfminer-six

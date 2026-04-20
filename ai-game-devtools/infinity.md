@@ -73,6 +73,6 @@ Checkpoints on HuggingFace; see repo for specific terms.
 - Video (InfinityStar): https://github.com/FoundationVision/InfinityStar
 
 ## Relationships
-- Part of [[ai-game-devtools/catalyst]] research lineage (FoundationVision/CVPR)
+- Part of `ai-game-devtools/catalyst` research lineage (FoundationVision/CVPR)
 - Alternative approach to diffusion-based generators like [[ai-game-devtools/flux]] — uses autoregressive bitwise prediction instead of flow matching
 - Complements [[ai-game-devtools/stable-diffusion-webui]] as a model that could be integrated into existing UI workflows

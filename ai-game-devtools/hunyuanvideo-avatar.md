@@ -3,7 +3,7 @@ title: HunyuanVideo-Avatar
 created: 2026-04-19
 updated: 2026-04-19
 type: entity
-tags: [ai-model, avatar, video, audio, multimodal, open-source, tool]
+tags: [avatar, video, audio, multimodal, open-source, tool]
 sources: [raw/articles/ai-game-devtools/hunyuanvideo-avatar.md]
 ---
 

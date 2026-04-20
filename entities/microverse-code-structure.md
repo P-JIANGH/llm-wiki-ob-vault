@@ -3,7 +3,7 @@ title: Microverse Code Structure
 created: 2026-04-08
 updated: 2026-04-08
 type: entity
-tags: [microverse, code, architecture, godot]
+tags: [code, architecture, godot]
 sources: []
 ---
 

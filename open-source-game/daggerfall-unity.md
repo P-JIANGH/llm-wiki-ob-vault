@@ -3,7 +3,7 @@ title: Daggerfall Unity
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, rpg, unity, elder-scrolls, recreation]
+tags: [open-source, game, rpg, unity]
 sources: [https://github.com/Interkarma/daggerfall-unity]
 ---
 

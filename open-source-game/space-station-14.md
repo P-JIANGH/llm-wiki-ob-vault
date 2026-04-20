@@ -3,7 +3,7 @@ title: Space Station 14
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, ss13, ss14, multiplayer, c-sharp]
+tags: [open-source, game, ss13, ss14, multiplayer]
 sources: [https://github.com/space-wizards/space-station-14]
 ---
 

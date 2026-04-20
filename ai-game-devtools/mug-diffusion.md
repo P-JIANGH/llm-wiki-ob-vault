@@ -50,6 +50,6 @@ MuG Diffusion is an AI-powered charting tool for rhythm games, built by **Keytoy
 
 ## Community
 
-- Supported by [[Malody]] development team financially
+- Supported by `Malody` development team financially
 - Training dataset transparency: public chart list at mugdiffusion.keytoix.vip/dataset.html
 - QQ Group 548470510 for discussion

@@ -3,7 +3,7 @@ title: AgentBench
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai-model, benchmark, agent, llm, evaluation, game]
+tags: [benchmark, agent, llm, evaluation, game]
 sources: [raw/articles/ai-game-devtools/agentbench.md]
 aliases: ["AgentBench"]
 
@@ -15,13 +15,13 @@ LLM agent benchmark evaluating models across 8 diverse environments — OS, data
 
 ## Overview
 
-**AgentBench** (THUDM, 2023) is the first benchmark designed to evaluate [[LLM]]s as autonomous agents in real-world-style environments. Unlike static NLP benchmarks, it requires models to interact with live systems — executing bash commands, running SQL queries, browsing the web, and playing games — where success depends on planning, tool use, and iterative reasoning.
+**AgentBench** (THUDM, 2023) is the first benchmark designed to evaluate `LLM`s as autonomous agents in real-world-style environments. Unlike static NLP benchmarks, it requires models to interact with live systems — executing bash commands, running SQL queries, browsing the web, and playing games — where success depends on planning, tool use, and iterative reasoning.
 
 The benchmark has two major versions:
 - **AgentBench v0.2** (original) — REST API-based agent evaluation
 - **AgentBench FC** (2025.10) — Function-calling style, integrated with [[AgentRL]], fully containerized via Docker Compose
 
-A separate effort, **[[VisualAgentBench]]** (2024.08), extends the paradigm to visual foundation agents (LMMs) across embodied, GUI, and visual design domains.
+A separate effort, **`VisualAgentBench`** (2024.08), extends the paradigm to visual foundation agents (LMMs) across embodied, GUI, and visual design domains.
 
 ## Environments
 
@@ -86,7 +86,7 @@ Services: AgentRL Controller + per-task workers (alfworld, dbbench, knowledgegra
 ## Related Projects
 
 - [[AgentRL]] — End-to-end RL framework for LLM agents (integrated in FC version)
-- [[VisualAgentBench]] — Visual multimodal agent evaluation
+- `VisualAgentBench` — Visual multimodal agent evaluation
 - [[SWE-agent]] — LLM agent for software engineering tasks
 - [[AutoGen]] — Multi-agent conversational framework
 - [[MetaGPT]] — Multi-agent framework with SOPs for software development

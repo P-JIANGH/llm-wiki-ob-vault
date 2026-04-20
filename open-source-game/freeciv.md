@@ -3,7 +3,7 @@ title: Freeciv
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, empire-building, rts]
+tags: [open-source, game, empire-building, rts]
 sources: [https://github.com/freeciv/freeciv]
 ---
 
@@ -67,7 +67,7 @@ sources: [https://github.com/freeciv/freeciv]
 | 帧同步网络 | 确定性回合同步是 RTS/策略游戏多人基础 [[OpenRA]]/[[Zero-K]] 相通 |
 | Capability 协议 | 优雅处理版本兼容升级，网络协议设计范本 |
 | Tilespec 系统 | 视觉资产与游戏逻辑完全分离，内容团队可独立迭代 [[Widelands]]/[[OpenRA]] |
-| AI 分层 | AI 核心(aicore)与具体实现(classic/default/stub)分离 [[BrogueCE]]/[[Cataclysm-DDA]] |
+| AI 分层 | AI 核心(aicore)与具体实现(classic/default/stub)分离 `BrogueCE`/`Cataclysm-DDA` |
 | Mod 生态 | modpack 扩展包格式支撑用户创作社区，[[OpenTTD]] NewGRF 类似 |
 
 ## 相关页面

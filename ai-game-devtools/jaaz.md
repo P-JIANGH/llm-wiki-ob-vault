@@ -3,7 +3,7 @@ title: Jaaz
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [agent, tool, llm, multimodal, open-source, image-generation, video-generation]
+tags: [agent, tool, llm, multimodal, open-source, image-generation]
 sources: [raw/articles/ai-game-devtools/jaaz.md]
 ---
 

@@ -49,7 +49,7 @@ Unity 平台的 OpenAI ChatGPT API 客户端库，由 mochi-neko 开发。
 
 ## 与同类工具差异
 
-| 特性 | ChatGPT-API-unity | [[ai-command]] | [[unity-openai]] |
+| 特性 | ChatGPT-API-unity | [[ai-command]] | `unity-openai` |
 |------|-------------------|----------------|-----------------|
 | Memory 管理 | ✅ 多策略 IChatMemory | ❌ | ❌ |
 | Streaming | ✅ | ❌ | ❌ |

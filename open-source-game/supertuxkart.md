@@ -3,7 +3,7 @@ title: SuperTuxKart
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, racing, kart, multiplayer, physics, bullet]
+tags: [open-source, game, racing, multiplayer, physics, bullet]
 sources: [https://github.com/supertuxkart/stk-code]
 ---
 

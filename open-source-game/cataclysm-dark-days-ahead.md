@@ -1,5 +1,5 @@
 ---
-title: Cataclysm: Dark Days Ahead
+title: "Cataclysm: Dark Days Ahead"
 created: 2026-04-10
 updated: 2026-04-10
 type: concept

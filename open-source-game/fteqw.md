@@ -3,7 +3,7 @@ title: FTEQW
 created: 2026-04-09
 updated: 2026-04-09
 type: concept
-tags: [open-source, game, engine, fps, quakec, idtech, modding]
+tags: [open-source, game, fps, idtech, modding]
 sources: [https://github.com/fte-team/fteqw]
 ---
 
@@ -70,7 +70,7 @@ sources: [https://github.com/fte-team/fteqw]
 
 | 方向 | 启示 |
 |------|------|
-| 多后端渲染 | [[open-source-game/uzdoom-zdoom]] 类似架构，抽象渲染层支持多 API |
+| 多后端渲染 | `open-source-game/uzdoom-zdoom` 类似架构，抽象渲染层支持多 API |
 | 插件热插拔 | bullet/openxr/cef 插件化扩展，AI 游戏可借鉴模块化工具系统 |
 | FTEQCC 嵌入式编译器 | 引擎内嵌脚本编译器，AI NPC 行为可内嵌 DSL |
 | 平台抽象 | droid/ 实现 Android 移植，多平台 AI 游戏可参考分层架构 |

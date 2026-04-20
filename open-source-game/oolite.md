@@ -3,7 +3,7 @@ title: Oolite
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, space-simulation, elite-clone, objc, game-engine]
+tags: [open-source, game, game-engine]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

@@ -3,7 +3,7 @@ title: Mini-Gemini
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [vlm, llm, multimodal, vision-language, open-source, ai-model]
+tags: [vlm, llm, multimodal, vision-language, open-source]
 sources: [raw/articles/ai-game-devtools/mini-gemini.md]
 ---
 

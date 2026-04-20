@@ -3,7 +3,7 @@ title: SEED-Story
 created: 2026-04-17
 updated: 2026-04-17
 type: entity
-tags: [ai-model, multimodal, image-generation, llm, open-source]
+tags: [multimodal, image-generation, llm, open-source]
 sources: [raw/articles/ai-game-devtools/seed-story.md]
 ---
 

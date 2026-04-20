@@ -3,7 +3,7 @@ title: GameGen-O
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, game, video-generation, transformer, llm, multimodal, open-source]
+tags: [game, transformer, llm, multimodal, open-source]
 sources: [raw/articles/ai-game-devtools/gamegen-o.md]
 ---
 
@@ -45,4 +45,4 @@ GameGen-O 支持三种控制方式：
 
 ## 相关项目
 
-[[hunyuan-video]] · [[cogvideo]] · [[generative-agents]] · [[gamegen-x]]
+[[hunyuan-video]] · `cogvideo` · [[generative-agents]] · `gamegen-x`

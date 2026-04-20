@@ -3,7 +3,7 @@ title: Waver
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [video, ai-model, open-source, diffusion, flow-matching]
+tags: [video, open-source, diffusion, flow-matching]
 sources: [raw/articles/ai-game-devtools/waver.md]
 ---
 

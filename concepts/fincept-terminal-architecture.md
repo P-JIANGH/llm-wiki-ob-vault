@@ -3,7 +3,7 @@ title: Fincept Terminal Architecture
 created: 2026-04-20
 updated: 2026-04-20
 type: concept
-tags: [architecture, cpp, qt6, fintech, trading]
+tags: [architecture, cpp, qt6, fintech]
 sources: [local/FinceptTerminal]
 ---
 

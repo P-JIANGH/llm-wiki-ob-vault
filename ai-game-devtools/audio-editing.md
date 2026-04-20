@@ -3,7 +3,7 @@ title: AudioEditing — DDPM Inversion 零样本音频编辑
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, tool, audio, diffusion, open-source]
+tags: [tool, audio, diffusion, open-source]
 sources: [raw/articles/ai-game-devtools/audio-editing.md]
 ---
 

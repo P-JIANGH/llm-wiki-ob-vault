@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/gemma-cpp.md]
 
 ## Overview
 
-**gemma.cpp** is a lightweight, standalone C++ inference engine for Google Gemma foundation models (Gemma 2, Gemma 3, RecurrentGemma, PaliGemma 2). It prioritizes simplicity and experimentation over production features — inspired by [[llm.c]], [[ggml]], and [[llama2.c]].
+**gemma.cpp** is a lightweight, standalone C++ inference engine for Google Gemma foundation models (Gemma 2, Gemma 3, RecurrentGemma, PaliGemma 2). It prioritizes simplicity and experimentation over production features — inspired by [[llm.c]], `ggml`, and `llama2.c`.
 
 ## Key Facts
 
@@ -60,7 +60,7 @@ Unlike the official [[gemma]] PyTorch implementation, gemma.cpp is a from-scratc
 
 - **Godot engine demo project** exists at `Gemma-godot-demo-project` (GitHub)
 - Embeddable as a library (`libgemma.a`) in any C++ project via CMake FetchContent
-- [[llama2.c]] is the most similar project in spirit — both target minimalist C inference for research
+- `llama2.c` is the most similar project in spirit — both target minimalist C inference for research
 
 ## Related Tools
 

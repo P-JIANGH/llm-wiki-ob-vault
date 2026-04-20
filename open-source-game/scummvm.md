@@ -3,7 +3,7 @@ title: ScummVM
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [open-source, game, adventure-engine, emulator, retro]
+tags: [open-source, game, emulator, retro]
 sources: []
 ---
 
@@ -88,7 +88,7 @@ sources: []
 
 | 方向 | 启示 |
 |------|------|
-| 引擎插件架构 | [[Microverse]] 这类需要支持多场景/多游戏模式的项目，可以学习 ScummVM 的插件式架构来解耦游戏逻辑 |
+| 引擎插件架构 | `Microverse` 这类需要支持多场景/多游戏模式的项目，可以学习 ScummVM 的插件式架构来解耦游戏逻辑 |
 | 游戏检测系统 | 类似 [[open-source-game-engines-comparison]] 中各类引擎的自动检测/切换机制 |
 | 跨平台抽象 | 通用后端抽象模式 [[godot-4]] 的跨平台实现也有类似思路 |
 | 存档系统 | ScummVM 的 [[microverse-save-system]] 中存档格式可参考其跨引擎一致性设计 |

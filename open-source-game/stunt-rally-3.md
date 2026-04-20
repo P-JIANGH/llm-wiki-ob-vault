@@ -82,4 +82,4 @@ sources: [https://github.com/stuntrally/stuntrally3]
 
 - [[open-source-games-list]] — 开源游戏列表总览
 - [[vdrift]] — VDrift 漂移赛车模拟（本项目物理引擎来源）
-- [[ogre-next-rendering]] — Ogre-Next 渲染引擎
+- `ogre-next-rendering` — Ogre-Next 渲染引擎

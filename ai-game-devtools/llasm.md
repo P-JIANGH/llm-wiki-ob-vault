@@ -3,7 +3,7 @@ title: LLaSM — Speech-Language Multimodal LLM
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [ai-model, tool, multimodal, open-source, speech, llm]
+tags: [tool, multimodal, open-source, speech, llm]
 sources: [raw/articles/ai-game-devtools/llasm.md]
 ---
 
@@ -59,7 +59,7 @@ python infer.py \
 相比其他语音-语言模型（如 [[ai-game-devtools/voxcpm]]），LLaSM 的特点：
 - **首个开源可商用**中英双语语音助手（Apache-2.0）
 - 基于 Whisper 音频编码器 + Chinese-Llama-2-7B 的组合架构
-- 提供配套 SFT 数据集 [[LLaSM-Audio-Instructions]]
+- 提供配套 SFT 数据集 `LLaSM-Audio-Instructions`
 - 仅需 7B 参数规模即可实现语音对话
 
 ## Related

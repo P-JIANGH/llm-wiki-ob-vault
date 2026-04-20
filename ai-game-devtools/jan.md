@@ -3,7 +3,7 @@ title: Jan — Open-source ChatGPT Replacement
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, tool, desktop-app, open-source, privacy, llama-cpp, tauri]
+tags: [llm, tool, desktop-app, open-source, privacy, tauri]
 sources: [raw/articles/ai-game-devtools/jan.md]
 ---
 
@@ -70,4 +70,4 @@ Jan has a modular extension system (`extensions/`):
 ## Related Tools
 
 - [[ai-game-devtools/gpt4all]] — Nomic's local LLM platform (similar concept, different implementation)
-- [[ai-game-devtools/llamacpp-extension]] — Llama.cpp integration in Jan
+- `ai-game-devtools/llamacpp-extension` — Llama.cpp integration in Jan

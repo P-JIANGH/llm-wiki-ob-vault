@@ -3,7 +3,7 @@ title: GDScript Patterns
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [godot, gdscript, language, pattern]
+tags: [godot, gdscript, language]
 sources: [raw/articles/microverse-ksanadock-2026.md]
 ---
 

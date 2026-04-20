@@ -3,7 +3,7 @@ title: TextGen (text-generation-webui)
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, tool, text-generation, open-source, game-dev, webui, llama-cpp, multimodal]
+tags: [llm, tool, open-source, game-dev, webui, multimodal]
 sources: [raw/articles/ai-game-devtools/text-generation-webui.md]
 ---
 

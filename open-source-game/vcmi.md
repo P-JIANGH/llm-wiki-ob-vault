@@ -3,7 +3,7 @@ title: VCMI
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, engine-reimplementation, turn-based-strategy, heroes-iii]
+tags: [open-source, game, heroes-iii]
 sources: []
 ---
 

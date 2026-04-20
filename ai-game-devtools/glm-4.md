@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/glm-4.md]
 
 ## Overview
 
-THUDM (Tsinghua University & Zhipu AI) open-source LLM family. Latest GLM-4-0414 series (April 2025) introduced 32B reasoning models competitive with GPT-4o and DeepSeek-V3. [[GLM-4-32B-0414]] achieves top scores on IFEval (87.6), BFCL (69.6), and SimpleQA (88.1) among open-source models.
+THUDM (Tsinghua University & Zhipu AI) open-source LLM family. Latest GLM-4-0414 series (April 2025) introduced 32B reasoning models competitive with GPT-4o and DeepSeek-V3. `GLM-4-32B-0414` achieves top scores on IFEval (87.6), BFCL (69.6), and SimpleQA (88.1) among open-source models.
 
 ## Key Models
 
@@ -28,7 +28,7 @@ THUDM (Tsinghua University & Zhipu AI) open-source LLM family. Latest GLM-4-0414
 
 ### GLM-4-9B Series (2024-06, legacy)
 
-[[GLM-4-9B]] base and chat variants including 1M context model (GLM-4-9B-Chat-1M) and vision model (GLM-4V-9B).
+`GLM-4-9B` base and chat variants including 1M context model (GLM-4-9B-Chat-1M) and vision model (GLM-4V-9B).
 
 ## Architecture & Training
 
@@ -51,7 +51,7 @@ THUDM (Tsinghua University & Zhipu AI) open-source LLM family. Latest GLM-4-0414
 ## Game Dev Relevance
 
 - **Code Generation**: SWE-bench Verified 33.8% — directly applicable to game script/AI behavior generation
-- **Function Calling**: [[BFCL-v3]] 69.6% — enables structured API calls for game engine integration
+- **Function Calling**: `BFCL-v3` 69.6% — enables structured API calls for game engine integration
 - **Reasoning Models**: GLM-Z1 series for NPC dialogue, procedural content generation, game AI decision trees
 - **Long Context**: 128K supports game design document analysis and multi-file code generation
 

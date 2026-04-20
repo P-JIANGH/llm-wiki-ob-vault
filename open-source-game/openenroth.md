@@ -3,7 +3,7 @@ title: OpenEnroth
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, engine-remake, rpg, cpp23, might-and-magic]
+tags: [open-source, game, engine-remake, rpg, might-and-magic]
 sources: [raw/articles/open-source-games-list-2026.md]
 ---
 

@@ -3,7 +3,7 @@ title: CharacterGen
 created: 2026-04-18
 updated: 2026-04-18
 type: entity
-tags: [3d, ai-model, tool, open-source, python, avatar]
+tags: [3d, tool, open-source, python, avatar]
 sources: [raw/articles/ai-game-devtools/character-gen.md]
 ---
 

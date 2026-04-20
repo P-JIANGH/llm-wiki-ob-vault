@@ -3,7 +3,7 @@ title: OpenPanzer
 created: 2026-04-10
 updated: 2026-04-10
 type: concept
-tags: [open-source, game, turn-based-strategy, html5, panzer-general]
+tags: [open-source, game, html5]
 sources: [raw/articles/openpanzer-2026.md]
 ---
 

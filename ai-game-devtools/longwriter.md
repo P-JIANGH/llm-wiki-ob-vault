@@ -3,7 +3,7 @@ title: LongWriter
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, tool, open-source, text-generation, game-content]
+tags: [llm, tool, open-source, game-content]
 sources: [raw/articles/ai-game-devtools/longwriter.md]
 ---
 
@@ -50,7 +50,7 @@ LongWriter 解决大语言模型长输出能力不足的问题。通过 DPO (Dir
 ## AI 游戏开发用途
 
 可用于游戏内容自动生成：
-- [[game-narrative-generation]] — 长篇游戏剧情、任务描述生成
+- `game-narrative-generation` — 长篇游戏剧情、任务描述生成
 - 开放世界游戏物品描述、百科条目批量生成
 - NPC 对话树长文本扩展
 - 游戏设计文档自动化撰写

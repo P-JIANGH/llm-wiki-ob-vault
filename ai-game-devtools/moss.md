@@ -3,13 +3,13 @@ title: MOSS
 created: 2026-04-14
 updated: 2026-04-14
 type: entity
-tags: [llm, model, bilingual, plugin, open-source]
+tags: [llm, model, plugin, open-source]
 sources: [raw/articles/ai-game-devtools/moss.md]
 ---
 
 # MOSS
 
-MOSS is a bilingual (Chinese/English) open-source conversational language model with plugin support, developed by [[OpenLMLab]] at Fudan University. The moss-moon series has **16 billion parameters** and can run on single A100/A800 or dual 3090 GPUs.
+MOSS is a bilingual (Chinese/English) open-source conversational language model with plugin support, developed by `OpenLMLab` at Fudan University. The moss-moon series has **16 billion parameters** and can run on single A100/A800 or dual 3090 GPUs.
 
 ## Overview
 
@@ -52,10 +52,10 @@ Supported plugins:
 ## Architecture
 
 Built on `Hugging Face Transformers`, MOSS uses:
-- [[LLaMA-style architecture]] adapted for Chinese
+- `LLaMA-style architecture` adapted for Chinese
 - Custom MossBlock modules for model parallelism
 - Triton-based GPTQ quantization for efficient inference (Linux only)
-- Supports [[Accelerate]] + DeepSpeed for multi-GPU/multi-node fine-tuning
+- Supports `Accelerate` + DeepSpeed for multi-GPU/multi-node fine-tuning
 
 ## Deployment
 
@@ -69,7 +69,7 @@ Built on `Hugging Face Transformers`, MOSS uses:
 
 MOSS vs other Chinese LLMs:
 
-| Feature | MOSS | [[ChatGLM]] | [[Baichuan]] |
+| Feature | MOSS | `ChatGLM` | `Baichuan` |
 |---------|------|------------|--------------|
 | Parameters | 16B | 6B/130B | 7B/13B |
 | Plugin support | Yes | Limited | No |
@@ -78,7 +78,7 @@ MOSS vs other Chinese LLMs:
 
 ## Related Tools
 
-- [[MOSS Vortex]] — deployment & inference engine
+- `MOSS Vortex` — deployment & inference engine
 - [[LangChain]] — similar chain-of-thought agent framework
 - [[ChatDev]] — multi-agent development paradigm
 

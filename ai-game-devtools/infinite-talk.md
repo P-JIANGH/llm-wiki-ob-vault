@@ -3,7 +3,7 @@ title: InfiniteTalk
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [ai-model, avatar, video, audio, open-source]
+tags: [avatar, video, audio, open-source]
 sources: [raw/articles/ai-game-devtools/infinite-talk.md]
 ---
 

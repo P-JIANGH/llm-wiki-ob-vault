@@ -3,7 +3,7 @@ title: OpenMAIC
 created: 2026-04-10
 updated: 2026-04-12
 type: entity
-tags: [ai, multi-agent-ai, llm, agent, project, education]
+tags: [ai, llm, agent, project, education]
 sources: [raw/articles/thu-maic-openmaic-source-2026.md]
 ---
 

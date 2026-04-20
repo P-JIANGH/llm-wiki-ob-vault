@@ -3,7 +3,7 @@ title: Video-ChatGPT
 created: 2026-04-20
 updated: 2026-04-20
 type: entity
-tags: [vlm, multimodal, video, llm, open-source, ai-model]
+tags: [vlm, multimodal, video, llm, open-source]
 sources: [raw/articles/ai-game-devtools/video-chatgpt.md]
 ---
 

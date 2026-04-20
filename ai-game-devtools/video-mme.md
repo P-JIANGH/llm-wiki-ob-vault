@@ -3,7 +3,7 @@ title: Video-MME
 created: 2026-04-15
 updated: 2026-04-15
 type: entity
-tags: [ai-model, benchmark, multimodal, video, evaluation]
+tags: [benchmark, multimodal, video, evaluation]
 sources: [raw/articles/ai-game-devtools/video-mme.md]
 ---
 

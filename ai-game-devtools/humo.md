@@ -36,7 +36,7 @@ sources: [raw/articles/ai-game-devtools/humo.md]
 
 ## 技术架构
 - **基础模型:** 基于 [[ai-game-devtools/wan2-1]]（Wan2.1 T2V-1.3B）的 VAE 和文本编码器
-- **音频编码器:** [[ai-game-devtools/whisper]] (Whisper-large-v3)
+- **音频编码器:** `ai-game-devtools/whisper` (Whisper-large-v3)
 - **音频分离:** Kim_Vocal_2（可选背景降噪）
 - **依赖:** flash_attn, torch 2.5.1+, CUDA 12.4
 - **配置:** YAML 驱动 (`humo/configs/inference/generate.yaml`)，可调分辨率、时长、模态权重

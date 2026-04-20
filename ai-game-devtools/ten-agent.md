@@ -3,7 +3,7 @@ title: TEN Agent / TEN Framework
 created: 2026-04-16
 updated: 2026-04-16
 type: entity
-tags: [ai-model, tool, multimodal, open-source, agent]
+tags: [tool, multimodal, open-source, agent]
 sources: [raw/articles/ai-game-devtools/ten-agent.md]
 ---
 

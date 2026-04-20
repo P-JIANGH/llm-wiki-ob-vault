@@ -505,3 +505,10 @@
 - Created: ai-game-devtools/metavoice-1b.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added Speech section entry)
+## [2026-04-21] ingest | Mini-Omni
+- Source: web_extract (GitHub clone timeout, gitcode 403, gitee unavailable)
+- Created: raw/articles/ai-game-devtools/mini-omni.md
+- Created: ai-game-devtools/mini-omni.md
+- Updated: ai-game-devtools-learning-checklist.md (marked complete)
+- Updated: index.md (added entry)
+

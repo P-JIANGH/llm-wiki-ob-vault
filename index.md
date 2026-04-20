@@ -499,4 +499,4 @@
    499|   495||||| [[ai-game-devtools/portrait-4d]] — Xiaobing.AI CVPR 2024 + ECCV 2024 单视频驱动 4D 头部 Avatar：GenHead(StyleGAN3 生成器) + Triplane 重建器，合成数据驱动避免 3DMM 依赖，v2 用伪多视角 + ViT 跨注意力，支持 Marching Cubes 网格提取
    500|   496||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
    501|
-- [[ai-game-devtools/metavoice-1b]] — 1.2B parameter open-source TTS with zero-shot voice cloning (30s audio), Apache 2.0
+- [[ai-game-devtools/metavoice-1b]] — 1.2B parameter open-source TTS with zero-shot voice cloning (30s audio), Apache 2.0- [[ai-game-devtools/mini-omni]] — 开源端到端语音-语音多模态 LLM：Qwen2 基座 + Whisper 编码 + SNAC 解码，流式输出/边想边说/无需外部 ASR/TTS，MIT

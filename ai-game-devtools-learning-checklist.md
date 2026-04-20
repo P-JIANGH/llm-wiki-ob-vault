@@ -564,7 +564,7 @@
 - [2026-04-21] FireRedTTS-2 | https://github.com/FireRedTeam/FireRedTTS2
 - [2026-04-21] GLM-4-Voice | https://github.com/THUDM/GLM-4-Voice
 - [2026-04-21] Glow-TTS | https://github.com/jaywalnut310/glow-tts
-- [ ] GPT-SoVITS | https://github.com/RVC-Boss/GPT-SoVITS
+- [2026-04-21] GPT-SoVITS | https://github.com/RVC-Boss/GPT-SoVITS
 - [ ] Higgs Audio | https://github.com/boson-ai/higgs-audio
 - [ ] IndexTTS2 | https://github.com/index-tts/index-tts
 - [ ] Kitten TTS | https://github.com/KittenML/KittenTTS

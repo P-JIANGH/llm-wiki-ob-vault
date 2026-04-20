@@ -1,3 +1,10 @@
+## [2026-04-21] ingest | GPT-SoVITS
+- Cloned: ~/tmp/ai-game-devtools/gpt-sovits/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/gpt-sovits.md
+- Created: ai-game-devtools/gpt-sovits.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 945→946)
+
 ## [2026-04-21] ingest | GLM-4-Voice
 - Source: THUDM/GLM-4-Voice (web extract; GitHub/gitcode/gitee clone all failed)
 - Created: raw/articles/ai-game-devtools/glm-4-voice.md

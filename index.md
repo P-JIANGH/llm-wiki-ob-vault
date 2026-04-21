@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-22 | 589 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-22 | 590 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -471,12 +471,12 @@
    467|   460|   456|| [[ai-game-devtools/vitron]] — Vitron 是 Skywork AI 与新加坡国立大学（NUS）、南洋理工大学（NTU）联合开发的统一像素级视觉 LLM，发表在 NeurIPS 2024。一个模型同时覆盖图像和视频的理解、生成、分割、编辑四大任务。 |
    468|   461|   457||| [[ai-game-devtools/wavjourney]] — 萨里大学 LLM 驱动的组合式音频创作：GPT-4 文本→JSON 剧本→Python 代码→多轨混音（语音Bark+音乐MusicGen+音效AudioGen），内置声纹克隆/预设，VRAM>16GB |
    469|   462|   458|| [[ai-game-devtools/web3-gpt]] — AIpowered smart contract development platform. Chat with agents that can write, deploy, and verify Solidity contracts on EVMcompatible chains. |
-   470|   463|   459|| [[ai-game-devtools/yi]] — 所有 base model 有 200K 上下文变体。 |
-   471|   464|   460|| [[ai-game-devtools/zero-1-to-3]] — Columbia University Computer Vision Lab · ICCV 2023 · MIT License |
-   472|   465|   461|||| [[ai-game-devtools/stabletts]] — 首个 Flow-Matching + DiT 开源 TTS（31M 参数）：中日英三语合成、零样本声音克隆、CFG 支持、MAS 对齐、Gradio WebUI，MIT
-   473|
-   474|## Avatar
-   475|   466|   462|
+   473|   469|   462|   458|| [[ai-game-devtools/yi]] — 所有 base model 有 200K 上下文变体。 |
+   474|   470|   463|   459|| [[ai-game-devtools/zero-1-to-3]] — Columbia University Computer Vision Lab · ICCV 2023 · MIT License |
+   475|   471|   464|   460|||| [[ai-game-devtools/stabletts]] — 首个 Flow-Matching + DiT 开源 TTS（31M 参数）：中日英三语合成、零样本声音克隆、CFG 支持、MAS 对齐、Gradio WebUI，MIT
+   476|   472|   465|   461|| [[ai-game-devtools/ludo-ai]] — Ludo.ai 统一 AI 游戏开发生态系统：概念生成/精灵图+3D+音频+视频资产生成/可玩原型构建/市场趋势分析，MCP 集成 Claude/Cursor，Unity/Ubisoft/Voodoo 等工作室采用
+   477|   473|
+   478|   474|## Avatar
    476|   467|   463||| [[ai-game-devtools/animate-anyone]] — Alibaba 智能计算研究院扩散模型角色动画框架：ReferenceNet + Pose Guider + 时空注意力UNet，单图+姿态序列→一致性动画视频，DeepGPU加速 ~40%，支持虚拟试衣/说话头像集成
    477|   468|   464|||| [[ai-game-devtools/aniportrait]] — Tencent Games Zhiji 音频驱动肖像动画：wav2vec2 → audio2mesh/audio2pose → 3DMM参数 + AnimateDiff Motion Module 3D UNet，支持自驱动/人脸重演/音频驱动三模式，Apache 2.0 |
    478|   469|   465||| [[ai-game-devtools/calm]] — NVIDIA Research Isaac Gym 虚拟角色控制：CALM对抗式潜在模型 + HRL两级架构（HLC任务决策/LLC运动执行），AMP动作先预训练 + 风格约束精确训练 + 无额外推理，剑盾风格人形角色，NVIDIA License |

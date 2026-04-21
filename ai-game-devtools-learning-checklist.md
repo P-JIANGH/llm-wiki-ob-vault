@@ -602,3 +602,6 @@
 - [2026-04-22] UniAudio 2.0 | https://github.com/yangdongchao/UniAudio2
 - [2026-04-22] UnityNeuroSpeech | https://github.com/HardCodeDev777/UnityNeuroSpeech
 
+## Analytics (1)
+- [2026-04-22] Ludo.ai | https://ludo.ai/
+

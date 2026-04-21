@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 956 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 957 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -504,3 +504,4 @@
    501|
 - [[ai-game-devtools/metavoice-1b]] — 1.2B parameter open-source TTS with zero-shot voice cloning (30s audio), Apache 2.0- [[ai-game-devtools/mini-omni]] — 开源端到端语音-语音多模态 LLM：Qwen2 基座 + Whisper 编码 + SNAC 解码，流式输出/边想边说/无需外部 ASR/TTS，MIT
 - [[ai-game-devtools/realtime-tts]] — KoljaB 低延迟流式 TTS 库：支持 20+ 引擎(OpenAI/Elevenlabs/Azure/Coqui/Piper/Kokoro等)、LLM 输出即时语音转换、fallback 容错、多语言分句，MIT
+- [[ai-game-devtools/sensevoice]] — FunAudioLLM 多语言语音基础模型：ASR+情感识别+事件检测，50+语言/40万小时训练，比Whisper-Large快15倍，Apache 2.0

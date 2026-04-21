@@ -538,3 +538,10 @@
 - Created: ai-game-devtools/realtime-tts.md
 - Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
 - Updated: index.md (added entry, Total pages: 955 → 956)
+
+## [2026-04-21] ingest | SenseVoice
+- Cloned: ~/tmp/ai-game-devtools/sensevoice/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/sensevoice.md
+- Created: ai-game-devtools/sensevoice.md (entity page: FunAudioLLM speech foundation model, ASR+SER+AED)
+- Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
+- Updated: index.md (added entry, Total pages: 956 → 957)

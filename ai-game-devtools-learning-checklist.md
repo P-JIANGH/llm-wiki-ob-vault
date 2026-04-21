@@ -591,7 +591,7 @@
 - [2026-04-21] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
 |- [2026-04-21] VibeVoice | https://github.com/microsoft/VibeVoice
 |- [2026-04-21] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
-- [ ] VoiceCraft | https://github.com/jasonppy/VoiceCraft
+- [2026-04-21] VoiceCraft | https://github.com/jasonppy/VoiceCraft
 - [ ] VoxCPM | https://github.com/OpenBMB/VoxCPM
 - [ ] Whisper | https://github.com/openai/whisper
 - [ ] WhisperSpeech | https://github.com/collabora/WhisperSpeech

@@ -382,7 +382,7 @@
    381|   381|   378|| [[ai-game-devtools/kwai-keye-vl]] — 快手可灵团队（Kwai Keye Team）开发的多模态大语言模型，专注于视频理解、视觉感知和推理任务。 |
    382|   382|   379|| [[ai-game-devtools/kitten-tts]] — KittenML 超轻量 ONNX TTS 库：15M-80M 参数（25-80MB），纯 CPU 推理，8 内置音色，流式输出支持，Apache 2.0 |
    383|   383|   379|| [[ai-game-devtools/overflow]] — KTH 开源 TTS 模型 (Interspeech 2023)：HMM 神经 transducer + 归一化流解码器，Tacotron2 编码器 + HiFi-GAN 声码器，预训练男女声权重，说话速率/温度可调，MIT，已集成到 Coqui TTS |
-   384|   383|   379|| [[ai-game-devtools/la-vague]] — LaVague is an opensource framework for creating AI Web Agents that automate browserbased processes. Given a natural language objective (e.g., "Print i |
+   384|   383|   383|   379|| [[ai-game-devtools/la-vague]] — lavague-ai 开源 LAM 框架：多模态 LLM World Model + Action Engine 架构，Selenium/Playwright/Chrome Extension 三驱动，自然语言→浏览器自动化，llama-index 底层，Apache 2.0 |
    385|   384|   380|| [[ai-game-devtools/lamini]] — Lamini 是一个 Python SDK + 云端平台，用于快速构建和微调自定义生成式 AI 模型。提供从数据上传、模型微调、推理到评估的完整 LLM 工作流，并支持基于链式生成器/验证器的 Agentic Pipeline 架构。v3.2.22，Apache 2.0。 |
    386|   385|   381|| [[ai-game-devtools/lamini-lm]] — Best performers per size: LaMiniFlanT5 variants and LaMiniGPT1.5B are recommended. |
    387|   386|   382|| [[ai-game-devtools/lavi-bridge]] — ECCV 2024 Bridging Language & Vision Models for TexttoImage Generation |

@@ -46,6 +46,12 @@
 - Created: ai-game-devtools/uniaudio2.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added uniaudio2 entry, total 588)
+## [2026-04-22] ingest | LaVague
+- Cloned: ~/tmp/ai-game-devtools/lavague/ (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/lavague.md
+- Created: ai-game-devtools/la-vague.md
+- Updated: index.md (updated la-vague entry)
+
 ## [2026-04-22] ingest | UnityNeuroSpeech
 - Cloned: ~/tmp/ai-game-devtools/unityneurospeech/ (web extract; GitHub/gitcode/gitee clone all failed)
 - Created: raw/articles/ai-game-devtools/unityneurospeech.md

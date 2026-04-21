@@ -1,63 +1,79 @@
 ---
 title: LaVague
-created: 2026-04-14
-updated: 2026-04-14
+created: 2026-04-22
+updated: 2026-04-22
 type: entity
-tags: [tool, agent, web-automation, open-source]
-sources: [raw/articles/ai-game-devtools/la-vague.md]
+tags: [agent, llm, tool, python, open-source, automation, multimodal]
+sources: [raw/articles/ai-game-devtools/lavague.md]
 ---
 
 # LaVague
 
-> A Large Action Model (LAM) framework for building AI Web Agents.
-
 ## Overview
 
-LaVague is an open-source framework for creating AI Web Agents that automate browser-based processes. Given a natural language objective (e.g., "Print installation steps for Hugging Face's Diffusers library"), LaVague agents generate and execute the sequence of web actions needed to accomplish it. Version 1.1.19, Apache-2.0 licensed.
+**LaVague** (lavague-ai/LaVague) is an open-source Large Action Model (LAM) framework for building AI Web Agents that automate browser-based tasks from natural language objectives. It uses a multi-modal LLM as a "World Model" to reason about web pages from screenshots, and an "Action Engine" to compile instructions into executable browser automation code.
+
+Developed by Mithril Security. Website/docs: https://docs.lavague.ai
+
+## Key Facts
+
+| Attribute | Detail |
+|-----------|--------|
+| **License** | Apache 2.0 |
+| **Language** | Python |
+| **Version** | 1.1.19 (lavague meta-package) |
+| **Python** | >= 3.10 |
+| **Organization** | Mithril Security / lavague-ai |
 
 ## Architecture
 
-### Core Components
+```
+LaVague/
+├── lavague-core/              # Core framework
+│   ├── world_model.py         # Multi-modal LLM reasoning
+│   ├── action_engine.py       # Instruction dispatcher
+│   ├── navigation.py          # NavigationEngine + NavigationControl
+│   ├── python_engine.py       # Pure-computation engine
+│   ├── base_driver.py         # Driver abstraction
+│   ├── extractors.py          # LLM output extraction
+│   └── retrievers.py          # HTML RAG retriever
+├── lavague-drivers-selenium/  # Selenium WebDriver
+├── lavague-drivers-playwright/# Playwright WebDriver
+├── lavague-contexts-openai/   # OpenAI LLM + embedding
+├── lavague-contexts-anthropic/# Anthropic context
+├── lavague-contexts-gemini/   # Google Gemini context
+├── lavague-contexts-fireworks/# Fireworks AI context
+├── lavague-gradio/            # Gradio demo UI
+├── lavague-qa/                # Gherkin → automated QA tests
+├── lavague-server/            # WebSocket server
+└── lavague-retrievers-cohere/ # Cohere retriever
+```
 
-- **World Model** (`world_model.py`): Takes objective + current web page → outputs natural language instructions
-- **Action Engine** (`action_engine.py`): Compiles instructions into Selenium/Playwright action code and executes
-- **WebAgent** (`agents.py`): Combines WorldModel + ActionEngine into a deployable agent
-- **Navigation** (`navigation.py`): Web navigation logic and state management
-- **Retrievers** (`retrievers.py`): RAG-based HTML chunk retrieval for context
-- **PythonEngine** (`python_engine.py`): Python code generation and execution
-- **TokenCounter** (`token_counter.py`): Token usage tracking and cost estimation
+## Core Components
 
-### Package Structure
+| Component | Role |
+|-----------|------|
+| **World Model** | Multi-modal LLM (GPT-4V default) reasons from screenshots + objective to produce next-step instructions |
+| **Action Engine** | Dispatches instructions to three sub-engines |
+| **Navigation Engine** | Complex HTML interactions (click, fill, hover) via RAG over DOM |
+| **Python Engine** | Computation tasks without page navigation |
+| **Navigation Controls** | Simple commands: WAIT, BACK, SCAN, MAXIMIZE_WINDOW, SWITCH_TAB |
 
-| Package | Purpose |
-|---------|---------|
-| `lavague-core` | Core agent logic (WorldModel, ActionEngine, WebAgent) |
-| `lavague-drivers-selenium` | Selenium WebDriver integration |
-| `lavague-drivers-playwright` | Playwright WebDriver integration |
-| `lavague-contexts-*` | LLM context providers (OpenAI, Anthropic, Gemini, Fireworks) |
-| `lavague-qa` | QA tooling: Gherkin spec → test conversion |
-| `lavague-gradio` | Gradio UI demo interface |
-| `lavague-server` | Server deployment |
-
-## Supported Drivers
+## Driver Support
 
 | Feature | Selenium | Playwright | Chrome Extension |
-|---------|----------|------------|-----------------|
-| Headless agents | ✅ | ⏳ | N/A |
+|---------|----------|------------|------------------|
+| Headless | ✅ | ⏳ | N/A |
 | Handle iframes | ✅ | ✅ | ❌ |
-| Open tabs | ✅ | ⏳ | ✅ |
+| Multi-tab | ✅ | ⏳ | ✅ |
 | Highlight elements | ✅ | ✅ | ✅ |
 
-## Key Features
+## Key Dependencies
 
-- Customizable LLM providers (default GPT-4o, fully swappable)
-- Built-in test runner for benchmarking agent performance
-- Token counter for cost estimation
-- Logging and debugging tools
-- Interactive Gradio demo interface
-- Chrome Extension for direct browser control
-- RAG-based context retrieval from web page HTML
-- Telemetry collection (opt-out via `LAVAGUE_TELEMETRY="NONE"`)
+- [[llama-index]] — LLM/embedding abstractions, PromptTemplate
+- selenium / playwright — browser automation
+- Pillow — screenshot processing
+- PyYAML — state serialization
 
 ## Usage Example
 
@@ -74,15 +90,17 @@ agent.get("https://huggingface.co/docs")
 agent.run("Go on the quicktour of PEFT")
 ```
 
-## How It Compares
+## Differences from Similar Tools
 
-LaVague's World Model + Action Engine split is architecturally similar to [[ai-game-devtools/devon]]'s Planner/Executor pattern and [[ai-game-devtools/devika]]'s multi-Agent approach. However, LaVague is specifically focused on **web automation** rather than general software engineering, and its action layer integrates directly with Selenium/Playwright browsers.
+- **vs [[chrome-gpt|Chrome-GPT]]**: LaVague is a production framework with modular drivers and LLM contexts; Chrome-GPT is an experimental AutoGPT agent directly controlling Chrome via Selenium
+- **vs [[agentgpt|AgentGPT]]**: LaVague is developer-focused (Python library) for web automation; AgentGPT is a browser-based platform for general autonomous agents with a GUI
+- **vs general RAG**: LaVague uses RAG specifically for HTML element retrieval to ground LLM actions in the DOM, not for document QA
 
-Unlike [[ai-game-devtools/chrome-gpt]] which layers LangChain on top of Selenium, LaVague uses its own LAM (Large Action Model) approach with a dedicated World Model that reasons about web page state.
+## Telemetry
 
-## Related Links
+Collects anonymous usage data by default (version, actions, LLM used, objectives, token costs, success/failure rates). Disable with `LAVAGUE_TELEMETRY=NONE`.
 
-- Docs: https://docs.lavague.ai/en/latest/
+## Links
+
 - GitHub: https://github.com/lavague-ai/LaVague
-- Discord: https://discord.gg/SDxn9KpqX9
-- BigAction Dataset: https://huggingface.co/BigAction
+- Docs: https://docs.lavague.ai

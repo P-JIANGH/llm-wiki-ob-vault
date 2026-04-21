@@ -1,3 +1,10 @@
+## [2026-04-21] ingest | Stable Speech
+- Cloned: ~/tmp/ai-game-devtools/stable-speech/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/stable-speech.md
+- Created: ai-game-devtools/stable-speech.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 573→574)
+
 ## [2026-04-21] ingest | OpenVoice
 - Cloned: ~/tmp/ai-game-devtools/openvoice/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/openvoice.md

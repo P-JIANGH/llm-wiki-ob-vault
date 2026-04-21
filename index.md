@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 573 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 574 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -442,8 +442,9 @@
 || [[ai-game-devtools/stable-cascade]] — Stable Cascade 是由 Stability AI 开发的开源级联图像生成模型。基于 aigamedevtools/wuerstchen 架构，其核心创新在于使用极小的潜在空间（压缩因子 42）进行扩散生成，相比 aigamedevtools/stablediffusionwebuiSta |
    438|   434|| [[ai-game-devtools/stable-diffusion]] — Stable Diffusion is the foundational latent texttoimage diffusion model developed by CompVis (University of Heidelberg) in collaboration with Stabilit |
    439|   435|| [[ai-game-devtools/stable-diffusion-webui]] — Stable Diffusion web UI (commonly known as AUTOMATIC1111 WebUI) is the most popular opensource web interface for running stablediffusion models locall |
-   440|   436|| [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro/stablediffusionwebuichinese(https://github.com/VinsonLaro/stablediffusionwebuichinese) 是 AUTOMATIC1111 Stable Diffusion WebUI(https://githu |
-   441|   437|| [[ai-game-devtools/storymaker]] — StoryMaker: Towards consistent characters in texttoimage generation |
+|| [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro/stablediffusionwebuichinese(https://github.com/VinsonLaro/stablediffusionwebuichinese) 是 AUTOMATIC1111 Stable Diffusion WebUI(https://githu |
+|   441|   437|| [[ai-game-devtools/stable-speech]] — HuggingFace 开源自然语言控制 TTS 模型（Parler-TTS Mini 880M/Large 2.3B），自然语言描述控制语音风格，34 预设说话人，SDPA/FlashAttention/torch.compile 优化，流式输出 <500ms，Apache 2.0 |
+|   442|   438|| [[ai-game-devtools/storymaker]] — StoryMaker: Towards consistent characters in texttoimage generation |
    442|   438|| [[ai-game-devtools/streamdiffusion]] — StreamDiffusion is a pipelinelevel solution for realtime interactive image generation built on top of the diffusers library. It wraps any StableDiffus |
    443|   439|| [[ai-game-devtools/style-avatar3d]] — StyleAvatar3D: Leveraging ImageText Diffusion Models for HighFidelity 3D Avatar Generation |
    444|   440|| [[ai-game-devtools/sygil-webui]] — SygilDev 团队开发的 Stable Diffusion 浏览器端 Web UI（2022年），是早期 SD Web 界面之一，与 aigamedevtools/stablediffusionwebui（AUTOMATIC1111）并行开发。提供文生图、图生图、文生视频功能，通过浏览器操作。 |

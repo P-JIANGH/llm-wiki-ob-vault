@@ -1,3 +1,9 @@
+## [2026-04-21] ingest | Step-Audio 2
+- Cloned: ~/tmp/ai-game-devtools/step-audio-2/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/step-audio-2.md
+- Created: ai-game-devtools/step-audio-2.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added step-audio-2 entry, total pages 575→576)
 ## [2026-04-21] ingest | Step-Audio
 - Cloned: ~/tmp/ai-game-devtools/step-audio/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/step-audio.md

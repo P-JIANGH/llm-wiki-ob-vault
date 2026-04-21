@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-21 | 583 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-21 | 584 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -505,4 +505,5 @@
 | [[ai-game-devtools/tts-generation-webui]] — rsxdalv 全合一 TTS Web 界面：20+ TTS 模型统一接入(Bark/Tortoise/Kokoro/CosyVoice 等)+音乐生成(MusicGen)+音频工具(RVC/Whisper/Demucs)，Gradio+React 双前端，OpenAI 兼容 API，Docker 部署，MIT
    501|| [[ai-game-devtools/vibevoice]] — 微软开源前沿语音 AI 框架：TTS+ASR 双模型系列，7.5Hz 超低帧率连续语音 tokenizer+LLM+Diffusion 架构，ASR-7B 支持 50+语言/60min 单遍处理，TTS-1.5B 90min 长文本生成/4说话人轮转，Realtime-0.5B 流式 300ms 首音延迟，MIT
 || [[ai-game-devtools/voicebox]] — Meta FAIR 文本引导通用语音生成模型：50K+小时训练的非自回归流匹配 TTS，零样本跨语言合成/噪声消除/风格转换，比 VALL-E 快 20 倍，Speechify PyTorch 实现，MIT
-|| [[ai-game-devtools/voicecraft]] — UT Austin/Meta 零样本语音合成+语音编辑模型：Token infilling 神经编解码 LM，giga330M/830M 双规格，仅需几秒参考音频克隆声音，支持智能转录/长文本分段处理/语音编辑，HuggingFace Spaces/Colab/Docker/CLI 多部署，CC BY-NC-SA 4.0 代码+Coqui PML 权重
+||| [[ai-game-devtools/voicecraft]] — UT Austin/Meta 零样本语音合成+语音编辑模型：Token infilling 神经编解码 LM，giga330M/830M 双规格，仅需几秒参考音频克隆声音，支持智能转录/长文本分段处理/语音编辑，HuggingFace Spaces/Colab/Docker/CLI 多部署，CC BY-NC-SA 4.0 代码+Coqui PML 权重
+||| [[ai-game-devtools/x-e-speech]] — 跨语言情感语音生成框架：Whisper 编码器 + VITS 联合训练 TTS+VC，冻结说话人层/微调内容层消除口音，支持中日英三语情感合成与语音转换，MIT

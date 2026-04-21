@@ -14,5 +14,11 @@
 - Cloned: ~/tmp/ai-game-devtools/whisperspeech/
 - Created: raw/articles/ai-game-devtools/whisperspeech.md
 - Created: ai-game-devtools/whisperspeech.md
-- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added whisperspeech entry, total 583)
+## [2026-04-21] ingest | X-E-Speech
+- Cloned: ~/tmp/ai-game-devtools/x-e-speech/
+- Created: raw/articles/ai-game-devtools/x-e-speech.md
+- Created: ai-game-devtools/x-e-speech.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added x-e-speech entry, total 584)

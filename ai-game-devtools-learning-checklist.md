@@ -594,7 +594,7 @@
 - [2026-04-21] VoiceCraft | https://github.com/jasonppy/VoiceCraft
 |- [2026-04-21] VoxCPM | https://github.com/OpenBMB/VoxCPM
 - [2026-04-21] Whisper | https://github.com/openai/whisper
-- [ ] WhisperSpeech | https://github.com/collabora/WhisperSpeech
+- [2026-04-21] WhisperSpeech | https://github.com/collabora/WhisperSpeech
 - [ ] X-E-Speech | https://github.com/X-E-Speech/X-E-Speech-code
 - [ ] XTTS | https://github.com/coqui-ai/TTS
 - [ ] YourTTS | https://github.com/Edresson/YourTTS

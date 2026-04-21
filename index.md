@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-     5|     5|     5|> Last updated: 2026-04-21 | 582 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-21 | 583 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -448,8 +448,9 @@
    447||   442|   438|| [[ai-game-devtools/storymaker]] — StoryMaker: Towards consistent characters in texttoimage generation |
    448|   442|   438|| [[ai-game-devtools/streamdiffusion]] — StreamDiffusion is a pipelinelevel solution for realtime interactive image generation built on top of the diffusers library. It wraps any StableDiffus |
    449|   444|   440|| [[ai-game-devtools/style-avatar3d]] — StyleAvatar3D: Leveraging ImageText Diffusion Models for HighFidelity 3D Avatar Generation |
-   450||   445|   441|| [[ai-game-devtools/style-tts-2]] — 哥伦比亚大学人类级 TTS 模型：风格扩散（无需参考语音）+ WavLM 对抗训练，LJSpeech 超越人类录音，LibriTTS 零样本适配 SOTA，MIT |
-   451|   445|   441|| [[ai-game-devtools/sygil-webui]]
+| [[ai-game-devtools/style-tts-2]] — 哥伦比亚大学人类级 TTS 模型：风格扩散（无需参考语音）+ WavLM 对抗训练，LJSpeech 超越人类录音，LibriTTS 零样本适配 SOTA，MIT |
+| [[ai-game-devtools/whisperspeech]] — Collabora 开源 Whisper 逆向 TTS 系统：Whisper 语义提取 + EnCodec 声学 token + Vocos 声码器两阶段管线，支持语音克隆/多语言/12× 实时推理，MIT/Apache-2.0 全链路开源可商用
+| [[ai-game-devtools/sygil-webui]]
    452|   445|   441|| [[ai-game-devtools/syncdreamer]] — SyncDreamer: Generating Multiviewconsistent Images from a Singleview Image |
    453|   446|   442|| [[ai-game-devtools/tinychatengine]] — Ondevice LLM/VLM inference engine from MIT Han Lab. Runs 4bit quantized LLaMA3/CodeLLaMA/Mistral and VILA/LLaVA on laptops (RTX 4070), Apple M1/M2, an |
    454|   447|   443|| [[ai-game-devtools/toolbench]] — ToolBench（ToolLLM）是 OpenBMB 开源的大规模指令微调 SFT 数据集项目，旨在赋予开源 LLM 通用工具使用能力，让模型掌握数千种真实世界 REST API。核心贡献是通过 DFSDT（深度优先搜索决策树）方法自动构建高质量工具调用训练数据。 |

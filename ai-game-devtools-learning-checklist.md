@@ -580,7 +580,7 @@
 - [2026-04-21] RealtimeTTS | https://github.com/KoljaB/RealtimeTTS
 |- [2026-04-21] SenseVoice | https://github.com/FunAudioLLM/SenseVoice
 - [2026-04-21] SpeechGPT | https://github.com/0nutation/SpeechGPT
-- [ ] speech-to-text-gpt3-unity | https://github.com/dr-iskandar/speech-to-text-gpt3-unity
+- [2026-04-21] speech-to-text-gpt3-unity | https://github.com/dr-iskandar/speech-to-text-gpt3-unity
 - [ ] Stable Speech | https://github.com/sanchit-gandhi/stable-speech
 - [ ] StableTTS | https://github.com/KdaiP/StableTTS
 - [ ] Step-Audio | https://github.com/stepfun-ai/Step-Audio

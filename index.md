@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 572 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 573 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -437,8 +437,9 @@
    433|   429|| [[ai-game-devtools/simpleollamaunity]] — C Unity 包，通过 HTTP 包装 Ollama(https://ollama.com/) REST API，为 Unity 游戏提供本地 LLM 推理能力。支持任何 Ollama 模型（qwen、llama、mistral 等），连接 localhost:11434。 |
    434|   430|| [[ai-game-devtools/skythought]] — aigamedevtools/skythoughtSkyThought 是 openbmbNovaSky AI（UC Berkeley Sky Computing Lab）开源的推理模型训练与评测框架，核心贡献是 SkyT1 系列可训练的 O1preview 复现模型。 |
    435|   431|| [[ai-game-devtools/skywork]] — Skywork is a series of large language models developed by the Kunlun Group · Skywork team, released in October 2023. The project opensources base, cha |
-   436|   432|| [[ai-game-devtools/solo]] — SOLO (A Single Transformer for Scalable VisionLanguage Modeling) is a unified VLM architecture published at TMLR (2024). Its key innovation: uses a si |
-   437|   433|| [[ai-game-devtools/stable-cascade]] — Stable Cascade 是由 Stability AI 开发的开源级联图像生成模型。基于 aigamedevtools/wuerstchen 架构，其核心创新在于使用极小的潜在空间（压缩因子 42）进行扩散生成，相比 aigamedevtools/stablediffusionwebuiSta |
+|| [[ai-game-devtools/solo]] — SOLO (A Single Transformer for Scalable VisionLanguage Modeling) is a unified VLM architecture published at TMLR (2024). Its key innovation: uses a si |
+|| [[ai-game-devtools/speech-to-text-gpt3-unity]] — dr-iskandar 的 Whisper STT + ChatGPT + ElevenLabs TTS Unity 语音交互原型：Flask 中间件桥接 Unity 与云端 API，实现语音识别→LLM 对话→语音合成完整管线，极简 33 行代码，MIT |
+|| [[ai-game-devtools/stable-cascade]] — Stable Cascade 是由 Stability AI 开发的开源级联图像生成模型。基于 aigamedevtools/wuerstchen 架构，其核心创新在于使用极小的潜在空间（压缩因子 42）进行扩散生成，相比 aigamedevtools/stablediffusionwebuiSta |
    438|   434|| [[ai-game-devtools/stable-diffusion]] — Stable Diffusion is the foundational latent texttoimage diffusion model developed by CompVis (University of Heidelberg) in collaboration with Stabilit |
    439|   435|| [[ai-game-devtools/stable-diffusion-webui]] — Stable Diffusion web UI (commonly known as AUTOMATIC1111 WebUI) is the most popular opensource web interface for running stablediffusion models locall |
    440|   436|| [[ai-game-devtools/stable-diffusion-webui-chinese]] — VinsonLaro/stablediffusionwebuichinese(https://github.com/VinsonLaro/stablediffusionwebuichinese) 是 AUTOMATIC1111 Stable Diffusion WebUI(https://githu |

@@ -551,3 +551,9 @@
 - Created: ai-game-devtools/speechgpt.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry)
+## [2026-04-21] ingest | speech-to-text-gpt3-unity
+- Cloned: ~/tmp/ai-game-devtools/speech-to-text-gpt3-unity/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/speech-to-text-gpt3-unity.md
+- Created: ai-game-devtools/speech-to-text-gpt3-unity.md (entity page: Whisper STT + ChatGPT + ElevenLabs TTS Unity voice interaction prototype, Flask middleware bridge)
+- Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
+- Updated: index.md (added entry, Total pages: 572 → 573)

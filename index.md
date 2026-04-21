@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 952 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 953 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -408,8 +408,9 @@
    408|   404|| [[ai-game-devtools/moss]] — MOSS is a bilingual (Chinese/English) opensource conversational language model with plugin support, developed by OpenLMLab at Fudan University. The mo |
    409|   405|| [[ai-game-devtools/mplug-owl]] — mPLUGOwl is a family of MultiModal Large Language Models (MLLMs) developed by Alibaba DAMO Academy(https://damo.alibaba.com/), spanning three major ve |
    410|   406|| [[ai-game-devtools/omnilmm]] — OmniLMM (OpenBMB MiniCPMV & MiniCPMo) is an opensource suite of ondevice multimodal LLMs for vision, speech, and fullduplex multimodal live streaming. |
-   411|   407|| [[ai-game-devtools/onellm]] — OneLLM (One Framework to Align All Modalities with Language) is a CVPR 2024 unified multimodal framework that aligns 8 modalities with language via a  |
-   412|   408|| [[ai-game-devtools/open-assistant]] — OpenAssistant 是 LAION 发起的开源聊天大模型项目，目标是让每个人都能使用类 ChatGPT 的助手（类比 Stable Diffusion democratize 图像生成）。 |
+|| [[ai-game-devtools/onellm]] — OneLLM (One Framework to Align All Modalities with Language) is a CVPR 2024 unified multimodal framework that aligns 8 modalities with language via a  |
+|||| [[ai-game-devtools/one-shot-voice-cloning]] — Unet-TTS 单样本语音克隆：U-Net+AdaIN 架构，仅需一段参考音频克隆说话人声音，Style Encoder 自动估算音素时长统计，TensorFlowTTS 二次开发，MIT
+|| [[ai-game-devtools/open-assistant]]
    413|   409|| [[ai-game-devtools/opendevin]] — AIdriven autonomous software engineering agent. Formerly known as OpenDevin; rebranded to OpenHands. |
    414|   410|| [[ai-game-devtools/perplexica]] — GitHub: https://github.com/ItzCrazyKns/Perplexica License: MIT Tech Stack: Next.js, TypeScript, SearxNG, Drizzle ORM, Docker Category: LLM & Tool — AI |
    415|   411|| [[ai-game-devtools/pllava]] — PLLaVA (Pooling LLaVA) is a parameterfree LLaVA extension that adapts imagelanguage pretrained models for video understanding via temporal pooling, ac |

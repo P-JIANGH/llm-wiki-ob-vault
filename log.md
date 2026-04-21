@@ -58,3 +58,10 @@
 - Created: ai-game-devtools/unityneurospeech.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added unityneurospeech entry, total 589)
+
+## [2026-04-22] ingest | Ludo.ai
+- Source: web extract (ludo.ai; no GitHub repo)
+- Created: raw/articles/ai-game-devtools/ludo-ai.md
+- Created: ai-game-devtools/ludo-ai.md
+- Updated: ai-game-devtools-learning-checklist.md (Analytics section added)
+- Updated: index.md (added ludo-ai entry, total 590)

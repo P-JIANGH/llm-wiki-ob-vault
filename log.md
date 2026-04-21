@@ -511,3 +511,9 @@
 - Created: ai-game-devtools/tortoise-tts.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added entry under AI Game DevTools section)
+## [2026-04-21] ingest | VibeVoice
+- Cloned: ~/tmp/ai-game-devtools/vibevoice/ (GitHub/gitcode/gitee all timed out; web_extract fallback)
+- Created: raw/articles/ai-game-devtools/vibevoice.md
+- Created: ai-game-devtools/vibevoice.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added vibevoice entry, total pages 579→580)

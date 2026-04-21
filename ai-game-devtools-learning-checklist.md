@@ -588,7 +588,7 @@
 |- [2026-04-21] StyleTTS 2 | https://github.com/yl4579/StyleTTS2
 - [2026-04-21] tortoise.cpp | https://github.com/balisujohn/tortoise.cpp
 - [2026-04-21] TorToiSe-TTS | https://github.com/neonbjb/tortoise-tts
-- [ ] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
+- [2026-04-21] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
 - [ ] VibeVoice | https://github.com/microsoft/VibeVoice
 - [ ] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
 - [ ] VoiceCraft | https://github.com/jasonppy/VoiceCraft

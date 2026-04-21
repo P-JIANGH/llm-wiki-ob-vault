@@ -1,4 +1,10 @@
-     1|## [2026-04-21] ingest | tortoise.cpp
+     1|## [2026-04-21] ingest | TTS Generation WebUI
+- Cloned: ~/tmp/ai-game-devtools/tts-generation-webui/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/tts-generation-webui.md
+- Created: ai-game-devtools/tts-generation-webui.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added tts-generation-webui entry, total pages 578→579)
+## [2026-04-21] ingest | tortoise.cpp
      2|- Cloned: ~/tmp/ai-game-devtools/tortoise-cpp/ (GitHub direct, success)
      3|- Created: raw/articles/ai-game-devtools/tortoise-cpp.md
      4|- Created: ai-game-devtools/tortoise-cpp.md

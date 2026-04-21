@@ -13,7 +13,7 @@ Cross-lingual emotional speech generation framework that jointly trains non-auto
 
 ## What it is
 
-X-E-Speech disentangles speaker style and cross-lingual content features through joint TTS+VC training. It can synthesize emotional speech in one language using a speaker from another language — without accent artifacts. The model is based on the [[ai-game-devtools/vits]] architecture with a frozen [[ai-game-devtools/whisper]] encoder providing content representations.
+X-E-Speech disentangles speaker style and cross-lingual content features through joint TTS+VC training. It can synthesize emotional speech in one language using a speaker from another language — without accent artifacts. The model is based on the VITS architecture with a frozen [[ai-game-devtools/whisper]] encoder providing content representations.
 
 ## Key Features
 

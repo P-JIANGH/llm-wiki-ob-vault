@@ -28,3 +28,9 @@
 - Created: ai-game-devtools/xtts.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added xtts entry, total 585)
+## [2026-04-21] ingest | YourTTS
+- Cloned: ~/tmp/ai-game-devtools/yourtts/
+- Created: raw/articles/ai-game-devtools/yourtts.md
+- Created: ai-game-devtools/yourtts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added yourtts entry, total 586)

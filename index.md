@@ -508,5 +508,6 @@
    500|   496||||| [[ai-game-devtools/stableavatar]] — 复旦大学+微软亚研院 首个端到端视频 DiT 无限长度音频驱动头像生成：Wan2.1-1.3B 骨干 + 时间步感知音频适配器防止隐空间漂移 + 动态滑动窗口融合，无需后处理，支持语音/唱歌/舞蹈，1.3B/14B 双版本，LoRA 训练支持
    501|
 - [[ai-game-devtools/metavoice-1b]] — 1.2B parameter open-source TTS with zero-shot voice cloning (30s audio), Apache 2.0- [[ai-game-devtools/mini-omni]] — 开源端到端语音-语音多模态 LLM：Qwen2 基座 + Whisper 编码 + SNAC 解码，流式输出/边想边说/无需外部 ASR/TTS，MIT
-- [[ai-game-devtools/realtime-tts]] — KoljaB 低延迟流式 TTS 库：支持 20+ 引擎(OpenAI/Elevenlabs/Azure/Coqui/Piper/Kokoro等)、LLM 输出即时语音转换、fallback 容错、多语言分句，MIT
-- [[ai-game-devtools/sensevoice]] — FunAudioLLM 多语言语音基础模型：ASR+情感识别+事件检测，50+语言/40万小时训练，比Whisper-Large快15倍，Apache 2.0
+|- [[ai-game-devtools/realtime-tts]] — KoljaB 低延迟流式 TTS 库：支持 20+ 引擎(OpenAI/Elevenlabs/Azure/Coqui/Piper/Kokoro等)、LLM 输出即时语音转换、fallback 容错、多语言分句，MIT
+|- [[ai-game-devtools/sensevoice]] — FunAudioLLM 多语言语音基础模型：ASR+情感识别+事件检测，50+语言/40万小时训练，比Whisper-Large快15倍，Apache 2.0
+|- [[ai-game-devtools/step-audio]] — 阶跃星辰 130B 统一语音交互模型：双码本tokenization(语义1024+声学4096)+130B Step-1 LLM基座+flow matching语音解码+CosyVoice声码器，支持中/英/日多语、情感/方言/语速/说唱控制、语音克隆、ToolCall，4×A800 80G推理

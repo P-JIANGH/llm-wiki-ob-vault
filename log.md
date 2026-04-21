@@ -1,3 +1,9 @@
+## [2026-04-21] ingest | Step-Audio
+- Cloned: ~/tmp/ai-game-devtools/step-audio/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/step-audio.md
+- Created: ai-game-devtools/step-audio.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added step-audio entry)
 ## [2026-04-21] ingest | Stable Speech
 - Cloned: ~/tmp/ai-game-devtools/stable-speech/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/stable-speech.md

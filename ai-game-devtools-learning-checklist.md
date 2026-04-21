@@ -592,8 +592,8 @@
 |- [2026-04-21] VibeVoice | https://github.com/microsoft/VibeVoice
 |- [2026-04-21] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
 - [2026-04-21] VoiceCraft | https://github.com/jasonppy/VoiceCraft
-- [ ] VoxCPM | https://github.com/OpenBMB/VoxCPM
-- [ ] Whisper | https://github.com/openai/whisper
+|- [2026-04-21] VoxCPM | https://github.com/OpenBMB/VoxCPM
+- [2026-04-21] Whisper | https://github.com/openai/whisper
 - [ ] WhisperSpeech | https://github.com/collabora/WhisperSpeech
 - [ ] X-E-Speech | https://github.com/X-E-Speech/X-E-Speech-code
 - [ ] XTTS | https://github.com/coqui-ai/TTS

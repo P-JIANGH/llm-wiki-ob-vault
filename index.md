@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-     5|     5|     5|> Last updated: 2026-04-21 | 581 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|     5|> Last updated: 2026-04-21 | 582 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -91,7 +91,7 @@
     91|    91|    91||| [[ai-game-devtools/minicpm]] — OpenBMB 面壁智能高效小语言模型系列：MiniCPM-2B/4B 端侧部署 + MiniCPM-V 多模态 + MiniCPM-o 全模态，性能匹敌同量级 Llama，Apache 2.0 |
     92|    92|    92||| [[langflow]] — logspace AI 可视化 LLM 工作流构建器：拖放节点图 + FastAPI + LangChain，支持 50+ LLM/向量库，MIT |
     93|    93|    93||| [[claude-code-game-studios]] — Claude Code Game Studios：49 Agent / 72 Skill 游戏开发工作流，MIT 开源 |
-    94|    94|    94||| [[voxcpm]] — OpenBMB 开源语音合成系统，Tokenizer-Free 架构支持 30 语言 + 9 种中文方言 |
+    94|    94|    94||| [[voxcpm]] — OpenBMB 无 Tokenizer TTS 系统（MiniCPM-4 骨干 + LocDiT 扩散架构），800M 参数/44.1kHz，零样本语音克隆/流式合成/RTF~0.15，支持全量/LoRA 微调，Apache 2.0 |
     95|    95|    95||| [[ai-game-devtools/biomes]] — ill-inc 开源 Web 沙盒 MMORPG：Next.js + Three.js + WebAssembly (C++ voxeloo)，React 资源系统桥接 Three.js 状态，12+ 微服务架构（sync/logic/gaia 等），ECS+Bikkie 数据层，MIT |
     96|    96|    96|
     97|    97|    97|## Game Dev
@@ -334,8 +334,9 @@
    334|   334|   332||| [[ai-game-devtools/vchitect-2-0]] — Vchitect 团队 2B 参数文本到视频扩散模型：Parallel Transformer 架构，720×480/8fps 基座+VEnhancer 2K/24fps 后处理，Apache 2.0
    335|   335|   333||||| [[ai-game-devtools/wan2-1]] — 阿里巴巴 Wan 团队开源视频基础模型套件：DiT+Flow Matching 架构，1.3B/14B 双尺寸，T2V/I2V/FLF2V/VACE 全任务覆盖，3D Causal VAE 支持无限长度 1080P 编码，Prompt Extension + FSDP/xDiT 多卡并行
    336|   336|   334|||||| [[ai-game-devtools/wan2-2]] — 阿里巴巴 Wan2.2 视频生成重大升级：MoE 双专家架构（27B总/14B激活）、Cinematic美学数据训练、Wan2.2-VAE高压缩(16×16×4)、TI2V-5B消费级GPU可跑720P@24fps、新增S2V语音→视频+Animate角色动画/替换，Apache 2.0
-   337|   337|   335||||| [[ai-game-devtools/waver]] — FoundationVision 工业级视频基础模型：Rectified Flow DiT 架构，12B参数，T2V/I2V/T2I统一，1080p/2-10秒，Artificial Analysis Top 3，级联480p/720p→1080p加速40-60%，Wan-VAE+flan-t5-xxl+Qwen2.5-32B，APG防过饱和
-   338|   338|   336||| [[ai-game-devtools/vgen]] — 阿里巴巴通义实验室全景视频生成生态系统：I2VGen-XL 两阶段图像→视频(1280×720)+DreamVideo 主体/运动定制+HiGen/TF-T2V，Python/PyTorch/YAML 驱动，~2 分钟推理
+||||| [[ai-game-devtools/waver]] — FoundationVision 工业级视频基础模型：Rectified Flow DiT 架构，12B参数，T2V/I2V/T2I统一，1080p/2-10秒，Artificial Analysis Top 3，级联480p/720p→1080p加速40-60%，Wan-VAE+flan-t5-xxl+Qwen2.5-32B，APG防过饱和
+||| [[ai-game-devtools/whisper]] — OpenAI 通用语音识别 Transformer 模型：多语言 ASR + 语音翻译 + 语言识别，6 种尺寸(39M~1550M)，99 种语言，滑动 30s 窗口自回归推理，MIT 开源，语音领域事实标准基线
+|||| [[ai-game-devtools/vgen]] — 阿里巴巴通义实验室全景视频生成生态系统：I2VGen-XL 两阶段图像→视频(1280×720)+DreamVideo 主体/运动定制+HiGen/TF-T2V，Python/PyTorch/YAML 驱动，~2 分钟推理
    339|   339|   337||||||| [[ai-game-devtools/view-crafter]] — TPAMI 2025: 视频扩散模型高保真新视角合成，单/稀疏图像→多视角，576×1024/25帧/23.5GB，精确相机位姿控制
    340|   340|   338||||| [[ai-game-devtools/video-elevator]] — AAAI 2025 训练-free 视频质量提升框架：T2V时序精炼+T2I空间注入交替管线，无需微调即兼容多种扩散后端，<11GB VRAM可运行
    341|   341|   339|| [[ai-game-devtools/agent-k]] — The autoagentic AGI. AgentK is a selfevolving AGI made of collaborating agents that can create new agents as needed to complete user tasks. Built on L |

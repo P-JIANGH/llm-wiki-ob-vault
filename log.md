@@ -34,3 +34,9 @@
 - Created: ai-game-devtools/yourtts.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added yourtts entry, total 586)
+## [2026-04-22] ingest | ZMM-TTS
+- Cloned: ~/tmp/ai-game-devtools/zmm-tts/
+- Created: raw/articles/ai-game-devtools/zmm-tts.md
+- Created: ai-game-devtools/zmm-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added zmm-tts entry, total 587)

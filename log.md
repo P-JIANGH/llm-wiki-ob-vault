@@ -10,3 +10,9 @@
 - Created: ai-game-devtools/whisper.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added whisper entry, total 582)
+## [2026-04-21] ingest | WhisperSpeech
+- Cloned: ~/tmp/ai-game-devtools/whisperspeech/
+- Created: raw/articles/ai-game-devtools/whisperspeech.md
+- Created: ai-game-devtools/whisperspeech.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added whisperspeech entry, total 583)

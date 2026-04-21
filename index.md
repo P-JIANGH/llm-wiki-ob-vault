@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-22 | 588 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-22 | 589 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -456,8 +456,9 @@
    454|   447|   443|| [[ai-game-devtools/toolbench]] — ToolBench（ToolLLM）是 OpenBMB 开源的大规模指令微调 SFT 数据集项目，旨在赋予开源 LLM 通用工具使用能力，让模型掌握数千种真实世界 REST API。核心贡献是通过 DFSDT（深度优先搜索决策树）方法自动构建高质量工具调用训练数据。 |
    455|   448|   444|| [[ai-game-devtools/ultraedit]] — UltraEdit is a largescale (~4M editing samples) instructionbased image editing dataset and training framework from Peking University, BIGAI, UCLA, and |
    456|   449|   445|| [[ai-game-devtools/ultrapixel]] — UltraPixel 是一个超高分辨率图像生成模型，NeurIPS 2024 发表论文。基于 aigamedevtools/stablecascade 和 TransinR 构建，能够生成细节丰富、质量极高的超高分辨率图像。支持文本到图像、个性化 LoRA 和 ControlNet 工作流。 |
-   457|   450|   446|| [[ai-game-devtools/unity-openai-api-integration]] — Integrates OpenAI GPT3 / ChatGPT API into a Unity project for natural language processing capabilities in games. |
-| [[ai-game-devtools/uso]] — USO (Unified Style driven and subjectdriven GeneratiOn) 是字节跳动智能创作实验室 UXO 团队开发的统一图像生成框架，将风格驱动和主体驱动生成统一到单个模型中。基于 aigamedevtools/flux 架构构建，2025 年 8 月开源，A |
+   459|   457|   450|   446|| [[ai-game-devtools/unity-openai-api-integration]] — Integrates OpenAI GPT3 / ChatGPT API into a Unity project for natural language processing capabilities in games. |
+   460|| [[ai-game-devtools/unityneurospeech]] — HardCodeDev 开源 Unity 全离线语音交互 AI NPC 框架：whisper.unity 本地 STT + Ollama 本地 LLM + Coqui XTTS 自定义语音克隆，情绪/动作标签自动解析，UniTask 异步，Windows Mono/IL2CPP 双后端，MIT |
+   461|| [[ai-game-devtools/uso]] — USO (Unified Style driven and subjectdriven GeneratiOn) 是字节跳动智能创作实验室 UXO 团队开发的统一图像生成框架，将风格驱动和主体驱动生成统一到单个模型中。基于 ai-game-devtools/flux 架构构建，2025 年 8 月开源，A |
 | [[ai-game-devtools/uniaudio2]] — 清华/港中文统一音频基础模型：ReasoningCodec 双分支音频 tokenization + LLaMA 3.2 自回归架构，100B 文本 + 60B 音频 token 训练，覆盖 TTS/ASR/音乐/音效 25+ 任务，MIT |
 | [[ai-game-devtools/video-agent]] — VideoAgent answers freeform questions about input videos using a twophase architecture: memory construction (extract and store structured information) |
    460|   453|   449|| [[ai-game-devtools/video-ccam]] — 腾讯多媒体研究团队开发的视频语言多模态大模型（VideoMLLM）系列，核心创新为 Causal CrossAttention Masks（因果交叉注意力掩码），用于提升短视频和长视频的理解能力。 |

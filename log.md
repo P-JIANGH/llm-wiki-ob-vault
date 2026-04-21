@@ -532,3 +532,9 @@
 - Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
 - Updated: index.md (added entry)
 
+## [2026-04-21] ingest | RealtimeTTS — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/realtime-tts/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/realtime-tts.md
+- Created: ai-game-devtools/realtime-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
+- Updated: index.md (added entry, Total pages: 955 → 956)

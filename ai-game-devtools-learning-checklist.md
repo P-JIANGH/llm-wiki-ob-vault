@@ -577,7 +577,7 @@
 |- [2026-04-21] One-Shot-Voice-Cloning | https://github.com/CMsmartvoice/One-Shot-Voice-Cloning
 |- [2026-04-21] OpenVoice | https://github.com/myshell-ai/OpenVoice
 - [2026-04-21] OverFlow | https://github.com/shivammehta25/OverFlow
-- [ ] RealtimeTTS | https://github.com/KoljaB/RealtimeTTS
+- [2026-04-21] RealtimeTTS | https://github.com/KoljaB/RealtimeTTS
 - [ ] SenseVoice | https://github.com/FunAudioLLM/SenseVoice
 - [ ] SpeechGPT | https://github.com/0nutation/SpeechGPT
 - [ ] speech-to-text-gpt3-unity | https://github.com/dr-iskandar/speech-to-text-gpt3-unity

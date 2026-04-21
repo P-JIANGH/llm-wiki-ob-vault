@@ -502,3 +502,4 @@
 | [[ai-game-devtools/tortoise-tts]] — 高质量多音色文本转语音库：GPT2自回归+扩散两阶段生成，CLVP输出选择，支持流式TTS <500ms延迟，DeepSpeed/KV cache/FP16优化，Apache 2.0
 | [[ai-game-devtools/tts-generation-webui]] — rsxdalv 全合一 TTS Web 界面：20+ TTS 模型统一接入(Bark/Tortoise/Kokoro/CosyVoice 等)+音乐生成(MusicGen)+音频工具(RVC/Whisper/Demucs)，Gradio+React 双前端，OpenAI 兼容 API，Docker 部署，MIT
    501|| [[ai-game-devtools/vibevoice]] — 微软开源前沿语音 AI 框架：TTS+ASR 双模型系列，7.5Hz 超低帧率连续语音 tokenizer+LLM+Diffusion 架构，ASR-7B 支持 50+语言/60min 单遍处理，TTS-1.5B 90min 长文本生成/4说话人轮转，Realtime-0.5B 流式 300ms 首音延迟，MIT
+| [[ai-game-devtools/voicebox]] — Meta FAIR 文本引导通用语音生成模型：50K+小时训练的非自回归流匹配 TTS，零样本跨语言合成/噪声消除/风格转换，比 VALL-E 快 20 倍，Speechify PyTorch 实现，MIT

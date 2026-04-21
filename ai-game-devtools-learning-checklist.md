@@ -590,7 +590,7 @@
 - [2026-04-21] TorToiSe-TTS | https://github.com/neonbjb/tortoise-tts
 - [2026-04-21] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
 |- [2026-04-21] VibeVoice | https://github.com/microsoft/VibeVoice
-- [ ] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
+|- [2026-04-21] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
 - [ ] VoiceCraft | https://github.com/jasonppy/VoiceCraft
 - [ ] VoxCPM | https://github.com/OpenBMB/VoxCPM
 - [ ] Whisper | https://github.com/openai/whisper

@@ -599,6 +599,6 @@
 - [2026-04-21] XTTS | https://github.com/coqui-ai/TTS
 - [2026-04-21] YourTTS | https://github.com/Edresson/YourTTS
 - [2026-04-22] ZMM-TTS | https://github.com/nii-yamagishilab/ZMM-TTS
-- [ ] UniAudio 2.0 | https://github.com/yangdongchao/UniAudio2
+- [2026-04-22] UniAudio 2.0 | https://github.com/yangdongchao/UniAudio2
 - [ ] UnityNeuroSpeech | https://github.com/HardCodeDev777/UnityNeuroSpeech
 

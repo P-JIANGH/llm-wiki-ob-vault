@@ -40,3 +40,9 @@
 - Created: ai-game-devtools/zmm-tts.md
 - Updated: ai-game-devtools-learning-checklist.md (Speech section)
 - Updated: index.md (added zmm-tts entry, total 587)
+## [2026-04-22] ingest | UniAudio 2.0
+- Cloned: ~/tmp/ai-game-devtools/uniaudio2/
+- Created: raw/articles/ai-game-devtools/uniaudio2.md
+- Created: ai-game-devtools/uniaudio2.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added uniaudio2 entry, total 588)

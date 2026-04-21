@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 953 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 954 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -410,7 +410,8 @@
    410|   406|| [[ai-game-devtools/omnilmm]] — OmniLMM (OpenBMB MiniCPMV & MiniCPMo) is an opensource suite of ondevice multimodal LLMs for vision, speech, and fullduplex multimodal live streaming. |
 || [[ai-game-devtools/onellm]] — OneLLM (One Framework to Align All Modalities with Language) is a CVPR 2024 unified multimodal framework that aligns 8 modalities with language via a  |
 |||| [[ai-game-devtools/one-shot-voice-cloning]] — Unet-TTS 单样本语音克隆：U-Net+AdaIN 架构，仅需一段参考音频克隆说话人声音，Style Encoder 自动估算音素时长统计，TensorFlowTTS 二次开发，MIT
-|| [[ai-game-devtools/open-assistant]]
+|||| [[ai-game-devtools/openvoice]] — MyShell AI 即时语音克隆框架：VITS 架构，精准音色克隆+风格控制+零样本跨语言（EN/ES/FR/ZH/JA/KO），内置水印，MIT 开源
+||| [[ai-game-devtools/open-assistant]]
    413|   409|| [[ai-game-devtools/opendevin]] — AIdriven autonomous software engineering agent. Formerly known as OpenDevin; rebranded to OpenHands. |
    414|   410|| [[ai-game-devtools/perplexica]] — GitHub: https://github.com/ItzCrazyKns/Perplexica License: MIT Tech Stack: Next.js, TypeScript, SearxNG, Drizzle ORM, Docker Category: LLM & Tool — AI |
    415|   411|| [[ai-game-devtools/pllava]] — PLLaVA (Pooling LLaVA) is a parameterfree LLaVA extension that adapts imagelanguage pretrained models for video understanding via temporal pooling, ac |

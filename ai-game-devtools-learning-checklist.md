@@ -575,7 +575,7 @@
 - [2026-04-21] MetaVoice-1B | https://github.com/metavoiceio/metavoice-src
 |- [2026-04-21] Mini-Omni | https://github.com/gpt-omni/mini-omni
 |- [2026-04-21] One-Shot-Voice-Cloning | https://github.com/CMsmartvoice/One-Shot-Voice-Cloning
-- [ ] OpenVoice | https://github.com/myshell-ai/OpenVoice
+|- [2026-04-21] OpenVoice | https://github.com/myshell-ai/OpenVoice
 - [ ] OverFlow | https://github.com/shivammehta25/OverFlow
 - [ ] RealtimeTTS | https://github.com/KoljaB/RealtimeTTS
 - [ ] SenseVoice | https://github.com/FunAudioLLM/SenseVoice

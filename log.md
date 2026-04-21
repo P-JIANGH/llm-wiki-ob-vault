@@ -1,3 +1,10 @@
+## [2026-04-21] ingest | OpenVoice
+- Cloned: ~/tmp/ai-game-devtools/openvoice/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/openvoice.md
+- Created: ai-game-devtools/openvoice.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (total pages 953→954)
+
 ## [2026-04-21] ingest | One-Shot-Voice-Cloning
 - Cloned: ~/tmp/ai-game-devtools/one-shot-voice-cloning/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/one-shot-voice-cloning.md

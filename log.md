@@ -545,3 +545,9 @@
 - Created: ai-game-devtools/sensevoice.md (entity page: FunAudioLLM speech foundation model, ASR+SER+AED)
 - Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
 - Updated: index.md (added entry, Total pages: 956 → 957)
+## [2026-04-21] ingest | SpeechGPT
+- Cloned: ~/tmp/ai-game-devtools/speechgpt/ (from gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/speechgpt.md
+- Created: ai-game-devtools/speechgpt.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added entry)

@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 957 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 572 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -391,6 +391,7 @@
    390|   386|| [[ai-game-devtools/lit-llama]] — LitLLaMA 是 LLaMA(https://github.com/facebookresearch/llama) 预训练、微调和推理代码的独立开源实现，基于 nanoGPT(https://github.com/karpathy/nanoGPT) 构建，完全使用 Apache 2.0 许可证开 |
    391|   387|| [[ai-game-devtools/llama-agentic-system]] — Meta 官方提供的 Llama 3.1+ agentic 应用示例项目，现归属 Llama Stack(https://github.com/metallama/llamastack) 生态（仓库地址变更为 llamastack/llamastackapps）。 |
    392|   388|| [[ai-game-devtools/llasm]] — LLaSM (Large Language and Speech Model) 是首个支持中英文语音文本多模态对话的开源可商用对话模型。由 LinkSoulAI 开发，Apache2.0 许可。 |
+||| [[ai-game-devtools/speechgpt]] — Fudan University 首个语音-文本跨模态对话 LLM：LLaMA-7B 基座 + mHuBERT 语音离散化 + 三阶段训练（模态适应预训练/跨模态指令微调/链式模态 LoRA），SpeechInstruct 数据集(9M对)，含 SpeechGPT-Gen(8B, CoIG流匹配)子项目
    393|   389|| [[ai-game-devtools/llava-onevision]] — LLaVAOneVision (是 LLaVANeXT 项目的一个子系列) 是一个支持单图、多图和视频输入的多模态大模型（VLM），在 47 个 benchmark 上达到或接近 SOTA，有时甚至媲美顶级商业模型（如 GPT4V、GeminiPro）。 |
    394|   390|| [[ai-game-devtools/llava-plus-plus]] — LLaVA++ extends the LLaVA 1.5 visual instructionfollowing framework by integrating two new large language models: Phi3 Mini Instruct (3.8B) and LLaMA3 |
    395|   391|| [[ai-game-devtools/llm.c]] — llm.c 是 Andrej Karpathy 的开源项目，用简洁、纯净的 C/CUDA 实现 LLM（GPT2/GPT3）训练，无需 PyTorch（245MB）或 cPython（107MB）任何外部 ML 框架依赖。项目同时提供 PyTorch 参考实现（traingpt2.py，基于 nan |

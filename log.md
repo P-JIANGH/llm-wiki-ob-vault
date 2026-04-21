@@ -525,4 +525,10 @@
 - Created: ai-game-devtools/mini-omni.md
 - Updated: ai-game-devtools-learning-checklist.md (marked complete)
 - Updated: index.md (added entry)
+## [2026-04-21] ingest | OverFlow — AI游戏开发工具
+- Cloned: ~/tmp/ai-game-devtools/overflow/ (GitHub direct success)
+- Created: raw/articles/ai-game-devtools/overflow.md
+- Created: ai-game-devtools/overflow.md
+- Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
+- Updated: index.md (added entry)
 

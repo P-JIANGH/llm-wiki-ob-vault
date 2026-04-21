@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 954 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 955 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -380,6 +380,7 @@
    380|   377|| [[ai-game-devtools/kimi-k2]] — Kimi K2 是 Moonshot AI（Kimikimi 月之暗面）发布的最新一代稀疏混合专家（MoE）大语言模型，总参数 1 万亿，激活参数 320 亿。专为 Agent 能力优化，在代码生成、工具调用和数学推理任务上达到开源 SOTA。 |
    381|   378|| [[ai-game-devtools/kwai-keye-vl]] — 快手可灵团队（Kwai Keye Team）开发的多模态大语言模型，专注于视频理解、视觉感知和推理任务。 |
    382|   379|| [[ai-game-devtools/kitten-tts]] — KittenML 超轻量 ONNX TTS 库：15M-80M 参数（25-80MB），纯 CPU 推理，8 内置音色，流式输出支持，Apache 2.0 |
+   383|   379|| [[ai-game-devtools/overflow]] — KTH 开源 TTS 模型 (Interspeech 2023)：HMM 神经 transducer + 归一化流解码器，Tacotron2 编码器 + HiFi-GAN 声码器，预训练男女声权重，说话速率/温度可调，MIT，已集成到 Coqui TTS |
    383|   379|| [[ai-game-devtools/la-vague]] — LaVague is an opensource framework for creating AI Web Agents that automate browserbased processes. Given a natural language objective (e.g., "Print i |
    384|   380|| [[ai-game-devtools/lamini]] — Lamini 是一个 Python SDK + 云端平台，用于快速构建和微调自定义生成式 AI 模型。提供从数据上传、模型微调、推理到评估的完整 LLM 工作流，并支持基于链式生成器/验证器的 Agentic Pipeline 架构。v3.2.22，Apache 2.0。 |
    385|   381|| [[ai-game-devtools/lamini-lm]] — Best performers per size: LaMiniFlanT5 variants and LaMiniGPT1.5B are recommended. |

@@ -22,3 +22,9 @@
 - Created: ai-game-devtools/x-e-speech.md
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added x-e-speech entry, total 584)
+## [2026-04-21] ingest | XTTS
+- Cloned: ~/tmp/ai-game-devtools/tts/
+- Created: raw/articles/ai-game-devtools/xtts.md
+- Created: ai-game-devtools/xtts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added xtts entry, total 585)

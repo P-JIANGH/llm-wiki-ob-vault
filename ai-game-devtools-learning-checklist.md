@@ -596,7 +596,7 @@
 - [2026-04-21] Whisper | https://github.com/openai/whisper
 - [2026-04-21] WhisperSpeech | https://github.com/collabora/WhisperSpeech
 - [2026-04-21] X-E-Speech | https://github.com/X-E-Speech/X-E-Speech-code
-- [ ] XTTS | https://github.com/coqui-ai/TTS
+- [2026-04-21] XTTS | https://github.com/coqui-ai/TTS
 - [ ] YourTTS | https://github.com/Edresson/YourTTS
 - [ ] ZMM-TTS | https://github.com/nii-yamagishilab/ZMM-TTS
 - [ ] UniAudio 2.0 | https://github.com/yangdongchao/UniAudio2

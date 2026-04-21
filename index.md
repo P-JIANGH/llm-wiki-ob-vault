@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 577 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 578 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -513,3 +513,4 @@
 |- [[ai-game-devtools/sensevoice]] — FunAudioLLM 多语言语音基础模型：ASR+情感识别+事件检测，50+语言/40万小时训练，比Whisper-Large快15倍，Apache 2.0
 |- [[ai-game-devtools/step-audio]] — 阶跃星辰 130B 统一语音交互模型：双码本tokenization(语义1024+声学4096)+130B Step-1 LLM基座+flow matching语音解码+CosyVoice声码器，支持中/英/日多语、情感/方言/语速/说唱控制、语音克隆、ToolCall，4×A800 80G推理
 |- [[ai-game-devtools/step-audio-2]] — 阶跃星辰端到端多模态语音大模型：Qwen2-Audio+Qwen2.5-7B初始化+CosyVoice TTS，ASR/语音翻译/情感推理/ToolCall/多轮对话，中英文ASR均SOTA，旁语言理解83分远超GPT-4o的43分，Apache 2.0
+|- [[ai-game-devtools/tortoise-cpp]] — John Balis 的 Tortoise-TTS C++/GGML 移植：CPU/CUDA/Metal 三后端，三模型管线(AR+扩散+声码器)，语音克隆兼容原版 tortoise-tts，无需 Python 运行时，MIT

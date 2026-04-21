@@ -1,3 +1,9 @@
+## [2026-04-21] ingest | tortoise.cpp
+- Cloned: ~/tmp/ai-game-devtools/tortoise-cpp/ (GitHub direct, success)
+- Created: raw/articles/ai-game-devtools/tortoise-cpp.md
+- Created: ai-game-devtools/tortoise-cpp.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added tortoise-cpp entry, total pages 577→578)
 ## [2026-04-21] ingest | StyleTTS 2
 - Cloned: ~/tmp/ai-game-devtools/style-tts-2/ (GitHub direct, success)
 - Created: raw/articles/ai-game-devtools/style-tts-2.md

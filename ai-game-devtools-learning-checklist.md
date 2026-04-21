@@ -586,7 +586,7 @@
 |- [2026-04-21] Step-Audio | https://github.com/stepfun-ai/Step-Audio
 |- [2026-04-21] Step-Audio 2 | https://github.com/stepfun-ai/Step-Audio2
 |- [2026-04-21] StyleTTS 2 | https://github.com/yl4579/StyleTTS2
-- [ ] tortoise.cpp | https://github.com/balisujohn/tortoise.cpp
+- [2026-04-21] tortoise.cpp | https://github.com/balisujohn/tortoise.cpp
 - [ ] TorToiSe-TTS | https://github.com/neonbjb/tortoise-tts
 - [ ] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
 - [ ] VibeVoice | https://github.com/microsoft/VibeVoice

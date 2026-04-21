@@ -564,3 +564,10 @@
 - Created: ai-game-devtools/speech-to-text-gpt3-unity.md (entity page: Whisper STT + ChatGPT + ElevenLabs TTS Unity voice interaction prototype, Flask middleware bridge)
 - Updated: ai-game-devtools-learning-checklist.md (marked [2026-04-21])
 - Updated: index.md (added entry, Total pages: 572 → 573)
+
+## [2026-04-21] ingest | StableTTS
+- Cloned: ~/tmp/ai-game-devtools/stabletts/
+- Created: raw/articles/ai-game-devtools/stabletts.md
+- Created: ai-game-devtools/stabletts.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added StableTTS entry)

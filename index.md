@@ -2,7 +2,7 @@
      2|     2|
      3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|> Read this first to find relevant pages for any query.
-     5|     5|> Last updated: 2026-04-21 | Total pages: 574 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+     5|     5|> Last updated: 2026-04-21 | Total pages: 575 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|
      7|     7|## AI / LLM / Agent
      8|     8|
@@ -468,7 +468,9 @@
    462|   458|| [[ai-game-devtools/web3-gpt]] — AIpowered smart contract development platform. Chat with agents that can write, deploy, and verify Solidity contracts on EVMcompatible chains. |
    463|   459|| [[ai-game-devtools/yi]] — 所有 base model 有 200K 上下文变体。 |
    464|   460|| [[ai-game-devtools/zero-1-to-3]] — Columbia University Computer Vision Lab · ICCV 2023 · MIT License |
-   465|   461|## Avatar
+   465|   461|||| [[ai-game-devtools/stabletts]] — 首个 Flow-Matching + DiT 开源 TTS（31M 参数）：中日英三语合成、零样本声音克隆、CFG 支持、MAS 对齐、Gradio WebUI，MIT
+
+## Avatar
    466|   462|
    467|   463||| [[ai-game-devtools/animate-anyone]] — Alibaba 智能计算研究院扩散模型角色动画框架：ReferenceNet + Pose Guider + 时空注意力UNet，单图+姿态序列→一致性动画视频，DeepGPU加速 ~40%，支持虚拟试衣/说话头像集成
    468|   464|||| [[ai-game-devtools/aniportrait]] — Tencent Games Zhiji 音频驱动肖像动画：wav2vec2 → audio2mesh/audio2pose → 3DMM参数 + AnimateDiff Motion Module 3D UNet，支持自驱动/人脸重演/音频驱动三模式，Apache 2.0 |

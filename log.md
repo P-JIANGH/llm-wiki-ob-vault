@@ -132,3 +132,9 @@
 - Created: ai-game-devtools/unityaiwithchatgpt.md
 - Updated: index.md (added unityaiwithchatgpt entry)
 - Note: checklist already marked complete [2026-04-19]; wiki page was missing
+## [2026-04-23] ingest | LLaVA++
+- Cloned: ~/tmp/ai-game-devtools/llava-pp/
+- Created: raw/articles/ai-game-devtools/llava-pp.md
+- Created: ai-game-devtools/llava-pp.md
+- Updated: index.md (fixed llava-plus-plus → llava-pp link)
+- Note: checklist already marked complete [2026-04-15]; wiki page was missing

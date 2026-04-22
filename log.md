@@ -75,3 +75,9 @@
 - Created: ai-game-devtools/la-vague.md (was missing despite checklist completion)
 - Source: raw/articles/ai-game-devtools/lavague.md
 - Note: 117 remaining wiki pages missing across checklist, will process in subsequent runs
+## [2026-04-22] ingest | Qwen-7B
+- Source: web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/qwen-7b.md
+- Created: ai-game-devtools/qwen-7b.md
+- Updated: index.md (added qwen-7b entry)
+- Note: checklist already marked complete [2026-04-14]; wiki page was missing

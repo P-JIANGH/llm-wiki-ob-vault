@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-22 | 590 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-22 | 591 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -421,8 +421,9 @@
    420|   416|   412|| [[ai-game-devtools/points-reader]] — POINTSReader is a distillationfree visionlanguage model for endtoend document conversion, developed by Tencent. It was accepted to EMNLP 2025 Main Con |
    421|   417|   413|| [[ai-game-devtools/poster-craft]] — PosterCraft 是一个统一框架，用于高质量美学海报生成（ICLR'26），在精确文字渲染、抽象艺术融合和布局风格和谐方面表现出色。 |
    422|   418|   414|| [[ai-game-devtools/prompt-enhancer]] — Tencent Hunyuan 开源的 CoT（ChainofThought）提示重写工具，将用户输入的简单提示词重构为更清晰、结构化的版本，以提升下游图像生成质量，同时严格保留原始创意意图。 |
-   423|   419|   415|| [[ai-game-devtools/qwen-vl]] — QwenVL 是阿里巴巴通义千问（Qwen）系列的多模态视觉语言大模型（LVLM）。支持图像 + 文本 + 边界框输入，输出文本和边界框。2023年8月由阿里巴巴云开源发布。 |
-   424|   420|   416|| [[ai-game-devtools/qwen1.5]] — Qwen (通义千问) is Alibaba DAMO Academy's opensource LLM series spanning Qwen1.5 → Qwen2 → Qwen2.5 → Qwen3. The QwenLM/Qwen1.5 GitHub repository serves as |
+   423|   419|   415|   411|| [[ai-game-devtools/qwen-vl]] — QwenVL 是阿里巴巴通义千问（Qwen）系列的多模态视觉语言大模型（LVLM）。支持图像 + 文本 + 边界框输入，输出文本和边界框。2023年8月由阿里巴巴云开源发布。 |
+|| [[ai-game-devtools/qwen-7b]] — 阿里巴巴通义千问原始开源 LLM 系列（1.8B/7B/14B/72B），2023 年发布，中英双语+工具调用+Int4/Int8 量化，Tongyi Qianwen License，已停止维护 |
+   424|   420|   416|   412|| [[ai-game-devtools/qwen1.5]] — Qwen (通义千问) is Alibaba DAMO Academy's opensource LLM series spanning Qwen1.5 → Qwen2 → Qwen2.5 → Qwen3. The QwenLM/Qwen1.5 GitHub repository serves as |
    425|   421|   417|| [[ai-game-devtools/qwen2]] — Alibaba Cloud（通义千问）第二代大语言模型系列。参数范围 0.5B–72B，支持 vLLM / SGLang / llama.cpp 等推理框架，Apache 2.0 开源。 |
    426|   422|   418|| [[ai-game-devtools/qwen2.5-coder]] — Alibaba 通义千问代码模型系列，由 Qwen2.5Coder（稠密模型）演进至 Qwen3Coder（Hybrid Attention + MoE）。Qwen3CoderNext 主打 Agentic Coding，支持 Qwen Code、CLINE、Claude Code、OpenClaw |
    427|   423|   419|| [[ai-game-devtools/qwen3]] — 阿里巴巴通义千问第三代大语言模型，由 Qwen 团队开发。Qwen3 首次引入 MoE 架构和多模态能力，支持 thinking/nonthinking 双模式灵活切换。 |

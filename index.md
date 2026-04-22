@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-22 | 597 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-22 | 598 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -500,8 +500,9 @@
    488|   479|   475|||| [[ai-game-devtools/facefusion]] — 行业领先的人脸操作平台：人脸检测/交换/增强/唇同步/表情恢复等多处理器组合，Gradio Web UI + headless/batch 模式 + 作业管理系统，OpenRAIL-AS 许可 |
    489|   480|   476|||| [[ai-game-devtools/geneavatar]] — CVPR 2024 单图像 3D 头部 Avatar 编辑框架：3DMM 驱动三平面修改场 + 体渲染几何变形/纹理混合 + 自动解码优化实现 2D→3D 编辑提升，支持 INSTA/NeRFBlendShape/Next3D 多种表示，代码待发布
    490|   481|   477|||| [[ai-game-devtools/geneface-plus-plus]] — 中科院/浙大 通用稳定实时音频驱动 3D 说话头像生成：三阶段管线(Audio2Motion VAE → PostNet CNN+LLE → RADNeRF 渲染)，3DMM(BFM2009)参数化表示，支持眨眼注入/口型幅度控制，PyTorch+CUDA 11.7，预训练权重可下载 |
-   491|   482|   478|||| [[ai-game-devtools/geneface]] — 浙江大学&字节跳动 ICLR 2023 音频驱动 3D 说话面部合成：3D地标VAE+NeRF渲染管线，RAD-NeRF实时推理/10h训练，跨说话人/语种高泛化，MIT
-   492|   483|   479|||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
+|||| [[ai-game-devtools/geneface]] — 浙江大学&字节跳动 ICLR 2023 音频驱动 3D 说话面部合成：3D地标VAE+NeRF渲染管线，RAD-NeRF实时推理/10h训练，跨说话人/语种高泛化，MIT
+|||| [[ai-game-devtools/panic3d-anime-reconstruction]] — CVPR 2023 动漫角色单视图风格化 3D 重建：线填充模型跨越插图到 3D 域差距 + 体辐射场表示复杂几何，11.2k Vroid 3D 模型训练，支持 talking head 演示
+|||| [[ai-game-devtools/hallo]] — 复旦大学音频驱动肖像动画：SD 1.5+AnimateDiff Motion Module 基础+Wav2Vec 音频编码+InsightFace 人脸分析，层级式跨模态注意力融合，两阶段训练，ComfyUI 集成
    493|   484|   480||||| [[ai-game-devtools/hallo2]] — 复旦大学 ICLR 2025 长时长高分辨率音频驱动肖像动画：两阶段管线(扩散动画+CodeFormer超分)，支持4K/最长1小时输出，基于SD 1.5+AnimateDiff v2+Wav2Vec+InsightFace
    494|   485|   481|||||| [[ai-game-devtools/hunyuan-portrait]] — 腾讯混元 CVPR 2025 视频驱动肖像动画：SVD UNet3D 主干+DINOv2 身份编码+ArcFace 特征+HeadExpression/HeadPose 运动解耦，IntensityAwareMotionRefiner 精炼，软掩码贴回原分辨率，单3090可运行
    495|   486|   482||||||| [[ai-game-devtools/hunyuanvideo-avatar]] — 腾讯混元 MM-DiT 架构音频驱动多人角色动画：角色图像注入模块+情感控制(AEM)+面部感知音频适配器(FAA)独立注入，支持写实/卡通/3D/拟人多风格，10GB-96GB VRAM 弹性配置

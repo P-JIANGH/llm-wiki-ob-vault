@@ -138,3 +138,9 @@
 - Created: ai-game-devtools/llava-pp.md
 - Updated: index.md (fixed llava-plus-plus → llava-pp link)
 - Note: checklist already marked complete [2026-04-15]; wiki page was missing
+## [2026-04-23] ingest | llm.c
+- Cloned: ~/tmp/ai-game-devtools/llm-c/
+- Created: raw/articles/ai-game-devtools/llm-c.md
+- Created: ai-game-devtools/llm-c.md
+- Updated: index.md (added llm-c entry, total 600)
+- Note: checklist already marked complete [2026-04-14]; wiki page was missing

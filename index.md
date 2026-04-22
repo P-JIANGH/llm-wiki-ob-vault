@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-23 | 599 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-23 | 600 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -119,8 +119,9 @@
    111|   111|   111|||| [[ai-game-devtools/flux-music]] — 首个 Rectified Flow + 双流 Transformer 文本到音乐生成模型：T5-XXL+CLAP-L 条件编码 + AudioLDM2 VAE/Vocoder，支持 Small/Base/Large/Giant/Giant-Full 五种规格（512~2048 hidden），50 步采样，16kHz/10.24 秒，arXiv 2409.00587 |
    112|   112|   112|| [[ai-game-devtools/hunyuan3d-2]] — 腾讯混元 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，文本/图像→高分辨率 3D 网格，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM，Apache 2.0 |
    113|   113|   113|| [[ai-game-devtools/infllm-v2]] — 清华 InfLLM 高效长上下文推理：分块注意力 + 内存池压缩，O(L) 时间/内存复杂度，有效无限上下文窗口 (2M+ tokens)，兼容 Llama/Mistral/Qwen，MIT |
-   114|   114|   114|| [[ai-game-devtools/llama2-c]] — Karpathy llama2.c 纯 C 实现 (~700 行)：零依赖 Llama 2 推理，无 PyTorch/CUDA，自定义二进制权重格式，INT8 量化支持，教育/嵌入式 AI，MIT |
-   115|   115|   115|| [[ai-game-devtools/litgpt]] — Lightning AI 轻量 GPT 实现：模块化 Llama/Mistral/Phi 等架构支持，LoRA/QLoRA 微调 + 多后端推理 + 量化，Lightning Fabric 分布式训练，Apache 2.0 |
+|| [[ai-game-devtools/llama2-c]] — Karpathy llama2.c 纯 C 实现 (~700 行)：零依赖 Llama 2 推理，无 PyTorch/CUDA，自定义二进制权重格式，INT8 量化支持，教育/嵌入式 AI，MIT |
+|| [[ai-game-devtools/llm-c]] — Karpathy 纯 C/CUDA LLM 训练框架：零依赖 PyTorch/cPython，~1000 行 CPU 参考实现 + CUDA 主线路（比 PyTorch Nightly 快 7%），多 GPU/多节点/混合精度，GPT-2/GPT-3 复现，MIT |
+|| [[ai-game-devtools/litgpt]] — Lightning AI 轻量 GPT 实现：模块化 Llama/Mistral/Phi 等架构支持，LoRA/QLoRA 微调 + 多后端推理 + 量化，Lightning Fabric 分布式训练，Apache 2.0 |
    116|   116|   116|| [[ai-game-devtools/llava-next]] — 下一代 LLaVA 多模态模型：任意分辨率处理 + 图文交错理解 + 视频扩展，Llama 3/Qwen/Mistral 多 LLM 骨干，Apache 2.0 |
    117|   117|   117|||| [[ai-game-devtools/jukebox]] — OpenAI 先驱性自回归音乐生成模型（5B/5B_lyrics/1B_lyrics）：3级 VQ-VAE+分层 Transformer，支持歌词/艺术家/流派条件+音频提示，V100 3小时/20秒，非商用许可证
    118|   118|   118|||| [[ai-game-devtools/magenta]] — Google Brain AI 艺术与音乐生成研究项目：MelodyRNN/MusicVAE/NSynth/GANSynth 等多模型家族，MIDI/符号音乐+波形合成，pip 安装，~40 CLI 工具，Apache 2.0（已存档）

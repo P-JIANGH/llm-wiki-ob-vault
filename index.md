@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-22 | 591 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-22 | 597 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -98,10 +98,17 @@
     98|    98|    98|
     99|    99|    99|| [[godot-4]] — Godot 4 引擎：GDScript、Jolt Physics、XR、版本历史 |
    100|   100|   100|| [[gdscript-patterns]] — GDScript 10 种设计模式（单例/Signal/Lambda/寻路/物理检测） |
-   101|   101|   101|| [[godot-animation-system]] — AnimatedSprite2D 帧动画 + CharacterController 状态机 |
-   102|   102|   102|| [[microverse-character-system]] — 8 角色人格/职位/说话风格（CharacterPersonality） |
+|| [[phaser-4-migration]] — Phaser 3 → Phaser 4 迁移指南：渲染器重写、Filter 统一、API 变更、移除功能 |
+|| [[phaser-vue-integration]] — Phaser 3 + Vue 3 + TypeScript 官方模板与实战：Registry/Pinia 状态桥梁、生命周期管理 |
+|| [[godot-animation-system]] — AnimatedSprite2D 帧动画 + CharacterController 状态机 |
+|| [[godot-networking]] — 高级多人游戏 API：Scene Replication / RPC / MultiplayerPeer / 权威模式 |
+|| [[godot-rendering-system]] — 三大渲染器（Forward+/Mobile/Compatibility）、7种 Shader Processor、Visual Shader |
+|| [[godot-ui-system]] — Control 节点体系、Container 布局系统、Theme 资源管理、Anchor 响应式 |
+|| [[microverse-character-system]] — 8 角色人格/职位/说话风格（CharacterPersonality） |
    103|   103|   103|| [[microverse-dialog-system]] — DialogService/ConversationManager/BackgroundStoryManager |
    104|   104|   104|| [[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态） |
+|| [[game-design-document]] — 游戏设计文档 GDD 模板与指南：One Pager、核心循环、范围控制 |
+|| [[indie-game-marketing]] — 独立游戏 Steam 营销研究：发布时机、像素艺术品类选择、Reddit 社区营销、收入参考 |
    105|   105|   105|## AI Game DevTools
    106|   106|   106|
    107|   107|   107|| [[ai-game-devtools/animate-diff]] — 开源文本到视频动画扩散模型：时序注意力模块插入冻结 SD UNet，支持 SD1.5/SDXL 后端，ComfyUI 集成，AnimateDiff v1/v2/v3 全系列，Apache 2.0 |
@@ -475,9 +482,9 @@
    473|   469|   462|   458|| [[ai-game-devtools/yi]] — 所有 base model 有 200K 上下文变体。 |
    474|   470|   463|   459|| [[ai-game-devtools/zero-1-to-3]] — Columbia University Computer Vision Lab · ICCV 2023 · MIT License |
    475|   471|   464|   460|||| [[ai-game-devtools/stabletts]] — 首个 Flow-Matching + DiT 开源 TTS（31M 参数）：中日英三语合成、零样本声音克隆、CFG 支持、MAS 对齐、Gradio WebUI，MIT
-   476|   472|   465|   461|| [[ai-game-devtools/ludo-ai]] — Ludo.ai 统一 AI 游戏开发生态系统：概念生成/精灵图+3D+音频+视频资产生成/可玩原型构建/市场趋势分析，MCP 集成 Claude/Cursor，Unity/Ubisoft/Voodoo 等工作室采用
-   477|   473|
-   478|   474|## Avatar
+   485|   476|   472|   465|   461|| [[ai-game-devtools/ludo-ai]] — Ludo.ai 统一 AI 游戏开发生态系统：概念生成/精灵图+3D+音频+视频资产生成/可玩原型构建/市场趋势分析，MCP 集成 Claude/Cursor，Unity/Ubisoft/Voodoo 等工作室采用
+   486|   477|   473|| [[ai-game-devtools/unityaiwithchatgpt]] — 基于 Unity 的 ChatGPT + UnityChan 语音交互演示：OpenAI API 对话 + RTVoice TTS + LipSync 唇形同步，完整虚拟角色交互方案
+   487|   478|   474|## Avatar
    476|   467|   463||| [[ai-game-devtools/animate-anyone]] — Alibaba 智能计算研究院扩散模型角色动画框架：ReferenceNet + Pose Guider + 时空注意力UNet，单图+姿态序列→一致性动画视频，DeepGPU加速 ~40%，支持虚拟试衣/说话头像集成
    477|   468|   464|||| [[ai-game-devtools/aniportrait]] — Tencent Games Zhiji 音频驱动肖像动画：wav2vec2 → audio2mesh/audio2pose → 3DMM参数 + AnimateDiff Motion Module 3D UNet，支持自驱动/人脸重演/音频驱动三模式，Apache 2.0 |
    478|   469|   465||| [[ai-game-devtools/calm]] — NVIDIA Research Isaac Gym 虚拟角色控制：CALM对抗式潜在模型 + HRL两级架构（HLC任务决策/LLC运动执行），AMP动作先预训练 + 风格约束精确训练 + 无额外推理，剑盾风格人形角色，NVIDIA License |

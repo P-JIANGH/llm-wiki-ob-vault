@@ -1,3 +1,23 @@
+## [2026-04-22] update | Godot engine deep dive
+- Updated: concepts/godot-4.md (expanded with 4.6 features, rendering backends, editor improvements, three new cross-links)
+- Created: raw/articles/godot-official-docs-2026.md (raw source: official features list)
+- Created: raw/articles/godot-4-6-gdquest-2026.md (raw source: GDQuest 4.6 changes guide)
+- Created: concepts/godot-rendering-system.md (three renderers, shader system, 2D/3D features)
+- Created: concepts/godot-ui-system.md (Control nodes, Container layout, Theme system)
+- Created: concepts/godot-networking.md (MultiplayerAPI, RPC, Scene Replication)
+- Updated: index.md (added 4 entries, 591→595)
+
+## [2026-04-22] update | 螨光游戏工作室知识库补充
+- Created: raw/articles/phaser-4-migration-2026.md (raw source: Phaser official migration guide)
+- Created: raw/articles/phaser-vue3-ts-template-2024.md (raw source: Phaser official Vue 3 TS template)
+- Created: raw/articles/indie-game-marketing-2025.md (raw source: How To Market A Game research)
+- Created: raw/articles/gdd-template-guide-2025.md (raw source: Indie Game Academy GDD guide)
+- Created: concepts/phaser-4-migration.md (Phaser 4 迁移指南、对螨光项目的影响评估)
+- Created: concepts/phaser-vue-integration.md (Phaser 3 + Vue 3 + TypeScript 实战模式：Registry/Pinia 状态桥梁、生命周期管理)
+- Created: concepts/indie-game-marketing.md (Steam 营销研究：节日游戏不好卖、像素艺术品类选择、Reddit 营销、发布时机)
+- Created: concepts/game-design-document.md (GDD 模板与指南：One Pager、核心循环、范围控制)
+- Updated: index.md (added 6 entries, 595→597)
+
 ## [2026-04-21] ingest | VoxCPM
 - Cloned: ~/tmp/ai-game-devtools/voxcpm/ (gitcode mirror; GitHub timed out)
 - Created: raw/articles/ai-game-devtools/voxcpm.md
@@ -81,3 +101,9 @@
 - Created: ai-game-devtools/qwen-7b.md
 - Updated: index.md (added qwen-7b entry)
 - Note: checklist already marked complete [2026-04-14]; wiki page was missing
+## [2026-04-22] ingest | UnityAIWithChatGPT
+- Cloned: ~/tmp/ai-game-devtools/unityaiwithchatgpt/ (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/unityaiwithchatgpt.md
+- Created: ai-game-devtools/unityaiwithchatgpt.md
+- Updated: index.md (added unityaiwithchatgpt entry)
+- Note: checklist already marked complete [2026-04-19]; wiki page was missing

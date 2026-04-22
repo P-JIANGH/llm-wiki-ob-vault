@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-22 | 598 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-04-22 | 599 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -233,7 +233,8 @@
    225|   225|   224||||||| [[ai-game-devtools/hy-world-1.5]] — 腾讯混元 WorldPlay 实时交互世界模型
    226|   226|   225|||| [[ai-game-devtools/genagent]] — xxyQwQ/港科大 CVPR 2025 LLM Agent：在ComfyUI中自动生成Stable Diffusion工作流
    227|   227|   226||| [[ai-game-devtools/genesis]] — Genesis-Embodied-AI 通用物理引擎平台：6种求解器统一框架（Rigid/MPM/SPH/FEM/PBD/SF），43M FPS @ RTX 4090，光线追踪渲染+生成式数据引擎，Apache 2.0 |
-   228|   228|   227|| [[ai-game-devtools/gigax]] — GigaxGames 开源游戏运行时 LLM NPC 框架：Outlines 结构化生成保证输出格式，<1s GPU 推理，NPC-LLM-7B/3_8B 开源权重，MIT |
+   228|   228|   227|| [[ai-game-devtools/physrig]] — ICCV 2025 物理驱动骨骼绑定框架：MPM 软体模拟替代 LBS，可微分材质参数优化（杨氏模量/泊松比），Blender FBX 管线，支持骨骼驱动弹性形变 |
+   229|   229|   228|| [[ai-game-devtools/gigax]] — GigaxGames 开源游戏运行时 LLM NPC 框架：Outlines 结构化生成保证输出格式，<1s GPU 推理，NPC-LLM-7B/3_8B 开源权重，MIT |
    229|   229|   229|| [[ai-game-devtools/interactive-llm-powered-npcs]] — AkshitIreddy 游戏 NPC 实时对话系统：DeepFace 面部识别+Cohere LLM+LangChain+ChromaDB 生成对话，SadTalker 唇形动画+Edge-TTS 语音，Pixel 替换叠加层适配任意游戏无需源码修改，MIT |
    230|   230|   230|| [[ai-game-devtools/mahatts]] — Dubverse.ai 多语言开源 TTS 模型：受 Tortoise 启发+M4T wav2vec2 语义编码，三阶段管线(84M Causal LM→430M Diffusion→13M HiFi-GAN)，11 种语言(英语+10 种印度语言)，Apache 2.0 商用许可 |
    231|   231|   231||| [[ai-game-devtools/matrix-game]] — Skywork AI 开源交互式游戏世界模型系列：Wan2.2 DiT 架构+键鼠动作条件化+长程记忆+流式生成，3.0 支持 INT8 量化/异步 VAE/FSDP，MIT |

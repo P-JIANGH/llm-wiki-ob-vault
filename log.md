@@ -1,3 +1,10 @@
+## [2026-04-22] ingest | PhysRig
+- Cloned: ~/tmp/ai-game-devtools/physrig/
+- Created: raw/articles/ai-game-devtools/physrig.md
+- Created: ai-game-devtools/physrig.md
+- Updated: index.md (added physrig entry, total 599)
+- Note: checklist already marked complete [2026-04-18]; wiki page was missing
+
 ## [2026-04-22] ingest | PAniC-3D
 - Cloned: ~/tmp/ai-game-devtools/panic3d-anime-reconstruction/
 - Created: raw/articles/ai-game-devtools/panic3d-anime-reconstruction.md

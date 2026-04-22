@@ -1,3 +1,10 @@
+## [2026-04-22] ingest | PAniC-3D
+- Cloned: ~/tmp/ai-game-devtools/panic3d-anime-reconstruction/
+- Created: raw/articles/ai-game-devtools/panic3d-anime-reconstruction.md
+- Created: ai-game-devtools/panic3d-anime-reconstruction.md
+- Updated: index.md (added panic3d entry, total 598)
+- Note: checklist already marked complete [2026-04-18]; wiki page was missing
+
 ## [2026-04-22] update | Godot engine deep dive
 - Updated: concepts/godot-4.md (expanded with 4.6 features, rendering backends, editor improvements, three new cross-links)
 - Created: raw/articles/godot-official-docs-2026.md (raw source: official features list)

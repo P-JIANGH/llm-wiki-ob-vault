@@ -108,6 +108,7 @@
    103|   103|   103|| [[microverse-dialog-system]] — DialogService/ConversationManager/BackgroundStoryManager |
    104|   104|   104|| [[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态） |
 || [[game-design-document]] — 游戏设计文档 GDD 模板与指南：One Pager、核心循环、范围控制 |
+|| [[gdd-reincarnator-v2]] — 转生者模拟器 v2 One Pager GDD：核心循环、USP、系统概览、技术架构、开发进度 |
 || [[indie-game-marketing]] — 独立游戏 Steam 营销研究：发布时机、像素艺术品类选择、Reddit 社区营销、收入参考 |
    105|   105|   105|## AI Game DevTools
    106|   106|   106|

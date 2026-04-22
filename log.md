@@ -3,6 +3,17 @@
 - Created: raw/articles/ai-game-devtools/panic3d-anime-reconstruction.md
 - Created: ai-game-devtools/panic3d-anime-reconstruction.md
 - Updated: index.md (added panic3d entry, total 598)
+
+## [2026-04-22] update | gemma.cpp raw source
+- Cloned: ~/tmp/ai-game-devtools/gemma.cpp (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/gemma.cpp.md
+- Note: checklist already marked complete [2026-04-13]; wiki page [[ai-game-devtools/gemma-cpp]] exists; raw source was missing
+
+## [2026-04-22] create | 转生者模拟器 v2 One Pager GDD
+- 位于：concepts/gdd-reincarnator-v2.md
+- 项目版本：~/yg/workspace/projects/reincarnator-simulator-v2/docs/GDD-OnePager.md
+- 内容：游戏概览、核心循环、USP（反龙傲天/大厂模拟器框架/5局外成长/6种结局）、核心系统概览、技术架构、开发进度(Phase 1-6)、风险假设、目标玩家
+- Updated: index.md (added gdd-reincarnator-v2 entry, total 598→599)
 - Note: checklist already marked complete [2026-04-18]; wiki page was missing
 
 ## [2026-04-22] update | Godot engine deep dive

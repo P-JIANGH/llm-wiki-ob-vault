@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-> Last updated: 2026-04-22 | 599 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-23 | 599 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -403,7 +403,7 @@
    393|   392|   388|| [[ai-game-devtools/llasm]] — LLaSM (Large Language and Speech Model) 是首个支持中英文语音文本多模态对话的开源可商用对话模型。由 LinkSoulAI 开发，Apache2.0 许可。 |
    394|||| [[ai-game-devtools/speechgpt]] — Fudan University 首个语音-文本跨模态对话 LLM：LLaMA-7B 基座 + mHuBERT 语音离散化 + 三阶段训练（模态适应预训练/跨模态指令微调/链式模态 LoRA），SpeechInstruct 数据集(9M对)，含 SpeechGPT-Gen(8B, CoIG流匹配)子项目
    395|   393|   389|| [[ai-game-devtools/llava-onevision]] — LLaVAOneVision (是 LLaVANeXT 项目的一个子系列) 是一个支持单图、多图和视频输入的多模态大模型（VLM），在 47 个 benchmark 上达到或接近 SOTA，有时甚至媲美顶级商业模型（如 GPT4V、GeminiPro）。 |
-   396|   394|   390|| [[ai-game-devtools/llava-plus-plus]] — LLaVA++ extends the LLaVA 1.5 visual instructionfollowing framework by integrating two new large language models: Phi3 Mini Instruct (3.8B) and LLaMA3 |
+   396|   394|   390|| [[ai-game-devtools/llava-pp]] — MBZUAI LLaVA++：将 Phi-3 Mini 3.8B 和 LLaMA-3 8B 集成到 LLaVA 1.5 视觉指令框架，支持预训练/LoRA/全量/S² 微调，Apache 2.0 |
    397|   395|   391|| [[ai-game-devtools/llm.c]] — llm.c 是 Andrej Karpathy 的开源项目，用简洁、纯净的 C/CUDA 实现 LLM（GPT2/GPT3）训练，无需 PyTorch（245MB）或 cPython（107MB）任何外部 ML 框架依赖。项目同时提供 PyTorch 参考实现（traingpt2.py，基于 nan |
    398|   396|   392|| [[ai-game-devtools/llmunity]] — Undream AI(https://undream.ai) 出品的 Unity LLM 集成插件（v3.0.3），将大语言模型直接嵌入 Unity 游戏引擎，支持 PC/移动端/VR 全平台运行。 |
    399|   397|   393|| [[ai-game-devtools/longva]] — LongVA (Long Vision Assistant) is a large multimodal model (LMM) developed by SLab at Nanyang Technological University (NTU), led by researchers inclu |

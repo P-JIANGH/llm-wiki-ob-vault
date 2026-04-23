@@ -200,8 +200,9 @@
    191|   191|   190|||| [[ai-game-devtools/byzer-agent]] — allwefantasy 分布式 Agent 框架：Ray + AutoGen 内核，支持本地/远程 Agent 通信，@byzerllm 装饰器定义 Prompt/Reply，Apache 2.0 |
    192|   192|   191|||| [[ai-game-devtools/comorag]] — EternityJune25 认知启发的记忆组织 RAG 系统：Reason→Probe→Retrieve→Consolidate→Resolve 迭代推理循环，三层记忆（Veridical/Semantic/Episodic），200K+ token 长叙事问答优于基线 11%，arXiv 2508.10419，MIT |
    193|   193|   192|||| [[ai-game-devtools/buffer-of-thoughts]] — 北京大学&UC Berkeley&Stanford 思维增强推理框架（NeurIPS 2024 Spotlight）：Meta Buffer 存储可复用思维模板+LightRAG检索，Llama3-8B+BoT可超越Llama3-70B，成本仅ToT的12%，MIT ||
-   194|   194|   193|||| [[ai-game-devtools/crewai]] — joaomdmoura 独立多Agent框架（无LangChain依赖）：Crew（自主Agent协作）+Flow（事件驱动生产工作流）+Sequential/Hierarchical双进程，5.76x快于LangGraph，MIT ||
-   195|   195|   194|||| [[ai-game-devtools/datarus-jupyter-agent]] — DatarusAI 数据科学 Jupyter Agent：基于 Datarus-R1-14B（Qwen 2.5 微调）驱动多步推理，Docker+Jupyter 隔离执行环境，ReAct/CoT 双模式，自动纠错，生成分析 Notebook，Apache 2.0 |
+   203|   194|   194|   193|||| [[ai-game-devtools/crewai]] — joaomdmoura 独立多Agent框架（无LangChain依赖）：Crew（自主Agent协作）+Flow（事件驱动生产工作流）+Sequential/Hierarchical双进程，5.76x快于LangGraph，MIT ||
+   204|   195|   195|   194|||| [[ai-game-devtools/cwm]] — Meta FAIR 32B 代码世界模型：Python 执行轨迹+容器化环境交互训练，多任务 RL 后训练，SWE-bench Verified 65.8%，LCBv6 63.5%，非商业研究许可 |
+   205|   196|   196|   195|||| [[ai-game-devtools/datarus-jupyter-agent]] — DatarusAI 数据科学 Jupyter Agent：基于 Datarus-R1-14B（Qwen 2.5 微调）驱动多步推理，Docker+Jupyter 隔离执行环境，ReAct/CoT 双模式，自动纠错，生成分析 Notebook，Apache 2.0 |
    196|   196|   195|| [[ai-game-devtools/everything-ai]] — AstraBert Docker 多任务 AI 助手：18 种任务模式（RAG/文本/图像/音频/视频/蛋白质折叠），Qdrant + llama.cpp + HuggingFace，支持本地 GGUF 和云端 API，MIT |
    197|   197|   196||| [[ai-game-devtools/easyphoto]] — 阿里巴巴 PAI AI 人像生成 WebUI 插件：5-20 张人脸照训练数字分身 LoRA + 两阶段扩散生成 + ControlNet 条件控制 + LCM 加速/视频生成/虚拟试衣，Apache 2.0 |
    198|   198|   197|| [[ai-game-devtools/fabric]] — Daniel Miessler 开源 AI 增强框架（Go）：Pattern 模式管理 20+ AI 提供商，CLI + REST API + Docker，prompts 即单元解决问题，MIT |

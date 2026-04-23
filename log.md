@@ -1,3 +1,10 @@
+## [2026-04-23] ingest | LLocalSearch
+- Cloned: ~/tmp/ai-game-devtools/llocalsearch/ (existing from earlier today)
+- Created: raw/articles/ai-game-devtools/llocalsearch.md
+- Created: ai-game-devtools/llocalsearch.md
+- Updated: index.md (added llocalsearch entry, total 602)
+- Note: checklist already marked complete [2026-04-14]; wiki page and raw source were missing
+
 ## [2026-04-23] ingest | BabyAGI UI
 - Cloned: ~/tmp/ai-game-devtools/babyagi-ui/ (gitcode.com mirror)
 - Created: raw/articles/ai-game-devtools/babyagi-ui.md

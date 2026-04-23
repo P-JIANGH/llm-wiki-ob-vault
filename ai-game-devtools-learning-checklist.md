@@ -71,7 +71,7 @@
 - [2026-04-14] LLM Answer Engine | https://github.com/developersdigest/llm-answer-engine
 - [2026-04-14] llm.c | https://github.com/karpathy/llm.c
 - [2026-04-14] LLMUnity | https://github.com/undreamai/LLMUnity
-- [2026-04-14] LLocalSearch | https://github.com/nilsherzig/LLocalSearch
+- [2026-04-23] LLocalSearch | https://github.com/nilsherzig/LLocalSearch
 - [2026-04-14] LogicGamesSolver | https://github.com/fabridigua/LogicGamesSolver
 - [2026-04-14] LongCat-Flash | https://github.com/meituan-longcat/LongCat-Flash-Chat
 - [2026-04-14] LongWriter | https://github.com/THUDM/LongWriter

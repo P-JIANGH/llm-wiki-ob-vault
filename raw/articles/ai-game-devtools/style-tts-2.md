@@ -1,78 +1,82 @@
-# StyleTTS 2: Towards Human-Level Text-to-Speech through Style Diffusion and Adversarial Training with Large Speech Language Models
+# StyleTTS 2
 
-## Source
-- GitHub: https://github.com/yl4579/StyleTTS2
-- Paper: https://arxiv.org/abs/2306.07691
-- Audio samples: https://styletts2.github.io/
-- HuggingFace Demo: https://huggingface.co/spaces/styletts2/styletts2
-- License: MIT (code) / Special conditions (pre-trained models)
-- Authors: Yinghao Aaron Li, Cong Han, Vinay S. Raghavan, Gavin Mischler, Nima Mesgarani
+> Source: https://github.com/yl4579/StyleTTS2  
+> License: MIT (code) / Pre-trained models have usage restrictions  
+> Authors: Yinghao Aaron Li, Cong Han, Vinay S. Raghavan, Gavin Mischler, Nima Mesgarani (Columbia University)  
+> Paper: arXiv:2306.07691
 
-## README Summary
+## Overview
 
-StyleTTS 2 is a text-to-speech (TTS) model that leverages style diffusion and adversarial training with large speech language models (SLMs) to achieve human-level TTS synthesis.
+StyleTTS 2 is a text-to-speech (TTS) model that achieves human-level synthesis through style diffusion and adversarial training with large speech language models (SLMs). It is the first TTS system to surpass human recordings on the single-speaker LJSpeech dataset and match human quality on the multi-speaker VCTK dataset.
 
-Key innovations over StyleTTS 1:
-1. **Style as latent random variable** — Models styles through diffusion models to generate the most suitable style for text without requiring reference speech
-2. **Efficient latent diffusion** — Benefits from diverse speech synthesis offered by diffusion models
-3. **SLM adversarial training** — Uses large pre-trained SLMs (e.g., WavLM) as discriminators with novel differentiable duration modeling for end-to-end training
+## Key Innovations
 
-Results:
-- Surpasses human recordings on single-speaker LJSpeech dataset
-- Matches human recordings on multispeaker VCTK dataset
-- Outperforms previous publicly available models for zero-shot speaker adaptation on LibriTTS
+- **Style Diffusion**: Models styles as a latent random variable through diffusion models to generate the most suitable style for the text without requiring reference speech
+- **SLM Adversarial Training**: Uses large pre-trained SLMs (WavLM) as discriminators with differentiable duration modeling for end-to-end training
+- **Zero-Shot Speaker Adaptation**: When trained on LibriTTS, outperforms previous publicly available models for zero-shot speaker adaptation
 
-## Architecture
+## Architecture Components
+
+### Pre-trained Modules (in Utils/ folder)
+- **ASR**: Text aligner pre-trained on English (LibriTTS), Japanese (JVS), Chinese (AiShell)
+- **JDC**: Pitch extractor pre-trained on English (LibriTTS)
+- **PL-BERT**: Pre-trained on English (Wikipedia); multilingual PL-BERT available for 14 languages
+
+### Core Model Files
+- `models.py`: Main model architecture including ResBlk, LearnedDownSample, LearnedUpSample, diffusion modules
+- `Modules/diffusion/`: Diffusion sampler (KDiffusion, LogNormalDistribution), Transformer1d, StyleTransformer1d
+- `Modules/discriminators.py`: MultiPeriodDiscriminator, MultiResSpecDiscriminator, WavLMDiscriminator
+- `losses.py`: Loss functions
+- `meldataset.py`: Mel-spectrogram dataset processing
+- `train_first.py`: First stage training script
+- `train_second.py`: Second stage training script
+- `train_finetune.py` / `train_finetune_accelerate.py`: Fine-tuning scripts
+
+## Training Pipeline
+
+### Requirements
+- Python >= 3.7
+- PyTorch with CUDA support
+- Dependencies: SoundFile, torchaudio, munch, pydub, pyyaml, librosa, nltk, matplotlib, accelerate, transformers, einops, monotonic_align
+- Optional: phonemizer + espeak-ng for demo
+
+### Data Format
+`filename.wav|transcription|speaker`
 
 ### Two-Stage Training
-1. **First stage** — Pre-training with TMA (Text-Model Alignment) loss, monotonic alignment
-2. **Second stage** — Joint training with style diffusion + SLM adversarial training
+1. **First stage**: `accelerate launch train_first.py --config_path ./Configs/config.yml`
+2. **Second stage**: `python train_second.py --config_path ./Configs/config.yml` (uses DP; DDP not working)
 
-### Key Components
-- **PL-BERT** — Pre-trained phoneme-level BERT for text encoding (English Wikipedia, 14-language multilingual available)
-- **Text Aligner (ASR)** — Pre-trained on LibriTTS (EN), JVS (JP), AiShell (ZH)
-- **Pitch Extractor (JDC)** — Pre-trained F0 extractor
-- **Style Diffusion Model** — Transformer-based diffusion for latent style generation
-- **SLM Discriminator** — WavLM-base-plus (768 hidden, 13 layers) as adversarial discriminator
-- **Decoder** — HiFi-GAN or iSTFTNet vocoder (configurable)
+### Fine-tuning
+```bash
+python train_finetune.py --config_path ./Configs/config_ft.yml
+# Single GPU with accelerate:
+accelerate launch --mixed_precision=fp16 --num_processes=1 train_finetune_accelerate.py --config_path ./Configs/config_ft.yml
+```
 
-### Model Configuration (LJSpeech default)
-- Sample rate: 24kHz
-- Style dimension: 128
-- Hidden dimension: 512
-- Diffusion transformer: 3 layers, 8 heads, 64 head features
-- Hop length: 300 frames
-- Phoneme tokens: 178
-
-## Dependencies
-torch, torchaudio, transformers, accelerate, librosa, nltk, phonemizer, einops, monotonic_align
+### Key Configurations
+- `OOD_data`: Out-of-distribution texts for SLM adversarial training
+- `min_length` / `max_len`: Audio length constraints (frame-based; default hop size 300 @ 24kHz)
+- `multispeaker`: Enable for multi-speaker models
+- `batch_percentage`: Controls batch size during SLM adversarial training to avoid OOM
 
 ## Pre-trained Models
-- LJSpeech (single-speaker): https://huggingface.co/yl4579/StyleTTS2-LJSpeech
-- LibriTTS (multi-speaker): https://huggingface.co/yl4579/StyleTTS2-LibriTTS
+- **LJSpeech** (single-speaker, 24kHz): https://huggingface.co/yl4579/StyleTTS2-LJSpeech
+- **LibriTTS** (multi-speaker, zero-shot): https://huggingface.co/yl4579/StyleTTS2-LibriTTS
 
-## File Structure
-- `train_first.py` — First stage training script
-- `train_second.py` — Second stage training (DP, DDP not working)
-- `train_finetune.py` — Fine-tuning script for new speakers
-- `train_finetune_accelerate.py` — Single-GPU accelerated fine-tuning
-- `models.py` — Core model architecture
-- `meldataset.py` — Mel-spectrogram dataset loader
-- `Modules/` — HiFi-GAN, iSTFTNet, SLM adversarial module, discriminators
-- `Utils/` — Pre-trained ASR, JDC, PL-BERT modules
-- `Configs/` — YAML configs (LJSpeech, LibriTTS, fine-tuning)
-- `Demo/` — Inference notebooks (LJSpeech, LibriTTS)
-- `Colab/` — Google Colab demo notebooks
+## Inference
+- Single-speaker: `Demo/Inference_LJSpeech.ipynb`
+- Multi-speaker: `Demo/Inference_LibriTTS.ipynb` (requires reference_audio.zip)
+- Colab demos available for both
 
-## Known Issues
-- DDP (accelerator) does not work for `train_second.py` (uses DP instead)
-- NaN loss possible with improper batch size or mixed precision
-- Inference depends on GPL-licensed phonemizer package (forks available for MIT-compliant usage)
-- High-pitched background noise on older GPUs (FP32 precision differences)
+## Common Issues
+- **Loss NaN**: Avoid mixed precision in first stage; use batch size >= 16
+- **OOM**: Lower `batch_size` or `max_len`
+- **High-pitched noise**: Caused by float precision on older GPUs; use modern GPUs or CPU inference
+- **Non-English**: Requires language-specific PL-BERT model
 
-## Game Dev Relevance
-- **NPC Dialogue** — Human-level natural speech synthesis for game characters
-- **Zero-shot Voice Cloning** — Generate new character voices from short reference samples
-- **Multilingual Support** — PL-BERT supports 14 languages via multilingual variant
-- **Fine-tuning** — Can fine-tune on custom character voices with ~1 hour of data
-- **Style Control** — Diffusion-based style generation allows diverse emotional/tonal variations
+## References
+- Paper: https://arxiv.org/abs/2306.07691
+- Audio samples: https://styletts2.github.io/
+- Online demo: https://huggingface.co/spaces/styletts2/styletts2
+- Forks: NeuralVox/StyleTTS2 (GPL, importable + streaming API), PyPI `styletts2` (MIT, uses gruut)

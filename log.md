@@ -187,6 +187,13 @@
 - Created: ai-game-devtools/llava-pp.md
 - Updated: index.md (fixed llava-plus-plus → llava-pp link)
 - Note: checklist already marked complete [2026-04-15]; wiki page was missing
+## [2026-04-24] ingest | StyleTTS 2
+- Cloned: ~/tmp/ai-game-devtools/styletts2/ (gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/style-tts-2.md
+- Created: ai-game-devtools/style-tts-2.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Note: checklist already marked complete [2026-04-21]; wiki page and raw source were missing (backfill)
+
 ## [2026-04-24] ingest | IndexTTS2
 - Source: web extract (GitHub/gitcode/gitee clone all failed)
 - Created: raw/articles/ai-game-devtools/index-tts2.md

@@ -34,6 +34,12 @@
 - Updated: index.md (corrected aicommand description)
 - Note: Wiki page existed but had completely incorrect content (described as CLI tool instead of Unity Editor ChatGPT plugin); raw source was missing
 
+## [2026-04-24] ingest | LayerDiffusion
+- Checked: ~/tmp/ai-game-devtools/layerdiffusion/ (cloned from GitHub)
+- Note: wiki page and raw source already exist (created 2026-04-17)
+- Fixed: checklist prefix `|-` → `-` and updated date to [2026-04-24]
+- Status: backfill/format fix only
+
 ## [2026-04-23] ingest | LlamaIndex
 - Cloned: ~/tmp/ai-game-devtools/llamaindex (gitcode.com mirror; GitHub timed out)
 - Created: raw/articles/ai-game-devtools/llama-index.md

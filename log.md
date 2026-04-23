@@ -1,3 +1,9 @@
+## [2026-04-24] ingest | LaVague
+- Checked: raw/articles/ai-game-devtools/lavague.md (already existed)
+- Wiki page already exists: ai-game-devtools/la-vague.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Note: checklist already marked complete [2026-04-14]; wiki page and raw source were already present (date refresh)
+
 ## [2026-04-23] ingest | Index-1.9B
 - Cloned: ~/tmp/ai-game-devtools/index-1.9b/
 - Created: raw/articles/ai-game-devtools/index-1.9b.md

@@ -1,79 +1,94 @@
 ---
 title: AICommand
 created: 2026-04-20
-updated: 2026-04-20
+updated: 2026-04-23
 type: entity
-tags: [ai, llm, cli, tool, automation, python]
-sources: []
+tags: [ai, llm, tool, unity, csharp, automation, open-source]
+sources: [raw/articles/ai-game-devtools/aicommand.md]
 ---
 
 ## Overview
 
-**AICommand** is an AI-powered command-line assistant that integrates large language models directly into the terminal workflow. It enables natural language command generation, explanation, and execution within the shell environment, bridging the gap between conversational AI and system-level operations.
+**AICommand** is a proof-of-concept Unity Editor plugin that integrates ChatGPT directly into the Unity Editor, enabling natural language control of the editor. Developed by keijiro (Unity Technologies Japan), it generates and executes Unity Editor C# scripts from plain English prompts.
 
 ## Key Facts
 
 | Attribute | Value |
 |-----------|-------|
-| Type | CLI assistant powered by LLMs |
-| Interface | Command-line / terminal integration |
-| Backend | LLM APIs (OpenAI, local models, etc.) |
-| Purpose | Natural language to shell command translation |
-
-## Core Features
-
-### Natural Language to Command
-- Describe what you want to do in plain English
-- AICommand generates the corresponding shell command
-- Supports complex pipelines, flags, and options
-
-### Command Explanation
-- Paste an unfamiliar or complex command
-- Get a human-readable explanation of what it does
-- Learn shell scripting through interactive Q&A
-
-### Interactive Mode
-- Conversational interface within the terminal
-- Refine commands through follow-up questions
-- Build up complex operations step by step
-
-### Safety Features
-- Preview commands before execution
-- Explain potentially destructive operations
-- Support for dry-run mode
+| Author | keijiro (Unity Technologies Japan) |
+| Platform | Unity Editor 2022.2+ |
+| Language | C# |
+| License | Unlicense (Public Domain) |
+| Backend | OpenAI ChatGPT API |
+| Status | Proof-of-concept (author states "definitely not practical") |
 
 ## How It Works
 
-1. User types a natural language description of desired action
-2. AICommand sends prompt to configured LLM backend
-3. LLM returns shell command(s) with explanations
-4. User reviews and executes (or asks for modifications)
+1. User enters a natural language prompt in the AI Command window (Window > AI Command)
+2. The prompt is wrapped with system instructions instructing the model to generate a Unity Editor script
+3. The script is saved to `Assets/AICommandTemp.cs` and triggers an assembly reload
+4. After reload, the script executes via the `Edit > Do Task` menu item
+5. The temp file is automatically deleted
+
+## Core Architecture
+
+| Component | File | Purpose |
+|-----------|------|---------|
+| API Models | `OpenAI.cs` | Request/Response/Message data structures for OpenAI Chat API |
+| API Client | `OpenAIUtil.cs` | UnityWebRequest wrapper for API calls |
+| Editor Window | `AICommandWindow.cs` | Main UI with prompt input, Run button, and execution lifecycle |
+| Settings | `AICommandSettings.cs` | ScriptableSingleton for API key storage + Project Settings integration |
+
+## Key Technical Details
+
+**Prompt Engineering:**
+The system wraps user prompts with strict instructions:
+- Must generate a Unity Editor script
+- Must expose functionality as `Edit > Do Task` menu item
+- No editor window — executes immediately on invocation
+- Must find game objects manually (no selected object assumption)
+- Return only script body, no explanations
+
+**Reflection Usage:**
+Uses `BindingFlags.Static | BindingFlags.NonPublic` to invoke internal Unity method `ProjectWindowUtil.CreateScriptAssetWithContent`.
+
+**Security:**
+API key stored in `UserSettings/AICommandSettings.asset` — must be excluded from version control.
+
+## Limitations
+
+- **Experimental/PoC only** — author explicitly states it's not practical
+- ChatGPT frequently generates incorrect code
+- May require multiple attempts (repeatedly clicking "Run")
+- Common failure mode: NullReferenceException when OpenAI trial expires
+
+## Comparison
+
+| Tool | Scope | Approach |
+|------|-------|----------|
+| AICommand | Unity Editor | Generate & execute C# editor scripts |
+| [[ai-game-devtools/ai-shader]] | Unity | Generate GLSL shaders from natural language |
+| [[ai-game-devtools/blender-gpt]] | Blender | Generate Python scripts for Blender |
+| [[ai-game-devtools/open-interpreter]] | System-wide | General code execution across environments |
+| [[ai-game-devtools/unity-chatgpt]] | Unity | ChatGPT API wrapper for runtime NPC dialogue |
 
 ## Game Development Applications
 
-- **Build Automation**: Natural language description → CMake/make commands
-- **Asset Pipeline**: Generate FFmpeg/ImageMagick commands for asset processing
-- **Version Control**: Complex git operations explained and generated
-- **Deployment**: Docker/Kubernetes command generation for game server deployment
-- **Debugging**: Explain build errors and suggest fixes
-- **Environment Setup**: Generate setup commands for new game project environments
+- Rapid editor automation prototyping
+- Batch scene modifications via natural language
+- Experimental AI-assisted content pipelines
+- Educational tool for learning Unity Editor scripting
 
-## Comparison to Similar Tools
+## Installation
 
-- Compared to [[ai-game-devtools/fabric]]: Fabric is a pattern-based CLI framework; AICommand is specifically for shell command generation
-- Compared to [[ai-game-devtools/open-interpreter]]: Open Interpreter executes code across the system; AICommand focuses on terminal commands
-- Complements [[ai-game-devtools/text-generation-webui]] for local LLM-powered terminal workflows
-
-## Usage Pattern
-
-```bash
-# Typical workflow
-aicommand "find all PNG files larger than 1MB and convert them to WebP"
-# → AICommand suggests: find . -name "*.png" -size +1M -exec cwebp {} -o {}.webp \;
-# User reviews, approves, and executes
-```
+No package manager support. Copy `Assets/Editor/` directory to your Unity project:
+1. Clone or download the repository
+2. Copy `Assets/Editor/` to your project
+3. Set OpenAI API key in Edit > Project Settings > AI Command
+4. Open Window > AI Command
 
 ## References
 
-- GitHub: Search for "AICommand" repositories
-- Related: Shell-GPT, Aider, GitHub Copilot CLI
+- GitHub: https://github.com/keijiro/AICommand
+- Related: [[ai-game-devtools/ai-shader]] (same author's shader generation PoC)
+- Blog: https://github.com/keijiro (Unity Japan creative technologist)

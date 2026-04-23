@@ -1,3 +1,11 @@
+## [2026-04-23] ingest | AICommand
+- Cloned: ~/tmp/ai-game-devtools/aicommand/
+- Created: raw/articles/ai-game-devtools/aicommand.md
+- Updated: ai-game-devtools/aicommand.md (corrected: Unity Editor plugin, not CLI tool)
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-23)
+- Updated: index.md (corrected aicommand description)
+- Note: Wiki page existed but had completely incorrect content (described as CLI tool instead of Unity Editor ChatGPT plugin); raw source was missing
+
 ## [2026-04-23] ingest | LlamaIndex
 - Cloned: ~/tmp/ai-game-devtools/llamaindex (gitcode.com mirror; GitHub timed out)
 - Created: raw/articles/ai-game-devtools/llama-index.md

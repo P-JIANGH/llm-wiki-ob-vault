@@ -159,7 +159,7 @@
    150|   150|   149|| [[ai-game-devtools/unreal-engine-5-llama-lora]] — bublint 用 UE 5.1 文档微调 Llama-7b LoRA：8bit 加载 + text-generation-webui 训练，8小时 3090Ti 完成，构建本地 UE5 问答助手，MIT |
    151|   151|   150||| [[ai-game-devtools/unrealgpt]] — TREE Industries UE5.6 AI Agent 插件：编辑器内 Chat 界面 + GPT Responses API + Python 脚本执行 + 场景查询 + Replicate 内容生成，Apache 2.0 |
    152|   152|   151||| [[ai-game-devtools/xagent]] — OpenBMB 开源 LLM 自主 Agent：Dispatcher+Planner+Actor 三层架构 + Docker 沙箱安全隔离，50+ 真实任务评测超越 AutoGPT，Apache 2.0 |
-   153|   153|   152|| [[ai-game-devtools/aicommand]] — AI 命令行助手：自然语言→Shell 命令生成 + 命令解释 + 交互式终端对话，支持 OpenAI/本地模型，游戏开发构建/资产处理自动化 |
+   153|   153|   152|| [[ai-game-devtools/aicommand]] — keijiro Unity Editor ChatGPT 插件：自然语言→Unity Editor C# 脚本生成执行，PoC 验证 AI 驱动编辑器自动化，Unlicense |
    154|   154|   153||| [[ai-game-devtools/agent-group-chat]] — MikeGu721/复旦 多智能体群聊模拟：竞争→合作→反射四阶段循环，LLM驱动角色对话，n-gram熵评估涌现行为，arXiv 2403.13433 |
    155|   155|   154|||| [[ai-game-devtools/agentrl]] — 强化学习 Agent 训练框架：PPO/DQN/Actor-Critic 算法 + 分布式训练 + 多智能体 RL，适用于 NPC 行为学习/游戏测试/策略 AI |
    156|   156|   155|||| [[ai-game-devtools/manus]] — Manus AI 通用自主 Agent：可跨网页/浏览器执行复杂任务，自主规划→分解→执行→交付，适用于资产研究/市场分析/文档自动化 |

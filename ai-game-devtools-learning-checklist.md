@@ -8,7 +8,7 @@
 
 ## LLM (LLM & Tool) (123)
 - [2026-04-12] AgentGPT | https://github.com/reworkd/AgentGPT
-- [2026-04-13] AICommand | https://github.com/keijiro/AICommand
+- [2026-04-23] AICommand | https://github.com/keijiro/AICommand
 - [2026-04-12] AIOS | https://github.com/agiresearch/AIOS
 - [2026-04-12] AI Scientist | https://github.com/SakanaAI/AI-Scientist
 - [2026-04-13] Assistant CLI | https://github.com/diciaup/assistant-cli

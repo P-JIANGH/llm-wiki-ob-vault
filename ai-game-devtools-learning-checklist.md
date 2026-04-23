@@ -60,7 +60,7 @@
 - [2026-04-14] LaMini-LM | https://github.com/mbzuai-nlp/LaMini-LM
 - [2026-04-14] LangChain | https://github.com/hwchase17/langchain
 - [2026-04-14] LangFlow | https://github.com/logspace-ai/langflow
-- [2026-04-14] LaVague | https://github.com/lavague-ai/LaVague
+- [2026-04-24] LaVague | https://github.com/lavague-ai/LaVague
 - [2026-04-14] Lemur | https://github.com/OpenLemur/Lemur
 - [2026-04-14] Lepton AI | https://github.com/leptonai/leptonai
 - [2026-04-14] Lit-LLaMA | https://github.com/Lightning-AI/lit-llama

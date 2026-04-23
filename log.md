@@ -1,3 +1,10 @@
+## [2026-04-23] ingest | BabyAGI UI
+- Cloned: ~/tmp/ai-game-devtools/babyagi-ui/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/babyagi-ui.md
+- Created: ai-game-devtools/babyagi-ui.md
+- Updated: index.md (updated babyagi-ui entry)
+- Note: checklist already marked complete [2026-04-13]; wiki page was missing
+
 ## [2026-04-23] ingest | AICommand
 - Cloned: ~/tmp/ai-game-devtools/aicommand/
 - Created: raw/articles/ai-game-devtools/aicommand.md

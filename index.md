@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-23 | 600 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-23 | 601 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -278,8 +278,9 @@
    267|   267|   265|| [[ai-game-devtools/dbrx]] — Databricks 132B MoE LLM：16 experts 选4，36B 激活参数，12T tokens 预训练，32K context，Databricks Open Model License |
    268|   268|   266||| [[ai-game-devtools/deepfloyd-if]] — DeepFloyd Lab/StabilityAI 级联像素扩散文本到图像模型：T5+三级UNet（64→256→1024px），FID 6.66 SOTA，支持 Dream/风格迁移/超分辨率/修复四种模式，Modified MIT |
    269|   269|   267||| [[ai-game-devtools/dclm]] — MLFoundations LLM 训练框架：300T+ tokens 数据集构建流程，Ray 分布式处理 + Rust deduplication，支持 400M-7B 规模模型训练评估 |
-   270|   270|   268||| [[ai-game-devtools/depth-anything-v2]] — HKU+TikTok 单目深度估计 V2：DINOv2 ViT 骨干(4档:24.8M~1.3B)+DPT 解码头，中间层特征提取，Apple Core ML/TensorRT/ComfyUI/Transformers 集成，V2-Small Apache-2.0 可商用 |
-   271|   271|   269||| [[ai-game-devtools/sd-webui-depth-lib]] — jexom A1111 WebUI 深度图管理插件：预置手部/形状深度图库 + Fabric.js 画布组合编辑 + 一键发送到 [[ai-game-devtools/controlnet]]，开源无 LICENSE |
+||| [[ai-game-devtools/depth-anything-v2]] — HKU+TikTok 单目深度估计 V2：DINOv2 ViT 骨干(4档:24.8M~1.3B)+DPT 解码头，中间层特征提取，Apple Core ML/TensorRT/ComfyUI/Transformers 集成，V2-Small Apache-2.0 可商用 |
+||| [[ai-game-devtools/sam-2]] — Meta AI SAM 2 图像视频分割基础模型：Hiera骨干+流式记忆Transformer，实时视频分割+多目标跟踪，SA-V数据集训练，4尺寸模型(38M-224M)，Apache 2.0 |
+||| [[ai-game-devtools/sd-webui-depth-lib]] — jexom A1111 WebUI 深度图管理插件：预置手部/形状深度图库 + Fabric.js 画布组合编辑 + 一键发送到 [[ai-game-devtools/controlnet]]，开源无 LICENSE |
    272|   272|   270||| [[ai-game-devtools/interactml-unity]]
    273|   273|   271||| [[ai-game-devtools/iml-ue4]] — Interactml Unreal Engine 4/5 C++ 插件：与 Unity 版共享 RapidLib 后端，kNN/MLP/DTW，原生 Blueprint 节点配置，Win64，MIT |
    274|   274|   272||| [[ai-game-devtools/index-1.9b]] |
@@ -360,7 +361,7 @@
    348|   348|   346|| [[ai-game-devtools/assistant-cli]] — A Node.js CLI tool for integrating with OpenAI ChatGPT service directly from the terminal, developed by Paolo Di Ciaula. |
    349|   349|   347|| [[ai-game-devtools/audiolcm]] — GitHub: https://github.com/liuhuadai/AudioLCM arXiv: 2406.00356(https://arxiv.org/abs/2406.00356v1) HuggingFace: Weights(https://huggingface.co/liuhua |
    350|   350|   348|| [[ai-game-devtools/auto-gpt]] — AutoGPT is a browserbased AI agent platform (183k GitHub stars) for creating, deploying, and managing continuous AI agents that automate complex workf |
-   351|   351|   349|| [[ai-game-devtools/babyagi-ui]] — BabyAGI UI (miurla/babyagiui) is a webbased user interface that brings BabyAGI(https://github.com/yoheinakajima/babyagi) into the browser — think Chat |
+   351|   351|   349|| [[ai-game-devtools/babyagi-ui]] — miurla BabyAGI Web UI 实现：Next.js + LangChain.js + Pinecone，ChatGPT 风格实时对话界面，支持并行任务处理/技能扩展/搜索集成，Vercel 一键部署，MIT |
    352|   352|   350|| [[ai-game-devtools/baichuan-13b]] — 百川智能开发的 130 亿参数开源可商用双语 LLM（Base + Chat 两个版本），2023 年 8 月发布。在 CEval、MMLU、CMMLU 等权威中英文 benchmark 上取得同尺寸最优效果。 |
    353|   353|   351|| [[ai-game-devtools/baichuan-2]] — 在多个权威中英文 benchmark 上显著超越 LLaMA213B： |
    354|   354|   352|   352|| [[ai-game-devtools/baichuan-7b]] — 基于Hugging Face Transformers实现，支持AutoModelForCausalLM直接加载。 |

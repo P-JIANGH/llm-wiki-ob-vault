@@ -1,98 +1,76 @@
-# BabyAGI UI — Source Analysis
+# BabyAGI UI
 
-**Repository:** miurla/babyagi-ui  
-**URL:** https://github.com/miurla/babyagi-ui  
-**Date:** 2026-04-13  
-**Source:** GitHub README + package.json analysis
+Source: https://github.com/miurla/babyagi-ui  
+Cloned: 2026-04-23 from gitcode.com mirror  
+License: MIT
 
-## What It Is
+---
 
-BabyAGI UI is a web-based user interface for running [BabyAGI](https://github.com/yoheinakajima/babyagi) — designed to make it easier to run and develop with BabyAGI in a browser, like ChatGPT. It is a port of BabyAGI with LangChain.js and a custom web UI.
+## Overview
 
-## Tech Stack
+BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT. This is a port of babyagi with Langchain.js and build a user interface.
 
-| Layer | Technology |
-|-------|------------|
-| Framework | Next.js (frontend + API routes) |
-| AI/Agent | LangChain.js (v0.0.64) |
-| Vector DB | Pinecone (for memory/embedding storage) |
-| UI Components | Radix UI |
-| Styling | Tailwind CSS |
-| Deployment | Vercel (one-click deploy) |
+## Stack
 
-## Key Dependencies
+- Next.js
+- Pinecone
+- LangChain.js
+- Tailwind CSS
+- Radix UI
 
-- `langchain: ^0.0.64` — Agent logic
-- `@pinecone-database/pinecone: ^0.0.10` — Vector store
-- `ai: ^2.1.31` — AI SDK (Vercel AI)
-- `openai: ^3.2.1` — OpenAI API client
-- `next: ^13.4.16` — Next.js framework
-- `@radix-ui/*` — Headless UI components
-- `tailwindcss: ^3.3.1` — CSS framework
-- `i18next` — Internationalization
-- `serpapi` — Google search API (for BabyBeeAGI search tool)
+## Roadmap
 
-## Architecture
+- [x] Collapsible Sidebar
+- [x] User input & parallel tasking (BabyDeerAGI)
+- [x] API updates support (gpt-3.5-turbo-0613/gpt-3.5-turbo-16k-0613/gpt-4-0613)
+- [x] Skills Class allows for easy skill creation (BabyElfAGI)
+- [x] Aggregate the logic of the agent in the backend
+- [x] Add hooks to make it easier to handle the agent on the frontend
+- [ ] Support the OpenAI GPT-4 Turbo model
+- [ ] Support the Llama2 model
 
-The project is a standard Next.js 13 app:
+## Getting Started
+
+```sh
+git clone https://github.com/miurla/babyagi-ui
+cd babyagi-ui
+npm install
+cp .env.example .env
+npm run dev
+```
+
+## Environment Variables
+
+- Pinecone API key and index (required)
+- SerpAPI Key (optional, for search tool with BabyBeeAGI)
+- OpenAI API key
+
+## Deploy
+
+Vercel one-click deploy supported.
+
+## Project Structure
 
 ```
 src/
-├── components/
-│   ├── Agent/        # AgentBlock, TaskBlock, AgentInput, AgentLoading, etc.
-│   ├── Sidebar/      # Collapsible sidebar with ExecutionRow, SidebarSettings
-│   └── Mobile/      # Navbar for mobile
-├── styles/           # globals.css with Tailwind
+- utils/          # Utility functions (execution, prompts, tasks, etc.)
+- hooks/          # React hooks for execution status, error handling, etc.
+- components/     # React components
+- pages/          # Next.js pages
+- types/          # TypeScript type definitions
 ```
 
-Key components:
-- **AgentBlock** — displays agent messages and reasoning
-- **TaskBlock** — shows individual tasks in the execution pipeline
-- **Sidebar** — collapsible sidebar showing execution history
-- **SidebarSettings** — configuration panel (Pinecone index, API keys)
-- **AgentInput** — user input field with parallel tasking support
+## Key Dependencies (from package.json)
 
-## Features
+- next: ^13.4.16
+- langchain: ^0.0.64
+- openai: ^3.2.1
+- @pinecone-database/pinecone: ^0.0.10
+- ai: ^2.1.31
+- react: 18.2.0
+- typescript: 5.0.3
+- tailwindcss: ^3.3.1
 
-- [x] Collapsible sidebar
-- [x] User input & parallel tasking (BabyDeerAGI-style)
-- [x] API updates (gpt-3.5-turbo-0613, gpt-3.5-turbo-16k-0613, gpt-4-0613)
-- [x] Skills Class for easy skill creation (BabyElfAGI-style)
-- [x] Backend agent logic aggregation
-- [x] Frontend hooks for agent handling
-- [ ] GPT-4 Turbo support
-- [ ] Llama2 model support
+## Credits
 
-## How It Works
-
-1. User enters a goal in the web UI
-2. Backend creates a BabyAGI agent using LangChain.js
-3. Agent decomposes goal into tasks using OpenAI
-4. Tasks are stored in Pinecone for memory/retrieval
-5. Results stream back to the UI in real-time
-6. Sidebar shows execution history and task status
-
-## Configuration
-
-Requires `.env` file with:
-- `OPENAI_API_KEY` — OpenAI API key
-- `PINECONE_API_KEY` + `PINECONE_ENVIRONMENT` — Pinecone vector DB
-- `SERPAPI_KEY` — Optional, for search tool (BabyBeeAGI)
-
-Pinecone index must be created in advance.
-
-## Differences from BabyAGI (Python)
-
-| Aspect | BabyAGI (Python) | BabyAGI UI |
-|--------|-----------------|------------|
-| Interface | CLI / Terminal | Web browser |
-| Framework | Python / Flask / SQLAlchemy | Next.js / TypeScript |
-| Agent | Custom functionz graph | LangChain.js |
-| Memory | SQLite | Pinecone (cloud) |
-| Deployment | Local / server | Vercel (one-click) |
-
-## Related Projects
-
-- [yoheinakajima/babyagi](https://github.com/yoheinakajima/babyagi) — Original Python BabyAGI
-- [babyagi/babydeeragi](https://twitter.com/yoheinakajima/status/1666313838868992001) — Extended version with parallel tasking
-- [babyagi/babyelfagi](https://twitter.com/yoheinakajima/status/1678443482866933760) — Extended version with Skills Class
+- Original BabyAGI: https://github.com/yoheinakajima/babyagi by @yoheinakajima

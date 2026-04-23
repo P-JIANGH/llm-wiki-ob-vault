@@ -284,7 +284,7 @@
 ||| [[ai-game-devtools/sd-webui-depth-lib]] — jexom A1111 WebUI 深度图管理插件：预置手部/形状深度图库 + Fabric.js 画布组合编辑 + 一键发送到 [[ai-game-devtools/controlnet]]，开源无 LICENSE |
    272|   272|   270||| [[ai-game-devtools/interactml-unity]]
    273|   273|   271||| [[ai-game-devtools/iml-ue4]] — Interactml Unreal Engine 4/5 C++ 插件：与 Unity 版共享 RapidLib 后端，kNN/MLP/DTW，原生 Blueprint 节点配置，Win64，MIT |
-   274|   274|   272||| [[ai-game-devtools/index-1.9b]] |
+   274|   274|   272||| [[ai-game-devtools/index-1.9b]] — Bilibili 开源轻量级大语言模型（1.9B 参数）：2.8T 中英文语料预训练，含 Base/Chat/Character/32K 长上下文多版本，RAG 角色扮演 + INT4 量化 + LoRA 微调，Apache-2.0 + 可商用权重 |
    275|   275|   273|||||| [[ai-game-devtools/internlm]] — 上海 AI Lab 大模型系列（1.8B-20B），InternLM3-8B 仅 4T tokens 训练成本降低 75%，Deep Thinking Mode 支持长思维链推理，支持 LMDeploy/vLLM/SGLang 多推理后端 |
    276|   276|   274|||||||| [[ai-game-devtools/internlm-xcomposer]] — 上海 AI Lab 多模态 LVLM 系列（1.0→2.5），7B 参数达 GPT-4V 水平，支持 4K 图像/96K 上下文/视频理解，独有网页生成能力（指令→HTML/CSS/JS）|
    277|   277|   275|||||||| [[ai-game-devtools/motionllm]] — IDEA/清华/CUHK-SZ 视频+动作联合理解 LLM：Vicuna 1.5-7B + LoRA + SMPL 动作编码，MoVid 数据集，行为描述/时空理解/推理，arXiv 2405.20340 |

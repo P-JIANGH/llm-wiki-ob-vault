@@ -1,3 +1,10 @@
+## [2026-04-23] ingest | Index-1.9B
+- Cloned: ~/tmp/ai-game-devtools/index-1.9b/
+- Created: raw/articles/ai-game-devtools/index-1.9b.md
+- Created: ai-game-devtools/index-1.9b.md
+- Updated: index.md (updated index-1.9b entry with description)
+- Note: checklist already marked complete [2026-04-13]; wiki page and raw source were missing (backfill)
+
 ## [2026-04-23] ingest | DrawingSpinUp
 - Cloned: ~/tmp/ai-game-devtools/drawingspinup/
 - Created: raw/articles/ai-game-devtools/drawingspinup.md

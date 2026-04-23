@@ -1,82 +1,91 @@
 ---
 title: Index-1.9B
-created: 2026-04-13
-updated: 2026-04-13
+created: 2026-04-23
+updated: 2026-04-23
 type: entity
-tags: [llm, chinese-llm, open-source, long-context]
+tags: [llm, chinese-llm, open-source, tool, ai, on-device]
 sources: [raw/articles/ai-game-devtools/index-1.9b.md]
 ---
 
 # Index-1.9B
 
-## Overview
-Index-1.9B 是由`Bilibili` 开发的轻量级大语言模型系列，19亿非词嵌入参数，在2.8T 中英文语料上预训练。包含 Base、Pure、Chat、Character、32K 五个版本。其中 32K 版本以仅 1.9B 参数支持 32K 上下文长度，在长文本评测中甚至超越 7B 模型。
+Bilibili (哔哩哔哩) 开源的轻量级大语言模型系列，1.9B 非嵌入参数，基于 2.8T 中英文语料预训练，在同级别模型中多项评测领先。
 
-## Key Facts
-| Hyperparameter | Value |
-|---|---|
-| Parameters | 1.9B (non-embedding) |
-| Pretrain Tokens | 2.8T |
-| Context Length | 4K (standard) / 32K (32K variant) |
-| RoPE Base (32K) | 32 × 10000 |
-| License | Apache-2.0 + INDEX_MODEL_LICENSE |
+## 模型变体
 
-## Model Variants
-| Model | Description |
-|---|---|
-| Index-1.9B-Base | 基座模型，同尺寸 benchmark 领先 |
-| Index-1.9B-Pure | 控制版本，过滤所有指令数据，验证指令对 benchmark 的影响 |
-| Index-1.9B-Chat | SFT + DPO 对齐，趣味性强，多语种翻译优秀 |
-| Index-1.9B-Character | SFT + DPO + RAG，few-shot 角色扮演定制 |
-| Index-1.9B-32K | 持续预训练 + SFT，专注 32K 长文本，支持 3.5 万字文档 |
+| 变体 | 特点 |
+|-------|------|
+| **Index-1.9B base** | 基座预训练模型 |
+| **Index-1.9B pure** | 控制组，过滤掉所有指令相关数据 |
+| **Index-1.9B chat** | SFT + DPO 对齐的对话模型 |
+| **Index-1.9B character** | 基于 RAG 的少样本角色扮演定制 |
+| **Index-1.9B-32K** | 支持 32K 上下文长度的长文本模型 |
 
-## Architecture
-- Transformer 因果语言模型
-- `RoPE` (Rotary Position Embedding)，32K 版本 base = 32×10000
-- Doc Packing 高效长文本训练
-- 两阶段训练：Continue Pre-Train (32K) → SFT (32K)
-- 32K 版本无 RLHF/DPO，专注于长上下文能力
+## 核心特点
 
-## Performance
-**Index-1.9B vs 同级模型：**
-| Model | Average | MMLU | CEVAL | CMMLU | HellaSwag |
-|---|---|---|---|---|---|
-| **Index-1.9B** | **64.92** | 52.53 | 57.01 | 52.79 | **80.69** |
+- **轻量高效**: 仅 1.9B 参数，但综合得分 64.92，接近 Qwen2-1.5B (65.17)
+- **多语言能力**: 强多语言翻译能力，尤其东亚语种
+- **角色扮演**: 内置 RAG 检索框架，支持少样本角色定制（CSV 语料 + 描述）
+- **长上下文**: 32K 变体可一次性处理 35,000+ 字文档
+- **量化支持**: INT4 量化，降低显存占用
+- **微调支持**: LoRA 微调管线
+- **社区生态**: 已适配 llama.cpp、Ollama 等推理框架
+
+## 评测对比
+
+| 模型 | 均分 | MMLU | CEVAL | CMMLU | HellaSwag |
+|-------|------|------|-------|-------|-----------|
+| **Index-1.9B** | **64.92** | 52.53 | 57.01 | 52.79 | 80.69 |
 | Qwen2-1.5B | 65.17 | 56.5 | 70.6 | 70.3 | 66.6 |
-| MiniCPM-2.4B | 62.53 | 53.8 | 49.19 | 50.97 | 67.29 |
-| Phi-2 (2.7B) | 58.89 | 57.61 | 31.12 | 32.05 | 70.94 |
+| MiniCPM-2.4B-SFT | 62.53 | 53.8 | 49.19 | 50.97 | 67.29 |
+| Llama2-7B | 50.79 | 44.32 | 32.42 | 31.11 | 76 |
 
-**32K 长文本评测（NeedleBench / LongBench / LEval）：**
-- Index-1.9B-32K LongBench: 35.23（超越 longchat-7b-v1.5-32K 的 29.31）
-- Index-1.9B-32K LEval: 35.86
-- 短文本能力有所下降（约 25%），长文本与短文本能力存在权衡
+## 使用方式
 
-## Key Features
-- **多语种翻译**：尤其东亚语种（日、韩等）互译能力强
-- **趣味性对话**：预训练引入互联网社区语料
-- **Few-shot 角色扮演**：RAG + SFT + DPO
-- **极致长上下文**：1.9B 参数实现 32K 上下文，仅 GPT-4 的 ~2%
-- **量化支持**：int4 (bitsandbytes nf4)，节省显存
-- **部署生态**：HuggingFace、ModelScope、Ollama、llama.cpp (GGUF)
+**Transformers 加载:**
+```python
+from transformers import AutoTokenizer, pipeline
+tokenizer = AutoTokenizer.from_pretrained(model_path, trust_remote_code=True)
+generator = pipeline("text-generation", model=model_path, tokenizer=tokenizer, 
+                    trust_remote_code=True, device=device)
+```
 
-## Training Details
-- Long PT: 10B tokens 自建长文本语料，Doc Packing
-- Long SFT: 30K+ 长文本指令 + 50K 通用指令
-- 学习率：PT 1e-5，SFT 5e-6，Cosine schedule + warmup
-- Batch：PT 4M tokens，SFT 1M tokens
+**Web Demo (Gradio):**
+```shell
+python demo/web_demo.py --port='port' --model_path='/path/to/model/'
+```
 
-## Failed Experiments
-- Context Length Warmup：长度递增数据集训练 → loss 反弹
-- Packing vs Non-Packing：差异 <1%
-- 1‰ Long Instruction SFT（LLaMA 3 方案）：负面结果
+**OpenAI API 兼容服务 (Flask):**
+```shell
+python demo/openai_demo.py --model_path='/path/to/model/'
+```
 
-## 与同类工具的差异
-- 相比[[Baichuan-7B]]：参数更少（1.9B vs 7B）但 HellaSwag 更高（80.69 vs 25.04）
-- 相比[[Qwen2]] 系列：超小参数实现 32K 上下文，qwen2-1.5b 仅支持 4K/32K
-- 32K 版本以 1.9B 超越 7B 模型的 LongBench 表现
-- 角色扮演能力通过 RAG 实现 few-shot 定制，区别于纯 SFT 对齐
+**角色扮演:**
+内置角色 "三三"，支持通过 CSV 对话语料和角色描述创建自定义角色。RAG 检索基于 BGE 向量库 + FAISS，实现少样本情景下的上下文学习。
 
-## Related Links
+## 技术架构
+
+- **预训练**: 2.8T 中英文语料
+- **对齐**: SFT + DPO
+- **长上下文**: Continue Pre-Training + SFT 专门针对 >32K token 文本
+- **量化**: BitsAndBytes INT4
+- **微调**: LoRA (PEFT)
+
+## 相关链接
+
 - GitHub: https://github.com/bilibili/Index-1.9B
 - HuggingFace: https://huggingface.co/IndexTeam
 - ModelScope: https://modelscope.cn/models/IndexTeam
+- 在线体验: [Chat](https://huggingface.co/spaces/IndexTeam/Index-1.9B) / [Role-playing](https://huggingface.co/spaces/IndexTeam/Index-1.9B-Character)
+
+## 许可证
+
+- 代码: Apache-2.0
+- 模型权重: INDEX_MODEL_LICENSE（学术研究完全开放，支持免费商用）
+
+## 相关页面
+
+- [[ai-game-devtools/minicpm]] — 面壁智能轻量级小语言模型系列，同样专注端侧部署的高性能小模型
+- [[ai-game-devtools/qwen2]] — 阿里巴巴通义千问开源 LLM 系列，中文领域的重要开源模型
+- [[ai-game-devtools/llama]] — Meta 基础 LLM 系列，开源 LLM 基石
+- [[ai-game-devtools/llama-cpp]] — 纯 C/C++ LLM 推理引擎，Index-1.9B 已适配

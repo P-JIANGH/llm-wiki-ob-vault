@@ -1,3 +1,10 @@
+## [2026-04-23] ingest | DrawingSpinUp
+- Cloned: ~/tmp/ai-game-devtools/drawingspinup/
+- Created: raw/articles/ai-game-devtools/drawingspinup.md
+- Created: ai-game-devtools/drawingspinup.md
+- Updated: index.md (added drawingspinup entry, total 602)
+- Note: checklist already marked complete [2026-04-19]; wiki page and raw source were missing (backfill)
+
 ## [2026-04-23] ingest | LLocalSearch
 - Cloned: ~/tmp/ai-game-devtools/llocalsearch/ (existing from earlier today)
 - Created: raw/articles/ai-game-devtools/llocalsearch.md

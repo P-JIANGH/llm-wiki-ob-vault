@@ -1,3 +1,10 @@
+## [2026-04-24] ingest | Matrix-Game
+- Cloned: ~/tmp/ai-game-devtools/matrix-game/
+- Checked: raw/articles/ai-game-devtools/matrix-game.md (already existed)
+- Checked: ai-game-devtools/matrix-game.md (already existed, bumped updated date)
+- Fixed: checklist prefix `|||-` → `-` and updated date to [2026-04-24]
+- Status: format fix + date refresh
+
 ## [2026-04-24] ingest | LaVague
 - Checked: raw/articles/ai-game-devtools/lavague.md (already existed)
 - Wiki page already exists: ai-game-devtools/la-vague.md

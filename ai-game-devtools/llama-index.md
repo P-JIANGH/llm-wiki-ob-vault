@@ -2,7 +2,7 @@
 
 title: LlamaIndex
 created: 2026-04-16
-updated: 2026-04-16
+updated: 2026-04-23
 type: entity
 tags: [framework, ai, llm, tool, python, open-source, agent, workflow]
 sources: [raw/articles/ai-game-devtools/llama-index.md]

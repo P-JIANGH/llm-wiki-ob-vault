@@ -151,3 +151,10 @@
 - Created: ai-game-devtools/llm-c.md
 - Updated: index.md (added llm-c entry, total 600)
 - Note: checklist already marked complete [2026-04-14]; wiki page was missing
+
+## [2026-04-23] ingest | Code World Model (CWM)
+- Cloned: ~/tmp/ai-game-devtools/code-world-model-cwm/
+- Created: raw/articles/ai-game-devtools/cwm.md
+- Created: ai-game-devtools/cwm.md
+- Updated: index.md (added cwm entry)
+- Note: checklist already marked complete [2026-04-17]; wiki page was missing (backfill)

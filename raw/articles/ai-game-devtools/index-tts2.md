@@ -1,81 +1,206 @@
-# IndexTTS2 — Raw Source Analysis
+# IndexTTS / IndexTTS2 — GitHub Repository Summary
 
-**Date:** 2026-04-21
-**Source:** https://github.com/index-tts/index-tts
-**Paper:** arXiv 2506.21619
+**IndexTTS** is an industrial-level, controllable, and efficient zero-shot text-to-speech system. The repository currently focuses on **IndexTTS2**, featuring emotionally expressive, duration-controlled autoregressive TTS.
 
-## Project Overview
+---
 
-IndexTTS2 is an autoregressive zero-shot text-to-speech model by Bilibili's IndexTTS Team. It is the first autoregressive TTS model with precise speech duration control, supporting both controllable and uncontrollable generation modes. It also achieves disentanglement between emotional expression and speaker identity.
+## ⚠️ Critical Notices
 
-## Key Technical Details
+> **The repository history has been reset. Please delete your local copy and re-clone.**
+> （仓库历史已重置。请删除本地副本并重新克隆。）
 
-### Architecture
-- **GPT Backbone:** UnifiedVoice (autoregressive transformer) for semantic token generation
-- **Semantic Codec:** MaskGCT-based semantic model (from OpenMMLab Amphion)
-- **S2Mel (Speech-to-Mel):** Custom S2Mel module converting semantic tokens to mel spectrograms
-- **Vocoder:** BigVGAN (NVIDIA) for mel-to-waveform synthesis
-- **VQ-VAE:** Vector quantization for audio tokenization
-- **Emotion Control:** Qwen3 fine-tuned for text-to-emotion-vector conversion (soft instruction mechanism)
+> **Caution:** The **only official channel** maintained by the core team is `https://github.com/index-tts/index-tts`. ***Any other websites or services are not official***, and their security, accuracy, or timeliness cannot be guaranteed.
 
-### Key Innovations
-1. **Duration Control:** Two modes — explicit token count specification OR free autoregressive generation preserving prompt prosody
-2. **Emotion-Speaker Disentanglement:** Separate emotional expression from speaker identity in prompts
-3. **Three-Stage Training Paradigm:** Improves stability using GPT latent representations
-4. **Text-Based Emotion Control:** Natural language emotion descriptions → emotion vectors via Qwen3
-5. **8-Dimension Emotion Vector:** [happy, angry, sad, afraid, disgusted, melancholic, surprised, calm]
+---
 
-### Config (pyproject.toml)
-- Version: 2.0.0
-- Python: >=3.10
-- License: LicenseRef-Bilibili-IndexTTS (custom Bilibili license)
-- Package Manager: uv (required)
-- DeepSpeed: optional extra
-- WebUI: Gradio 5.45.0 optional extra
-- CUDA: 12.8+ required
+## IndexTTS2 Overview
 
-### Source Modules (indextts/)
-- `infer_v2.py` — Main IndexTTS2 inference class (851 lines)
-- `infer.py` — Legacy IndexTTS1 inference
-- `gpt/` — GPT model components (model_v2.py = UnifiedVoice)
-- `s2mel/` — Speech-to-Mel spectrogram conversion module
-- `vqvae/` — Vector quantized VAE for audio tokenization
-- `BigVGAN/` — NVIDIA BigVGAN vocoder integration
-- `accel/` — Acceleration utilities
-- `utils/` — Front-end text normalization/tokenization, MaskGCT utilities, checkpoint loading
-- `cli.py` — CLI entry point
+- **Paper:** [arXiv:2506.21619](https://arxiv.org/abs/2506.21619)
+- **Audio Demo:** [index-tts.github.io/index-tts2.github.io](https://index-tts.github.io/index-tts2.github.io/)
+- **Video Demo:** [Bilibili BV136a9zqEk5](https://www.bilibili.com/video/BV136a9zqEk5)
+- **Commercial Contact:** [indexspeech@bilibili.com](mailto:indexspeech@bilibili.com)
 
-### Dependencies
-- PyTorch 2.8.*, torchaudio 2.8.*
-- transformers 4.52.1 (for Qwen3 emotion model)
-- modelscope (Chinese model hub support)
-- librosa, soundfile, ffmpeg-python
-- omegaconf, munch, safetensors
-- jieba, cn2an, g2p-en (Chinese/English text processing)
-- WeTextProcessing (Linux) / wetext (Windows/Mac)
+### Key Contributions
+- **Duration Control for AR Models:** Introduces a general, autoregressive-friendly method with two modes:
+  1. **Explicit token specification** for precise speech duration (critical for video dubbing and audio-visual sync).
+  2. **Free autoregressive generation** that faithfully reproduces the prosodic features of the input prompt.
+- **Emotion–Timbre Disentanglement:** Independently control **timbre** (via timbre prompt) and **emotion** (via style prompt) in zero-shot settings.
+- **Enhanced Emotional Clarity:** Incorporates **GPT latent representations** and a novel **three-stage training paradigm** to improve stability in highly emotional expressions.
+- **Soft Instruction Mechanism:** Uses a fine-tuned **Qwen3** model to guide emotional generation via natural text descriptions, lowering the barrier for emotional control.
+- **State-of-the-Art Results:** Outperforms existing zero-shot TTS models on word error rate (WER), speaker similarity, and emotional fidelity.
 
-### Usage Modes
-1. Voice cloning: single reference audio → same voice, new text
-2. Emotion-conditioned: reference audio + emotional audio → emotional speech
-3. Emotion vector: 8-float emotion intensity list
-4. Text-based emotion: auto-convert speech text → emotion vectors
-5. Web Demo: Gradio UI at localhost:7860
+---
 
-### Model Weights
-- IndexTTS-2: HuggingFace (IndexTeam/IndexTTS-2) + ModelScope
-- IndexTTS-1.5: HuggingFace + ModelScope
-- IndexTTS-1: HuggingFace + ModelScope
+## Model Downloads
 
-### Release History
-- 2025-09-08: IndexTTS-2 released (emotion + duration control)
-- 2025-05-14: IndexTTS-1.5 released (stability + English improvement)
-- 2025-03-25: IndexTTS-1.0 released (weights + inference code)
-- 2025-02-12: Paper submitted to arXiv
+| Model | HuggingFace | ModelScope |
+|-------|-------------|------------|
+| **IndexTTS-2** | [IndexTeam/IndexTTS-2](https://huggingface.co/IndexTeam/IndexTTS-2) | [IndexTeam/IndexTTS-2](https://modelscope.cn/models/IndexTeam/IndexTTS-2) |
+| IndexTTS-1.5 | [IndexTeam/IndexTTS-1.5](https://huggingface.co/IndexTeam/IndexTTS-1.5) | [IndexTeam/IndexTTS-1.5](https://modelscope.cn/models/IndexTeam/IndexTTS-1.5) |
+| IndexTTS | [IndexTeam/Index-TTS](https://huggingface.co/IndexTeam/Index-TTS) | [IndexTeam/Index-TTS](https://modelscope.cn/models/IndexTeam/Index-TTS) |
 
-### Team
-Bilibili IndexTTS Team — 8 core authors + 6 technical contributors + 2 guidance
+---
 
-### Contact
-- Email: indexspeech@bilibili.com
-- Discord: https://discord.gg/uT32E7KDmy
-- QQ Groups: 663272642, 1013410623
+## Installation & Environment
+
+> **Warning:** We **only** support the **`uv`** installation method. Using `conda` or `pip` will cause *random bugs, error messages, **missing GPU acceleration**, and various other problems*. **Do not report issues** if you use non-standard installations.
+
+- `uv` is [up to 115x faster](https://github.com/astral-sh/uv/blob/main/BENCHMARKS.md) than `pip` and automatically creates a `.venv` project directory.
+- **Git-LFS** must be enabled on your account.
+
+### Setup Commands
+```bash
+# Automatically installs correct Python + dependencies into .venv
+uv sync --all-extras
+```
+
+### Optional Extra Flags
+- `--all-extras` — Installs all features (including DeepSpeed and WebUI)
+- `--extra webui` — Web UI only
+- `--extra deepspeed` — DeepSpeed acceleration only
+
+### Platform-Specific Requirements
+- **Windows:** DeepSpeed may be difficult to install. Skip it by removing `--all-extras` and using specific feature flags instead.
+- **Linux/Windows:** If you encounter CUDA errors during installation, ensure you have installed NVIDIA's [CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit) version **12.8** (or newer).
+
+### Downloading Checkpoints
+```bash
+# Via HuggingFace
+huggingface-cli download IndexTeam/IndexTTS-2 --local-dir ./checkpoints
+
+# Via ModelScope
+modelscope download IndexTeam/IndexTTS-2 --local-dir ./checkpoints
+```
+
+> **Tip:** If HuggingFace access is slow, export a local mirror before running code:
+> ```bash
+> export HF_ENDPOINT=https://hf-mirror.com
+> ```
+
+### GPU Environment Check
+If you need to diagnose GPU detection, use the included utility:
+```bash
+uv run check_pytorch_gpu.py  # (or the included utility script)
+```
+
+---
+
+## Usage
+
+### 🌐 Web Demo
+```bash
+uv run webui.py
+```
+Then open your browser to **`http://127.0.0.1:7860`**.
+
+**Performance Tips:**
+- **FP16** (half-precision) inference is strongly recommended: it is faster, uses less VRAM, and has very small quality loss.
+- **DeepSpeed** *may* speed up inference, but it can also slow things down depending on your specific hardware, drivers, and OS. Test with and without it.
+- All `uv` commands **automatically activate** the correct per-project virtual environment. **Do not** manually activate `.venv` before running `uv` commands.
+
+### 📝 Python API
+
+> **Important:** You *must* use `uv run <file.py>` to ensure code runs inside the correct virtual environment.
+
+**Basic inference example:**
+```python
+import torch
+from indextts.infer import IndexTTS
+
+# Load model
+tts = IndexTTS(model_path="checkpoints", device="cuda")
+
+# Synthesize with reference audio
+tts.infer(text="Hello, this is a test.", prompt="reference.wav", output="output.wav")
+```
+
+**Zero-shot voice cloning:**
+```python
+# Simply provide a reference audio file; no fine-tuning required
+tts.infer(text="任意中文或英文文本", prompt="speaker_sample.wav", output="cloned.wav")
+```
+
+**Duration control (IndexTTS2 feature):**
+```python
+# Explicit duration mode for precise audio-visual sync
+tts.infer(text="Text to synthesize", prompt="ref.wav", output="out.wav", duration=5.0)
+```
+
+**Emotion control via soft instruction:**
+```python
+# Use natural language to guide emotional expression
+tts.infer(text="I'm so excited about this!", prompt="ref.wav", output="out.wav", emotion="excited and energetic")
+```
+
+---
+
+## Architecture & Technical Details
+
+### Autoregressive TTS with Duration Control
+IndexTTS2 is built on an autoregressive (AR) language modeling approach for speech synthesis, analogous to how GPT models generate text token-by-token. The key innovation is adding **duration controllability** to AR models without sacrificing naturalness:
+
+1. **Token-level Duration Specification:** Users can specify exact durations, and the model generates the appropriate number of acoustic tokens.
+2. **Free AR Generation:** When no duration is specified, the model autoregressively generates tokens until a natural stopping point, preserving the reference speaker's prosodic style.
+
+### Emotion–Timbre Disentanglement
+- **Timbre Prompt:** A short audio clip defining the speaker's voice characteristics.
+- **Style/Emotion Prompt:** A separate conditioning signal (either audio or text via Qwen3) controlling emotional expression.
+- This disentanglement allows mixing voices and emotions independently (e.g., "speak like Person A but sound sad").
+
+### Three-Stage Training
+1. **Pre-training:** Large-scale multilingual speech data for general acoustic modeling.
+2. **Emotion Enhancement:** Fine-tuning with emotional data, incorporating GPT-derived latent representations for richer emotional expressiveness.
+3. **Instruction Tuning:** Fine-tuning Qwen3 as an emotion descriptor to translate natural language emotion descriptions into model-compatible conditioning vectors.
+
+### Model Variants
+| Version | Key Features | Status |
+|---------|--------------|--------|
+| IndexTTS | Base zero-shot TTS | Released |
+| IndexTTS-1.5 | Improved stability, more languages | Released |
+| **IndexTTS-2** | Duration control, emotion disentanglement, soft instructions | **Latest** |
+
+---
+
+## Evaluation & Benchmarks
+
+IndexTTS2 claims state-of-the-art performance on:
+- **Word Error Rate (WER):** Lower than competing zero-shot TTS systems.
+- **Speaker Similarity:** High cosine similarity to reference speakers in embedding space.
+- **Emotional Fidelity:** Human-evaluated emotional naturalness and intensity.
+
+Specific benchmark numbers are detailed in the [arXiv paper](https://arxiv.org/abs/2506.21619).
+
+---
+
+## License & Commercial Use
+
+- The code and model weights are released for **research and personal use**.
+- **Commercial licensing** is available via contact: [indexspeech@bilibili.com](mailto:indexspeech@bilibili.com).
+- The repository is maintained by the **Bilibili Index Speech Team**.
+
+---
+
+## Related Links
+
+- **GitHub:** https://github.com/index-tts/index-tts
+- **Paper:** https://arxiv.org/abs/2506.21619
+- **HuggingFace:** https://huggingface.co/IndexTeam/IndexTTS-2
+- **ModelScope:** https://modelscope.cn/models/IndexTeam/IndexTTS-2
+- **Audio Demo:** https://index-tts.github.io/index-tts2.github.io/
+- **Video Demo:** https://www.bilibili.com/video/BV136a9zqEk5
+
+---
+
+## Key Files (inferred from README)
+
+| File | Purpose |
+|------|---------|
+| `webui.py` | Gradio-based web interface |
+| `indextts/infer.py` | Core inference API (`IndexTTS` class) |
+| `check_pytorch_gpu.py` | GPU environment diagnostic |
+| `pyproject.toml` | `uv`-based dependency management |
+
+---
+
+*Source: GitHub README extracted via web_extract (GitHub/gitcode/gitee clone all failed)*
+*Extracted: 2026-04-24*

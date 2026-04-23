@@ -1,7 +1,7 @@
 ---
 title: IndexTTS2
 created: 2026-04-21
-updated: 2026-04-21
+updated: 2026-04-24
 type: entity
 tags: [tool, speech, audio, open-source, autoregressive, tts, zero-shot, emotion-control]
 sources: [raw/articles/ai-game-devtools/index-tts2.md]

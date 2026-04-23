@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-23 | 602 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-24 | 603 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -527,4 +527,5 @@
 |||| [[ai-game-devtools/x-e-speech]] — 跨语言情感语音生成框架：Whisper 编码器 + VITS 联合训练 TTS+VC，冻结说话人层/微调内容层消除口音，支持中日英三语情感合成与语音转换，MIT
 ||||| [[ai-game-devtools/xtts]] — Coqui.ai 开源先进 TTS 生成库：支持 1100+ 语言/16 语零样本语音克隆/<200ms 流式延迟，集成 XTTS/VITS/Bark/Tortoise 等 10+ 架构，PyTorch 训练+推理+微调全链路，MPL 2.0
 |||||| [[ai-game-devtools/yourtts]] — 零样本多说话人多语言 TTS/VC 模型：VITS 架构 + Speaker Encoder 实现零样本克隆，ICML 2022 论文，<1 分钟微调即可 SOTA，支持 Coqui TTS 集成，CC BY-NC-ND 4.0
-||||||| [[ai-game-devtools/zmm-tts]] — NII Yamagishi Lab 零样本多语言多说话人 TTS：XLSR-53+XPhoneBERT 自监督离散表示 + 三阶段级联 (txt2vec→vec2mel→vec2wav+HifiGAN)，6 语言 (EN/FR/DE/PT/ES/SV) 零样本说话人克隆，BSD-3-Clause
+|||||||| [[ai-game-devtools/zmm-tts]] — NII Yamagishi Lab 零样本多语言多说话人 TTS：XLSR-53+XPhoneBERT 自监督离散表示 + 三阶段级联 (txt2vec→vec2mel→vec2wav+HifiGAN)，6 语言 (EN/FR/DE/PT/ES/SV) 零样本说话人克隆，BSD-3-Clause
+|||||||| [[ai-game-devtools/index-tts2]] — Bilibili IndexTTS 团队工业级自回归零样本 TTS：精确时长控制+情感音色解耦+Qwen3 软指令情感生成，arXiv 2506.21619，HuggingFace/ModelScope 权重

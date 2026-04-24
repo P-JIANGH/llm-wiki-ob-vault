@@ -1,3 +1,8 @@
+## [2026-04-24] lint | fix remaining 3 checklist format issues
+- Fixed: LlamaGen, Stable Diffusion WebUI Chinese, VideoMamba (all had `|` prefix instead of `-`)
+- All 564 checklist items now correctly formatted
+- No new projects to ingest (all items have completion dates)
+
 ## [2026-04-24] lint | checklist format fix
 - Fixed 164 lines with `|` prefix in ai-game-devtools-learning-checklist.md
 - All checklist items now use standard `- [YYYY-MM-DD] Name | URL` format

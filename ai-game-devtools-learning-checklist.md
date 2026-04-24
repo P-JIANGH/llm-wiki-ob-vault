@@ -212,22 +212,22 @@
 - [2026-04-16] MindSearch | https://github.com/InternLM/MindSearch
 - [2026-04-16] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
 - [2026-04-16] MMRole | https://github.com/YanqiDai/MMRole
-|- [2026-04-16] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
-|- [2026-04-16] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
-|- [2026-04-16] Oasis | https://github.com/etched-ai/open-oasis
+- [2026-04-16] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
+- [2026-04-16] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit
+- [2026-04-16] Oasis | https://github.com/etched-ai/open-oasis
 - [2026-04-16] OmAgent | https://github.com/om-ai-lab/OmAgent
-|- [2026-04-16] OpenAgents | https://github.com/xlang-ai/OpenAgents
-|- [2026-04-16] Pipecat | https://github.com/pipecat-ai/pipecat
-|- [2026-04-16] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
-|- [2026-04-16] Ragas | https://github.com/explodinggradients/ragas
-|- [2026-04-16] RPBench-Auto | https://github.com/boson-ai/RPBench-Auto
-|- [2026-04-16] SWE-agent | https://github.com/princeton-nlp/SWE-agent
+- [2026-04-16] OpenAgents | https://github.com/xlang-ai/OpenAgents
+- [2026-04-16] Pipecat | https://github.com/pipecat-ai/pipecat
+- [2026-04-16] Qwen-Agent | https://github.com/QwenLM/Qwen-Agent
+- [2026-04-16] Ragas | https://github.com/explodinggradients/ragas
+- [2026-04-16] RPBench-Auto | https://github.com/boson-ai/RPBench-Auto
+- [2026-04-16] SWE-agent | https://github.com/princeton-nlp/SWE-agent
 - [2026-04-16] TaskGen | https://github.com/simbianai/taskgen
-|- [2026-04-16] TEN Agent | https://github.com/TEN-framework/TEN-Agent
+- [2026-04-16] TEN Agent | https://github.com/TEN-framework/TEN-Agent
 - [2026-04-16] Translation Agent | https://github.com/andrewyng/translation-agent
 - [2026-04-16] Twitter | https://github.com/wordware-ai/twitter
 - [2026-04-16] Video2Game | https://github.com/video2game/video2game
-|- [2026-04-16] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
+- [2026-04-16] WebDesignAgent | https://github.com/DAMO-NLP-SG/WebDesignAgent
 
 ## Code (21)
 - [2026-04-15] AI Code Translator | https://github.com/mckaywrigley/ai-code-translator
@@ -242,15 +242,15 @@
 - [2026-04-16] Code Llama | https://github.com/facebookresearch/codellama
 - [2026-04-17] CodeTF | https://github.com/salesforce/codetf
 - [2026-04-17] CodeT5 | https://github.com/salesforce/codet5
-|- [2026-04-17] Code World Model (CWM) | https://github.com/facebookresearch/cwm
+- [2026-04-17] Code World Model (CWM) | https://github.com/facebookresearch/cwm
 - [2026-04-17] DeepSeek Coder | https://github.com/deepseek-ai/DeepSeek-Coder
 - [2026-04-17] PandasAI | https://github.com/gventuri/pandas-ai
-|- [2026-04-17] Scikit-LLM | https://github.com/iryna-kondr/scikit-llm
-|- [2026-04-15] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
-|- [2026-04-17] StarCoder | https://github.com/bigcode-project/starcoder
-|- [2026-04-17] StarCoder 2 | https://github.com/bigcode-project/starcoder2
+- [2026-04-17] Scikit-LLM | https://github.com/iryna-kondr/scikit-llm
+- [2026-04-15] SoTaNa | https://github.com/DeepSoftwareAnalytics/SoTaNa
+- [2026-04-17] StarCoder | https://github.com/bigcode-project/starcoder
+- [2026-04-17] StarCoder 2 | https://github.com/bigcode-project/starcoder2
 - [2026-04-17] UnityGen AI | https://github.com/himanshuskyrockets/UnityGen-AI
-|- [2026-04-17] Void | https://github.com/voideditor/void
+- [2026-04-17] Void | https://github.com/voideditor/void
 
 ## Image (75)
 - [2026-04-17] AnyText | https://github.com/tyxsspa/AnyText
@@ -269,78 +269,78 @@
 - [2026-04-17] Depth map library and poser | https://github.com/jexom/sd-webui-depth-lib
 - [2026-04-17] Disco Diffusion | https://github.com/alembics/disco-diffusion
 - [2026-04-17] DragGAN | https://github.com/XingangPan/DragGAN
-|- [2026-04-17] DWPose | https://github.com/idea-research/dwpose
+- [2026-04-17] DWPose | https://github.com/idea-research/dwpose
 - [2026-04-17] EasyPhoto | https://github.com/aigc-apps/sd-webui-EasyPhoto
-|- [2026-04-17] Flux | https://github.com/black-forest-labs/flux
-|- [2026-04-17] Follow-Your-Click | https://github.com/mayuelala/FollowYourClick
-|- [2026-04-17] Fooocus | https://github.com/lllyasviel/Fooocus
+- [2026-04-17] Flux | https://github.com/black-forest-labs/flux
+- [2026-04-17] Follow-Your-Click | https://github.com/mayuelala/FollowYourClick
+- [2026-04-17] Fooocus | https://github.com/lllyasviel/Fooocus
 - [2026-04-17] GIFfusion | https://github.com/DN6/giffusion
-|- [2026-04-17] Grounded-Segment-Anything | https://github.com/IDEA-Research/Grounded-Segment-Anything
+- [2026-04-17] Grounded-Segment-Anything | https://github.com/IDEA-Research/Grounded-Segment-Anything
 - [2026-04-17] HivisionIDPhotos | https://github.com/Zeyi-Lin/HivisionIDPhotos
-|- [2026-04-17] Hua | https://github.com/BlinkDL/Hua
-|- [2026-04-17] Hunyuan-DiT | https://github.com/Tencent/HunyuanDiT
-|- [2026-04-17] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
-|- [2026-04-17] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
-|- [2026-04-17] IC-Light | https://github.com/lllyasviel/IC-Light
-|- [2026-04-17] img2img-turbo | https://github.com/GaParmar/img2img-turbo
-|- [2026-04-17] Infinity | https://github.com/FoundationVision/Infinity
+- [2026-04-17] Hua | https://github.com/BlinkDL/Hua
+- [2026-04-17] Hunyuan-DiT | https://github.com/Tencent/HunyuanDiT
+- [2026-04-17] HunyuanImage-2.1 | https://github.com/Tencent-Hunyuan/HunyuanImage-2.1
+- [2026-04-17] HunyuanImage-3.0 | https://github.com/Tencent-Hunyuan/HunyuanImage-3.0
+- [2026-04-17] IC-Light | https://github.com/lllyasviel/IC-Light
+- [2026-04-17] img2img-turbo | https://github.com/GaParmar/img2img-turbo
+- [2026-04-17] Infinity | https://github.com/FoundationVision/Infinity
 - [2026-04-17] InstantID | https://github.com/InstantID/InstantID
-|- [2026-04-17] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
-|- [2026-04-17] Kolors | https://github.com/Kwai-Kolors/Kolors
-|- [2026-04-17] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
+- [2026-04-17] IRG | https://github.com/Osilly/Interleaving-Reasoning-Generation
+- [2026-04-17] Kolors | https://github.com/Kwai-Kolors/Kolors
+- [2026-04-17] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
 - [2026-04-24] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
 |-[2026-04-17] LlamaGen | https://github.com/FoundationVision/LlamaGen
-|- [2026-04-17] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
-|- [2026-04-17] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
-|- [2026-04-17] MakeAnything | https://github.com/showlab/MakeAnything
-|- [2026-04-17] MIGC | https://github.com/limuloo/MIGC
-|- [2026-04-17] MimicBrush | https://github.com/ali-vilab/MimicBrush
-||- [2026-04-17] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
-||- [2026-04-17] OmniGen | https://github.com/VectorSpaceLab/OmniGen
-||- [2026-04-17] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
-||- [2026-04-17] Omost | https://github.com/lllyasviel/Omost
-|- [2026-04-17] Openpose Editor | https://github.com/fkunn1326/openpose-editor
-|- [2026-04-17] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
-||- [2026-04-17] PosterCraft | https://github.com/Ephemeral182/PosterCraft
-||- [2026-04-17] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
-|- [2026-04-17] PuLID | https://github.com/ToTheBeginning/PuLID
-|- [2026-04-17] Qwen-Image | https://github.com/QwenLM/Qwen-Image
-|- [2026-04-17] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
-|- [2026-04-17] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
-|- [2026-04-17] SEED-Story | https://github.com/TencentARC/SEED-Story
-|- [2026-04-17] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
-|- [2026-04-17] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
-|- [2026-04-17] SDXS | https://github.com/IDKiro/sdxs
-|- [2026-04-17] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
-|- [2026-04-17] Stable.art | https://github.com/isekaidev/stable.art
-|- [2026-04-17] Stable Cascade | https://github.com/Stability-AI/StableCascade
-|- [2026-04-17] Stable Diffusion | https://github.com/CompVis/stable-diffusion
-|- [2026-04-17] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
-|- [2026-04-17] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
-||- [2026-04-17] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
+- [2026-04-17] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
+- [2026-04-17] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
+- [2026-04-17] MakeAnything | https://github.com/showlab/MakeAnything
+- [2026-04-17] MIGC | https://github.com/limuloo/MIGC
+- [2026-04-17] MimicBrush | https://github.com/ali-vilab/MimicBrush
+- [2026-04-17] NextStep-1 | https://github.com/stepfun-ai/NextStep-1
+- [2026-04-17] OmniGen | https://github.com/VectorSpaceLab/OmniGen
+- [2026-04-17] OmniGen2 | https://github.com/VectorSpaceLab/OmniGen2
+- [2026-04-17] Omost | https://github.com/lllyasviel/Omost
+- [2026-04-17] Openpose Editor | https://github.com/fkunn1326/openpose-editor
+- [2026-04-17] PaintsUndo | https://github.com/lllyasviel/Paints-UNDO
+- [2026-04-17] PosterCraft | https://github.com/Ephemeral182/PosterCraft
+- [2026-04-17] PromptEnhancer | https://github.com/Hunyuan-PromptEnhancer/PromptEnhancer
+- [2026-04-17] PuLID | https://github.com/ToTheBeginning/PuLID
+- [2026-04-17] Qwen-Image | https://github.com/QwenLM/Qwen-Image
+- [2026-04-17] Rich-Text-to-Image | https://github.com/SongweiGe/rich-text-to-image
+- [2026-04-17] RPG-DiffusionMaster | https://github.com/YangLing0818/RPG-DiffusionMaster
+- [2026-04-17] SEED-Story | https://github.com/TencentARC/SEED-Story
+- [2026-04-17] Segment Anything Model 2 (SAM 2) | https://github.com/facebookresearch/segment-anything-2
+- [2026-04-17] sd-webui-controlnet | https://github.com/Mikubill/sd-webui-controlnet
+- [2026-04-17] SDXS | https://github.com/IDKiro/sdxs
+- [2026-04-17] SkyworkUniPic | https://github.com/SkyworkAI/UniPic
+- [2026-04-17] Stable.art | https://github.com/isekaidev/stable.art
+- [2026-04-17] Stable Cascade | https://github.com/Stability-AI/StableCascade
+- [2026-04-17] Stable Diffusion | https://github.com/CompVis/stable-diffusion
+- [2026-04-17] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
+- [2026-04-17] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
+- [2026-04-17] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
 |[2026-04-17] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
-|- [2026-04-17] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
-|- [2026-04-17] StableStudio | https://github.com/Stability-AI/StableStudio
-|- [2026-04-18] StoryMaker | https://github.com/RedAIGC/StoryMaker
-|- [2026-04-17] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
-|- [2026-04-18] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
-|- [2026-04-18] UltraEdit | https://github.com/HaozheZhao/UltraEdit
-|- [2026-04-18] UltraPixel | https://github.com/catcathh/UltraPixel
-||- [2026-04-18] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
-|- [2026-04-18] USO | https://github.com/bytedance/USO
+- [2026-04-17] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
+- [2026-04-17] StableStudio | https://github.com/Stability-AI/StableStudio
+- [2026-04-18] StoryMaker | https://github.com/RedAIGC/StoryMaker
+- [2026-04-17] StreamDiffusion | https://github.com/cumulo-autumn/StreamDiffusion
+- [2026-04-18] SyncDreamer | https://github.com/liuyuan-pal/SyncDreamer
+- [2026-04-18] UltraEdit | https://github.com/HaozheZhao/UltraEdit
+- [2026-04-18] UltraPixel | https://github.com/catcathh/UltraPixel
+- [2026-04-18] Unity ML Stable Diffusion | https://github.com/keijiro/UnityMLStableDiffusion
+- [2026-04-18] USO | https://github.com/bytedance/USO
 
 ## Texture (12)
 - [2026-04-17] CRM | https://github.com/thu-ml/CRM
 - [2026-04-18] DreamMat | https://github.com/zzzyuqing/DreamMat
 - [2026-04-17] DreamSpace | https://github.com/ybbbbt/dreamspace
-|- [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
-|- [2026-04-18] InstructHumans | https://github.com/viridityzhu/InstructHumans
-|- [2026-04-18] InteX | https://github.com/ashawkey/InTeX
+- [2026-04-18] Dream Textures | https://github.com/carson-katri/dream-textures
+- [2026-04-18] InstructHumans | https://github.com/viridityzhu/InstructHumans
+- [2026-04-18] InteX | https://github.com/ashawkey/InTeX
 - [2026-04-18] LLaMA-Mesh | https://github.com/nv-tlabs/LLaMA-Mesh
 - [2026-04-18] MaterialSeg3D | https://github.com/PROPHETE-pro/MaterialSeg3D_
 - [2026-04-18] MeshAnything | https://github.com/buaacyw/MeshAnything
-|- [2026-04-18] Neuralangelo | https://github.com/NVlabs/neuralangelo
-|- [2026-04-18] Paint-it | https://github.com/postech-ami/paint-it
+- [2026-04-18] Neuralangelo | https://github.com/NVlabs/neuralangelo
+- [2026-04-18] Paint-it | https://github.com/postech-ami/paint-it
 - [2026-04-18] X-Mesh | https://github.com/xmu-xiaoma666/X-Mesh
 
 ## Shader (1)
@@ -358,39 +358,39 @@
 - [2026-04-18] chatGPT-maya | https://github.com/LouisRossouw/chatGPT-maya
 - [2026-04-18] CityDreamer | https://github.com/hzxie/city-dreamer
 - [2026-04-18] Direct3D-S2 | https://github.com/DreamTechAI/Direct3D-S2
-|- [2026-04-18] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
+- [2026-04-18] DreamCatalyst | https://github.com/kaist-cvml-lab/DreamCatalyst
 - [2026-04-18] DreamGaussian4D | https://github.com/jiawei-ren/dreamgaussian4d
-|- [2026-04-18] DUSt3R | https://github.com/naver/dust3r
-|- [2026-04-18] GALA3D | https://github.com/VDIGPKU/GALA3D
+- [2026-04-18] DUSt3R | https://github.com/naver/dust3r
+- [2026-04-18] GALA3D | https://github.com/VDIGPKU/GALA3D
 - [2026-04-18] GaussCtrl | https://github.com/ActiveVisionLab/gaussctrl
 - [2026-04-18] GaussianCube | https://github.com/GaussianCube/GaussianCube
-|- [2026-04-18] GaussianDreamer | https://github.com/hustvl/GaussianDreamer
-|- [2026-04-18] HoloDreamer | https://github.com/zhouhyOcean/HoloDreamer
-|- [2026-04-18] Hunyuan3D-1.0 | https://github.com/Tencent/Hunyuan3D-1
-|- [2026-04-18] Hunyuan3D 2.0 | https://github.com/Tencent/Hunyuan3D-2
-|- [2026-04-18] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
-|- [2026-04-18] Infinigen | https://github.com/princeton-vl/infinigen
-|- [2026-04-18] Interactive3D | https://github.com/interactive-3d/interactive3d
+- [2026-04-18] GaussianDreamer | https://github.com/hustvl/GaussianDreamer
+- [2026-04-18] HoloDreamer | https://github.com/zhouhyOcean/HoloDreamer
+- [2026-04-18] Hunyuan3D-1.0 | https://github.com/Tencent/Hunyuan3D-1
+- [2026-04-18] Hunyuan3D 2.0 | https://github.com/Tencent/Hunyuan3D-2
+- [2026-04-18] Hunyuan3D 2.1 | https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1
+- [2026-04-18] Infinigen | https://github.com/princeton-vl/infinigen
+- [2026-04-18] Interactive3D | https://github.com/interactive-3d/interactive3d
 - [2026-04-18] Isotropic3D | https://github.com/pkunliu/Isotropic3D
-|- [2026-04-18] LION | https://github.com/nv-tlabs/LION
-|- [2026-04-18] Make-It-3D | https://github.com/junshutang/Make-It-3D
+- [2026-04-18] LION | https://github.com/nv-tlabs/LION
+- [2026-04-18] Make-It-3D | https://github.com/junshutang/Make-It-3D
 - [2026-04-18] MVDream | https://github.com/MV-Dream/MVDream
 - [2026-04-18] NVIDIA Instant NeRF | https://github.com/NVlabs/instant-ngp
 - [2026-04-18] Paint3D | https://github.com/OpenTexture/Paint3D
 - [2026-04-18] PAniC-3D | https://github.com/shuhongchen/panic3d-anime-reconstruction
-|- [2026-04-18] PhysRig | https://github.com/haoz19/PhysRig
-|- [2026-04-18] Point·E | https://github.com/openai/point-e
-|- [2026-04-18] SF3D | https://github.com/Stability-AI/stable-fast-3d
-|- [2026-04-18] Shap-E | https://github.com/openai/shap-e
-|- [2026-04-18] Stable Dreamfusion | https://github.com/ashawkey/stable-dreamfusion
-|- [2026-04-18] Step1X-3D | https://github.com/stepfun-ai/Step1X-3D
-|- [2026-04-18] 3D-LLM | https://github.com/UMass-Foundation-Model/3D-LLM
-|- [2026-04-18] 3DTopia | https://github.com/3DTopia/3DTopia
-|- [2026-04-18] 3DTopia-XL | https://github.com/3DTopia/3DTopia-XL
+- [2026-04-18] PhysRig | https://github.com/haoz19/PhysRig
+- [2026-04-18] Point·E | https://github.com/openai/point-e
+- [2026-04-18] SF3D | https://github.com/Stability-AI/stable-fast-3d
+- [2026-04-18] Shap-E | https://github.com/openai/shap-e
+- [2026-04-18] Stable Dreamfusion | https://github.com/ashawkey/stable-dreamfusion
+- [2026-04-18] Step1X-3D | https://github.com/stepfun-ai/Step1X-3D
+- [2026-04-18] 3D-LLM | https://github.com/UMass-Foundation-Model/3D-LLM
+- [2026-04-18] 3DTopia | https://github.com/3DTopia/3DTopia
+- [2026-04-18] 3DTopia-XL | https://github.com/3DTopia/3DTopia-XL
 - [2026-04-18] threestudio | https://github.com/threestudio-project/threestudio
-|- [2026-04-18] TripoSR | https://github.com/VAST-AI-Research/TripoSR
+- [2026-04-18] TripoSR | https://github.com/VAST-AI-Research/TripoSR
 - [2026-04-18] Unique3D | https://github.com/AiuniAI/Unique3D
-|- [2026-04-18] UnityGaussianSplatting | https://github.com/aras-p/UnityGaussianSplatting
+- [2026-04-18] UnityGaussianSplatting | https://github.com/aras-p/UnityGaussianSplatting
 - [2026-04-18] ViVid-1-to-3 | https://github.com/ubc-vision/vivid123
 - [2026-04-18] Wonder3D | https://github.com/xxlong0/Wonder3D
 - [2026-04-18] Zero-1-to-3 | https://github.com/cvlab-columbia/zero123
@@ -402,16 +402,16 @@
 - [2026-04-18] Ditto | https://github.com/antgroup/ditto-talkinghead
 - [2026-04-18] DreamTalk | https://github.com/ali-vilab/dreamtalk
 - [2026-04-18] Duix | https://github.com/GuijiAI/duix.ai
-|- [2026-04-18] EchoMimic | https://github.com/BadToBest/EchoMimic
+- [2026-04-18] EchoMimic | https://github.com/BadToBest/EchoMimic
 - [2026-04-18] EMOPortraits | https://github.com/neeek2303/EMOPortraits
-|- [2026-04-18] EmoVOCA | https://github.com/miccunifi/EmoVOCA
-|- [2026-04-18] E3 Gen | https://github.com/olivia23333/E3Gen
+- [2026-04-18] EmoVOCA | https://github.com/miccunifi/EmoVOCA
+- [2026-04-18] E3 Gen | https://github.com/olivia23333/E3Gen
 - [2026-04-18] ExAvatar | https://github.com/mks0601/ExAvatar_RELEASE
-|- [2026-04-19] GeneAvatar | https://github.com/zju3dv/GeneAvatar
+- [2026-04-19] GeneAvatar | https://github.com/zju3dv/GeneAvatar
 - [2026-04-18] GeneFace++ | https://github.com/yerfor/GeneFacePlusPlus
-|- [2026-04-19] Hallo | https://github.com/fudan-generative-vision/hallo
-|- [2026-04-19] Hallo2 | https://github.com/fudan-generative-vision/hallo2
-|- [2026-04-19] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
+- [2026-04-19] Hallo | https://github.com/fudan-generative-vision/hallo
+- [2026-04-19] Hallo2 | https://github.com/fudan-generative-vision/hallo2
+- [2026-04-19] HunyuanPortrait | https://github.com/Tencent-Hunyuan/HunyuanPortrait
 - [2026-04-19] HunyuanVideo-Avatar | https://github.com/Tencent-Hunyuan/HunyuanVideo-Avatar
 - [2026-04-19] IntrinsicAvatar | https://github.com/taconite/IntrinsicAvatar
 - [2026-04-19] Linly-Talker | https://github.com/Kedreamix/Linly-Talker
@@ -429,8 +429,8 @@
 ## Animation (17)
 - [2026-04-19] Animate Anyone | https://github.com/HumanAIGC/AnimateAnyone
 - [2026-04-19] AnimateDiff | https://github.com/guoyww/animatediff/
-|- [2026-04-19] AnimateLCM | https://github.com/G-U-N/AnimateLCM
-|- [2026-04-19] Animate-X | https://github.com/Lucaria-Academy/Animate-X
+- [2026-04-19] AnimateLCM | https://github.com/G-U-N/AnimateLCM
+- [2026-04-19] Animate-X | https://github.com/Lucaria-Academy/Animate-X
 - [2026-04-19] AnimationGPT | https://github.com/fyyakaxyy/AnimationGPT
 - [2026-04-19] DrawingSpinUp | https://github.com/LordLiang/DrawingSpinUp
 - [2026-04-19] FaceFusion | https://github.com/facefusion/facefusion
@@ -440,7 +440,7 @@
 - [2026-04-19] Index-AniSora | https://github.com/bilibili/Index-anisora
 - [2026-04-19] SadTalker | https://github.com/Winfredy/SadTalker
 - [2026-04-19] SadTalker-Video-Lip-Sync | https://github.com/Zz-ww/SadTalker-Video-Lip-Sync
-|- [2026-04-19] ToonComposer | https://github.com/TencentARC/ToonComposer
+- [2026-04-19] ToonComposer | https://github.com/TencentARC/ToonComposer
 - [2026-04-19] TaleCrafter | https://github.com/VideoCrafter/TaleCrafter
 - [2026-04-19] ToonCrafter | https://github.com/ToonCrafter/ToonCrafter
 - [2026-04-20] Wav2Lip | https://github.com/Rudrabha/Wav2Lip
@@ -455,48 +455,48 @@
 - [2026-04-20] Diffutoon | https://github.com/modelscope/DiffSynth-Studio
 - [2026-04-20] dolphin | https://github.com/kaleido-lab/dolphin
 - [2026-04-20] DreamCinema | https://github.com/chen-wl20/DreamCinema
-|- [2026-04-20] EDGE | https://github.com/Stanford-TML/EDGE
-|- [2026-04-20] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas
-|- [2026-04-20] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
-|- [2026-04-20] HuMo | https://github.com/Phantom-video/HuMo
-|- [2026-04-20] HunyuanVideo | https://github.com/Tencent/HunyuanVideo
-|- [2026-04-20] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
+- [2026-04-20] EDGE | https://github.com/Stanford-TML/EDGE
+- [2026-04-20] Follow-Your-Canvas | https://github.com/mayuelala/FollowYourCanvas
+- [2026-04-20] Hotshot-XL | https://github.com/hotshotco/Hotshot-XL
+- [2026-04-20] HuMo | https://github.com/Phantom-video/HuMo
+- [2026-04-20] HunyuanVideo | https://github.com/Tencent/HunyuanVideo
+- [2026-04-20] HunyuanVideo-1.5 | https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5
 - [2026-04-20] InfiniteTalk | https://github.com/MeiGen-AI/InfiniteTalk
 - [2026-04-20] LongLive | https://github.com/NVlabs/LongLive
-|- [2026-04-20] LTX-Video | https://github.com/Lightricks/LTX-Video
-|- [2026-04-20] Lynx | https://github.com/bytedance/lynx
-|- [2026-04-20] MIMO | https://github.com/menyifang/MIMO
-|- [2026-04-20] Mini-Gemini | https://github.com/dvlab-research/MiniGemini
-|- [2026-04-20] Mochi 1 | https://github.com/genmoai/models
-|- [2026-04-20] MOFA-Video | https://github.com/MyNiuuu/MOFA-Video
-|- [2026-04-20] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
+- [2026-04-20] LTX-Video | https://github.com/Lightricks/LTX-Video
+- [2026-04-20] Lynx | https://github.com/bytedance/lynx
+- [2026-04-20] MIMO | https://github.com/menyifang/MIMO
+- [2026-04-20] Mini-Gemini | https://github.com/dvlab-research/MiniGemini
+- [2026-04-20] Mochi 1 | https://github.com/genmoai/models
+- [2026-04-20] MOFA-Video | https://github.com/MyNiuuu/MOFA-Video
+- [2026-04-20] MoneyPrinterTurbo | https://github.com/harry0703/MoneyPrinterTurbo
 - [2026-04-20] Mora | https://github.com/lichao-sun/Mora
-|- [2026-04-20] MotionClone | https://github.com/Bujiazi/MotionClone
+- [2026-04-20] MotionClone | https://github.com/Bujiazi/MotionClone
 - [2026-04-20] MotionDirector | https://github.com/showlab/MotionDirector
-|- [2026-04-20] Mov2mov | https://github.com/Scholar01/sd-webui-mov2mov
-|- [2026-04-20] MoviiGen 1.1 | https://github.com/ZulutionAI/MoviiGen1.1
-|- [2026-04-20] Open-Sora | https://github.com/hpcaitech/Open-Sora
-|- [2026-04-20] Open-Sora | https://github.com/PKU-YuanGroup/Open-Sora-Plan
-|- [2026-04-20] Ovi | https://github.com/character-ai/Ovi
+- [2026-04-20] Mov2mov | https://github.com/Scholar01/sd-webui-mov2mov
+- [2026-04-20] MoviiGen 1.1 | https://github.com/ZulutionAI/MoviiGen1.1
+- [2026-04-20] Open-Sora | https://github.com/hpcaitech/Open-Sora
+- [2026-04-20] Open-Sora | https://github.com/PKU-YuanGroup/Open-Sora-Plan
+- [2026-04-20] Ovi | https://github.com/character-ai/Ovi
 - [2026-04-20] Ruyi | https://github.com/IamCreateAI/Ruyi-Models
-|- [2026-04-20] ShortGPT | https://github.com/RayVentura/ShortGPT
-|- [2026-04-20] Step-Video-T2V | https://github.com/stepfun-ai/Step-Video-T2V
-|- [2026-04-20] SkyReels-A1 | https://github.com/SkyworkAI/SkyReels-A1
-|- [2026-04-20] SkyReels-V1 | https://github.com/SkyworkAI/SkyReels-V1
-|- [2026-04-20] SoraWebui | https://github.com/SoraWebui/SoraWebui
-|- [2026-04-20] StableVideo | https://github.com/rese1f/stablevideo
-|- [2026-04-20] Stable Video Diffusion | https://github.com/Stability-AI/generative-models
-|- [2026-04-20] StoryDiffusion | https://github.com/HVision-NKU/StoryDiffusion
-|- [2026-04-20] StoryMem | https://github.com/Kevin-thu/StoryMem
-|- [2026-04-20] StreamingT2V | https://github.com/Picsart-AI-Research/StreamingT2V
-|- [2026-04-20] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
+- [2026-04-20] ShortGPT | https://github.com/RayVentura/ShortGPT
+- [2026-04-20] Step-Video-T2V | https://github.com/stepfun-ai/Step-Video-T2V
+- [2026-04-20] SkyReels-A1 | https://github.com/SkyworkAI/SkyReels-A1
+- [2026-04-20] SkyReels-V1 | https://github.com/SkyworkAI/SkyReels-V1
+- [2026-04-20] SoraWebui | https://github.com/SoraWebui/SoraWebui
+- [2026-04-20] StableVideo | https://github.com/rese1f/stablevideo
+- [2026-04-20] Stable Video Diffusion | https://github.com/Stability-AI/generative-models
+- [2026-04-20] StoryDiffusion | https://github.com/HVision-NKU/StoryDiffusion
+- [2026-04-20] StoryMem | https://github.com/Kevin-thu/StoryMem
+- [2026-04-20] StreamingT2V | https://github.com/Picsart-AI-Research/StreamingT2V
+- [2026-04-20] Text2Video-Zero | https://github.com/Picsart-AI-Research/Text2Video-Zero
 - [2026-04-20] Tora | https://github.com/ali-videoai/Tora
-|- [2026-04-20] Track-Anything | https://github.com/gaomingqi/Track-Anything
+- [2026-04-20] Track-Anything | https://github.com/gaomingqi/Track-Anything
 - [2026-04-20] Tune-A-Video | https://github.com/showlab/Tune-A-Video
 - [2026-04-20] Vchitect-2.0 | https://github.com/Vchitect/Vchitect-2.0
-|- [2026-04-20] VGen | https://github.com/ali-vilab/i2vgen-xl
+- [2026-04-20] VGen | https://github.com/ali-vilab/i2vgen-xl
 - [2026-04-20] ViewCrafter | https://github.com/Drexubery/ViewCrafter
-|- [2026-04-20] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
+- [2026-04-20] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
 - [2026-04-20] VideoElevator | https://github.com/YBYBZhang/VideoElevator
 | [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba
 - [2026-04-20] Video-of-Thought | https://github.com/scofield7419/Video-of-Thought
@@ -504,23 +504,23 @@
 - [2026-04-20] V-JEPA | https://github.com/facebookresearch/jepa
 - [2026-04-20] Wan2.1 | https://github.com/Wan-Video/Wan2.1
 - [2026-04-20] Wan2.2 | https://github.com/Wan-Video/Wan2.2
-|- [2026-04-20] Waver | https://github.com/FoundationVision/Waver
+- [2026-04-20] Waver | https://github.com/FoundationVision/Waver
 
 ## Audio (25)
 - [2026-04-20] AcademiCodec | https://github.com/yangdongchao/AcademiCodec
-|- [2026-04-20] Amphion | https://github.com/open-mmlab/Amphion
+- [2026-04-20] Amphion | https://github.com/open-mmlab/Amphion
 - [2026-04-20] ArchiSound | https://github.com/archinetai/audio-diffusion-pytorch
 - [2026-04-20] AudioEditing | https://github.com/HilaManor/AudioEditingCode
 - [2026-04-20] Audiogen Codec | https://github.com/AudiogenAI/agc
 - [2026-04-20] AudioGPT | https://github.com/AIGC-Audio/AudioGPT
-|- [2026-04-20] AudioLCM | https://github.com/liuhuadai/AudioLCM
-|- [2026-04-20] AudioLDM 2 | https://github.com/haoheliu/audioldm2
-|- [2026-04-20] AudioX | https://github.com/ZeyueT/AudioX
-|- [2026-04-20] Auffusion | https://github.com/happylittlecat2333/Auffusion
+- [2026-04-20] AudioLCM | https://github.com/liuhuadai/AudioLCM
+- [2026-04-20] AudioLDM 2 | https://github.com/haoheliu/audioldm2
+- [2026-04-20] AudioX | https://github.com/ZeyueT/AudioX
+- [2026-04-20] Auffusion | https://github.com/happylittlecat2333/Auffusion
 - [2026-04-20] CTAG | https://github.com/PapayaResearch/ctag
 - [2026-04-20] FoleyCrafter | https://github.com/open-mmlab/FoleyCrafter
 - [2026-04-20] HunyuanVideo-Foley | https://github.com/Tencent-Hunyuan/HunyuanVideo-Foley
-|- [2026-04-20] Make-An-Audio 3 | https://github.com/Text-to-Audio/Make-An-Audio-3
+- [2026-04-20] Make-An-Audio 3 | https://github.com/Text-to-Audio/Make-An-Audio-3
 - [2026-04-20] MeanAudio | https://github.com/xiquan-li/MeanAudio
 - [2026-04-20] MiDashengLM | https://github.com/xiaomi-research/dasheng-lm
 - [2026-04-20] MMAudio | https://github.com/hkchengrex/MMAudio
@@ -529,13 +529,13 @@
 - [2026-04-20] SEE-2-SOUND | https://github.com/see2sound/see2sound
 - [2026-04-20] SyncFusion | https://github.com/mcomunita/syncfusion
 - [2026-04-20] TANGO | https://github.com/declare-lab/tango
-|- [2026-04-21] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
+- [2026-04-21] ThinkSound | https://github.com/FunAudioLLM/ThinkSound
 - [2026-04-21] VTA-LDM | https://github.com/ariesssxu/vta-ldm
 - [2026-04-21] WavJourney | https://github.com/Audio-AGI/WavJourney
 
 ## Music (11)
 - [2026-04-21] AnyAccomp | https://github.com/AmphionTeam/AnyAccomp
-|- [2026-04-21] Chord2Melody | https://github.com/tanreinama/chord2melody
+- [2026-04-21] Chord2Melody | https://github.com/tanreinama/chord2melody
 - [2026-04-21] Diff-BGM | https://github.com/sizhelee/Diff-BGM
 - [2026-04-20] FluxMusic | https://github.com/feizc/FluxMusic
 - [2026-04-21] GPTAbleton | https://github.com/BurnedGuitarist/GPTAbleton
@@ -548,7 +548,7 @@
 
 ## Singing Voice (4)
 - [2026-04-21] DiffSinger | https://github.com/MoonInTheRiver/DiffSinger
-|- [2026-04-21] Retrieval-based-Voice-Conversion-WebUI | https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI
+- [2026-04-21] Retrieval-based-Voice-Conversion-WebUI | https://github.com/liujing04/Retrieval-based-Voice-Conversion-WebUI
 - [2026-04-21] so-vits-svc | https://github.com/svc-develop-team/so-vits-svc
 - [2026-04-21] VI-SVS | https://github.com/PlayVoice/VI-SVS
 
@@ -570,29 +570,29 @@
 - [2026-04-21] Kitten TTS | https://github.com/KittenML/KittenTTS
 - [2026-04-21] Liquid Audio | https://github.com/Liquid4All/liquid-audio
 - [2026-04-21] MahaTTS | https://github.com/dubverse-ai/MahaTTS
-|- [2026-04-21] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
-|- [2026-04-21] MeloTTS | https://github.com/myshell-ai/MeloTTS
+- [2026-04-21] Matcha-TTS | https://github.com/shivammehta25/Matcha-TTS
+- [2026-04-21] MeloTTS | https://github.com/myshell-ai/MeloTTS
 - [2026-04-21] MetaVoice-1B | https://github.com/metavoiceio/metavoice-src
-|- [2026-04-21] Mini-Omni | https://github.com/gpt-omni/mini-omni
-|- [2026-04-21] One-Shot-Voice-Cloning | https://github.com/CMsmartvoice/One-Shot-Voice-Cloning
-|- [2026-04-21] OpenVoice | https://github.com/myshell-ai/OpenVoice
+- [2026-04-21] Mini-Omni | https://github.com/gpt-omni/mini-omni
+- [2026-04-21] One-Shot-Voice-Cloning | https://github.com/CMsmartvoice/One-Shot-Voice-Cloning
+- [2026-04-21] OpenVoice | https://github.com/myshell-ai/OpenVoice
 - [2026-04-21] OverFlow | https://github.com/shivammehta25/OverFlow
 - [2026-04-21] RealtimeTTS | https://github.com/KoljaB/RealtimeTTS
-|- [2026-04-21] SenseVoice | https://github.com/FunAudioLLM/SenseVoice
+- [2026-04-21] SenseVoice | https://github.com/FunAudioLLM/SenseVoice
 - [2026-04-21] SpeechGPT | https://github.com/0nutation/SpeechGPT
 - [2026-04-21] speech-to-text-gpt3-unity | https://github.com/dr-iskandar/speech-to-text-gpt3-unity
-|- [2026-04-21] Stable Speech | https://github.com/sanchit-gandhi/stable-speech
-|- [2026-04-21] StableTTS | https://github.com/KdaiP/StableTTS
-|- [2026-04-21] Step-Audio | https://github.com/stepfun-ai/Step-Audio
-|- [2026-04-21] Step-Audio 2 | https://github.com/stepfun-ai/Step-Audio2
-|- [2026-04-24] StyleTTS 2 | https://github.com/yl4579/StyleTTS2
+- [2026-04-21] Stable Speech | https://github.com/sanchit-gandhi/stable-speech
+- [2026-04-21] StableTTS | https://github.com/KdaiP/StableTTS
+- [2026-04-21] Step-Audio | https://github.com/stepfun-ai/Step-Audio
+- [2026-04-21] Step-Audio 2 | https://github.com/stepfun-ai/Step-Audio2
+- [2026-04-24] StyleTTS 2 | https://github.com/yl4579/StyleTTS2
 - [2026-04-21] tortoise.cpp | https://github.com/balisujohn/tortoise.cpp
 - [2026-04-21] TorToiSe-TTS | https://github.com/neonbjb/tortoise-tts
 - [2026-04-21] TTS Generation WebUI | https://github.com/rsxdalv/tts-generation-webui
-|- [2026-04-21] VibeVoice | https://github.com/microsoft/VibeVoice
-|- [2026-04-21] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
+- [2026-04-21] VibeVoice | https://github.com/microsoft/VibeVoice
+- [2026-04-21] Voicebox | https://github.com/SpeechifyInc/Meta-voicebox
 - [2026-04-21] VoiceCraft | https://github.com/jasonppy/VoiceCraft
-|- [2026-04-21] VoxCPM | https://github.com/OpenBMB/VoxCPM
+- [2026-04-21] VoxCPM | https://github.com/OpenBMB/VoxCPM
 - [2026-04-21] Whisper | https://github.com/openai/whisper
 - [2026-04-21] WhisperSpeech | https://github.com/collabora/WhisperSpeech
 - [2026-04-21] X-E-Speech | https://github.com/X-E-Speech/X-E-Speech-code

@@ -1,3 +1,12 @@
+## [2026-04-24] ingest | OpenGame
+- Cloned: ~/OpenGame (existing local repo)
+- Created: raw/articles/opengame-2026.md (synthesized source from codebase analysis)
+- Created: entities/opengame.md (project entity page)
+- Created: comparisons/platformer-vs-topdown-basescene.md (BaseScene architecture comparison)
+- Created: concepts/ai-gdd-prompt-engineering.md (GDD generation prompt engineering)
+- Updated: index.md (3 new entries, total 606)
+- Research focus: (1) Platformer vs Top-Down BaseScene implementation differences, (2) GDD generation tool prompt engineering details
+
 ## [2026-04-24] lint | fix remaining 3 checklist format issues
 - Fixed: LlamaGen, Stable Diffusion WebUI Chinese, VideoMamba (all had `|` prefix instead of `-`)
 - All 564 checklist items now correctly formatted

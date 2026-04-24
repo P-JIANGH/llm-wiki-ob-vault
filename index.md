@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-24 | 603 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-24 | 606 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -107,6 +107,9 @@
 || [[microverse-character-system]] — 8 角色人格/职位/说话风格（CharacterPersonality） |
    103|   103|   103|| [[microverse-dialog-system]] — DialogService/ConversationManager/BackgroundStoryManager |
    104|   104|   104|| [[microverse-save-system]] — GameSaveManager JSON 存档（角色位置/任务/AI状态） |
+|| [[opengame]] — OpenGame AI游戏生成框架：自然语言描述→Phaser 3游戏，5种游戏原型模板，三层Prompt工程约束 |
+|| [[platformer-vs-topdown-basescene]] — OpenGame BaseScene架构对比：Platformer vs Top-Down，1D/2D击退、Y-Sort、Arena系统差异 |
+|| [[ai-gdd-prompt-engineering]] — OpenGame GDD生成Prompt工程：Hook Integrity、Zero Custom Code、模板强制约束 |
 || [[game-design-document]] — 游戏设计文档 GDD 模板与指南：One Pager、核心循环、范围控制 |
 || [[gdd-reincarnator-v2]] — 转生者模拟器 v2 One Pager GDD：核心循环、USP、系统概览、技术架构、开发进度 |
 || [[indie-game-marketing]] — 独立游戏 Steam 营销研究：发布时机、像素艺术品类选择、Reddit 社区营销、收入参考 |

@@ -262,3 +262,10 @@
 - Created: ai-game-devtools/cwm.md
 - Updated: index.md (added cwm entry)
 - Note: checklist already marked complete [2026-04-17]; wiki page was missing (backfill)
+
+## [2026-04-25] ingest | BabyAGI UI (backfill)
+- Source: existing clone ~/tmp/ai-game-devtools/babyagi-ui/
+- Created: raw/articles/ai-game-devtools/babyagi-ui.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-25)
+- Note: checklist already marked complete [2026-04-13]; raw source was missing (backfill)
+- Note: wiki page already existed since 2026-04-23

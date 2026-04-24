@@ -155,7 +155,7 @@
 - [2026-04-15] VideoAgent | https://github.com/YueFan1014/VideoAgent
 - [2026-04-15] Video-CCAM | https://github.com/QQ-MM/Video-CCAM
 - [2026-04-15] VideoLLaMA 2 | https://github.com/DAMO-NLP-SG/VideoLLaMA2
-- [2026-04-15] VideoLLaMA 3 | https://github.com/DAMO-NLP-SG/VideoLLaMA3
+- [2026-04-24] VideoLLaMA 3 | https://github.com/DAMO-NLP-SG/VideoLLaMA3
 - [2026-04-15] Video-MME | https://github.com/BradyFU/Video-MME
 - [2026-04-15] Vitron | https://github.com/SkyworkAI/Vitron
 - [2026-04-15] VILA | https://github.com/NVlabs/VILA

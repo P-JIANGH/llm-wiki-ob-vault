@@ -1,3 +1,11 @@
+## [2026-04-24] ingest | VideoLLaMA 3 (backfill)
+- Cloned: ~/tmp/ai-game-devtools/videollama3/ (existing from 2026-04-22)
+- Created: raw/articles/ai-game-devtools/videollama3.md
+- Created: ai-game-devtools/videollama3.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Updated: index.md (added videollama3 entry, total 607)
+- Note: checklist already marked complete [2026-04-15]; wiki page and raw source were missing (backfill)
+
 ## [2026-04-24] ingest | OpenGame
 - Cloned: ~/OpenGame (existing local repo)
 - Created: raw/articles/opengame-2026.md (synthesized source from codebase analysis)

@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-24 | 606 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-24 | 607 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -484,8 +484,9 @@
    462|   455|   451|| [[ai-game-devtools/video-llava]] — VideoLLaVA: Learning United Visual Representation by Alignment Before Projection |
    463|   456|   452|| [[ai-game-devtools/video-mamba]] — URL: https://github.com/OpenGVLab/VideoMamba HF: https://huggingface.co/OpenGVLab/VideoMamba Paper: arXiv:2403.06977 License: Apache 2.0 Authors: Kunc |
    464|   457|   453|| [[ai-game-devtools/video-mme]] — VideoMME (Multimodal Evaluation) is the firstever comprehensive evaluation benchmark for Multimodal Large Language Models (MLLMs) in video analysis. A |
-   465|   458|   454|| [[ai-game-devtools/videollama2]] — VideoLLaMA 2 是 VideoLLaMA 系列的第二代，2024 年 6 月发布。基于 LLaVA 1.5 + FastChat 代码库构建，在多个视频LLM 基准上达到 SOTA（MLVU Top1、VideoMME Top1 ~7B 类模型）。 |
-   466|   459|   455|| [[ai-game-devtools/vila]] — NVlabs 出品的开源 VLM 家族，专注于视频理解与多图理解的效率与精度优化。历经 VILA1.0 → VILA1.5 → NVILA(VILA2.0) → LongVILA 多代迭代，2025年1月并入 NVIDIA Cosmos Nemotron 系列。 |
+|| [[ai-game-devtools/videollama2]] — VideoLLaMA 2 是 VideoLLaMA 系列的第二代，2024 年 6 月发布。基于 LLaVA 1.5 + FastChat 代码库构建，在多个视频LLM 基准上达到 SOTA（MLVU Top1、VideoMME Top1 ~7B 类模型）。 |
+|| [[ai-game-devtools/videollama3]] — DAMO-NLP-SG VideoLLaMA 第三代：Qwen2.5 + SigLIP-NaViT 多模态基础模型，图像/视频/视觉定位全任务，7B 规模 VideoMME/LVBench 排行榜第一，Apache 2.0 |
+|| [[ai-game-devtools/vila]] — NVlabs 出品的开源 VLM 家族，专注于视频理解与多图理解的效率与精度优化。历经 VILA1.0 → VILA1.5 → NVILA(VILA2.0) → LongVILA 多代迭代，2025年1月并入 NVIDIA Cosmos Nemotron 系列。 |
    467|   460|   456|| [[ai-game-devtools/vitron]] — Vitron 是 Skywork AI 与新加坡国立大学（NUS）、南洋理工大学（NTU）联合开发的统一像素级视觉 LLM，发表在 NeurIPS 2024。一个模型同时覆盖图像和视频的理解、生成、分割、编辑四大任务。 |
    468|   461|   457||| [[ai-game-devtools/wavjourney]] — 萨里大学 LLM 驱动的组合式音频创作：GPT-4 文本→JSON 剧本→Python 代码→多轨混音（语音Bark+音乐MusicGen+音效AudioGen），内置声纹克隆/预设，VRAM>16GB |
    469|   462|   458|| [[ai-game-devtools/web3-gpt]] — AIpowered smart contract development platform. Chat with agents that can write, deploy, and verify Solidity contracts on EVMcompatible chains. |

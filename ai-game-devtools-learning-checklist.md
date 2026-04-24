@@ -210,7 +210,7 @@
 - [2026-04-23] LlamaIndex | https://github.com/run-llama/llama_index
 - [2026-04-24] Matrix-Game | https://github.com/SkyworkAI/Matrix-Game
 - [2026-04-16] MindSearch | https://github.com/InternLM/MindSearch
-- [2026-04-16] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
+- [2026-04-24] Mixture of Agents (MoA) | https://github.com/togethercomputer/MoA
 - [2026-04-16] MMRole | https://github.com/YanqiDai/MMRole
 - [2026-04-16] MuG Diffusion | https://github.com/Keytoyze/Mug-Diffusion
 - [2026-04-16] NVIDIA NeMo Agent Toolkit | https://github.com/NVIDIA/NeMo-Agent-Toolkit

@@ -1,76 +1,102 @@
-# BabyAGI UI
+# 👶🤖🖥️ BabyAGI UI
 
-Source: https://github.com/miurla/babyagi-ui  
-Cloned: 2026-04-23 from gitcode.com mirror  
-License: MIT
-
----
+**Source:** https://github.com/miurla/babyagi-ui  
+**Type:** Web application (Next.js)  
+**License:** Not explicitly stated (assumed MIT based on repo culture)
 
 ## Overview
 
-BabyAGI UI is designed to make it easier to run and develop with babyagi in a web app, like a ChatGPT. This is a port of babyagi with Langchain.js and build a user interface.
+BabyAGI UI is a web interface for [BabyAGI](https://github.com/yoheinakajima/babyagi), designed to make it easier to run and develop with BabyAGI in a browser, similar to ChatGPT. It is a port of BabyAGI built with LangChain.js and features a modern React-based user interface.
 
-## Stack
+## Tech Stack
 
-- Next.js
-- Pinecone
-- LangChain.js
-- Tailwind CSS
-- Radix UI
+- **Frontend:** Next.js 13, React 18, TypeScript
+- **Styling:** Tailwind CSS, Radix UI primitives
+- **AI/LLM:** LangChain.js, OpenAI API
+- **Vector DB:** Pinecone
+- **State:** localStorage for executions and settings
+- **Deployment:** Vercel-ready
 
-## Roadmap
+## Key Features
 
-- [x] Collapsible Sidebar
-- [x] User input & parallel tasking (BabyDeerAGI)
-- [x] API updates support (gpt-3.5-turbo-0613/gpt-3.5-turbo-16k-0613/gpt-4-0613)
-- [x] Skills Class allows for easy skill creation (BabyElfAGI)
-- [x] Aggregate the logic of the agent in the backend
-- [x] Add hooks to make it easier to handle the agent on the frontend
-- [ ] Support the OpenAI GPT-4 Turbo model
-- [ ] Support the Llama2 model
+- Multiple agent variants:
+  - **BabyDeerAGI** (Stable) — supports user input & parallel tasking
+  - **BabyElfAGI** (Beta) — Skills Class for easy skill creation
+  - **BabyCatAGI** — search + document processing
+  - **BabyBeeAGI** — search / document tools with SerpAPI
+  - **BabyAGI** — original implementation
+- Collapsible sidebar UI
+- Support for OpenAI GPT-4, GPT-4 Turbo, GPT-3.5 Turbo
+- Internationalization (i18n) support
+- Execution history saved to localStorage
+- Vercel one-click deploy
 
-## Getting Started
-
-```sh
-git clone https://github.com/miurla/babyagi-ui
-cd babyagi-ui
-npm install
-cp .env.example .env
-npm run dev
-```
-
-## Environment Variables
-
-- Pinecone API key and index (required)
-- SerpAPI Key (optional, for search tool with BabyBeeAGI)
-- OpenAI API key
-
-## Deploy
-
-Vercel one-click deploy supported.
-
-## Project Structure
+## Architecture
 
 ```
 src/
-- utils/          # Utility functions (execution, prompts, tasks, etc.)
-- hooks/          # React hooks for execution status, error handling, etc.
-- components/     # React components
-- pages/          # Next.js pages
-- types/          # TypeScript type definitions
+├── components/      # React UI components
+├── hooks/           # Custom React hooks (useExecutionStatus, useErrorHandler, etc.)
+├── types/           # TypeScript type definitions
+├── utils/           # Utility functions
+│   ├── constants.ts   # Model configs, agent types, themes
+│   ├── execution.ts   # localStorage execution persistence
+│   ├── objective.ts   # Objective handling
+│   ├── prompt.ts      # LLM prompt templates
+│   ├── task.ts        # Task serialization (snake_case ↔ camelCase)
+│   └── ...
+└── pages/           # Next.js pages
 ```
 
-## Key Dependencies (from package.json)
+## Agent Variants
+
+| Agent | Icon | Status | Capabilities |
+|-------|------|--------|-------------|
+| BabyDeerAGI | 🦌 | Stable | User input + parallel tasking |
+| BabyElfAGI | 🧝 | Beta | Skills Class system |
+| BabyCatAGI | 🐱 | — | Search + document processing |
+| BabyBeeAGI | 🐝 | — | Search / document (SerpAPI) |
+| BabyAGI | 👶 | — | Original implementation |
+
+## Supported Models
+
+- gpt-4-1106-preview (GPT-4 Turbo)
+- gpt-4
+- gpt-3.5-turbo
+
+## Environment Variables
+
+```
+OPENAI_API_KEY=
+PINECONE_API_KEY=
+PINECONE_ENVIRONMENT=
+PINECONE_INDEX_NAME=
+SERPAPI_API_KEY=       # for BabyBeeAGI search
+NEXT_PUBLIC_TABLE_ID=  # Airtable integration
+```
+
+## Roadmap (as of README)
+
+- [x] Collapsible Sidebar
+- [x] User input & parallel tasking (BabyDeerAGI)
+- [x] API updates (gpt-3.5-turbo-0613/gpt-4-0613)
+- [x] Skills Class (BabyElfAGI)
+- [x] Aggregate agent logic in backend
+- [x] Frontend hooks for agent handling
+- [ ] Support GPT-4 Turbo model
+- [ ] Support Llama2 model
+
+## Related Projects
+
+- [BabyAGI](https://github.com/yoheinakajima/babyagi) — Original Python implementation
+- [LangChain.js](https://github.com/hwchase17/langchainjs) — LLM framework used
+
+## Dependencies (key)
 
 - next: ^13.4.16
+- react: 18.2.0
 - langchain: ^0.0.64
 - openai: ^3.2.1
 - @pinecone-database/pinecone: ^0.0.10
-- ai: ^2.1.31
-- react: 18.2.0
-- typescript: 5.0.3
 - tailwindcss: ^3.3.1
-
-## Credits
-
-- Original BabyAGI: https://github.com/yoheinakajima/babyagi by @yoheinakajima
+- i18next: ^22.4.15

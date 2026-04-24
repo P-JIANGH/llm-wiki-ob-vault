@@ -14,7 +14,7 @@
 - [2026-04-13] Assistant CLI | https://github.com/diciaup/assistant-cli
 - [2026-04-13] Auto-GPT | https://github.com/Significant-Gravitas/Auto-GPT
 - [2026-04-13] BabyAGI | https://github.com/yoheinakajima/babyagi
-- [2026-04-13] 👶🤖🖥️ BabyAGI UI | https://github.com/miurla/babyagi-ui
+- [2026-04-25] 👶🤖🖥️ BabyAGI UI | https://github.com/miurla/babyagi-ui
 - [2026-04-13] baichuan-7B | https://github.com/baichuan-inc/baichuan-7B
 - [2026-04-13] Baichuan-13B | https://github.com/baichuan-inc/Baichuan-13B
 - [2026-04-13] Baichuan 2 | https://github.com/baichuan-inc/Baichuan2

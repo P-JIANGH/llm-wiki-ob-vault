@@ -289,7 +289,7 @@
 - [2026-04-17] Kolors | https://github.com/Kwai-Kolors/Kolors
 - [2026-04-17] LaVi-Bridge | https://github.com/ShihaoZhaoZSH/LaVi-Bridge
 - [2026-04-24] LayerDiffusion | https://github.com/layerdiffusion/LayerDiffusion
-|-[2026-04-17] LlamaGen | https://github.com/FoundationVision/LlamaGen
+- [2026-04-17] LlamaGen | https://github.com/FoundationVision/LlamaGen
 - [2026-04-17] Lumina-Image 2.0 | https://github.com/Alpha-VLLM/Lumina-Image-2.0
 - [2026-04-17] Lumina-mGPT | https://github.com/Alpha-VLLM/Lumina-mGPT
 - [2026-04-17] MakeAnything | https://github.com/showlab/MakeAnything
@@ -318,7 +318,7 @@
 - [2026-04-17] stable-diffusion.cpp | https://github.com/leejet/stable-diffusion.cpp
 - [2026-04-17] Stable Diffusion web UI | https://github.com/AUTOMATIC1111/stable-diffusion-webui
 - [2026-04-17] Stable Diffusion web UI | https://github.com/Sygil-Dev/sygil-webui
-|[2026-04-17] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
+- [2026-04-17] Stable Diffusion WebUI Chinese | https://github.com/VinsonLaro/stable-diffusion-webui-chinese
 - [2026-04-17] Stable Diffusion 3.5 | https://github.com/Stability-AI/sd3.5
 - [2026-04-17] StableStudio | https://github.com/Stability-AI/StableStudio
 - [2026-04-18] StoryMaker | https://github.com/RedAIGC/StoryMaker
@@ -498,7 +498,7 @@
 - [2026-04-20] ViewCrafter | https://github.com/Drexubery/ViewCrafter
 - [2026-04-20] Video-ChatGPT | https://github.com/mbzuai-oryx/Video-ChatGPT
 - [2026-04-20] VideoElevator | https://github.com/YBYBZhang/VideoElevator
-| [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba
+- [2026-04-15] VideoMamba | https://github.com/OpenGVLab/VideoMamba
 - [2026-04-20] Video-of-Thought | https://github.com/scofield7419/Video-of-Thought
 - [2026-04-20] VisualRWKV | https://github.com/howard-hou/VisualRWKV
 - [2026-04-20] V-JEPA | https://github.com/facebookresearch/jepa

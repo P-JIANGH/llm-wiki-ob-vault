@@ -1,3 +1,10 @@
+## [2026-04-24] ingest | Mixture of Agents (MoA) (backfill)
+- Cloned: ~/tmp/ai-game-devtools/mixture-of-agents/
+- Created: raw/articles/ai-game-devtools/mixture-of-agents.md
+- Created: ai-game-devtools/mixture-of-agents.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Note: checklist already marked complete [2026-04-16]; wiki page and raw source were missing (backfill)
+
 ## [2026-04-24] ingest | VideoLLaMA 3 (backfill)
 - Cloned: ~/tmp/ai-game-devtools/videollama3/ (existing from 2026-04-22)
 - Created: raw/articles/ai-game-devtools/videollama3.md

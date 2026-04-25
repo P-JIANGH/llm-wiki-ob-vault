@@ -1,3 +1,9 @@
+## [2026-04-25] ingest | GLM-4.5/4.6/4.7 (backfill)
+- Cloned: ~/tmp/ai-game-devtools/glm-4-5/ (existing from 2026-04-13)
+- Created: raw/articles/ai-game-devtools/glm-4-5.md
+- Created: ai-game-devtools/glm-4-5.md
+- Note: checklist already marked complete [2026-04-13]; wiki page and raw source were missing (backfill)
+
 ## [2026-04-24] ingest | Mixture of Agents (MoA) (backfill)
 - Cloned: ~/tmp/ai-game-devtools/mixture-of-agents/
 - Created: raw/articles/ai-game-devtools/mixture-of-agents.md

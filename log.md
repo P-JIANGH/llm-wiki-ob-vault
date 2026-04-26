@@ -328,3 +328,11 @@
 - Updated: ai-game-devtools-learning-checklist.md
 - Updated: index.md (added gpt-4o entry)
 - Note: First unchecked item from LLM section; OpenAI flagship multimodal model, text/audio/image/video end-to-end, 232ms audio latency
+
+## [2026-04-26] ingest | pi-mono
+- Source: https://github.com/badlogic/pi-mono/ (web extract)
+- Created: raw/articles/ai-game-devtools/pi-mono.md
+- Created: ai-game-devtools/pi-mono.md
+- Created: ai-game-devtools/pi-coding-agent.md
+- Updated: index.md (added pi-mono and pi-coding-agent entries)
+- Note: badlogic monorepo, 3,805+ commits, 203 releases, MIT. Coding agent CLI + unified LLM API (20+ providers) + TUI/web UI + Slack bot + vLLM pods. pi-coding-agent: append-only JSONL session trees, 60+ extension event types, Skills system, 4 run modes.

@@ -41,9 +41,11 @@
     41|    41|    41||| [[gstack]] — Garry Tan 的 AI 软件工厂：23 个 Skills 把 Claude Code 变虚拟工程团队（CEO/设计师/QA/发布工程师），60天 600K+ LOC，71.3K stars |
     42|    42|    42||| [[ai-game-devtools/qwen-agent]] — 阿里 Qwen 团队 LLM Agent 框架：Qwen Chat 后端、工具调用/RAG/代码解释器/MCP/多智能体群聊、Docker 沙箱、1M+ token 超长文档 QA，Apache 2.0 |
     43|    43|    43||| [[ai-game-devtools/swe-agent]] — Princeton+Stanford 开源 Agent Computer Interface：LLM 自主修复 GitHub issue、EnIGMA 网络安全模式、YAML 配置驱动、SWE-bench SoTA，NeurIPS 2024，MIT |
-    44|    44|    44||| [[ai-game-devtools/taskgen]] — 基于任务的 Agent 框架：StrictJSON 结构化输出、自动任务分解、分层 Agent、函数 RAG、Shared Variables 多模态共享，MIT |
-    45|    45|    45|
-    46|    46|    46|## Concepts
+||| [[ai-game-devtools/taskgen]] — 基于任务的 Agent 框架：StrictJSON 结构化输出、自动任务分解、分层 Agent、函数 RAG、Shared Variables 多模态共享，MIT |
+||| [[ai-game-devtools/pi-mono]] — badlogic AI agent 工具链 monorepo：coding agent CLI + 统一 LLM API（TUI/web UI/Slack bot/vLLM pods），MIT |
+||| [[ai-game-devtools/pi-coding-agent]] — pi 交互式终端 coding agent：append-only JSONL session 树 / 60+ 扩展事件 / Skills 系统 / 4 种运行模式，TypeScript，MIT |
+|
+## Concepts
     47|    47|    47|
     48|    48|    48|||| [[registry-pattern-tool-discovery]] — 中心注册表模式：ToolRegistry 单例集中注册 + check_fn 环境检查，hermes-agent 核心架构 |
     49|    49|    49||| [[context-compression]] — hermes-agent 结构化摘要压缩：Prune+Protect Head+Protect Tail+Summarize Middle 四阶段，节省 context |

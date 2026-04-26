@@ -144,7 +144,8 @@
    131|   131|   131|| [[ai-game-devtools/nanogpt]] — Karpathy 极简 GPT 训练代码（~300 行）：完整 GPT-2 架构复现，AdamW+DDP 分布式训练，PyTorch 单文件实现，MIT |
    132|   132|   132|| [[ai-game-devtools/sglang]] — 结构化 LLM 生成语言：RadixAttention 树状 KV 缓存自动共享前缀计算，正则约束输出 + Jump-forward 解码，比 vLLM 快 3.2×（多轮场景） |
    133|   133|   133|| [[ai-game-devtools/vllm]] — UC Berkeley 高吞吐 LLM 推理引擎：PagedAttention 分页 KV 缓存消除碎片 + 连续批处理 + OpenAI 兼容 API，2-4× 吞吐量优势，Apache 2.0 |
-   134|   134|   134|| [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
+   134|   134|   134|| [[ai-game-devtools/dora]] — Dora AI 网站生成工具：自然语言 Prompt → 完整响应式网站，三步 AI Pipeline（分析→设计→迭代），品牌感知，ProductHunt Golden Kitty 奖，专有 SaaS |
+| [[ai-game-devtools-catalog]] — Yuan-ManX 维护的 AI 游戏开发工具目录：840+ 项目覆盖16大类 |
    135|   135|   135|| [[ai-game-devtools/dify]] — LangGenius 开源 LLM 应用开发平台：可视化 Workflow + RAG Pipeline + Agent(Function Calling/ReAct) + 100+ 模型接入 + LLMOps，Docker 一键部署，Dify Open Source License |
    136|   136|   136||| [[ai-game-devtools/langchain]] — langchain-ai LLM 应用开发框架：Chain/Agent/Memory/Tool/Prompt 抽象 + LangGraph 编排，monorepo 结构（core/v1/partners），MIT |
    137|   137|   137||| [[ai-game-devtools/langgraph-studio]] — LangChain Agent IDE：可视化图结构调试 + Thread 状态编辑 + Interrupt 断点控制 + 热重载，Desktop/Web 双模式，需 LangSmith 认证 |

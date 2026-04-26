@@ -130,6 +130,18 @@
 - [2026-04-15] AI-Writer | https://github.com/BlinkDL/AI-Writer
 - [2026-04-15] Notebook.ai | https://github.com/indentlabs/notebook
 - [2026-04-15] Novel | https://github.com/steven-tey/novel
+- [2026-04-26] Dora | https://www.dora.run/ai
+- [ ] Gemini | https://deepmind.google/technologies/gemini
+- [ ] GPT-4o | https://openai.com/index/hello-gpt-4o/
+- [ ] Grok-1 | https://x.ai/blog/grok-os
+- [ ] HuggingChat | https://huggingface.co/chat/
+- [ ] Mixtral 8x7B | https://mistral.ai/news/mixtral-of-experts/
+- [ ] Mistral 7B | https://mistral.ai/news/announcing-mistral-7b/
+- [ ] Mistral Large | https://mistral.ai/news/mistral-large/
+- [ ] CogVLM | https://www.modelscope.cn/models/ZhipuAI/CogVLM/summary
+- [ ] Nemotron-4 | https://arxiv.org/abs/2402.16819
+- [ ] Pixtral-12B-2409 | https://huggingface.co/mistralai/Pixtral-12B-2409
+- [ ] Pi | https://heypi.com/talk
 
 ## VLM (Visual) (27)
 - [2026-04-14] Cambrian-1 | https://github.com/cambrian-mllm/cambrian

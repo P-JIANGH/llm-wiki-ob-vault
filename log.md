@@ -1,3 +1,11 @@
+## [2026-04-26] ingest | HuggingChat
+- Cloned: ~/tmp/ai-game-devtools/huggingchat/ (GitHub: huggingface/chat-ui)
+- Created: raw/articles/ai-game-devtools/huggingchat.md
+- Created: ai-game-devtools/huggingchat.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added huggingchat entry)
+- Note: Hugging Face 官方开源 LLM 聊天界面；SvelteKit 2 + OpenAI 兼容 API；Omni 智能路由器 + MCP Tools；MongoDB 持久化；Apache 2.0
+
 ## [2026-04-26] ingest | Grok-1
 - Cloned: ~/tmp/ai-game-devtools/grok-1/ (GitHub: xai-org/grok-1)
 - Created: raw/articles/ai-game-devtools/grok-1.md

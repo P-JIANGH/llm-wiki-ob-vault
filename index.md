@@ -392,7 +392,8 @@
 | [[ai-game-devtools/giffusion]] — GIFfusion is an opensource web UI for generating animated GIFs and videos using Stable Diffusion via the Hugging Face Diffusers library. It specialize |
    370|   370|   367|| [[ai-game-devtools/glm-v]] — GLMV 是智谱AI（Zhipu AI）开源的视觉语言模型（VLM）系列，包含 GLM4.6V、GLM4.5V、GLM4.1V9BThinking 三个主要版本，参数规模覆盖 9B 到 106B，支持原生多模态函数调用、链式推理、任意长宽比图像等能力。GitHub 仓库地址：https://gith |
    371|   371|   368|| [[ai-game-devtools/hua]] — Hua (画, meaning "paint" in Chinese) is an AI image editor frontend built by BlinkDL (also known for aigamedevtools/chatrwkv and RWKVLM). It provides a |
-   372|   372|   369|| [[ai-game-devtools/hugging-face-api-unity-integration]] — Official Hugging Face Unity package (com.huggingface.api v0.8.0, Unity 2020.3+) providing a clean C facade over the Hugging Face Inference API. Grants |
+|   372|   372|   369|| [[ai-game-devtools/huggingchat]] — Hugging Face 官方开源 LLM 聊天界面：SvelteKit 2 + OpenAI 兼容 API，Omni 智能路由器自动选模型，MCP Tools 集成，MongoDB 持久化，Docker 一键部署，Apache 2.0 |
+|   372|   372|   369|| [[ai-game-devtools/hugging-face-api-unity-integration]] — Official Hugging Face Unity package (com.huggingface.api v0.8.0, Unity 2020.3+) providing a clean C facade over the Hugging Face Inference API. Grants |
    373|   373|   370|| [[ai-game-devtools/hunyuan-mt]] — HunyuanMT 是腾讯混元团队开源的机器翻译模型系列，包含两个核心模型： |
    374|   374|   371|| [[ai-game-devtools/ic-light]] — ICLight (Imposing Consistent Light) 是由 lllyasviel 开发的图像光照操控项目，基于 Stable Diffusion 1.5 架构，通过扩散模型实现高质量的图像重新打光（relighting）。发表于 ICLR 2025。 |
    375|   375|   372|| [[ai-game-devtools/imagebind]] — ImageBind 是 Meta AI (FAIR) 开发的六模态联合嵌入模型，将图像、视频、文本、音频、深度图、热成像、IMU 六种模态映射到统一向量空间，实现跨模态检索与组合推理。 |

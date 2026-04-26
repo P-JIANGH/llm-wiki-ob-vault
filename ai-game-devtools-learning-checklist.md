@@ -140,7 +140,7 @@
 - [ ] Mistral Large | https://mistral.ai/news/mistral-large/
 - [ ] CogVLM | https://www.modelscope.cn/models/ZhipuAI/CogVLM/summary
 - [ ] Nemotron-4 | https://arxiv.org/abs/2402.16819
-- [ ] Pixtral-12B-2409 | https://huggingface.co/mistralai/Pixtral-12B-2409
+- [2026-04-26] Pixtral-12B-2409 | https://huggingface.co/mistralai/Pixtral-12B-2409
 - [ ] Pi | https://heypi.com/talk
 
 ## VLM (Visual) (27)

@@ -1,3 +1,11 @@
+## [2026-04-26] ingest | Pixtral-12B-2409
+- Source: https://huggingface.co/mistralai/Pixtral-12B-2409 (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/pixtral-12b-2409.md
+- Created: ai-game-devtools/pixtral-12b-2409.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added pixtral-12b-2409 entry)
+- Note: Mistral AI open-source VLM; 12B LM + 400M vision encoder; multi-image support; benchmarks SOTA for 12B class
+
 ## [2026-04-26] ingest | Gemini
 - Source: https://deepmind.google/technologies/gemini/ (web extract; non-GitHub)
 - Created: raw/articles/ai-game-devtools/gemini.md

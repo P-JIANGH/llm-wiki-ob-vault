@@ -135,7 +135,7 @@
 - [2026-04-26] GPT-4o | https://openai.com/index/hello-gpt-4o/
 - [2026-04-26] Grok-1 | https://x.ai/blog/grok-os
 - [2026-04-26] HuggingChat | https://huggingface.co/chat/
-- [ ] Mixtral 8x7B | https://mistral.ai/news/mixtral-of-experts/
+- [2026-04-26] Mixtral 8x7B | https://mistral.ai/news/mixtral-of-experts/
 - [ ] Mistral 7B | https://mistral.ai/news/announcing-mistral-7b/
 - [ ] Mistral Large | https://mistral.ai/news/mistral-large/
 - [ ] CogVLM | https://www.modelscope.cn/models/ZhipuAI/CogVLM/summary

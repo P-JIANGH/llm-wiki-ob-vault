@@ -1,3 +1,9 @@
+## [2026-04-26] ingest | Mixtral 8x7B
+- Source: https://mistral.ai/news/mixtral-of-experts/ (web extract)
+- Created: raw/articles/ai-game-devtools/mixtral-8x7b.md
+- Created: ai-game-devtools/mixtral-8x7b.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md
 ## [2026-04-26] ingest | HuggingChat
 - Cloned: ~/tmp/ai-game-devtools/huggingchat/ (GitHub: huggingface/chat-ui)
 - Created: raw/articles/ai-game-devtools/huggingchat.md

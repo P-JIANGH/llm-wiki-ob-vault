@@ -1,3 +1,11 @@
+## [2026-04-26] ingest | Mistral 7B
+- Source: https://mistral.ai/news/announcing-mistral-7b/ (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/mistral-7b.md
+- Created: ai-game-devtools/mistral-7b.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added mistral-7b entry)
+- Note: Mistral AI 7.3B dense LLM; Sliding Window Attention + Rotating Buffer Cache; 3× compute efficiency; Apache 2.0
+
 ## [2026-04-26] ingest | Mixtral 8x7B
 - Source: https://mistral.ai/news/mixtral-of-experts/ (web extract)
 - Created: raw/articles/ai-game-devtools/mixtral-8x7b.md

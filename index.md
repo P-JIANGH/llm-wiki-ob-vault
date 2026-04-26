@@ -318,6 +318,7 @@
    297|   297|   295|||| [[ai-game-devtools/orion-14b]] — OrionStarAI 14B 多语言 LLM（中文/英文/日文/韩文），2.5T tokens 预训练，C-Eval 72.9/CMMLU 70.6/MMLU 69.9 全面超越同尺寸竞品，LongChat 支持 320k token，Apache 2.0 |
 | [[ai-game-devtools/pandallm]] — DandelionsLLM 中文开源大模型：PandaLLM（LLaMA1/2 中文预训练）+ PandaLLMOps（全流程训练推理部署工具）+ PandaCommunity 社区，Apache 2.0 |
 | [[ai-game-devtools/pixtral-12b-2409]] — Mistral AI 开源多模态 VLM：12B 语言模型 + 400M 视觉编码器，支持多图推理（每消息最多 5 张图），MMMU 52.5/ChartQA 81.8 SOTA，vLLM 生产部署，Apache 2.0 |
+| [[ai-game-devtools/mistral-7b]] — Mistral AI 7.3B 参数开源 LLM：Sliding Window Attention + Rotating Buffer Cache，3× 计算效率提升，Apache 2.0 |
 | [[ai-game-devtools/stable-lm]]
    300|   300|   298||||||| [[ai-game-devtools/webgpt]] — 0hq 纯浏览器端 GPT 推理：WebGPU + WGSL 自定义着色器，117M~1.5B 模型免构建直接开 HTML 运行，适合教育目的，MIT |
    301|   301|   299|||||||| [[ai-game-devtools/wordgpt]] — filippofinke Microsoft Word Office 插件：OpenAI text-davinci-003 集成，Prompt 输入→生成→插入文档，React + Fluent UI，MIT |

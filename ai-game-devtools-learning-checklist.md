@@ -136,7 +136,7 @@
 - [2026-04-26] Grok-1 | https://x.ai/blog/grok-os
 - [2026-04-26] HuggingChat | https://huggingface.co/chat/
 - [2026-04-26] Mixtral 8x7B | https://mistral.ai/news/mixtral-of-experts/
-- [ ] Mistral 7B | https://mistral.ai/news/announcing-mistral-7b/
+- [2026-04-26] Mistral 7B | https://mistral.ai/news/announcing-mistral-7b/
 - [ ] Mistral Large | https://mistral.ai/news/mistral-large/
 - [ ] CogVLM | https://www.modelscope.cn/models/ZhipuAI/CogVLM/summary
 - [ ] Nemotron-4 | https://arxiv.org/abs/2402.16819

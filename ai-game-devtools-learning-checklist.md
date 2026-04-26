@@ -132,7 +132,7 @@
 - [2026-04-15] Novel | https://github.com/steven-tey/novel
 - [2026-04-26] Dora | https://www.dora.run/ai
 - [2026-04-26] Gemini | https://deepmind.google/technologies/gemini
-- [ ] GPT-4o | https://openai.com/index/hello-gpt-4o/
+- [2026-04-26] GPT-4o | https://openai.com/index/hello-gpt-4o/
 - [ ] Grok-1 | https://x.ai/blog/grok-os
 - [ ] HuggingChat | https://huggingface.co/chat/
 - [ ] Mixtral 8x7B | https://mistral.ai/news/mixtral-of-experts/

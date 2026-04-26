@@ -1,3 +1,11 @@
+## [2026-04-26] ingest | Gemini
+- Source: https://deepmind.google/technologies/gemini/ (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/gemini.md
+- Created: ai-game-devtools/gemini.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added gemini entry)
+- Note: First non-GitHub item from checklist — Gemini 3 API service by Google DeepMind
+
 ## [2026-04-26] ingest | Dora
 - Source: https://www.dora.run/ai (web extract; non-GitHub)
 - Created: raw/articles/ai-game-devtools/dora.md

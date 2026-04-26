@@ -383,7 +383,8 @@
    364|   364|   361|| [[ai-game-devtools/flux]] — FLUX is the openweight image generation model family by Black Forest Labs (https://bfl.ai), founded by Stability AI alumni including Robin Rombach (co |
    365|   365|   362|| [[ai-game-devtools/follow-your-click]] — AAAI 2025 论文官方实现：开放域区域图像动画，通过简短文本提示精确控制静态图像的局部运动，无需复杂指令或密集运动掩码。 |
    366|   366|   363|| [[ai-game-devtools/fooocus]] — Fooocus is an opensource, free, offline image generation tool by lllyasviel (the creator of ControlNet), built on the Stable Diffusion XL architecture |
-   367|   367|   364|| [[ai-game-devtools/gemma]] — Gemma is a family of lightweight, stateoftheart open models built from research and technology used to create Google Gemini models. This repository (g |
+   367|   367|   364|| [[ai-game-devtools/gemini]] — Google DeepMind 旗舰多模态大模型家族，Gemini 3 系列（Flash-Lite/Pro/Flash）最高 200 万 token 上下文窗口，原生支持文本/图像/代码/音频/视频理解，API 服务无开源权重 |
+   368|   367|   367|   365|| [[ai-game-devtools/gemma]] — Gemma is a family of lightweight, stateoftheart open models built from research and technology used to create Google Gemini models. This repository (g |
    368|   368|   365|| [[ai-game-devtools/gemma-cpp]] — gemma.cpp is a lightweight, standalone C++ inference engine for Google Gemma foundation models (Gemma 2, Gemma 3, RecurrentGemma, PaliGemma 2). It pri |
    369|   369|   366|| [[ai-game-devtools/giffusion]] — GIFfusion is an opensource web UI for generating animated GIFs and videos using Stable Diffusion via the Hugging Face Diffusers library. It specialize |
    370|   370|   367|| [[ai-game-devtools/glm-v]] — GLMV 是智谱AI（Zhipu AI）开源的视觉语言模型（VLM）系列，包含 GLM4.6V、GLM4.5V、GLM4.1V9BThinking 三个主要版本，参数规模覆盖 9B 到 106B，支持原生多模态函数调用、链式推理、任意长宽比图像等能力。GitHub 仓库地址：https://gith |

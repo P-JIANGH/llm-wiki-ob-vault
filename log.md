@@ -291,3 +291,10 @@
 - Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-25)
 - Note: checklist already marked complete [2026-04-13]; raw source was missing (backfill)
 - Note: wiki page already existed since 2026-04-23
+## [2026-04-26] ingest | GPT-4o
+- Source: https://openai.com/index/hello-gpt-4o/ (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/gpt-4o.md
+- Created: ai-game-devtools/gpt-4o.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added gpt-4o entry)
+- Note: First unchecked item from LLM section; OpenAI flagship multimodal model, text/audio/image/video end-to-end, 232ms audio latency

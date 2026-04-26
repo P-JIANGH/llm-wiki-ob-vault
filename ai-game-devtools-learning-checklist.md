@@ -133,7 +133,7 @@
 - [2026-04-26] Dora | https://www.dora.run/ai
 - [2026-04-26] Gemini | https://deepmind.google/technologies/gemini
 - [2026-04-26] GPT-4o | https://openai.com/index/hello-gpt-4o/
-- [ ] Grok-1 | https://x.ai/blog/grok-os
+- [2026-04-26] Grok-1 | https://x.ai/blog/grok-os
 - [ ] HuggingChat | https://huggingface.co/chat/
 - [ ] Mixtral 8x7B | https://mistral.ai/news/mixtral-of-experts/
 - [ ] Mistral 7B | https://mistral.ai/news/announcing-mistral-7b/

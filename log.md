@@ -1,3 +1,11 @@
+## [2026-04-26] ingest | Grok-1
+- Cloned: ~/tmp/ai-game-devtools/grok-1/ (GitHub: xai-org/grok-1)
+- Created: raw/articles/ai-game-devtools/grok-1.md
+- Created: ai-game-devtools/grok-1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added grok-1 entry)
+- Note: xAI 314B MoE LLM, 8 experts/2 active, JAX+Haiku, Apache 2.0
+
 ## [2026-04-26] ingest | Pixtral-12B-2409
 - Source: https://huggingface.co/mistralai/Pixtral-12B-2409 (web extract; non-GitHub)
 - Created: raw/articles/ai-game-devtools/pixtral-12b-2409.md

@@ -2,7 +2,7 @@
      2|     2|     2|
      3|     3|     3|> Content catalog. Every wiki page listed under its type with one-line summary.
      4|     4|     4|> Read this first to find relevant pages for any query.
-| Last updated: 2026-04-26 | 609 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+| Last updated: 2026-04-26 | 610 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
      6|     6|     6|
      7|     7|     7|## AI / LLM / Agent
      8|     8|     8|
@@ -119,8 +119,9 @@
    108|   108|   108||| [[ai-game-devtools/any-accomp]] — Amphion Team 通用伴奏生成框架：Chromagram + VQ-VAE 量化旋律瓶颈 + Flow Matching 生成伴奏，支持人声/独奏乐器输入，Gradio UI，24kHz/3-30秒输入，MIT |
    109|   109|   109||| [[ai-game-devtools/chord2melody]] — tanreinama GPT-2 自动作曲工具：和弦进行→MIDI 旋律生成、已有 MIDI 续写、5 轨/17 轨 GM 乐器输出、14 种和弦类型，MIT |
    110|   110|   110|| [[ai-game-devtools/echo-mimic]] — Ant Group 音频驱动肖像动画：SD 1.5 扩散 + Whisper-Tiny 音频编码 + 地标 CNN，支持纯音频/纯地标/混合三种驱动，超越 SadTalker/Hallo，AAAI 2025 |
-   111|   111|   111|||| [[ai-game-devtools/flux-music]] — 首个 Rectified Flow + 双流 Transformer 文本到音乐生成模型：T5-XXL+CLAP-L 条件编码 + AudioLDM2 VAE/Vocoder，支持 Small/Base/Large/Giant/Giant-Full 五种规格（512~2048 hidden），50 步采样，16kHz/10.24 秒，arXiv 2409.00587 |
-   112|   112|   112|| [[ai-game-devtools/hunyuan3d-2]] — 腾讯混元 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，文本/图像→高分辨率 3D 网格，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM，Apache 2.0 |
+| [[ai-game-devtools/flux-music]] — 首个 Rectified Flow + 双流 Transformer 文本到音乐生成模型：T5-XXL+CLAP-L 条件编码 + AudioLDM2 VAE/Vocoder，支持 Small/Base/Large/Giant/Giant-Full 五种规格（512~2048 hidden），50 步采样，16kHz/10.24 秒，arXiv 2409.00587 |
+| [[ai-game-devtools/grok-1]] — xAI 马斯克开源 314B MoE LLM：8 experts/2 激活，64 层/48 Q-heads/8 KV-heads，JAX+Haiku 实现，8K 上下文，Apache 2.0 |
+| [[ai-game-devtools/hunyuan3d-2]] — 腾讯混元 3D 资产生成：DiT 形状生成 (0.6B~3.0B) + PBR 纹理合成，文本/图像→高分辨率 3D 网格，FlashVDM 加速/ComfyUI/Blender 插件，6~16GB VRAM，Apache 2.0 |
    113|   113|   113|| [[ai-game-devtools/infllm-v2]] — 清华 InfLLM 高效长上下文推理：分块注意力 + 内存池压缩，O(L) 时间/内存复杂度，有效无限上下文窗口 (2M+ tokens)，兼容 Llama/Mistral/Qwen，MIT |
 || [[ai-game-devtools/llama2-c]] — Karpathy llama2.c 纯 C 实现 (~700 行)：零依赖 Llama 2 推理，无 PyTorch/CUDA，自定义二进制权重格式，INT8 量化支持，教育/嵌入式 AI，MIT |
 ||| [[ai-game-devtools/llm-c]] — Karpathy 纯 C/CUDA LLM 训练框架：零依赖 PyTorch/cPython，~1000 行 CPU 参考实现 + CUDA 主线路（比 PyTorch Nightly 快 7%），多 GPU/多节点/混合精度，GPT-2/GPT-3 复现，MIT |

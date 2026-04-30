@@ -52,11 +52,11 @@ VibeVoice 采用连续语音 tokenizers（声学 + 语义），以超低帧率 *
 
 ## 负责任 AI
 
-高质量合成语音存在深度伪造、欺诈和虚假信息传播风险。仅限研发用途，不建议在生产环境中部署。与同类工具 [[ai-game-devtools/cosyvoice]] 和 [[ai-game-devtools/openvoice]] 相比，VibeVoice 强调研究定位而非生产就绪。
+高质量合成语音存在深度伪造、欺诈和虚假信息传播风险。仅限研发用途，不建议在生产环境中部署。与同类工具 [[cosyvoice]] 和 [[openvoice]] 相比，VibeVoice 强调研究定位而非生产就绪。
 
 ## 与同类工具差异
 
-| 维度 | VibeVoice | [[ai-game-devtools/cosyvoice]] | [[ai-game-devtools/openvoice]] |
+| 维度 | VibeVoice | [[cosyvoice]] | [[openvoice]] |
 |:---|:---|:---|:---|
 | 定位 | 研究框架 | 生产级 TTS | 零样本语音克隆 |
 | 架构 | LLM+Diffusion | VITS 变体 | 两阶段编码器 |

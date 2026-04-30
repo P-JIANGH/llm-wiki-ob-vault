@@ -127,3 +127,4 @@ sources: [https://github.com/diasurgical/devilutionX]
 | Lua 脚本 | 内嵌 Lua REPL + 模块化 API 设计，可为游戏提供运行时脚本扩展能力 |
 | 存档序列化 | loadsave.cpp 的二进制 SaveGame 格式设计，可参考确定性存档方案 |
 | CI/CD | GitHub Actions 多平台构建矩阵（17+ 平台），可参考构建自动化 |
+

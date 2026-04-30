@@ -85,10 +85,10 @@ infer.infer_once({
 - **Cutscene Generation**: Automated lip-sync for game cinematics without manual keyframe animation
 
 ## Comparison with Related Tools
-- vs [[ai-game-devtools/aniportrait]]: AniPortrait uses AnimateDiff Motion Module + 3DMM for audio-driven animation; GeneFace++ uses RADNeRF neural rendering + VAE-based audio2motion, offering better generalization across speakers
-- vs [[ai-game-devtools/emovoca]]: EmoVOCA generates 3D FLAME-based emotional talking heads; GeneFace++ focuses on photorealistic NeRF rendering with real-time performance, no explicit emotion control
-- vs [[ai-game-devtools/echomimic]]: EchoMimic uses SD v1.5 diffusion + Whisper for audio-driven 2D animation; GeneFace++ is 3D-aware with NeRF, providing view-consistent rendering
-- vs [[ai-game-devtools/chatdollkit]]: ChatdollKit is a Unity SDK for interactive virtual assistants with LLM+STT/TTS pipeline; GeneFace++ is a standalone Python research framework for high-quality face rendering
+- vs [[aniportrait]]: AniPortrait uses AnimateDiff Motion Module + 3DMM for audio-driven animation; GeneFace++ uses RADNeRF neural rendering + VAE-based audio2motion, offering better generalization across speakers
+- vs [[emovoca]]: EmoVOCA generates 3D FLAME-based emotional talking heads; GeneFace++ focuses on photorealistic NeRF rendering with real-time performance, no explicit emotion control
+- vs [[echomimic]]: EchoMimic uses SD v1.5 diffusion + Whisper for audio-driven 2D animation; GeneFace++ is 3D-aware with NeRF, providing view-consistent rendering
+- vs [[chatdollkit]]: ChatdollKit is a Unity SDK for interactive virtual assistants with LLM+STT/TTS pipeline; GeneFace++ is a standalone Python research framework for high-quality face rendering
 
 ## Related Work
 - **GeneFace** (arXiv:2301.13430): Predecessor, same authors

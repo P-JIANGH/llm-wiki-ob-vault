@@ -58,6 +58,6 @@ SyncFusion 是一个**多模态起始点同步的视频到音频 Foley 合成系
 仓库未明确声明 LICENSE 文件。
 
 ## 相关工具
-- [[ai-game-devtools/foley-crafter]] — open-mmlab 视频驱动音效生成：Auffusion 基座 + ControlNet 时间适配器 + IP-Adapter 语义适配器
-- [[ai-game-devtools/hunyuanvideo-foley]] — 腾讯混元端到端视频音效生成：多模态扩散 + 表征对齐，XXL/XL 双尺寸
-- [[ai-game-devtools/audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器
+- [[foley-crafter]] — open-mmlab 视频驱动音效生成：Auffusion 基座 + ControlNet 时间适配器 + IP-Adapter 语义适配器
+- [[hunyuanvideo-foley]] — 腾讯混元端到端视频音效生成：多模态扩散 + 表征对齐，XXL/XL 双尺寸
+- [[audiogen-codec]] — Audiogen 48kHz 立体声神经音频编解码器

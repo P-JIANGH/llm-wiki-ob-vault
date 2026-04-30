@@ -39,9 +39,9 @@ pip install chapyter
 ```
 
 ## 与同类工具对比
-- 相比 [[ai-game-devtools/devon]]（完整代码库 AI 编辑器），Chapyter 专注于 Jupyter 内的自然语言编程
-- 相比 [[ai-game-devtools/ai-code-translator]]（代码翻译 Web UI），Chapyter 直接集成在 IDE 中并支持自动执行
-- 与 [[ai-game-devtools/text-generation-webui]]（通用 LLM Web UI）不同，Chapyter 是专用 Jupyter 扩展
+- 相比 [[devon]]（完整代码库 AI 编辑器），Chapyter 专注于 Jupyter 内的自然语言编程
+- 相比 [[ai-code-translator]]（代码翻译 Web UI），Chapyter 直接集成在 IDE 中并支持自动执行
+- 与 [[text-generation-webui]]（通用 LLM Web UI）不同，Chapyter 是专用 Jupyter 扩展
 
 ## 相关链接
 - GitHub: https://github.com/chapyter/chapyter

@@ -47,9 +47,9 @@ sources: [raw/articles/ai-game-devtools/materialseg3d.md]
 
 ## 与同类工具的差异
 
-- 与 [[ai-game-devtools/dreammat]] 不同：DreamMat 使用扩散模型从零生成 PBR 材质，而 MaterialSeg3D 通过 2D 先验知识进行材质分割标注
-- 与 [[ai-game-devtools/dreamspace]] 不同：Dreamspace 侧重全景纹理传播，MaterialSeg3D 侧重材质属性（粗糙度/金属度）的密集分割
-- 与 [[ai-game-devtools/dream-textures]] 不同：Dream Textures 是 Blender 的 Stable Diffusion 纹理插件，MaterialSeg3D 是独立的学术管线
+- 与 [[dreammat]] 不同：DreamMat 使用扩散模型从零生成 PBR 材质，而 MaterialSeg3D 通过 2D 先验知识进行材质分割标注
+- 与 [[dreamspace]] 不同：Dreamspace 侧重全景纹理传播，MaterialSeg3D 侧重材质属性（粗糙度/金属度）的密集分割
+- 与 [[dream-textures]] 不同：Dream Textures 是 Blender 的 Stable Diffusion 纹理插件，MaterialSeg3D 是独立的学术管线
 
 ## 关键限制
 

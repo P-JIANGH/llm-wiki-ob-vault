@@ -103,4 +103,5 @@ sources: [raw/articles/open-source-games-list-2026.md]
 
 - [[open-source-game/devilutionX]] — Diablo 清洁室逆向开源端口
 - `open-source-game/open-diablo-ii` — Diablo 2 开源复刻
-- [[open-source-game/openmw]] — Morrowind 引擎重实现 (同为清洁室重实现)
+- [[openmw]] — Morrowind 引擎重实现 (同为清洁室重实现)
+

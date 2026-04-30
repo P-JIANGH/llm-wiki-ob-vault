@@ -82,6 +82,6 @@ python test.py --music_dir custom_music/
 
 ## Related
 
-- [[ai-game-devtools/ai-shader]] — AI 驱动的 Shader 生成工具
-- [[ai-game-devtools/wav2lip]] — 音频驱动的唇形同步动画（与 EDGE 同属音频→视觉生成范式）
-- [[ai-game-devtools/animate-anyone]] — 基于参考人物的视频动作迁移（舞蹈生成相关领域）
+- [[ai-shader]] — AI 驱动的 Shader 生成工具
+- [[wav2lip]] — 音频驱动的唇形同步动画（与 EDGE 同属音频→视觉生成范式）
+- [[animate-anyone]] — 基于参考人物的视频动作迁移（舞蹈生成相关领域）

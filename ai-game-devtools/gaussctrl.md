@@ -40,8 +40,8 @@ GaussCtrl 是一个**多视角一致的文本驱动 3D Gaussian Splatting 编辑
 
 ## 与同类工具差异
 
-- 与 [[ai-game-devtools/dreamgaussian4d]]（4D 动态高斯场景生成）不同，GaussCtrl 专注于**编辑已有的 3DGS 场景**而非从零生成
-- 与 [[ai-game-devtools/cf-3dgs]]（免 COLMAP 3D 高斯重建）不同，GaussCtrl 不是重建工具而是**编辑工具**
+- 与 [[dreamgaussian4d]]（4D 动态高斯场景生成）不同，GaussCtrl 专注于**编辑已有的 3DGS 场景**而非从零生成
+- 与 [[cf-3dgs]]（免 COLMAP 3D 高斯重建）不同，GaussCtrl 不是重建工具而是**编辑工具**
 - 相比 Instruct-NeRF2NeRF，GaussCtrl 针对 3DGS 而非 NeRF 优化，推理速度更快
 
 ## 许可证与链接

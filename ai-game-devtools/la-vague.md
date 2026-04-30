@@ -86,10 +86,10 @@ agent.run("Go on the quicktour of PEFT")
 
 ## Related
 
-- 与 [[ai-game-devtools/langchain]] 不同：LaVague 专注于浏览器自动化，而 LangChain 是通用 LLM 应用框架
+- 与 [[langchain]] 不同：LaVague 专注于浏览器自动化，而 LangChain 是通用 LLM 应用框架
 - 底层使用 [[llama-index]] 进行 LLM/embedding 抽象
-- 与 [[ai-game-devtools/la-vague]] 是同一项目（笔记页面）
-- 对比 [[ai-game-devtools/agentgpt]]：AgentGPT 是自主任务执行 Agent，LaVague 是浏览器专用自动化 Agent
+- 与 [[la-vague]] 是同一项目（笔记页面）
+- 对比 [[agentgpt]]：AgentGPT 是自主任务执行 Agent，LaVague 是浏览器专用自动化 Agent
 
 ## Links
 

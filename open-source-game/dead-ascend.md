@@ -86,3 +86,4 @@ DeadAscend/
 | 组件化游戏对象 | QML 的信号/属性机制天然适合游戏对象的组件化 |
 | 多平台输出一套代码 | Qt 的跨平台抽象让 Android/iOS/Desktop 同时发布 |
 | 外部工具库分离 | qak/QtFirebase 作为独立子模块，职责分离清晰 |
+

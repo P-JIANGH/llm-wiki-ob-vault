@@ -16,7 +16,7 @@ Mistral AI's first flagship model — a 7.3B parameter dense decoder-only transf
 Mistral 7B claims to be the most powerful language model for its size upon release. It **outperforms Llama 2 13B on all benchmarks** and is roughly **on par with Llama 34B**, while requiring **3× less compute** (matching the quality of a model 3× its size).
 
 - **License:** Apache 2.0
-- **Organization:** [[Mistral AI]]
+- **Organization:** [[mistral]]
 - **Release:** September 2023
 - **Languages:** English, French, German, Spanish, Italian
 

@@ -56,6 +56,6 @@ sources: [raw/articles/ai-game-devtools/pandallm.md]
 - Tutorial: https://panda-tutorial.readthedocs.io/
 
 ## See Also
-- [[ai-game-devtools/llama-3]] — Meta LLaMA 系列
-- [[ai-game-devtools/metagpt]] — 多 Agent 软件开发框架
-- [[ai-game-devtools/mlc-llm]] — 通用 LLM 部署引擎
+- [[llama-3]] — Meta LLaMA 系列
+- [[metagpt]] — 多 Agent 软件开发框架
+- [[mlc-llm]] — 通用 LLM 部署引擎

@@ -76,7 +76,7 @@ sources: [raw/articles/ai-game-devtools/unrealgpt.md]
 
 ## Related
 
-- [[ai-game-devtools/unreal-engine-5-llama-lora]] — UE 5.1 + Llama LoRA for local UE5 Q&A
-- [[ai-game-devtools/unity-chatgpt]] — Unity + ChatGPT integration (similar pattern, different engine)
-- [[ai-game-devtools/llmunity]] — Unity LLM integration with GGUF/llama.cpp
-- [[ai-game-devtools/chatgpt-api-unity]] — Unity ChatGPT API client with function calling
+- [[unreal-engine-5-llama-lora]] — UE 5.1 + Llama LoRA for local UE5 Q&A
+- [[unity-chatgpt]] — Unity + ChatGPT integration (similar pattern, different engine)
+- [[llmunity]] — Unity LLM integration with GGUF/llama.cpp
+- [[chatgpt-api-unity]] — Unity ChatGPT API client with function calling

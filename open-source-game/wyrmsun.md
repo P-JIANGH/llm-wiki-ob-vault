@@ -25,7 +25,7 @@ sources: [https://github.com/Andrettin/Wyrmsun]
 
 ## 核心架构：数据与引擎分离
 
-Wyrmsun 是**游戏内容仓库**，而非独立游戏。与 [[open-source-game/war1gus]] 同构：
+Wyrmsun 是**游戏内容仓库**，而非独立游戏。与 [[war1gus]] 同构：
 
 ```
 Wyrmgus 引擎（二进制）
@@ -96,7 +96,7 @@ Battle for Wesnoth / 0 A.D. / Freeciv / Dungeon Crawl Stone Soup 模块
 
 | 方向 | 启示 |
 |------|------|
-| 数据/引擎分离 | 双仓库架构（Wyrmgus/Wyrmsun）使游戏内容与引擎独立演进，[[open-source-game/openra]] 的 Mod 机制同构 |
+| 数据/引擎分离 | 双仓库架构（Wyrmgus/Wyrmsun）使游戏内容与引擎独立演进，[[openra]] 的 Mod 机制同构 |
 | 命名系统 | 程序化人名 + 性格 trait 系统可用于 AI NPC 个性化生成 |
 | 持久英雄跨场景 | 长期状态保持机制（等级/技能/道具）对 AI 游戏存档设计有参考价值 |
 | 物品掉落随机性 | Normal/Magic/Unique 三层物品稀有度设计，`open-source-game/cataclysm-dda` 的物品系统可做对比 |
@@ -105,8 +105,8 @@ Battle for Wesnoth / 0 A.D. / Freeciv / Dungeon Crawl Stone Soup 模块
 
 ## 相关页面
 
-- [[open-source-game/war1gus]] — Warcraft I 重实现，同为 Stratagus 生态
-- [[open-source-game/wargus]] — Warcraft II 重实现，Stratagus + wartool 数据提取
+- [[war1gus]] — Warcraft I 重实现，同为 Stratagus 生态
+- [[wargus]] — Warcraft II 重实现，Stratagus + wartool 数据提取
 - `open-source-game/battle-for-wesnoth` — 高奇幻回合策略，Wyrmsun 模块化集成来源
-- [[open-source-game/0-ad]] — 历史古代战争 RTS，提供地图资源
-- [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike，提供内容集成
+- [[0-ad]] — 历史古代战争 RTS，提供地图资源
+- [[dungeon-crawl-stone-soup]] — 经典 Roguelike，提供内容集成

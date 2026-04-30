@@ -88,3 +88,4 @@ openage/          ← Python3 脚本层 (291 .py) + convert/ 游戏转换工具
 - Kevin CI：自研持续集成服务
 - Matrix 社区：`#sfttech:matrix.org`
 - 活跃多平台构建：Debian Sid / Ubuntu 24.04 / macOS / Windows Server 2019-2022
+

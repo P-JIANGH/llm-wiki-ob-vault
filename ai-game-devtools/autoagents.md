@@ -57,7 +57,7 @@ User Idea → Manager (Planner)
 
 - OpenAI API（默认 `gpt-4o`，支持 Azure 风格配置）
 - SerpAPI / Serper / Google 搜索 API
-- 基于 [[ai-game-devtools/metagpt]] 的 system/action/role 架构构建
+- 基于 [[metagpt]] 的 system/action/role 架构构建
 
 ## Technology Stack
 
@@ -77,11 +77,11 @@ User Idea → Manager (Planner)
 
 - [HuggingFace Spaces Demo](https://huggingface.co/spaces/LinkSoul/AutoAgents)
 - Paper: [arXiv:2309.17288](https://arxiv.org/abs/2309.17288)
-- Built on [[ai-game-devtools/metagpt]]
+- Built on [[metagpt]]
 
 ## Comparison with Similar Tools
 
-| Feature | AutoAgents | [[ai-game-devtools/chatdev]] | [[ai-game-devtools/agentsims]] |
+| Feature | AutoAgents | [[chatdev]] | [[agentsims]] |
 |---------|-----------|-----------|---------|
 | Dynamic Role Generation | ✅ Yes | ❌ Fixed roles | ❌ Fixed roles |
 | Observer Self-Reflection | ✅ Agents/Plan/Action | ❌ No | ❌ No |

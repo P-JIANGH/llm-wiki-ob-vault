@@ -44,9 +44,9 @@ Since OpenAI has not officially released the Sora API, SoraWebui depends on [Fak
 | Official OpenAI Sora API | 🔄 Pending OpenAI release |
 
 ## Comparison to Similar Tools
-- vs [[ai-game-devtools/open-sora]]: Open-Sora is a full open-source Sora architecture reproduction with actual model training (MMDiT, 11B params, $200K training cost). SoraWebui is a **frontend UI layer** that would connect to the Sora API once available — it does not include a model.
-- vs [[ai-game-devtools/mora]]: Mora is a multi-agent video generation framework using existing models (SDXL, SVD) to replicate Sora capabilities. SoraWebui targets the official API rather than open-source alternatives.
-- vs [[ai-game-devtools/open-sora-plan]]: Open-Sora Plan is PKU's Sora reproduction project with actual model weights. SoraWebui provides the user-facing interface for when the official API launches.
+- vs [[open-sora]]: Open-Sora is a full open-source Sora architecture reproduction with actual model training (MMDiT, 11B params, $200K training cost). SoraWebui is a **frontend UI layer** that would connect to the Sora API once available — it does not include a model.
+- vs [[mora]]: Mora is a multi-agent video generation framework using existing models (SDXL, SVD) to replicate Sora capabilities. SoraWebui targets the official API rather than open-source alternatives.
+- vs [[open-sora-plan]]: Open-Sora Plan is PKU's Sora reproduction project with actual model weights. SoraWebui provides the user-facing interface for when the official API launches.
 
 ## Relevance to Game Development
 SoraWebui provides a turnkey UI for game developers who want to integrate text-to-video generation into their pipelines — creating cutscenes, concept art videos, or dynamic content from text descriptions. Once the Sora API is available, it offers a simple self-hosted or Vercel-deployed interface for teams to experiment without building a frontend from scratch.

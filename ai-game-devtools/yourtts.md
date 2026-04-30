@@ -68,18 +68,18 @@ tts --model_name tts_models/multilingual/multi-dataset/your_tts \
 
 ## 与同类工具差异
 
-- vs [[ai-game-devtools/xtts]]：YourTTS 是 Coqui TTS 的早期多语言模型，XTTS v2 是其后续升级版本，支持更多语言和更高质量
-- vs [[ai-game-devtools/tortoise-tts]]：Tortoise 使用 GPT2+扩散两阶段生成，YourTTS 基于 VITS 端到端，推理更快
-- vs [[ai-game-devtools/bark]]：Bark 是完全生成式模型（可生成音乐/音效），YourTTS 专注于高质量语音克隆和转换
-- vs [[ai-game-devtools/style-tts-2]]：StyleTTS 2 强调风格控制和人类级质量，YourTTS 强调零样本多说话人和跨语言能力
+- vs [[xtts]]：YourTTS 是 Coqui TTS 的早期多语言模型，XTTS v2 是其后续升级版本，支持更多语言和更高质量
+- vs [[tortoise-tts]]：Tortoise 使用 GPT2+扩散两阶段生成，YourTTS 基于 VITS 端到端，推理更快
+- vs [[bark]]：Bark 是完全生成式模型（可生成音乐/音效），YourTTS 专注于高质量语音克隆和转换
+- vs [[style-tts-2]]：StyleTTS 2 强调风格控制和人类级质量，YourTTS 强调零样本多说话人和跨语言能力
 
 ## 相关项目
 
-- [[ai-game-devtools/xtts]] — Coqui TTS 后续升级模型（16 语言零样本克隆）
+- [[xtts]] — Coqui TTS 后续升级模型（16 语言零样本克隆）
 - [[ai-game-devtools/vits]] — YourTTS 的基础架构
 - [[ai-game-devtools/coqui-tts]] — YourTTS 的集成框架
-- [[ai-game-devtools/tortoise-tts]] — 高质量多音色 TTS（已集成到 Coqui TTS）
-- [[ai-game-devtools/bark]] — Suno 的生成式 TTS（已集成到 Coqui TTS）
+- [[tortoise-tts]] — 高质量多音色 TTS（已集成到 Coqui TTS）
+- [[bark]] — Suno 的生成式 TTS（已集成到 Coqui TTS）
 
 ## 资源
 

@@ -69,9 +69,9 @@ The framework spans 6 languages, reflecting a systems-level approach: C/C++ for 
 
 ## Differences from Similar Tools
 
-Compared to [[ai-game-devtools/pipecat]] (another Python voice agent framework), TEN is more focused on production deployment with dedicated VAD, turn detection, and hardware (ESP32) support. TEN's multi-language architecture (C/C++/Rust/Go) provides lower-level control over audio pipelines than Pipecat's pure-Python frame pipeline.
+Compared to [[pipecat]] (another Python voice agent framework), TEN is more focused on production deployment with dedicated VAD, turn detection, and hardware (ESP32) support. TEN's multi-language architecture (C/C++/Rust/Go) provides lower-level control over audio pipelines than Pipecat's pure-Python frame pipeline.
 
-Like [[ai-game-devtools/om-agent]], TEN supports multi-modal agent workflows, but TEN specializes in real-time voice/conversation with sub-second latency requirements, while OmAgent focuses on general multimodal language understanding with YAML-configurable reasoning operators.
+Like [[om-agent]], TEN supports multi-modal agent workflows, but TEN specializes in real-time voice/conversation with sub-second latency requirements, while OmAgent focuses on general multimodal language understanding with YAML-configurable reasoning operators.
 
 ## Links
 

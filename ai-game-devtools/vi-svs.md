@@ -48,9 +48,9 @@ Data (OpenCpop) → Resample 32kHz → Generate labels → Train SVS → [Option
 
 ## Relationships
 
-- **vs [[ai-game-devtools/diffsinger]]**: DiffSinger uses shallow diffusion for end-to-end SVS with MIDI control; VI-SVS uses VITS-style variational inference — both support OpenCpop dataset but different architectural approaches
-- **vs [[ai-game-devtools/so-vits-svc]]**: so-vits-svc focuses on singing voice *conversion* (source voice → target timbre), VI-SVS focuses on singing voice *synthesis* (lyrics + score → voice)
-- **vs [[ai-game-devtools/vi-svs]]'s predecessor VISinger**: VI-SVS is a simplified learning variant without MAS/DurationPredictor; VISinger includes full alignment modeling
+- **vs [[diffsinger]]**: DiffSinger uses shallow diffusion for end-to-end SVS with MIDI control; VI-SVS uses VITS-style variational inference — both support OpenCpop dataset but different architectural approaches
+- **vs [[so-vits-svc]]**: so-vits-svc focuses on singing voice *conversion* (source voice → target timbre), VI-SVS focuses on singing voice *synthesis* (lyrics + score → voice)
+- **vs [[vi-svs]]'s predecessor VISinger**: VI-SVS is a simplified learning variant without MAS/DurationPredictor; VISinger includes full alignment modeling
 
 ## Status
 

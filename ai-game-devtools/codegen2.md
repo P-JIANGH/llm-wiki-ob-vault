@@ -58,9 +58,9 @@ Erik Nijkamp*, Hiroaki Hayashi*, Caiming Xiong, Silvio Savarese, Yingbo Zhou (Sa
 
 ## Related Pages
 
-- [[ai-game-devtools/codegen]] — Salesforce CodeGen family (CodeGen1/2/2.5), comprehensive overview
-- [[ai-game-devtools/codegeex]] — THUDM 13B multilingual code generation, similar scope
-- [[ai-game-devtools/aixcoder-7b]] — aiXcoder 7B code model, AST-FIM training approach
+- [[codegen]] — Salesforce CodeGen family (CodeGen1/2/2.5), comprehensive overview
+- [[codegeex]] — THUDM 13B multilingual code generation, similar scope
+- [[aixcoder-7b]] — aiXcoder 7B code model, AST-FIM training approach
 
 ## Links
 

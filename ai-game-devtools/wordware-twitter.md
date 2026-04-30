@@ -48,9 +48,9 @@ This modular approach enables granular control over AI tone, depth, and output s
 Production-ready architecture including Stripe payments, PostHog analytics, Loops email CRM — a complete SaaS blueprint for AI-powered tools.
 
 ## Relationships
-- Uses [[ai-game-devtools/dify]]'s competitor ecosystem (AI application platforms)
-- Similar agent workflow approach to [[ai-game-devtools/jaaz]] (creative AI tool with modular pipeline)
-- Next.js + TypeScript stack common in modern AI tools (see [[ai-game-devtools/biomes]])
+- Uses [[dify]]'s competitor ecosystem (AI application platforms)
+- Similar agent workflow approach to [[jaaz]] (creative AI tool with modular pipeline)
+- Next.js + TypeScript stack common in modern AI tools (see [[biomes]])
 
 ## Sources
 - [[raw/articles/ai-game-devtools/wordware-twitter]]

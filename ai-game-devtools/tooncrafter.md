@@ -42,9 +42,9 @@ ToonCrafter 是由 CUHK 和腾讯 AI Lab 联合开发的卡通插值扩散模型
 - **草图引导**：社区实现的 sketch guidance 分支
 
 ## 差异分析
-- 与 [[ai-game-devtools/animatediff]] 相比：AnimateDiff 是通用视频扩散 Motion Module，而 ToonCrafter 专攻**两帧间卡通插值**，不是从文本生成视频
-- 与 [[ai-game-devtools/paints-undo]] 相比：Paints-Undo 模拟数字绘画过程（成品→绘画过程），ToonCrafter 是帧到帧的动画补间
-- 与 [[ai-game-devtools/tooncomposer]] 相比：ToonComposer 基于 Wan2.1-I2V-14B 做后关键帧生成（草图+颜色掩码→完整动画），ToonCrafter 是双帧插值（起始帧+结束帧→中间过渡）
+- 与 [[animatediff]] 相比：AnimateDiff 是通用视频扩散 Motion Module，而 ToonCrafter 专攻**两帧间卡通插值**，不是从文本生成视频
+- 与 [[paints-undo]] 相比：Paints-Undo 模拟数字绘画过程（成品→绘画过程），ToonCrafter 是帧到帧的动画补间
+- 与 [[tooncomposer]] 相比：ToonComposer 基于 Wan2.1-I2V-14B 做后关键帧生成（草图+颜色掩码→完整动画），ToonCrafter 是双帧插值（起始帧+结束帧→中间过渡）
 - VAE 架构（Dualref）使其能同时参考起始和结束帧，这是区别于普通 I2V 模型的关键设计
 
 ## 相关链接

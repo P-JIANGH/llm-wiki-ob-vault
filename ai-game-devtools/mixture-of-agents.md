@@ -52,7 +52,7 @@ final = client.chat.completions.create(
 
 ## 与同类方案差异
 
-- **vs [[ai-game-devtools/mixture-of-agents]] 自指**：本文就是 MoA 本身
+- **vs [[mixture-of-agents]] 自指**：本文就是 MoA 本身
 - **vs 单模型推理**：不修改任何模型权重，通过"模型集成"提升输出质量
 - **vs 训练时 MoE**：MoE（如 [[deepseek-v3]]）在训练时引入稀疏专家，MoA 在推理时动态组合完整模型
 - **vs Agent 框架（[[auto-gpt]]/[[metagpt]]）**：MoA 不是任务分解型 Agent，而是**回答聚合型**增强器，专注于单轮/多轮回答质量提升

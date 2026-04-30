@@ -87,7 +87,7 @@ Unity 3D 虚拟助手 SDK，可将任意 3D 模型转化为支持语音对话的
 
 ## 与同类工具的差异
 
-| 维度 | ChatdollKit | [[ai-game-devtools/unity-chatgpt]] | [[ai-game-devtools/interactive-llm-powered-npcs]] |
+| 维度 | ChatdollKit | [[unity-chatgpt]] | [[interactive-llm-powered-npcs]] |
 |------|------------|-----------------------------------|-------------------------------------------------|
 | 定位 | Unity AI Avatar 完整 SDK | Unity ChatGPT API 客户端 | 游戏内 NPC 实时对话叠加层 |
 | STT/TTS | 多种 Provider 可切换 | 无（纯 LLM 文本） | DeepFace + Edge-TTS + SadTalker |

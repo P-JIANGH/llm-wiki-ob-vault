@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/voxcpm.md]
 
 ## Overview
 
-**VoxCPM** is a tokenizer-free Text-to-Speech (TTS) system developed by **OpenBMB** (ModelBest + THUHCSI). Unlike mainstream TTS approaches that convert speech to discrete tokens, VoxCPM models speech in continuous space using an end-to-end diffusion autoregressive architecture, directly generating continuous speech representations from text. Built on the [[ai-game-devtools/minicpm]]-4 backbone, it achieves implicit semantic-acoustic decoupling through hierarchical language modeling and FSQ (Finite Scalar Quantization) constraints.
+**VoxCPM** is a tokenizer-free Text-to-Speech (TTS) system developed by **OpenBMB** (ModelBest + THUHCSI). Unlike mainstream TTS approaches that convert speech to discrete tokens, VoxCPM models speech in continuous space using an end-to-end diffusion autoregressive architecture, directly generating continuous speech representations from text. Built on the [[minicpm]]-4 backbone, it achieves implicit semantic-acoustic decoupling through hierarchical language modeling and FSQ (Finite Scalar Quantization) constraints.
 
 Latest version: **VoxCPM1.5** (800M params), with VoxCPM2 coming soon.
 
@@ -32,8 +32,8 @@ Latest version: **VoxCPM1.5** (800M params), with VoxCPM2 coming soon.
 
 ## Architecture
 
-- **Backbone:** MiniCPM-4 (from [[ai-game-devtools/minicpm]] family) for language modeling
-- **Speech Generation:** LocDiT (Local Diffusion Transformer) with Flow Matching — inspired by [[ai-game-devtools/cosyvoice]]
+- **Backbone:** MiniCPM-4 (from [[minicpm]] family) for language modeling
+- **Speech Generation:** LocDiT (Local Diffusion Transformer) with Flow Matching — inspired by [[cosyvoice]]
 - **Audio Encoding:** AudioVAE based on DAC (Descript Audio Codec)
 - **Quantization:** Scalar Quantization Layer with FSQ constraints
 - **Enhancement:** ZipEnhancer for speech prompt enhancement + SenseVoice-Small for ASR
@@ -72,6 +72,6 @@ Python API supports both non-streaming and streaming generation, with voice clon
 
 ## Related
 
-- [[ai-game-devtools/cosyvoice]] — shares Flow Matching-based LocDiT approach, also open-source TTS
-- [[ai-game-devtools/minicpm]] — the language model foundation backbone
-- [[ai-game-devtools/sensevoice]] — used for speech prompt ASR in VoxCPM web demo
+- [[cosyvoice]] — shares Flow Matching-based LocDiT approach, also open-source TTS
+- [[minicpm]] — the language model foundation backbone
+- [[sensevoice]] — used for speech prompt ASR in VoxCPM web demo

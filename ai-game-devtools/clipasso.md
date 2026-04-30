@@ -88,9 +88,9 @@ PyTorch 1.7.1 + CUDA 10.1
 
 ## 相关项目
 
-- [[ai-game-devtools/mug-diffusion]] — 同样基于 SD/diffusion 范式的创意生成工具（音游谱面）
-- [[ai-game-devtools/genagent]] — ComfyUI 中自动生成 SD 工作流的 Agent
-- [[ai-game-devtools/cradle]] — 基于视觉的通用游戏/软件 Agent 框架
+- [[mug-diffusion]] — 同样基于 SD/diffusion 范式的创意生成工具（音游谱面）
+- [[genagent]] — ComfyUI 中自动生成 SD 工作流的 Agent
+- [[cradle]] — 基于视觉的通用游戏/软件 Agent 框架
 
 ## 来源
 

@@ -14,7 +14,7 @@ OpenAI 于 2023 年 4 月发布的条件化 3D 隐式函数生成系统，基于
 
 ## 概述
 
-Shap-E 是 OpenAI 继 [[ai-game-devtools/point-e]] 之后发布的第二代 3D 生成模型。与 Point-E 生成点云不同，Shap-E 直接生成隐式神经场（NeRF/NeSTF）的潜表示，再投影为隐式函数参数，可渲染任意视角或导出为网格。
+Shap-E 是 OpenAI 继 [[point-e]] 之后发布的第二代 3D 生成模型。与 Point-E 生成点云不同，Shap-E 直接生成隐式神经场（NeRF/NeSTF）的潜表示，再投影为隐式函数参数，可渲染任意视角或导出为网格。
 
 ## 关键信息
 
@@ -63,7 +63,7 @@ torch, numpy, scipy, scikit-image, CLIP (OpenAI), Pillow, matplotlib, blobfile
 
 ## 与 Point-E 的差异
 
-| 维度 | [[ai-game-devtools/point-e]] | Shap-E |
+| 维度 | [[point-e]] | Shap-E |
 |---|---|---|
 | 输出格式 | 点云 → SDF 网格 | 隐式神经函数 → 渲染/网格 |
 | 表面质量 | 粗糙，需要后处理 | 相对更平滑 |
@@ -84,10 +84,10 @@ torch, numpy, scipy, scikit-image, CLIP (OpenAI), Pillow, matplotlib, blobfile
 - 游戏开发快速原型制作
 - 3D 打印模型生成
 - 单图/文本驱动的 3D 内容创作
-- 与 [[ai-game-devtools/gaussiandreamer]] 结合使用（后者用 Shap-E 初始化 3D 高斯）
+- 与 [[gaussiandreamer]] 结合使用（后者用 Shap-E 初始化 3D 高斯）
 
 ## 相关链接
 
 - GitHub: https://github.com/openai/shap-e
 - Paper: https://arxiv.org/abs/2305.02463
-- 同系列: [[ai-game-devtools/point-e]] (2022 点云扩散)
+- 同系列: [[point-e]] (2022 点云扩散)

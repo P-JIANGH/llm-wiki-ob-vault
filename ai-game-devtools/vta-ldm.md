@@ -31,7 +31,7 @@ VTA-LDM 是腾讯 AI Lab 开发的**视频到音频生成模型**，基于潜扩
 - **数据格式:** JSONL，每行一样本（video_path + audio_file 必填）
 - **I/O 优化:** 训练前预提取关键帧，避免视频解码成为 I/O 瓶颈
 - **推理管线:** 视频输入 → 特征提取 → 扩散生成 → 音频输出 → ffmpeg 合并
-- **依赖:** diffusers + [[ai-game-devtools/tango]] + [[ai-game-devtools/audioldm-2]]
+- **依赖:** diffusers + [[tango]] + [[audioldm-2]]
 
 ## Game Dev Relevance
 - 可用于游戏开发中自动生成 Foley 音效（脚步声、环境声等）
@@ -39,6 +39,6 @@ VTA-LDM 是腾讯 AI Lab 开发的**视频到音频生成模型**，基于潜扩
 - 视频驱动的音频管线可集成到游戏内容创作工具链中
 
 ## Related Projects
-- [[ai-game-devtools/tango]] — 文本到音频扩散生成模型，VTA-LDM 的基座之一
-- [[ai-game-devtools/audioldm-2]] — AudioLDM 2 通用音频生成框架，VTA-LDM 的代码基座
-- [[ai-game-devtools/hunyuanvideo-foley]] — 腾讯混元视频音效生成模型，同为腾讯系视频→音频方案
+- [[tango]] — 文本到音频扩散生成模型，VTA-LDM 的基座之一
+- [[audioldm-2]] — AudioLDM 2 通用音频生成框架，VTA-LDM 的代码基座
+- [[hunyuanvideo-foley]] — 腾讯混元视频音效生成模型，同为腾讯系视频→音频方案

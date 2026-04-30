@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/codegeex4.md]
 
 # CodeGeeX4
 
-**CodeGeeX4-ALL-9B** 是 THUDM（清华大学 KEG）开源的最新一代多语言代码生成模型，基于 [[ai-game-devtools/glm-4]]-9B 持续训练。以 9B 参数超越数倍大小的通用模型，是当前 10B 以下最强代码模型。
+**CodeGeeX4-ALL-9B** 是 THUDM（清华大学 KEG）开源的最新一代多语言代码生成模型，基于 [[glm-4]]-9B 持续训练。以 9B 参数超越数倍大小的通用模型，是当前 10B 以下最强代码模型。
 
 ## Overview
 
@@ -60,8 +60,8 @@ CodeGeeX4-ALL-9B 支持单一模型完成代码补全与生成、代码解释器
 
 ## Differences from Predecessors
 
-- 相比 [[ai-game-devtools/codegeex2]]（6B 参数，16K 上下文），CodeGeeX4 参数量提升至 9B，上下文扩展至 128K（8 倍提升），新增 Function Call、代码解释器、仓库级任务等能力
-- 相比 [[ai-game-devtools/codegeex]]（13B 参数），CodeGeeX4 以更少参数（9B）实现更强性能，得益于 GLM-4 基座和优化训练
+- 相比 [[codegeex2]]（6B 参数，16K 上下文），CodeGeeX4 参数量提升至 9B，上下文扩展至 128K（8 倍提升），新增 Function Call、代码解释器、仓库级任务等能力
+- 相比 [[codegeex]]（13B 参数），CodeGeeX4 以更少参数（9B）实现更强性能，得益于 GLM-4 基座和优化训练
 
 ## License
 
@@ -70,10 +70,10 @@ CodeGeeX4-ALL-9B 支持单一模型完成代码补全与生成、代码解释器
 
 ## Related Pages
 
-- [[ai-game-devtools/codegeex]] — CodeGeeX 第一代（13B，KDD'23）
-- [[ai-game-devtools/codegeex2]] — CodeGeeX 第二代（6B，ChatGLM2 架构）
-- [[ai-game-devtools/glm-4]] — GLM-4 语言模型基座（THUDM）
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek 推理模型（同领域大模型）
+- [[codegeex]] — CodeGeeX 第一代（13B，KDD'23）
+- [[codegeex2]] — CodeGeeX 第二代（6B，ChatGLM2 架构）
+- [[glm-4]] — GLM-4 语言模型基座（THUDM）
+- [[deepseek-r1]] — DeepSeek 推理模型（同领域大模型）
 
 ## Links
 

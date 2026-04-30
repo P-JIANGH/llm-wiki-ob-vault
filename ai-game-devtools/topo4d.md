@@ -58,13 +58,13 @@ Topo4D is a research project that automates high-fidelity 4D head capture from c
 - **NPC/character pipelines:** Generates animation-ready facial meshes with consistent topology — directly usable in game engines
 - **Digital humans:** Pore-level 8K textures suitable for AAA-quality character rendering
 - **Animation rigging:** Fixed topology across frames means a single rig works for all expressions
-- **Complements avatar tools:** Provides the high-quality geometry/texture base that [[ai-game-devtools/geneavatar]] and similar tools build upon
+- **Complements avatar tools:** Provides the high-quality geometry/texture base that [[geneavatar]] and similar tools build upon
 
 ## Differences from Related Tools
 
-- vs [[ai-game-devtools/gaussiandreamer]]: GaussianDreamer generates 3D from text/image; Topo4D captures real faces from multi-view video with guaranteed topology
-- vs [[ai-game-devtools/hunyuan3d-2-1]]: Hunyuan3D generates generic 3D assets; Topo4D specializes in facial capture with temporal consistency
-- vs [[ai-game-devtools/dreamgaussian4d]]: DreamGaussian4D generates 4D content from text; Topo4D reconstructs real faces from multi-view capture
+- vs [[gaussiandreamer]]: GaussianDreamer generates 3D from text/image; Topo4D captures real faces from multi-view video with guaranteed topology
+- vs [[hunyuan3d-2-1]]: Hunyuan3D generates generic 3D assets; Topo4D specializes in facial capture with temporal consistency
+- vs [[dreamgaussian4d]]: DreamGaussian4D generates 4D content from text; Topo4D reconstructs real faces from multi-view capture
 
 ## Authors
 

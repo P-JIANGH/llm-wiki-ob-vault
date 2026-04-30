@@ -69,9 +69,9 @@ conceptlab/
 
 ## 与同类工具的差异
 
-- vs [[ai-game-devtools/comfyui]]：ComfyUI 是通用扩散管线编排引擎，ConceptLab 专注于**全新概念发现**而非管线设计
-- vs [[ai-game-devtools/mug-diffusion]]：MuG Diffusion 基于 SD 改造用于音游谱面生成（音频→图表），ConceptLab 用 VLM 负约束推动概念创新（文本→新图像概念）
-- vs [[ai-game-devtools/autostudio]]：AutoStudio 解决多角色一致性问题（已有角色在不同场景保持一致），ConceptLab 解决**从未存在的角色**生成问题
+- vs [[comfyui]]：ComfyUI 是通用扩散管线编排引擎，ConceptLab 专注于**全新概念发现**而非管线设计
+- vs [[mug-diffusion]]：MuG Diffusion 基于 SD 改造用于音游谱面生成（音频→图表），ConceptLab 用 VLM 负约束推动概念创新（文本→新图像概念）
+- vs [[autostudio]]：AutoStudio 解决多角色一致性问题（已有角色在不同场景保持一致），ConceptLab 解决**从未存在的角色**生成问题
 
 ## 许可证
 

@@ -182,7 +182,7 @@
 ## [2026-04-22] update | gemma.cpp raw source
 - Cloned: ~/tmp/ai-game-devtools/gemma.cpp (gitcode mirror; GitHub timed out)
 - Created: raw/articles/ai-game-devtools/gemma.cpp.md
-- Note: checklist already marked complete [2026-04-13]; wiki page [[ai-game-devtools/gemma-cpp]] exists; raw source was missing
+- Note: checklist already marked complete [2026-04-13]; wiki page [[gemma-cpp]] exists; raw source was missing
 
 ## [2026-04-22] create | 转生者模拟器 v2 One Pager GDD
 - 位于：concepts/gdd-reincarnator-v2.md

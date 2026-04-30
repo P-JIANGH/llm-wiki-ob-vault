@@ -74,7 +74,7 @@ Supported languages: `zh` (Chinese), `ja` (Japanese), `en` (English), `ko` (Kore
 
 ## Related Projects
 
-- Shares VITS architecture lineage with [[ai-game-devtools/so-vits-svc]] and [[ai-game-devtools/bert-vits2]]
+- Shares VITS architecture lineage with [[so-vits-svc]] and [[bert-vits2]]
 - Credits fish-speech for inference code reference
 - Uses BigVGAN (NVIDIA) as vocoder, same as many modern TTS systems
-- Complementary to avatar tools like [[ai-game-devtools/sadtalker]] for full talking-head pipelines
+- Complementary to avatar tools like [[sadtalker]] for full talking-head pipelines

@@ -40,7 +40,7 @@ GALA3D 将单个文本提示转化为完整 3D 场景，通过 LLM 空间推理 
 
 ## 同类工具对比
 
-与 [[ai-game-devtools/dreamgaussian4d]]（4D 动态高斯场景）和 [[ai-game-devtools/cf-3dgs]]（免 COLMAP 3D 高斯重建）不同，GALA3D 专注于从文本到**复杂多对象静态场景**的端到端生成，使用 LLM 布局先验 + 组合扩散优化的独特方法。
+与 [[dreamgaussian4d]]（4D 动态高斯场景）和 [[cf-3dgs]]（免 COLMAP 3D 高斯重建）不同，GALA3D 专注于从文本到**复杂多对象静态场景**的端到端生成，使用 LLM 布局先验 + 组合扩散优化的独特方法。
 
 ## 示例提示
 

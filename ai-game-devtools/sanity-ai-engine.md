@@ -74,9 +74,9 @@ SanityEngine/
 
 ## Related Tools
 
-- [[ai-game-devtools/interactml-unity]] — Interactive ML plugin for Unity (kNN/MLP/DTW) — also Unity-based AI toolkit
-- [[ai-game-devtools/chatgpt-api-unity]] — ChatGPT API integration for Unity — another Unity AI integration
-- [[ai-game-devtools/llmunity]] — LLM integration for Unity — Unity AI tooling ecosystem
+- [[interactml-unity]] — Interactive ML plugin for Unity (kNN/MLP/DTW) — also Unity-based AI toolkit
+- [[chatgpt-api-unity]] — ChatGPT API integration for Unity — another Unity AI integration
+- [[llmunity]] — LLM integration for Unity — Unity AI tooling ecosystem
 
 ## Links
 

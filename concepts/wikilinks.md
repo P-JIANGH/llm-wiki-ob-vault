@@ -14,7 +14,7 @@ sources: []
 ## 语法格式
 
 ```
-`[[Page Name]]`           — 基础链接
+``           — 基础链接
 `[[Page Name|显示文本]]`  — 带别名显示
 `[[folder/Page]]`         — 子目录路径
 ```
@@ -30,7 +30,7 @@ sources: []
 
 | 格式 | 语法 | 适用场景 |
 |------|------|----------|
-| Wikilink | `[[name]]` | Obsidian 内链、Zettelkasten |
+| Wikilink | `` | Obsidian 内链、Zettelkasten |
 | Markdown | `[text](url)` | 标准外链、Web |
 
 ## 常见问题

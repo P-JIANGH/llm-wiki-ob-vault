@@ -72,11 +72,11 @@ tts-server --model_name tts_models/en/vctk/vits
 
 ## Related Projects
 
-- [[ai-game-devtools/bark]] — Suno 的生成式 TTS，已集成到 Coqui TTS
-- [[ai-game-devtools/tortoise-tts]] — 高质量多音色 TTS，已集成到 Coqui TTS
-- [[ai-game-devtools/style-tts-2]] — 风格扩散 TTS，同领域竞品
-- [[ai-game-devtools/openvoice]] — 即时语音克隆框架
-- [[ai-game-devtools/whisper]] — OpenAI 语音识别，常与 TTS 配对使用
+- [[bark]] — Suno 的生成式 TTS，已集成到 Coqui TTS
+- [[tortoise-tts]] — 高质量多音色 TTS，已集成到 Coqui TTS
+- [[style-tts-2]] — 风格扩散 TTS，同领域竞品
+- [[openvoice]] — 即时语音克隆框架
+- [[whisper]] — OpenAI 语音识别，常与 TTS 配对使用
 - [[ai-game-devtools/coqui-tts]] — 本框架的社区延续（注：Coqui 公司于 2024 年关闭，项目转为社区维护）
 
 ## Resources

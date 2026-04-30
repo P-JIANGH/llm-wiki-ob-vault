@@ -46,7 +46,7 @@ LitGPT enables:
 
 ## Related Projects
 
-- [[ai-game-devtools/nanogpt]] — Karpathy's minimalist GPT training code, educational baseline
-- [[ai-game-devtools/llama]] — Meta LLM series, primary model family supported by LitGPT
-- [[ai-game-devtools/sglang]] — Structured LLM generation with efficient inference
-- [[ai-game-devtools/mlc-llm]] — Universal LLM deployment engine with TVM compilation
+- [[nanogpt]] — Karpathy's minimalist GPT training code, educational baseline
+- [[llama]] — Meta LLM series, primary model family supported by LitGPT
+- [[sglang]] — Structured LLM generation with efficient inference
+- [[mlc-llm]] — Universal LLM deployment engine with TVM compilation

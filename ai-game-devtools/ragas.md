@@ -58,8 +58,8 @@ docs/               # MkDocs 文档
 
 ## 集成生态
 
-- [[ai-game-devtools/langchain]] — 深度集成，支持 LangChain Chain/Agent 评估
-- [[ai-game-devtools/llama-index]] — 支持 LlamaIndex pipeline 评估
+- [[langchain]] — 深度集成，支持 LangChain Chain/Agent 评估
+- [[llama-index]] — 支持 LlamaIndex pipeline 评估
 - **Haystack** — ai-frameworks 可选集成
 - **DSPy** — dspy-ai 可选集成
 - **Langfuse / MLflow / Arize Phoenix** — Tracing 集成

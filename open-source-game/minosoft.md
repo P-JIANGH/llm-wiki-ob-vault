@@ -97,4 +97,5 @@ Minosoft 由三个核心模块组成：
 ## 相关页面
 
 - `open-source-game/minecraft-client-comparison` — Minecraft 客户端开源复刻对比
-- [[open-source-game/openmw]] — OpenMW（ Morrowind 引擎重实现，同为清洁室重实现参考）
+- [[openmw]] — OpenMW（ Morrowind 引擎重实现，同为清洁室重实现参考）
+

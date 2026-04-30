@@ -28,7 +28,7 @@ Tencent Hunyuan 开源的 17B 参数扩散模型，专注于高分辨率（2K）
 | Refiner | N/A | N/A | N/A | 后处理细节增强 |
 
 ## 关键特性
-- **提示词增强至关重要：** 使用 [[ai-game-devtools/prompt-enhancer]]（PromptEnhancer-32B）预处理提示词可显著提升生成质量
+- **提示词增强至关重要：** 使用 [[prompt-enhancer]]（PromptEnhancer-32B）预处理提示词可显著提升生成质量
 - 支持多种宽高比，原生适配 2K 分辨率
 - MMDoubleStreamBlock + MMSingleStreamBlock 双流/单流混合架构
 - LazyCall 配置系统，便于扩展和自定义
@@ -39,9 +39,9 @@ Tencent Hunyuan 开源的 17B 参数扩散模型，专注于高分辨率（2K）
 - Arena 开源文生图模型排行榜 Top 1
 
 ## 与同类工具差异
-- 相比 [[ai-game-devtools/flux]]：HunyuanImage-2.1 采用两阶段架构（Base+Refiner），FLUX 为单阶段 flow matching；HunyuanImage 更强调提示词增强，FLUX 对提示词依赖较低
-- 相比 [[ai-game-devtools/hunyuanimage-3-0]]：2.1 是纯扩散模型（17B），3.0 升级为自回归 MoE 架构（80B/13B 激活），支持图文到图像编辑和多图融合
-- 相比 [[ai-game-devtools/hunyuan-dit]]：初代 Hunyuan DiT 仅 1.5B 参数，2.1 大幅扩展到 17B 并引入 Refiner 阶段
+- 相比 [[flux]]：HunyuanImage-2.1 采用两阶段架构（Base+Refiner），FLUX 为单阶段 flow matching；HunyuanImage 更强调提示词增强，FLUX 对提示词依赖较低
+- 相比 [[hunyuanimage-3-0]]：2.1 是纯扩散模型（17B），3.0 升级为自回归 MoE 架构（80B/13B 激活），支持图文到图像编辑和多图融合
+- 相比 [[hunyuan-dit]]：初代 Hunyuan DiT 仅 1.5B 参数，2.1 大幅扩展到 17B 并引入 Refiner 阶段
 
 ## 技术栈
 - Python + PyTorch ≥2.6.0

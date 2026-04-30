@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/sadtalker-video-lip-sync.md]
 
 ## 概述
 
-基于 [[ai-game-devtools/sadtalker]] 改进的语音驱动视频唇形同步工具。与原版的单图驱动不同，本项目以视频文件作为输入，使用 Wav2Lip 替代 face-vid2vid 进行唇形生成，并支持面部区域可配置的清晰度增强和 DAIN 插帧补帧。
+基于 [[sadtalker]] 改进的语音驱动视频唇形同步工具。与原版的单图驱动不同，本项目以视频文件作为输入，使用 Wav2Lip 替代 face-vid2vid 进行唇形生成，并支持面部区域可配置的清晰度增强和 DAIN 插帧补帧。
 
 ## 核心功能
 
@@ -79,4 +79,4 @@ python inference.py --driven_audio audio.wav \
 
 - GitHub: https://github.com/Zz-ww/SadTalker-Video-Lip-Sync
 - 预训练权重: [百度网盘](https://pan.baidu.com/s/15-zjk64SGQnRT9qIduTe2A) / [Google Drive](https://drive.google.com/file/d/1lW4mf5YNtS4MAD7ZkAauDDWp2N3_Qzs7/view)
-- 参考项目: [[ai-game-devtools/sadtalker]]、VideoReTalking、DAIN、PaddleGAN
+- 参考项目: [[sadtalker]]、VideoReTalking、DAIN、PaddleGAN

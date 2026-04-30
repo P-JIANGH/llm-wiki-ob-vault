@@ -103,3 +103,4 @@ sources: [raw/articles/open-source-games-list-2026.md]
 
 - [[open-source-games-list]] — 开源游戏列表总览
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比
+

@@ -102,6 +102,7 @@ playercontrolled / gethelptype / getweapontype / pathfindtype
 
 ## 相关 Wiki 页面
 
-- [[open-source-game/openrw]] — GTA III 重实现，同为 3D 动作游戏
-- [[open-source-game/openlara]] — 古墓丽影引擎重实现，3D 动作参考
+- [[openrw]] — GTA III 重实现，同为 3D 动作游戏
+- [[openlara]] — 古墓丽影引擎重实现，3D 动作参考
 - `open-source-game/croft-engine` — Tomb Raider 1 引擎，3D 引擎架构参考
+

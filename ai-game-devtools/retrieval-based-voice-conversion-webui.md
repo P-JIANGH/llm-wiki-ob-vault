@@ -72,7 +72,7 @@ GitHub: https://github.com/RVC-Project/Retrieval-based-Voice-Conversion-WebUI
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/diffsinger]]（歌声合成），RVC 专注声音转换（保留原始内容/韵律，改变音色），而非从乐谱生成歌声
-- 相比 [[ai-game-devtools/musicgen]]（音乐生成），RVC 不生成新音乐，而是对已有音频进行音色替换
-- 相比 [[ai-game-devtools/academicodec]]（音频编解码），RVC 是完整的端到端声音转换管线，而非单纯的音频压缩工具
+- 相比 [[diffsinger]]（歌声合成），RVC 专注声音转换（保留原始内容/韵律，改变音色），而非从乐谱生成歌声
+- 相比 [[musicgen]]（音乐生成），RVC 不生成新音乐，而是对已有音频进行音色替换
+- 相比 [[academicodec]]（音频编解码），RVC 是完整的端到端声音转换管线，而非单纯的音频压缩工具
 - RVC 的核心竞争力：检索机制杜绝音色泄漏、低数据需求、实时变声能力

@@ -46,7 +46,7 @@ HDTF 数据集评测（FID↓/FVD↓/SSIM↑/ED↓/SC↑）：
 | 纯地标 | **22.97** | **156.53** | **0.88** |
 | 音频+地标 | 22.98 | 181.74 | 0.88 |
 
-全面超越 [[ai-game-devtools/sadtalker]]、[[ai-game-devtools/aniportrait]]、V-Express、[[ai-game-devtools/hallo]] 等竞品。
+全面超越 [[sadtalker]]、[[aniportrait]]、V-Express、[[hallo]] 等竞品。
 
 ## 运动对齐
 

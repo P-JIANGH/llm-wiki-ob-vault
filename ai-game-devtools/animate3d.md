@@ -66,5 +66,5 @@ python tools/mesh_animation/process_rodin_gen1.py
 - **Training Data:** [Hugging Face: MV-Video](https://huggingface.co/datasets/yanqinJiang/MV-Video)
 
 ## Related
-- [[ai-game-devtools/meshanything]] — autoregressive mesh generation (complementary: Animate3D animates existing meshes)
-- [[ai-game-devtools/syncdreamer]] — multi-view 3D generation from single image (different focus: static 3D vs animated)
+- [[meshanything]] — autoregressive mesh generation (complementary: Animate3D animates existing meshes)
+- [[syncdreamer]] — multi-view 3D generation from single image (different focus: static 3D vs animated)

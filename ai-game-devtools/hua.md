@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/hua.md]
 
 ## Overview
 
-Hua (画, meaning "paint" in Chinese) is an AI image editor frontend built by **BlinkDL** (also known for [[ai-game-devtools/chatrwkv]] and RWKV-LM). It provides a canvas-based visual interface for Stable Diffusion operations including text-to-image, image-to-image, inpainting, and outpainting.
+Hua (画, meaning "paint" in Chinese) is an AI image editor frontend built by **BlinkDL** (also known for [[chatrwkv]] and RWKV-LM). It provides a canvas-based visual interface for Stable Diffusion operations including text-to-image, image-to-image, inpainting, and outpainting.
 
 Website: https://www.PaintHua.com | Discord: https://discord.gg/y9kMYtjgFZ
 
@@ -54,6 +54,6 @@ Apache 2.0
 
 ## Related Tools
 
-- **[[ai-game-devtools/comfyui]]** — Node-based SD frontend with 578 Python files, more comprehensive pipeline support
-- **[[ai-game-devtools/fooocus]]** — Offline SDXL image generation tool, zero-config approach
-- **[[ai-game-devtools/chatrwkv]]** — Same author's RWKV-based chat application
+- **[[comfyui]]** — Node-based SD frontend with 578 Python files, more comprehensive pipeline support
+- **[[fooocus]]** — Offline SDXL image generation tool, zero-config approach
+- **[[chatrwkv]]** — Same author's RWKV-based chat application

@@ -78,3 +78,4 @@ Makefile 通过 `PACKAGE_REPOSITORY=1` 参数支持系统包管理器集成。
 | 旧游戏数据复用 | 资产与逻辑分离的设计思想有利于 mod 支持 |
 | Build Engine 渲染 | Sector/Portal 渲染可研究用于 2.5D 游戏引擎 |
 | GPL + 数据分离 | 引擎 GPLv2 + 游戏数据专有的双许可模式 |
+

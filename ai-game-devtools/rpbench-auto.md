@@ -78,6 +78,6 @@ Leaderboard 覆盖 17+ 个主流模型（vs GPT-4o 基线）：
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/ragas]]（客观指标评测），RPBench-Auto 专注角色扮演主观质量
-- 相比 [[ai-game-devtools/agentbench]]（8 种 Agent 环境评测），专注于 NPC 对话场景
+- 相比 [[ragas]]（客观指标评测），RPBench-Auto 专注角色扮演主观质量
+- 相比 [[agentbench]]（8 种 Agent 环境评测），专注于 NPC 对话场景
 - 与 ArenaHard 共享评测范式，但数据集和裁判 prompt 专为角色扮演优化

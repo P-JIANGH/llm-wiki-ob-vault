@@ -108,9 +108,9 @@ Key packages: `transformers>=4.22.0`, `tokenizers>=0.11.0`, `torch>=1.10.0`, `de
 
 ## Related Pages
 
-- [[ai-game-devtools/glm-4]] — THUDM GLM-4 language model series (same org)
-- [[ai-game-devtools/glm-v]] — THUDM GLM Vision model (same org)
-- [[ai-game-devtools/ai-code-translator]] — AI code translation tool (references codegeex4)
+- [[glm-4]] — THUDM GLM-4 language model series (same org)
+- [[glm-v]] — THUDM GLM Vision model (same org)
+- [[ai-code-translator]] — AI code translation tool (references codegeex4)
 
 ## Links
 

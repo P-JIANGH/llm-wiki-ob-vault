@@ -68,6 +68,6 @@ Apache 2.0
 | 提示词 | 严格依赖 WD14 自动标签 | 支持自定义提示词 |
 
 ## 相关项目
-- [[ai-game-devtools/controlnet]] — 同为 lllyasviel 项目，ControlNet 为扩散模型添加空间条件控制
-- [[ai-game-devtools/comfyui]] — 可集成 Paints-Undo 作为节点使用
-- [[ai-game-devtools/tooncrafter]] — VAE 来源，动画插值模型
+- [[controlnet]] — 同为 lllyasviel 项目，ControlNet 为扩散模型添加空间条件控制
+- [[comfyui]] — 可集成 Paints-Undo 作为节点使用
+- [[tooncrafter]] — VAE 来源，动画插值模型

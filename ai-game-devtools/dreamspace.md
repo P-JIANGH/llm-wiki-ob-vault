@@ -34,6 +34,6 @@ DreamSpace is an indoor scene texturing framework presented at IEEE VR 2024 that
 Not specified (project page repo, no LICENSE file)
 
 ## Related
-- [[ai-game-devtools/dreammat]] — PBR material generation via diffusion + SDS optimization (SIGGRAPH 2024)
-- [[ai-game-devtools/crm]] — Single image to 3D textured mesh via two-stage diffusion (清华大学)
-- [[ai-game-devtools/dream-textures]] — Blender Stable Diffusion texture painting integration
+- [[dreammat]] — PBR material generation via diffusion + SDS optimization (SIGGRAPH 2024)
+- [[crm]] — Single image to 3D textured mesh via two-stage diffusion (清华大学)
+- [[dream-textures]] — Blender Stable Diffusion texture painting integration

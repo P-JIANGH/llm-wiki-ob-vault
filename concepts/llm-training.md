@@ -30,7 +30,7 @@ sources: []
 
 - [[LoRA]] — 低秩适配微调
 - [[Axonn]] — 分布式训练
-- [[NeMo]] — NVIDIA 训练框架
+- [[nvidia-nemo-agent-toolkit]] — NVIDIA 训练框架
 
 ## 相关
 

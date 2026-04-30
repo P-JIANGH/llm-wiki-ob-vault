@@ -10,7 +10,7 @@ sources: [raw/articles/ai-game-devtools/mahatts.md]
 # MahaTTS
 
 ## Overview
-**MahaTTS** ("Maha" = 'Great' in Sanskrit) is an open-source multilingual TTS model by **Dubverse.ai**, inspired by [[ai-game-devtools/tortoise-tts]] architecture but uniquely integrating **M4T wav2vec2** for semantic token extraction, providing strong cross-language scalability.
+**MahaTTS** ("Maha" = 'Great' in Sanskrit) is an open-source multilingual TTS model by **Dubverse.ai**, inspired by [[tortoise-tts]] architecture but uniquely integrating **M4T wav2vec2** for semantic token extraction, providing strong cross-language scalability.
 
 ## Architecture
 
@@ -45,9 +45,9 @@ Three-stage pipeline:
 - Last checkpoint updates: 2023-11-13, 2024-01-07
 
 ## Comparison with Related TTS
-- Based on [[ai-game-devtools/tortoise-tts]] design but replaces semantic tokenizer with M4T wav2vec2
-- Smaller than [[ai-game-devtools/gpt-sovits]] but broader language coverage (11 Indic+English)
-- More lightweight than [[ai-game-devtools/cosyvoice]] pipeline; focused on Indic language market
+- Based on [[tortoise-tts]] design but replaces semantic tokenizer with M4T wav2vec2
+- Smaller than [[gpt-sovits]] but broader language coverage (11 Indic+English)
+- More lightweight than [[cosyvoice]] pipeline; focused on Indic language market
 
 ## Links
 - GitHub: https://github.com/dubverse-ai/MahaTTS

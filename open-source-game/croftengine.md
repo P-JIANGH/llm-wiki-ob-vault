@@ -103,6 +103,7 @@ src/
 
 ## 相关页面
 
-- [[open-source-game/openlara]] — 古墓丽影经典引擎另一重实现
+- [[openlara]] — 古墓丽影经典引擎另一重实现
 - [[open-source-games-list]] — 开源游戏列表总览
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比
+

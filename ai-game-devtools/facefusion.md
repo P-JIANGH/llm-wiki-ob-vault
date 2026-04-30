@@ -97,7 +97,7 @@ OpenRAIL-AS
 - macOS 安装包: http://macos-installer.facefusion.io
 
 ## 与同类工具比较
-- 与 [[ai-game-devtools/liveportrait]] 相比，FaceFusion 是**多处理器组合平台**（换脸+增强+唇同步等），而 LivePortrait 专注于**肖像动画**（表情驱动）
-- 与 [[ai-game-devtools/hallo]] 和 [[ai-game-devtools/echo-mimic]] 不同，FaceFusion 的 lip_syncer 是模块化组件之一，而非单一音频驱动生成
-- FaceFusion 3.0 已集成 [[ai-game-devtools/liveportrait]] 的 expression_restorer 和 face_editor 能力，形成互补生态
-- 与 [[ai-game-devtools/animate-anyone]] 面向全身动画不同，FaceFusion 聚焦于**面部级别**的处理
+- 与 [[liveportrait]] 相比，FaceFusion 是**多处理器组合平台**（换脸+增强+唇同步等），而 LivePortrait 专注于**肖像动画**（表情驱动）
+- 与 [[hallo]] 和 [[echo-mimic]] 不同，FaceFusion 的 lip_syncer 是模块化组件之一，而非单一音频驱动生成
+- FaceFusion 3.0 已集成 [[liveportrait]] 的 expression_restorer 和 face_editor 能力，形成互补生态
+- 与 [[animate-anyone]] 面向全身动画不同，FaceFusion 聚焦于**面部级别**的处理

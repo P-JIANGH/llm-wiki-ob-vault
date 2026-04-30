@@ -155,4 +155,5 @@ WINSTUB.CPP     # Windows 95 存根/适配层 (Shape 提取、调试输出)
 
 - `open-source-game/cnc-red-alert` — 红警源码（同时期同架构）
 - `open-source-game/cnc-remastered-collection` — C&C 重制版官方源码（不同代码库）
-- [[open-source-game/openra]] — 开源 RTS 引擎复刻（参考其现代实现）
+- [[openra]] — 开源 RTS 引擎复刻（参考其现代实现）
+

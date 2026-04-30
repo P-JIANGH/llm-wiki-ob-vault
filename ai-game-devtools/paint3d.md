@@ -71,4 +71,4 @@ Apache 2.0
 
 ## 与同类工具差异
 
-相比 `ai-game-devtools/text2tex`（直接 SDS 优化纹理），Paint3D 采用可训练的控制网 + 两阶段粗到细策略，生成的纹理质量更高且无光照嵌入。相比 [[ai-game-devtools/dreammat]]（PBR 材质生成），Paint3D 专注于 albedo 贴图生成，而非完整 PBR 材质套件。
+相比 `ai-game-devtools/text2tex`（直接 SDS 优化纹理），Paint3D 采用可训练的控制网 + 两阶段粗到细策略，生成的纹理质量更高且无光照嵌入。相比 [[dreammat]]（PBR 材质生成），Paint3D 专注于 albedo 贴图生成，而非完整 PBR 材质套件。

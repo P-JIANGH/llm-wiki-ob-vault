@@ -46,6 +46,6 @@ sources: [raw/articles/ai-game-devtools/waver.md]
 - **Community:** [Discord](http://opensource.bytedance.com/discord/invite)
 
 ## Related
-- Uses [[ai-game-devtools/wan2-1]]'s Wan-VAE for latent compression
-- Similar rectified flow architecture to [[ai-game-devtools/open-sora]] (11B MMDiT, Rectified Flow+3D-VAE)
-- Competes with [[ai-game-devtools/hunyuan-video]] and [[ai-game-devtools/wan2-2]] in the video generation space
+- Uses [[wan2-1]]'s Wan-VAE for latent compression
+- Similar rectified flow architecture to [[open-sora]] (11B MMDiT, Rectified Flow+3D-VAE)
+- Competes with [[hunyuan-video]] and [[wan2-2]] in the video generation space

@@ -60,7 +60,7 @@ sources:
 
 ## 与同类工具的差异
 
-| 维度 | Point·E | [[ai-game-devtools/shap-e]] | [[ai-game-devtools/sf3d]] |
+| 维度 | Point·E | [[shap-e]] | [[sf3d]] |
 |------|---------|-----------|-----------|
 | 输出格式 | 点云 → 可选网格 | 隐式神经场（NeRF/GS） | 高质量网格 |
 | 生成方式 | 扩散模型 (1024 步) | 扩散模型 | 前馈网络 |
@@ -95,6 +95,6 @@ MIT
 
 ## 相关工具
 
-- [[ai-game-devtools/shap-e]] — OpenAI 同期发布的 3D 生成工具，使用隐式神经场而非点云
-- [[ai-game-devtools/sf3d]] — Stability AI 快速 3D 生成，单步前馈网络
-- [[ai-game-devtools/stable-diffusion]] — 2D 扩散模型基础架构，Point·E 的扩散模块基于 guided-diffusion
+- [[shap-e]] — OpenAI 同期发布的 3D 生成工具，使用隐式神经场而非点云
+- [[sf3d]] — Stability AI 快速 3D 生成，单步前馈网络
+- [[stable-diffusion]] — 2D 扩散模型基础架构，Point·E 的扩散模块基于 guided-diffusion

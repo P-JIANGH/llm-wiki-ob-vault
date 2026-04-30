@@ -35,9 +35,9 @@ sources: [raw/articles/ai-game-devtools/skyreels-a1.md]
 
 ## 与同类工具对比
 
-- 相比 [[ai-game-devtools/hallo]]（SD 1.5 + AnimateDiff 管线），SkyReels-A1 基于 DiT 架构，支持身体动态迁移而不仅是面部
-- 相比 [[ai-game-devtools/liveportrait]]（快手高效肖像动画），SkyReels-A1 专注视频扩散生成，支持任意长度输出
-- 相比 [[ai-game-devtools/stableavatar]]（Wan2.1 骨干 DiT），SkyReels-A1 2025 年 2 月发布，专注于表情感知条件化机制
+- 相比 [[hallo]]（SD 1.5 + AnimateDiff 管线），SkyReels-A1 基于 DiT 架构，支持身体动态迁移而不仅是面部
+- 相比 [[liveportrait]]（快手高效肖像动画），SkyReels-A1 专注视频扩散生成，支持任意长度输出
+- 相比 [[stableavatar]]（Wan2.1 骨干 DiT），SkyReels-A1 2025 年 2 月发布，专注于表情感知条件化机制
 
 ## 链接
 

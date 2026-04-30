@@ -84,6 +84,7 @@ common/       # 跨 crate 共享工具
 
 ## 相关页面
 
-- [[open-source-game/cytopia]] — 另一款开源城市建造，SDL2 等距渲染
-- [[open-source-game/openrct2]] — 确定性锁步网络（与 Egregoria 相同模式）
-- [[open-source-game/hypersomnia]] — 确定性锁步网络（游戏端案例对比）
+- [[cytopia]] — 另一款开源城市建造，SDL2 等距渲染
+- [[openrct2]] — 确定性锁步网络（与 Egregoria 相同模式）
+- [[hypersomnia]] — 确定性锁步网络（游戏端案例对比）
+

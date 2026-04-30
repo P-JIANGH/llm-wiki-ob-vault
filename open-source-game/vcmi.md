@@ -120,6 +120,6 @@ test/         单元测试
 
 ## 相关页面
 
-- [[open-source-game/fheroes2]] — HoMM II 引擎重实现
-- [[open-source-game/openra]] — Westwood RTS 引擎复刻（C&C/红警）
-- [[open-source-game/openmw]] — Morrowind 引擎重实现
+- [[fheroes2]] — HoMM II 引擎重实现
+- [[openra]] — Westwood RTS 引擎复刻（C&C/红警）
+- [[openmw]] — Morrowind 引擎重实现

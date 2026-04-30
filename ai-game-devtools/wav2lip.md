@@ -78,6 +78,6 @@ Output saved to `results/result_voice.mp4` by default.
 
 ## Related
 
-- [[ai-game-devtools/sadtalker]] — CVPR 2023 audio-driven portrait animation with 3DMM
-- [[ai-game-devtools/geneface]] — ICLR 2023 3D talking face with NeRF rendering
-- [[ai-game-devtools/hallo]] — Fudan University audio-driven portrait with SD 1.5 + AnimateDiff
+- [[sadtalker]] — CVPR 2023 audio-driven portrait animation with 3DMM
+- [[geneface]] — ICLR 2023 3D talking face with NeRF rendering
+- [[hallo]] — Fudan University audio-driven portrait with SD 1.5 + AnimateDiff

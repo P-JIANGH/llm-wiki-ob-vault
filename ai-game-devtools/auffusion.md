@@ -47,9 +47,9 @@ Supports five modes via Jupyter notebooks:
 | Code | ~1000 lines (auffusion_pipeline.py) |
 
 ## Related Tools
-- [[ai-game-devtools/audioldm-2]] — another text-to-audio diffusion framework, uses similar diffusion approach
-- [[ai-game-devtools/tango]] — code borrowed from TANGO project; Auffusion improves on its approach
-- [[ai-game-devtools/audio-diffusion-pytorch]] — audio diffusion generation library, complementary to Auffusion
+- [[audioldm-2]] — another text-to-audio diffusion framework, uses similar diffusion approach
+- [[tango]] — code borrowed from TANGO project; Auffusion improves on its approach
+- [[audio-diffusion-pytorch]] — audio diffusion generation library, complementary to Auffusion
 
 ## Game Dev Relevance
-Useful for game audio asset generation — sound effects (birds singing, thunder, footsteps, ambient sounds) from text descriptions without needing to record or source existing audio. Can be integrated into game asset pipelines alongside tools like [[ai-game-devtools/audiogen-codec]] for audio compression and [[ai-game-devtools/mug-diffusion]] for rhythm game chart generation.
+Useful for game audio asset generation — sound effects (birds singing, thunder, footsteps, ambient sounds) from text descriptions without needing to record or source existing audio. Can be integrated into game asset pipelines alongside tools like [[audiogen-codec]] for audio compression and [[mug-diffusion]] for rhythm game chart generation.

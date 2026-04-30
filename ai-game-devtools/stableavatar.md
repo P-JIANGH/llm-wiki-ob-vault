@@ -54,7 +54,7 @@ StableAvatar is the first end-to-end video diffusion transformer (DiT) capable o
 
 ## Comparison with Peers
 
-Compared to [[ai-game-devtools/hallo]] and [[ai-game-devtools/hallo2]], StableAvatar's key advantage is **infinite-length generation** via sliding-window latent fusion rather than fixed-length clip output. Unlike [[ai-game-devtools/echomimic]] which uses SD v1.5 diffusion, StableAvatar uses a dedicated video DiT architecture (Wan2.1 backbone) with time-step-aware audio modulation to prevent the latent distribution drift that limits long-video quality in existing models. Compared to [[ai-game-devtools/liveportrait]] (video-driven), StableAvatar is **audio-driven** — the driving signal is speech/music rather than a reference video.
+Compared to [[hallo]] and [[hallo2]], StableAvatar's key advantage is **infinite-length generation** via sliding-window latent fusion rather than fixed-length clip output. Unlike [[echomimic]] which uses SD v1.5 diffusion, StableAvatar uses a dedicated video DiT architecture (Wan2.1 backbone) with time-step-aware audio modulation to prevent the latent distribution drift that limits long-video quality in existing models. Compared to [[liveportrait]] (video-driven), StableAvatar is **audio-driven** — the driving signal is speech/music rather than a reference video.
 
 ## Training Data Pipeline
 

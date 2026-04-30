@@ -102,10 +102,10 @@ python launch.py --config configs/gaussiandreamer-sd.yaml --train --gpu 0 \
 
 ## Related
 
-- 与 [[ai-game-devtools/dreamgaussian4d]] 同属 Gaussian 3D 生成家族，但 GaussianDreamer 专注文本到静态 3D，DreamGaussian4D 专注图像到动态 4D
-- 基于 [[ai-game-devtools/stable-diffusion]] 生态作为 2D 先验模型，使用 SD 2.1 Base 的 SDS 指导
-- 嵌入 threestudio 框架（本 wiki 未建页），与 [[ai-game-devtools/dream-catalyst]] 等同属 threestudio 生态项目
-- 生成的资产可通过 UnityGaussianSplatting（本 wiki 未建页）导入 Unity，类似 [[ai-game-devtools/unity-ml-stable-diffusion]] 的 Unity AI 集成思路
+- 与 [[dreamgaussian4d]] 同属 Gaussian 3D 生成家族，但 GaussianDreamer 专注文本到静态 3D，DreamGaussian4D 专注图像到动态 4D
+- 基于 [[stable-diffusion]] 生态作为 2D 先验模型，使用 SD 2.1 Base 的 SDS 指导
+- 嵌入 threestudio 框架（本 wiki 未建页），与 [[dream-catalyst]] 等同属 threestudio 生态项目
+- 生成的资产可通过 UnityGaussianSplatting（本 wiki 未建页）导入 Unity，类似 [[unity-ml-stable-diffusion]] 的 Unity AI 集成思路
 
 ## Links
 

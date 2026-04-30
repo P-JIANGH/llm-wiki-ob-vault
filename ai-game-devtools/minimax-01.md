@@ -78,6 +78,6 @@ MiniMax-01 是 MiniMax 公司发布的双模型家族，包含纯文本模型 **
 
 ## 相关模型
 
-与 [[ai-game-devtools/deepseek-v3]]（DeepSeek-V3）同为国产大模型，在 MMLU 等任务上表现接近（88.5 vs 88.5），但 MiniMax-01 在长上下文任务（RULER 1M: 0.910 vs 无）明显领先。架构上均采用 MoE，但 MiniMax-01 使用 Lightning Attention 而 DeepSeek-V3 使用 DeepSeek MoE。
+与 [[deepseek-v3]]（DeepSeek-V3）同为国产大模型，在 MMLU 等任务上表现接近（88.5 vs 88.5），但 MiniMax-01 在长上下文任务（RULER 1M: 0.910 vs 无）明显领先。架构上均采用 MoE，但 MiniMax-01 使用 Lightning Attention 而 DeepSeek-V3 使用 DeepSeek MoE。
 
-与 [[ai-game-devtools/glm-4]] 相比，两者均支持长上下文（MiniMax 4M vs GLM-4 128K），但在架构上差异明显——MiniMax-01 用 Lightning Attention，GLM-4 用 GLM 架构。
+与 [[glm-4]] 相比，两者均支持长上下文（MiniMax 4M vs GLM-4 128K），但在架构上差异明显——MiniMax-01 用 Lightning Attention，GLM-4 用 GLM 架构。

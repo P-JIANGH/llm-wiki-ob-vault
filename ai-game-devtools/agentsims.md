@@ -80,6 +80,6 @@ AgentSims is designed for **open-source custom task building**. Other simulation
 
 ## Related
 
-- [[ai-game-devtools/agentbench]] — multi-environment LLM agent benchmark
-- [[ai-game-devtools/generative-agents]] — Stanford sandbox agent simulation (Generative Agents, 2023)
-- [[ai-game-devtools/agentscope]] — Alibaba AgentScope multi-agent framework
+- [[agentbench]] — multi-environment LLM agent benchmark
+- [[generative-agents]] — Stanford sandbox agent simulation (Generative Agents, 2023)
+- [[agentscope]] — Alibaba AgentScope multi-agent framework

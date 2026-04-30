@@ -98,7 +98,7 @@ Skips processing when consecutive frames are similar (cosine similarity > thresh
 
 ## Comparison with Alternatives
 
-Unlike [[ai-game-devtools/stable-diffusion]] (original batch diffusion) and [[ai-game-devtools/comfyui]] (visual workflow UI), StreamDiffusion focuses specifically on **latency optimization** — making diffusion usable for interactive/real-time applications rather than quality or workflow flexibility. It is orthogonal to [[ai-game-devtools/controlnet]] (which adds spatial control) and can be combined with it.
+Unlike [[stable-diffusion]] (original batch diffusion) and [[comfyui]] (visual workflow UI), StreamDiffusion focuses specifically on **latency optimization** — making diffusion usable for interactive/real-time applications rather than quality or workflow flexibility. It is orthogonal to [[controlnet]] (which adds spatial control) and can be combined with it.
 
 ## Links
 

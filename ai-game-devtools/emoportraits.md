@@ -58,9 +58,9 @@ datasets/           # VoxCeleb2 HQ, FEED, MEAD loaders
 
 ## Comparison with Similar Tools
 
-- vs [[ai-game-devtools/echomimic]]: EchoMimic uses SD v1.5 diffusion + Whisper audio encoding for audio-driven animation; EMOPortraits uses volumetric 3D representation with video-driven motion + explicit emotion latent space
-- vs [[ai-game-devtools/aniportrait]]: AniPortrait uses 3DMM parameters + AnimateDiff Motion Module for audio-driven generation; EMOPortraits focuses on video-driven transfer with emotion enhancement from the FEED dataset
-- vs [[ai-game-devtools/dreamtalk]]: DreamTalk uses diffusion models (DDPM/DDIM) with Wav2Vec2 audio encoding; EMOPortraits uses a two-stage volumetric approach trained on HQ data
+- vs [[echomimic]]: EchoMimic uses SD v1.5 diffusion + Whisper audio encoding for audio-driven animation; EMOPortraits uses volumetric 3D representation with video-driven motion + explicit emotion latent space
+- vs [[aniportrait]]: AniPortrait uses 3DMM parameters + AnimateDiff Motion Module for audio-driven generation; EMOPortraits focuses on video-driven transfer with emotion enhancement from the FEED dataset
+- vs [[dreamtalk]]: DreamTalk uses diffusion models (DDPM/DDIM) with Wav2Vec2 audio encoding; EMOPortraits uses a two-stage volumetric approach trained on HQ data
 
 ## Limitations
 - Repository maintained for demonstration; author no longer in academia
@@ -72,6 +72,6 @@ datasets/           # VoxCeleb2 HQ, FEED, MEAD loaders
 Research/academic use (no explicit LICENSE file in repo)
 
 ## Related
-- [[ai-game-devtools/echomimic]]
-- [[ai-game-devtools/aniportrait]]
-- [[ai-game-devtools/dreamtalk]]
+- [[echomimic]]
+- [[aniportrait]]
+- [[dreamtalk]]

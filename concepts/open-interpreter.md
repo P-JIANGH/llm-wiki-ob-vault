@@ -9,7 +9,7 @@ sources: []
 
 # Open Interpreter
 
-[[coding-agents]] | [[llm-integration]]
+[[agent]] | [[llm-integration]]
 
 ## Overview
 
@@ -24,8 +24,8 @@ Open Interpreter gives LLMs a natural language interface to execute code (Python
 
 ## Relationship to Other Projects
 
-- Related to [[claude-code]] and [[AgentCode]] as coding-focused agents
-- Complements [[CodeLLama]] for LLM-based code generation
+- Related to [[claude-code]] and [[agent-code]] as coding-focused agents
+- Complements [[llama]] for LLM-based code generation
 
 ## References
 

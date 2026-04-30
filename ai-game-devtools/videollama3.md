@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/videollama3.md]
 
 ## 概述
 
-VideoLLaMA 3 基于 [[ai-game-devtools/qwen2-5]] 语言模型和 tuned SigLIP-NaViT 视觉编码器构建，采用两阶段训练策略。与 [[ai-game-devtools/videollama2]] 相比，第三代在图像理解能力上大幅增强，同时保持了视频理解的领先性能。
+VideoLLaMA 3 基于 [[qwen2-5]] 语言模型和 tuned SigLIP-NaViT 视觉编码器构建，采用两阶段训练策略。与 [[videollama2]] 相比，第三代在图像理解能力上大幅增强，同时保持了视频理解的领先性能。
 
 ## 模型规格
 
@@ -63,7 +63,7 @@ model, processor = model_init("DAMO-NLP-SG/VideoLLaMA3-7B")
 
 ## 与同类工具的差异
 
-| 特性 | VideoLLaMA 3 | [[ai-game-devtools/videollama2]] | [[ai-game-devtools/qwen-vl]] |
+| 特性 | VideoLLaMA 3 | [[videollama2]] | [[qwen-vl]] |
 |------|-------------|----------------------------------|------------------------------|
 | 图像理解 | ✅ 强（图表/文档/代码） | ⚠️ 较弱 | ✅ 强 |
 | 视频理解 | ✅ 长视频+时序定位 | ✅ 视频+音频 | ✅ 视频 |

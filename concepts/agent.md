@@ -25,7 +25,7 @@ An AI agent is a system that uses an LLM to plan and execute actions in the real
 ## Relationship to Other Projects
 
 - [[AutoGPT]] and [[babyagi]] are early reference implementations
-- [[claude-code]] and [[AgentCode]] are modern coding-specialized agents
+- [[claude-code]] and [[agent-code]] are modern coding-specialized agents
 - [[MetaGPT]] extends agents with multi-role collaboration
 
 ## References

@@ -46,7 +46,7 @@ Hunyuan3D-2 enables:
 
 ## Related Projects
 
-- [[ai-game-devtools/hunyuan3d-2-1]] — Third-gen Hunyuan 3D with fully open weights + training code
-- [[ai-game-devtools/hunyuan3d-1]] — First-gen Hunyuan 3D: text/image to 3D in 10-25 seconds
-- [[ai-game-devtools/triposr]] — Tripo AI × Stability AI single-image to 3D feed-forward model
-- [[ai-game-devtools/stable-fast-3d]] — Stability AI single-image to 3D mesh with PBR materials
+- [[hunyuan3d-2-1]] — Third-gen Hunyuan 3D with fully open weights + training code
+- [[hunyuan3d-1]] — First-gen Hunyuan 3D: text/image to 3D in 10-25 seconds
+- [[triposr]] — Tripo AI × Stability AI single-image to 3D feed-forward model
+- [[stable-fast-3d]] — Stability AI single-image to 3D mesh with PBR materials

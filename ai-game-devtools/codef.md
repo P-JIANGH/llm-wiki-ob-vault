@@ -25,7 +25,7 @@ This design enables **lifting any image algorithm to videos without training**: 
 
 ## Key Capabilities
 
-- **Zero-shot video-to-video translation**: Apply [[ai-game-devtools/controlnet]] to the canonical image → propagate to entire video with superior cross-frame consistency
+- **Zero-shot video-to-video translation**: Apply [[controlnet]] to the canonical image → propagate to entire video with superior cross-frame consistency
 - **Zero-shot keypoint tracking**: Detect keypoints on canonical frame → track via deformation field (works on non-rigid objects like water/smog)
 - **Semantic inheritance**: Regularization during optimization encourages the canonical field to preserve object shapes and semantics
 - **Single GPU training**: Only 10GB VRAM needed, 10K steps per sequence
@@ -59,9 +59,9 @@ This design enables **lifting any image algorithm to videos without training**: 
 
 ## Comparison with Related Tools
 
-Compared to [[ai-game-devtools/animatediff]] which generates video frames via diffusion, CoDeF takes a different approach: it represents an **existing** video as a deformable canonical image, enabling consistent post-processing rather than generation. Unlike [[ai-game-devtools/animate-anyone]] which animates a static figure from pose sequences, CoDeF works with arbitrary video content and is algorithm-agnostic — any image operation can be lifted.
+Compared to [[animatediff]] which generates video frames via diffusion, CoDeF takes a different approach: it represents an **existing** video as a deformable canonical image, enabling consistent post-processing rather than generation. Unlike [[animate-anyone]] which animates a static figure from pose sequences, CoDeF works with arbitrary video content and is algorithm-agnostic — any image operation can be lifted.
 
-The approach shares conceptual similarities with [[ai-game-devtools/animate3d]] in using neural implicit representations, but focuses on 2D video processing rather than 3D animation.
+The approach shares conceptual similarities with [[animate3d]] in using neural implicit representations, but focuses on 2D video processing rather than 3D animation.
 
 ## Links
 

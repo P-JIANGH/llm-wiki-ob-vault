@@ -40,7 +40,7 @@ sources: [raw/articles/ai-game-devtools/behaviac.md]
 
 ## 与同类工具对比
 
-Behaviac 专注**游戏AI行为编辑**，区别于通用LLM Agent框架如 [[ai-game-devtools/autogen]] 或 [[ai-game-devtools/agentscope]]——后者面向通用多Agent协作，而 Behaviac 是为游戏NPC/怪物AI设计的专用工具，类似Unity的 [[ai-game-devtools/sanity-ai-engine]] 但支持更丰富的行为树范式。
+Behaviac 专注**游戏AI行为编辑**，区别于通用LLM Agent框架如 [[autogen]] 或 [[agentscope]]——后者面向通用多Agent协作，而 Behaviac 是为游戏NPC/怪物AI设计的专用工具，类似Unity的 [[sanity-ai-engine]] 但支持更丰富的行为树范式。
 
 ## 版本信息
 

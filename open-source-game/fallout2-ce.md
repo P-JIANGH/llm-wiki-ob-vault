@@ -96,7 +96,7 @@ sources: [https://github.com/alexbatalov/fallout2-ce]
 
 ## 相关页面
 
-- [[open-source-game/fallout-community-edition]] — Fallout 1 清洁室重实现，同一作者
-- [[open-source-game/openmw]] — Morrowind 引擎重实现，同为经典 RPG 重实现参考
-- [[open-source-game/gemrb]] — Infinity Engine 重实现（Baldur's Gate/Icewind Dale），RPG 引擎重实现另一个范例
-- [[open-source-game/exult]] — Ultima VII 重实现，经典 RPG 重实现先例
+- [[fallout-community-edition]] — Fallout 1 清洁室重实现，同一作者
+- [[openmw]] — Morrowind 引擎重实现，同为经典 RPG 重实现参考
+- [[gemrb]] — Infinity Engine 重实现（Baldur's Gate/Icewind Dale），RPG 引擎重实现另一个范例
+- [[exult]] — Ultima VII 重实现，经典 RPG 重实现先例

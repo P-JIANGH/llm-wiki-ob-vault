@@ -60,9 +60,9 @@ Four collaborating sub-networks form the rendering pipeline:
 
 | Tool | Function | Difference from CoNR |
 |---|---|---|
-| [[ai-game-devtools/animate-anyone]] | Person image animation | Uses diffusion, requires reference video; CoNR uses character sheets + UDP |
-| [[ai-game-devtools/wav2lip]] | Lip-sync animation | Audio-driven facial animation; CoNR is full-body pose-driven |
-| [[ai-game-devtools/sadtalker]] | Talking head generation | Face-only audio-driven; CoNR is full-body pose-driven |
+| [[animate-anyone]] | Person image animation | Uses diffusion, requires reference video; CoNR uses character sheets + UDP |
+| [[wav2lip]] | Lip-sync animation | Audio-driven facial animation; CoNR is full-body pose-driven |
+| [[sadtalker]] | Talking head generation | Face-only audio-driven; CoNR is full-body pose-driven |
 
 ## Links
 

@@ -62,12 +62,12 @@ DrawingSpinUp converts a single 2D character drawing into a stylized 3D animated
 
 ## Differences from Related Tools
 
-- vs [[ai-game-devtools/wonder3d]]: Wonder3D focuses on static 3D reconstruction from single images; DrawingSpinUp extends this with animation and stylized contour restoration specifically for character drawings. DrawingSpinUp borrows rendering codes from Wonder3D.
-- vs [[ai-game-devtools/animate3d]]: Animate3D generates 3D motion from single images; DrawingSpinUp starts from 2D drawings and specifically preserves hand-drawn artistic contours during animation.
-- vs [[ai-game-devtools/animatediff]]: AnimateDiff animates existing images/drawings in 2D; DrawingSpinUp reconstructs full 3D geometry and renders from novel viewpoints.
+- vs [[wonder3d]]: Wonder3D focuses on static 3D reconstruction from single images; DrawingSpinUp extends this with animation and stylized contour restoration specifically for character drawings. DrawingSpinUp borrows rendering codes from Wonder3D.
+- vs [[animate3d]]: Animate3D generates 3D motion from single images; DrawingSpinUp starts from 2D drawings and specifically preserves hand-drawn artistic contours during animation.
+- vs [[animatediff]]: AnimateDiff animates existing images/drawings in 2D; DrawingSpinUp reconstructs full 3D geometry and renders from novel viewpoints.
 
 ## Related Projects
 
 - Further work: [From-Rigging-to-Waving](https://lordliang.github.io/From-Rigging-to-Waving/) by same authors
-- Built on: LaMa (contour removal), [[ai-game-devtools/wonder3d]] (rendering codes), Few-Shot-Patch-Based-Training (style transfer)
+- Built on: LaMa (contour removal), [[wonder3d]] (rendering codes), Few-Shot-Patch-Based-Training (style transfer)
 - Dataset: Amateur Drawings Dataset (Facebook Research / Meta AI)

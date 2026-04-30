@@ -59,9 +59,9 @@ sources: []
 
 ## Comparison to Other 3D Generation Models
 
-- Compared to [[ai-game-devtools/hunyuan3d-2]]: SF3D prioritizes speed; Hunyuan3D-2 focuses on quality with DiT architecture
-- Compared to [[ai-game-devtools/anything-3d]]: SF3D is a single unified model; Anything3D uses a multi-pipeline approach
-- Related to [[ai-game-devtools/llama-mesh]]: Both generate 3D from images but with different architectures
+- Compared to [[hunyuan3d-2]]: SF3D prioritizes speed; Hunyuan3D-2 focuses on quality with DiT architecture
+- Compared to [[anything-3d]]: SF3D is a single unified model; Anything3D uses a multi-pipeline approach
+- Related to [[llama-mesh]]: Both generate 3D from images but with different architectures
 
 ## References
 

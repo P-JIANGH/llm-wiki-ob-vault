@@ -55,7 +55,7 @@ Core dependencies:
 
 ## Capabilities vs. Alternatives
 
-| Feature | VideoMamba | [[ai-game-devtools/video-llava]] | [[ai-game-devtools/video-ccam]] | [[ai-game-devtools/videollama2]] |
+| Feature | VideoMamba | [[video-llava]] | [[video-ccam]] | [[videollama2]] |
 |---------|-----------|----------------------------------|----------------------------------|------------------------------------|
 | Complexity | O(n) linear (SSM) | Transformer | Transformer | Transformer |
 | Long video | Excellent (linear cost) | Limited | Limited | Moderate |
@@ -69,12 +69,12 @@ Video understanding is critical for:
 - **Gameplay video captioning / commentary generation**
 - **Video-based game state inference** for AI game testing
 - **Long-form game demo/stream understanding** for AI-assisted game design review
-- Combines well with [[ai-game-devtools/video-agent]] (ECCV 2024 memory-augmented video Agent)
+- Combines well with [[video-agent]] (ECCV 2024 memory-augmented video Agent)
 
 ## See Also
 
-- [[ai-game-devtools/videollama2]] — DAMO-NLP-SG video-language MLLM, Transformer-based alternative
-- [[ai-game-devtools/video-llava]] — PKU-YuanGroup unified image+video VLM
-- [[ai-game-devtools/video-ccam]] — Tencent causal cross-attention video model
-- [[ai-game-devtools/video-agent]] — Memory-augmented multimodal Agent for video Q&A
-- [[ai-game-devtools/lumina-t2x]] — OpenGVLab multi-modal DiT framework (same lab as VideoMamba)
+- [[videollama2]] — DAMO-NLP-SG video-language MLLM, Transformer-based alternative
+- [[video-llava]] — PKU-YuanGroup unified image+video VLM
+- [[video-ccam]] — Tencent causal cross-attention video model
+- [[video-agent]] — Memory-augmented multimodal Agent for video Q&A
+- [[lumina-t2x]] — OpenGVLab multi-modal DiT framework (same lab as VideoMamba)

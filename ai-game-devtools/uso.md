@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/uso.md]
 
 # USO — Unified Style and Subject-Driven Generation
 
-**USO** (Unified Style driven and subject-driven GeneratiOn) 是字节跳动智能创作实验室 UXO 团队开发的统一图像生成框架，将风格驱动和主体驱动生成统一到单个模型中。基于 [[ai-game-devtools/flux]] 架构构建，2025 年 8 月开源，Apache 2.0 许可。
+**USO** (Unified Style driven and subject-driven GeneratiOn) 是字节跳动智能创作实验室 UXO 团队开发的统一图像生成框架，将风格驱动和主体驱动生成统一到单个模型中。基于 [[flux]] 架构构建，2025 年 8 月开源，Apache 2.0 许可。
 
 ## 概述
 
@@ -33,7 +33,7 @@ sources: [raw/articles/ai-game-devtools/uso.md]
 ## 技术架构
 
 ### 基础模型
-- **基座**：[[ai-game-devtools/flux]]（支持 flux-dev / flux-dev-fp8 / flux-schnell）
+- **基座**：[[flux]]（支持 flux-dev / flux-dev-fp8 / flux-schnell）
 - **视觉编码器**：SigLIP（google/siglip-so400m-patch14-384），提取风格特征
 - **适配方式**：LoRA（rank=128，可配置）
 
@@ -59,15 +59,15 @@ uso/flux/
 
 ## ComfyUI 集成
 
-2025 年 9 月 3 日获得 [[ai-game-devtools/comfyui]] 原生支持（需 ComfyUI >= 0.3.57）。项目自带 6 个完整工作流示例（含输入/输出），可与 ControlNet、LoRA 等插件组合使用。
+2025 年 9 月 3 日获得 [[comfyui]] 原生支持（需 ComfyUI >= 0.3.57）。项目自带 6 个完整工作流示例（含输入/输出），可与 ControlNet、LoRA 等插件组合使用。
 
 ## 与同类工具对比
 
 | 工具 | 方法 | 核心思路 |
 |------|------|----------|
 | **USO** | FLUX LoRA + SigLIP | 统一风格+主体驱动，解耦学习+奖励学习 |
-| [[ai-game-devtools/pulid]] | 对比对齐+注意力注入 | 零样本身份保留，不需要 ControlNet 架构 |
-| [[ai-game-devtools/instantid]] | IdentityNet(ControlNet)+IP-Adapter | 零样本身份保留+文本可控 |
+| [[pulid]] | 对比对齐+注意力注入 | 零样本身份保留，不需要 ControlNet 架构 |
+| [[instantid]] | IdentityNet(ControlNet)+IP-Adapter | 零样本身份保留+文本可控 |
 
 ## 相关链接
 

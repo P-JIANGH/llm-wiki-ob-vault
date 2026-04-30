@@ -39,7 +39,7 @@ Text Prompt + Noise → Denoise Loop → Compute Temporal Attn → MSE Loss vs R
 |-----------|-------------|
 | `AnimationPipeline` | Main inference pipeline, adapted from Tune-A-Video; integrates VAE/UNet/Text Encoder/Scheduler |
 | `motionclone_functions.py` | Core logic: `obtain_motion_representation()` (extraction) + `compute_temp_loss()` (guidance) |
-| `VanillaTemporalModule` | Temporal transformer with self-attention blocks (from [[ai-game-devtools/animatediff]]) |
+| `VanillaTemporalModule` | Temporal transformer with self-attention blocks (from [[animatediff]]) |
 | `UNet3DConditionModel` | 3D UNet with temporal attention layers |
 | `SparseControlNet` | Conditioning adapter for image-to-video and sketch-to-video modes |
 
@@ -55,7 +55,7 @@ Text Prompt + Noise → Denoise Loop → Compute Temporal Attn → MSE Loss vs R
 ## Technical Details
 
 - **Base Model**: Stable Diffusion v1.5
-- **Motion Module**: [[ai-game-devtools/animatediff]] v3 (adapter + mm checkpoints)
+- **Motion Module**: [[animatediff]] v3 (adapter + mm checkpoints)
 - **Conditioning**: SparseCtrl (RGB + scribble variants)
 - **Framework**: diffusers 0.16.0 + PyTorch 2.0.1 + xformers
 - **Scheduler**: DDIM (configurable)
@@ -67,8 +67,8 @@ Text Prompt + Noise → Denoise Loop → Compute Temporal Attn → MSE Loss vs R
 | Tool | Training Required | Motion Source | Key Difference |
 |------|-------------------|---------------|----------------|
 | MotionClone | **No** | Reference video temporal attention | Training-free, no inversion |
-| [[ai-game-devtools/animatediff]] | No (pre-trained module) | Text prompt only | General T2V, no motion cloning |
-| [[ai-game-devtools/cogvideox]] | No (pre-trained) | Text/image prompt | Dedicated video model, not motion transfer |
+| [[animatediff]] | No (pre-trained module) | Text prompt only | General T2V, no motion cloning |
+| [[cogvideox]] | No (pre-trained) | Text/image prompt | Dedicated video model, not motion transfer |
 | Tune-A-Video | Yes (per-video fine-tuning) | Reference video | Requires fine-tuning per video |
 
 ## Authors

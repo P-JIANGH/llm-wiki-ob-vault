@@ -91,7 +91,7 @@ NVIDIA License — 仅限非商业研究使用。
 
 ## 与同类工具差异
 
-- 与 [[ai-game-devtools/phys-rig]] 不同：phys-rig 是物理驱动的骨骼绑定（2D 角色模拟），CALM 是 3D 人形角色的 RL 控制系统
-- 与 [[ai-game-devtools/motionllm]] 不同：MotionLLM 是运动理解/生成的 LLM 框架，CALM 是基于物理仿真的 RL 角色控制
+- 与 [[phys-rig]] 不同：phys-rig 是物理驱动的骨骼绑定（2D 角色模拟），CALM 是 3D 人形角色的 RL 控制系统
+- 与 [[motionllm]] 不同：MotionLLM 是运动理解/生成的 LLM 框架，CALM 是基于物理仿真的 RL 角色控制
 - 基于 Isaac Gym 仿真环境 + rl-games PPO，非 Unity/Unreal 引擎
 - 提供完整的 AMP (Adversarial Motion Priors) 实现作为独立功能，可用于单动作模仿

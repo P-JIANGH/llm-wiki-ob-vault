@@ -81,7 +81,7 @@ Prompt → T5 文本编码 → 随机噪声 + 条件 → DiT 迭代去噪（UniP
 
 ## 与同类工具对比
 
-- 与 [[ai-game-devtools/hunyuan-video]] 相比：HunyuanVideo 13B+ 参数（自研 DiT，综合评测 #1），MoviiGen 1.1 基于 Wan2.1 14B 微调（电影美学优化）；HunyuanVideo 侧重通用视频生成质量，MoviiGen 1.1 侧重电影级美学效果
-- 与 [[ai-game-devtools/cogvideox]] 相比：CogVideoX 提供 2B/5B/12B 多尺寸 + 完整微调工具链，MoviiGen 1.1 仅 14B 单尺寸但电影质量更优
-- 与 [[ai-game-devtools/ltx-video]] 相比：LTX-Video 支持 T2V/I2V/V2V 多模式 + LoRA 微调，MoviiGen 1.1 专注 T2V 电影质量
-- 与 [[ai-game-devtools/longlive]] 相比：LongLive 基于 Wan2.1 实现 240s 实时交互长视频，MoviiGen 1.1 侧重单次生成质量（81 帧）
+- 与 [[hunyuan-video]] 相比：HunyuanVideo 13B+ 参数（自研 DiT，综合评测 #1），MoviiGen 1.1 基于 Wan2.1 14B 微调（电影美学优化）；HunyuanVideo 侧重通用视频生成质量，MoviiGen 1.1 侧重电影级美学效果
+- 与 [[cogvideox]] 相比：CogVideoX 提供 2B/5B/12B 多尺寸 + 完整微调工具链，MoviiGen 1.1 仅 14B 单尺寸但电影质量更优
+- 与 [[ltx-video]] 相比：LTX-Video 支持 T2V/I2V/V2V 多模式 + LoRA 微调，MoviiGen 1.1 专注 T2V 电影质量
+- 与 [[longlive]] 相比：LongLive 基于 Wan2.1 实现 240s 实时交互长视频，MoviiGen 1.1 侧重单次生成质量（81 帧）

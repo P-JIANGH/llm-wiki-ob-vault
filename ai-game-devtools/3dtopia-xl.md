@@ -49,9 +49,9 @@ sources: [raw/articles/ai-game-devtools/3dtopia-xl.md]
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/hunyuan3d-2-1]]：3DTopia-XL 使用 PrimX 原始体表示而非 NeRF/3DGS，DiT 直接在压缩的 PrimX 空间扩散
-- 相比 [[ai-game-devtools/stable-fast-3d]]：3DTopia-XL 是纯扩散生成而非前馈重建，速度较慢但生成质量更高
-- 作为 [[ai-game-devtools/3dtopia]] 的扩展版本，从 Triplane/EG3D 架构升级到 PrimX/DiT 架构
+- 相比 [[hunyuan3d-2-1]]：3DTopia-XL 使用 PrimX 原始体表示而非 NeRF/3DGS，DiT 直接在压缩的 PrimX 空间扩散
+- 相比 [[stable-fast-3d]]：3DTopia-XL 是纯扩散生成而非前馈重建，速度较慢但生成质量更高
+- 作为 [[3dtopia]] 的扩展版本，从 Triplane/EG3D 架构升级到 PrimX/DiT 架构
 
 ## 相关链接
 

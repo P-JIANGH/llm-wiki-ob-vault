@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/stable-fast-3d.md]
 
 # SF3D (Stable Fast 3D)
 
-Stability AI 开源的单图像到 3D 网格重建模型，基于 [[ai-game-devtools/triposr]] 架构但引入了 UV 展开、光照解耦和材质预测等关键技术改进。
+Stability AI 开源的单图像到 3D 网格重建模型，基于 [[triposr]] 架构但引入了 UV 展开、光照解耦和材质预测等关键技术改进。
 
 ## 概述
 
@@ -64,7 +64,7 @@ SF3D (Stable Fast 3D) 是一个高性能的 feedforward 3D 网格重建模型，
 
 ## 与同类工具对比
 
-相比 [[ai-game-devtools/hunyuan3d-2-0]]（腾讯混元两阶段 3D 资产生成），SF3D 是端到端前馈模型而非扩散模型，推理速度更快但不支持文本到 3D。相比 [[ai-game-devtools/triposr]]，SF3D 增加了 UV 展开、PBR 材质预测和光照解耦，直接输出游戏可用资产。
+相比 [[hunyuan3d-2-0]]（腾讯混元两阶段 3D 资产生成），SF3D 是端到端前馈模型而非扩散模型，推理速度更快但不支持文本到 3D。相比 [[triposr]]，SF3D 增加了 UV 展开、PBR 材质预测和光照解耦，直接输出游戏可用资产。
 
 ## 相关链接
 

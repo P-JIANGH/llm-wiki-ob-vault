@@ -65,6 +65,6 @@ sources: [https://github.com/Wargus/war1gus]
 
 ## 相关页面
 
-- [[open-source-game/openra]] — C&C / 红警重实现，同为 Stratagus 生态
-- [[open-source-game/openbw]] — StarCraft 重实现，另一种经典 RTS 复刻路径
-- [[open-source-game/warzone-2100]] — 原创剧情 3D RTS，与 Warcraft 同年代 RTS 探索
+- [[openra]] — C&C / 红警重实现，同为 Stratagus 生态
+- [[openbw]] — StarCraft 重实现，另一种经典 RTS 复刻路径
+- [[warzone-2100]] — 原创剧情 3D RTS，与 Warcraft 同年代 RTS 探索

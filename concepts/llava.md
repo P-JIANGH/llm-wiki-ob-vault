@@ -25,7 +25,7 @@ LLaVA (Large Language and Vision Assistant) is a large multimodal model that con
 ## Relationship to Other Projects
 
 - Preceded by [[Mini-Gemini]] and [[CogVLM]] in the open VLM space
-- Competitor to [[GPT-4V]] and [[Gemini-VLM]] in the proprietary space
+- Competitor to [[GPT-4V]] and [[gemini]] in the proprietary space
 
 ## References
 

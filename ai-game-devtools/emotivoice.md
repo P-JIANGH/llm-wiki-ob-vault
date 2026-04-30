@@ -55,7 +55,7 @@ demo_page.py                 # Streamlit Web 演示
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/chat-tts]]：EmotiVoice 侧重情感控制 + 2000+ 音色，ChatTTS 侧重口语化自然表达
-- 相比 [[ai-game-devtools/dex-tts]]：EmotiVoice 用 PromptTTS 风格编码，DEX-TTS 用扩散模型 + 参考语音风格迁移
-- 相比 [[ai-game-devtools/bert-vits2]]：EmotiVoice 是 JETS 联合训练架构，Bert-VITS2 是 VITS 架构；EmotiVoice 侧重情感 Prompt，Bert-VITS2 侧重音色克隆
-- 相比 [[ai-game-devtools/cosyvoice]]：两者都支持情感 TTS，CosyVoice 是阿里通义实验室出品，EmotiVoice 是网易有道出品
+- 相比 [[chat-tts]]：EmotiVoice 侧重情感控制 + 2000+ 音色，ChatTTS 侧重口语化自然表达
+- 相比 [[dex-tts]]：EmotiVoice 用 PromptTTS 风格编码，DEX-TTS 用扩散模型 + 参考语音风格迁移
+- 相比 [[bert-vits2]]：EmotiVoice 是 JETS 联合训练架构，Bert-VITS2 是 VITS 架构；EmotiVoice 侧重情感 Prompt，Bert-VITS2 侧重音色克隆
+- 相比 [[cosyvoice]]：两者都支持情感 TTS，CosyVoice 是阿里通义实验室出品，EmotiVoice 是网易有道出品

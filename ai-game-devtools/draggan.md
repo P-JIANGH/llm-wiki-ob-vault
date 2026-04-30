@@ -47,9 +47,9 @@ DragGAN is an interactive image manipulation tool developed by researchers at MP
 
 | Tool | Approach | DragGAN Difference |
 |------|----------|-------------------|
-| [[ai-game-devtools/controlnet]] | Conditional diffusion with control maps | DragGAN uses point-based direct manipulation on GAN latent space, not diffusion |
-| [[ai-game-devtools/conceptlab]] | VLM-guided creative concept generation | DragGAN focuses on precise geometric/spatial manipulation, not creative generation |
-| [[ai-game-devtools/disco-diffusion]] | CLIP-guided diffusion animation | DragGAN operates on StyleGAN manifold for interactive editing, not text-to-image generation |
+| [[controlnet]] | Conditional diffusion with control maps | DragGAN uses point-based direct manipulation on GAN latent space, not diffusion |
+| [[conceptlab]] | VLM-guided creative concept generation | DragGAN focuses on precise geometric/spatial manipulation, not creative generation |
+| [[disco-diffusion]] | CLIP-guided diffusion animation | DragGAN operates on StyleGAN manifold for interactive editing, not text-to-image generation |
 
 ## License
 
@@ -67,6 +67,6 @@ DragGAN is an interactive image manipulation tool developed by researchers at MP
 
 ## References
 
-- [[ai-game-devtools/controlnet]] — Conditional diffusion model control (alternative approach)
-- [[ai-game-devtools/conceptlab]] — VLM-guided creative generation (related image tool)
-- [[ai-game-devtools/disco-diffusion]] — Diffusion-based image/animation generation (alternative)
+- [[controlnet]] — Conditional diffusion model control (alternative approach)
+- [[conceptlab]] — VLM-guided creative generation (related image tool)
+- [[disco-diffusion]] — Diffusion-based image/animation generation (alternative)

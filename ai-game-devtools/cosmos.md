@@ -67,8 +67,8 @@ Cosmos 平台包含三类核心模型：
 
 ## 与同类工具的差异
 
-- 相较于 [[ai-game-devtools/aios]]（LLM OS 框架）专注于 Agent 调度，Cosmos 聚焦于**物理世界视频生成与仿真**
-- 相较于 [[ai-game-devtools/corenet]]（通用视觉训练框架），Cosmos 更专注于**时序视频世界模型**而非静态视觉任务
+- 相较于 [[aios]]（LLM OS 框架）专注于 Agent 调度，Cosmos 聚焦于**物理世界视频生成与仿真**
+- 相较于 [[corenet]]（通用视觉训练框架），Cosmos 更专注于**时序视频世界模型**而非静态视觉任务
 - Cosmos 的独特之处在于同时提供"生成-迁移-推理"三位一体的闭环物理 AI 工具链
 
 ---

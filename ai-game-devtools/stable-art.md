@@ -24,7 +24,7 @@ sources: [raw/articles/ai-game-devtools/stable-art.md]
 
 - **前端框架：** Vue 2.7.14 + Vue CLI 5.0 + SCSS
 - **插件运行时：** Adobe UXP（Photoshop 插件框架）
-- **后端 API：** [[ai-game-devtools/sd-webui-controlnet]] 的同源 Automatic1111 SD WebUI REST API
+- **后端 API：** [[sd-webui-controlnet]] 的同源 Automatic1111 SD WebUI REST API
 - **图像处理：** Jimp（JavaScript 图像操作库）
 - **错误追踪：** Sentry（Vue + BrowserTracing 全链路追踪）
 - **HTTP 客户端：** Axios
@@ -56,8 +56,8 @@ Photoshop (UXP 运行时)
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/comfyui]]（独立节点式 UI）：Stable.art 直接嵌入 Photoshop，设计师无需离开专业软件
-- 相比 [[ai-game-devtools/sd-webui-controlnet]] 的 WebUI：Stable.art 专注 PSD 内直接生成/修图，而非独立 Web 应用
+- 相比 [[comfyui]]（独立节点式 UI）：Stable.art 直接嵌入 Photoshop，设计师无需离开专业软件
+- 相比 [[sd-webui-controlnet]] 的 WebUI：Stable.art 专注 PSD 内直接生成/修图，而非独立 Web 应用
 - 选区即蒙版的零门槛设计：不需要学习 ControlNet 预处理器或手动绘制蒙版
 
 ## 相关链接

@@ -24,8 +24,8 @@ CogVLM2 introduces a visual expert adaptation mechanism on top of Llama3-8B, ena
 
 | Model | Language | Task | Context | Resolution |
 |-------|----------|------|---------|------------|
-| [[ai-game-devtools/cogvlm2\|cogvlm2-llama3-chat-19B]] | English | Image + Multi-turn | 8K | 1344×1344 |
-| [[ai-game-devtools/cogvlm2\|cogvlm2-llama3-chinese-chat-19B]] | Chinese+English | Image + Multi-turn | 8K | 1344×1344 |
+| [[cogvlm2\|cogvlm2-llama3-chat-19B]] | English | Image + Multi-turn | 8K | 1344×1344 |
+| [[cogvlm2\|cogvlm2-llama3-chinese-chat-19B]] | Chinese+English | Image + Multi-turn | 8K | 1344×1344 |
 | cogvlm2-video-llama3-chat | English | Video, Single-turn | 2K | 24 frames |
 | cogvlm2-video-llama3-base | English | Video, Base | 2K | 24 frames avg |
 

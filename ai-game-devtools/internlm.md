@@ -58,10 +58,10 @@ InternLM 可用于游戏开发中的多个环节：
 
 ## Related Links
 
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek 推理模型，纯 RL 路线
-- [[ai-game-devtools/glm-4]] — 智谱 GLM-4 系列，32B 参数，函数调用能力强
-- [[ai-game-devtools/qwen2]] — 阿里通义千问 2 系列
-- [[ai-game-devtools/llmunity]] — Unity LLM 接入工具
+- [[deepseek-r1]] — DeepSeek 推理模型，纯 RL 路线
+- [[glm-4]] — 智谱 GLM-4 系列，32B 参数，函数调用能力强
+- [[qwen2]] — 阿里通义千问 2 系列
+- [[llmunity]] — Unity LLM 接入工具
 
 ## Performance Comparison (8B class)
 

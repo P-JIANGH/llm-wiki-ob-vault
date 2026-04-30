@@ -57,8 +57,8 @@ The pipeline consists of three stages:
 
 ## Related Tools
 
-- [[ai-game-devtools/genesis]] — General-purpose physics engine with MPM solver, also ICCV 2025
-- [[ai-game-devtools/hunyuan3d-2]] — Tencent's 3D asset generation pipeline, complementary for asset creation
+- [[genesis]] — General-purpose physics engine with MPM solver, also ICCV 2025
+- [[hunyuan3d-2]] — Tencent's 3D asset generation pipeline, complementary for asset creation
 
 ## Citation
 

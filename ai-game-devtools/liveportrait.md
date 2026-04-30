@@ -67,7 +67,7 @@ Apache 2.0
 - HuggingFace: https://huggingface.co/spaces/KlingTeam/LivePortrait
 
 ## 与同类工具比较
-- 与 [[ai-game-devtools/hallo]]（复旦音频驱动）不同，LivePortrait 使用**视频/图像驱动**而非音频驱动
-- 与 [[ai-game-devtools/hallo2]] 相比，LivePortrait 支持精确的表情/姿态参数编辑（retargeting）
-- 与 [[ai-game-devtools/echo-mimic]]（蚂蚁音频驱动）互补，分别面向视觉驱动和音频驱动场景
-- [[ai-game-devtools/chatdollkit]] 可集成 LivePortrait 作为 Avatar 渲染后端
+- 与 [[hallo]]（复旦音频驱动）不同，LivePortrait 使用**视频/图像驱动**而非音频驱动
+- 与 [[hallo2]] 相比，LivePortrait 支持精确的表情/姿态参数编辑（retargeting）
+- 与 [[echo-mimic]]（蚂蚁音频驱动）互补，分别面向视觉驱动和音频驱动场景
+- [[chatdollkit]] 可集成 LivePortrait 作为 Avatar 渲染后端

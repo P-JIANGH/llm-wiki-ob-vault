@@ -56,9 +56,9 @@ ID-Animator solves the identity preservation problem in video generation. Existi
 | Tool | Task | ID Preservation | Training | Video |
 |------|------|----------------|----------|-------|
 | ID-Animator | Video generation | Face adapter (zero-shot) | Pre-trained | Yes |
-| [[ai-game-devtools/aniportrait]] | Portrait animation | Audio-driven | Pre-trained | Yes |
-| [[ai-game-devtools/animatediff]] | General video gen | No (text-only) | Pre-trained | Yes |
-| [[ai-game-devtools/liveportrait]] | Portrait animation | Face landmark-driven | Pre-trained | Yes |
+| [[aniportrait]] | Portrait animation | Audio-driven | Pre-trained | Yes |
+| [[animatediff]] | General video gen | No (text-only) | Pre-trained | Yes |
+| [[liveportrait]] | Portrait animation | Face landmark-driven | Pre-trained | Yes |
 
 ## Links
 

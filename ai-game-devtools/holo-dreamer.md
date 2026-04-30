@@ -50,10 +50,10 @@ MIT License — Copyright (c) 2024 zhouhyOcean
 
 ## Related
 
-- 与 [[ai-game-devtools/gaussiandreamer]] 同属 3D Gaussian Splatting 文本到 3D 生成，但 HoloDreamer 强调**全景图初始化**而非 SDS 优化
-- 与 [[ai-game-devtools/dreamgaussian4d]] 同属 Dreamer 系列 3D 生成方法，但 HoloDreamer 聚焦静态 3D 全景而非 4D 动态场景
-- 与 [[ai-game-devtools/city-dreamer]] 同属场景生成工具，但 HoloDreamer 使用 3DGS 重建而 CityDreamer 使用不同管线
-- 与 [[ai-game-devtools/dreamspace]] 同属 3D 场景生成工具，但 HoloDreamer 专攻全景一致性
+- 与 [[gaussiandreamer]] 同属 3D Gaussian Splatting 文本到 3D 生成，但 HoloDreamer 强调**全景图初始化**而非 SDS 优化
+- 与 [[dreamgaussian4d]] 同属 Dreamer 系列 3D 生成方法，但 HoloDreamer 聚焦静态 3D 全景而非 4D 动态场景
+- 与 [[city-dreamer]] 同属场景生成工具，但 HoloDreamer 使用 3DGS 重建而 CityDreamer 使用不同管线
+- 与 [[dreamspace]] 同属 3D 场景生成工具，但 HoloDreamer 专攻全景一致性
 
 ## Links
 

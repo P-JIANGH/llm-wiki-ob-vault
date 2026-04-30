@@ -85,7 +85,7 @@ MIT License — 可商用
 
 ## 与同类工具差异
 
-与 [[ai-game-devtools/stable-diffusion]] 原始 Python 实现相比，本项目完全用 C/C++ 重写推理逻辑，不依赖 PyTorch。与 [[ai-game-devtools/comfyui]]（节点图式 SD 引擎）相比，stable-diffusion.cpp 是底层推理库而非用户界面。与 [[ai-game-devtools/text-generation-webui]] 类似定位到 llama.cpp 在 LLM 生态中的角色——提供轻量、可嵌入、跨平台的本地推理能力。
+与 [[stable-diffusion]] 原始 Python 实现相比，本项目完全用 C/C++ 重写推理逻辑，不依赖 PyTorch。与 [[comfyui]]（节点图式 SD 引擎）相比，stable-diffusion.cpp 是底层推理库而非用户界面。与 [[text-generation-webui]] 类似定位到 llama.cpp 在 LLM 生态中的角色——提供轻量、可嵌入、跨平台的本地推理能力。
 
 ## 近期更新
 

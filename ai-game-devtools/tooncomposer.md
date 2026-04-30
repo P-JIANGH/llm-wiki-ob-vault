@@ -59,9 +59,9 @@ python app.py  # → http://localhost:7860
 
 ## 与同类工具差异
 
-- vs [[ai-game-devtools/animatediff]]: AnimateDiff 是通用视频扩散的运动模块插件；ToonComposer 是专门的卡通生产管线，针对卡通风格的后关键帧补间和上色做了端到端优化
-- vs [[ai-game-devtools/index-anisora]]: Index-Anisora 侧重动漫风格视频生成（支持多风格）；ToonComposer 聚焦动画制作流程中的关键帧到成品动画的补全环节
-- vs [[ai-game-devtools/animate-anyone]]: AnimateAnyone 是基于姿态序列的角色动画；ToonComposer 基于草图+颜色掩码，面向完整的卡通生产管线
+- vs [[animatediff]]: AnimateDiff 是通用视频扩散的运动模块插件；ToonComposer 是专门的卡通生产管线，针对卡通风格的后关键帧补间和上色做了端到端优化
+- vs [[index-anisora]]: Index-Anisora 侧重动漫风格视频生成（支持多风格）；ToonComposer 聚焦动画制作流程中的关键帧到成品动画的补全环节
+- vs [[animate-anyone]]: AnimateAnyone 是基于姿态序列的角色动画；ToonComposer 基于草图+颜色掩码，面向完整的卡通生产管线
 
 ## 发布时间线
 

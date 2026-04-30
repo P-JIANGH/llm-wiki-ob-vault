@@ -48,7 +48,7 @@ sources: [raw/articles/ai-game-devtools/money-printer-turbo.md]
 
 ## 与其他工具的差异
 
-| 对比维度 | MoneyPrinterTurbo | [[ai-game-devtools/diffsynth-studio]] | [[ai-game-devtools/comfyui]] |
+| 对比维度 | MoneyPrinterTurbo | [[diffsynth-studio]] | [[comfyui]] |
 |---------|-------------------|-------------------------------------|---------------------------|
 | 定位 | 端到端短视频生成 | 扩散模型推理/训练引擎 | 模块化视觉 AI 引擎 |
 | 输入 | 文本主题/关键词 | 提示词+控制图 | 节点图 |
@@ -59,9 +59,9 @@ sources: [raw/articles/ai-game-devtools/money-printer-turbo.md]
 
 ## 相关项目
 
-- [[ai-game-devtools/dify]] — 同类 LLM 应用开发平台，但偏通用 Agent 而非视频生成
-- [[ai-game-devtools/text-generation-webui]] — 提供 LLM 推理后端，MoneyPrinterTurbo 可对接
-- [[ai-game-devtools/diffsynth-studio]] — ModelScope 扩散模型引擎，支持视频生成
+- [[dify]] — 同类 LLM 应用开发平台，但偏通用 Agent 而非视频生成
+- [[text-generation-webui]] — 提供 LLM 推理后端，MoneyPrinterTurbo 可对接
+- [[diffsynth-studio]] — ModelScope 扩散模型引擎，支持视频生成
 
 ## 许可证
 

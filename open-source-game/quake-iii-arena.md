@@ -90,7 +90,7 @@ Quake III 最核心的创新：**游戏逻辑运行在 QVM 虚拟机上**
 
 ## 相关页面
 
-- [[open-source-game/quake]] — Quake 1（BSP 架构起源）
-- [[open-source-game/quake-2]] — Quake 2（DLL 架构对比）
-- [[open-source-game/doom]] — id Software FPS 经典
-- [[open-source-game/chocolate-doom]] — Doom 还原端口
+- [[quake]] — Quake 1（BSP 架构起源）
+- [[quake-2]] — Quake 2（DLL 架构对比）
+- [[doom]] — id Software FPS 经典
+- [[chocolate-doom]] — Doom 还原端口

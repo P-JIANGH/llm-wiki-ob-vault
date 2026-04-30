@@ -27,7 +27,7 @@ sources: []
 
 ### 与 BuildGDX 的差异
 
-NuBuildGDX 是 [[open-source-game/buildgdx]] 的稳定化分支，核心架构相同，差异在于：
+NuBuildGDX 是 [[buildgdx]] 的稳定化分支，核心架构相同，差异在于：
 
 1. **稳定优先策略**：不追求新功能，专注于 bug 修复和代码稳定性
 2. **上游同步**：从 BuildGDX 定期同步代码，但经过稳定性审查
@@ -81,16 +81,16 @@ NuBuildGDX 本身是引擎而非游戏，需要配合原版游戏数据文件运
 
 | 方向 | 启示 |
 |------|------|
-| **Fork 策略** | 对于已有项目，稳定化分支（stability-first fork）是平衡社区贡献与质量控制的有效模式——[[open-source-game/eduke32]] 也有类似的社区分支模式 |
+| **Fork 策略** | 对于已有项目，稳定化分支（stability-first fork）是平衡社区贡献与质量控制的有效模式——[[eduke32]] 也有类似的社区分支模式 |
 | **依赖管理** | 宁可使用旧版稳定依赖（libGDX 1.9.10）也不追新——对于需要长期维护的游戏项目，依赖稳定性 > 功能最新 |
-| **Java 游戏工程** | ~375 个 Java 文件证明了大型 Java 游戏项目的可行性，与 [[open-source-game/buildgdx]] 相同的架构思路 |
+| **Java 游戏工程** | ~375 个 Java 文件证明了大型 Java 游戏项目的可行性，与 [[buildgdx]] 相同的架构思路 |
 | **游戏引擎模块化** | Engine.java 核心 + Pattern/ + Render/ 的分层设计——游戏引擎核心与平台渲染/输入抽象分离的经典模式 |
 
 ## 相关页面
 
-- [[open-source-game/buildgdx]] — NuBuildGDX 的上游项目，Java/LibGDX Build Engine 移植
-- [[open-source-game/eduke32]] — 同为 Build Engine 端口，C++/SDL2 实现，功能更丰富
-- [[open-source-game/nblood]] — Blood 游戏端口，基于 EDuke32
-- [[open-source-game/raze]] — GZDoom 技术的 Build 多游戏合一引擎
-- [[open-source-game/jfduke3d]] — Jonathon Fowler 的 Duke Nukem 3D 端口
+- [[buildgdx]] — NuBuildGDX 的上游项目，Java/LibGDX Build Engine 移植
+- [[eduke32]] — 同为 Build Engine 端口，C++/SDL2 实现，功能更丰富
+- [[nblood]] — Blood 游戏端口，基于 EDuke32
+- [[raze]] — GZDoom 技术的 Build 多游戏合一引擎
+- [[jfduke3d]] — Jonathon Fowler 的 Duke Nukem 3D 端口
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比

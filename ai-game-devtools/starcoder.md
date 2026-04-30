@@ -88,11 +88,11 @@ StarCoder 可用于 AI 辅助游戏开发：
 
 ## Related Pages
 
-- [[ai-game-devtools/starcoder-2]] — StarCoder 第二代：3B/7B/15B，GQA+Sliding Window，Apache 2.0
-- [[ai-game-devtools/deepseek-coder]] — DeepSeekAI 代码模型（1B-33B），2T tokens 预训练
-- [[ai-game-devtools/code-llama]] — Meta 基于 Llama 2 的代码大模型（7B-70B）
-- [[ai-game-devtools/codegen]] — Salesforce 代码生成模型家族（CodeGen1/2/2.5）
-- [[ai-game-devtools/codegeex]] — THUDM 13B 多语言代码生成模型
+- [[starcoder-2]] — StarCoder 第二代：3B/7B/15B，GQA+Sliding Window，Apache 2.0
+- [[deepseek-coder]] — DeepSeekAI 代码模型（1B-33B），2T tokens 预训练
+- [[code-llama]] — Meta 基于 Llama 2 的代码大模型（7B-70B）
+- [[codegen]] — Salesforce 代码生成模型家族（CodeGen1/2/2.5）
+- [[codegeex]] — THUDM 13B 多语言代码生成模型
 
 ## Links
 

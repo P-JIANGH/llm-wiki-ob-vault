@@ -61,14 +61,14 @@ CSGO/
 
 ## 与同类工具差异
 
-| 维度 | CSGO | [[ai-game-devtools/controlnet]] | [[ai-game-devtools/comfyui]] |
+| 维度 | CSGO | [[controlnet]] | [[comfyui]] |
 |:---|:---|:---|:---|
 | 核心功能 | 内容-风格解耦生成 | 条件图控制扩散模型 | 节点图 SD 管线引擎 |
 | 架构基础 | SDXL + IP-Adapter | SD 系列（多种版本） | SD/Flux/视频全支持 |
 | 控制粒度 | 内容 Token + 风格 Token | 9 种条件图并行 | 自由节点组合 |
 | 定位 | 风格化生成专用 | 通用条件控制 | 通用工作流编排 |
 
-CSGO 与 [[ai-game-devtools/autostudio]] 都探索了多智能体/多阶段图像生成，但 CSGO 专注于单张图像的内容-风格解耦，而非多主题一致性管理。
+CSGO 与 [[autostudio]] 都探索了多智能体/多阶段图像生成，但 CSGO 专注于单张图像的内容-风格解耦，而非多主题一致性管理。
 
 ## 作者与机构
 
@@ -82,6 +82,6 @@ README 未明确标注（需查看仓库 LICENSE 文件）。
 
 ## 相关链接
 
-- [[ai-game-devtools/controlnet]] — ICCV 2023 条件扩散控制，CSGO 使用其 Tile 变体
-- [[ai-game-devtools/comfyui]] — 模块化视觉 AI 引擎，可与 CSGO 集成使用
-- [[ai-game-devtools/autostudio]] — 多轮交互式图像生成框架，多智能体风格探索
+- [[controlnet]] — ICCV 2023 条件扩散控制，CSGO 使用其 Tile 变体
+- [[comfyui]] — 模块化视觉 AI 引擎，可与 CSGO 集成使用
+- [[autostudio]] — 多轮交互式图像生成框架，多智能体风格探索

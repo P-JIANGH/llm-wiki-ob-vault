@@ -78,9 +78,9 @@ flash_attn>=2.6.3
 
 ## 相关模型
 
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek 推理模型，纯 RL 涌现，671B MoE
-- [[ai-game-devtools/qwen3]] — 通义千问第三代，MoE+Dense 双模式，235B-A22B
-- [[ai-game-devtools/s1]] — SimpleScaling 测试时扩展，Budget Forcing 逼出推理能力
+- [[deepseek-r1]] — DeepSeek 推理模型，纯 RL 涌现，671B MoE
+- [[qwen3]] — 通义千问第三代，MoE+Dense 双模式，235B-A22B
+- [[s1]] — SimpleScaling 测试时扩展，Budget Forcing 逼出推理能力
 
 ## 链接
 

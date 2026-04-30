@@ -46,7 +46,7 @@ LLaVA-NeXT enables:
 
 ## Related Projects
 
-- [[ai-game-devtools/llava]] — Original LLaVA, the foundation for LLaVA-NeXT improvements
-- [[ai-game-devtools/mini-gemini]] — Alternative multimodal VLM with dual encoder approach
-- [[ai-game-devtools/qwen2-5]] — Qwen 2.5 LLM backbone used in some LLaVA-NeXT variants
-- [[ai-game-devtools/cogvlm]] — THUDM open-source VLM with GUI agent capabilities
+- [[llava]] — Original LLaVA, the foundation for LLaVA-NeXT improvements
+- [[mini-gemini]] — Alternative multimodal VLM with dual encoder approach
+- [[qwen2-5]] — Qwen 2.5 LLM backbone used in some LLaVA-NeXT variants
+- [[cogvlm]] — THUDM open-source VLM with GUI agent capabilities

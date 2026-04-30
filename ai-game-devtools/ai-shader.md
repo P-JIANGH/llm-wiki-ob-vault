@@ -58,5 +58,5 @@ AI Shader is a proof-of-concept **ChatGPT-powered shader generator for Unity**. 
 
 ## Links
 
-- [[ai-game-devtools/ai-command]] — keijiro's AI-powered Unity Editor scripting tool
-- [[ai-game-devtools/unity-ml-stable-diffusion]] — keijiro's local ML image generation tool
+- [[ai-command]] — keijiro's AI-powered Unity Editor scripting tool
+- [[unity-ml-stable-diffusion]] — keijiro's local ML image generation tool

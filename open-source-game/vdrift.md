@@ -83,5 +83,5 @@ src/
 
 ## 相关页面
 
-- [[open-source-game/endless-sky]] — 太空探索贸易，另一个开源模拟游戏
-- [[open-source-game/openra]] — 开源游戏复刻项目
+- [[endless-sky]] — 太空探索贸易，另一个开源模拟游戏
+- [[openra]] — 开源游戏复刻项目

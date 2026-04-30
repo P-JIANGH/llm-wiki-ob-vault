@@ -39,7 +39,7 @@ sources: [raw/articles/thu-maic-openmaic-2026.md]
 
 ## 与其他多 Agent 框架的对比
 
-| 维度 | OpenMAIC | [[nanobot]] | [[DeerFlow]] | [[ClawTeam]] |
+| 维度 | OpenMAIC | [[nanobot]] | [[deer-flow]] | [[ClawTeam]] |
 |------|----------|-------------|--------------|--------------|
 | 定位 | AI 教育平台 | 通用 Agent | Super Agent Harness | Agent Swarm |
 | 核心创新 | 课堂互动/白板 | 轻量/HKUDS | LangGraph + Sandbox | CLI组队 |

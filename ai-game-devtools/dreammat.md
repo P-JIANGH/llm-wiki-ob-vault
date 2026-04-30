@@ -13,12 +13,12 @@ sources: [raw/articles/ai-game-devtools/dreammat.md]
 
 ## Overview
 
-**DreamMat** 是由浙江大学、腾讯等机构联合开发的 PBR（基于物理的渲染）材质生成工具，发表于 **SIGGRAPH 2024**（ACM Transactions on Graphics, Vol. 43, No. 4, Article 39）。项目基于 [[ai-game-devtools/stable-diffusion]] 2.1 和自定义的 **Geometry- and Light-aware ControlNet**，实现从文本提示词和初始几何体生成高质量的 albedo、roughness、metallic 三张贴图。
+**DreamMat** 是由浙江大学、腾讯等机构联合开发的 PBR（基于物理的渲染）材质生成工具，发表于 **SIGGRAPH 2024**（ACM Transactions on Graphics, Vol. 43, No. 4, Article 39）。项目基于 [[stable-diffusion]] 2.1 和自定义的 **Geometry- and Light-aware ControlNet**，实现从文本提示词和初始几何体生成高质量的 albedo、roughness、metallic 三张贴图。
 
 ## 核心创新
 
 - **几何与光照感知扩散模型**：在扩散过程中同时感知 3D 几何形状和环境光照条件，生成物理一致的材质属性
-- **自定义 Light-aware ControlNet**：基于 [[ai-game-devtools/controlnet]] 范式，但专门针对光照条件进行训练，使用环境贴图（EXR 格式）作为条件输入
+- **自定义 Light-aware ControlNet**：基于 [[controlnet]] 范式，但专门针对光照条件进行训练，使用环境贴图（EXR 格式）作为条件输入
 - **SDS 引导优化**：使用 Score Distillation Sampling 从预训练的扩散模型中蒸馏 3D 材质知识，30,000 步优化
 
 ## 技术架构
@@ -53,9 +53,9 @@ python launch.py --config configs/dreammat.yaml --train --gradio --gpu 0 \
 
 ## 与同类工具对比
 
-- vs [[ai-game-devtools/syncdreamer]]：SyncDreamer 专注于多视角一致的新视图合成，DreamMat 专注于 PBR 材质属性（albedo/roughness/metallic）生成
-- vs [[ai-game-devtools/controlnet]]：DreamMat 扩展了 ControlNet 的光照条件控制能力，专门针对 3D 材质生成优化
-- 与 [[ai-game-devtools/stable-diffusion]] 生态深度集成，使用 SD 2.1 base 作为先验知识来源
+- vs [[syncdreamer]]：SyncDreamer 专注于多视角一致的新视图合成，DreamMat 专注于 PBR 材质属性（albedo/roughness/metallic）生成
+- vs [[controlnet]]：DreamMat 扩展了 ControlNet 的光照条件控制能力，专门针对 3D 材质生成优化
+- 与 [[stable-diffusion]] 生态深度集成，使用 SD 2.1 base 作为先验知识来源
 
 ## 许可证
 

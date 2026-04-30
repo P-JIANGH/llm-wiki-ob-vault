@@ -77,9 +77,9 @@ mesh.export('output.obj')
 
 ## 与同类工具对比
 
-- 相比 [[ai-game-devtools/crm]]（10 秒单图→3D），Direct3D-S2 在 1024³ 分辨率下生成更高精细度的 SDF 网格，但需要更多显存和推理时间
-- 相比 [[ai-game-devtools/syncdreamer]]（多视角扩散→3D 重建），Direct3D-S2 直接从单图生成，无需多视角同步生成步骤
-- 相比 [[ai-game-devtools/anything-3d]]（四路管线 3D 重建），Direct3D-S2 采用统一的端到端扩散框架，训练更高效
+- 相比 [[crm]]（10 秒单图→3D），Direct3D-S2 在 1024³ 分辨率下生成更高精细度的 SDF 网格，但需要更多显存和推理时间
+- 相比 [[syncdreamer]]（多视角扩散→3D 重建），Direct3D-S2 直接从单图生成，无需多视角同步生成步骤
+- 相比 [[anything-3d]]（四路管线 3D 重建），Direct3D-S2 采用统一的端到端扩散框架，训练更高效
 
 ## 版本历史
 

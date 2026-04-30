@@ -64,10 +64,10 @@ The project was created as a response to commercial AI search products that prio
 
 ## Related Projects
 
-- [[ai-game-devtools/llama-cpp]] — Alternative local LLM runtime
-- [[ai-game-devtools/langchain]] — Original Python framework that inspired langchaingo
-- [[ai-game-devtools/llama-index]] — Similar RAG-based document search framework
-- [[ai-game-devtools/open-interpreter]] — Another local AI agent tool
+- [[llama-cpp]] — Alternative local LLM runtime
+- [[langchain]] — Original Python framework that inspired langchaingo
+- [[llama-index]] — Similar RAG-based document search framework
+- [[open-interpreter]] — Another local AI agent tool
 
 ## Notes
 

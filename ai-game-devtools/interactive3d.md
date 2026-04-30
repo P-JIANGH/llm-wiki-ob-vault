@@ -54,9 +54,9 @@ Published at CVPR 2024.
 
 ## Comparison with Related Tools
 
-- **vs [[ai-game-devtools/hunyuan3d-1]]:** Hunyuan3D is a one-shot text/image-to-3D pipeline (10-25s), while Interactive3D focuses on iterative user-guided generation with real-time editing
-- **vs [[ai-game-devtools/syncdreamer]]:** SyncDreamer generates multiview images for 3D reconstruction (one-shot), while Interactive3D provides a continuous interactive loop for progressive refinement
-- **vs [[ai-game-devtools/dreamgaussian4d]]:** DreamGaussian4D extends 3D to 4D (dynamic scenes); Interactive3D stays in 3D but adds the human-in-the-loop editing capability
+- **vs [[hunyuan3d-1]]:** Hunyuan3D is a one-shot text/image-to-3D pipeline (10-25s), while Interactive3D focuses on iterative user-guided generation with real-time editing
+- **vs [[syncdreamer]]:** SyncDreamer generates multiview images for 3D reconstruction (one-shot), while Interactive3D provides a continuous interactive loop for progressive refinement
+- **vs [[dreamgaussian4d]]:** DreamGaussian4D extends 3D to 4D (dynamic scenes); Interactive3D stays in 3D but adds the human-in-the-loop editing capability
 
 ## Source References
 

@@ -128,3 +128,4 @@ GeneralsMD/                   # Zero Hour 扩展包 (独立平行结构)
 - **游戏数据分离**：需持有原版游戏（C&C Ultimate Collection on Steam/EA App）
 - **Steam Workshop**：EA 提供了 Workshop 支持（Generals appid=2229870 / Zero Hour appid=2732960）
 - **对比 CnC Remastered**：CnC_Remastered_Collection 是 C&C TD+RA 的源码，本项目是 Generals+Zero Hour 的源码，两者是不同游戏
+

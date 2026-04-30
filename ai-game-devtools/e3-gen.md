@@ -43,9 +43,9 @@ E3Gen (Efficient, Expressive and Editable Avatars Generation) 是一个 PyTorch 
 - 许可证: 学术研究用途
 
 ## 与同类工具差异
-- 相比 [[ai-game-devtools/aniportrait]]（2D 音频驱动肖像），E3Gen 专注于完整 3D 人体 Avatar 生成
-- 相比 [[ai-game-devtools/echomimic]]（音频驱动说话头），E3Gen 支持全身 + 可编辑 + 新姿态动画
-- 相比 [[ai-game-devtools/emoportraits]]（单镜头 3D 头像），E3Gen 基于 SMPL-X 参数化人体模型，支持全身姿态
+- 相比 [[aniportrait]]（2D 音频驱动肖像），E3Gen 专注于完整 3D 人体 Avatar 生成
+- 相比 [[echomimic]]（音频驱动说话头），E3Gen 支持全身 + 可编辑 + 新姿态动画
+- 相比 [[emoportraits]]（单镜头 3D 头像），E3Gen 基于 SMPL-X 参数化人体模型，支持全身姿态
 
 ## 作者
 Zhang Weitian, Yan Yichao, Liu Yunhui, Sheng Xingdong, Yang Xiaokang

@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/step-audio.md]
 
 ## Overview
 
-Step-Audio is an intelligent speech interaction framework by [StepFun](阶跃星辰), integrating speech comprehension and generation in a single unified 130B-parameter multimodal model. It supports multilingual conversations (Chinese, English, Japanese), emotional tones, regional dialects, adjustable speech rates, and prosodic styles including rap. The project was released on Feb 17, 2025, and is now superseded by [[step-audio-2]] for end-to-end speech conversation and [[step-audio-r1]] for speech reasoning.
+Step-Audio is an intelligent speech interaction framework by [StepFun](阶跃星辰), integrating speech comprehension and generation in a single unified 130B-parameter multimodal model. It supports multilingual conversations (Chinese, English, Japanese), emotional tones, regional dialects, adjustable speech rates, and prosodic styles including rap. The project was released on Feb 17, 2025, and is now superseded by [[step-audio-2]] for end-to-end speech conversation and [[step-audio]] for speech reasoning.
 
 ## Architecture
 
@@ -66,7 +66,7 @@ Step-Audio is an intelligent speech interaction framework by [StepFun](阶跃星
 
 - Uses [[cosyvoice]] vocoder components (300M base + music)
 - Compared against [[moshi]], [[glm-4-voice]], and [[qwen2-audio]] in benchmarks
-- Superseded by [[step-audio-2]] (end-to-end) and [[step-audio-r1]] (reasoning)
+- Superseded by [[step-audio-2]] (end-to-end) and [[step-audio]] (reasoning)
 - Online version available via 跃问 (yuewen.cn)
 
 ## Technical Details

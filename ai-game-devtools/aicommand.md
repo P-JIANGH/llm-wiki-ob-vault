@@ -67,10 +67,10 @@ API key stored in `UserSettings/AICommandSettings.asset` — must be excluded fr
 | Tool | Scope | Approach |
 |------|-------|----------|
 | AICommand | Unity Editor | Generate & execute C# editor scripts |
-| [[ai-game-devtools/ai-shader]] | Unity | Generate GLSL shaders from natural language |
-| [[ai-game-devtools/blender-gpt]] | Blender | Generate Python scripts for Blender |
-| [[ai-game-devtools/open-interpreter]] | System-wide | General code execution across environments |
-| [[ai-game-devtools/unity-chatgpt]] | Unity | ChatGPT API wrapper for runtime NPC dialogue |
+| [[ai-shader]] | Unity | Generate GLSL shaders from natural language |
+| [[blender-gpt]] | Blender | Generate Python scripts for Blender |
+| [[open-interpreter]] | System-wide | General code execution across environments |
+| [[unity-chatgpt]] | Unity | ChatGPT API wrapper for runtime NPC dialogue |
 
 ## Game Development Applications
 
@@ -90,5 +90,5 @@ No package manager support. Copy `Assets/Editor/` directory to your Unity projec
 ## References
 
 - GitHub: https://github.com/keijiro/AICommand
-- Related: [[ai-game-devtools/ai-shader]] (same author's shader generation PoC)
+- Related: [[ai-shader]] (same author's shader generation PoC)
 - Blog: https://github.com/keijiro (Unity Japan creative technologist)

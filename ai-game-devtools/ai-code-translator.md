@@ -60,6 +60,6 @@ No explicit LICENSE file in the repository — MIT implied by convention.
 
 ## Related
 
-- [[ai-game-devtools/codegeex4]] — CodeGen series for code translation (THUDM, larger scope)
-- [[ai-game-devtools/deepseek-coder]] — DeepSeek code model with translation capabilities
-- [[ai-game-devtools/text-generation-webui]] — oobabooga's LLM Web UI with code-related features
+- [[codegeex4]] — CodeGen series for code translation (THUDM, larger scope)
+- [[deepseek-coder]] — DeepSeek code model with translation capabilities
+- [[text-generation-webui]] — oobabooga's LLM Web UI with code-related features

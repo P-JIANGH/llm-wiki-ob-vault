@@ -69,9 +69,9 @@ output = pipe(image=face_image, mask_image=mask_image, face_info=face_info,
 
 ## Related
 
-- Closely inspired by [[ai-game-devtools/instantid]] (zero-shot identity preservation) and [[ai-game-devtools/pulid]] (contrastive alignment for identity)
+- Closely inspired by [[instantid]] (zero-shot identity preservation) and [[pulid]] (contrastive alignment for identity)
 - Uses IP-Adapter pattern for cross-attention injection
-- Extends SDXL with LoRA-based identity adapters, similar approach to [[ai-game-devtools/controlnet]] conditional generation
+- Extends SDXL with LoRA-based identity adapters, similar approach to [[controlnet]] conditional generation
 
 ## Timeline
 

@@ -9,11 +9,11 @@ sources: [raw/articles/ai-game-devtools/openpose-editor.md]
 
 # Openpose Editor
 
-**Fkunn1326 开发的 Automatic1111 Stable Diffusion WebUI 人体姿态编辑插件**，提供交互式 Canvas 界面手动编辑或自动检测 OpenPose 骨骼关键点，生成条件图用于 [[ai-game-devtools/controlnet]] 扩散模型控制。
+**Fkunn1326 开发的 Automatic1111 Stable Diffusion WebUI 人体姿态编辑插件**，提供交互式 Canvas 界面手动编辑或自动检测 OpenPose 骨骼关键点，生成条件图用于 [[controlnet]] 扩散模型控制。
 
 ## 概述
 
-Openpose Editor 是 A1111 WebUI 的一个扩展，允许用户在浏览器 Canvas 中直接编辑人体骨骼姿态（COCO 18 关键点格式），生成标准的 OpenPose PNG 条件图。与 [[ai-game-devtools/controlnet]] 的自动预处理器不同，本工具支持**手动精确编辑**，适合需要精确定制角色姿态的场景。
+Openpose Editor 是 A1111 WebUI 的一个扩展，允许用户在浏览器 Canvas 中直接编辑人体骨骼姿态（COCO 18 关键点格式），生成标准的 OpenPose PNG 条件图。与 [[controlnet]] 的自动预处理器不同，本工具支持**手动精确编辑**，适合需要精确定制角色姿态的场景。
 
 ## 核心功能
 
@@ -47,9 +47,9 @@ Openpose Editor 是 A1111 WebUI 的一个扩展，允许用户在浏览器 Canva
 
 ## 与同类工具对比
 
-- vs [[ai-game-devtools/dwpose]]: DWPose 使用 DW-Pose 模型自动检测全身（body+hand+face）关键点，精度更高；Openpose Editor 提供**手动编辑**能力，适合精确控制
-- vs [[ai-game-devtools/sd-webui-depth-lib]]: sd-webui-depth-lib 管理深度图（任意深度信息），Openpose Editor 专攻人体骨骼姿态
-- 与 [[ai-game-devtools/controlnet]] 深度集成：Openpose Editor 生成条件图 → ControlNet 消费该条件图 → 扩散模型生成
+- vs [[dwpose]]: DWPose 使用 DW-Pose 模型自动检测全身（body+hand+face）关键点，精度更高；Openpose Editor 提供**手动编辑**能力，适合精确控制
+- vs [[sd-webui-depth-lib]]: sd-webui-depth-lib 管理深度图（任意深度信息），Openpose Editor 专攻人体骨骼姿态
+- 与 [[controlnet]] 深度集成：Openpose Editor 生成条件图 → ControlNet 消费该条件图 → 扩散模型生成
 
 ## 使用场景
 
@@ -64,6 +64,6 @@ MIT License — Fkunn1326, 2023
 ## 链接
 
 - [GitHub](https://github.com/fkunn1326/openpose-editor)
-- [[ai-game-devtools/controlnet]] — ControlNet Pose 条件控制
-- [[ai-game-devtools/sd-webui-depth-lib]] — A1111 WebUI 深度图管理插件
-- [[ai-game-devtools/dwpose]] — DWPose 全身姿态预处理器
+- [[controlnet]] — ControlNet Pose 条件控制
+- [[sd-webui-depth-lib]] — A1111 WebUI 深度图管理插件
+- [[dwpose]] — DWPose 全身姿态预处理器

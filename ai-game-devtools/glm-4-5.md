@@ -95,7 +95,7 @@ model = AutoModelForCausalLM.from_pretrained(
 
 ## 与同类工具对比
 
-GLM-4.5 系列定位为"面向 Agent 的推理模型"，与 [[deepseek-v3]]（671B MoE）、[[qwen2-5-coder]]（编程专用）、[[qwen1-5]]（通用）属于同类国产开源 LLM 家族。相比竞品，GLM-4.7 在SWE-bench 编码基准和 Terminal Bench 上有显著优势，且 Preserved Thinking 机制对多轮 Agent 场景有特殊优化。
+GLM-4.5 系列定位为"面向 Agent 的推理模型"，与 [[deepseek-v3]]（671B MoE）、[[qwen2.5-coder]]（编程专用）、[[qwen]]（通用）属于同类国产开源 LLM 家族。相比竞品，GLM-4.7 在SWE-bench 编码基准和 Terminal Bench 上有显著优势，且 Preserved Thinking 机制对多轮 Agent 场景有特殊优化。
 
 ## 相关链接
 
@@ -109,6 +109,6 @@ GLM-4.5 系列定位为"面向 Agent 的推理模型"，与 [[deepseek-v3]]（67
 ## 相关模型
 
 - [[deepseek-v3]] — DeepSeek 671B MoE 模型，MTP 推测解码架构
-- [[qwen1-5]] — 通义千问开源 LLM 家族
-- [[qwen2-5-coder]] — 通义千问编程专用模型
+- [[qwen]] — 通义千问开源 LLM 家族
+- [[qwen2.5-coder]] — 通义千问编程专用模型
 - [[text-generation-web-ui]] — 本地 LLM 推理 WebUI，支持 GLM 模型

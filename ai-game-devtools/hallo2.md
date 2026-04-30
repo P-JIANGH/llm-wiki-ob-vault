@@ -70,9 +70,9 @@ Main code license not explicitly stated in README. Video SR component (CodeForme
 
 ## Related Projects
 
-- [[ai-game-devtools/aniportrait]] — Another audio-driven talking-face animation project, acknowledged by Hallo2 authors
-- [[ai-game-devtools/echomimic]] — Similar audio-driven portrait animation approach
-- [[ai-game-devtools/dreamtalk]] — Emotional talking face generation
+- [[aniportrait]] — Another audio-driven talking-face animation project, acknowledged by Hallo2 authors
+- [[echomimic]] — Similar audio-driven portrait animation approach
+- [[dreamtalk]] — Emotional talking face generation
 
 ## Links
 

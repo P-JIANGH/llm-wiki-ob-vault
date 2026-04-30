@@ -71,9 +71,9 @@ if prompt:
 
 ## 与同类工具对比
 
-Streamlit vs. Gradio：Gradio（HuggingFace）更专注于 ML 模型 Demo，内置 share 链接和队列系统；Streamlit 更适合构建完整应用（多页面/仪表盘）。两者都是纯 Python 写 UI，但 Streamlit 布局更灵活。[[ai-game-devtools/text-generation-webui]] 使用 Gradio，而 [[ai-game-devtools/money-printer-turbo]] 同时提供 Streamlit 和 FastAPI 两种界面。
+Streamlit vs. Gradio：Gradio（HuggingFace）更专注于 ML 模型 Demo，内置 share 链接和队列系统；Streamlit 更适合构建完整应用（多页面/仪表盘）。两者都是纯 Python 写 UI，但 Streamlit 布局更灵活。[[text-generation-webui]] 使用 Gradio，而 [[money-printer-turbo]] 同时提供 Streamlit 和 FastAPI 两种界面。
 
-Streamlit vs. [[ai-game-devtools/langflow]]：LangFlow 提供可视化拖拽构建 LLM 应用；Streamlit 是代码优先的应用框架。两者可结合使用——LangFlow 做原型、Streamlit 做定制。
+Streamlit vs. [[langflow]]：LangFlow 提供可视化拖拽构建 LLM 应用；Streamlit 是代码优先的应用框架。两者可结合使用——LangFlow 做原型、Streamlit 做定制。
 
 ## 在游戏开发中的应用场景
 

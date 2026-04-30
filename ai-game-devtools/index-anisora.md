@@ -54,9 +54,9 @@ Unlike natural video models (Sora, Kling, CogVideoX), AniSora is specifically op
 ## Relationships
 
 - V1 based on CogVideoX-5B, V2 based on Wan2.1-14B (no dedicated wiki pages yet)
-- Complements [[ai-game-devtools/animatediff]] in the animation generation space (AniSora is end-to-end video model vs. AnimateDiff's motion module approach)
-- Shares benchmark evaluation concerns with [[ai-game-devtools/rpbench-auto]] (both build custom evaluation pipelines for specific domains)
-- Related to [[ai-game-devtools/animate-anyone]] in character animation but covers full video generation rather than pose-driven character animation
+- Complements [[animatediff]] in the animation generation space (AniSora is end-to-end video model vs. AnimateDiff's motion module approach)
+- Shares benchmark evaluation concerns with [[rpbench-auto]] (both build custom evaluation pipelines for specific domains)
+- Related to [[animate-anyone]] in character animation but covers full video generation rather than pose-driven character animation
 
 ## Links
 

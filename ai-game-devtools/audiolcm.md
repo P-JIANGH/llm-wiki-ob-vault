@@ -78,9 +78,9 @@ PyTorch 1.12.1, pytorch-lightning 1.7.0, librosa 0.10.1, torchlibrosa 0.1.0, hug
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/audiogpt]]（ChatGPT 驱动的音频交互系统）：AudioLCM 专注纯生成任务，无需 LLM 交互层
-- 相比 [[ai-game-devtools/amphion]]（OpenMMLab 全功能音频工具包）：AudioLCM 是单一模型，专注于 text-to-audio 的高效推理
-- 相比 [[ai-game-devtools/musicgen]]（Meta 音乐生成）：AudioLCM 面向通用音效/环境音，而非音乐旋律生成
+- 相比 [[audiogpt]]（ChatGPT 驱动的音频交互系统）：AudioLCM 专注纯生成任务，无需 LLM 交互层
+- 相比 [[amphion]]（OpenMMLab 全功能音频工具包）：AudioLCM 是单一模型，专注于 text-to-audio 的高效推理
+- 相比 [[musicgen]]（Meta 音乐生成）：AudioLCM 面向通用音效/环境音，而非音乐旋律生成
 - LCM 加速是其最大差异化优势，适合需要实时/近实时音频生成的场景
 
 ## 对游戏开发的价值

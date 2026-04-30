@@ -55,9 +55,9 @@ CatVTON 是一款简单高效的虚拟试穿扩散模型，核心设计哲学是
 ## 与同类工具差异
 
 - 相比传统虚拟试穿方法，CatVTON 以极简的拼接策略替代复杂的形变网络
-- 相比 [[ai-game-devtools/genagent]]（ComfyUI 工作流自动生成），CatVTON 直接提供可用的 ComfyUI 自定义节点
-- 与 [[ai-game-devtools/lumina-t2x]] 等多模态 DiT 框架相比，CatVTON 基于 SD 1.5 架构更轻量，而 CatV2TON 已升级到 DiT 架构
-- CatVTON-FLUX 适配了 [[ai-game-devtools/flux]] 系列模型，扩展了底层扩散模型的选择
+- 相比 [[genagent]]（ComfyUI 工作流自动生成），CatVTON 直接提供可用的 ComfyUI 自定义节点
+- 与 [[lumina-t2x]] 等多模态 DiT 框架相比，CatVTON 基于 SD 1.5 架构更轻量，而 CatV2TON 已升级到 DiT 架构
+- CatVTON-FLUX 适配了 [[flux]] 系列模型，扩展了底层扩散模型的选择
 
 ## 游戏开发应用场景
 

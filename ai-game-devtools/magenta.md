@@ -76,9 +76,9 @@ The main repository is now **archived (read-only)**; active development has move
 
 ## Related
 
-- Contrasts with [[ai-game-devtools/jukebox]] (OpenAI's autoregressive raw audio with vocals vs Magenta's symbolic/music-theory approach)
+- Contrasts with [[jukebox]] (OpenAI's autoregressive raw audio with vocals vs Magenta's symbolic/music-theory approach)
 - MusicGen (not yet in wiki) uses EnCodec neural codec; Magenta uses MIDI/NoteSequence + WaveNet
-- Part of the broader ecosystem of [[ai-game-devtools/academicodec]]-style audio processing tools
+- Part of the broader ecosystem of [[academicodec]]-style audio processing tools
 
 ## Links
 

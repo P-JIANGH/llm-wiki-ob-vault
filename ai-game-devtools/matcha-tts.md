@@ -30,7 +30,7 @@ Text → TextEncoder (Conformer + RoPE) → mu_x + logw
 |-----------|-------------|
 | **TextEncoder** | Conformer encoder with RoPE position encoding, outputs mel mean and log-durations |
 | **Duration Predictor** | 2-layer Conv1d for phoneme duration prediction |
-| **MAS** | Cython monotonic alignment search — optimal text→mel alignment (inherited from [[ai-game-devtools/glow-tts]]) |
+| **MAS** | Cython monotonic alignment search — optimal text→mel alignment (inherited from [[glow-tts]]) |
 | **CFM Decoder** | Conditional flow matching with U-Net + Conformer blocks, Euler ODE solver |
 | **HiFi-GAN** | Built-in vocoder for mel→waveform |
 
@@ -60,4 +60,4 @@ Matcha-TTS provides a fast, MIT-licensed TTS backbone for game NPC voice generat
 - Multi-speaker support for diverse character voices
 - ONNX export enables deployment on game consoles or mobile devices
 - Controllable speaking rate and temperature for expressive dialogue
-- Works well with [[ai-game-devtools/cosyvoice]] (also uses flow matching) and [[ai-game-devtools/glow-tts]] (MAS alignment predecessor)
+- Works well with [[cosyvoice]] (also uses flow matching) and [[glow-tts]] (MAS alignment predecessor)

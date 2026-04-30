@@ -48,7 +48,7 @@ Video-of-Thought 将复杂视频问答问题分解为可管理的子问题链，
 
 - **许可证：** BSD（Apache 2.0 for Noncommercial use）
 - **技术栈：** Python 3.8, PyTorch 2.1.2, Transformers 4.42.0, DeepSpeed 0.13.1, DGL
-- **基础架构：** 基于 [[ai-game-devtools/next-gpt]] 和 graphtransformer 改造
+- **基础架构：** 基于 [[next-gpt]] 和 graphtransformer 改造
 
 ## 游戏开发应用场景
 
@@ -66,6 +66,6 @@ Video-of-Thought 将复杂视频问答问题分解为可管理的子问题链，
 
 ## 相关项目
 
-- [[ai-game-devtools/cogvideox]] — 清华/智谱 CogVideoX 视频生成模型家族
-- [[ai-game-devtools/motionllm]] — IDEA/清华动作-语言联合理解 LLM
-- [[ai-game-devtools/next-gpt]] — NUS 任意模态到任意模态的多模态 LLM（VoT 架构基础）
+- [[cogvideox]] — 清华/智谱 CogVideoX 视频生成模型家族
+- [[motionllm]] — IDEA/清华动作-语言联合理解 LLM
+- [[next-gpt]] — NUS 任意模态到任意模态的多模态 LLM（VoT 架构基础）

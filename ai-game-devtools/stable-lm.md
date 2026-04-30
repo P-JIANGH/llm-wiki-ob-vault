@@ -52,8 +52,8 @@ StableLM-3B-4E1T (66.93 average) outperforms its 7B predecessor StableLM-Base-Al
 
 ## Related
 
-- [[ai-game-devtools/llama-3]] — Meta's Llama 3 LLM series (8B/70B)
-- [[ai-game-devtools/olmo]] — AI2's open LLM series (1B-32B), also fully open weights
-- [[ai-game-devtools/dbrx]] — Databricks MoE LLM (132B/36B active)
-- [[ai-game-devtools/gpt4all]] — Nomic's local LLM platform with llama.cpp backend
-- [[ai-game-devtools/corenet]] — Apple's neural network training library for foundation models
+- [[llama-3]] — Meta's Llama 3 LLM series (8B/70B)
+- [[olmo]] — AI2's open LLM series (1B-32B), also fully open weights
+- [[dbrx]] — Databricks MoE LLM (132B/36B active)
+- [[gpt4all]] — Nomic's local LLM platform with llama.cpp backend
+- [[corenet]] — Apple's neural network training library for foundation models

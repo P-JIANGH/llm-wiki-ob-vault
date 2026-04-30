@@ -58,9 +58,9 @@ sources: []
 
 ## Relationship to Other Agent Frameworks
 
-- Compared to [[ai-game-devtools/agentscope]]: AgentRL focuses on RL training; AgentScope focuses on multi-agent orchestration
-- Compared to [[ai-game-devtools/agentbench]]: AgentRL trains agents; AgentBench evaluates them
-- Complements [[ai-game-devtools/gameaisdk]] which uses RL (DQN/Rainbow) for game automation
+- Compared to [[agentscope]]: AgentRL focuses on RL training; AgentScope focuses on multi-agent orchestration
+- Compared to [[agentbench]]: AgentRL trains agents; AgentBench evaluates them
+- Complements [[gameaisdk]] which uses RL (DQN/Rainbow) for game automation
 
 ## References
 

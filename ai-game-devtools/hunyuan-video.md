@@ -77,6 +77,6 @@ HunyuanVideo 可用于游戏开发管线中的：
 
 ## 与同类工具对比
 
-- 与 [[ai-game-devtools/cogvideox]]（清华/智谱 CogVideoX）相比：两者都是开源文生视频模型，HunyuanVideo 参数量更大（13B+ vs 2B/5B/12B），在运动质量上表现更优；CogVideoX 提供更完整的微调/量化工具链。
-- 与 [[ai-game-devtools/open-sora]]（Open-Sora）相比：HunyuanVideo 是完整的预训练模型，Open-Sora 是复现 Sora 架构的开源项目，两者定位不同。
-- 同属腾讯混元家族，与 [[ai-game-devtools/hunyuanvideo-avatar]]（音频驱动角色动画）共享部分技术栈，但面向不同的生成任务。
+- 与 [[cogvideox]]（清华/智谱 CogVideoX）相比：两者都是开源文生视频模型，HunyuanVideo 参数量更大（13B+ vs 2B/5B/12B），在运动质量上表现更优；CogVideoX 提供更完整的微调/量化工具链。
+- 与 [[open-sora]]（Open-Sora）相比：HunyuanVideo 是完整的预训练模型，Open-Sora 是复现 Sora 架构的开源项目，两者定位不同。
+- 同属腾讯混元家族，与 [[hunyuanvideo-avatar]]（音频驱动角色动画）共享部分技术栈，但面向不同的生成任务。

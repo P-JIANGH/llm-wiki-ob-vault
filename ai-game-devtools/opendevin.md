@@ -56,11 +56,11 @@ Frontend: React SPA in `frontend/` (TanStack Query, vitest, i18n).
 
 ## Related
 
-- [[ai-game-devtools/devika]] — Another Devin open-source alternative; similar scope
-- [[ai-game-devtools/swe-agent]] — Princeton NLP's SWE-bench agent (similar benchmark)
-- [[ai-game-devtools/metagpt]] — Multi-agent software company framework with role collaboration
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek reasoning model; candidate LLM backend
-- [[ai-game-devtools/deepseek-v3]] — DeepSeek V3; another candidate backend
+- [[devika]] — Another Devin open-source alternative; similar scope
+- [[swe-agent]] — Princeton NLP's SWE-bench agent (similar benchmark)
+- [[metagpt]] — Multi-agent software company framework with role collaboration
+- [[deepseek-r1]] — DeepSeek reasoning model; candidate LLM backend
+- [[deepseek-v3]] — DeepSeek V3; another candidate backend
 
 ## Links
 

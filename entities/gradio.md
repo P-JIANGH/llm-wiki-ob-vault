@@ -27,4 +27,4 @@ Python Web UI 框架，专为机器学习模型设计。
 ## 相关
 
 - [[Streamlit]] — 类似工具
-- [[Python]] — 主要语言
+- [[python-integration]] — 主要语言

@@ -56,9 +56,9 @@ cd basic_demo && streamlit run web_demo_streamlit.py
 Custom non-commercial license — 学术研究用途，不可商用，受中国法律管辖。
 
 ## Related
-[[ai-game-devtools/chatdev]] — 多智能体对话平台  
-[[ai-game-devtools/autogen]] — Microsoft 多智能体框架  
+[[chatdev]] — 多智能体对话平台  
+[[autogen]] — Microsoft 多智能体框架  
 [[chatgpt-api-unity]] — Unity 对接 LLM 的方案  
-[[ai-game-devtools/anime-gf]] — 桌面 LLM 聊天前端（角色卡系统）  
+[[anime-gf]] — 桌面 LLM 聊天前端（角色卡系统）  
 [[stanford-generative-agents]] — Stanford 生成式 Agent 理论奠基  
 [[multi-agent-ai-game-impl]] — 游戏中的多智能体实现

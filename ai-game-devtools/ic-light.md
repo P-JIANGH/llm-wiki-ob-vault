@@ -68,6 +68,6 @@ IC-Light 提供两种模型：
 
 ## 与其他工具的关系
 
-- 与 [[ai-game-devtools/controlnet]] 同作者（lllyasviel），共享扩散模型条件化思想
-- 可作为 [[ai-game-devtools/comfyui]] 的自定义节点集成到工作流中
-- 基于 [[ai-game-devtools/stable-diffusion]] SD1.5 架构改造
+- 与 [[controlnet]] 同作者（lllyasviel），共享扩散模型条件化思想
+- 可作为 [[comfyui]] 的自定义节点集成到工作流中
+- 基于 [[stable-diffusion]] SD1.5 架构改造

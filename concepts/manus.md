@@ -9,7 +9,7 @@ sources: []
 
 # Manus
 
-[[autonomous-agents]] | [[ai-agent-platforms]]
+[[autonomous-agents]] | [[agent]]
 
 ## Overview
 

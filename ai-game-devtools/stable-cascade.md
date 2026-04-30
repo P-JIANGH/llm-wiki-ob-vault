@@ -71,8 +71,8 @@ sources: [raw/articles/ai-game-devtools/stable-cascade.md]
 
 ## 对比分析
 
-- 与 [[ai-game-devtools/flux]]：FLUX 使用 flow matching + DiT 架构（单阶段），Stable Cascade 使用级联扩散（三阶段），后者在高压缩率下效率更高
-- 与 [[ai-game-devtools/deepfloyd-if]]：两者都采用级联架构，但 DeepFloyd IF 在像素空间级联（64→256→1024），Stable Cascade 在高度压缩的潜在空间级联
+- 与 [[flux]]：FLUX 使用 flow matching + DiT 架构（单阶段），Stable Cascade 使用级联扩散（三阶段），后者在高压缩率下效率更高
+- 与 [[deepfloyd-if]]：两者都采用级联架构，但 DeepFloyd IF 在像素空间级联（64→256→1024），Stable Cascade 在高度压缩的潜在空间级联
 - 与 [[ai-game-devtools/stable-diffusion-webui|Stable Diffusion]]：SC 压缩因子 42 vs SD 的 8，训练/推理成本降低约 16 倍
 
 ## 相关链接

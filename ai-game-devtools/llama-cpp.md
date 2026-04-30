@@ -60,7 +60,7 @@ llama.cpp is a pure C/C++ implementation for LLM inference that enables running 
 
 ## Related Projects
 
-- [[ai-game-devtools/text-generation-webui]] — Web UI with native llama.cpp backend support
-- [[ai-game-devtools/gpt4all]] — Desktop LLM platform built on llama.cpp
-- [[ai-game-devtools/everything-ai]] — Docker multi-task AI tool using llama.cpp backend
-- [[ai-game-devtools/llama-3]] — Meta Llama models commonly quantized to GGUF format
+- [[text-generation-webui]] — Web UI with native llama.cpp backend support
+- [[gpt4all]] — Desktop LLM platform built on llama.cpp
+- [[everything-ai]] — Docker multi-task AI tool using llama.cpp backend
+- [[llama-3]] — Meta Llama models commonly quantized to GGUF format

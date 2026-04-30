@@ -76,6 +76,6 @@ sources: [https://github.com/masylum/whatajong]
 
 ## 相关页面
 
-- [[open-source-game/surreal-engine]] — Unreal Engine 1 重实现
-- [[open-source-game/fish-folk-jumpy]] — Bevy/Rust 游戏参考
+- [[surreal-engine]] — Unreal Engine 1 重实现
+- [[fish-folk-jumpy]] — Bevy/Rust 游戏参考
 - [[godot-4]] — 游戏引擎对比

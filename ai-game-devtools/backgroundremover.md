@@ -79,6 +79,6 @@ PyTorch/torchvision (with optional CUDA), ffmpeg 4.4+, numpy, scikit-image, movi
 
 ## Related
 
-- [[ai-game-devtools/segment-anything-2]] — Meta's general-purpose segmentation model (SAM 2), more versatile but heavier
-- [[ai-game-devtools/grounded-segment-anything]] — Open-vocabulary segmentation combining GroundingDINO + SAM, supports text prompts
-- [[ai-game-devtools/facefusion]] — Face manipulation platform that includes background removal as a processor module
+- [[segment-anything-2]] — Meta's general-purpose segmentation model (SAM 2), more versatile but heavier
+- [[grounded-segment-anything]] — Open-vocabulary segmentation combining GroundingDINO + SAM, supports text prompts
+- [[facefusion]] — Face manipulation platform that includes background removal as a processor module

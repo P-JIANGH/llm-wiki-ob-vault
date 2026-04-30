@@ -35,8 +35,8 @@ sources: [raw/articles/ai-game-devtools/hunyuan3d-1.md]
 
 - **MVD (Multi-View Diffusion):** `mvd/hunyuan3d_mvd_lite_pipeline.py` / `hunyuan3d_mvd_std_pipeline.py` — 基于 diffusers 的多视角扩散模型
 - **SVRM (Sparse-View Reconstruction):** `svrm/ldm/` — 基于 LDM 的前馈重建网络，从多视角图像恢复 3D 几何
-- **Text2Image:** 集成 [[ai-game-devtools/hunyuan-dit]]（HunyuanDiT-v1.1-Diffusers-Distilled）
-- **Baking:** 基于 [[ai-game-devtools/dust3r]] 的纹理烘焙（CC BY-NC-SA 4.0，不可商用）
+- **Text2Image:** 集成 [[hunyuan-dit]]（HunyuanDiT-v1.1-Diffusers-Distilled）
+- **Baking:** 基于 [[dust3r]] 的纹理烘焙（CC BY-NC-SA 4.0，不可商用）
 
 ### VRAM 需求
 
@@ -51,11 +51,11 @@ sources: [raw/articles/ai-game-devtools/hunyuan3d-1.md]
 | 工具 | 输入 | 输出 | 速度 | 特点 |
 |------|------|------|------|------|
 | **Hunyuan3D-1.0** | 文本/单图 | Mesh (OBJ) | 10-25 秒 | 两阶段统一框架，lite/std 双版本 |
-| [[ai-game-devtools/hunyuan3d-2]] | 单图 | Mesh + PBR | ~10 秒 | 二代升级，PBR 材质，更高精度 |
-| [[ai-game-devtools/crm]] | 单图 | 带纹理 OBJ | 10 秒 | 两阶段扩散 + FlexiCubes |
-| [[ai-game-devtools/triposr]] | 单图 | Mesh (OBJ/GLB) | 0.5 秒 | 速度最快 |
-| [[ai-game-devtools/wonder3d]] | 单图 | 带纹理 Mesh | 分钟级 | 单阶段，纹理不稳定 |
-| [[ai-game-devtools/mvdream]] | 文本/单图 | 多视角图 | 秒级 | 仅多视角图 |
+| [[hunyuan3d-2]] | 单图 | Mesh + PBR | ~10 秒 | 二代升级，PBR 材质，更高精度 |
+| [[crm]] | 单图 | 带纹理 OBJ | 10 秒 | 两阶段扩散 + FlexiCubes |
+| [[triposr]] | 单图 | Mesh (OBJ/GLB) | 0.5 秒 | 速度最快 |
+| [[wonder3d]] | 单图 | 带纹理 Mesh | 分钟级 | 单阶段，纹理不稳定 |
+| [[mvdream]] | 文本/单图 | 多视角图 | 秒级 | 仅多视角图 |
 
 **优势:** 统一文本/图像双条件输入；腾讯生态整合（Hunyuan-DiT → Hunyuan3D）；开源权重；Gradio Web UI；支持中英双语文本提示。
 
@@ -92,6 +92,6 @@ python3 app.py --use_lite  # lite 版本
 
 ## 相关工具
 
-- [[ai-game-devtools/hunyuan-dit]] — 文本到图像生成，Hunyuan3D-1 的 Stage 0 基础模型
-- [[ai-game-devtools/dust3r]] — 免 COLMAP 3D 重建，Hunyuan3D-1 烘焙模块的依赖
-- [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成（全景图→分层3D mesh，可交互场景）
+- [[hunyuan-dit]] — 文本到图像生成，Hunyuan3D-1 的 Stage 0 基础模型
+- [[dust3r]] — 免 COLMAP 3D 重建，Hunyuan3D-1 烘焙模块的依赖
+- [[hunyuanworld-1.0]] — 腾讯混元 3D 世界生成（全景图→分层3D mesh，可交互场景）

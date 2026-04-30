@@ -76,7 +76,7 @@ NVIDIA 专有许可。商业用途需提交 [NVIDIA research licensing form](htt
 
 ## 相关项目
 
-- [[ai-game-devtools/crm]] — 单图→3D 纹理网格，两阶段扩散方法（清华大学）
-- [[ai-game-devtools/dreammat]] — SIGGRAPH 2024 PBR 材质生成工具
-- [[ai-game-devtools/instant-ngp]] — NVIDIA Instant NeRF，实时 NeRF 推理
-- [[ai-game-devtools/threestudio]] — 3D 生成统一框架
+- [[crm]] — 单图→3D 纹理网格，两阶段扩散方法（清华大学）
+- [[dreammat]] — SIGGRAPH 2024 PBR 材质生成工具
+- [[instant-ngp]] — NVIDIA Instant NeRF，实时 NeRF 推理
+- [[threestudio]] — 3D 生成统一框架

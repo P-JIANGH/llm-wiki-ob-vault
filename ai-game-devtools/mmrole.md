@@ -17,7 +17,7 @@ sources: [raw/articles/ai-game-devtools/mmrole.md]
 
 ## Architecture
 
-Three-component pipeline built on [[ai-game-devtools/qwen-vl]] (Qwen-VL-Chat):
+Three-component pipeline built on [[qwen-vl]] (Qwen-VL-Chat):
 
 | Component | Purpose | Details |
 |-----------|---------|---------|
@@ -47,7 +47,7 @@ MMRole enables **multimodal NPC dialogue systems** where game characters can:
 - Maintain consistent character personalities across visual contexts
 - Support multi-turn role-playing with visual grounding
 
-Compared to [[ai-game-devtools/character-glm-6b]] (text-only character dialogue) and [[ai-game-devtools/character-llm]] (trainable text agents), MMRole uniquely adds **visual understanding** to role-playing — characters can see and discuss images, not just text.
+Compared to [[character-glm-6b]] (text-only character dialogue) and [[character-llm]] (trainable text agents), MMRole uniquely adds **visual understanding** to role-playing — characters can see and discuss images, not just text.
 
 ## Links
 

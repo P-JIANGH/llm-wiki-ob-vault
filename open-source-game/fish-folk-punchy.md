@@ -83,13 +83,13 @@ Cargo.toml workspace
 
 - **2.5D Beat-em-up**：横版视角 + 深度层次感（Parallax）
 - 灵感来源：Little Fighter 2、River City Ransom
-- 支持 2-4 名玩家本地/联机（继承自 [[open-source-game/fish-folk-jumpy]] 框架）
+- 支持 2-4 名玩家本地/联机（继承自 [[fish-folk-jumpy]] 框架）
 - 内置关卡编辑器（通过 WASM 前端）
 - 完整本地化支持（多语言 `locales/`）
 
 ## 与 Fish Folk Jumpy 的关系
 
-Punchy 与 [[open-source-game/fish-folk-jumpy]] 同属 **Fish Folk 组织**（Spicy Lobster 社区）：
+Punchy 与 [[fish-folk-jumpy]] 同属 **Fish Folk 组织**（Spicy Lobster 社区）：
 - Jumpy：2D 战术射击（Bevy + rapier2d + bones_framework）
 - Punchy：2.5D 清版动作（共享 Bevy 技术栈，但独立代码库）
 - 两者共享部分设计理念（确定性物理、多人合作）

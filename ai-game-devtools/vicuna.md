@@ -9,7 +9,7 @@ sources: []
 
 ## Overview
 
-**Vicuna** is an open-source chatbot developed by Large Model System Organization (LMSYS Org), a collaborative academic research group. It is fine-tuned from Meta's [[ai-game-devtools/llama]] models using approximately 70K user-shared conversations from ShareGPT, achieving near-commercial LLM quality in chat capabilities.
+**Vicuna** is an open-source chatbot developed by Large Model System Organization (LMSYS Org), a collaborative academic research group. It is fine-tuned from Meta's [[llama]] models using approximately 70K user-shared conversations from ShareGPT, achieving near-commercial LLM quality in chat capabilities.
 
 ## Key Facts
 
@@ -39,7 +39,7 @@ Vicuna is served through **FastChat**, an open platform that includes:
 
 ## Significance
 
-Vicuna demonstrated that high-quality chat models could be built affordably using community-shared data, sparking a wave of open-source LLM fine-tuning projects. It serves as a common base model for many downstream projects including [[ai-game-devtools/llava]] (which uses Vicuna as its language backbone).
+Vicuna demonstrated that high-quality chat models could be built affordably using community-shared data, sparking a wave of open-source LLM fine-tuning projects. It serves as a common base model for many downstream projects including [[llava]] (which uses Vicuna as its language backbone).
 
 ## Game Development Applications
 
@@ -49,9 +49,9 @@ Vicuna demonstrated that high-quality chat models could be built affordably usin
 
 ## Related Projects
 
-- [[ai-game-devtools/llava]] — Uses Vicuna as its language component for vision-language tasks
-- [[ai-game-devtools/llama]] — Base model that Vicuna is fine-tuned from
-- [[ai-game-devtools/stanford-alpaca]] — Another early LLaMA instruction-tuned model, similar era
+- [[llava]] — Uses Vicuna as its language component for vision-language tasks
+- [[llama]] — Base model that Vicuna is fine-tuned from
+- [[stanford-alpaca]] — Another early LLaMA instruction-tuned model, similar era
 
 ## References
 

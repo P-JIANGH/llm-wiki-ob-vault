@@ -63,6 +63,6 @@ AudioLDM 2 enables **procedural audio generation** for game development:
 - Diffusers Docs: https://huggingface.co/docs/diffusers/main/en/api/pipelines/audioldm2
 
 ## Related
-- [[ai-game-devtools/academicodec]] — Audio codec training framework
-- [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音生成工具包
-- [[ai-game-devtools/audio-editing]] — 零样本音频编辑（支持 AudioLDM2 后端）
+- [[academicodec]] — Audio codec training framework
+- [[amphion]] — OpenMMLab 音频/音乐/语音生成工具包
+- [[audio-editing]] — 零样本音频编辑（支持 AudioLDM2 后端）

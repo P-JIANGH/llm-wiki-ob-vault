@@ -76,6 +76,6 @@ The autoencoder weights are released separately under Apache 2.0.
 
 ## Relationships
 
-- Founded by Stability AI alumni — architectural successor to [[ai-game-devtools/stable-diffusion]] research lineage
-- Complements [[ai-game-devtools/comfyui]] as a model that can be integrated into ComfyUI workflows
-- Competes with [[ai-game-devtools/disco-diffusion]] in the open-weight image generation space, but uses flow matching rather than CLIP-guided diffusion
+- Founded by Stability AI alumni — architectural successor to [[stable-diffusion]] research lineage
+- Complements [[comfyui]] as a model that can be integrated into ComfyUI workflows
+- Competes with [[disco-diffusion]] in the open-weight image generation space, but uses flow matching rather than CLIP-guided diffusion

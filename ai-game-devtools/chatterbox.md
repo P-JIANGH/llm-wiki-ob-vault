@@ -64,6 +64,6 @@ Apache-2.0
 
 ## Related
 
-- [[ai-game-devtools/cosyvoice]] — FunAudioLLM's TTS system, acknowledged by Chatterbox
-- [[ai-game-devtools/gpt-sovits]] — Popular open-source zero-shot TTS, alternative approach
-- [[ai-game-devtools/diffsinger]] — Diffusion-based singing voice synthesis by same paradigm
+- [[cosyvoice]] — FunAudioLLM's TTS system, acknowledged by Chatterbox
+- [[gpt-sovits]] — Popular open-source zero-shot TTS, alternative approach
+- [[diffsinger]] — Diffusion-based singing voice synthesis by same paradigm

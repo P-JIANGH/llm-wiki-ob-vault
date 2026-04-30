@@ -130,3 +130,4 @@ FreeType2, libpng, libogg, libvorbis, SDL2, zlib
 | 确定性模拟 | 回合制 + 服务器权威模型适合 AI 训练环境 |
 | 4X 游戏 AI | 帝国级 AI（探索/扩张/开发/消灭）是复杂决策 AI 的好测试场景 |
 | 开源 4X 模板 | FreeOrion 的架构可作为公司 4X 游戏的原型起点 |
+

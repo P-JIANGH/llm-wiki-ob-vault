@@ -69,5 +69,5 @@ Jan has a modular extension system (`extensions/`):
 
 ## Related Tools
 
-- [[ai-game-devtools/gpt4all]] — Nomic's local LLM platform (similar concept, different implementation)
+- [[gpt4all]] — Nomic's local LLM platform (similar concept, different implementation)
 - `ai-game-devtools/llamacpp-extension` — Llama.cpp integration in Jan

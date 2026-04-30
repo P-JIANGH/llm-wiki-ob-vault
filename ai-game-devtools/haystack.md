@@ -58,9 +58,9 @@ Haystack 将存储与检索分离——DocumentStore 是纯数据层，Retriever
 
 ## 与同类工具对比
 
-Haystack vs. [[ai-game-devtools/langchain]]：LangChain 更通用（Agent/Tool/Memory 全覆盖），但抽象层较厚、调试困难；Haystack 专注于 RAG，组件接口清晰，生产部署更直接。
+Haystack vs. [[langchain]]：LangChain 更通用（Agent/Tool/Memory 全覆盖），但抽象层较厚、调试困难；Haystack 专注于 RAG，组件接口清晰，生产部署更直接。
 
-Haystack vs. [[ai-game-devtools/llama-index]]：LlamaIndex 擅长复杂数据索引策略（多级索引、图谱 RAG）；Haystack 更注重端到端管道的标准化和可维护性。
+Haystack vs. [[llama-index]]：LlamaIndex 擅长复杂数据索引策略（多级索引、图谱 RAG）；Haystack 更注重端到端管道的标准化和可维护性。
 
 ## 在游戏开发中的应用场景
 

@@ -37,7 +37,7 @@ sources: [raw/articles/ai-game-devtools/any2point.md]
 |------|-----------|-----------|
 | Language | CLIP | 0.9M |
 | Vision | DINOv2 | 0.8M |
-| Audio | [[ai-game-devtools/imagebind]] | 0.8M |
+| Audio | [[imagebind]] | 0.8M |
 
 ## 性能基准
 
@@ -70,7 +70,7 @@ sources: [raw/articles/ai-game-devtools/any2point.md]
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/crm]]（CRM 专注 3D **生成**），Any2Point 专注 3D **理解**
+- 相比 [[crm]]（CRM 专注 3D **生成**），Any2Point 专注 3D **理解**
 - 相比传统从头训练 3D 模型（Point-BERT 22M 参数），Any2Point 用 0.8M 参数达到更高精度
 - 统一框架支持多模态，而非为每种模态单独训练
 

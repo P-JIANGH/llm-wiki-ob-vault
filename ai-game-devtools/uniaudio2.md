@@ -37,7 +37,7 @@ sources: [raw/articles/ai-game-devtools/uniaudio2.md]
 
 ## 与同类工具对比
 
-| 维度 | UniAudio 2.0 | [[ai-game-devtools/academicodec]] | [[ai-game-devtools/cosyvoice]] |
+| 维度 | UniAudio 2.0 | [[academicodec]] | [[cosyvoice]] |
 |------|-------------|----------------------------------|-------------------------------|
 | **定位** | 统一音频基础模型 | 高校开源音频 Codec 工具包 | 阿里 FunAudioLLM 语音合成 |
 | **覆盖域** | 语音+声音+音乐 | 音频编解码训练框架 | 语音合成为主 |

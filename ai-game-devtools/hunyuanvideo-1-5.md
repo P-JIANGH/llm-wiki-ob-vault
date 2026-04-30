@@ -72,9 +72,9 @@ sources: [raw/articles/ai-game-devtools/hunyuanvideo-1-5.md]
 
 ## 与同类工具比较
 
-- 相比 [[ai-game-devtools/hunyuan-video]]（13B+ 参数）：1.5 版本参数减少 36%，最低 VRAM 从 ~60GB 降至 14GB，新增蒸馏加速和三级超分管线
-- 相比 [[ai-game-devtools/cogvideox]]：HunyuanVideo-1.5 参数量更大（8.3B vs 5B），但优化后可在更低 VRAM 上运行，且提供完整的训练代码和 LoRA 微调支持
-- 相比 [[ai-game-devtools/mochi-1]]：1.5 支持 I2V 和超分，Mochi 1 仅支持 T2V
+- 相比 [[hunyuan-video]]（13B+ 参数）：1.5 版本参数减少 36%，最低 VRAM 从 ~60GB 降至 14GB，新增蒸馏加速和三级超分管线
+- 相比 [[cogvideox]]：HunyuanVideo-1.5 参数量更大（8.3B vs 5B），但优化后可在更低 VRAM 上运行，且提供完整的训练代码和 LoRA 微调支持
+- 相比 [[mochi-1]]：1.5 支持 I2V 和超分，Mochi 1 仅支持 T2V
 
 ## 社区生态
 

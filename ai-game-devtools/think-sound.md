@@ -77,9 +77,9 @@ python app.py
 - **Stable Audio Open VAE**: Stability AI Community License（需 Stability AI 许可才能商用）
 
 ## 与同类工具对比
-- 相比 [[ai-game-devtools/mmaudio]]（CVPR 2025 视频→音频，Flow Matching + 联合训练），ThinkSound 引入 CoT 推理引导，支持三阶段交互式生成/编辑流程，且统一了 Any2Audio 范式
-- 相比 [[ai-game-devtools/foley-crafter]]（视频→Foley 音效，ControlNet 适配器），ThinkSound 不依赖 ControlNet，采用 MM-DiT + Flow Matching 架构，支持对象级交互编辑和文本指令编辑
-- 相比 [[ai-game-devtools/hunyuanvideo-foley]]（腾讯混元端到端视频音效），ThinkSound 为学术开源项目，支持更灵活的多模态条件和交互式编辑，但规模较小
+- 相比 [[mmaudio]]（CVPR 2025 视频→音频，Flow Matching + 联合训练），ThinkSound 引入 CoT 推理引导，支持三阶段交互式生成/编辑流程，且统一了 Any2Audio 范式
+- 相比 [[foley-crafter]]（视频→Foley 音效，ControlNet 适配器），ThinkSound 不依赖 ControlNet，采用 MM-DiT + Flow Matching 架构，支持对象级交互编辑和文本指令编辑
+- 相比 [[hunyuanvideo-foley]]（腾讯混元端到端视频音效），ThinkSound 为学术开源项目，支持更灵活的多模态条件和交互式编辑，但规模较小
 
 ## 游戏开发应用价值
 ThinkSound 为游戏音频管线提供：
@@ -97,4 +97,4 @@ ThinkSound 为游戏音频管线提供：
 - [AudioCoT 数据集](https://huggingface.co/datasets/liuhuadai/AudioCoT)
 
 ## 致谢依赖
-[[ai-game-devtools/mmaudio]] (MM-DiT 骨干实现), Stable Audio Open (VAE 架构), Synchformer (视频同步编码器)
+[[mmaudio]] (MM-DiT 骨干实现), Stable Audio Open (VAE 架构), Synchformer (视频同步编码器)

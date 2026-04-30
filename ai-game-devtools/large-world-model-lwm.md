@@ -73,13 +73,13 @@ LWM 对游戏开发的潜在价值：
 
 - **NPC 对话系统**: 超长上下文支持 NPC 记住整个游戏世界的历史对话和事件
 - **游戏视频理解**: 分析玩家录像、生成游戏内容
-- **虚拟世界建模**: 结合 [[ai-game-devtools/cosmos]] 世界基础模型，构建可交互的游戏物理世界
+- **虚拟世界建模**: 结合 [[cosmos]] 世界基础模型，构建可交互的游戏物理世界
 - **游戏 AI NPC**: 视频+语言联合训练使 NPC 能同时理解视觉场景和自然语言指令
 
 ## Related
 
-- [[ai-game-devtools/cosmos]] — NVIDIA 物理 AI 世界基础模型平台
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek 推理模型（长上下文能力）
+- [[cosmos]] — NVIDIA 物理 AI 世界基础模型平台
+- [[deepseek-r1]] — DeepSeek 推理模型（长上下文能力）
 - [[llm-integration]] — LLM 集成到游戏的一般方法
 - [[multi-agent-ai-simulation]] — 多智能体 AI 模拟概念
 

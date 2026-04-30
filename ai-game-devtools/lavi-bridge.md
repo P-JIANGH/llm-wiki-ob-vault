@@ -47,4 +47,4 @@ All weights hosted on [HuggingFace](https://huggingface.co/shihaozhao/LaVi-Bridg
 - **Concurrent work:** ELLA (arxiv.org/abs/2403.05135)
 
 ## Relation to Other Tools
-Similar to [[ai-game-devtools/controlnet]] in its adapter-based approach — both add conditioning to diffusion models without retraining the base. LaVi-Bridge focuses on **language model bridging** while ControlNet focuses on **spatial condition injection** (canny/depth/pose). Both complement [[ai-game-devtools/comfyui]]'s modular pipeline philosophy.
+Similar to [[controlnet]] in its adapter-based approach — both add conditioning to diffusion models without retraining the base. LaVi-Bridge focuses on **language model bridging** while ControlNet focuses on **spatial condition injection** (canny/depth/pose). Both complement [[comfyui]]'s modular pipeline philosophy.

@@ -74,10 +74,10 @@ python launch.py mode=test \
 
 ## Dependencies
 
-- [[ai-game-devtools/instant-ngp]] — tiny-cuda-nn 神经加速库（间接依赖）
-- [[ai-game-devtools/threestudio]] — 同类 3D 内容生成框架，提供对比参考
-- [[ai-game-devtools/exavatar]] — 同领域 CVPR 2024 全身 3D 高斯 Avatar 工作
-- [[ai-game-devtools/hunyuan3d-2-1]] — 腾讯混元 3D 资产生成，同属 3D 人体/资产生成领域
+- [[instant-ngp]] — tiny-cuda-nn 神经加速库（间接依赖）
+- [[threestudio]] — 同类 3D 内容生成框架，提供对比参考
+- [[exavatar]] — 同领域 CVPR 2024 全身 3D 高斯 Avatar 工作
+- [[hunyuan3d-2-1]] — 腾讯混元 3D 资产生成，同属 3D 人体/资产生成领域
 
 ## Notes
 

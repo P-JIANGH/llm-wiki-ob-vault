@@ -70,15 +70,15 @@ print(result["text"])
 
 ## 在游戏开发中的应用
 
-- **NPC 语音交互**：为游戏角色提供实时语音输入理解（结合 [[ai-game-devtools/interactive-llm-powered-npcs]]）
+- **NPC 语音交互**：为游戏角色提供实时语音输入理解（结合 [[interactive-llm-powered-npcs]]）
 - **语音指令识别**：玩家语音控制游戏内操作
 - **字幕自动生成**：游戏内过场动画/对话的自动字幕
 - **多语言本地化**：语音内容自动转录为文本，辅助本地化流程
-- **音频数据处理**：作为下游 TTS/音频模型的音频特征提取器（如 [[ai-game-devtools/llasm]] 使用 whisper-large-v2 作为音频塔）
+- **音频数据处理**：作为下游 TTS/音频模型的音频特征提取器（如 [[llasm]] 使用 whisper-large-v2 作为音频塔）
 
 ## 与同类工具对比
 
-| 维度 | Whisper | [[ai-game-devtools/sensevoice]] |
+| 维度 | Whisper | [[sensevoice]] |
 |:---|:---|:---|
 | 开发者 | OpenAI | Alibaba (FunAudioLLM) |
 | 架构 | Transformer encoder-decoder | Paraformer encoder + Transformer decoder |

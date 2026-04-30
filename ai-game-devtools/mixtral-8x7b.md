@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/mixtral-8x7b.md]
 
 # Mixtral 8x7B
 
-High-quality Sparse Mixture-of-Experts (SMoE) model with open weights, released by [[Mistral AI]].
+High-quality Sparse Mixture-of-Experts (SMoE) model with open weights, released by [[mistral]].
 
 ## Overview
 

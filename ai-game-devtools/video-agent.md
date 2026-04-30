@@ -80,9 +80,9 @@ VideoAgent is a **research tool**, not a game engine plugin. Potential game uses
 
 ## Related
 
-- [[ai-game-devtools/pllava]] — PLLaVA uses Video-LLaVA as its base VLM (same VQA backend as VideoAgent)
-- [[ai-game-devtools/cambrian-1]] — Cambrian-1 is a VLM benchmark suite for video understanding
-- [[ai-game-devtools/video-llava]] — Video-LLaVA: unified video-language representation (direct dependency of VideoAgent)
+- [[pllava]] — PLLaVA uses Video-LLaVA as its base VLM (same VQA backend as VideoAgent)
+- [[cambrian-1]] — Cambrian-1 is a VLM benchmark suite for video understanding
+- [[video-llava]] — Video-LLaVA: unified video-language representation (direct dependency of VideoAgent)
 - `ai-game-devtools/internvid` — InternVid video dataset used for ViCLIP pretraining
 
 ## Links

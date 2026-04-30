@@ -46,7 +46,7 @@ Paint-it is a CVPR 2024 text-driven PBR texture synthesis method by POSTECH AMIL
 
 ## Comparison with Similar Tools
 
-Compared to [[ai-game-devtools/intex]] (interactive text-to-texture with inpainting traversal) and [[ai-game-devtools/dreammat]] (geometry+light-aware ControlNet approach), Paint-it's distinguishing feature is its Deep Image Prior integration — it achieves high-quality results by optimizing through convolutional architecture bias rather than modifying SDS or using ControlNet conditioning. Unlike [[ai-game-devtools/crm]] which generates both geometry AND texture, Paint-it focuses purely on texture synthesis for existing meshes.
+Compared to [[intex]] (interactive text-to-texture with inpainting traversal) and [[dreammat]] (geometry+light-aware ControlNet approach), Paint-it's distinguishing feature is its Deep Image Prior integration — it achieves high-quality results by optimizing through convolutional architecture bias rather than modifying SDS or using ControlNet conditioning. Unlike [[crm]] which generates both geometry AND texture, Paint-it focuses purely on texture synthesis for existing meshes.
 
 ## Links
 

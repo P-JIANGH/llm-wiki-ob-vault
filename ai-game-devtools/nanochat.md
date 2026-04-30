@@ -55,7 +55,7 @@ nanochat is an even simpler and more minimal codebase than [[nanogpt]] for train
 
 ## Related Projects
 
-- [[ai-game-devtools/nanogpt]] — Karpathy's slightly more featureful GPT training code (prerequisite reading)
-- [[ai-game-devtools/gigax]] — Production game NPC LLM framework using structured generation
-- [[ai-game-devtools/interactive-llm-powered-npcs]] — Full game NPC dialogue system with face recognition + LLM + TTS
-- [[ai-game-devtools/autoresearch]] — Karpathy's autonomous research framework showing next-level LLM experimentation
+- [[nanogpt]] — Karpathy's slightly more featureful GPT training code (prerequisite reading)
+- [[gigax]] — Production game NPC LLM framework using structured generation
+- [[interactive-llm-powered-npcs]] — Full game NPC dialogue system with face recognition + LLM + TTS
+- [[autoresearch]] — Karpathy's autonomous research framework showing next-level LLM experimentation

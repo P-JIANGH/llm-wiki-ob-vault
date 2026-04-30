@@ -40,7 +40,7 @@ sources: [raw/articles/ai-game-devtools/musev.md]
 
 ### 关键技术
 
-- **ReferenceNet:** 类似 [[ai-game-devtools/aniportrait]] 的参考网络，从参考图提取外观特征
+- **ReferenceNet:** 类似 [[aniportrait]] 的参考网络，从参考图提取外观特征
 - **IPAdapter:** 图像提示适配器，支持多参考图技术（IPAdapterFaceID 保脸）
 - **Parallel Denoising:** 将长视频分段并行去噪，视觉条件引导避免漂移
 - **MMCM:** 自研多媒体跨模态处理包，支持 20+ ControlNet 预处理器（dwpose/canny/depth/hed/sam 等）
@@ -63,10 +63,10 @@ Docker (推荐) / Conda / pip | PyTorch | HuggingFace Diffusers(修改版) | Ope
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/musepose]]（姿态驱动全身舞蹈），MuseV 侧重文本/图像驱动的虚拟人视频生成，两者互补
-- 相比 [[ai-game-devtools/musetalk]]（音频驱动唇同步），MuseV 生成全身动作视频，MuseTalk 在此基础上添加唇同步，两者配合形成完整管线
-- 相比 [[ai-game-devtools/animatediff]]（通用视频扩散），MuseV 专注虚拟人领域，集成 ReferenceNet/IPAdapter 实现身份保真
-- 相比 [[ai-game-devtools/liveportrait]]（视频驱动肖像），MuseV 支持文本驱动且能生成无限长度视频
+- 相比 [[musepose]]（姿态驱动全身舞蹈），MuseV 侧重文本/图像驱动的虚拟人视频生成，两者互补
+- 相比 [[musetalk]]（音频驱动唇同步），MuseV 生成全身动作视频，MuseTalk 在此基础上添加唇同步，两者配合形成完整管线
+- 相比 [[animatediff]]（通用视频扩散），MuseV 专注虚拟人领域，集成 ReferenceNet/IPAdapter 实现身份保真
+- 相比 [[liveportrait]]（视频驱动肖像），MuseV 支持文本驱动且能生成无限长度视频
 
 ## 限制
 

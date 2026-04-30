@@ -33,9 +33,9 @@ dr-iskandar 的 OpenAI Whisper + ChatGPT API Unity 集成原型项目。通过 F
 - **MIT 许可证：** 可自由使用和修改
 
 ## 与同类工具对比
-- 相比 [[ai-game-devtools/llm-unity-integration]] 的完整架构指南（本地 llama.cpp/云 API/混合三种部署方案），本项目仅为单一 Flask 中间件原型
-- 与 [[ai-game-devtools/simpleollamaunity]]（本地 Ollama HTTP 包装器）类似都是轻量级 Unity+LLM 桥接方案，但本项目依赖云端 API（OpenAI + ElevenLabs）
-- 与 [[ai-game-devtools/chatgpt-api-unity]]（纯 C# Unity 客户端，支持 Function Calling/Streaming）相比，本项目使用外部 Python 服务器而非 Unity 原生集成
+- 相比 [[llm-unity-integration]] 的完整架构指南（本地 llama.cpp/云 API/混合三种部署方案），本项目仅为单一 Flask 中间件原型
+- 与 [[simpleollamaunity]]（本地 Ollama HTTP 包装器）类似都是轻量级 Unity+LLM 桥接方案，但本项目依赖云端 API（OpenAI + ElevenLabs）
+- 与 [[chatgpt-api-unity]]（纯 C# Unity 客户端，支持 Function Calling/Streaming）相比，本项目使用外部 Python 服务器而非 Unity 原生集成
 
 ## 相关链接
 - GitHub: https://github.com/dr-iskandar/speech-to-text-gpt3-unity

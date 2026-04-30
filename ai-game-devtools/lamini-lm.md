@@ -50,4 +50,4 @@ Best performers per size: LaMini-Flan-T5 variants and LaMini-GPT-1.5B are recomm
 ## Related
 - [[chinese-llama-alpaca-3]] — another Chinese LLaMA variant from the same era
 - [[baichuan-7b]] — another efficient Chinese LLM for comparison
-- [[ai-game-devtools/gemma]] — Google's small efficient open LLM family
+- [[gemma]] — Google's small efficient open LLM family

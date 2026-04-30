@@ -70,5 +70,5 @@ CC BY-NC-ND 4.0（知识共享 署名-非商业性-禁止演绎）
 - 游戏音效自动生成（脚步声、爆炸声、环境音效）
 - NPC 对话环境音
 - 动态配乐音效
-- 与 [[ai-game-devtools/musicgen]] 互补（Tango 专注音效，MusicGen 专注音乐）
-- 与 [[ai-game-devtools/audioldm-2]] 对比：Tango 使用 LLM 文本编码器，AudioLDM 不使用
+- 与 [[musicgen]] 互补（Tango 专注音效，MusicGen 专注音乐）
+- 与 [[audioldm-2]] 对比：Tango 使用 LLM 文本编码器，AudioLDM 不使用

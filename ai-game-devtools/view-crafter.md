@@ -66,12 +66,12 @@ ViewCrafter 是一个基于视频扩散模型的高保真新视角合成（Novel
 ViewCrafter 可用于：
 - 游戏资产多角度展示：从单张概念图生成多视角参考
 - 3D 场景预览：快速生成不同相机角度的场景画面
-- 与 [[ai-game-devtools/threestudio]] 等 3D 重建工具链配合，作为新视角合成的前置步骤
+- 与 [[threestudio]] 等 3D 重建工具链配合，作为新视角合成的前置步骤
 
 ## 与同类工具差异
 
-- vs [[ai-game-devtools/syncdreamer]]：SyncDreamer 生成 16 个离散视角的静态图像，ViewCrafter 生成连续视角变化的视频序列
-- vs [[ai-game-devtools/stable-video-diffusion]]：SVD/SV3D 侧重图像到视频的通用生成，ViewCrafter 专精于精确相机位姿控制的新视角合成
+- vs [[syncdreamer]]：SyncDreamer 生成 16 个离散视角的静态图像，ViewCrafter 生成连续视角变化的视频序列
+- vs [[stable-video-diffusion]]：SVD/SV3D 侧重图像到视频的通用生成，ViewCrafter 专精于精确相机位姿控制的新视角合成
 - vs zero123：ViewCrafter 利用视频扩散模型的时间一致性，生成的视角过渡更平滑
 
 ## 相关链接

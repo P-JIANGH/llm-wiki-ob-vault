@@ -83,10 +83,10 @@ DeepSeek Coder 可用于 AI 辅助游戏开发：
 
 ## Related Pages
 
-- [[ai-game-devtools/codegen]] — Salesforce 开源代码生成模型家族
-- [[ai-game-devtools/deepseek-r1]] — DeepSeekAI 推理模型系列
-- [[ai-game-devtools/deepseek-v3]] — DeepSeek 基础语言模型
-- [[ai-game-devtools/starcoder]] — BigCode 项目代码模型
+- [[codegen]] — Salesforce 开源代码生成模型家族
+- [[deepseek-r1]] — DeepSeekAI 推理模型系列
+- [[deepseek-v3]] — DeepSeek 基础语言模型
+- [[starcoder]] — BigCode 项目代码模型
 
 ## Links
 

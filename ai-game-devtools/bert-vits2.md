@@ -53,6 +53,6 @@ Bert-VITS2 将 VITS2 的端到端 TTS 架构与多语言 BERT 文本编码器结
 
 ## 相关工具
 
-- [[ai-game-devtools/so-vits-svc]] — SoftVC VITS 歌唱语音转换：VITS 声码器 + SoftVC 内容编码器，最流行开源 SVC 框架，与 Bert-VITS2 共享 VITS 架构基础
-- [[ai-game-devtools/diffsinger]] — 扩散模型歌唱语音合成：浅扩散机制加速推理，同样使用 NSF-HiFiGAN 声码器
-- [[ai-game-devtools/applio]] — RVC 的现代化封装，含 edge-tts TTS 管线
+- [[so-vits-svc]] — SoftVC VITS 歌唱语音转换：VITS 声码器 + SoftVC 内容编码器，最流行开源 SVC 框架，与 Bert-VITS2 共享 VITS 架构基础
+- [[diffsinger]] — 扩散模型歌唱语音合成：浅扩散机制加速推理，同样使用 NSF-HiFiGAN 声码器
+- [[applio]] — RVC 的现代化封装，含 edge-tts TTS 管线

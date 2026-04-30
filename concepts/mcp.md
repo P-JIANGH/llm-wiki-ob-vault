@@ -9,7 +9,7 @@ sources: []
 
 # MCP (Model Context Protocol)
 
-[[llm-integration]] | [[agent-tool-use]]
+[[llm-integration]] | [[agent]]
 
 ## Overview
 

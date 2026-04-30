@@ -47,7 +47,7 @@ MuseTalk 在 `ft-mse-vae` 的潜在空间中进行训练，通过冻结的 whisp
 
 ## 虚拟人完整管线
 
-MuseTalk 与 [[ai-game-devtools/musev]] 配合使用，形成从文本/图像到视频的完整虚拟人生成管线：MuseV 先生成角色视频 → MuseTalk 添加唇同步。
+MuseTalk 与 [[musev]] 配合使用，形成从文本/图像到视频的完整虚拟人生成管线：MuseV 先生成角色视频 → MuseTalk 添加唇同步。
 
 ## 限制
 

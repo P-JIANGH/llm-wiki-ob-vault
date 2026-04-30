@@ -80,10 +80,10 @@ src/
 | 方向 | 启示 |
 |------|------|
 | 模块化游戏视图架构 | Geoscape/Battlescape/Basescape 三层分离，便于独立迭代和测试 |
-| YAML 规则集 Mod 系统 | 数据驱动设计使非程序员可扩展游戏规则，类似 [[open-source-game/fheroes2]] 的 ICN/SHK 格式兼容层 |
+| YAML 规则集 Mod 系统 | 数据驱动设计使非程序员可扩展游戏规则，类似 [[fheroes2]] 的 ICN/SHK 格式兼容层 |
 | 确定性战斗模拟 | 回合制网格战场天然适合 AI 决策树/MCTS，可参考 Battlescape/AIModule.cpp 60KB 的 AI 实现 |
 | SDL 跨平台渲染 | SDL 2 是游戏引擎跨平台事实标准，参考 Engine/Surface 抽象 |
-| 存档兼容策略 | SavedGame 完整状态序列化设计，参考 [[open-source-game/openmw]] 的 .ess 格式兼容 |
+| 存档兼容策略 | SavedGame 完整状态序列化设计，参考 [[openmw]] 的 .ess 格式兼容 |
 
 ## 架构关系图
 

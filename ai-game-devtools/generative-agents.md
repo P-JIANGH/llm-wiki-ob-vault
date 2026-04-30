@@ -53,5 +53,5 @@ Generative reflection: selects focal points via GPT → retrieves relevant nodes
 - Inspired [[ai-town]] (a16z fork, simplified)
 - Inspired [[cat-town]] (cat-themed fork)
 - Related cognitive architecture in [[stanford-generative-agents]]
-- Same domain as [[ai-game-devtools/agentsims]] (both simulate agents in game environments)
-- Related to [[ai-game-devtools/agent-group-chat]] (multi-agent social simulation)
+- Same domain as [[agentsims]] (both simulate agents in game environments)
+- Related to [[agent-group-chat]] (multi-agent social simulation)

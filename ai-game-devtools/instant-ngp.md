@@ -56,9 +56,9 @@ Published at **SIGGRAPH 2022** (ACM Transactions on Graphics) by Thomas Müller,
 
 ## Related Projects
 
-- [[ai-game-devtools/hunyuan3d-1]] — Tencent's 3D generation framework (alternative approach via multi-view diffusion)
-- [[ai-game-devtools/cf-3dgs]] — NVIDIA Labs' camera-free 3D Gaussian Splatting (follow-on NeRF technology)
-- [[ai-game-devtools/gaussiandreamer]] — Text-to-3D Gaussian generation (builds on NeRF/SDF concepts)
+- [[hunyuan3d-1]] — Tencent's 3D generation framework (alternative approach via multi-view diffusion)
+- [[cf-3dgs]] — NVIDIA Labs' camera-free 3D Gaussian Splatting (follow-on NeRF technology)
+- [[gaussiandreamer]] — Text-to-3D Gaussian generation (builds on NeRF/SDF concepts)
 
 ## Sources
 

@@ -16,7 +16,7 @@ sources: [raw/articles/ai-game-devtools/animation-gpt.md]
 
 ## Overview
 
-AnimationGPT is a text-to-combat-animation generation tool for game character animation. Built on top of [[ai-game-devtools/motiongpt]], it introduces the first combat-style motion dataset with detailed textual annotations — **CombatMotion** — enabling AI-driven generation of fighting game animations from natural language descriptions.
+AnimationGPT is a text-to-combat-animation generation tool for game character animation. Built on top of [[motiongpt]], it introduces the first combat-style motion dataset with detailed textual annotations — **CombatMotion** — enabling AI-driven generation of fighting game animations from natural language descriptions.
 
 ## CombatMotion Dataset
 
@@ -38,7 +38,7 @@ Compared to HumanML3D (14,616 daily-life motions) and KIT-ML (3,911 daily-life m
 
 ## Technical Architecture
 
-- **Base Model:** [[ai-game-devtools/motiongpt]] — treats human motion as a foreign language
+- **Base Model:** [[motiongpt]] — treats human motion as a foreign language
 - **Training:** AdamW (lr=1e-4), batch=16, 50 epochs, RTX 4090 / CUDA 11.8
 - **Architecture:** VQ-VAE motion encoding + language model conditioning (text→motion)
 - **Loss:** feature reconstruction + velocity + commit + classification
@@ -60,7 +60,7 @@ Compared to HumanML3D (14,616 daily-life motions) and KIT-ML (3,911 daily-life m
 
 ## Usage
 
-Requires [[ai-game-devtools/motiongpt]] as base. Clone MotionGPT → set up environment → download CMP dataset → copy AnimationGPT's `tools/` and `config_AGPT.yaml` → download AGPT weights → run `demo.py` with text prompts.
+Requires [[motiongpt]] as base. Clone MotionGPT → set up environment → download CMP dataset → copy AnimationGPT's `tools/` and `config_AGPT.yaml` → download AGPT weights → run `demo.py` with text prompts.
 
 Output format: `.npy` (joint coordinates) → convert to `.mp4` or `.bvh` for game engine import.
 
@@ -73,11 +73,11 @@ Output format: `.npy` (joint coordinates) → convert to `.mp4` or `.bvh` for ga
 
 ## Relationships
 
-- Built on [[ai-game-devtools/motiongpt]] (base algorithm)
+- Built on [[motiongpt]] (base algorithm)
 - Dataset format compatible with HumanML3D
 - Trained models also available for MLD and MDM architectures
 - Output BVH files usable in game engines (Unity, Unreal)
-- Related to [[ai-game-devtools/animate3d]] (3D model animation generation) in the animation tooling space
+- Related to [[animate3d]] (3D model animation generation) in the animation tooling space
 
 ## Caveats
 

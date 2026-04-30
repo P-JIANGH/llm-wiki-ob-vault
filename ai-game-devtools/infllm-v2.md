@@ -46,7 +46,7 @@ InfLLM enables:
 
 ## Related Projects
 
-- [[ai-game-devtools/vllm]] — UC Berkeley high-throughput LLM inference engine with PagedAttention
-- [[ai-game-devtools/llama-cpp]] — ggerganov C/C++ LLM inference engine, alternative efficient inference
-- [[ai-game-devtools/large-world-model-lwm]] — UC Berkeley million-token context multimodal model
-- [[ai-game-devtools/longcat-flash]] — Meituan 560B MoE LLM with 128K context for agent tasks
+- [[vllm]] — UC Berkeley high-throughput LLM inference engine with PagedAttention
+- [[llama-cpp]] — ggerganov C/C++ LLM inference engine, alternative efficient inference
+- [[large-world-model-lwm]] — UC Berkeley million-token context multimodal model
+- [[longcat-flash]] — Meituan 560B MoE LLM with 128K context for agent tasks

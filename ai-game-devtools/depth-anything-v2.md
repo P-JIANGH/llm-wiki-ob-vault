@@ -70,9 +70,9 @@ python run_video.py --encoder vitl --video-path videos/ --outdir output/
 
 ## 游戏开发应用场景
 
-1. **3D 场景重建** — 从 2D 游戏截图/概念图生成深度图，辅助 [[ai-game-devtools/video2game]] 等管线
-2. **ControlNet 条件图** — 作为 [[ai-game-devtools/controlnet]] 的 depth 条件输入，控制扩散模型生成
-3. **Blender 深度辅助** — [[ai-game-devtools/blender-controlnet]] 可直接使用深度图作为渲染条件
+1. **3D 场景重建** — 从 2D 游戏截图/概念图生成深度图，辅助 [[video2game]] 等管线
+2. **ControlNet 条件图** — 作为 [[controlnet]] 的 depth 条件输入，控制扩散模型生成
+3. **Blender 深度辅助** — [[blender-controlnet]] 可直接使用深度图作为渲染条件
 4. **视频时序深度** — 视频深度一致性（Larger 模型更好），可用于游戏视频分析
 5. **实时 Web 深度** — Transformers.js + WebGPU 支持浏览器内实时深度估计
 6. **移动端部署** — Apple Core ML + Android ONNX 版本支持游戏 App 集成
@@ -87,5 +87,5 @@ python run_video.py --encoder vitl --video-path videos/ --outdir output/
 
 ## 与同类工具对比
 
-- 比 [[ai-game-devtools/sapiens]]（Meta 人体深度模型）更通用，覆盖全场景而非仅人体
-- 与 [[ai-game-devtools/controlnet]] 互补：ControlNet 消费深度图，Depth Anything V2 生成深度图
+- 比 [[sapiens]]（Meta 人体深度模型）更通用，覆盖全场景而非仅人体
+- 与 [[controlnet]] 互补：ControlNet 消费深度图，Depth Anything V2 生成深度图

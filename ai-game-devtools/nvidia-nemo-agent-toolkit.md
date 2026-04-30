@@ -60,9 +60,9 @@ NAT 采用可选插件架构，按需安装避免依赖膨胀：
 
 ## 同类工具对比
 
-与 [[ai-game-devtools/langchain]] 和 [[ai-game-devtools/crewai]] 等框架不同，NAT 本身不是 Agent 框架，而是**跨框架的编排层**——它可以连接和优化任何 Agent 架构。与 [[ai-game-devtools/flowise]] 的可视化编排相比，NAT 采用配置文件驱动的方式。
+与 [[langchain]] 和 [[crewai]] 等框架不同，NAT 本身不是 Agent 框架，而是**跨框架的编排层**——它可以连接和优化任何 Agent 架构。与 [[flowise]] 的可视化编排相比，NAT 采用配置文件驱动的方式。
 
-NAT 的插件系统支持 [[ai-game-devtools/langchain]]、[[ai-game-devtools/llama-index]]、[[ai-game-devtools/crewai]] 等主流框架，使其可以作为统一的多框架管理层。
+NAT 的插件系统支持 [[langchain]]、[[llama-index]]、[[crewai]] 等主流框架，使其可以作为统一的多框架管理层。
 
 ## 游戏开发相关价值
 

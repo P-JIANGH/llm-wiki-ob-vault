@@ -52,9 +52,9 @@ sources: [raw/articles/ai-game-devtools/rich-text-to-image.md]
 
 ## 与同类工具差异
 
-- 与 [[ai-game-devtools/controlnet]] 不同：ControlNet 使用外部条件图（canny/depth/pose），Rich-Text-to-Image 使用文本格式属性作为控制信号
+- 与 [[controlnet]] 不同：ControlNet 使用外部条件图（canny/depth/pose），Rich-Text-to-Image 使用文本格式属性作为控制信号
 - 与 Prompt-to-Prompt 的 AttentionRefine 不同：R-T2I 支持颜色/大小/样式/脚注四种控制维度，而非仅注意力重加权
-- 与 [[ai-game-devtools/comfyui]] 不同：ComfyUI 是节点式可视化管线编辑器，R-T2I 是专门的富文本控制方法
+- 与 [[comfyui]] 不同：ComfyUI 是节点式可视化管线编辑器，R-T2I 是专门的富文本控制方法
 
 ## 集成方式
 

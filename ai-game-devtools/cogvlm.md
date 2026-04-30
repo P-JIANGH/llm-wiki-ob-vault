@@ -17,7 +17,7 @@ aliases: ["CogVLM2"]
 
 **CogAgent** is an enhanced version with 11B vision + 7B language parameters, supporting 1120×1120 ultra-high resolution and adding GUI Agent capabilities.
 
-> **Note:** Superseded by [[ai-game-devtools/cogvlm2]] (next-gen, Llama3-8B based, comparable to GPT-4V).
+> **Note:** Superseded by [[cogvlm2]] (next-gen, Llama3-8B based, comparable to GPT-4V).
 
 ## Key Facts
 
@@ -56,10 +56,10 @@ aliases: ["CogVLM2"]
 
 ## Relationships
 
-- **Predecessor to** [[ai-game-devtools/cogvlm2]] — next generation based on Llama3-8B
-- **Competes with** [[ai-game-devtools/qwen-vl]] — Alibaba VLM, similar benchmark scope
-- **Competes with** [[ai-game-devtools/minigpt-4]] — earlier VLM that CogVLM outperforms on all major benchmarks
-- **Competes with** [[ai-game-devtools/llava-onevision]] — LLaVA series, CogVLM has higher MM-VET and POPE scores
+- **Predecessor to** [[cogvlm2]] — next generation based on Llama3-8B
+- **Competes with** [[qwen-vl]] — Alibaba VLM, similar benchmark scope
+- **Competes with** [[minigpt-4]] — earlier VLM that CogVLM outperforms on all major benchmarks
+- **Competes with** [[llava-onevision]] — LLaVA series, CogVLM has higher MM-VET and POPE scores
 - **Uses** [[ai-game-devtools/llm.c|SwissArmyTransformer]] — training framework by THUDM
 
 ## Links

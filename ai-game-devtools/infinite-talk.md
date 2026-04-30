@@ -10,7 +10,7 @@ sources: [raw/articles/ai-game-devtools/infinite-talk.md]
 # InfiniteTalk
 
 ## Overview
-MeiGen-AI 开源的音频驱动视频生成模型，支持**无限长度**说话视频生成。基于 [[ai-game-devtools/wan2-1]] Wan2.1-I2V-14B 基座，通过 chinese-wav2vec2 音频编码 + 音频条件注入，实现 image-to-video 和 video-to-video 双模式。
+MeiGen-AI 开源的音频驱动视频生成模型，支持**无限长度**说话视频生成。基于 [[wan2-1]] Wan2.1-I2V-14B 基座，通过 chinese-wav2vec2 音频编码 + 音频条件注入，实现 image-to-video 和 video-to-video 双模式。
 
 ## Key Features
 - **稀疏帧视频配音（Sparse-Frame Video Dubbing）：** 精准唇形同步 + 头部运动/身体姿态/面部表情与音频对齐
@@ -40,7 +40,7 @@ MeiGen-AI 开源的音频驱动视频生成模型，支持**无限长度**说话
 - **生成内容：** 无版权主张，用户自负法律责任
 
 ## Related Tools
-相比 [[ai-game-devtools/sadtalker]]（基于 3DMM 的音频驱动肖像动画，计算开销低但分辨率有限），InfiniteTalk 基于 Wan2.1 视频生成基座，生成质量更高且支持无限长度。相比 [[ai-game-devtools/hallo]]（扩散模型音频驱动，SD 1.5 + AnimateDiff），InfiniteTalk 采用流式推理架构，突破了单次生成的长度限制。与 [[ai-game-devtools/liveportrait]]（视频驱动，需参考视频输入）不同，InfiniteTalk 仅需音频即可驱动。
+相比 [[sadtalker]]（基于 3DMM 的音频驱动肖像动画，计算开销低但分辨率有限），InfiniteTalk 基于 Wan2.1 视频生成基座，生成质量更高且支持无限长度。相比 [[hallo]]（扩散模型音频驱动，SD 1.5 + AnimateDiff），InfiniteTalk 采用流式推理架构，突破了单次生成的长度限制。与 [[liveportrait]]（视频驱动，需参考视频输入）不同，InfiniteTalk 仅需音频即可驱动。
 
 ## Links
 - GitHub: https://github.com/MeiGen-AI/InfiniteTalk

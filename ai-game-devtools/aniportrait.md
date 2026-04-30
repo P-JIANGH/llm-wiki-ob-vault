@@ -71,6 +71,6 @@ Apache-2.0
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/easyphoto]]（侧重数字分身 LoRA 训练），AniPortrait 专注于零样本音频驱动动画
-- 相比 [[ai-game-devtools/mug-diffusion]]（音游谱面生成），AniPortrait 面向人物肖像视频生成
-- 采用 AnimateDiff Motion Module 实现时序一致性，与 [[ai-game-devtools/follow-your-click]] 共享相似扩散管线
+- 相比 [[easyphoto]]（侧重数字分身 LoRA 训练），AniPortrait 专注于零样本音频驱动动画
+- 相比 [[mug-diffusion]]（音游谱面生成），AniPortrait 面向人物肖像视频生成
+- 采用 AnimateDiff Motion Module 实现时序一致性，与 [[follow-your-click]] 共享相似扩散管线

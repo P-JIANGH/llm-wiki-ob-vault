@@ -59,5 +59,5 @@ reconstructed = agc.decode(z)  # (1, 2, 480000)
 - **Audio representation learning:** AGC provides high-fidelity audio tokenization for hierarchical generative models (music, sound effects generation)
 - **Low compression:** Preserves acoustic quality better than EnCodec, useful for game audio pipelines
 - **Can serve as tokenizer** for autoregressive audio generation models in game contexts
-- **Related to [[ai-game-devtools/academicodec]]** (another audio codec toolkit with EnCodec/SoundStream/HiFi-Codec training code)
-- **Complements audio generation tools** like [[ai-game-devtools/audio-diffusion-pytorch]] by providing better latent representations
+- **Related to [[academicodec]]** (another audio codec toolkit with EnCodec/SoundStream/HiFi-Codec training code)
+- **Complements audio generation tools** like [[audio-diffusion-pytorch]] by providing better latent representations

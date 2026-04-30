@@ -58,4 +58,4 @@ vocab_size ≈ 8849  # 词表（UTF-16 JSON）
 
 - [[ChatRWKV]] — 同作者，RWKV 模型的 ChatGPT 风格对话界面
 - [[RWKV-LM]] — RWKV 训练代码仓库
-- [[ai-game-devtools/text-generation-webui]] — 通用文本生成 Web UI（也支持 RWKV 加载）
+- [[text-generation-webui]] — 通用文本生成 Web UI（也支持 RWKV 加载）

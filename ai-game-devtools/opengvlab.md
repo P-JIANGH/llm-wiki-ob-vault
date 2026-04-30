@@ -65,9 +65,9 @@ sources: []
 
 ## Relationship to Other Projects
 
-- **Shanghai AI Lab** also produces [[ai-game-devtools/internlm]] series LLMs
-- InternVL competes with [[ai-game-devtools/llava]] and [[ai-game-devtools/cogvlm]] in the VLM space
-- Donut's OCR-free approach differs from traditional [[ai-game-devtools/easyphoto]]-style pipelines
+- **Shanghai AI Lab** also produces [[internlm]] series LLMs
+- InternVL competes with [[llava]] and [[cogvlm]] in the VLM space
+- Donut's OCR-free approach differs from traditional [[easyphoto]]-style pipelines
 
 ## References
 

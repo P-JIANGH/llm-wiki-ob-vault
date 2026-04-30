@@ -54,7 +54,7 @@ Mini-Gemini (MGM) is a multimodal vision-language model series by DVLab Research
 Code: Apache 2.0. Data & weights: CC BY NC 4.0 (research use only, non-commercial).
 
 ## Related
-- [[ai-game-devtools/llava-plus-plus]] — LLaVA family VLM, architecture Mini-Gemini is built upon
-- [[ai-game-devtools/llava-onevision]] — LLaVA-NeXT unified vision-language model
-- [[ai-game-devtools/minigpt-4]] — competing VLM using frozen ViT+Q-Former+LLM approach
-- [[ai-game-devtools/gemma]] — Gemma-2B used as the smallest MGM base LLM
+- [[llava-plus-plus]] — LLaVA family VLM, architecture Mini-Gemini is built upon
+- [[llava-onevision]] — LLaVA-NeXT unified vision-language model
+- [[minigpt-4]] — competing VLM using frozen ViT+Q-Former+LLM approach
+- [[gemma]] — Gemma-2B used as the smallest MGM base LLM

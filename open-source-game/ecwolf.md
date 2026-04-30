@@ -111,6 +111,7 @@ src/
 
 ## 相关页面
 
-- [[open-source-game/wolfenstein-3d]] — 原始 id Software Wolfenstein 3D 源码
-- [[open-source-game/chocolate-doom]] — Doom Bug-Compatible 端口参考
-- [[open-source-game/uzdoom]] — ZDoom 延续（ECWolf 兼容其 API 设计）
+- [[wolfenstein-3d]] — 原始 id Software Wolfenstein 3D 源码
+- [[chocolate-doom]] — Doom Bug-Compatible 端口参考
+- [[uzdoom]] — ZDoom 延续（ECWolf 兼容其 API 设计）
+

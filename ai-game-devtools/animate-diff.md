@@ -45,7 +45,7 @@ AnimateDiff is widely used for:
 
 ## Related Projects
 
-- [[ai-game-devtools/comfyui]] — Modular AI engine with extensive AnimateDiff node support
-- [[ai-game-devtools/motiondirector]] — Dual-path LoRA for motion customization on top of AnimateDiff
-- [[ai-game-devtools/mofa-video]] — Controllable image animation using frozen SVD + MOFA-Adapter
-- [[ai-game-devtools/story-diffusion]] — Long-range consistent image+video generation with AnimateDiff pipeline
+- [[comfyui]] — Modular AI engine with extensive AnimateDiff node support
+- [[motiondirector]] — Dual-path LoRA for motion customization on top of AnimateDiff
+- [[mofa-video]] — Controllable image animation using frozen SVD + MOFA-Adapter
+- [[story-diffusion]] — Long-range consistent image+video generation with AnimateDiff pipeline

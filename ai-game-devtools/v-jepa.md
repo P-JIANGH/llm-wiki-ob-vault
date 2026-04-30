@@ -81,6 +81,6 @@ CC BY-NC 4.0（知识共享署名-非商业性使用 4.0）——学术研究可
 
 ## 相关项目
 
-- [[ai-game-devtools/cogvideox]] — THUDM 视频生成模型，可使用 V-JEPA 特征作为视频理解组件
-- [[ai-game-devtools/hunyuan-video]] — 腾讯混元视频生成模型，与 V-JEPA 同属视频理解/生成领域
-- [[ai-game-devtools/cosmos]] — NVIDIA 物理 AI 世界模型平台，同样关注视频/物理世界理解
+- [[cogvideox]] — THUDM 视频生成模型，可使用 V-JEPA 特征作为视频理解组件
+- [[hunyuan-video]] — 腾讯混元视频生成模型，与 V-JEPA 同属视频理解/生成领域
+- [[cosmos]] — NVIDIA 物理 AI 世界模型平台，同样关注视频/物理世界理解

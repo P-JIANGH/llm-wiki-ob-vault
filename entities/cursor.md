@@ -20,6 +20,6 @@ AI 驱动的代码编辑器，基于 VS Code。
 
 ## 相关
 
-- [[Claude Code]] — CLI 版
+- [[claude-code]] — CLI 版
 - [[opencode]] — 开源替代
 - [[agent-code]] — Agent 版

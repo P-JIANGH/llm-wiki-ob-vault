@@ -46,9 +46,9 @@ StyleAvatar3D generates high-quality, stylized 3D avatars by combining pre-train
 
 ## Differences from Related Tools
 
-- vs [[ai-game-devtools/syncdreamer]]: SyncDreamer generates multi-view images of generic objects for 3D reconstruction; StyleAvatar3D is avatar-specific, uses StyleGAN as the 3D backbone, and trains on diffusion-synthesized data
-- vs [[ai-game-devtools/zero-1-to-3]]: Zero-1-to-3 generates novel views of a single object for 3D reconstruction; StyleAvatar3D generates stylized avatars with explicit style control
-- vs [[ai-game-devtools/hallo]]: Hallo generates talking head videos (2D animation); StyleAvatar3D generates actual 3D avatar models
+- vs [[syncdreamer]]: SyncDreamer generates multi-view images of generic objects for 3D reconstruction; StyleAvatar3D is avatar-specific, uses StyleGAN as the 3D backbone, and trains on diffusion-synthesized data
+- vs [[zero-1-to-3]]: Zero-1-to-3 generates novel views of a single object for 3D reconstruction; StyleAvatar3D generates stylized avatars with explicit style control
+- vs [[hallo]]: Hallo generates talking head videos (2D animation); StyleAvatar3D generates actual 3D avatar models
 
 ## Limitations
 
@@ -58,6 +58,6 @@ StyleAvatar3D generates high-quality, stylized 3D avatars by combining pre-train
 
 ## Related Projects
 
-- Inherits diffusion priors from [[ai-game-devtools/stable-diffusion]] family
+- Inherits diffusion priors from [[stable-diffusion]] family
 - StyleGAN-based 3D generation paradigm
-- Related: [[ai-game-devtools/syncdreamer]] (multi-view diffusion), [[ai-game-devtools/zero-1-to-3]] (single-image 3D)
+- Related: [[syncdreamer]] (multi-view diffusion), [[zero-1-to-3]] (single-image 3D)

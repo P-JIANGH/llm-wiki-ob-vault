@@ -75,7 +75,7 @@ README 中未明确声明。论文由 Xiaobing.AI 发表，建议查看项目仓
 
 ## 与同类工具差异
 
-| 特性 | Portrait4D | [[ai-game-devtools/exavatar]] | [[ai-game-devtools/geneavatar]] | [[ai-game-devtools/hallo]] |
+| 特性 | Portrait4D | [[exavatar]] | [[geneavatar]] | [[hallo]] |
 |------|-----------|-----|-----|-----|
 | 输入 | 单张参考图 + 驱动视频 | 手机视频 | 单张图像 | 音频 + 参考图 |
 | 输出 | 4D 动态头部 | 全身 3DGS Avatar | 3D 头部 Avatar 编辑 | 2D 说话头像视频 |

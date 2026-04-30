@@ -86,7 +86,7 @@ sources: [raw/articles/ai-game-devtools/grounded-segment-anything.md]
 
 ## Related
 
-- [[ai-game-devtools/evf-sam]] — HUST 开发的早期视觉-语言融合分割模型，将语言理解注入 SAM prompt encoder
-- [[ai-game-devtools/controlnet]] — Stable Diffusion 的精细控制插件，与 Grounded-SAM 的 inpainting 功能互补
-- [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型，与 Grounded-SAM 的多模态扩展方向相似
-- [[ai-game-devtools/comfyui]] — 节点式 Stable Diffusion UI，可集成 Grounded-SAM 作为自动标注节点
+- [[evf-sam]] — HUST 开发的早期视觉-语言融合分割模型，将语言理解注入 SAM prompt encoder
+- [[controlnet]] — Stable Diffusion 的精细控制插件，与 Grounded-SAM 的 inpainting 功能互补
+- [[imagebind]] — Meta AI 六模态联合嵌入模型，与 Grounded-SAM 的多模态扩展方向相似
+- [[comfyui]] — 节点式 Stable Diffusion UI，可集成 Grounded-SAM 作为自动标注节点

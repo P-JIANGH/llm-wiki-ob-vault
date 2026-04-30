@@ -30,7 +30,7 @@ OverFlow 由三个核心组件构成：
 
 数据流：音素 → Encoder → HMM 对齐 → Flow Decoder → Mel 频谱 → HiFi-GAN → 音频
 
-与 [[ai-game-devtools/glow-tts]] 的关系：两者都使用归一化流进行频谱建模，但 Glow-TTS 使用 GMM 对齐，而 OverFlow 使用 HMM 作为对齐机制。与 [[ai-game-devtools/matcha-tts]] 类似，都是 flow-based TTS 的代表。
+与 [[glow-tts]] 的关系：两者都使用归一化流进行频谱建模，但 Glow-TTS 使用 GMM 对齐，而 OverFlow 使用 HMM 作为对齐机制。与 [[matcha-tts]] 类似，都是 flow-based TTS 的代表。
 
 ## Technical Details
 - **框架**: PyTorch + PyTorch Lightning

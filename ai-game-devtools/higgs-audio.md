@@ -78,13 +78,13 @@ Boson AI 开源的音频基础模型，基于 1000 万+ 小时音频数据预训
 - **多种环境**：pip/venv/conda/uv 安装方式
 
 ## Differences from Similar Tools
-- 与 [[ai-game-devtools/cosyvoice]] 相比：Higgs Audio 在语音相似度上显著领先（67.70 vs 65.49），情感表现更突出
-- 与 [[ai-game-devtools/musicgen]] 相比：Higgs 侧重语音/TTS，MusicGen 侧重音乐生成
-- 与 [[ai-game-devtools/amphion]] 相比：Amphion 是统一音频/音乐/语音处理框架，Higgs 是端到端生成模型
+- 与 [[cosyvoice]] 相比：Higgs Audio 在语音相似度上显著领先（67.70 vs 65.49），情感表现更突出
+- 与 [[musicgen]] 相比：Higgs 侧重语音/TTS，MusicGen 侧重音乐生成
+- 与 [[amphion]] 相比：Amphion 是统一音频/音乐/语音处理框架，Higgs 是端到端生成模型
 - 独特优势：多说话人对话、涌现能力（哼唱/音乐+语音同时生成）、GRPO 对齐
 
 ## Related
-- [[ai-game-devtools/cosyvoice]] — 阿里 FunAudioLLM 语音合成模型
-- [[ai-game-devtools/musicgen]] — Meta AI 音乐生成模型
-- [[ai-game-devtools/amphion]] — OpenMMLab 音频/音乐/语音统一框架
-- [[ai-game-devtools/rpbench-auto]] — Boson AI 另一开源项目，LLM 角色扮演评测
+- [[cosyvoice]] — 阿里 FunAudioLLM 语音合成模型
+- [[musicgen]] — Meta AI 音乐生成模型
+- [[amphion]] — OpenMMLab 音频/音乐/语音统一框架
+- [[rpbench-auto]] — Boson AI 另一开源项目，LLM 角色扮演评测

@@ -61,11 +61,11 @@ Dream Textures is a Blender add-on that brings **Stable Diffusion** image genera
 
 | Tool | Scope | Relationship |
 |------|-------|-------------|
-| [[ai-game-devtools/blender-controlnet]] | ControlNet in Blender | Focuses on ControlNet guidance; Dream Textures is broader |
-| [[ai-game-devtools/stable-diffusion-webui]] | Standalone WebUI | Dream Textures integrates into Blender 3D workflow |
-| [[ai-game-devtools/comfyui]] | Node-based SD UI | ComfyUI is standalone; Dream Textures is Blender-native |
-| [[ai-game-devtools/stable-diffusion]] | Core model | Dream Textures builds on SD via diffusers |
-| [[ai-game-devtools/unity-ml-stable-diffusion]] | Unity SD integration | Similar concept but for Unity instead of Blender |
+| [[blender-controlnet]] | ControlNet in Blender | Focuses on ControlNet guidance; Dream Textures is broader |
+| [[stable-diffusion-webui]] | Standalone WebUI | Dream Textures integrates into Blender 3D workflow |
+| [[comfyui]] | Node-based SD UI | ComfyUI is standalone; Dream Textures is Blender-native |
+| [[stable-diffusion]] | Core model | Dream Textures builds on SD via diffusers |
+| [[unity-ml-stable-diffusion]] | Unity SD integration | Similar concept but for Unity instead of Blender |
 
 ## Use Cases for Game Development
 

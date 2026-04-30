@@ -102,6 +102,6 @@ darkmod_src/
 
 ## 相关页面
 
-- [[open-source-game/doom-3-bfg]] — 同一引擎祖先
-- [[open-source-game/eduke32]] — Build 引擎游戏
+- [[doom-3-bfg]] — 同一引擎祖先
+- [[eduke32]] — Build 引擎游戏
 - [[open-source-games-list]] — 开源游戏总览

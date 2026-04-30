@@ -71,9 +71,9 @@ Text Prompt → Stable Diffusion → Spectrogram Image → Griffin-Lim → Audio
 | Tool | Approach | Output | Key Difference |
 |------|----------|--------|----------------|
 | Riffusion | SD on spectrograms | Short clips, real-time streaming | Novel image→audio pipeline, no training needed |
-| [[ai-game-devtools/musicgen]] | EnCodec tokens + Transformer | High-quality music | Autoregressive audio model, trained on 20K hours |
-| [[ai-game-devtools/flux-music]] | Rectified Flow + Dual Transformer | Music generation | Latest architecture, 5 model sizes |
-| [[ai-game-devtools/jukebox]] | Hierarchical VQ-VAE + Transformer | Full songs with lyrics | OpenAI's pioneering work, 3-hour V100 inference |
+| [[musicgen]] | EnCodec tokens + Transformer | High-quality music | Autoregressive audio model, trained on 20K hours |
+| [[flux-music]] | Rectified Flow + Dual Transformer | Music generation | Latest architecture, 5 model sizes |
+| [[jukebox]] | Hierarchical VQ-VAE + Transformer | Full songs with lyrics | OpenAI's pioneering work, 3-hour V100 inference |
 
 ## Relevance to Game Development
 
@@ -85,5 +85,5 @@ Text Prompt → Stable Diffusion → Spectrogram Image → Griffin-Lim → Audio
 ## Related
 
 - Inference server repo: https://github.com/hmartiro/riffusion-inference
-- Built on the [[ai-game-devtools/stable-diffusion]] latent diffusion model
-- Similar concept to [[ai-game-devtools/musicgen]] but with different architecture
+- Built on the [[stable-diffusion]] latent diffusion model
+- Similar concept to [[musicgen]] but with different architecture

@@ -74,9 +74,9 @@ model.to("cuda")
 
 ## Comparison with Related VLM Video Models
 
-- **vs [[ai-game-devtools/cambrian-1]]:** Cambrian-1 focuses on fixed 576 visual tokens with SVA aggregator; Kangaroo handles up to 160 frames for long-video understanding
-- **vs [[ai-game-devtools/video-llava]]:** Video-LLaVA uses Alignment Before Projection for unified image+video; Kangaroo is specialized for long-video with curriculum training
-- **vs [[ai-game-devtools/cogvlm2]]:** CogVLM2 targets image+video understanding with DocVQA SOTA; Kangaroo is purpose-built for long-form video benchmarks
+- **vs [[cambrian-1]]:** Cambrian-1 focuses on fixed 576 visual tokens with SVA aggregator; Kangaroo handles up to 160 frames for long-video understanding
+- **vs [[video-llava]]:** Video-LLaVA uses Alignment Before Projection for unified image+video; Kangaroo is specialized for long-video with curriculum training
+- **vs [[cogvlm2]]:** CogVLM2 targets image+video understanding with DocVQA SOTA; Kangaroo is purpose-built for long-form video benchmarks
 
 ## Related Links
 

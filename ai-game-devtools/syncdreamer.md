@@ -33,7 +33,7 @@ SyncDreamer is a multiview diffusion model that generates 16 consistent images o
 
 ## Architecture
 
-Built on the Latent Diffusion Model (LDM) framework inherited from [[ai-game-devtools/stable-diffusion]]. Core innovations:
+Built on the Latent Diffusion Model (LDM) framework inherited from [[stable-diffusion]]. Core innovations:
 
 - **DepthWiseAttention**: Volume-aware cross-view attention mechanism that ensures multiview consistency
 - **CLIP ViT-L-14 encoder**: Single-image conditioning
@@ -58,15 +58,15 @@ Built on the Latent Diffusion Model (LDM) framework inherited from [[ai-game-dev
 - **Single-image 3D asset creation**: Generate 3D models from concept art or photographs
 - **Game asset prototyping**: Quick 3D previews from 2D design drafts
 - **Texture/multi-angle reference**: Generate consistent views for texture painting
-- Can be integrated with [[ai-game-devtools/comfyui]] for workflow automation
+- Can be integrated with [[comfyui]] for workflow automation
 
 ## Differences from Related Tools
 
 - vs **zero123**: SyncDreamer generates all 16 views *simultaneously* (not one at a time), ensuring consistency across views
 - vs **Magic123/One-2-3-45**: Synchronous diffusion vs. sequential/SDS-based optimization — faster and more consistent
-- vs [[ai-game-devtools/threestudio]]: SyncDreamer is a specific multiview generator, while threestudio is a general 3D generation framework supporting multiple backends
+- vs [[threestudio]]: SyncDreamer is a specific multiview generator, while threestudio is a general 3D generation framework supporting multiple backends
 
 ## Related Projects
 
-- Inherits code from: [[ai-game-devtools/stable-diffusion]], zero123, threestudio
+- Inherits code from: [[stable-diffusion]], zero123, threestudio
 - Related: Magic123, RealFusion, One-2-3-45

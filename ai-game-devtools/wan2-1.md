@@ -56,13 +56,13 @@ Wan2.1 is a comprehensive suite of video foundation models built on the **Diffus
 
 ## Performance
 
-Evaluated on 1,035 internal prompts across **14 major dimensions & 26 sub-dimensions**. Weighted scoring shows Wan2.1 outperforms competing open-source models. Widely adopted as a **base model** for fine-tuning by the community (e.g., [[ai-game-devtools/ruyi]], [[ai-game-devtools/lynx]], [[ai-game-devtools/moviigen-1-1]]).
+Evaluated on 1,035 internal prompts across **14 major dimensions & 26 sub-dimensions**. Weighted scoring shows Wan2.1 outperforms competing open-source models. Widely adopted as a **base model** for fine-tuning by the community (e.g., [[ruyi]], [[lynx]], [[moviigen-1-1]]).
 
 ## Ecosystem Impact
 
 Wan2.1 has become a popular **foundation model** for video generation research and applications:
-- [[ai-game-devtools/hunyuan-video]] and [[ai-game-devtools/cogvideox]] are competing open-source video models
-- Multiple derivative projects fine-tune on Wan2.1: [[ai-game-devtools/ruyi]] (I2V), [[ai-game-devtools/lynx]] (personalized video), [[ai-game-devtools/moviigen-1-1]] (cinematic), [[ai-game-devtools/stableavatar]] (avatar animation)
+- [[hunyuan-video]] and [[cogvideox]] are competing open-source video models
+- Multiple derivative projects fine-tune on Wan2.1: [[ruyi]] (I2V), [[lynx]] (personalized video), [[moviigen-1-1]] (cinematic), [[stableavatar]] (avatar animation)
 
 ## Links
 

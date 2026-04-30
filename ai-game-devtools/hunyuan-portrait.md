@@ -59,7 +59,7 @@ sources: [raw/articles/ai-game-devtools/hunyuan-portrait.md]
 
 ## 与同类工具差异
 
-相比 [[ai-game-devtools/hallo]] 和 [[ai-game-devtools/aniportrait]] 等音频驱动方案，HunyuanPortrait 采用**视频驱动**（而非纯音频），能捕捉更精细的面部表情和头部姿态变化。与 [[ai-game-devtools/ditto-talkinghead]] 的实时流式推理不同，HunyuanPortrait 侧重于高质量离线生成，适合游戏过场动画和 NPC 肖像制作。
+相比 [[hallo]] 和 [[aniportrait]] 等音频驱动方案，HunyuanPortrait 采用**视频驱动**（而非纯音频），能捕捉更精细的面部表情和头部姿态变化。与 [[ditto-talkinghead]] 的实时流式推理不同，HunyuanPortrait 侧重于高质量离线生成，适合游戏过场动画和 NPC 肖像制作。
 
 ## 游戏开发应用
 
@@ -70,9 +70,9 @@ sources: [raw/articles/ai-game-devtools/hunyuan-portrait.md]
 
 ## Related
 
-- [[ai-game-devtools/hallo]] — 复旦音频驱动肖像动画（SD 1.5+AnimateDiff）
-- [[ai-game-devtools/hallo2]] — 复旦长时高分辨率肖像动画
-- [[ai-game-devtools/aniportrait]] — 腾讯游戏知几音频驱动肖像
-- [[ai-game-devtools/ditto-talkinghead]] — 蚂蚁实时说话头部合成
-- [[ai-game-devtools/hunyuan-dit]] — 腾讯混元 DiT 图像生成
-- [[ai-game-devtools/hunyuan3d-2-1]] — 腾讯混元3D资产生成
+- [[hallo]] — 复旦音频驱动肖像动画（SD 1.5+AnimateDiff）
+- [[hallo2]] — 复旦长时高分辨率肖像动画
+- [[aniportrait]] — 腾讯游戏知几音频驱动肖像
+- [[ditto-talkinghead]] — 蚂蚁实时说话头部合成
+- [[hunyuan-dit]] — 腾讯混元 DiT 图像生成
+- [[hunyuan3d-2-1]] — 腾讯混元3D资产生成

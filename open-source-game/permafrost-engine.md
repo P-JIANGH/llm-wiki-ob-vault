@@ -142,17 +142,17 @@ src/
 
 | 方向 | 启示 |
 |------|------|
-| **纯 C + OpenGL 3.3 渲染** | 不依赖游戏引擎，自研渲染管线适合需要精细控制的项目；对比 [[open-source-game/openra]]（C#）和 [[open-source-game/warzone-2100]]（C++），Permafrost 是纯 C 的极端案例 |
+| **纯 C + OpenGL 3.3 渲染** | 不依赖游戏引擎，自研渲染管线适合需要精细控制的项目；对比 [[openra]]（C#）和 [[warzone-2100]]（C++），Permafrost 是纯 C 的极端案例 |
 | **Python 脚本层设计** | Python 2.7 暴露引擎内部 + Fiber 协作多任务是 AI 脚本控制的理想模型；可让 AI 决策直接写在 Python 层而非编译进 C |
-| **GPU 群体模拟** | Compute shader 加速 crowd simulation 可用于大规模单位 AI 行为可视化[[open-source-game/warzone-2100]] |
-| **分层流场 + boids** | 适合 RTS 中大队列单位移动的群体行为；对比 [[open-source-game/openage]] 的 A* 寻路，不同策略适用不同规模 |
+| **GPU 群体模拟** | Compute shader 加速 crowd simulation 可用于大规模单位 AI 行为可视化[[warzone-2100]] |
+| **分层流场 + boids** | 适合 RTS 中大队列单位移动的群体行为；对比 [[openage]] 的 A* 寻路，不同策略适用不同规模 |
 | **序列化/回放系统** | 完整 Python 状态序列化和会话保存/恢复，可用于 AI 对局的全程录制和复盘 |
-| **阵型重排 Hungarian Algorithm** | [[open-source-game/warzone-2100]] 的单位移动和阵型控制也值得对比 |
+| **阵型重排 Hungarian Algorithm** | [[warzone-2100]] 的单位移动和阵型控制也值得对比 |
 | **多线程 2-stage 管线** | 模拟和渲染分离，适合在模拟线程中运行 AI 决策而不阻塞渲染 |
 
 ## 相关
 
-- [[open-source-game/warzone-2100]] — C++ 3D RTS，另一种自研渲染管线方案
-- [[open-source-game/openra]] — C# RTS，多 Mod 架构参考
-- [[open-source-game/openage]] — C++20+Python3 Age of Empires 引擎复刻
-- [[open-source-game/mindustry]] — 自动化塔防，[[open-source-game/veloren]] — Rust 体素 RPG
+- [[warzone-2100]] — C++ 3D RTS，另一种自研渲染管线方案
+- [[openra]] — C# RTS，多 Mod 架构参考
+- [[openage]] — C++20+Python3 Age of Empires 引擎复刻
+- [[mindustry]] — 自动化塔防，[[veloren]] — Rust 体素 RPG

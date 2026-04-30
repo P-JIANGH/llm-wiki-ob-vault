@@ -73,9 +73,9 @@ sources: [raw/articles/ai-game-devtools/longlive.md]
 
 ## 与同类工具的差异
 
-- vs [[ai-game-devtools/hunyuan-video]]：LongLive 侧重**实时交互**+长视频，HunyuanVideo 侧重高质量离线生成
-- vs [[ai-game-devtools/cogvideox]]：LongLive 支持**顺序提示**引导，CogVideoX 为单提示视频生成
-- vs [[ai-game-devtools/animatediff]]：LongLive 为端到端长视频生成，AnimateDiff 为短片段动画适配
+- vs [[hunyuan-video]]：LongLive 侧重**实时交互**+长视频，HunyuanVideo 侧重高质量离线生成
+- vs [[cogvideox]]：LongLive 支持**顺序提示**引导，CogVideoX 为单提示视频生成
+- vs [[animatediff]]：LongLive 为端到端长视频生成，AnimateDiff 为短片段动画适配
 
 ## 里程碑
 
@@ -90,6 +90,6 @@ sources: [raw/articles/ai-game-devtools/longlive.md]
 
 ## 相关页面
 
-- [[ai-game-devtools/hunyuan-video]] — 腾讯混元视频生成模型
-- [[ai-game-devtools/cogvideox]] — 智谱 CogVideoX 视频生成
-- [[ai-game-devtools/animatediff]] — AnimateDiff 动画扩散模型
+- [[hunyuan-video]] — 腾讯混元视频生成模型
+- [[cogvideox]] — 智谱 CogVideoX 视频生成
+- [[animatediff]] — AnimateDiff 动画扩散模型

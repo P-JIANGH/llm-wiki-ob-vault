@@ -55,7 +55,7 @@ GPT4All 可用于游戏中的本地 LLM 推理场景：
 
 | 工具 | 定位 | UI | 游戏集成 |
 |------|------|-----|---------|
-| [[ai-game-devtools/llama-cpp]] | 纯 C++ 推理引擎 | 无 | 嵌入游戏进程 |
+| [[llama-cpp]] | 纯 C++ 推理引擎 | 无 | 嵌入游戏进程 |
 | `ai-game-devtools/ollama` | CLI 本地模型管理 | CLI + API | Docker 集成 |
 | **GPT4All** | **完整应用平台** | **桌面 GUI** | **Python 绑定嵌入** |
 

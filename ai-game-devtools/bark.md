@@ -49,8 +49,8 @@ Bark 是完全生成式的文本到音频模型（非传统 TTS），基于 GPT 
 
 ## 与同类工具差异
 
-- 与 [[ai-game-devtools/so-vits-svc]] 和 [[ai-game-devtools/retrieval-based-voice-conversion-webui]] 不同，Bark 不是声音转换模型，而是从零生成音频
-- 与 [[ai-game-devtools/tortoise-tts]] 类似都是自回归生成，但 Bark 更专注于多语言和音频泛化能力
+- 与 [[so-vits-svc]] 和 [[retrieval-based-voice-conversion-webui]] 不同，Bark 不是声音转换模型，而是从零生成音频
+- 与 [[tortoise-tts]] 类似都是自回归生成，但 Bark 更专注于多语言和音频泛化能力
 - Suno 团队后续转向音乐生成领域（MusicGen 等），Bark 是其早期代表作
 
 ## 相关链接

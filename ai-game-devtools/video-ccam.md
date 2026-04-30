@@ -45,7 +45,7 @@ Video-CCAM 在四大视频理解基准上均达开源 SOTA 水平：
 
 ## 与同类工具的差异
 
-Video-CCAM 与 [[ai-game-devtools/video-llava]]（统一图像+视频 VLM）、[[ai-game-devtools/video-agent]]（记忆增强视频问答 Agent）不同：CCAM 专注通过因果注意力机制提升原始视频理解精度，而非多 Agent 编排或视频生成。其 14B 有字幕达 57.4 在 Video-MME 上，优于 [[ai-game-devtools/pllava]]（NUS 参数自由视频扩展）的评测策略。此外，Video-CCAM 基于 [[ai-game-devtools/qwen-vl]] 类似的 SigLIP+Qwen/Phi 架构路线，融合更强因果归纳偏置。
+Video-CCAM 与 [[video-llava]]（统一图像+视频 VLM）、[[video-agent]]（记忆增强视频问答 Agent）不同：CCAM 专注通过因果注意力机制提升原始视频理解精度，而非多 Agent 编排或视频生成。其 14B 有字幕达 57.4 在 Video-MME 上，优于 [[pllava]]（NUS 参数自由视频扩展）的评测策略。此外，Video-CCAM 基于 [[qwen-vl]] 类似的 SigLIP+Qwen/Phi 架构路线，融合更强因果归纳偏置。
 
 ## 部署与使用
 

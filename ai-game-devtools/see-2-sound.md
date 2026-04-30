@@ -94,7 +94,7 @@ model.run(path="scene.png", output_path="scene.wav")
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/hunyuanvideo-foley]]（腾讯视频音效生成）：SEE-2-SOUND 专注**图像→空间音频**而非视频→音效，且输出5.1环绕声而非单声道
-- 相比 [[ai-game-devtools/mmaudio]]（视频→音频同步生成）：SEE-2-SOUND 强调**空间定位**（深度估计+3D声源放置），而非时间同步
-- 相比 [[ai-game-devtools/audioldm-2]]（通用音频扩散模型）：SEE-2-SOUND 是完整的端到端管线（分割→深度→生成→空间化），而 AudioLDM 2 是基础音频生成框架
-- 相比 [[ai-game-devtools/audiolcm]]（LCM加速扩散音频生成）：SEE-2-SOUND 使用 CoDi 而非 AudioLDM，且增加了空间音频合成层
+- 相比 [[hunyuanvideo-foley]]（腾讯视频音效生成）：SEE-2-SOUND 专注**图像→空间音频**而非视频→音效，且输出5.1环绕声而非单声道
+- 相比 [[mmaudio]]（视频→音频同步生成）：SEE-2-SOUND 强调**空间定位**（深度估计+3D声源放置），而非时间同步
+- 相比 [[audioldm-2]]（通用音频扩散模型）：SEE-2-SOUND 是完整的端到端管线（分割→深度→生成→空间化），而 AudioLDM 2 是基础音频生成框架
+- 相比 [[audiolcm]]（LCM加速扩散音频生成）：SEE-2-SOUND 使用 CoDi 而非 AudioLDM，且增加了空间音频合成层

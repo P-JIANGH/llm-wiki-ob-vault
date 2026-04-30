@@ -68,7 +68,7 @@ Speed measured on A100 GPU (torch 2.5.1, CUDA 12.4).
 - **Real-time processing**: 91 FPS (tiny model) enables live video segmentation
 
 ## Related Tools
-- [[ai-game-devtools/grounded-segment-anything]] — Combines GroundingDINO + SAM for open-vocabulary segmentation (text prompt → mask)
-- [[ai-game-devtools/evf-sam]] — Efficient Vision-Language SAM: adds text understanding to SAM segmentation
-- [[ai-game-devtools/depth-anything-v2]] — Depth estimation model, complementary for 3D understanding
-- [[ai-game-devtools/dwpose]] — DWPose body/hand/face keypoint detection for pose-guided tasks
+- [[grounded-segment-anything]] — Combines GroundingDINO + SAM for open-vocabulary segmentation (text prompt → mask)
+- [[evf-sam]] — Efficient Vision-Language SAM: adds text understanding to SAM segmentation
+- [[depth-anything-v2]] — Depth estimation model, complementary for 3D understanding
+- [[dwpose]] — DWPose body/hand/face keypoint detection for pose-guided tasks

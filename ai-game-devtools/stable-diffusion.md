@@ -46,13 +46,13 @@ A **Latent Diffusion Model (LDM)** that operates in a compressed latent space ra
 
 Stable Diffusion became the **foundation for an entire ecosystem** of tools and models:
 
-- [[ai-game-devtools/controlnet]] — Adds spatial control (pose/depth/edge) to SD models
-- [[ai-game-devtools/comfyui]] — Node-based visual UI for SD pipelines
-- [[ai-game-devtools/sd-webui-controlnet]] — ControlNet extension for A1111 WebUI
-- [[ai-game-devtools/flux]] — Architectural successor by Stability AI alumni (flow matching vs diffusion)
-- [[ai-game-devtools/stable-cascade]] — Würstchen-based model with 16× efficiency improvement (compression factor 42 vs SD's 8)
-- [[ai-game-devtools/layer-diffusion]] — Native transparent layer generation for SDXL/SD1.5
-- [[ai-game-devtools/ic-light]] — Image relighting tool based on SD1.5 architecture
+- [[controlnet]] — Adds spatial control (pose/depth/edge) to SD models
+- [[comfyui]] — Node-based visual UI for SD pipelines
+- [[sd-webui-controlnet]] — ControlNet extension for A1111 WebUI
+- [[flux]] — Architectural successor by Stability AI alumni (flow matching vs diffusion)
+- [[stable-cascade]] — Würstchen-based model with 16× efficiency improvement (compression factor 42 vs SD's 8)
+- [[layer-diffusion]] — Native transparent layer generation for SDXL/SD1.5
+- [[ic-light]] — Image relighting tool based on SD1.5 architecture
 
 ## License
 

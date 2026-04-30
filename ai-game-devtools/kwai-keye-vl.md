@@ -79,10 +79,10 @@ Keye-VL-1.5-8B 在同尺寸模型中达到顶级水平：
 
 ## Related
 
-- [[ai-game-devtools/cogvlm2]] — THUDM/ZhipuAI 第二代 VLM，TextVQA/DocVQA SOTA
-- [[ai-game-devtools/kangaroo]] — KangarooGroup 8B 长视频理解 VLM
-- [[ai-game-devtools/glm-v]] — ZhipuAI 开源 VLM 系列
-- [[ai-game-devtools/minigpt-4]] — EAIST VLM，冻结 ViT + Q-Former 架构
+- [[cogvlm2]] — THUDM/ZhipuAI 第二代 VLM，TextVQA/DocVQA SOTA
+- [[kangaroo]] — KangarooGroup 8B 长视频理解 VLM
+- [[glm-v]] — ZhipuAI 开源 VLM 系列
+- [[minigpt-4]] — EAIST VLM，冻结 ViT + Q-Former 架构
 
 ## Citation
 

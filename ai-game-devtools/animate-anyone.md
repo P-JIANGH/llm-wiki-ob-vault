@@ -38,8 +38,8 @@ Alibaba Cloud DeepGPU/AIACC 优化推理负载：
 - 测试条件：32 帧 @ 832×640 分辨率，1 步
 
 ## 相关项目
-- 与 [[ai-game-devtools/musepose]] 同为姿态驱动角色动画方案（TME 基于 SD 1.5 + AnimateDiff）
-- 与 [[ai-game-devtools/echomimic]] 同属扩散模型角色动画家族（蚂蚁 AAAI 2025）
+- 与 [[musepose]] 同为姿态驱动角色动画方案（TME 基于 SD 1.5 + AnimateDiff）
+- 与 [[echomimic]] 同属扩散模型角色动画家族（蚂蚁 AAAI 2025）
 - 扩展训练数据支持训练分布外角色动画
 
 ## 来源

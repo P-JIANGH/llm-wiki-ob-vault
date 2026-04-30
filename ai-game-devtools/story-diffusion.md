@@ -56,7 +56,7 @@ StoryDiffusion 是南开大学 HVision 团队提出的长程图像和视频一�
 
 ## 与同类工具差异
 
-| 对比维度 | StoryDiffusion | [[ai-game-devtools/stable-video-diffusion]] | [[ai-game-devtools/animatediff]] |
+| 对比维度 | StoryDiffusion | [[stable-video-diffusion]] | [[animatediff]] |
 |---------|---------------|---------------------------|-----------------------------|
 | 主要目标 | 角色一致性漫画 + 长视频 | 图像→短视频 | 文本→短动画 |
 | 一致性方法 | Consistent Self-Attention | SVD 预训练权重 | Motion Module |

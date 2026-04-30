@@ -90,7 +90,8 @@ src/
 
 ## 相关页面
 
-- [[open-source-game/quake]] — 原始 Quake 源码
-- [[open-source-game/chocolate-doom]] — Chocolate Doom（同一设计哲学的 Doom 端口）
-- [[open-source-game/quake-2]] — Quake II 源码
-- [[open-source-game/quake-iii-arena]] — Quake III Arena 源码
+- [[quake]] — 原始 Quake 源码
+- [[chocolate-doom]] — Chocolate Doom（同一设计哲学的 Doom 端口）
+- [[quake-2]] — Quake II 源码
+- [[quake-iii-arena]] — Quake III Arena 源码
+

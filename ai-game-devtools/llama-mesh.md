@@ -51,9 +51,9 @@ Zhengyi Wang (THU), Jonathan Lorraine (NVIDIA), Yikai Wang (THU), Hang Su (THU),
 
 ## 与同类工具的比较
 
-- 与 [[ai-game-devtools/crm]] 不同：CRM 使用两阶段扩散模型生成 3D 网格，LLaMA-Mesh 使用 LLM 自回归生成
-- 与 [[ai-game-devtools/dreammat]] 不同：DreamMat 专注于 PBR 材质生成，LLaMA-Mesh 专注于网格几何生成
-- 与 [[ai-game-devtools/llama-3]] 相关：基于 Llama 3.1 8B 微调，保持了原始文本能力
+- 与 [[crm]] 不同：CRM 使用两阶段扩散模型生成 3D 网格，LLaMA-Mesh 使用 LLM 自回归生成
+- 与 [[dreammat]] 不同：DreamMat 专注于 PBR 材质生成，LLaMA-Mesh 专注于网格几何生成
+- 与 [[llama-3]] 相关：基于 Llama 3.1 8B 微调，保持了原始文本能力
 
 ## 来源
 

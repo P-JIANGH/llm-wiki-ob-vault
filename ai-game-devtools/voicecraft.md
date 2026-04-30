@@ -48,7 +48,7 @@ sources: [raw/articles/ai-game-devtools/voicecraft.md]
 
 ## 与同类工具差异
 
-与 [[ai-game-devtools/gpt-sovits]]（VITS 架构、需要微调）不同，VoiceCraft 采用纯自回归编解码 LM 范式，零样本即可合成，无需训练特定说话人。与 [[ai-game-devtools/tortoise-tts]]（自回归 + 扩散混合）相比，VoiceCraft 在野外数据上表现更好，支持语音编辑功能。与 [[ai-game-devtools/bert-vits2]]（需要参考音频微调）相比，VoiceCraft 仅需几秒参考即可克隆声音，但推理速度较慢。与 [[ai-game-devtools/audioldm-2]]（扩散模型，侧重音效生成）不同，VoiceCraft 专注于人声 TTS 和编辑。与 [[ai-game-devtools/cosyvoice]] 等 Flow Matching 方案不同，VoiceCraft 使用离散的 token infilling 方法。
+与 [[gpt-sovits]]（VITS 架构、需要微调）不同，VoiceCraft 采用纯自回归编解码 LM 范式，零样本即可合成，无需训练特定说话人。与 [[tortoise-tts]]（自回归 + 扩散混合）相比，VoiceCraft 在野外数据上表现更好，支持语音编辑功能。与 [[bert-vits2]]（需要参考音频微调）相比，VoiceCraft 仅需几秒参考即可克隆声音，但推理速度较慢。与 [[audioldm-2]]（扩散模型，侧重音效生成）不同，VoiceCraft 专注于人声 TTS 和编辑。与 [[cosyvoice]] 等 Flow Matching 方案不同，VoiceCraft 使用离散的 token infilling 方法。
 
 ## 链接
 

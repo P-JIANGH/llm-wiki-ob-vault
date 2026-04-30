@@ -67,9 +67,9 @@ Text/Video → DiT Encoder → Flow-Matching Latent Space → BigVGAN Vocoder �
 Make-An-Audio 3 is part of a lineage:
 
 1. **[[ai-game-devtools/make-an-audio]]** — Original text-to-audio with prompt-enhanced diffusion (arXiv 2301.12661)
-2. **[[ai-game-devtools/audiolcm]]** — Latent Consistency Models for faster audio generation (ACM-MM 2024)
-3. **[[ai-game-devtools/audioldm-2]]** — Holistic audio generation via latent diffusion (TASLP 2024)
-4. **[[ai-game-devtools/lumina-t2x]]** — Parent architecture: Flow-based DiT for multi-modal generation
+2. **[[audiolcm]]** — Latent Consistency Models for faster audio generation (ACM-MM 2024)
+3. **[[audioldm-2]]** — Holistic audio generation via latent diffusion (TASLP 2024)
+4. **[[lumina-t2x]]** — Parent architecture: Flow-based DiT for multi-modal generation
 
 The key innovation over prior versions is the **flow matching** approach (replacing standard diffusion) and the adoption of the **Lumina-Next** DiT architecture with Flash Attention.
 

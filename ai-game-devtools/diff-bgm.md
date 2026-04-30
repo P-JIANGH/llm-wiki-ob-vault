@@ -42,6 +42,6 @@ Video Background Music Generation via Latent Diffusion Models.
 Diff-BGM enables automated background music generation for game cutscenes, trailers, and dynamic gameplay sequences. By conditioning on video features, it can adapt music style and tempo to match on-screen action — useful for procedural game content generation.
 
 ## Related
-- See [[ai-game-devtools/mmaudio]] for video-to-audio generation (sound effects)
-- See [[ai-game-devtools/audioldm-2]] for general audio/music diffusion generation
-- See [[ai-game-devtools/syncfusion]] for video Foley sound effect generation
+- See [[mmaudio]] for video-to-audio generation (sound effects)
+- See [[audioldm-2]] for general audio/music diffusion generation
+- See [[syncfusion]] for video Foley sound effect generation

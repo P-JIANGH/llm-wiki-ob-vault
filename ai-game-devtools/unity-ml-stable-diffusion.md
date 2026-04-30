@@ -63,8 +63,8 @@ Requires pre-converted Core ML models in `Assets/StreamingAssets/StableDiffusion
 ## Related Projects
 
 - **[Flipbook3](https://github.com/keijiro/Flipbook3):** Sample project using image-to-image pipeline with real-time 3D scenes
-- **[[ai-game-devtools/stable-diffusion]]:** Original Stability AI Stable Diffusion (the base model this plugin wraps)
-- **[[ai-game-devtools/stable-diffusion-cpp]]:** Another native C++ Stable Diffusion inference engine (llama.cpp-style, cross-platform)
+- **[[stable-diffusion]]:** Original Stability AI Stable Diffusion (the base model this plugin wraps)
+- **[[stable-diffusion-cpp]]:** Another native C++ Stable Diffusion inference engine (llama.cpp-style, cross-platform)
 
 ## Significance for Game Dev
 

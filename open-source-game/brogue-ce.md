@@ -80,6 +80,7 @@ sources: [raw/articles/brogue-ce.md]
 
 ## 相关页面
 
-- [[open-source-game/dungeon-crawl-stone-soup]] — 另一个经典 Roguelike，.des Vault 关卡系统
-- [[open-source-game/nethack]] — 经典 Roguelike，3.7 开发中
-- [[open-source-game/cataclysm-dark-days-ahead]] — 后世界末日生存 roguelike
+- [[dungeon-crawl-stone-soup]] — 另一个经典 Roguelike，.des Vault 关卡系统
+- [[nethack]] — 经典 Roguelike，3.7 开发中
+- [[cataclysm-dark-days-ahead]] — 后世界末日生存 roguelike
+

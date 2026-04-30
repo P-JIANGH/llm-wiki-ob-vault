@@ -93,4 +93,4 @@ src/
 ## 相关页面
 
 - [[open-source-games-list]] — 开源游戏列表总览
-- [[open-source-game/vvvvvv]] — 另一个复古像素平台游戏
+- [[vvvvvv]] — 另一个复古像素平台游戏

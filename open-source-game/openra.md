@@ -46,7 +46,7 @@ OpenRA 的网络同步采用 **Order 驱动模型**：
 - `Order` 是玩家操作的最小单元（移动/攻击/建造等）
 - 服务端验证并广播 Order，客户端执行确定性模拟
 - 支持 Replay 录制（`StartRecording`）
-- 类似 [[open-source-game/openttd]] 的确定性锁步，但用 C# ref 关键字和强类型 Order 表达
+- 类似 [[openttd]] 的确定性锁步，但用 C# ref 关键字和强类型 Order 表达
 
 ### 双层渲染架构
 
@@ -82,13 +82,13 @@ OpenRA 的网络同步采用 **Order 驱动模型**：
 | 方向 | 启示 |
 |------|------|
 | **C# 游戏架构** | .NET 8 生态成熟，适合快速开发；OpenRA 用 C# 实现高性能 RTS 可行 |
-| **Order 驱动的网络同步** | 确定性 Order 模型适合 AI vs AI 对战平台；[[open-source-game/openttd]] 对比：两者都用 Order/锁步，但 OpenRA 用强类型 C# 而非 Lua |
+| **Order 驱动的网络同步** | 确定性 Order 模型适合 AI vs AI 对战平台；[[openttd]] 对比：两者都用 Order/锁步，但 OpenRA 用强类型 C# 而非 Lua |
 | **Mod 化游戏架构** | YAML 规则 + Assembly 模块分离 = 内容与引擎解耦；适合让 AI 脚本控制规则变更 |
 | **OpenRA + `open-source-game/wesnoth`** | 两者都是 GPL RTS，但 OpenRA 更接近商业原作体验；适合公司复刻西方经典 RTS |
 | **Replay 系统** | Order + 时间戳文件名 = 完整回放；可用于 AI 对局记录和复盘分析 |
 
 ## 相关
 
-- [[open-source-game/openttd]] — 另一个经典 RTS 开源复刻（运输大亨），C++ 确定性锁步网络
+- [[openttd]] — 另一个经典 RTS 开源复刻（运输大亨），C++ 确定性锁步网络
 - `open-source-game/wesnoth` — 高奇幻回合制策略，YAML 规则驱动
-- [[open-source-game/openrct2]] — 另一个 C# SDL 引擎（RCT2），OpenRA 同语言参考
+- [[openrct2]] — 另一个 C# SDL 引擎（RCT2），OpenRA 同语言参考

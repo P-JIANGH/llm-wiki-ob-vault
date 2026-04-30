@@ -125,6 +125,7 @@ luaui/Shaders/ 下有大量 GLSL 着色器：
 
 ## 相关页面
 
-- [[open-source-game/openra]] — Westwood RTS 开源复刻
-- [[open-source-game/zero-k]] — 另一个 Spring 引擎 RTS
+- [[openra]] — Westwood RTS 开源复刻
+- [[zero-k]] — 另一个 Spring 引擎 RTS
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比
+

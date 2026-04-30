@@ -75,9 +75,9 @@ CWM + test-time scaling (tts) achieves **65.8 on SWE-bench Verified**, leading 3
 
 ## Differences from Peers
 
-- vs [[ai-game-devtools/codegeex4]]: CWM focuses on code *world modeling* (reasoning about code execution state), while CodeGeeX 4 is a code completion/generation model without execution-aware training. CWM uses dense 32B vs CodeGeeX 4's 9B GLM-4 base.
-- vs [[ai-game-devtools/deepseek-r1]]: Both use RL for reasoning capabilities, but CWM's RL is multi-task (coding + math + software engineering) with execution-trace grounding, while DeepSeek-R1 focuses on pure RL reasoning emergence in general domains.
-- vs [[ai-game-devtools/gpt-oss]]: Both are Meta/OpenAI open-weights code models with tool use, but CWM is dense 32B while gpt-oss is MoE (20B/120B). CWM's unique value is its execution-trace mid-training on 200M+ Python memory traces.
+- vs [[codegeex4]]: CWM focuses on code *world modeling* (reasoning about code execution state), while CodeGeeX 4 is a code completion/generation model without execution-aware training. CWM uses dense 32B vs CodeGeeX 4's 9B GLM-4 base.
+- vs [[deepseek-r1]]: Both use RL for reasoning capabilities, but CWM's RL is multi-task (coding + math + software engineering) with execution-trace grounding, while DeepSeek-R1 focuses on pure RL reasoning emergence in general domains.
+- vs [[gpt-oss]]: Both are Meta/OpenAI open-weights code models with tool use, but CWM is dense 32B while gpt-oss is MoE (20B/120B). CWM's unique value is its execution-trace mid-training on 200M+ Python memory traces.
 
 ## Links
 

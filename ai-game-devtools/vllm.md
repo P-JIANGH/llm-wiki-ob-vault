@@ -50,7 +50,7 @@ LLaMA/2/3, Mistral, Mixtral, Qwen, DeepSeek, Phi, Gemma, Yi, Baichuan, Falcon, G
 
 ## Related Projects
 
-- [[ai-game-devtools/text-generation-webui]] — Popular web UI that supports vLLM as a backend
-- [[ai-game-devtools/llama-3]] — Meta Llama 3 models commonly served via vLLM
-- [[ai-game-devtools/sglang]] — Alternative structured generation engine with RadixAttention
-- [[ai-game-devtools/mlc-llm]] — Cross-platform LLM deployment engine
+- [[text-generation-webui]] — Popular web UI that supports vLLM as a backend
+- [[llama-3]] — Meta Llama 3 models commonly served via vLLM
+- [[sglang]] — Alternative structured generation engine with RadixAttention
+- [[mlc-llm]] — Cross-platform LLM deployment engine

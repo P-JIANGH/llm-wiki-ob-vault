@@ -101,9 +101,9 @@ CLIP ViT-L/14（逐帧编码）
 
 ## 相关项目
 
-- [[ai-game-devtools/llava-plus-plus]] — MBZUAI 开发的 LLaVA++ 视觉语言模型，与 Video-ChatGPT 同属 MBZUAI Oryx 团队
-- [[ai-game-devtools/video-llava]] — PKU-YuanGroup 视频+图像统一理解 VLM，同样采用 CLIP + LLM 架构但侧重模态对齐
-- [[ai-game-devtools/video-llama-3]] — DAMO-NLP-SG 第三代视频理解 VLM，基于 Qwen2.5 + SigLIP
-- [[ai-game-devtools/video-ccam]] — 视频对比学习 VLM，侧重视频-文本对齐
+- [[llava-plus-plus]] — MBZUAI 开发的 LLaVA++ 视觉语言模型，与 Video-ChatGPT 同属 MBZUAI Oryx 团队
+- [[video-llava]] — PKU-YuanGroup 视频+图像统一理解 VLM，同样采用 CLIP + LLM 架构但侧重模态对齐
+- [[video-llama-3]] — DAMO-NLP-SG 第三代视频理解 VLM，基于 Qwen2.5 + SigLIP
+- [[video-ccam]] — 视频对比学习 VLM，侧重视频-文本对齐
 
 > Video-ChatGPT 是早期视频对话模型的里程碑之一，其 VideoInstruct100K 数据集和量化评估框架为后续 VideoGPT+、VCGBench 等奠定了基础。

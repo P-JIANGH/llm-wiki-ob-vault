@@ -54,7 +54,7 @@ Two modifications found after paper publication:
 | **FastSpeech** | Teacher-student distillation | Transformer | Fast (parallel) | ✅ Yes (Tacotron 2) |
 | **VITS** | MAS + end-to-end | Flow + GAN vocoder | Fast (parallel) | ❌ No |
 
-Glow-TTS is the direct predecessor of VITS — VITS combined the MAS alignment from Glow-TTS with a GAN-based vocoder into a single end-to-end model (used in [[ai-game-devtools/retrieval-based-voice-conversion-webui]] and [[ai-game-devtools/so-vits-svc]]).
+Glow-TTS is the direct predecessor of VITS — VITS combined the MAS alignment from Glow-TTS with a GAN-based vocoder into a single end-to-end model (used in [[retrieval-based-voice-conversion-webui]] and [[so-vits-svc]]).
 
 ## Training Setup
 
@@ -66,4 +66,4 @@ Glow-TTS is the direct predecessor of VITS — VITS combined the MAS alignment f
 
 ## Game Dev Relevance
 
-Provides a lightweight, MIT-licensed TTS backbone for game NPC voice generation. Can be paired with emotion-controlled variants like [[ai-game-devtools/emotivoice]] for expressive dialogue. The MAS alignment approach is also used in modern TTS systems like [[ai-game-devtools/cosyvoice]].
+Provides a lightweight, MIT-licensed TTS backbone for game NPC voice generation. Can be paired with emotion-controlled variants like [[emotivoice]] for expressive dialogue. The MAS alignment approach is also used in modern TTS systems like [[cosyvoice]].

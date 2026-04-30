@@ -85,6 +85,6 @@ print(response)
 
 ## 相关模型
 
-Orion-14B 的竞品和同类多语言 LLM 包括 [[baichuan-13b]]（百川 13B）、[[baichuan-2]]（百川 2）、[[qwen2]] 等。在 Agent 函数调用场景下，可与 [[ai-game-devtools/cogvlm2]] 等 VLM 配合使用实现多模态 Agent。
+Orion-14B 的竞品和同类多语言 LLM 包括 [[baichuan-13b]]（百川 13B）、[[baichuan-2]]（百川 2）、[[qwen2]] 等。在 Agent 函数调用场景下，可与 [[cogvlm2]] 等 VLM 配合使用实现多模态 Agent。
 
 在游戏开发场景中，Orion-14B-Chat-Plugin 可作为游戏内 NPC 对话引擎，配合 [[agentgpt]] 等 Agent 框架实现智能 NPC 行为控制。

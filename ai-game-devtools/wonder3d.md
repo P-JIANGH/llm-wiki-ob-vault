@@ -36,7 +36,7 @@ Wonder3D reconstructs highly-detailed textured meshes from a single-view image i
 
 ## Architecture
 
-Based on the [[ai-game-devtools/stable-diffusion]] latent diffusion model framework with cross-domain attention extensions:
+Based on the [[stable-diffusion]] latent diffusion model framework with cross-domain attention extensions:
 
 - **Stage 1**: Train multi-view attentions — randomly sample normal or color flag per training step
 - **Stage 2**: Add cross-domain attention modules into the SD model, optimize only newly added parameters
@@ -61,12 +61,12 @@ Based on the [[ai-game-devtools/stable-diffusion]] latent diffusion model framew
 
 ## Differences from Related Tools
 
-- vs [[ai-game-devtools/syncdreamer]]: SyncDreamer generates 16 views simultaneously via Volume Feature Field; Wonder3D generates 6 views using cross-domain (RGB+normal) diffusion with orthographic assumption. Wonder3D is faster (2-3 min) but lower resolution (256×256).
+- vs [[syncdreamer]]: SyncDreamer generates 16 views simultaneously via Volume Feature Field; Wonder3D generates 6 views using cross-domain (RGB+normal) diffusion with orthographic assumption. Wonder3D is faster (2-3 min) but lower resolution (256×256).
 - vs **zero123**: Wonder3D uses cross-domain joint generation (normal + RGB), not just novel view synthesis. Camera system is input-view related rather than object-world.
-- vs [[ai-game-devtools/hunyuan3d-2-0]]: Hunyuan3D 2.0 uses a two-stage generative model (shape → texture) with higher output quality; Wonder3D uses a single-stage diffusion with explicit normal fusion, trading quality for speed.
+- vs [[hunyuan3d-2-0]]: Hunyuan3D 2.0 uses a two-stage generative model (shape → texture) with higher output quality; Wonder3D uses a single-stage diffusion with explicit normal fusion, trading quality for speed.
 
 ## Related Projects
 
 - Successor: **Wonder3D++** (advanced version, 2024.12)
-- Related works by same team: [[ai-game-devtools/syncdreamer]] (multiview diffusion), GeoWizard, Era3D, CraftsMan3D
-- Built on code from: [[ai-game-devtools/stable-diffusion]], zero123, NeuS, instant-nsr-pl
+- Related works by same team: [[syncdreamer]] (multiview diffusion), GeoWizard, Era3D, CraftsMan3D
+- Built on code from: [[stable-diffusion]], zero123, NeuS, instant-nsr-pl

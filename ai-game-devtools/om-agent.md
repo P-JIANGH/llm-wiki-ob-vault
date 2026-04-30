@@ -79,11 +79,11 @@ OmAgent 内置多种推理模式的实现：
 
 ## 同类工具对比
 
-与 [[ai-game-devtools/langchain]] 的 LCEL 链式编排和 [[ai-game-devtools/autogen]] 的多 Agent 对话不同，OmAgent 采用 **Conductor 工作流引擎** 作为底层调度，Worker 作为计算单元，配置完全由 YAML 驱动。
+与 [[langchain]] 的 LCEL 链式编排和 [[autogen]] 的多 Agent 对话不同，OmAgent 采用 **Conductor 工作流引擎** 作为底层调度，Worker 作为计算单元，配置完全由 YAML 驱动。
 
-与 [[ai-game-devtools/aios]] 的 LLM 内核抽象层和 [[ai-game-devtools/chatdev]] 的角色驱动多智能体相比，OmAgent 更注重**多模态能力**和**推理算子多样性**，内置 8+ 种推理模式的统一实现和对比基准。
+与 [[aios]] 的 LLM 内核抽象层和 [[chatdev]] 的角色驱动多智能体相比，OmAgent 更注重**多模态能力**和**推理算子多样性**，内置 8+ 种推理模式的统一实现和对比基准。
 
-与 [[ai-game-devtools/dify]] 的可视化平台相比，OmAgent 是纯代码框架，适合研究者和需要定制推理逻辑的开发者。
+与 [[dify]] 的可视化平台相比，OmAgent 是纯代码框架，适合研究者和需要定制推理逻辑的开发者。
 
 ## 游戏开发相关价值
 

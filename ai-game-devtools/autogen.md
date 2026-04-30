@@ -112,7 +112,7 @@ MIT（社区管理）
 
 ## 相关项目
 
-- [[ai-game-devtools/agentscope]] — ModelScope 多 Agent 平台，强调生产级部署（K8s/OTel）和 MCP/A2A 协议集成
-- [[ai-game-devtools/metagpt]] — 多 Agent 软件开发框架（OpenBMB）
-- [[ai-game-devtools/langchain]] — LLM 应用开发框架，Chain/Agent/Memory/Tool/Prompt 抽象
-- [[ai-game-devtools/aios]] — AI Agent 操作系统，LLM 内核抽象层，支持 AutoGen
+- [[agentscope]] — ModelScope 多 Agent 平台，强调生产级部署（K8s/OTel）和 MCP/A2A 协议集成
+- [[metagpt]] — 多 Agent 软件开发框架（OpenBMB）
+- [[langchain]] — LLM 应用开发框架，Chain/Agent/Memory/Tool/Prompt 抽象
+- [[aios]] — AI Agent 操作系统，LLM 内核抽象层，支持 AutoGen

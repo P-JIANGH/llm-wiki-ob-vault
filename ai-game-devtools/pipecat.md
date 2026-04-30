@@ -75,6 +75,6 @@ All data flows as **Frame** objects (100+ types) through a chain of **FrameProce
 
 ## Related
 
-- Voice agent framework comparable to [[ai-game-devtools/langchain]] (general LLM apps) but real-time focused
-- Provides real-time transport layer that [[ai-game-devtools/fabric]] (CLI pattern framework) lacks
-- Integrates LLM providers like [[ai-game-devtools/qwen3]] and [[ai-game-devtools/deepseek-r1]] via service adapters
+- Voice agent framework comparable to [[langchain]] (general LLM apps) but real-time focused
+- Provides real-time transport layer that [[fabric]] (CLI pattern framework) lacks
+- Integrates LLM providers like [[qwen3]] and [[deepseek-r1]] via service adapters

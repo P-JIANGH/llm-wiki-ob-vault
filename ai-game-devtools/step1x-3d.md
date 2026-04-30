@@ -34,7 +34,7 @@ Step1X-3D 是一个面向高保真、可控纹理 3D 资产生成的开源框架
 
 ### Stage 2: 纹理合成
 - **SD-XL 多视图生成**：几何条件约束 + 潜在空间同步保证跨视图一致性
-- **自定义光栅化器**：C++/CUDA 实现的 texture baker（复用 [[ai-game-devtools/hunyuan3d-2-0]] 的 custom_rasterizer）
+- **自定义光栅化器**：C++/CUDA 实现的 texture baker（复用 [[hunyuan3d-2-0]] 的 custom_rasterizer）
 - **输入**：参考图像 + 无纹理网格 → 输出：带纹理 .glb
 
 ### 训练支持
@@ -64,14 +64,14 @@ Apache License 2.0
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/hunyuan3d-2-0]]：Step1X-3D 更注重数据管线质量（2M 清洗数据集 vs Hunyuan 的混合数据源），几何生成用 VAE-DiT 而非纯扩散
+- 相比 [[hunyuan3d-2-0]]：Step1X-3D 更注重数据管线质量（2M 清洗数据集 vs Hunyuan 的混合数据源），几何生成用 VAE-DiT 而非纯扩散
 - 相比 [[ai-game-devtools/tripoSR]]：Step1X-3D 提供完整纹理合成管线，TripoSR 专注单图→3D 快速重建
-- 相比 [[ai-game-devtools/dreamgaussian4d]]：Step1X-3D 专注于静态高保真资产，DreamGaussian4D 聚焦 4D 动态生成
-- 相比 [[ai-game-devtools/shap-e]]：Step1X-3D 采用两阶段解耦设计（几何+纹理分离），Shap-E 使用单阶段条件扩散
+- 相比 [[dreamgaussian4d]]：Step1X-3D 专注于静态高保真资产，DreamGaussian4D 聚焦 4D 动态生成
+- 相比 [[shap-e]]：Step1X-3D 采用两阶段解耦设计（几何+纹理分离），Shap-E 使用单阶段条件扩散
 
 ## 来源
 
-- [[ai-game-devtools/hunyuan3d-2-0]] — 腾讯混元 3D 2.0，复用了其光栅化器
+- [[hunyuan3d-2-0]] — 腾讯混元 3D 2.0，复用了其光栅化器
 - [[ai-game-devtools/tripoSR]] — 同类 3D 生成工具
-- [[ai-game-devtools/dreamgaussian4d]] — 3D/4D 高斯生成
-- [[ai-game-devtools/shap-e]] — OpenAI 单阶段 3D 生成
+- [[dreamgaussian4d]] — 3D/4D 高斯生成
+- [[shap-e]] — OpenAI 单阶段 3D 生成

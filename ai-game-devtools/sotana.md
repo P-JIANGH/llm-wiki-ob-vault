@@ -51,6 +51,6 @@ SoTaNa 是一个开源软件工程指令微调模型系列，参数规模覆盖 
 
 ## 关系
 
-- 同属于 Code 工具类：[[ai-game-devtools/codegen]] / [[ai-game-devtools/starcoder]]
-- LoRA 微调技术参考：[[ai-game-devtools/metagpt]] 中的 PEFT 应用
-- 代码生成评测对比：[[ai-game-devtools/deepseek-coder]]（同为代码领域 LLM）
+- 同属于 Code 工具类：[[codegen]] / [[starcoder]]
+- LoRA 微调技术参考：[[metagpt]] 中的 PEFT 应用
+- 代码生成评测对比：[[deepseek-coder]]（同为代码领域 LLM）

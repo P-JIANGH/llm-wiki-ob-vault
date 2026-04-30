@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/llm-c.md]
 
 ## Overview
 
-The project's primary goal is reproducing the [GPT-2](https://github.com/openai/gpt-2) and [GPT-3](https://arxiv.org/abs/2005.14165) pretraining pipelines. A parallel PyTorch reference implementation lives in `train_gpt2.py` (a tweaked version of [[ai-game-devtools/nanogpt]]). The mainline CUDA code is approximately 7% faster than PyTorch Nightly.
+The project's primary goal is reproducing the [GPT-2](https://github.com/openai/gpt-2) and [GPT-3](https://arxiv.org/abs/2005.14165) pretraining pipelines. A parallel PyTorch reference implementation lives in `train_gpt2.py` (a tweaked version of [[nanogpt]]). The mainline CUDA code is approximately 7% faster than PyTorch Nightly.
 
 ## Architecture
 
@@ -34,7 +34,7 @@ The codebase implements a standard decoder-only Transformer:
 | CPU Reference | `train_gpt2.c` | ~1,000 lines of clean, readable C with OpenMP |
 | GPU Mixed Precision | `train_gpt2.cu` | Fastest path; BF16/FP16 + cuBLAS + optional cuDNN Flash Attention |
 | GPU FP32 Legacy | `train_gpt2_fp32.cu` | Simpler, more portable; frozen early checkpoint |
-| PyTorch Ref | `train_gpt2.py` | Reference for verification; tweaked [[ai-game-devtools/nanogpt]] |
+| PyTorch Ref | `train_gpt2.py` | Reference for verification; tweaked [[nanogpt]] |
 
 ## Build & Features
 
@@ -82,7 +82,7 @@ The project has spawned 15+ language ports including Rust, Go, Java, C#, Mojo, Z
 
 ## Comparison
 
-Unlike [[ai-game-devtools/llama-cpp]] (inference-focused GGUF runtime) or [[ai-game-devtools/llama2-c]] (Karpathy's earlier 700-line Llama 2 inference demo), llm.c is a **full training framework** with multi-GPU/multi-node support, mixed precision, and cuDNN integration. It sits at the intersection of education and production performance.
+Unlike [[llama-cpp]] (inference-focused GGUF runtime) or [[llama2-c]] (Karpathy's earlier 700-line Llama 2 inference demo), llm.c is a **full training framework** with multi-GPU/multi-node support, mixed precision, and cuDNN integration. It sits at the intersection of education and production performance.
 
 ## License
 

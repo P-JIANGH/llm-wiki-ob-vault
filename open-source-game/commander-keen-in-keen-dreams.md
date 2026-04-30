@@ -87,6 +87,7 @@ sources: [https://github.com/keendreams/keen]
 
 ## 关联项目
 
-- [[open-source-game/commander-genius]] — Commander Keen 1-6 开源解释器（C++ 完全重写）
-- [[open-source-game/omnispeak]] — Keen Goodbye Galaxy 重实现
+- [[commander-genius]] — Commander Keen 1-6 开源解释器（C++ 完全重写）
+- [[omnispeak]] — Keen Goodbye Galaxy 重实现
 - [[open-source-games-list]] — 开源游戏列表总览
+

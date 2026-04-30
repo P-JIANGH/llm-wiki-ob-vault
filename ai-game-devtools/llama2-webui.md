@@ -58,14 +58,14 @@ wrapper = LLAMA2_WRAPPER(
 
 ## 与同类工具对比
 
-- **对比 [[ai-game-devtools/text-generation-webui]]**：text-generation-webui 功能更全面（多模型支持、LoRA 管理）；llama2-webui 聚焦 Llama 2 单一系列，更轻量
-- **对比 [[ai-game-devtools/gpt4all]]**：gpt4all 侧重无代码本地 GUI；llama2-webui 配套 PyPI 包更适合应用集成
+- **对比 [[text-generation-webui]]**：text-generation-webui 功能更全面（多模型支持、LoRA 管理）；llama2-webui 聚焦 Llama 2 单一系列，更轻量
+- **对比 [[gpt4all]]**：gpt4all 侧重无代码本地 GUI；llama2-webui 配套 PyPI 包更适合应用集成
 
 ## 在游戏开发中的用途
 
 - NPC 对话生成（本地运行，无需云端 API）
 - 游戏内代码助手（Code Llama 代码补全）
-- 游戏叙事生成（配合 [[ai-game-devtools/text-generation-webui]] 等工具）
+- 游戏叙事生成（配合 [[text-generation-webui]] 等工具）
 
 ## 链接
 

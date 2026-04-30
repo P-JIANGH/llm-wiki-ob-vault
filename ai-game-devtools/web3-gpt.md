@@ -70,6 +70,6 @@ curl -X POST "https://w3gpt.ai/api/skill?chatId=your-chat-id" \
 
 ## Relationships
 
-- [[ai-game-devtools/agentgpt]] — Another browser-based AI agent platform (Next.js)
-- [[ai-game-devtools/autogen]] — Multi-agent framework for complex workflows
-- [[ai-game-devtools/metagpt]] — Multi-agent software company framework (game code generation)
+- [[agentgpt]] — Another browser-based AI agent platform (Next.js)
+- [[autogen]] — Multi-agent framework for complex workflows
+- [[metagpt]] — Multi-agent software company framework (game code generation)

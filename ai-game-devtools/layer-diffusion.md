@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/layer-diffusion.md]
 
 # LayerDiffuse — Transparent Image Layer Diffusion
 
-**LayerDiffuse** 是由 **lllyasviel**（张吕敏，[[ai-game-devtools/controlnet]] 和 [[ai-game-devtools/fooocus]] 的作者）开发的透明图像层扩散项目，通过 **latent transparency** 技术实现原生透明通道生成，而非后处理抠图。
+**LayerDiffuse** 是由 **lllyasviel**（张吕敏，[[controlnet]] 和 [[fooocus]] 的作者）开发的透明图像层扩散项目，通过 **latent transparency** 技术实现原生透明通道生成，而非后处理抠图。
 
 ## 概述
 
@@ -80,8 +80,8 @@ DiffusersCLI: Apache-2.0。Forge 扩展许可证依上游。
 
 ## 与其他工具的关系
 
-- 与 [[ai-game-devtools/controlnet]]、[[ai-game-devtools/ic-light]]、[[ai-game-devtools/fooocus]] 同作者（lllyasviel），共享扩散模型条件化思想
-- 与 [[ai-game-devtools/comfyui]] 兼容（项目规划中支持）
-- 与 [[ai-game-devtools/hua]] 类似，都是对 SD 架构的透明/分层扩展
-- 与 [[ai-game-devtools/stable-diffusion-webui]] 生态集成（通过 Forge 插件）
+- 与 [[controlnet]]、[[ic-light]]、[[fooocus]] 同作者（lllyasviel），共享扩散模型条件化思想
+- 与 [[comfyui]] 兼容（项目规划中支持）
+- 与 [[hua]] 类似，都是对 SD 架构的透明/分层扩展
+- 与 [[stable-diffusion-webui]] 生态集成（通过 Forge 插件）
 - 游戏开发应用：透明素材生成、UI 元素制作、角色精灵创建、分层合成管线

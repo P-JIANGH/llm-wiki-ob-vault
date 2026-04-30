@@ -81,10 +81,10 @@ sources: [raw/articles/ai-game-devtools/cambrian-1.md]
 
 ## Related Projects
 
-- [[ai-game-devtools/minigpt-4]] — 类似冻结 ViT + Q-Former 连接方案，但使用不同架构
-- [[ai-game-devtools/internlm-xcomposer]] — 上海 AI Lab 的 LVLM 系列
-- [[ai-game-devtools/imagebind]] — Meta 多模态嵌入（6 模态）
-- [[ai-game-devtools/janus]] — DeepSeek 统一多模态模型（解耦视觉编码）
+- [[minigpt-4]] — 类似冻结 ViT + Q-Former 连接方案，但使用不同架构
+- [[internlm-xcomposer]] — 上海 AI Lab 的 LVLM 系列
+- [[imagebind]] — Meta 多模态嵌入（6 模态）
+- [[janus]] — DeepSeek 统一多模态模型（解耦视觉编码）
 
 ## License Note
 

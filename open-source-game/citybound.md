@@ -107,8 +107,9 @@ Citybound 的核心理念不是"建造"，而是**协作规划**：
 
 ## 相关页面
 
-- [[open-source-game/cytopia]] — 像素城市建造，SDL2 等距渲染
-- [[open-source-game/egregoria]] — Rust 城市建造，确定性锁步网络
-- [[open-source-game/julius]] — Caesar III 清洁室重实现
-- [[open-source-game/unknown-horizons]] — Godot 4 城市建造
+- [[cytopia]] — 像素城市建造，SDL2 等距渲染
+- [[egregoria]] — Rust 城市建造，确定性锁步网络
+- [[julius]] — Caesar III 清洁室重实现
+- [[unknown-horizons]] — Godot 4 城市建造
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比
+

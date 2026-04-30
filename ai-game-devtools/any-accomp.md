@@ -68,7 +68,7 @@ MIT (Copyright 2025 Amphion Team)
 
 ## Related
 
-- [[ai-game-devtools/musicgen]] — Meta's MusicGen for text-to-music generation, complementary to accompaniment generation
-- [[ai-game-devtools/mean-audio]] — Single-step text-to-audio generation with MeanFlow objective, alternative music generation approach
-- [[ai-game-devtools/wavjourney]] — LLM-driven compositional audio creation pipeline, higher-level music composition vs accompaniment
-- [[ai-game-devtools/mmaudio]] — Audio-visual synchronized video generation from HK Cheng Rex
+- [[musicgen]] — Meta's MusicGen for text-to-music generation, complementary to accompaniment generation
+- [[mean-audio]] — Single-step text-to-audio generation with MeanFlow objective, alternative music generation approach
+- [[wavjourney]] — LLM-driven compositional audio creation pipeline, higher-level music composition vs accompaniment
+- [[mmaudio]] — Audio-visual synchronized video generation from HK Cheng Rex

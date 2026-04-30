@@ -56,7 +56,7 @@ Time: ~minutes for Shakespeare, ~hours for TinyStories
 
 ## Related Projects
 
-- [[ai-game-devtools/nanochat]] — Karpathy's even simpler minimal chatbot training code
-- [[ai-game-devtools/autoresearch]] — Karpathy's autonomous LLM research framework (builds on similar principles)
-- [[ai-game-devtools/llama-3]] — Production-scale LLMs that share the same GPT architecture principles
-- [[ai-game-devtools/chatrwkv]] — Alternative RWKV architecture that achieves similar goals differently
+- [[nanochat]] — Karpathy's even simpler minimal chatbot training code
+- [[autoresearch]] — Karpathy's autonomous LLM research framework (builds on similar principles)
+- [[llama-3]] — Production-scale LLMs that share the same GPT architecture principles
+- [[chatrwkv]] — Alternative RWKV architecture that achieves similar goals differently

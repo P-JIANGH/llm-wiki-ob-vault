@@ -80,16 +80,16 @@ Open-Sora Plan achieves **near-parity with 13B HunyuanVideo** at 8B parameters, 
 
 ## Differences from Similar Tools
 
-- vs [[ai-game-devtools/hunyuan-video]]: Open-Sora Plan uses **sparse attention** (SUV) for 35%+ speedup; HunyuanVideo uses dense Full Attention. Open-Sora Plan is trained on Ascend NPUs, HunyuanVideo on GPUs. Both achieve comparable VBench scores.
-- vs [[ai-game-devtools/open-sora]]: Both aim to reproduce Sora. HPC-AI's [[ai-game-devtools/open-sora]] uses ColossalAI framework and MMDiT architecture with Rectified Flow; Open-Sora Plan uses custom Skiparse/SUV sparse attention with Wavelet-Driven VAE. Open-Sora Plan has deeper version iterations (5 versions).
-- vs [[ai-game-devtools/cogvideox]]: CogVideoX uses 3D Causal VAE (4×8×8) vs. Open-Sora's WFVAE (8×8×8); both are DiT-based. CogVideoX offers GPU inference out-of-box; Open-Sora Plan v1.5.0 currently NPU-only (GPU version pending).
+- vs [[hunyuan-video]]: Open-Sora Plan uses **sparse attention** (SUV) for 35%+ speedup; HunyuanVideo uses dense Full Attention. Open-Sora Plan is trained on Ascend NPUs, HunyuanVideo on GPUs. Both achieve comparable VBench scores.
+- vs [[open-sora]]: Both aim to reproduce Sora. HPC-AI's [[open-sora]] uses ColossalAI framework and MMDiT architecture with Rectified Flow; Open-Sora Plan uses custom Skiparse/SUV sparse attention with Wavelet-Driven VAE. Open-Sora Plan has deeper version iterations (5 versions).
+- vs [[cogvideox]]: CogVideoX uses 3D Causal VAE (4×8×8) vs. Open-Sora's WFVAE (8×8×8); both are DiT-based. CogVideoX offers GPU inference out-of-box; Open-Sora Plan v1.5.0 currently NPU-only (GPU version pending).
 
 ## Related Projects
 
 - **Helios** — Same team's real-time video generation breakthrough (19.5 FPS on single H100)
 - **WF-VAE** — Standalone VAE paper (arXiv:2411.17459)
 - **Allegro** — Built on Open-Sora Plan foundation, generates 6s 720p@15fps videos
-- [[ai-game-devtools/hunyuanvideo-1-5]] — Competing 8B video model from Tencent
+- [[hunyuanvideo-1-5]] — Competing 8B video model from Tencent
 
 ## Links
 

@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/genagent.md]
 
 ## Overview
 
-GenAgent is the reference implementation of **ComfyAgent** — an LLM-based agent that autonomously designs [[Stable Diffusion]] workflows in [[ComfyUI]] via natural language instructions. The project also includes **ComfyBench**, a CVPR 2025 benchmark evaluating agents on workflow design and execution correctness.
+GenAgent is the reference implementation of **ComfyAgent** — an LLM-based agent that autonomously designs [[stable-diffusion]] workflows in [[ComfyUI]] via natural language instructions. The project also includes **ComfyBench**, a CVPR 2025 benchmark evaluating agents on workflow design and execution correctness.
 
 ## Key Facts
 
@@ -72,13 +72,13 @@ This representation lets LLMs better understand and manipulate workflows.
 
 ## Differences from Similar Tools
 
-- **vs. [[ai-game-devtools/agentbench]]**: AgentBench evaluates general agents across OS/DB/KG environments; ComfyBench is specialized for ComfyUI/Secure Diffusion workflow design
-- **vs. [[ai-game-devtools/autogen]]** / [[ai-game-devtools/crewai]]**: These are general multi-agent frameworks; GenAgent is a single-purpose workflow generation agent
-- **vs. [[ai-game-devtools/text-generation-webui]]**: Text generation web UI is a local LLM interface; GenAgent generates image generation workflows for ComfyUI
+- **vs. [[agentbench]]**: AgentBench evaluates general agents across OS/DB/KG environments; ComfyBench is specialized for ComfyUI/Secure Diffusion workflow design
+- **vs. [[autogen]]** / [[crewai]]**: These are general multi-agent frameworks; GenAgent is a single-purpose workflow generation agent
+- **vs. [[text-generation-webui]]**: Text generation web UI is a local LLM interface; GenAgent generates image generation workflows for ComfyUI
 
 ## Related
 
 - [[ComfyUI]] — node-based Stable Diffusion workflow editor
-- [[ai-game-devtools/agentbench]] — general LLM agent benchmark
-- [[ai-game-devtools/autogen]] — Microsoft multi-agent framework
-- [[ai-game-devtools/crewai]] — crewAI multi-agent orchestration
+- [[agentbench]] — general LLM agent benchmark
+- [[autogen]] — Microsoft multi-agent framework
+- [[crewai]] — crewAI multi-agent orchestration

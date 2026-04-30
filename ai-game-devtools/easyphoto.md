@@ -69,12 +69,12 @@ scripts/
 
 ## 依赖关系
 
-- 必须安装 [[ai-game-devtools/sd-webui-controlnet]]（需配置 Multi ControlNet ≥ 3）
+- 必须安装 [[sd-webui-controlnet]]（需配置 Multi ControlNet ≥ 3）
 - 依赖 ModelScope 模型（insightface 人脸检测、显著性检测、磨皮模型）
 - 基于 [[AUTOMATIC1111/stable-diffusion-webui]] 插件生态
 
 ## 与同类工具对比
 
-- vs [[ai-game-devtools/comfyui]]：EasyPhoto 是专用人像生成插件，ComfyUI 是通用模块化扩散管线引擎
-- vs [[ai-game-devtools/controlnet]]：EasyPhoto 在 ControlNet 基础上增加了 LoRA 训练 + 两阶段生成 + 模板推理的完整工作流
+- vs [[comfyui]]：EasyPhoto 是专用人像生成插件，ComfyUI 是通用模块化扩散管线引擎
+- vs [[controlnet]]：EasyPhoto 在 ControlNet 基础上增加了 LoRA 训练 + 两阶段生成 + 模板推理的完整工作流
 - 与 ModelScope FaceChain 同源（阿里巴巴 PAI 团队），但 EasyPhoto 更聚焦 WebUI 插件形态

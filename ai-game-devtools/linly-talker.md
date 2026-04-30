@@ -102,8 +102,8 @@ A new real-time streaming interactive architecture built on the original project
 ## Relationship to Other Projects
 
 - SadTalker/MuseTalk/GPT-SoVITS: wiki pages pending for these integrated components
-- Similar to [[ai-game-devtools/interactive-llm-powered-npcs]] (NPC dialogue system with SadTalker lip-sync) but focused on standalone digital human
-- Related to [[ai-game-devtools/chatdollkit]] (Unity virtual assistant SDK with VRM support) but web-based via Gradio
-- Shares avatar generation patterns with [[ai-game-devtools/hallo]] (audio-driven portrait animation) and [[ai-game-devtools/dreamtalk]] (diffusion-based talking head)
-- Alternative approach to [[ai-game-devtools/dify]] for digital human dialogue use case
-- Related to [[ai-game-devtools/cosmos]] (NVIDIA world model) in the broader digital human/simulation space
+- Similar to [[interactive-llm-powered-npcs]] (NPC dialogue system with SadTalker lip-sync) but focused on standalone digital human
+- Related to [[chatdollkit]] (Unity virtual assistant SDK with VRM support) but web-based via Gradio
+- Shares avatar generation patterns with [[hallo]] (audio-driven portrait animation) and [[dreamtalk]] (diffusion-based talking head)
+- Alternative approach to [[dify]] for digital human dialogue use case
+- Related to [[cosmos]] (NVIDIA world model) in the broader digital human/simulation space

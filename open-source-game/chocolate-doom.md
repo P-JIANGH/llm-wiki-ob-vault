@@ -148,3 +148,4 @@ Chocolate Doom 的哲学文件（PHILOSOPHY）写道：
 这不是一个"更好的 Doom"，而是一个**时间胶囊**——让 1993 年的游戏在 2026 年的电脑上以完全相同的方式运行。这种"保存级还原"理念与 [[open-source-game/doom|DOOM 原始源码]] 形成互补：DOOM 源码让你理解引擎原理，Chocolate Doom 让你体验原始行为。
 
 该项目也被 Debian 等发行版收录为官方包。
+

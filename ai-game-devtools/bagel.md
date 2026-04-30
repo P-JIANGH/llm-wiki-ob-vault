@@ -49,7 +49,7 @@ sources: [raw/articles/ai-game-devtools/bagel.md]
 - BAGEL+CoT reaches Bronze on KISE-Bench (60.18) and RISEBench (11.9)
 
 ## Related Projects
-- Similar unified multimodal approach to [[ai-game-devtools/janus]] (DeepSeek's unified understanding+generation model)
-- Uses Qwen2.5 backbone like [[ai-game-devtools/qwen2.5-coder]] but for multimodal tasks
-- ByteDance ecosystem connection to [[ai-game-devtools/seed-oss]] (ByteDance's 36B LLM)
-- Competes with [[ai-game-devtools/llava-onevision]] in VLM understanding benchmarks
+- Similar unified multimodal approach to [[janus]] (DeepSeek's unified understanding+generation model)
+- Uses Qwen2.5 backbone like [[qwen2.5-coder]] but for multimodal tasks
+- ByteDance ecosystem connection to [[seed-oss]] (ByteDance's 36B LLM)
+- Competes with [[llava-onevision]] in VLM understanding benchmarks

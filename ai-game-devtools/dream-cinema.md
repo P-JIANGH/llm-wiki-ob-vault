@@ -43,9 +43,9 @@ DreamCinema (Chen et al., 2024) 是一个用户友好的电影迁移 (cinematic 
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/video2game]]（视频→3D 游戏场景）：DreamCinema 专注于角色替换 + 相机运动迁移，而非场景重建
-- 相比 [[ai-game-devtools/animate3d]]（3D 模型动画生成）：DreamCinema 从源视频提取运动并迁移到新角色，而非从零生成动画
-- 相比 [[ai-game-devtools/character-gen]]（单图→3D 角色生成）：DreamCinema 将角色生成嵌入完整电影制作管线
+- 相比 [[video2game]]（视频→3D 游戏场景）：DreamCinema 专注于角色替换 + 相机运动迁移，而非场景重建
+- 相比 [[animate3d]]（3D 模型动画生成）：DreamCinema 从源视频提取运动并迁移到新角色，而非从零生成动画
+- 相比 [[character-gen]]（单图→3D 角色生成）：DreamCinema 将角色生成嵌入完整电影制作管线
 
 ## 关键信息
 

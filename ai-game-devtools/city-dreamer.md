@@ -56,10 +56,10 @@ The system uses a **compositional three-component pipeline**:
 - **Procedural city generation**: Generate infinite 3D urban environments from seed layouts
 - **Open-world game environments**: Create large-scale city backdrops for exploration games
 - **Urban simulation**: Training environments for autonomous driving or robotics
-- Can complement [[ai-game-devtools/syncdreamer]] for object-level 3D asset generation within the city
+- Can complement [[syncdreamer]] for object-level 3D asset generation within the city
 
 ## Differences from Related Tools
 
-- vs [[ai-game-devtools/syncdreamer]]: SyncDreamer generates multiview-consistent images of individual objects; CityDreamer generates entire city-scale 3D environments with compositional pipeline
+- vs [[syncdreamer]]: SyncDreamer generates multiview-consistent images of individual objects; CityDreamer generates entire city-scale 3D environments with compositional pipeline
 - vs **GANcraft**: CityDreamer extends GANcraft with a VQVAE-based layout generator enabling unbounded (infinite) city generation via patch-based sampling
 - Unlike end-to-end approaches, the three-component design allows independent training and modular replacement of any component

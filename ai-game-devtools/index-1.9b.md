@@ -85,7 +85,7 @@ python demo/openai_demo.py --model_path='/path/to/model/'
 
 ## 相关页面
 
-- [[ai-game-devtools/minicpm]] — 面壁智能轻量级小语言模型系列，同样专注端侧部署的高性能小模型
-- [[ai-game-devtools/qwen2]] — 阿里巴巴通义千问开源 LLM 系列，中文领域的重要开源模型
-- [[ai-game-devtools/llama]] — Meta 基础 LLM 系列，开源 LLM 基石
-- [[ai-game-devtools/llama-cpp]] — 纯 C/C++ LLM 推理引擎，Index-1.9B 已适配
+- [[minicpm]] — 面壁智能轻量级小语言模型系列，同样专注端侧部署的高性能小模型
+- [[qwen2]] — 阿里巴巴通义千问开源 LLM 系列，中文领域的重要开源模型
+- [[llama]] — Meta 基础 LLM 系列，开源 LLM 基石
+- [[llama-cpp]] — 纯 C/C++ LLM 推理引擎，Index-1.9B 已适配

@@ -68,7 +68,7 @@ sources:
 
 ## 与同类工具的差异
 
-| 维度 | [[ai-game-devtools/hunyuan3d-1]] | [[ai-game-devtools/hunyuan3d-2-0]] | **Hunyuan3D-2.1** |
+| 维度 | [[hunyuan3d-1]] | [[hunyuan3d-2-0]] | **Hunyuan3D-2.1** |
 |------|------|------|------|
 | 纹理类型 | RGB | 基础 PBR | **完整 PBR（金属/次表面散射）** |
 | 训练代码 | ❌ 未开源 | ❌ 未开源 | ✅ **完全开源** |
@@ -103,7 +103,7 @@ sources:
 
 ## 相关工具
 
-- [[ai-game-devtools/hunyuan3d-1]] — Hunyuan3D 第一代，两阶段 MVD+SVRM 架构
-- [[ai-game-devtools/hunyuan3d-2-0]] — Hunyuan3D 第二代，DiT 架构，PBR 基础支持
-- [[ai-game-devtools/triposr]] — TripoSG，Hunyuan3D-2.1 形状生成的对比基线之一
-- [[ai-game-devtools/hunyuanworld-1.0]] — 腾讯混元 3D 世界生成（完整场景级生成）
+- [[hunyuan3d-1]] — Hunyuan3D 第一代，两阶段 MVD+SVRM 架构
+- [[hunyuan3d-2-0]] — Hunyuan3D 第二代，DiT 架构，PBR 基础支持
+- [[triposr]] — TripoSG，Hunyuan3D-2.1 形状生成的对比基线之一
+- [[hunyuanworld-1.0]] — 腾讯混元 3D 世界生成（完整场景级生成）

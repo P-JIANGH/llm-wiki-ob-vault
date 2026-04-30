@@ -60,7 +60,7 @@ MOFA-Video 是 ECCV 2024 发表的**可控图像动画生成**工具，通过在
 
 ## 与同类工具对比
 
-与 [[ai-game-devtools/sadtalker]]（基于 3DMM 的音频驱动肖像动画）相比，MOFA-Video 基于 SVD 扩散模型，支持多种控制模式（轨迹/关键点/混合），不仅限于音频驱动。与 [[ai-game-devtools/aniportrait]]（3DMM + AnimateDiff Motion Module）不同，MOFA-Video 采用光流运动适配范式，在冻结的 I2V 模型上注入适配器。相比 [[ai-game-devtools/animate-anyone]]（姿态驱动角色动画），MOFA-Video 专注于单图驱动的细粒度运动控制。
+与 [[sadtalker]]（基于 3DMM 的音频驱动肖像动画）相比，MOFA-Video 基于 SVD 扩散模型，支持多种控制模式（轨迹/关键点/混合），不仅限于音频驱动。与 [[aniportrait]]（3DMM + AnimateDiff Motion Module）不同，MOFA-Video 采用光流运动适配范式，在冻结的 I2V 模型上注入适配器。相比 [[animate-anyone]]（姿态驱动角色动画），MOFA-Video 专注于单图驱动的细粒度运动控制。
 
 ## 代码结构
 

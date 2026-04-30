@@ -68,6 +68,6 @@ CoreNet's foundation model implementations (CLIP, ViT, language models) serve as
 
 ## See Also
 
-- [[ai-game-devtools/aios]] — AIOS, OS-level LLM infrastructure
-- [[ai-game-devtools/ai-scientist]] — AI Scientist, LLM-driven scientific discovery
-- [[ai-game-devtools/chatgpt-api-unity]] — Unity integration for LLM APIs
+- [[aios]] — AIOS, OS-level LLM infrastructure
+- [[ai-scientist]] — AI Scientist, LLM-driven scientific discovery
+- [[chatgpt-api-unity]] — Unity integration for LLM APIs

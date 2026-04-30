@@ -28,7 +28,7 @@ ChatTTS is a generative speech model (TTS) designed specifically for dialogue sc
 
 ## Architecture
 
-**Autoregressive TTS pipeline** inspired by [[ai-game-devtools/bark]] and VALL-E:
+**Autoregressive TTS pipeline** inspired by [[bark]] and VALL-E:
 
 1. **Text Normalization** — Homophone replacement, text cleaning (Chinese/English)
 2. **Text Refinement** — GPT-based prosody token insertion (`[oral_X]`, `[laugh]`, `[break_X]`)
@@ -52,7 +52,7 @@ ChatTTS is a generative speech model (TTS) designed specifically for dialogue sc
 
 ## Comparison with Similar Tools
 
-| Feature | ChatTTS | [[ai-game-devtools/bark]] | [[ai-game-devtools/bert-vits2]] | [[ai-game-devtools/chatterbox]] |
+| Feature | ChatTTS | [[bark]] | [[bert-vits2]] | [[chatterbox]] |
 |---------|---------|-----------|-------------------------------|--------------------------------|
 | **Architecture** | Autoregressive GPT | Autoregressive Transformer | VITS (variational) | Flow-matching |
 | **Dialogue optimized** | ✅ | Partial | ❌ | ✅ |

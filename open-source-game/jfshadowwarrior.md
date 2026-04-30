@@ -75,3 +75,4 @@ Shadow Warrior 是 1997 年 3D Realms 发行的经典 FPS，主角 Lo Wang（劳
 | 跨平台构建 | Makefile + 平台条件编译支持多平台（Win/Mac/Linux/BSD），CMake 替代方案参考 |
 | 可选特性编译 | `WITHOUT_GTK`、`USE_ASM` 等编译开关实现功能模块化裁剪 |
 | 游戏数据与代码分离 | 需要原始 WAD 数据文件，代码/内容分离许可模式（GPL + 商业数据） |
+

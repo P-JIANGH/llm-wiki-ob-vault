@@ -31,12 +31,12 @@ Dolphin 🐬 is a general video interaction platform based on large language mod
 | Understanding | VideoCaptioning (mPLUG), ImageCaptioning (BLIP-2) |
 | Processing | Subclip, Subtitles, Concat, Audio Extract/Add (MoviePy) |
 | Preprocessing | Canny edge, Pose (OpenPose), Depth estimation |
-| Generation | Text2Video (ModelScope), Canny/Pose/Depth→Video ([[ai-game-devtools/text2video-zero]]), VideoPix2Pix style transfer, 3D modeling (Shap-E), Talking head ([[ai-game-devtools/sadtalker]]) |
+| Generation | Text2Video (ModelScope), Canny/Pose/Depth→Video ([[text2video-zero]]), VideoPix2Pix style transfer, 3D modeling (Shap-E), Talking head ([[sadtalker]]) |
 | Audio/Image | Text-to-Audio (Bark), Voice Clone (Bark), Text2Image (SD) |
 
 ## Technical Details
 
-- **LLM backend**: OpenAI API via [[ai-game-devtools/langchain]] agent framework
+- **LLM backend**: OpenAI API via [[langchain]] agent framework
 - **Video understanding**: mPLUG video captioning + BLIP-2 per-frame captioning (~13.4 GB + 8.4 GB VRAM)
 - **Video generation**: Text2Video-Zero (SD-based zero-shot), ModelScope T2V (~6.5-6.7 GB VRAM)
 - **Video editing**: VideoPix2Pix instruction-based style/content changes (~5.3 GB VRAM)

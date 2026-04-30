@@ -54,9 +54,9 @@ python inference.py --mode room   # scene-level inference
 
 ## Related Work & Positioning
 
-- 相比 [[ai-game-devtools/anything-3d]]（单图→3D 生成），3D-LLM 专注于 3D **理解**（问答/描述/推理）
-- 与 [[ai-game-devtools/onellm]] 类似的多模态+LLM思路，但 3D-LLM 专攻 3D 点云/场景表示而非通用 8 模态
-- 与 [[ai-game-devtools/cf-3dgs]] 互补：后者做 3D 重建，3D-LLM 在重建结果上做语言理解
+- 相比 [[anything-3d]]（单图→3D 生成），3D-LLM 专注于 3D **理解**（问答/描述/推理）
+- 与 [[onellm]] 类似的多模态+LLM思路，但 3D-LLM 专攻 3D 点云/场景表示而非通用 8 模态
+- 与 [[cf-3dgs]] 互补：后者做 3D 重建，3D-LLM 在重建结果上做语言理解
 
 ## Links
 

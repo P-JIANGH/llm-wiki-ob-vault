@@ -66,5 +66,5 @@ sources: [raw/articles/ai-game-devtools/seed-story.md]
 
 ## 相关项目
 
-- [[ai-game-devtools/comfyui]] — SEED-Story 的扩散生成模块可集成到 ComfyUI 工作流中使用
-- [[ai-game-devtools/qwen-vl]] — SEED-Story 依赖 Qwen-VL-Chat 的视觉编码器
+- [[comfyui]] — SEED-Story 的扩散生成模块可集成到 ComfyUI 工作流中使用
+- [[qwen-vl]] — SEED-Story 依赖 Qwen-VL-Chat 的视觉编码器

@@ -52,13 +52,13 @@ Q-Former 是 BLIP-2 的核心组件——一个轻量级 Transformer，通过一
 
 ## 与同类模型对比
 
-BLIP-2 vs. [[ai-game-devtools/cogvlm]]：CogVLM 使用 10B 专用视觉编码器与 7B 语言模型深度融合，视觉理解能力更强但训练成本高；BLIP-2 采用冻结骨干+轻量适配策略，训练效率高但视觉理解上限受限于预训练编码器。
+BLIP-2 vs. [[cogvlm]]：CogVLM 使用 10B 专用视觉编码器与 7B 语言模型深度融合，视觉理解能力更强但训练成本高；BLIP-2 采用冻结骨干+轻量适配策略，训练效率高但视觉理解上限受限于预训练编码器。
 
-BLIP-2 vs. [[ai-game-devtools/visualrwkv]]：VisualRWKV 基于 RWKV 架构构建 VLM，具有 RNN 式 O(n) 推理优势，适合实时场景；BLIP-2 基于 Transformer 架构，理解能力更强但推理复杂度随序列平方增长。
+BLIP-2 vs. [[visualrwkv]]：VisualRWKV 基于 RWKV 架构构建 VLM，具有 RNN 式 O(n) 推理优势，适合实时场景；BLIP-2 基于 Transformer 架构，理解能力更强但推理复杂度随序列平方增长。
 
 ## 在 LAVIS 框架中的位置
 
-BLIP-2 是 Salesforce **LAVIS**（Language-Vision Intelligence）库的核心模型之一。LAVIS 提供统一的 VLM 训练/评估/部署流水线，涵盖 BLIP-2、ALPRO、CLIP 等多个模型。[[ai-game-devtools/3d-llm]] 页面提及 BLIP-2 被用作 3D 多模态问答的基座模型。
+BLIP-2 是 Salesforce **LAVIS**（Language-Vision Intelligence）库的核心模型之一。LAVIS 提供统一的 VLM 训练/评估/部署流水线，涵盖 BLIP-2、ALPRO、CLIP 等多个模型。[[3d-llm]] 页面提及 BLIP-2 被用作 3D 多模态问答的基座模型。
 
 ## 在游戏开发中的应用场景
 

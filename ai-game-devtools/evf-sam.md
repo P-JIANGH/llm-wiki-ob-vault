@@ -69,5 +69,5 @@ sources: [raw/articles/ai-game-devtools/evf-sam.md]
 
 ## Related
 
-- [[ai-game-devtools/cambrian-1]] — 同样基于 BEIT-3 的视觉中心 MLLM
-- [[ai-game-devtools/imagebind]] — Meta AI 六模态联合嵌入模型（图像/文本/音频/深度/热成像/IMU），同为视觉驱动的多模态模型
+- [[cambrian-1]] — 同样基于 BEIT-3 的视觉中心 MLLM
+- [[imagebind]] — Meta AI 六模态联合嵌入模型（图像/文本/音频/深度/热成像/IMU），同为视觉驱动的多模态模型

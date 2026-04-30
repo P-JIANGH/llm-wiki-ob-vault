@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/janus.md]
 
 Janus is DeepSeek's family of unified multimodal models that simultaneously handle visual understanding (VLM) and text-to-image generation in a single autoregressive framework. Three variants exist: **Janus** (original 1.3B), **JanusFlow** (rectified flow variant 1.3B), and **Janus-Pro** (advanced, 1B/7B). The key innovation is **decoupled visual encoding** — separate vision encoders for understanding vs. generation tasks — processed through a single unified transformer backbone.
 
-[[ai-game-devtools/deepseek-r1]] | [[ai-game-devtools/deepseek-v3]]
+[[deepseek-r1]] | [[deepseek-v3]]
 
 ## Variants
 
@@ -110,7 +110,7 @@ Janus-Pro's simultaneous image understanding + generation capabilities make it r
 - **Procedural content**: NPC appearance generation from text descriptions
 - **Game agent vision**: Unified perception + generation in NPC AI systems
 
-Unlike [[ai-game-devtools/imagebind]] (which focuses on zero-shot cross-modal retrieval across 6 modalities), Janus focuses on **unified understanding + generation** in a single model.
+Unlike [[imagebind]] (which focuses on zero-shot cross-modal retrieval across 6 modalities), Janus focuses on **unified understanding + generation** in a single model.
 
 ## License
 
@@ -119,7 +119,7 @@ Unlike [[ai-game-devtools/imagebind]] (which focuses on zero-shot cross-modal re
 
 ## Related
 
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek reasoning model
-- [[ai-game-devtools/deepseek-v3]] — DeepSeek base LLM
-- [[ai-game-devtools/imagebind]] — Meta's multimodal embedding model
-- [[ai-game-devtools/internlm-xcomposer]] — Another multimodal LVLM from Shanghai AI Lab
+- [[deepseek-r1]] — DeepSeek reasoning model
+- [[deepseek-v3]] — DeepSeek base LLM
+- [[imagebind]] — Meta's multimodal embedding model
+- [[internlm-xcomposer]] — Another multimodal LVLM from Shanghai AI Lab

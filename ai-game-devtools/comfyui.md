@@ -60,8 +60,8 @@ ComfyUI 是由 comfyanonymous 开发的最强大且模块化的视觉 AI 引擎�
 
 ## 与其他工具的关系
 
-- [[ai-game-devtools/genagent]] — GenAgent 在 ComfyUI 中自动生成 Stable Diffusion 工作流
-- [[ai-game-devtools/jaaz]] — Jaaz 多模态画布使用 ComfyUI 作为图像生成执行后端
-- [[ai-game-devtools/blender-controlnet]] — Blender-ControlNet 使用 A1111 WebUI API（与 ComfyUI 同类竞品）
-- [[ai-game-devtools/anytext]] — AnyText 扩散模型被 ComfyUI 原生支持
-- [[ai-game-devtools/autostudio]] — AutoStudio 多智能体图像生成框架，SD 生态，与 ComfyUI 互补
+- [[genagent]] — GenAgent 在 ComfyUI 中自动生成 Stable Diffusion 工作流
+- [[jaaz]] — Jaaz 多模态画布使用 ComfyUI 作为图像生成执行后端
+- [[blender-controlnet]] — Blender-ControlNet 使用 A1111 WebUI API（与 ComfyUI 同类竞品）
+- [[anytext]] — AnyText 扩散模型被 ComfyUI 原生支持
+- [[autostudio]] — AutoStudio 多智能体图像生成框架，SD 生态，与 ComfyUI 互补

@@ -47,7 +47,7 @@ Qwen 2.5 is relevant for:
 
 ## Related Projects
 
-- [[ai-game-devtools/qwen-agent]] — Alibaba Qwen team LLM agent framework
-- [[ai-game-devtools/llama]] — Meta foundational LLM series, comparable open-source alternative
-- [[ai-game-devtools/dify]] — LLM application platform that supports Qwen models as backends
-- [[ai-game-devtools/longcat-flash]] — Meituan 560B MoE LLM, related Chinese-language LLM landscape
+- [[qwen-agent]] — Alibaba Qwen team LLM agent framework
+- [[llama]] — Meta foundational LLM series, comparable open-source alternative
+- [[dify]] — LLM application platform that supports Qwen models as backends
+- [[longcat-flash]] — Meituan 560B MoE LLM, related Chinese-language LLM landscape

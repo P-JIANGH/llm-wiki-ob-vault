@@ -52,7 +52,7 @@ ToolBench 的工具调用能力可用于游戏 AI：
 - AI Agent 规划：让 NPC 自主调用多个 API 组合完成复杂任务
 - 工具增强的游戏 AI：赋予 AI 使用外部工具（天气 API、数据库查询等）的能力
 
-类似项目参考 [[ai-game-devtools/metagpt]]（多 Agent 软件开发框架）和 [[ai-game-devtools/autogen]]（微软多 Agent 协作框架）。
+类似项目参考 [[metagpt]]（多 Agent 软件开发框架）和 [[autogen]]（微软多 Agent 协作框架）。
 
 ## 许可证
 

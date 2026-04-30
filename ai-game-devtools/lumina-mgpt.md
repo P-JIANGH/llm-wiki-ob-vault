@@ -60,10 +60,10 @@ PyTorch 2.3.0、transformers >= 4.43.3、gradio 4.19.0、fairscale、bitsandbyte
 
 ## Relationship to Other Tools
 
-- 与 [[ai-game-devtools/lumina-t2x]] 同属 Alpha-VLLM 的 Lumina 系列，但 T2X 基于 Flow-based Diffusion，而 mGPT 基于自回归
-- 与 [[ai-game-devtools/lumina-image-2-0]] 同系列，Image 2.0 使用自回归 DiT 架构
-- 与 [[ai-game-devtools/llamagen]] 同为自回归图像生成范式，LlamaGen 用纯 LLaMA 做视觉生成，mGPT 基于 Chameleon
-- 与 [[ai-game-devtools/lumina-dimoo]] 同为统一多模态模型，DiMOO 使用离散扩散，mGPT 使用自回归
+- 与 [[lumina-t2x]] 同属 Alpha-VLLM 的 Lumina 系列，但 T2X 基于 Flow-based Diffusion，而 mGPT 基于自回归
+- 与 [[lumina-image-2-0]] 同系列，Image 2.0 使用自回归 DiT 架构
+- 与 [[llamagen]] 同为自回归图像生成范式，LlamaGen 用纯 LLaMA 做视觉生成，mGPT 基于 Chameleon
+- 与 [[lumina-dimoo]] 同为统一多模态模型，DiMOO 使用离散扩散，mGPT 使用自回归
 
 ## Repository
 

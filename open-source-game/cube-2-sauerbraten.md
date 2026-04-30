@@ -61,4 +61,5 @@ CXXFLAGS= -O3 -fomit-frame-pointer -ffast-math -Wall -fsigned-char -fno-exceptio
 | 网络同步 | ENet可靠UDP模式适合低延迟多人游戏，参考其数据包压缩和状态同步 |
 | 体素场景系统 | 稀疏八叉树体素表示可用于 AI 路径规划和场景理解 |
 | ZLIB 许可 | 极宽松许可允许闭源商业使用，降低法律风险 ([[open-source-game-engines-comparison]]) |
-| AssaultCube 关系 | 同一 CUBE Engine 衍生，Cube Engine 对比评估已有记录 ([[open-source-game/assault-cube]]) |
+| AssaultCube 关系 | 同一 CUBE Engine 衍生，Cube Engine 对比评估已有记录 ([[assault-cube]]) |
+

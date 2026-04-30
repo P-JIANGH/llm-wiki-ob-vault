@@ -65,9 +65,9 @@ MIGC 在 COCO-MIG 基准上所有指标均为 SOTA，显著优于 GLIGEN、Insta
 
 ## 与其他工具的关系
 
-- [[ai-game-devtools/controlnet]] — 同为 SD 扩散模型 adapter 控制方法，ControlNet 使用零卷积复制架构，MIGC 使用位置编码器+SAC
-- [[ai-game-devtools/comfyui]] — ComfyUI 原生支持多种扩散模型，可作为 MIGC 的部署平台
-- [[ai-game-devtools/flux]] — FLUX 是新一代扩散模型，与 MIGC 同属图像生成领域但架构不同
+- [[controlnet]] — 同为 SD 扩散模型 adapter 控制方法，ControlNet 使用零卷积复制架构，MIGC 使用位置编码器+SAC
+- [[comfyui]] — ComfyUI 原生支持多种扩散模型，可作为 MIGC 的部署平台
+- [[flux]] — FLUX 是新一代扩散模型，与 MIGC 同属图像生成领域但架构不同
 
 ## 关键链接
 

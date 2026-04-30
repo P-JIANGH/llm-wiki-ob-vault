@@ -23,7 +23,7 @@ Andrew Ng 开发的反射式 Agent 翻译工作流，通过 LLM 的"翻译→反
 ## 关键特性
 
 - **区域语言定制**：支持指定目标语言的国家/地区变体（如"墨西哥西班牙语"）
-- **长文本分块**：使用 `RecursiveCharacterTextSplitter`（[[ai-game-devtools/langchain]] 组件）自动分块，每块 ≤ 1000 tokens
+- **长文本分块**：使用 `RecursiveCharacterTextSplitter`（[[langchain]] 组件）自动分块，每块 ≤ 1000 tokens
 - **分块翻译策略**：用 `<TRANSLATE_THIS>` 标记当前翻译块，其余文本作为上下文，保证翻译连贯性
 - **多 LLM 支持 WebUI**：Gradio 界面支持 OpenAI、Groq、Ollama、Together AI 等多种端点
 - **双 LLM 模式**：可用不同的 LLM 分别执行翻译和反思阶段
@@ -70,5 +70,5 @@ MIT
 
 ## 来源
 
-- [[ai-game-devtools/langchain]] — 翻译 Agent 使用 langchain-text-splitters 进行文本分块
-- [[ai-game-devtools/fabric]] — 同为 prompt 驱动的模块化 AI 工具框架
+- [[langchain]] — 翻译 Agent 使用 langchain-text-splitters 进行文本分块
+- [[fabric]] — 同为 prompt 驱动的模块化 AI 工具框架

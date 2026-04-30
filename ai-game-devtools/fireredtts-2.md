@@ -20,10 +20,10 @@ FireRedTTS-2 是 FireRedTeam 开源的长文本流式语音合成（TTS）系统
 - **随机音色生成**：适用于创建 ASR/语音交互训练数据
 
 ## 技术架构
-- **双 Transformer 架构**：文本-语音交错序列处理，借鉴 [[ai-game-devtools/moshi]] 和 Sesame CSM 的设计
+- **双 Transformer 架构**：文本-语音交错序列处理，借鉴 [[moshi]] 和 Sesame CSM 的设计
 - **流式语音分词器**：12.5Hz 低频率 tokenization，支持逐 token 流式解码
 - **LLM 骨干**：基于 Qwen2.5-1.5B 文本分词方案
-- **音频编解码器**：基于 Vocos 的声学解码器，参考 [[ai-game-devtools/audiolcm]] 相关 codec 思路
+- **音频编解码器**：基于 Vocos 的声学解码器，参考 [[audiolcm]] 相关 codec 思路
 - **上下文管理**：基于 Segment 的上下文窗口，支持 [S1]-[S4] 四个说话人标签
 - **bf16 推理**：显存占用从 14GB 降至 9GB，支持消费级 GPU 部署
 
@@ -49,7 +49,7 @@ Apache 2.0
 - Paper: https://arxiv.org/abs/2509.02020
 
 ## 与同类工具差异
-| 特性 | FireRedTTS-2 | [[ai-game-devtools/emotivoice]] | [[ai-game-devtools/chat-tts]] |
+| 特性 | FireRedTTS-2 | [[emotivoice]] | [[chat-tts]] |
 |------|-------------|-------------------------------|-----------------------------|
 | 对话生成 | 多说话人（4人）| 不支持 | 不支持 |
 | 流式输出 | 12.5Hz, 140ms 延迟 | 不支持 | 不支持 |

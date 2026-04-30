@@ -81,7 +81,7 @@ However, practical use is limited by:
 
 ## Comparison with Modern Alternatives
 
-Unlike [[ai-game-devtools/musicgen]] which uses EnCodec tokenization with single-stage Transformer and supports melody conditioning, Jukebox's multi-level hierarchy was pioneering but computationally expensive. [[ai-game-devtools/flux-music]] (Flux-based) and [[ai-game-devtools/audiocraft]] represent newer, more efficient approaches.
+Unlike [[musicgen]] which uses EnCodec tokenization with single-stage Transformer and supports melody conditioning, Jukebox's multi-level hierarchy was pioneering but computationally expensive. [[flux-music]] (Flux-based) and [[audiocraft]] represent newer, more efficient approaches.
 
 ## Links
 

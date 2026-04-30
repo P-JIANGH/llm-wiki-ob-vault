@@ -74,9 +74,9 @@ pip install -r requirements.txt
 
 - 基于 Tune-A-Video 和 TripoSR 构建（两项目尚未录入 wiki）
 - 同一团队还开源了 UniRig 用于角色自动绑骨
-- 与 [[ai-game-devtools/meshanything]] 不同：MeshAnything 是点云/网格→简化网格的自回归生成，CharacterGen 是单图→完整3D角色
-- 与 [[ai-game-devtools/syncdreamer]] 类似的多视角生成思路，但 CharacterGen 专注于角色领域
-- 与 [[ai-game-devtools/crm]] 类似都是单图→3D生成，但 CRM 面向通用物体，CharacterGen 专注角色且包含2D姿态规范化阶段
+- 与 [[meshanything]] 不同：MeshAnything 是点云/网格→简化网格的自回归生成，CharacterGen 是单图→完整3D角色
+- 与 [[syncdreamer]] 类似的多视角生成思路，但 CharacterGen 专注于角色领域
+- 与 [[crm]] 类似都是单图→3D生成，但 CRM 面向通用物体，CharacterGen 专注角色且包含2D姿态规范化阶段
 
 ## 游戏开发应用
 

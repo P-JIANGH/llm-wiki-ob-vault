@@ -69,9 +69,9 @@ SAM 2 enables several game development workflows:
 
 ## Related Projects
 
-- [[ai-game-devtools/evf-sam]] — HUST+vivo multimodal segmentation combining SAM with text prompts
-- [[ai-game-devtools/depth-anything-v2]] — HKU+TikTok monocular depth estimation, complementary for 3D asset extraction
-- [[ai-game-devtools/anything-3d]] — Uses SAM for segmentation in single-view 3D reconstruction pipelines
+- [[evf-sam]] — HUST+vivo multimodal segmentation combining SAM with text prompts
+- [[depth-anything-v2]] — HKU+TikTok monocular depth estimation, complementary for 3D asset extraction
+- [[anything-3d]] — Uses SAM for segmentation in single-view 3D reconstruction pipelines
 
 ## License
 

@@ -74,6 +74,6 @@ MIT（多方版权：Katherine Crowson、Intel ISL、Maxwell Ingham、Adam Letts
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/comfyui]]：Disco Diffusion 以 Colab 笔记本为核心，面向动画/视频生成；ComfyUI 是节点式工作流引擎，面向静态图像生产管线
-- 相比 [[ai-game-devtools/controlnet]]：Disco Diffusion 集成深度估计实现 3D 动画，ControlNet 专注于空间条件控制的图像生成
-- 相比 [[ai-game-devtools/clipasso]]：两者都使用 CLIP 引导，但 Disco Diffusion 用 CLIP 做扩散引导生成，CLIPasso 用 CLIP 做草图感知损失
+- 相比 [[comfyui]]：Disco Diffusion 以 Colab 笔记本为核心，面向动画/视频生成；ComfyUI 是节点式工作流引擎，面向静态图像生产管线
+- 相比 [[controlnet]]：Disco Diffusion 集成深度估计实现 3D 动画，ControlNet 专注于空间条件控制的图像生成
+- 相比 [[clipasso]]：两者都使用 CLIP 引导，但 Disco Diffusion 用 CLIP 做扩散引导生成，CLIPasso 用 CLIP 做草图感知损失

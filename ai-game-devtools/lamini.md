@@ -62,9 +62,9 @@ Lamini 可用于游戏 AI 场景：
 
 || 工具 | 定位 | 微调方式 | Pipeline ||
 ||------|------|---------|----------|
-|| [[ai-game-devtools/gpt4all]] | 本地 LLM 运行平台 | 无（本地推理） | 无 |
-|| [[ai-game-devtools/autogen]] | 多 Agent 协作框架 | 支持微调 | Agent 对话 |
-|| [[ai-game-devtools/flowise]] | 可视化 LLM 应用 | API 调用 | 可视化 RAG/Agent |
+|| [[gpt4all]] | 本地 LLM 运行平台 | 无（本地推理） | 无 |
+|| [[autogen]] | 多 Agent 协作框架 | 支持微调 | Agent 对话 |
+|| [[flowise]] | 可视化 LLM 应用 | API 调用 | 可视化 RAG/Agent |
 || **Lamini** | **云端微调 + SDK** | **平台微调** | **Generator/Validator Chain** |
 
 ## 许可证

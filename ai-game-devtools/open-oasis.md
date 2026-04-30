@@ -71,10 +71,10 @@ python generate.py
 
 ## Relationships
 
-- 与 [[ai-game-devtools/matrix-game]] 同属交互式游戏世界模型方向，但 Oasis 使用 DiT 扩散生成而非自回归 LLM
-- 与 [[ai-game-devtools/cosmos]] 同为物理世界建模范式，但 Oasis 专注键盘交互场景，Cosmos 面向更广泛的自动驾驶/机器人仿真
-- 与 [[ai-game-devtools/hunyuanworld-1.0]] 共享"文本/图像 → 3D 世界生成"方向，Oasis 侧重 2D 游戏帧生成
-- 与 [[ai-game-devtools/hunyuanworld-voyager]] 同为可交互世界视频生成，Voyager 输出 RGB-D 视频 + 相机路径控制
+- 与 [[matrix-game]] 同属交互式游戏世界模型方向，但 Oasis 使用 DiT 扩散生成而非自回归 LLM
+- 与 [[cosmos]] 同为物理世界建模范式，但 Oasis 专注键盘交互场景，Cosmos 面向更广泛的自动驾驶/机器人仿真
+- 与 [[hunyuanworld-1.0]] 共享"文本/图像 → 3D 世界生成"方向，Oasis 侧重 2D 游戏帧生成
+- 与 [[hunyuanworld-voyager]] 同为可交互世界视频生成，Voyager 输出 RGB-D 视频 + 相机路径控制
 
 ## Links
 

@@ -44,8 +44,8 @@ Code World Model (CWM) 是一个稠密架构的解码器-only 自回归大语言
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/qwen3]] 和 [[ai-game-devtools/gpt-oss]] 等通用模型，CWM **专注代码执行状态推理**，而非通用对话
-- 相比 [[ai-game-devtools/swe-agent]]（Agent 接口框架），CWM 是**底层模型权重**，提供世界建模能力本身
+- 相比 [[qwen3]] 和 [[gpt-oss]] 等通用模型，CWM **专注代码执行状态推理**，而非通用对话
+- 相比 [[swe-agent]]（Agent 接口框架），CWM 是**底层模型权重**，提供世界建模能力本身
 - 非商业研究许可证，不适合生产环境直接部署
 
 ## 相关链接

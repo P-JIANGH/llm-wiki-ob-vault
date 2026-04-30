@@ -57,9 +57,9 @@ Examples of tasks Manus handles:
 
 ## Comparison to Similar Agents
 
-- Compared to [[ai-game-devtools/open-interpreter]]: Manus is more autonomous (full task completion vs. step-by-step execution)
-- Compared to [[ai-game-devtools/agentgpt]]: Manus has built-in browser capabilities and deeper web integration
-- Compared to [[ai-game-devtools/open-deep-research]]: Manus is broader (general tasks vs. research-focused)
+- Compared to [[open-interpreter]]: Manus is more autonomous (full task completion vs. step-by-step execution)
+- Compared to [[agentgpt]]: Manus has built-in browser capabilities and deeper web integration
+- Compared to [[open-deep-research]]: Manus is broader (general tasks vs. research-focused)
 
 ## References
 

@@ -45,7 +45,7 @@ All available via the [TinyChatEngine Model Zoo](https://huggingface.co/mit-han-
 
 ## Comparison with Similar Tools
 
-| Feature | TinyChatEngine | [[ai-game-devtools/gemma-cpp]] | [[ai-game-devtools/lit-llama]] |
+| Feature | TinyChatEngine | [[gemma-cpp]] | [[lit-llama]] |
 |---------|---------------|-------------------------------|-------------------------------|
 | Language | Pure C/C++ | Pure C++ | PyTorch-based |
 | Dependencies | None at runtime | None (Google Highway) | PyTorch |
@@ -64,8 +64,8 @@ For AI-augmented games, TinyChatEngine enables:
 
 ## Related
 
-- [[ai-game-devtools/gemma-cpp]] — Google pure C++ inference engine for Gemma models
-- [[ai-game-devtools/lit-llama]] — Lightning-AI's PyTorch-based LLaMA implementation
-- [[ai-game-devtools/llmunity]] — Unity plugin for local GGUF/llama.cpp inference
+- [[gemma-cpp]] — Google pure C++ inference engine for Gemma models
+- [[lit-llama]] — Lightning-AI's PyTorch-based LLaMA implementation
+- [[llmunity]] — Unity plugin for local GGUF/llama.cpp inference
 - [AWQ](https://github.com/mit-han-lab/llm-awq) — MLSys 2024 Best Paper quantization method
 - [TinyEngine](https://github.com/mit-han-lab/tinyengine) — Related: MCU neural network library from same lab

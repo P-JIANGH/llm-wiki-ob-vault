@@ -69,7 +69,7 @@ Open-source (specific license from repository — check GitHub for details).
 ## Relationships
 
 - Uses **Hugging Face Diffusers** as its pipeline backbone — compatible with any Diffusers model
-- **ControlNet integration** — supports [[ai-game-devtools/controlnet]] models for structured generation
+- **ControlNet integration** — supports [[controlnet]] models for structured generation
 - **Deforum-compatible** animation syntax (keyframe strings, curve format, motion parameters)
-- Shares the diffusion-based animation domain with [[ai-game-devtools/fooocus]] (static image generation) and [[ai-game-devtools/comfyui]] (node-based generation)
+- Shares the diffusion-based animation domain with [[fooocus]] (static image generation) and [[comfyui]] (node-based generation)
 - Game dev use cases: animated sprite generation, cinematic prototyping, asset variation with temporal consistency

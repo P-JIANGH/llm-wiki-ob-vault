@@ -75,3 +75,4 @@ sources: [https://github.com/fte-team/fteqw]
 | FTEQCC 嵌入式编译器 | 引擎内嵌脚本编译器，AI NPC 行为可内嵌 DSL |
 | 平台抽象 | droid/ 实现 Android 移植，多平台 AI 游戏可参考分层架构 |
 | 调试工具链 | 丰富 QuakeC 调试功能，AI 游戏可内嵌诊断/可视化系统 |
+

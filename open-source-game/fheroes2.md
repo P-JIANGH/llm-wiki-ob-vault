@@ -64,9 +64,10 @@ sources: [https://github.com/ihhub/fheroes2]
 
 | 方向 | 启示 |
 |------|------|
-| 清洁室重实现 | [[open-source-game/openmw]]/GemRB 模式——基于公开格式文档重写，不碰原版版权代码 |
+| 清洁室重实现 | [[openmw]]/GemRB 模式——基于公开格式文档重写，不碰原版版权代码 |
 | SDL2 轻量架构 | 无 Unreal/Unity，自研引擎层，游戏逻辑与渲染完全掌控——适合需要深度定制的 AI 游戏 |
-| 模块化游戏系统 | battle/castle/heroes/kingdom/world 各模块独立，符合 ECS 思路——[[open-source-game/openra]] Order 系统类似 |
-| 多平台部署 | CMake 多 target 策略，一次开发多端发布——[[open-source-game/veloren]] Rust multi-crate 类似 |
+| 模块化游戏系统 | battle/castle/heroes/kingdom/world 各模块独立，符合 ECS 思路——[[openra]] Order 系统类似 |
+| 多平台部署 | CMake 多 target 策略，一次开发多端发布——[[veloren]] Rust multi-crate 类似 |
 | 资源打包与 MOD | agg_file 格式兼容 + 外部高清资源包——可探索动态资源加载用于 AI 训练数据生成 |
-| 确定性回合制 | 战棋类 AI 训练的理想环境——[[open-source-game/vcmi]] HoMM III 引擎也是同类参考 |
+| 确定性回合制 | 战棋类 AI 训练的理想环境——[[vcmi]] HoMM III 引擎也是同类参考 |
+

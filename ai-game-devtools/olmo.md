@@ -87,8 +87,8 @@ Apache 2.0
 
 ## 与同类工具的差异
 
-相比 [[ai-game-devtools/gpt4all]]（本地 LLM 运行时）和 [[ai-game-devtools/llama2-webui]]（Web UI 推理框架），OLMo 专注于**模型训练**而非推理部署。OLMo 提供完整的预训练流程（数据→训练→评估），适合从头训练自定义 LLM，而其他工具主要是现成模型的消费级部署。
+相比 [[gpt4all]]（本地 LLM 运行时）和 [[llama2-webui]]（Web UI 推理框架），OLMo 专注于**模型训练**而非推理部署。OLMo 提供完整的预训练流程（数据→训练→评估），适合从头训练自定义 LLM，而其他工具主要是现成模型的消费级部署。
 
-相比 [[ai-game-devtools/mlc-llm]]（通用部署引擎），OLMo 是**模型本身**的提供者，而非跨平台推理优化框架。
+相比 [[mlc-llm]]（通用部署引擎），OLMo 是**模型本身**的提供者，而非跨平台推理优化框架。
 
-OLMo 由 AI2 主导的完全开源（非 API 调用），属于 [[ai-game-devtools/corenet]] 同一生态——两者均为 AI2/Apple 等机构开放权重模型的训练框架。
+OLMo 由 AI2 主导的完全开源（非 API 调用），属于 [[corenet]] 同一生态——两者均为 AI2/Apple 等机构开放权重模型的训练框架。

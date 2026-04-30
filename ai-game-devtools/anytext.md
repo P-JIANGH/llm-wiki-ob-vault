@@ -76,8 +76,8 @@ AnyText 是阿里巴巴开源的多语言视觉文本生成与编辑扩散模型
 - 游戏 UI/海报/宣传图中的文字自动生成
 - 游戏内道具/招牌/书籍等带文字纹理的生成
 - 多语言游戏本地化时批量生成不同文字版本的素材
-- 与 [[ai-game-devtools/genagent]] 结合可在 ComfyUI 中自动构建 AnyText 工作流
-- 与 [[ai-game-devtools/lumina-t2x]] 等多模态生成框架互补，AnyText 专注于文字生成
+- 与 [[genagent]] 结合可在 ComfyUI 中自动构建 AnyText 工作流
+- 与 [[lumina-t2x]] 等多模态生成框架互补，AnyText 专注于文字生成
 
 ## 许可证
 

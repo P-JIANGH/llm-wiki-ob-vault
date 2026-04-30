@@ -76,6 +76,6 @@ Akhenaten fork 自 [Julius（Caesar III 重实现）](../open-source-game/julius
 
 ## 相关项目
 
-- [[open-source-game/julius]] — Caesar III 清洁室重实现（Akhenaten 的上游）
-- [[open-source-game/cytopia]] — 另一个城市建造游戏，SDL2 等距渲染
+- [[julius]] — Caesar III 清洁室重实现（Akhenaten 的上游）
+- [[cytopia]] — 另一个城市建造游戏，SDL2 等距渲染
 - `open-source-game/unkown-horizons` — Godot 移植的 2D 城市建造

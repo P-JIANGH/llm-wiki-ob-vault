@@ -24,7 +24,7 @@ MiniCPM is a series of small, efficient LLMs developed by OpenBMB and Tsinghua. 
 
 ## Relationship to Other Projects
 
-- Competes with [[Qwen]] and [[Phi-3]] in the small model space
+- Competes with [[Qwen]] and [[phi]] in the small model space
 - Open-source alternative to proprietary models like [[GPT-3.5]]
 
 ## References

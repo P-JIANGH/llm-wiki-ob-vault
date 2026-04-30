@@ -69,7 +69,7 @@ accelerate run_parler_tts_training.py helpers/training_configs/starting_point_v1
 - **实时流式对话:** Streaming 支持游戏内实时 NPC 语音输出
 - **34 种预设声音:** 独立游戏开箱即用的语音多样性
 - **Unity/Unreal 集成:** 可通过 API 服务接入游戏引擎 NPC 对话系统
-- **对比 [[ai-game-devtools/cosyvoice]]:** CosyVoice 是阿里开源（支持中文+跨语言），Parler-TTS 专注英文自然语言控制；[[ai-game-devtools/openvoice]] 侧重零样本音色克隆，Parler-TTS 侧重风格描述控制
+- **对比 [[cosyvoice]]:** CosyVoice 是阿里开源（支持中文+跨语言），Parler-TTS 专注英文自然语言控制；[[openvoice]] 侧重零样本音色克隆，Parler-TTS 侧重风格描述控制
 
 ## 相关链接
 

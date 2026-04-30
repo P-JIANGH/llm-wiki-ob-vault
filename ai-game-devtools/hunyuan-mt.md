@@ -37,9 +37,9 @@ sources: [raw/articles/ai-game-devtools/hunyuan-mt.md]
 
 ## 相关项目
 
-- [[ai-game-devtools/gemma]] — Google 轻量级开源 LLM 家族
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek 推理模型
-- [[ai-game-devtools/cosmos]] — NVIDIA 物理 AI 世界基础模型
+- [[gemma]] — Google 轻量级开源 LLM 家族
+- [[deepseek-r1]] — DeepSeek 推理模型
+- [[cosmos]] — NVIDIA 物理 AI 世界基础模型
 
 ## 链接
 

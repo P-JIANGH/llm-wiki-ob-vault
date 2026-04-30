@@ -62,6 +62,6 @@ Motion Customization of Text-to-Video Diffusion Models. 通过 LoRA 微调让文
 - 数据集支持: VideoJsonDataset / SingleVideoDataset / ImageDataset / VideoFolderDataset
 
 ## 相关项目
-- [[ai-game-devtools/animate-diff]] — AnimateDiff 运动模块，MotionDirector 有 AnimateDiff 适配版本
-- [[ai-game-devtools/zero-1-to-3]] — 3D 新视角合成，与视频生成互补的视觉定制技术
+- [[animate-diff]] — AnimateDiff 运动模块，MotionDirector 有 AnimateDiff 适配版本
+- [[zero-1-to-3]] — 3D 新视角合成，与视频生成互补的视觉定制技术
 - `ai-game-devtools/modelscope-t2v` — ModelScope 文本到视频基础模型，MotionDirector 支持的基础模型之一

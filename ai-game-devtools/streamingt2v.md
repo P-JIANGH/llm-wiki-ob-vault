@@ -44,7 +44,7 @@ Picsart AI Research 的自回归长视频生成框架（CVPR 2025）。将 Stabi
 
 ## 扩展模型
 
-- **StreamingModelscope：** 同架构应用于 [[ai-game-devtools/diffsynth-studio]] Modelscope T2V 模型，可生成最长 2 分钟视频，高运动无停滞
+- **StreamingModelscope：** 同架构应用于 [[diffsynth-studio]] Modelscope T2V 模型，可生成最长 2 分钟视频，高运动无停滞
 - **MAWE（Motion Aware Warp Error）：** 作者提出的新评估指标，量化视频生成的运动连贯性
 
 ## 许可证
@@ -61,4 +61,4 @@ Picsart AI Research 的自回归长视频生成框架（CVPR 2025）。将 Stabi
 
 ## 与同类工具差异
 
-相比 [[ai-game-devtools/mochi-1]]（单片段 10B 参数需 60GB VRAM）和 [[ai-game-devtools/stable-video-diffusion]]（SVD 原生仅支持 14-25 帧），StreamingT2V 的核心创新在于**自 autoregressive 分段生成策略**，将短视频模型扩展为长视频生成器，且无需重新训练基座模型。
+相比 [[mochi-1]]（单片段 10B 参数需 60GB VRAM）和 [[stable-video-diffusion]]（SVD 原生仅支持 14-25 帧），StreamingT2V 的核心创新在于**自 autoregressive 分段生成策略**，将短视频模型扩展为长视频生成器，且无需重新训练基座模型。

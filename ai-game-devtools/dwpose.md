@@ -43,7 +43,7 @@ DWPose is a whole-body pose estimation framework developed by IDEA-Research that
   - Detection model: `yolox_l.onnx`
 - Supported in sd-webui-controlnet >= v1.1237
 - Direct drop-in replacement for OpenPose preprocessor
-- Also integrated into [[ai-game-devtools/animate-anyone]] for character animation
+- Also integrated into [[animate-anyone]] for character animation
 
 ## Key Timeline
 - **2023-07:** Paper published on arXiv
@@ -64,6 +64,6 @@ DWPose is a whole-body pose estimation framework developed by IDEA-Research that
 - **Character consistency:** Maintain consistent character appearance across different poses when generating game assets with Stable Diffusion
 
 ## Related
-- [[ai-game-devtools/controlnet]] — DWPose replaces OpenPose as the preprocessor in ControlNet
-- [[ai-game-devtools/openpose-editor]] — Alternative pose editing tool (manual editing vs. automatic detection)
+- [[controlnet]] — DWPose replaces OpenPose as the preprocessor in ControlNet
+- [[openpose-editor]] — Alternative pose editing tool (manual editing vs. automatic detection)
 - `ai-game-devtools/mmpose` — Underlying framework that DWPose is built on

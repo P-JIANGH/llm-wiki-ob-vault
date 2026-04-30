@@ -164,7 +164,7 @@ dotnet build
 
 ## 相关页面
 
-- [[open-source-game/openmw]] — Morrowind 引擎重实现（C++ + 组件系统对比）
-- [[open-source-game/veloren]] — Rust ECS 多人体素 RPG（不同技术栈对比）
+- [[openmw]] — Morrowind 引擎重实现（C++ + 组件系统对比）
+- [[veloren]] — Rust ECS 多人体素 RPG（不同技术栈对比）
 - [[godot-4]] — Godot 4 引擎（GDScript vs C# 自研引擎对比）
 - [[multi-agent-ai-simulation]] — 多智能体 AI 模拟

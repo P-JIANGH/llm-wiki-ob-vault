@@ -97,8 +97,9 @@ sources: [https://github.com/Interkarma/daggerfall-unity]
 
 | 方向 | 启示 |
 |------|------|
-| 引擎重制模式 | 用现代引擎重建经典游戏，保留游戏性的同时提升可玩性 [[open-source-game/openmw]] |
-| NPC AI 对话 | TalkManager+MCP 架构可作为 NPC 对话 AI 的参考设计 [[open-source-game/openmw]] |
-| Mod 系统 | ModManager 架构支持运行时资产替换，可用于 AI 生成内容的注入 [[open-source-game/openmw]] |
-| 任务脚本系统 | QuestMachine 的任务解析执行架构适合 AI 生成任务流程 [[open-source-game/dungeon-crawl-stone-soup]] |
-| 存档序列化 | FullSerializer JSON 存档适合 AI 状态读取 [[open-source-game/cataclysm-dark-days-ahead]] |
+| 引擎重制模式 | 用现代引擎重建经典游戏，保留游戏性的同时提升可玩性 [[openmw]] |
+| NPC AI 对话 | TalkManager+MCP 架构可作为 NPC 对话 AI 的参考设计 [[openmw]] |
+| Mod 系统 | ModManager 架构支持运行时资产替换，可用于 AI 生成内容的注入 [[openmw]] |
+| 任务脚本系统 | QuestMachine 的任务解析执行架构适合 AI 生成任务流程 [[dungeon-crawl-stone-soup]] |
+| 存档序列化 | FullSerializer JSON 存档适合 AI 状态读取 [[cataclysm-dark-days-ahead]] |
+

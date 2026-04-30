@@ -92,6 +92,6 @@ src/
 
 ## 相关页面
 
-- [[open-source-game/openenroth]] — Might and Magic VI-VIII 引擎重实现（同为 C++ 逆向工程）
-- [[open-source-game/openmw]] — Morrowind 引擎清洁室重实现
-- [[open-source-game/eduke32]] — Build Engine 多游戏端口（跨平台 SDL 模式参考）
+- [[openenroth]] — Might and Magic VI-VIII 引擎重实现（同为 C++ 逆向工程）
+- [[openmw]] — Morrowind 引擎清洁室重实现
+- [[eduke32]] — Build Engine 多游戏端口（跨平台 SDL 模式参考）

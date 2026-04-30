@@ -62,7 +62,7 @@ MeloTTS is particularly valuable for game development because:
 
 ## Related Projects
 
-- [[ai-game-devtools/bert-vits2]] — MeloTTS is based on Bert-VITS2 architecture; Bert-VITS2 offers more speaker customization but requires more training
-- [[ai-game-devtools/gpt-sovits]] — GPT-SoVITS focuses on voice cloning with few-shot reference audio, while MeloTTS provides ready-to-use multi-lingual TTS
-- [[ai-game-devtools/chat-tts]] — ChatTTS is optimized for conversational/speech-like TTS with natural pauses and fillers, whereas MeloTTS prioritizes multi-lingual coverage
-- [[ai-game-devtools/cosyvoice]] — CosyVoice (FunAudioLLM) is another multi-lingual TTS with voice cloning capability
+- [[bert-vits2]] — MeloTTS is based on Bert-VITS2 architecture; Bert-VITS2 offers more speaker customization but requires more training
+- [[gpt-sovits]] — GPT-SoVITS focuses on voice cloning with few-shot reference audio, while MeloTTS provides ready-to-use multi-lingual TTS
+- [[chat-tts]] — ChatTTS is optimized for conversational/speech-like TTS with natural pauses and fillers, whereas MeloTTS prioritizes multi-lingual coverage
+- [[cosyvoice]] — CosyVoice (FunAudioLLM) is another multi-lingual TTS with voice cloning capability

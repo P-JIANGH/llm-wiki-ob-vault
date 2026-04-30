@@ -83,9 +83,9 @@ LlamaIndex 旗下的企业级文档处理平台：
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/langchain]]：LlamaIndex 专注于数据摄取和检索（RAG），LangChain 更通用（工作流/Agent 编排）
-- 相比 [[ai-game-devtools/crewai]]：CrewAI 侧重多 Agent 协作，LlamaIndex 侧重数据到 LLM 的桥接
-- 相比 [[ai-game-devtools/dify]]：Dify 是完整的 AI 应用开发平台（含 UI），LlamaIndex 是纯代码框架
+- 相比 [[langchain]]：LlamaIndex 专注于数据摄取和检索（RAG），LangChain 更通用（工作流/Agent 编排）
+- 相比 [[crewai]]：CrewAI 侧重多 Agent 协作，LlamaIndex 侧重数据到 LLM 的桥接
+- 相比 [[dify]]：Dify 是完整的 AI 应用开发平台（含 UI），LlamaIndex 是纯代码框架
 - 两者互补：LangChain 可使用 LlamaIndex 作为检索组件
 
 ## 示例代码

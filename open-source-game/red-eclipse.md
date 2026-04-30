@@ -72,4 +72,4 @@ Red Eclipse 构建于 [Tesseract](http://tesseract.gg/) 引擎之上，该引擎
 
 - `open-source-game/sauerbraten` — Cube 2 Engine 起源
 - `open-source-game/assaultcube` — CUBE Engine FPS
-- [[open-source-game/xonotic]] — 同类竞技场射击对比
+- [[xonotic]] — 同类竞技场射击对比

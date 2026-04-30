@@ -52,9 +52,9 @@ RWKV 是一种将 Transformer 的并行训练和 RNN 的 O(n) 推理优势结合
 
 ## 与同类工具对比
 
-RWKV-Runner vs. [[ai-game-devtools/text-generation-webui]]：text-generation-webui 是通用 LLM WebUI（支持 5+ 后端、多模态、LoRA 训练），功能更全面但配置复杂；RWKV-Runner 专为 RWKV 架构优化，开箱即用，适合只想快速运行 RWKV 模型的用户。
+RWKV-Runner vs. [[text-generation-webui]]：text-generation-webui 是通用 LLM WebUI（支持 5+ 后端、多模态、LoRA 训练），功能更全面但配置复杂；RWKV-Runner 专为 RWKV 架构优化，开箱即用，适合只想快速运行 RWKV 模型的用户。
 
-RWKV-Runner vs. [[ai-game-devtools/llama2-webui]]：llama2-webui 面向 LLaMA 生态（llama.cpp/GPTQ 后端）；RWKV-Runner 专注 RWKV 系列。两者都是轻量级本地推理工具。
+RWKV-Runner vs. [[llama2-webui]]：llama2-webui 面向 LLaMA 生态（llama.cpp/GPTQ 后端）；RWKV-Runner 专注 RWKV 系列。两者都是轻量级本地推理工具。
 
 ## 与 RWKV 架构的关系
 

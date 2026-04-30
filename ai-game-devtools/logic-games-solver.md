@@ -79,8 +79,8 @@ Dense(10) → Softmax
 
 ## 相关项目
 
-- [[ai-game-devtools/interactml-unity]] — Unity 交互式机器学习插件（kNN/MLP/DTW）
-- [[ai-game-devtools/devon]] — AI 结对编程助手，支持多 Agent 协作
-- [[ai-game-devtools/chatdev]] — 多 Agent 软件开发工作流
+- [[interactml-unity]] — Unity 交互式机器学习插件（kNN/MLP/DTW）
+- [[devon]] — AI 结对编程助手，支持多 Agent 协作
+- [[chatdev]] — 多 Agent 软件开发工作流
 
 [[ai-game-devtools-catalog]] 收录于 AI 游戏开发工具目录。

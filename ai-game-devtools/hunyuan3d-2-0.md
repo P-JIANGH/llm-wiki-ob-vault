@@ -76,4 +76,4 @@ sources:
 
 ## 与同类工具的差异
 
-相比 [[ai-game-devtools/hunyuan3d-1]]，2.0 版本升级为两阶段 DiT 架构，支持更高的分辨率和更精细的纹理生成。与 [[ai-game-devtools/direct3d-s2]] 相比，Hunyuan3D 2.0 更侧重从图像到 3D 的端到端生成而非 SDF 网格的 DiT 加速。作为腾讯混元 3D 家族的一部分，与 [[ai-game-devtools/hunyuanworld-1.0]]（3D 世界生成）形成互补——一个生成单个 3D 资产，一个生成完整 3D 场景。
+相比 [[hunyuan3d-1]]，2.0 版本升级为两阶段 DiT 架构，支持更高的分辨率和更精细的纹理生成。与 [[direct3d-s2]] 相比，Hunyuan3D 2.0 更侧重从图像到 3D 的端到端生成而非 SDF 网格的 DiT 加速。作为腾讯混元 3D 家族的一部分，与 [[hunyuanworld-1.0]]（3D 世界生成）形成互补——一个生成单个 3D 资产，一个生成完整 3D 场景。

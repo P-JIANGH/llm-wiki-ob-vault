@@ -55,7 +55,7 @@ sources: [raw/articles/ai-game-devtools/ludo-ai.md]
 | 原型能力 | 直接生成可玩原型 | 需导入游戏引擎手动搭建 |
 | 生态整合 | MCP/API 连接外部工具链 | 孤立使用 |
 
-不同于 [[ai-game-devtools/comfyui]] 这样的模块化视觉 AI 引擎（面向技术用户自定义管线），Ludo.ai 是面向游戏开发者的**一站式 SaaS 平台**，强调从概念到可玩 Demo 的快速闭环。与 [[ai-game-devtools/gamegen-o]] 和 [[ai-game-devtools/hunyuan-gamecraft]] 等专注游戏视频生成的模型不同，Ludo.ai 覆盖更完整的开发工作流，包括市场验证和原型迭代。
+不同于 [[comfyui]] 这样的模块化视觉 AI 引擎（面向技术用户自定义管线），Ludo.ai 是面向游戏开发者的**一站式 SaaS 平台**，强调从概念到可玩 Demo 的快速闭环。与 [[gamegen-o]] 和 [[hunyuan-gamecraft]] 等专注游戏视频生成的模型不同，Ludo.ai 覆盖更完整的开发工作流，包括市场验证和原型迭代。
 
 ## 许可证与访问
 

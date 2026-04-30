@@ -33,6 +33,12 @@ Add new tags here BEFORE using them.
 - game, game-dev, game-genre, simulation, multiplayer, retro, modding
 - multi-agent, reasoning, rag, evaluation, benchmark, fine-tuning, rlhf, distillation, quantization, moe, world-model, inference, on-device, edge, long-context
 - vision-language, speech, computer-vision, semantic-search, vector-database, autonomous
+- tts, asr, audio, music, voice-cloning, speech-synthesis
+- image-generation, image-model, video-generation, video-model, 3d-generation, texture-generation
+- coding, tool-calling, code-generation, code-completion, agentic-llm
+- memory, context-compression, persistent-memory, long-context
+- research, benchmark, evaluation, benchmark-construction
+- design, ui, ux, tool, platform
 
 **Tools & Tech:**
 - tool, cli, script, automation
@@ -41,11 +47,14 @@ Add new tags here BEFORE using them.
 - image-generation, diffusion, autoregressive, flow-matching, 3d, video, audio, music, avatar, animation
 - unity, godot, sdl2, bevy, panda3d, phaser, idtech, stratagus, ogre-next
 - cpp, java, csharp, lua, javascript, kotlin, go, c, rust, objective-c, cython, lisp, webassembly
-- electron, mobile, android, wasm, qt, qt6, blender
+- electron, mobile, android, wasm, qt, qt6, blender, reverse-engineering, source-port, clean-room
+
+**Game Genres:**
+- fps, rts, rpg, platformer, roguelike, city-building, racing, simulation, strategy, adventure, puzzle, sandbox, mmo
 
 **Organizations:**
 - organization, company, research-lab, university
-- chinese-llm, open-source-game
+- chinese-llm, open-source-game, chinese
 
 **Open Source & Licensing:**
 - open-source, community-edition

@@ -63,6 +63,7 @@ sources: []
 
 ## 相关页面
 
-- [[open-source-game/veloren]] — Rust 体素 RPG
-- [[open-source-game/openmw]] — Morrowind 引擎复刻
-- [[open-source-game/openra]] — C&C / Westwood 经典 RTS 复刻
+- [[veloren]] — Rust 体素 RPG
+- [[openmw]] — Morrowind 引擎复刻
+- [[openra]] — C&C / Westwood 经典 RTS 复刻
+

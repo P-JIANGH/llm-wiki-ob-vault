@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/hotshot-xl.md]
 
 # Hotshot-XL
 
-AI text-to-GIF model trained to work alongside [[ai-game-devtools/stable-diffusion]] (SDXL). Developed by Natural Synthetics Inc.
+AI text-to-GIF model trained to work alongside [[stable-diffusion]] (SDXL). Developed by Natural Synthetics Inc.
 
 ## Overview
 
@@ -65,7 +65,7 @@ python inference.py --prompt="..." --control_type="depth" --gif="source.gif" --o
 accelerate launch fine_tune.py --data_dir="dataset" --output_dir="output"
 ```
 
-## Comparison with [[ai-game-devtools/animatediff]]
+## Comparison with [[animatediff]]
 
 | Dimension | Hotshot-XL | AnimateDiff |
 |-----------|-----------|-------------|

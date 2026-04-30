@@ -176,5 +176,6 @@ data/json/techniques.json          — 战斗技术
 
 ## 关联页面
 
-- [[open-source-game/dungeon-crawl-stone-soup]] — 经典 roguelike C++ 源码 (~412K LOC)
-- [[open-source-game/nethack]] — 经典 roguelike (同属 ASCII roguelike 类别)
+- [[dungeon-crawl-stone-soup]] — 经典 roguelike C++ 源码 (~412K LOC)
+- [[nethack]] — 经典 roguelike (同属 ASCII roguelike 类别)
+

@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/code-llama.md]
 
 ## Overview
 
-**Code Llama** 是 Meta AI 基于 [[ai-game-devtools/llama-3]] 的前代 Llama 2 微调的代码大模型系列，提供开源代码模型中 SoTA 性能。支持代码生成、理解、填充（infilling）和指令跟随。
+**Code Llama** 是 Meta AI 基于 [[llama-3]] 的前代 Llama 2 微调的代码大模型系列，提供开源代码模型中 SoTA 性能。支持代码生成、理解、填充（infilling）和指令跟随。
 
 ## Key Facts
 
@@ -69,14 +69,14 @@ sources: [raw/articles/ai-game-devtools/code-llama.md]
 - **NPC 对话生成**：Code Llama - Instruct 可用于游戏内 AI NPC 对话系统
 - **代码辅助工具**：Unity/Unreal 插件可集成 Code Llama 作为代码补全后端
 - **游戏脚本生成**：自动生成游戏逻辑脚本（Lua/Python/C#）
-- **与 [[ai-game-devtools/llmunity]] 等 Unity 集成配合**：本地部署 GGUF 量化版本
+- **与 [[llmunity]] 等 Unity 集成配合**：本地部署 GGUF 量化版本
 
 ## 与同类工具差异
 
-- vs [[ai-game-devtools/codegen]]：Code Llama 基于 Llama 2 架构（更强），CodeGen 基于 GPT-NeoX/CodeGen 架构
-- vs [[ai-game-devtools/codegeex]]：CodeGeeX 专注中文场景，Code Llama 以英文为主
-- vs [[ai-game-devtools/gpt-oss]]：GPT-OSS 是 OpenAI 开放权重推理模型，Code Llama 专注代码任务
-- 已被 Llama 3 系列取代（[[ai-game-devtools/llama-3-1]]）
+- vs [[codegen]]：Code Llama 基于 Llama 2 架构（更强），CodeGen 基于 GPT-NeoX/CodeGen 架构
+- vs [[codegeex]]：CodeGeeX 专注中文场景，Code Llama 以英文为主
+- vs [[gpt-oss]]：GPT-OSS 是 OpenAI 开放权重推理模型，Code Llama 专注代码任务
+- 已被 Llama 3 系列取代（[[llama-3-1]]）
 
 ## 相关链接
 
@@ -87,6 +87,6 @@ sources: [raw/articles/ai-game-devtools/code-llama.md]
 
 ## Related
 
-- [[ai-game-devtools/llama-3]] — Meta 后继版本，性能全面超越 Code Llama
-- [[ai-game-devtools/codegen]] — Salesforce 代码生成模型，另一个重要代码模型
-- [[ai-game-devtools/codegeex]] — 清华 CodeGeeX 代码模型系列
+- [[llama-3]] — Meta 后继版本，性能全面超越 Code Llama
+- [[codegen]] — Salesforce 代码生成模型，另一个重要代码模型
+- [[codegeex]] — 清华 CodeGeeX 代码模型系列

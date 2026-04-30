@@ -80,7 +80,7 @@ Quake 2 采用 **ref_soft**（软件渲染）和 **ref_gl**（OpenGL）双渲染
 
 ## 相关链接
 
-- [[open-source-game/quake]] — Quake 1 (1996)
-- [[open-source-game/doom]] — Doom (1997)
-- [[open-source-game/doom-3-bfg]] — Doom 3 / id Tech 4
+- [[quake]] — Quake 1 (1996)
+- [[doom]] — Doom (1997)
+- [[doom-3-bfg]] — Doom 3 / id Tech 4
 - `open-source-game/quake-3-arena` — Quake 3 Arena (2001)

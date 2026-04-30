@@ -46,4 +46,4 @@ sources: []
 
 - [[llm]] — 语言模型
 - [[multimodal-models]] — 多模态
-- [[foundation-models-101]] — 入门
+- [[foundation-models]] — 入门

@@ -50,7 +50,7 @@ A simple Maya plugin that uses OpenAI ChatGPT (text-davinci-003) to generate May
 | Tool | Target DCC | Approach | Modernity |
 |------|-----------|----------|-----------|
 | **chatGPT-maya** | Maya | Direct `exec()` of GPT-3 output | Legacy (text-davinci-003) |
-| [[ai-game-devtools/blender-gpt]] | Blender | GPT-4 → Python code via sidebar UI | More modern API |
-| [[ai-game-devtools/blender-mcp]] | Blender | MCP protocol + Claude external agent | Most modern (MCP) |
+| [[blender-gpt]] | Blender | GPT-4 → Python code via sidebar UI | More modern API |
+| [[blender-mcp]] | Blender | MCP protocol + Claude external agent | Most modern (MCP) |
 
-chatGPT-maya is the Maya equivalent of [[ai-game-devtools/blender-gpt]] — both use natural language to generate DCC automation scripts. However, chatGPT-maya uses the deprecated text-davinci-003 model and lacks modern features like conversation history or code validation.
+chatGPT-maya is the Maya equivalent of [[blender-gpt]] — both use natural language to generate DCC automation scripts. However, chatGPT-maya uses the deprecated text-davinci-003 model and lacks modern features like conversation history or code validation.

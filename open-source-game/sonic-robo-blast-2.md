@@ -110,6 +110,6 @@ SRB2/
 
 ## 相关页面
 
-- [[open-source-game/hypersomnia]] — 同样竞技向，同样无游戏引擎依赖
-- [[open-source-game/cube-2-sauerbraten]] — CUBE Engine 系列 FPS
+- [[hypersomnia]] — 同样竞技向，同样无游戏引擎依赖
+- [[cube-2-sauerbraten]] — CUBE Engine 系列 FPS
 - `open-source-game/ddrace-network` — C++/Rust 分层架构参考

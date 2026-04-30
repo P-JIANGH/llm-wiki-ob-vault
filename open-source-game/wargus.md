@@ -79,7 +79,7 @@ sources: [https://github.com/Wargus/wargus]
 
 ## 相关项目
 
-- [[open-source-game/war1gus]] — Warcraft: Orcs & Humans，Stratagus 引擎 + Lua 脚本
-- [[open-source-game/openra]] — Westwood RTS 复刻（C&C/红警/沙丘2000），自研引擎
-- [[open-source-game/warzone-2100]] — 3D RTS，157K LOC C++
-- [[open-source-game/openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言
+- [[war1gus]] — Warcraft: Orcs & Humans，Stratagus 引擎 + Lua 脚本
+- [[openra]] — Westwood RTS 复刻（C&C/红警/沙丘2000），自研引擎
+- [[warzone-2100]] — 3D RTS，157K LOC C++
+- [[openage]] — Age of Empires 引擎复刻，C++20+Python3 双语言

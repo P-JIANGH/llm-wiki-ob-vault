@@ -79,7 +79,7 @@ img2img-turbo 提出了一种通用方法，通过对抗学习将单步扩散模
 
 ## 与同类工具对比
 
-- vs [[ai-game-devtools/controlnet]]: ControlNet 使用多步扩散+条件图控制，生成质量高但慢；img2img-turbo 单步推理快 10-50 倍，质量相当
-- vs [[ai-game-devtools/comfyui]]: ComfyUI 是通用节点式扩散管线编排器；img2img-turbo 是专用单步翻译模型，可集成到 ComfyUI 中使用
-- vs [[ai-game-devtools/fooocus]]: Fooocus 专注零配置文生图；img2img-turbo 专注图到图翻译
-- vs [[ai-game-devtools/draggan]]: DragGAN 基于 StyleGAN3 潜在空间交互式编辑；img2img-turbo 基于扩散模型，支持文本条件控制
+- vs [[controlnet]]: ControlNet 使用多步扩散+条件图控制，生成质量高但慢；img2img-turbo 单步推理快 10-50 倍，质量相当
+- vs [[comfyui]]: ComfyUI 是通用节点式扩散管线编排器；img2img-turbo 是专用单步翻译模型，可集成到 ComfyUI 中使用
+- vs [[fooocus]]: Fooocus 专注零配置文生图；img2img-turbo 专注图到图翻译
+- vs [[draggan]]: DragGAN 基于 StyleGAN3 潜在空间交互式编辑；img2img-turbo 基于扩散模型，支持文本条件控制

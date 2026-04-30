@@ -73,7 +73,7 @@ sources: [raw/articles/ai-game-devtools/qwen-image.md]
 
 ## Relationships
 
-- Part of the [[ai-game-devtools/qwen3]] ecosystem by Alibaba's Qwen team
-- Uses [[ai-game-devtools/qwen-vl]] (Qwen2.5-VL) as text encoder
-- Native integration with [[ai-game-devtools/comfyui]] workflow system
-- Competes with [[ai-game-devtools/flux]] and [[ai-game-devtools/hunyuanimage-3-0]] in the open T2I space
+- Part of the [[qwen3]] ecosystem by Alibaba's Qwen team
+- Uses [[qwen-vl]] (Qwen2.5-VL) as text encoder
+- Native integration with [[comfyui]] workflow system
+- Competes with [[flux]] and [[hunyuanimage-3-0]] in the open T2I space

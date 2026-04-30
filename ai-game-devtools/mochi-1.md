@@ -92,7 +92,7 @@ Mochi 1 preview 由 Genmo（genmo.ai）发布，Apache 2.0 许可。在视频保
 
 ## 与其他视频生成模型对比
 
-与 [[ai-game-devtools/hunyuan-video]]（腾讯 13B+ 参数，需 ~60GB VRAM）、[[ai-game-devtools/cogvideox]]（智谱 2B/5B，最低 3.6GB INT8）、[[ai-game-devtools/ltx-video]]（Lightricks 2B/13B，支持 4K/50FPS）相比，Mochi 1 是首个 10B 级别开源视频扩散模型，以 Apache 2.0 宽松许可发布，但显存需求较高，社区已推出 ComfyUI 优化方案。
+与 [[hunyuan-video]]（腾讯 13B+ 参数，需 ~60GB VRAM）、[[cogvideox]]（智谱 2B/5B，最低 3.6GB INT8）、[[ltx-video]]（Lightricks 2B/13B，支持 4K/50FPS）相比，Mochi 1 是首个 10B 级别开源视频扩散模型，以 Apache 2.0 宽松许可发布，但显存需求较高，社区已推出 ComfyUI 优化方案。
 
 ## 参考
 

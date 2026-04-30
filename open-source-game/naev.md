@@ -81,3 +81,4 @@ sources: [https://codeberg.org/naev/naev]
 - **依赖自包含**：subprojects 确保各平台编译一致性
 - **艺术资产分离**：naev-artwork 作为 git submodule 独立管理
 - **发布多渠道**：Steam + itch.io + Flathub + 各发行版包管理器
+

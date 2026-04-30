@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/dream-catalyst.md]
 
 ## Overview
 
-**DreamCatalyst** 是 KAIST CVML Lab 提出的 3D 场景编辑方法，发表于 **ICLR 2025**。核心创新在于**分析并控制扩散模型在 SDS (Score Distillation Sampling) 框架中的采样动力学**，通过三个可调参数精确平衡"编辑程度"与"原场景保留度"。该方法同时适用于 [[ai-game-devtools/cf-3dgs]] 所代表的 **NeRF** 和 **3D Gaussian Splatting** 两种 3D 表示格式。
+**DreamCatalyst** 是 KAIST CVML Lab 提出的 3D 场景编辑方法，发表于 **ICLR 2025**。核心创新在于**分析并控制扩散模型在 SDS (Score Distillation Sampling) 框架中的采样动力学**，通过三个可调参数精确平衡"编辑程度"与"原场景保留度"。该方法同时适用于 [[cf-3dgs]] 所代表的 **NeRF** 和 **3D Gaussian Splatting** 两种 3D 表示格式。
 
 ## 核心创新
 
@@ -39,7 +39,7 @@ DreamCatalyst 提供两套实现，分别基于不同的 3D 编辑框架：
 
 ### 1. NerfStudio 实现（NeRF + 3DGS 编辑）
 
-- 基于 [[ai-game-devtools/stable-diffusion]] 生态的 Nerfstudio 框架
+- 基于 [[stable-diffusion]] 生态的 Nerfstudio 框架
 - 提供 `dc`（NeRF 编辑）和 `dc_splat`（3DGS 编辑）两条管线
 - 使用 InstructPix2Pix 作为基础编辑扩散模型
 - 集成 FreeU（自由上采样）提升生成质量
@@ -83,5 +83,5 @@ DreamCatalyst 提供两套实现，分别基于不同的 3D 编辑框架：
 
 - 相比 Instruct-NeRF2NeRF：通过 SDS 采样动力学分析显著提升编辑速度
 - 相比 PDS：不需要 Dreambooth 检查点，直接使用预训练扩散模型
-- 相比 [[ai-game-devtools/dreammat]]：专注于场景编辑而非材质生成
+- 相比 [[dreammat]]：专注于场景编辑而非材质生成
 - 同时支持 NeRF 和 3DGS 两种 3D 表示格式，覆盖面广

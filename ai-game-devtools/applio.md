@@ -62,9 +62,9 @@ applio/
 
 ## 与同类工具对比
 
-- vs [[ai-game-devtools/retrieval-based-voice-conversion-webui]]：Applio 是 RVC 的现代化封装，提供更完善的 UI、插件系统和一站式 TTS 管线。RVC 更偏底层框架。
-- vs [[ai-game-devtools/so-vits-svc]]：so-vits-svc 侧重歌唱语音转换（SVC），使用 VITS 声码器；Applio 侧重通用语音转换，使用 RVC 架构。两者都支持 FAISS 检索防音色泄漏。
-- vs [[ai-game-devtools/diffsinger]]：DiffSinger 专注歌唱合成（MIDI 控制），Applio 专注语音到语音的音色转换。
+- vs [[retrieval-based-voice-conversion-webui]]：Applio 是 RVC 的现代化封装，提供更完善的 UI、插件系统和一站式 TTS 管线。RVC 更偏底层框架。
+- vs [[so-vits-svc]]：so-vits-svc 侧重歌唱语音转换（SVC），使用 VITS 声码器；Applio 侧重通用语音转换，使用 RVC 架构。两者都支持 FAISS 检索防音色泄漏。
+- vs [[diffsinger]]：DiffSinger 专注歌唱合成（MIDI 控制），Applio 专注语音到语音的音色转换。
 
 ## 游戏开发应用
 

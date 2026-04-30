@@ -79,6 +79,6 @@ tools/         — 模型转换、视频标注(CogVLM2-Caption)、LoRA 导出、
 
 ## 与同类工具的比较
 
-- 与 [[ai-game-devtools/animatediff]] 不同：AnimateDiff 是在已有 Stable Diffusion 上添加时序模块实现视频生成，CogVideoX 是从零训练的专用视频扩散模型，原生支持时空建模
-- 与 [[ai-game-devtools/cogvlm2]] 同属 THUDM/ZhipuAI 生态：CogVLM2 用于视频理解（caption 工具），CogVideoX 用于视频生成，两者在管线中互补
-- 与 [[ai-game-devtools/open-sora]] 相比：CogVideoX 提供完整的微调/量化/多 GPU 推理工具链，成熟度更高，且在 HuggingFace 生态中有深度集成
+- 与 [[animatediff]] 不同：AnimateDiff 是在已有 Stable Diffusion 上添加时序模块实现视频生成，CogVideoX 是从零训练的专用视频扩散模型，原生支持时空建模
+- 与 [[cogvlm2]] 同属 THUDM/ZhipuAI 生态：CogVLM2 用于视频理解（caption 工具），CogVideoX 用于视频生成，两者在管线中互补
+- 与 [[open-sora]] 相比：CogVideoX 提供完整的微调/量化/多 GPU 推理工具链，成熟度更高，且在 HuggingFace 生态中有深度集成

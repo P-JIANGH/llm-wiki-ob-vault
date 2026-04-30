@@ -83,6 +83,6 @@ Tencent 自有许可条款（详见项目 Notice 文件）
 
 ## 相关工具
 
-- [[ai-game-devtools/comfyui]] — ComfyUI 官方支持 HunyuanDiT 工作流
-- [[ai-game-devtools/controlnet]] — ControlNet 技术，HunyuanDiT 实现了 Canny/Depth/Pose 控制
-- [[ai-game-devtools/deepfloyd-if]] — 同为文本到图像扩散模型（级联像素方案）
+- [[comfyui]] — ComfyUI 官方支持 HunyuanDiT 工作流
+- [[controlnet]] — ControlNet 技术，HunyuanDiT 实现了 Canny/Depth/Pose 控制
+- [[deepfloyd-if]] — 同为文本到图像扩散模型（级联像素方案）

@@ -56,6 +56,6 @@ sources: [raw/articles/ai-game-devtools/amphion.md]
 
 ## Related Tools
 
-- [[ai-game-devtools/academicodec]] — Another open-source audio codec toolkit (EnCodec/SoundStream/HiFi-Codec), shares the neural codec research space
-- [[ai-game-devtools/mug-diffusion]] — AI music score generation using diffusion models, complementary audio/music tool
-- [[ai-game-devtools/voxcpm]] — Speech synthesis system, shares the TTS domain
+- [[academicodec]] — Another open-source audio codec toolkit (EnCodec/SoundStream/HiFi-Codec), shares the neural codec research space
+- [[mug-diffusion]] — AI music score generation using diffusion models, complementary audio/music tool
+- [[voxcpm]] — Speech synthesis system, shares the TTS domain

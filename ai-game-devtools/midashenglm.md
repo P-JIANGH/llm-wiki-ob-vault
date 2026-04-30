@@ -95,9 +95,9 @@ Caption 优势：
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/audiogpt]]：MiDashengLM 是端到端音频理解 LLM，而 AudioGPT 是 LLM+工具编排框架
-- 相比 [[ai-game-devtools/amphion]]：Amphion 是音频生成工具包（TTS/VC/Vocoder），MiDashengLM 专注音频理解
-- 基于 Qwen2.5-Omni 生态（参见 [[ai-game-devtools/qwen2]] 系列），在音频理解方向做了专门优化
+- 相比 [[audiogpt]]：MiDashengLM 是端到端音频理解 LLM，而 AudioGPT 是 LLM+工具编排框架
+- 相比 [[amphion]]：Amphion 是音频生成工具包（TTS/VC/Vocoder），MiDashengLM 专注音频理解
+- 基于 Qwen2.5-Omni 生态（参见 [[qwen2]] 系列），在音频理解方向做了专门优化
 
 ## 对游戏开发的价值
 

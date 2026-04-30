@@ -67,5 +67,5 @@ Adapted for SGLang and vLLM inference backends.
 
 ## See Also
 
-- [[ai-game-devtools/cosmos]] — NVIDIA world model platform
+- [[cosmos]] — NVIDIA world model platform
 - `ai-game-devtools/deepseek-r3` — DeepSeek reasoning model

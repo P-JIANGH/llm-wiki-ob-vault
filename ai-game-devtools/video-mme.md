@@ -55,15 +55,15 @@ Evaluation uses **multiple-choice Q&A** (A/B/C/D), with a model prompt format th
 
 ## Related Benchmarks & Models
 
-- [[ai-game-devtools/longva]] — LongVA (7B) achieves **Video-MME 7B SOTA**, demonstrating that long video understanding can transfer zero-shot from long text context
-- [[ai-game-devtools/video-ccam]] — Tencent's video-language MLLM (14B), scores 57.4% on Video-MME with subtitles
-- [[ai-game-devtools/video-llama-3]] — DAMO-NLP-SG's latest video-language model, evaluated on Video-MME
-- [[ai-game-devtools/cambrian-1]] — NYU/FAIR VLM benchmark (8B/13B/34B), another comprehensive VLM evaluation benchmark
-- [[ai-game-devtools/sapiens]] — Meta human vision foundation models, shares benchmark authorship overlap
+- [[longva]] — LongVA (7B) achieves **Video-MME 7B SOTA**, demonstrating that long video understanding can transfer zero-shot from long text context
+- [[video-ccam]] — Tencent's video-language MLLM (14B), scores 57.4% on Video-MME with subtitles
+- [[video-llama-3]] — DAMO-NLP-SG's latest video-language model, evaluated on Video-MME
+- [[cambrian-1]] — NYU/FAIR VLM benchmark (8B/13B/34B), another comprehensive VLM evaluation benchmark
+- [[sapiens]] — Meta human vision foundation models, shares benchmark authorship overlap
 
 ## Related Evaluation Tools
 
-- [[ai-game-devtools/video-agent]] — Temporal+Object dual memory multimodal agent; uses Video-MME for video understanding evaluation
+- [[video-agent]] — Temporal+Object dual memory multimodal agent; uses Video-MME for video understanding evaluation
 - [VLMEvalKit](https://github.com/open-compass/VLMEvalKit) — Official evaluation toolkit for Video-MME
 - [LMMs-Eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) — Alternative evaluation toolkit for Video-MME
 

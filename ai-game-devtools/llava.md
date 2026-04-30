@@ -44,7 +44,7 @@ LLaVA is widely used in AI game development tools for:
 
 ## Related Projects
 
-- [[ai-game-devtools/llava-onevision]] — Extended LLaVA variant with unified vision capabilities
-- [[ai-game-devtools/llava-plus-plus]] — Enhanced version with improved instruction following
-- [[ai-game-devtools/cogvlm]] — Another open-source VLM alternative (THUDM/ZhipuAI)
-- [[ai-game-devtools/mini-gemini]] — Mini-Gemini multimodal VLM series with similar goals
+- [[llava-onevision]] — Extended LLaVA variant with unified vision capabilities
+- [[llava-plus-plus]] — Enhanced version with improved instruction following
+- [[cogvlm]] — Another open-source VLM alternative (THUDM/ZhipuAI)
+- [[mini-gemini]] — Mini-Gemini multimodal VLM series with similar goals

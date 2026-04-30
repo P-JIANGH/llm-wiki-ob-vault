@@ -54,8 +54,8 @@ sources: [raw/articles/ai-game-devtools/animatelcm.md]
 | 工具 | 步数 | 用途 | 特点 |
 |------|------|------|------|
 | **AnimateLCM** | 1-8 步 | 个性化视频生成 | 解耦训练，速度极快，支持 SD 生态插件 |
-| [[ai-game-devtools/animatediff]] | 20-50 步 | 通用文本到视频 | Motion Module 可插入任意 SD 模型，但速度慢 |
-| [[ai-game-devtools/stable-video-diffusion]] | 25 步 | 图像到视频 | Stability AI 官方 I2V 模型，AnimateLCM-SVD 基于此加速 |
+| [[animatediff]] | 20-50 步 | 通用文本到视频 | Motion Module 可插入任意 SD 模型，但速度慢 |
+| [[stable-video-diffusion]] | 25 步 | 图像到视频 | Stability AI 官方 I2V 模型，AnimateLCM-SVD 基于此加速 |
 | `ai-game-devtools/animatediff-lcm` | 4-8 步 | 快速文本到视频 | AnimateDiff + LCM 结合方案 |
 
 ## 技术栈

@@ -54,10 +54,10 @@ SonicMaster 是由 AMAAI-Lab (Jan Melechovsky, Ambuj Mehrish, Dorien Herremans) 
 
 ## 与同类工具的差异
 
-- **vs [[ai-game-devtools/musicgen]]：** MusicGen 专注于从零生成音乐（text-to-music），SonicMaster 专注于修复和母带处理已有音频
-- **vs [[ai-game-devtools/jukebox]]：** JukeBox 是分层 VQ-VAE + Transformer 的音乐生成模型，SonicMaster 是修复/母带处理的统一管线
-- **vs [[ai-game-devtools/audio-editing]]：** 传统音频编辑工具需要多个专用步骤，SonicMaster 通过单个生成模型完成所有处理
-- **vs [[ai-game-devtools/any-accomp]]：** AnyAccomp 专注于伴奏生成，SonicMaster 处理全曲修复
+- **vs [[musicgen]]：** MusicGen 专注于从零生成音乐（text-to-music），SonicMaster 专注于修复和母带处理已有音频
+- **vs [[jukebox]]：** JukeBox 是分层 VQ-VAE + Transformer 的音乐生成模型，SonicMaster 是修复/母带处理的统一管线
+- **vs [[audio-editing]]：** 传统音频编辑工具需要多个专用步骤，SonicMaster 通过单个生成模型完成所有处理
+- **vs [[any-accomp]]：** AnyAccomp 专注于伴奏生成，SonicMaster 处理全曲修复
 
 ## 相关链接
 

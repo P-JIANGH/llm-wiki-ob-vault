@@ -93,10 +93,10 @@ messages = [
 
 ## Related Models
 
-- [[ai-game-devtools/glm-4]] — GLM-4 语言模型基座
-- [[ai-game-devtools/glm-4.5]] — GLM-4.5 语言模型
-- [[ai-game-devtools/cambrian-1]] — Cambrian-1，另一个开源视觉中心 MLLM (NYU)
-- [[ai-game-devtools/qwen-vl]] — Qwen 视觉语言模型系列
+- [[glm-4]] — GLM-4 语言模型基座
+- [[glm-4.5]] — GLM-4.5 语言模型
+- [[cambrian-1]] — Cambrian-1，另一个开源视觉中心 MLLM (NYU)
+- [[qwen-vl]] — Qwen 视觉语言模型系列
 
 ## 游戏开发应用场景
 

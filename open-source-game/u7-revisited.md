@@ -117,6 +117,6 @@ Geist 是 Geist 的核心游戏逻辑引擎：
 
 ## 相关页面
 
-- [[open-source-game/exult]] — 另一个 Ultima VII 重实现（2D，复刻优先）
-- [[open-source-game/openmw]] — Morrowind 引擎重实现，相似路线
-- [[open-source-game/gemrb]] — Infinity Engine 重实现，RPG 引擎重实现先例
+- [[exult]] — 另一个 Ultima VII 重实现（2D，复刻优先）
+- [[openmw]] — Morrowind 引擎重实现，相似路线
+- [[gemrb]] — Infinity Engine 重实现，RPG 引擎重实现先例

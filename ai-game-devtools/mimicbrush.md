@@ -65,6 +65,6 @@ MimicBrush 是阿里巴巴达摩院（ali-vilab）开发的零样本图像编辑
 
 ## 相关项目
 
-- [[ai-game-devtools/instantid]] — 零样本身份保留图像生成，同为零样本编辑方向
-- [[ai-game-devtools/catvton]] — ICLR 2025 虚拟试穿扩散模型，纹理迁移相关
-- [[ai-game-devtools/controlnet]] — 条件扩散控制框架，MimicBrush 基于其范式
+- [[instantid]] — 零样本身份保留图像生成，同为零样本编辑方向
+- [[catvton]] — ICLR 2025 虚拟试穿扩散模型，纹理迁移相关
+- [[controlnet]] — 条件扩散控制框架，MimicBrush 基于其范式

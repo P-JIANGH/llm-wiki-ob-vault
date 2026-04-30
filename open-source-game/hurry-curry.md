@@ -82,7 +82,7 @@ Packet Processing Layers:
 | 协议设计 | JSON over WebSocket + SemVer 版本管理，简单实用的网络协议设计 |
 | 混合技术栈 | Godot + Rust 的分离架构，前端表现 + 后端逻辑解耦 |
 | 数据驱动 | YAML 地图/配方系统，运行时热加载内容 |
-| Bot AI | Rust 实现的游戏 AI，可作为 [[open-source-game/corsixth]] 的 Lua AI 对照 |
+| Bot AI | Rust 实现的游戏 AI，可作为 [[corsixth]] 的 Lua AI 对照 |
 
 ## 目录结构
 

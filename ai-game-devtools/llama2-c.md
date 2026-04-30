@@ -42,11 +42,11 @@ llama2.c demonstrates:
 - **Embedded AI**: Run LLMs on resource-constrained game devices without GPU
 - **Educational value**: Understand transformer internals for custom game AI
 - **Minimal deployment**: Zero-dependency inference for game engines
-- **Custom model training**: Train models with [[ai-game-devtools/nanogpt]] and export to llama2.c format
+- **Custom model training**: Train models with [[nanogpt]] and export to llama2.c format
 
 ## Related Projects
 
-- [[ai-game-devtools/nanogpt]] — Karpathy's minimalist GPT training code, companion training pipeline
-- [[ai-game-devtools/llama-cpp]] — Production-grade C/C++ LLM inference engine (GGUF format, 70K+ stars)
-- [[ai-game-devtools/litgpt]] — Lightning AI's lightweight GPT with more features and model support
-- [[ai-game-devtools/nanochat]] — Karpathy's even simpler chatbot training code
+- [[nanogpt]] — Karpathy's minimalist GPT training code, companion training pipeline
+- [[llama-cpp]] — Production-grade C/C++ LLM inference engine (GGUF format, 70K+ stars)
+- [[litgpt]] — Lightning AI's lightweight GPT with more features and model support
+- [[nanochat]] — Karpathy's even simpler chatbot training code

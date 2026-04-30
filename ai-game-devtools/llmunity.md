@@ -80,6 +80,6 @@ Apache 2.0（主仓库），第三方组件 MIT/Apache。内置模型各有其 l
 
 ## Related
 
-- [[ai-game-devtools/chatgpt-api-unity]] — Unity ChatGPT API 另一种集成方案（依赖 OpenAI API）
-- [[ai-game-devtools/interactml-unity]] — Unity 交互式机器学习插件（非 LLM，基于 kNN/MLP/DTW）
-- [[ai-game-devtools/iml-ue4]] — InteractML 的 Unreal Engine 4/5 版本
+- [[chatgpt-api-unity]] — Unity ChatGPT API 另一种集成方案（依赖 OpenAI API）
+- [[interactml-unity]] — Unity 交互式机器学习插件（非 LLM，基于 kNN/MLP/DTW）
+- [[iml-ue4]] — InteractML 的 Unreal Engine 4/5 版本

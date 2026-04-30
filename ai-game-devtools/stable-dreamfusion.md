@@ -92,10 +92,10 @@ python main.py -O --text "a hamburger" --workspace trial_dmtet --dmtet --iters 5
 ## Related
 
 - 原始论文：DreamFusion（Poole et al., 2022）是文本到 3D 领域的开创性工作
-- 与 [[ai-game-devtools/dreamgaussian4d]] 和 [[ai-game-devtools/gaussiandreamer]] 同属 DreamFusion 家族的后续改进，后者用 3DGS 替代 NeRF 加速生成
-- 基于 [[ai-game-devtools/stable-diffusion]] 生态作为 2D 扩散先验
-- Zero-1-to-3 是图像到 3D 的重要方法，与 [[ai-game-devtools/syncdreamer]] 思路相近
-- DMTet 网格提取也是 [[ai-game-devtools/stable-fast-3d]] 和 [[ai-game-devtools/hunyuan3d-2-0]] 等工具的核心技术
+- 与 [[dreamgaussian4d]] 和 [[gaussiandreamer]] 同属 DreamFusion 家族的后续改进，后者用 3DGS 替代 NeRF 加速生成
+- 基于 [[stable-diffusion]] 生态作为 2D 扩散先验
+- Zero-1-to-3 是图像到 3D 的重要方法，与 [[syncdreamer]] 思路相近
+- DMTet 网格提取也是 [[stable-fast-3d]] 和 [[hunyuan3d-2-0]] 等工具的核心技术
 
 ## Links
 

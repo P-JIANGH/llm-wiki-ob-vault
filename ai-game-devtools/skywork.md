@@ -59,7 +59,7 @@ Quantized 8-bit models (BitsAndBytes) reduce GPU memory from 25.91GB (bf16) to 1
 
 ## Relationship to Other Tools
 
-Skywork is a foundational model that can serve as the LLM backbone for AI game development pipelines — similar to [[ai-game-devtools/baichuan-7b]] and [[baichuan-13b]] as Chinese LLM options. Unlike specialized agent frameworks like [[ai-game-devtools/metagpt]] or [[ai-game-devtools/devika]], Skywork provides the base model layer that those agent systems run on top of.
+Skywork is a foundational model that can serve as the LLM backbone for AI game development pipelines — similar to [[baichuan-7b]] and [[baichuan-13b]] as Chinese LLM options. Unlike specialized agent frameworks like [[metagpt]] or [[devika]], Skywork provides the base model layer that those agent systems run on top of.
 
 For Chinese-domain game dialogue generation and NPC conversation systems, Skywork-13B's large Chinese vocabulary (65K tokenizer with dedicated Chinese word segmentation) gives it an edge over general-purpose models with smaller vocabularies.
 
@@ -70,5 +70,5 @@ For Chinese-domain game dialogue generation and NPC conversation systems, Skywor
 ## See Also
 
 - [[baichuan-13b]] — another Chinese 13B LLM
-- [[ai-game-devtools/deepseek-r1]] — DeepSeek reasoning model
-- [[ai-game-devtools/internlm]] — Shanghai AI Lab model series
+- [[deepseek-r1]] — DeepSeek reasoning model
+- [[internlm]] — Shanghai AI Lab model series

@@ -53,9 +53,9 @@ sources: [raw/articles/ai-game-devtools/autostudio.md]
 
 ## 与同类工具差异
 
-- vs [[ai-game-devtools/genagent]]：GenAgent 专注于在 ComfyUI 中自动生成 SD 工作流，而 AutoStudio 专注于多轮对话中的**主题一致性**保持
-- vs [[ai-game-devtools/lumina-dimoo]]：Lumina-DiMOO 是统一离散扩散模型（生成+理解），AutoStudio 是**多智能体编排框架**，无需训练，基于 SD + LLM 协作
-- vs [[ai-game-devtools/mug-diffusion]]：MuG Diffusion 基于 SD 改造用于音游谱面生成，AutoStudio 面向多角色一致性图像生成
+- vs [[genagent]]：GenAgent 专注于在 ComfyUI 中自动生成 SD 工作流，而 AutoStudio 专注于多轮对话中的**主题一致性**保持
+- vs [[lumina-dimoo]]：Lumina-DiMOO 是统一离散扩散模型（生成+理解），AutoStudio 是**多智能体编排框架**，无需训练，基于 SD + LLM 协作
+- vs [[mug-diffusion]]：MuG Diffusion 基于 SD 改造用于音游谱面生成，AutoStudio 面向多角色一致性图像生成
 
 ## 作者
 

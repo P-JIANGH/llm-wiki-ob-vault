@@ -61,7 +61,7 @@ PyTorch, Diffusers, OpenMMLab (mmcv>=2.0.1, mmdet>=3.1.0, mmpose>=1.1.0), DWPose
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/aniportrait]]（音频驱动肖像动画），MusePose 专注于姿态驱动的全身动作生成，而非口型同步
-- 相比 [[ai-game-devtools/liveportrait]]（视频驱动高效肖像动画），MusePose 支持从单张参考图像生成完整舞蹈视频
-- 相比 [[ai-game-devtools/dwpose]]（纯姿态检测工具），MusePose 使用 DWPose 作为条件输入，实现了完整的图像到视频生成管线
+- 相比 [[aniportrait]]（音频驱动肖像动画），MusePose 专注于姿态驱动的全身动作生成，而非口型同步
+- 相比 [[liveportrait]]（视频驱动高效肖像动画），MusePose 支持从单张参考图像生成完整舞蹈视频
+- 相比 [[dwpose]]（纯姿态检测工具），MusePose 使用 DWPose 作为条件输入，实现了完整的图像到视频生成管线
 - MusePose 与 MuseV、MuseTalk 共同构成 TME 的 Muse 开源系列，覆盖从图像生成到视频驱动到口型同步的完整虚拟人生成链路

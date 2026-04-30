@@ -81,5 +81,5 @@ Base64 编码 → POST /sdapi/v1/txt2img →
 
 ## 相关链接
 
-- [[ai-game-devtools/text-generation-webui]] — A1111 同类 LLM WebUI 概念
+- [[text-generation-webui]] — A1111 同类 LLM WebUI 概念
 - [[chatdev]] — 多智能体平台支持 Blender 3D 生成工作流

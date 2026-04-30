@@ -65,8 +65,8 @@ The model uses a **single unified LLM** that processes both audio and text input
 
 ## Differences from Similar Tools
 
-- vs [[ai-game-devtools/qwen2-audio]]: Step-Audio 2 initializes from Qwen2-Audio weights but adds end-to-end speech output (TTS) and emotional reasoning capabilities
-- vs [[ai-game-devtools/cosyvoice]]: CosyVoice is pure TTS; Step-Audio 2 integrates CosyVoice as a component within a full audio understanding + conversation pipeline
+- vs [[qwen2-audio]]: Step-Audio 2 initializes from Qwen2-Audio weights but adds end-to-end speech output (TTS) and emotional reasoning capabilities
+- vs [[cosyvoice]]: CosyVoice is pure TTS; Step-Audio 2 integrates CosyVoice as a component within a full audio understanding + conversation pipeline
 - vs Kimi-Audio: Step-Audio 2 significantly outperforms on paralinguistic understanding (+33 points) and Chinese ASR
 - vs GPT-4o Audio: SOTA-level competition, particularly dominating Chinese dialect ASR and paralinguistic tasks
 
@@ -79,6 +79,6 @@ The model uses a **single unified LLM** that processes both audio and text input
 
 ## Related
 
-- [[ai-game-devtools/qwen2-audio]] — Base model initialization source
-- [[ai-game-devtools/cosyvoice]] — TTS component source (CosyVoice + FlashCosyVoice)
+- [[qwen2-audio]] — Base model initialization source
+- [[cosyvoice]] — TTS component source (CosyVoice + FlashCosyVoice)
 - Technical Report: [arXiv:2507.16632](https://arxiv.org/abs/2507.16632)

@@ -17,7 +17,7 @@ sources: [raw/articles/ai-game-devtools/mvdream.md]
 
 项目分为两个仓库：
 - [bytedance/MVDream](https://github.com/bytedance/MVDream) — 扩散模型 + 2D 图像生成代码
-- [bytedance/MVDream-threestudio](https://github.com/bytedance/MVDream-threestudio) — 基于 [[ai-game-devtools/threestudio]] 框架的 3D 生成管线
+- [bytedance/MVDream-threestudio](https://github.com/bytedance/MVDream-threestudio) — 基于 [[threestudio]] 框架的 3D 生成管线
 
 ## 技术架构
 
@@ -41,10 +41,10 @@ sources: [raw/articles/ai-game-devtools/mvdream.md]
 
 ## 与同类工具对比
 
-- vs [[ai-game-devtools/syncdreamer]]：SyncDreamer 使用 Volume Feature Field + CLIP 提取多视角一致性，MVDream 直接在扩散模型中注入相机位姿条件，二者都生成 4 视角一致图像
+- vs [[syncdreamer]]：SyncDreamer 使用 Volume Feature Field + CLIP 提取多视角一致性，MVDream 直接在扩散模型中注入相机位姿条件，二者都生成 4 视角一致图像
 - vs `ai-game-devtools/zero123`：Zero123 基于单张输入图像生成新视角，MVDream 从纯文本生成多视角，输入模态不同
-- vs [[ai-game-devtools/stable-diffusion]]：MVDream 是 SD 的多视角扩展版，保留 SD 的潜空间扩散架构但增加相机条件分支
-- 与 [[ai-game-devtools/hunyuan3d-1]] 等后续 3D 生成模型相比，MVDream 是最早将多视角扩散应用于 3D 生成的工作之一
+- vs [[stable-diffusion]]：MVDream 是 SD 的多视角扩展版，保留 SD 的潜空间扩散架构但增加相机条件分支
+- 与 [[hunyuan3d-1]] 等后续 3D 生成模型相比，MVDream 是最早将多视角扩散应用于 3D 生成的工作之一
 
 ## 许可证
 

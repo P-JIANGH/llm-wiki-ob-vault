@@ -42,7 +42,7 @@ GPT-4o 的实时语音交互能力为游戏 NPC 带来新的可能性：
 - **多模态游戏助手**：语音+视觉+文本的混合交互
 - **游戏 AI DM**：作为游戏主持人进行实时语音叙事
 
-相关工具：[[ai-game-devtools/llm-unity-integration]]（Unity LLM 集成）、[[ai-game-devtools/interactive-llm-powered-npcs]]（实时对话 NPC）、[[ai-game-devtools/chatgpt-api-unity]]（Unity ChatGPT 集成）
+相关工具：[[llm-unity-integration]]（Unity LLM 集成）、[[interactive-llm-powered-npcs]]（实时对话 NPC）、[[chatgpt-api-unity]]（Unity ChatGPT 集成）
 
 ## 技术架构
 

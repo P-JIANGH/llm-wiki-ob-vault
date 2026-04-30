@@ -40,9 +40,9 @@ sources: [raw/articles/ai-game-devtools/vgen.md]
 
 ## 与同类工具对比
 
-- 相比 [[ai-game-devtools/stable-video-diffusion]]（Stability AI SVD），VGen 专注图像引导的高质量视频生成，采用独特的两阶段升频架构
-- 相比 [[ai-game-devtools/cogvideox]]（智谱 CogVideoX），VGen 更早开源（2023.09）且提供完整的主体/运动定制管线（DreamVideo）
-- 同为阿里体系，与 [[ai-game-devtools/agentscope]]（通义 Agent 框架）共享通义实验室背景，但属于不同的产品方向
+- 相比 [[stable-video-diffusion]]（Stability AI SVD），VGen 专注图像引导的高质量视频生成，采用独特的两阶段升频架构
+- 相比 [[cogvideox]]（智谱 CogVideoX），VGen 更早开源（2023.09）且提供完整的主体/运动定制管线（DreamVideo）
+- 同为阿里体系，与 [[agentscope]]（通义 Agent 框架）共享通义实验室背景，但属于不同的产品方向
 
 ## 相关链接
 

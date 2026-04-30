@@ -28,7 +28,7 @@ Meta 于 2024 年 7 月 23 日发布的开源大语言模型系列，是 Llama 3
 
 ## Architecture
 
-auto-regressive 优化 transformer 架构。[[ai-game-devtools/llama-3]] 使用标准 GQA 仅在 70B 以上规模，而 Llama 3.1 全系列（含 8B）均启用 GQA，显著提升推理效率。
+auto-regressive 优化 transformer 架构。[[llama-3]] 使用标准 GQA 仅在 70B 以上规模，而 Llama 3.1 全系列（含 8B）均启用 GQA，显著提升推理效率。
 
 ## 与同类工具对比
 
@@ -48,6 +48,6 @@ Meta Acceptable Use Policy（非传统开源许可证），商业使用需申请
 
 ## Related
 
-[[ai-game-devtools/llama-3]] — Llama 3 前代（8K context，8B/70B）
-[[ai-game-devtools/gemma]] — Google 轻量级开源 LLM 对比
-[[ai-game-devtools/gpt4all]] — 本地 LLM 运行平台，llama.cpp 后端
+[[llama-3]] — Llama 3 前代（8K context，8B/70B）
+[[gemma]] — Google 轻量级开源 LLM 对比
+[[gpt4all]] — 本地 LLM 运行平台，llama.cpp 后端

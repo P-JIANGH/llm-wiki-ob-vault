@@ -108,3 +108,4 @@ src/
 | 资源下载器 | 内嵌商店 + curl 下载管线可以复用为公司游戏的资产分发 |
 | git submodule 解耦 | Cosmos 引擎作为独立 submodule，按需编译的设计适合大型项目拆分 |
 | 跨平台 CMake | iOS/Android/Switch 多平台 CMake toolchain 分离，是多平台游戏参考模板 |
+

@@ -63,4 +63,4 @@ MIT
 
 ## Related
 
-Similar automated video tools include [[ai-game-devtools/money-printer-turbo]] (全自动短视频生成) and [[ai-game-devtools/diffsynth-studio]] (扩散模型视频引擎). ShortGPT differs by being **LLM-driven** — editing logic is expressed as JSON schemas that LLMs can compose, rather than fixed pipelines.
+Similar automated video tools include [[money-printer-turbo]] (全自动短视频生成) and [[diffsynth-studio]] (扩散模型视频引擎). ShortGPT differs by being **LLM-driven** — editing logic is expressed as JSON schemas that LLMs can compose, rather than fixed pipelines.

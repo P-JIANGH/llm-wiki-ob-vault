@@ -28,7 +28,7 @@ AI Agent 开发平台是提供可视化工具用于创建、调试和部署 AI A
 | 平台 | 开发方 | 特点 |
 |------|--------|------|
 | [[coze-studio]] | ByteDance/Coze | 可视化 Agent/Workflow 构建，微服务+DDD，Eino 运行时 |
-| [[DeerFlow]] | ByteDance | LangGraph + LangChain，12步 middleware，Sandbox 隔离 |
+| [[deer-flow]] | ByteDance | LangGraph + LangChain，12步 middleware，Sandbox 隔离 |
 | [[nanobot]] | HKUDS | 轻量极简，22+ Provider，13消息渠道 |
 | [[openmaic]] | THU-MAIC | 教育场景，多 Agent 课堂互动 |
 | [[openclaw]] | HKUDS | 43万行压缩到4000行，极简消息 Agent |
@@ -38,7 +38,7 @@ AI Agent 开发平台是提供可视化工具用于创建、调试和部署 AI A
 
 ### 工作流编排
 平台普遍采用 DAG/LangGraph 类工作流引擎：
-- [[DeerFlow]]：LangGraph + 12步 middleware chain
+- [[deer-flow]]：LangGraph + 12步 middleware chain
 - [[coze-studio]]：FlowGram 可视化画布 + Eino 运行时
 - [[ClawTeam]]：CLI Agent 组队协作
 
@@ -54,6 +54,6 @@ AI Agent 开发平台是提供可视化工具用于创建、调试和部署 AI A
 
 ## Related
 - [[coze-studio]] — Coze Studio 实体页
-- [[DeerFlow]] — ByteDance Super Agent Harness
+- [[deer-flow]] — ByteDance Super Agent Harness
 - [[nanobot]] — HKUDS 轻量 Agent
 - [[multi-agent-ai-simulation]] — 多智能体通用概念

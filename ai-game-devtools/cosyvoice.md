@@ -80,7 +80,7 @@ Latest version: **Fun-CosyVoice 3.0** (0.5B, released 2025/12), with an RL post-
 | test-en SS | 71.8% | 73.4% | 69.5% |
 | test-hard CER | 6.71% | - | 5.44% |
 
-Compared to [[ai-game-devtools/chat-tts]], CosyVoice covers far more languages (9 vs 2) and has better speaker similarity. Compared to [[ai-game-devtools/bark]], it offers much better content consistency and streaming support.
+Compared to [[chat-tts]], CosyVoice covers far more languages (9 vs 2) and has better speaker similarity. Compared to [[bark]], it offers much better content consistency and streaming support.
 
 ## Use Cases in Game Development
 

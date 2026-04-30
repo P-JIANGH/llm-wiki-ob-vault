@@ -103,8 +103,8 @@ python run.py
 | 模型 | 参数量 | 架构 | 激活参数 | 许可证 |
 |------|--------|------|----------|--------|
 | **Grok-1** | 314B | MoE-8 | ~86B | Apache 2.0 |
-| [[ai-game-devtools/deepseek-r1]] | 671B | MoE | ~37B | MIT |
-| [[ai-game-devtools/kimi-k2]] | ~1T | MoE | ~100B | 闭源 |
+| [[deepseek-r1]] | 671B | MoE | ~37B | MIT |
+| [[kimi-k2]] | ~1T | MoE | ~100B | 闭源 |
 | Mixtral 8x7B | 46.7B | MoE-8 | ~12B | Apache 2.0 |
 
 **Grok-1 vs DeepSeek R1：** Grok-1 参数量更大（314B vs 671B 总参），但 DeepSeek R1 激活参数更少（37B vs 86B），效率更高，且 R1 有创新的 RL 推理训练路线。

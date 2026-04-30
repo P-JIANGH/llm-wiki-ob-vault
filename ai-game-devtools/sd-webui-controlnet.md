@@ -9,7 +9,7 @@ sources: [raw/articles/ai-game-devtools/sd-webui-controlnet.md]
 
 # sd-webui-controlnet
 
-**sd-webui-controlnet** 是 AUTOMATIC1111 Stable Diffusion WebUI 的 ControlNet 扩展插件，由 Mikubill 维护，支持在 WebUI 中原生集成 [[ai-game-devtools/controlnet]] 条件控制能力，无需模型合并即可实时生成。
+**sd-webui-controlnet** 是 AUTOMATIC1111 Stable Diffusion WebUI 的 ControlNet 扩展插件，由 Mikubill 维护，支持在 WebUI 中原生集成 [[controlnet]] 条件控制能力，无需模型合并即可实时生成。
 
 ## 概述
 
@@ -54,10 +54,10 @@ sources: [raw/articles/ai-game-devtools/sd-webui-controlnet.md]
 
 ## 与同类工具对比
 
-- 相比 [[ai-game-devtools/comfyui]] 的节点式 ControlNet 管线，sd-webui-controlnet 提供 Gradio 表单式界面，更易上手
-- 作为 [[ai-game-devtools/controlnet]] 的官方 WebUI 适配层，与原始论文架构完全兼容
-- [[ai-game-devtools/blender-controlnet]] 通过 API 桥接本插件，实现 Blender 渲染→ControlNet→回传工作流
-- [[ai-game-devtools/sd-webui-depth-lib]] 作为互补插件提供深度图库管理
+- 相比 [[comfyui]] 的节点式 ControlNet 管线，sd-webui-controlnet 提供 Gradio 表单式界面，更易上手
+- 作为 [[controlnet]] 的官方 WebUI 适配层，与原始论文架构完全兼容
+- [[blender-controlnet]] 通过 API 桥接本插件，实现 Blender 渲染→ControlNet→回传工作流
+- [[sd-webui-depth-lib]] 作为互补插件提供深度图库管理
 
 ## 版本与更新
 
@@ -67,5 +67,5 @@ sources: [raw/articles/ai-game-devtools/sd-webui-controlnet.md]
 
 - GitHub: https://github.com/Mikubill/sd-webui-controlnet
 - Wiki: https://github.com/Mikubill/sd-webui-controlnet/wiki/Model-download
-- 原版 ControlNet 论文: [[ai-game-devtools/controlnet]]
+- 原版 ControlNet 论文: [[controlnet]]
 - A1111 WebUI: https://github.com/AUTOMATIC1111/stable-diffusion-webui

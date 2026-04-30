@@ -73,12 +73,12 @@ CRM 在游戏资产生成管线中的位置：
 
 ## 相关工具
 
-- [[ai-game-devtools/triposr]] — 速度最快的单图→Mesh 工具（0.5s），可与 CRM 互补
-- [[ai-game-devtools/hunyuan3d-2]] — 腾讯混元 2.0，单图→3D Mesh + PBR 材质，AI 游戏开发工具
-- [[ai-game-devtools/stable-dreamfusion]] — 文本驱动 NeRF→Mesh 管线，3D 重建先驱
-- [[ai-game-devtools/dreamgaussian4d]] — 4D Gaussian Splatting，适合动态场景
-- [[ai-game-devtools/instant-ngp]] — NVIDIA Instant NeRF，NeRF 实时推理
-- [[DreamTextures]] — Stable Diffusion 在 Blender 中的纹理生成插件
+- [[triposr]] — 速度最快的单图→Mesh 工具（0.5s），可与 CRM 互补
+- [[hunyuan3d-2]] — 腾讯混元 2.0，单图→3D Mesh + PBR 材质，AI 游戏开发工具
+- [[stable-dreamfusion]] — 文本驱动 NeRF→Mesh 管线，3D 重建先驱
+- [[dreamgaussian4d]] — 4D Gaussian Splatting，适合动态场景
+- [[instant-ngp]] — NVIDIA Instant NeRF，NeRF 实时推理
+- [[dream-textures]] — Stable Diffusion 在 Blender 中的纹理生成插件
 
 ## 使用方式
 

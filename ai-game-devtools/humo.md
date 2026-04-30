@@ -35,7 +35,7 @@ sources: [raw/articles/ai-game-devtools/humo.md]
 | HuMo-Longer | - | 延长版（2025.10 发布） | - |
 
 ## 技术架构
-- **基础模型:** 基于 [[ai-game-devtools/wan2-1]]（Wan2.1 T2V-1.3B）的 VAE 和文本编码器
+- **基础模型:** 基于 [[wan2-1]]（Wan2.1 T2V-1.3B）的 VAE 和文本编码器
 - **音频编码器:** `ai-game-devtools/whisper` (Whisper-large-v3)
 - **音频分离:** Kim_Vocal_2（可选背景降噪）
 - **依赖:** flash_attn, torch 2.5.1+, CUDA 12.4
@@ -52,10 +52,10 @@ sources: [raw/articles/ai-game-devtools/humo.md]
 - 来源：ModelScope (leoniuschen/HuMoSet)
 
 ## 与同类工具对比
-- 相比 [[ai-game-devtools/hallo]]（音频驱动肖像动画），HuMo 覆盖全身人物视频而非仅面部
-- 相比 [[ai-game-devtools/stableavatar]]（端到端音频驱动头像），HuMo 支持更多模态组合（文本+图像+音频）
-- 相比 [[ai-game-devtools/hunyuanvideo-avatar]]（多人角色动画），HuMo 专注于单人物高质量生成
-- 与 [[ai-game-devtools/hy-motion-1-0]]（文本到3D动作）不同，HuMo 直接生成视频而非3D骨骼
+- 相比 [[hallo]]（音频驱动肖像动画），HuMo 覆盖全身人物视频而非仅面部
+- 相比 [[stableavatar]]（端到端音频驱动头像），HuMo 支持更多模态组合（文本+图像+音频）
+- 相比 [[hunyuanvideo-avatar]]（多人角色动画），HuMo 专注于单人物高质量生成
+- 与 [[hy-motion-1-0]]（文本到3D动作）不同，HuMo 直接生成视频而非3D骨骼
 
 ## 快速安装
 ```bash

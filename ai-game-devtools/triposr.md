@@ -56,4 +56,4 @@ TripoSR 采用模块化 LRM 管线：
 
 ## 与同类工具的差异
 
-与 [[ai-game-devtools/stable-dreamfusion]] 相比，TripoSR 采用**前馈重建**而非 SDS 优化——无需逐实例优化，推理速度快几个数量级（0.5秒 vs 数分钟）。与 [[ai-game-devtools/shap-e]] 相比，TripoSR 专注于**图像到 3D**（而非文本到 3D），并且使用 triplane 表示而非神经辐射场的隐式函数，生成的 mesh 质量更高、几何细节更丰富。作为 LRM 家族的代表，与 [[ai-game-devtools/hunyuan3d-2-0]] 的两阶段 DiT 架构形成对比——TripoSR 是单阶段前馈模型，更轻量但功能更聚焦。
+与 [[stable-dreamfusion]] 相比，TripoSR 采用**前馈重建**而非 SDS 优化——无需逐实例优化，推理速度快几个数量级（0.5秒 vs 数分钟）。与 [[shap-e]] 相比，TripoSR 专注于**图像到 3D**（而非文本到 3D），并且使用 triplane 表示而非神经辐射场的隐式函数，生成的 mesh 质量更高、几何细节更丰富。作为 LRM 家族的代表，与 [[hunyuan3d-2-0]] 的两阶段 DiT 架构形成对比——TripoSR 是单阶段前馈模型，更轻量但功能更聚焦。

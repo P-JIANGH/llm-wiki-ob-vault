@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/taskgen.md]
 
 ## 概述
 
-TaskGen 将复杂任务自动分解为子任务，通过 JSON 格式而非自由文本进行 Agent 间通信，使 Agent 输出更简洁、结构化、可解析。与 [[ai-game-devtools/autogen]] 等基于对话文本的框架相比，TaskGen 使用 JSON 天然支持 Chain-of-Thought，且通过 StrictJSON 确保类型安全和格式正确。
+TaskGen 将复杂任务自动分解为子任务，通过 JSON 格式而非自由文本进行 Agent 间通信，使 Agent 输出更简洁、结构化、可解析。与 [[autogen]] 等基于对话文本的框架相比，TaskGen 使用 JSON 天然支持 Chain-of-Thought，且通过 StrictJSON 确保类型安全和格式正确。
 
 ## 核心架构
 
@@ -44,10 +44,10 @@ taskgen/
 
 ## 与同类框架的差异
 
-- vs **[[ai-game-devtools/autogen]]**：TaskGen 使用 JSON 消息（结构化、非冗长），AutoGen 使用自由文本对话
-- vs **[[ai-game-devtools/crewai]]**：TaskGen 内置 StrictJSON 类型检查，架构更轻量
-- vs **[[ai-game-devtools/langchain]]**：TaskGen 专注 Agent 任务分解，LangChain 侧重 Chain/Pipeline 编排
-- vs **[[ai-game-devtools/dify]]**：TaskGen 是代码级框架，Dify 是可视化平台
+- vs **[[autogen]]**：TaskGen 使用 JSON 消息（结构化、非冗长），AutoGen 使用自由文本对话
+- vs **[[crewai]]**：TaskGen 内置 StrictJSON 类型检查，架构更轻量
+- vs **[[langchain]]**：TaskGen 专注 Agent 任务分解，LangChain 侧重 Chain/Pipeline 编排
+- vs **[[dify]]**：TaskGen 是代码级框架，Dify 是可视化平台
 
 ## LLM 兼容性
 
@@ -78,8 +78,8 @@ MIT
 
 ## 相关项目
 
-- [[ai-game-devtools/autogen]] — 微软多 Agent 协作框架（基于对话）
-- [[ai-game-devtools/crewai]] — Python 角色驱动多 Agent 框架
-- [[ai-game-devtools/dify]] — 可视化 LLM 应用开发平台
-- [[ai-game-devtools/langchain]] — LLM 应用编排框架
-- [[ai-game-devtools/aios]] — AI Agent 操作系统，LLM 内核抽象
+- [[autogen]] — 微软多 Agent 协作框架（基于对话）
+- [[crewai]] — Python 角色驱动多 Agent 框架
+- [[dify]] — 可视化 LLM 应用开发平台
+- [[langchain]] — LLM 应用编排框架
+- [[aios]] — AI Agent 操作系统，LLM 内核抽象

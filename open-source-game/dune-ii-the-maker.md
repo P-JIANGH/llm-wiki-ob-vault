@@ -112,6 +112,7 @@ cMainMenuState → cMentatState → cChooseHouseState → cGamePlaying → cSele
 
 ## 相关页面
 
-- [[open-source-game/keeper-fx]] — Dungeon Keeper 开源增强，另一个 RTS/塔防参考
-- [[open-source-game/openra]] — C&C 系列开源复刻，Westwood 风格 RTS
-- [[open-source-game/warzone-2100]] — 3D RTS，另一款开源 RTS 实现
+- [[keeper-fx]] — Dungeon Keeper 开源增强，另一个 RTS/塔防参考
+- [[openra]] — C&C 系列开源复刻，Westwood 风格 RTS
+- [[warzone-2100]] — 3D RTS，另一款开源 RTS 实现
+

@@ -81,6 +81,6 @@ Aras Pranckevicius 开发的 **Unity 3D Gaussian Splatting 实时渲染工具包
 
 ## 与同类工具对比
 
-- 与 [[ai-game-devtools/dreamgaussian4d]] 不同：DreamGaussian4D 是 **生成** 4D 高斯资产的 Python 工具，UnityGaussianSplatting 是 **渲染** 已有高斯资产的 Unity 工具包
-- 与 [[ai-game-devtools/gaussiandreamer]] 互补：GaussianDreamer 生成 3DGS 资产，UnityGaussianSplatting 提供在 Unity 引擎中实时渲染这些资产的能力
-- 与 [[ai-game-devtools/cf-3dgs]] 不同：CF-3DGS 是从视频中 **重建** 3D 高斯（含相机位姿优化），本工具仅负责渲染
+- 与 [[dreamgaussian4d]] 不同：DreamGaussian4D 是 **生成** 4D 高斯资产的 Python 工具，UnityGaussianSplatting 是 **渲染** 已有高斯资产的 Unity 工具包
+- 与 [[gaussiandreamer]] 互补：GaussianDreamer 生成 3DGS 资产，UnityGaussianSplatting 提供在 Unity 引擎中实时渲染这些资产的能力
+- 与 [[cf-3dgs]] 不同：CF-3DGS 是从视频中 **重建** 3D 高斯（含相机位姿优化），本工具仅负责渲染

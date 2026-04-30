@@ -48,7 +48,7 @@ Dual renderer system: **LuisaRender** (DLSL-based ray-tracing) for photo-realist
 
 ## Differentiation from Related Tools
 
-Unlike game engines like [[ai-game-devtools/biomes]] (voxel web game) or agent frameworks like [[agentscope]] (multi-agent orchestration), Genesis is a **low-level physics engine** purpose-built for robotics simulation. Compared to MuJoCo (itself used internally), Genesis provides a unified Pythonic API across multiple physics domains plus generative data capabilities. Unlike [[GameGen-O]] (game video generation), Genesis simulates **real physics** interactively rather than generating video frames.
+Unlike game engines like [[biomes]] (voxel web game) or agent frameworks like [[agentscope]] (multi-agent orchestration), Genesis is a **low-level physics engine** purpose-built for robotics simulation. Compared to MuJoCo (itself used internally), Genesis provides a unified Pythonic API across multiple physics domains plus generative data capabilities. Unlike [[GameGen-O]] (game video generation), Genesis simulates **real physics** interactively rather than generating video frames.
 
 ## Related Concepts
 

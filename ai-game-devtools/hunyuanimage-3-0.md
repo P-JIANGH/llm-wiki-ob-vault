@@ -50,6 +50,6 @@ HunyuanImage-3.0 是腾讯混元团队发布的原生多模态模型，在单一
 
 ## 与同类工具差异
 
-- 与 [[ai-game-devtools/hunyuan-dit]]（混元 1.5B DiT 图像模型）不同，HunyuanImage-3.0 采用自回归 MoE 架构而非 DiT，参数规模大两个数量级（80B vs 1.5B）
-- 与 [[ai-game-devtools/flux]]（Black Forest Labs flow matching transformer）相比，HunyuanImage-3.0 使用自回归架构而非 flow matching，支持 CoT 思维链推理和提示自改写
-- 与 [[ai-game-devtools/comfyui]] 等模块化图像引擎兼容使用（通过 HuggingFace Diffusers 集成）
+- 与 [[hunyuan-dit]]（混元 1.5B DiT 图像模型）不同，HunyuanImage-3.0 采用自回归 MoE 架构而非 DiT，参数规模大两个数量级（80B vs 1.5B）
+- 与 [[flux]]（Black Forest Labs flow matching transformer）相比，HunyuanImage-3.0 使用自回归架构而非 flow matching，支持 CoT 思维链推理和提示自改写
+- 与 [[comfyui]] 等模块化图像引擎兼容使用（通过 HuggingFace Diffusers 集成）

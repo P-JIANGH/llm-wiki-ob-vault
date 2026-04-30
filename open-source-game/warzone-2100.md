@@ -72,7 +72,7 @@ sources: []
 
 ## 相关 Wiki 页面
 
-- [[open-source-game/openra]] — C&C / Dune 2000 / Red Alert 现代复刻
-- [[open-source-game/openttd]] — Transport Tycoon Deluxe 开源复刻，帧同步网络
-- [[open-source-game/beyond-all-reason]] — Spring 引擎 RTS
-- [[open-source-game/0-ad]] — 古代战争 RTS
+- [[openra]] — C&C / Dune 2000 / Red Alert 现代复刻
+- [[openttd]] — Transport Tycoon Deluxe 开源复刻，帧同步网络
+- [[beyond-all-reason]] — Spring 引擎 RTS
+- [[0-ad]] — 古代战争 RTS

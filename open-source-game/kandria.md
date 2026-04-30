@@ -73,12 +73,13 @@ Shirakumo 的组件式游戏引擎，TRIAL 提供：
 |------|------|
 | Lisp 游戏架构 | 用 Lisp 实现游戏逻辑，数据/代码边界模糊，hot reload 天然支持 |
 | ECS 模式 | TRIAL 的组件式设计适合 AI agent 修改特定系统 |
-| 关卡编辑器 | [[open-source-game/egregoria]] 的协作规划理念类似，编辑器内嵌降低门槛 |
+| 关卡编辑器 | [[egregoria]] 的协作规划理念类似，编辑器内嵌降低门槛 |
 | AI 系统 | 敌人/NPC AI 分层设计（enemy.lisp + trigger.lisp + ai.lisp）可被 agent 理解和扩展 |
-| 确定性物理 | BVH2 碰撞可作为 [[open-source-game/fish-folk-jumpy]] rapier2d 物理之外的替代方案 |
+| 确定性物理 | BVH2 碰撞可作为 [[fish-folk-jumpy]] rapier2d 物理之外的替代方案 |
 
 ## 相关页面
 
 - `open-source-game/trial` — TRIAL 游戏引擎（Kandria 的底层）
-- [[open-source-game/frogatto]] — 同样使用模块化引擎架构的游戏
-- [[open-source-game/openmw]] — 另一个大型开源 RPG 引擎复刻项目
+- [[frogatto]] — 同样使用模块化引擎架构的游戏
+- [[openmw]] — 另一个大型开源 RPG 引擎复刻项目
+

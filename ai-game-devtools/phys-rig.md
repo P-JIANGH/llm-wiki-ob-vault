@@ -75,6 +75,6 @@ PhysRig/
 
 ## 相关工具
 
-- [[ai-game-devtools/animate3d]] — 3D 模型动画生成（MV-VDM 扩散 + 4D-SDS 精炼）
-- [[ai-game-devtools/dreamgaussian4d]] — 生成式 4D 高斯场景（单图→静态 3D→动态 4D）
-- [[ai-game-devtools/character-gen]] — 单图→3D 角色生成（多视角姿态规范化 + 两阶段管线）
+- [[animate3d]] — 3D 模型动画生成（MV-VDM 扩散 + 4D-SDS 精炼）
+- [[dreamgaussian4d]] — 生成式 4D 高斯场景（单图→静态 3D→动态 4D）
+- [[character-gen]] — 单图→3D 角色生成（多视角姿态规范化 + 两阶段管线）

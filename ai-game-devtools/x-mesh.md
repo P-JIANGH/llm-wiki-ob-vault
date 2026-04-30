@@ -59,9 +59,9 @@ bash script/train_single.sh    # 或对应批量脚本
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/dreammat]]（PBR 材质生成），X-Mesh 专注于**整体风格化**而非 PBR 材质分解
-- 相比 [[ai-game-devtools/meshanything]]（自回归网格生成），X-Mesh 是对**已有网格的风格化改造**而非从零生成
-- 相比 [[ai-game-devtools/dream-textures]]（Blender 纹理插件），X-Mesh 是学术管线，同步优化几何 + 纹理，而非仅贴图
+- 相比 [[dreammat]]（PBR 材质生成），X-Mesh 专注于**整体风格化**而非 PBR 材质分解
+- 相比 [[meshanything]]（自回归网格生成），X-Mesh 是对**已有网格的风格化改造**而非从零生成
+- 相比 [[dream-textures]]（Blender 纹理插件），X-Mesh 是学术管线，同步优化几何 + 纹理，而非仅贴图
 
 ## 相关链接
 

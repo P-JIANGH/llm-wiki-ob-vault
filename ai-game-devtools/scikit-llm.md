@@ -81,6 +81,6 @@ pipeline = Pipeline([
 
 ## 相关项目
 
-- [[ai-game-devtools/langchain]] — 同为 LLM 应用框架，但面向应用编排而非 ML Pipeline 集成
-- [[ai-game-devtools/pandas-ai]] — 同样将 LLM 集成到数据科学工具（Pandas），自然语言数据分析
-- [[ai-game-devtools/interactml-unity]] — Unity 中的交互式机器学习，kNN/MLP/DTW 轻量模型 vs LLM 重型模型
+- [[langchain]] — 同为 LLM 应用框架，但面向应用编排而非 ML Pipeline 集成
+- [[pandas-ai]] — 同样将 LLM 集成到数据科学工具（Pandas），自然语言数据分析
+- [[interactml-unity]] — Unity 中的交互式机器学习，kNN/MLP/DTW 轻量模型 vs LLM 重型模型

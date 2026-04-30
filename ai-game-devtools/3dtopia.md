@@ -61,8 +61,8 @@ threefiner if2 --mesh results/default/stage2/a_robot_0_0_sd.glb --prompt "a robo
 
 ## Related Tools
 
-- Similar to [[ai-game-devtools/stable-dreamfusion]] (DreamFusion SDS-based text-to-3D) but uses hybrid two-stage diffusion
-- Part of the text-to-3D ecosystem alongside [[ai-game-devtools/hunyuan3d-2-0]] and [[ai-game-devtools/mvdream]]
+- Similar to [[stable-dreamfusion]] (DreamFusion SDS-based text-to-3D) but uses hybrid two-stage diffusion
+- Part of the text-to-3D ecosystem alongside [[hunyuan3d-2-0]] and [[mvdream]]
 - Uses EG3D renderer, building on NVIDIA's `entities/nvidia-research` EG3D work
 - Trained on Objaverse dataset (captions released by 3DTopia team)
 

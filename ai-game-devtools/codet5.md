@@ -81,10 +81,10 @@ print(tokenizer.decode(generated_ids[0], skip_special_tokens=True))
 
 ## Related Projects
 
-- vs [[ai-game-devtools/codegen]] — Also from Salesforce, but CodeGen is a causal LM (GPT-style) while CodeT5 is encoder-decoder (T5-style); CodeT5+ initialized from CodeGen for compute-efficient pretraining
-- vs [[ai-game-devtools/code-llama]] — Code Llama is based on Llama 2 architecture (stronger base), CodeT5 uses T5 architecture with identifier-aware training
-- vs [[ai-game-devtools/codegeex]] — Both are encoder-decoder code models; CodeGeeX has stronger multilingual focus, CodeT5 has identifier-aware pre-training
-- vs [[ai-game-devtools/codetf]] — CodeTF is a framework/toolkit for code ML, CodeT5 is a pretrained model family
+- vs [[codegen]] — Also from Salesforce, but CodeGen is a causal LM (GPT-style) while CodeT5 is encoder-decoder (T5-style); CodeT5+ initialized from CodeGen for compute-efficient pretraining
+- vs [[code-llama]] — Code Llama is based on Llama 2 architecture (stronger base), CodeT5 uses T5 architecture with identifier-aware training
+- vs [[codegeex]] — Both are encoder-decoder code models; CodeGeeX has stronger multilingual focus, CodeT5 has identifier-aware pre-training
+- vs [[codetf]] — CodeTF is a framework/toolkit for code ML, CodeT5 is a pretrained model family
 
 ## Links
 

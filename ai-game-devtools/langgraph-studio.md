@@ -56,6 +56,6 @@ LangGraph Studio 是 [[langgraph]] 编排框架的配套开发工具：
 ## Related Tools
 
 - [[langgraph]] — 核心编排框架
-- [[ai-game-devtools/langchain]] — 上层框架生态
-- [[ai-game-devtools/langflow]] — 同类可视化 LLM 工作流构建器
-- [[ai-game-devtools/dify]] — 同类 LLM 应用开发平台
+- [[langchain]] — 上层框架生态
+- [[langflow]] — 同类可视化 LLM 工作流构建器
+- [[dify]] — 同类 LLM 应用开发平台

@@ -106,3 +106,4 @@ src/
 - GitHub：https://github.com/TeamHypersomnia/Hypersomnia
 - Discord：https://discord.gg/YC49E4G
 - Wiki：https://wiki.hypersomnia.io
+

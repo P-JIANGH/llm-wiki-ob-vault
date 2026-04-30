@@ -85,3 +85,4 @@ sources: [https://github.com/Pyrdacor/Ambermoon.net]
 | 多平台构建 | .NET 6 跨平台 + 分平台音频后端（OpenAL/Android），多平台构建脚本，对游戏引擎跨平台适配有参考价值 |
 | 数据驱动游戏内容 | 双数据后端设计（Legacy 原版数据 + Pyrdacor 扩展格式），外部资产依赖而非内置，便于扩展内容和模组化 |
 | 工具链生态 | GraphicCreator、AmbermoonPatcher、AutoCloneGenerator 等周边工具，展示了重制版游戏完整的工具链生态 |
+

@@ -79,8 +79,8 @@ python app.py  # Launches Gradio web UI
 - Built on ideas from `ai-game-devtools/meshgpt` (mesh tokenization + autoregressive generation)
 - Uses `ai-game-devtools/michelangelo` point cloud encoder as preprocessing
 - V2 successor: `ai-game-devtools/meshanything-v2` (1600 face limit, improved performance)
-- Related to [[ai-game-devtools/llama-mesh]] — also uses LLM architecture for 3D mesh generation
-- Related to [[ai-game-devtools/crm]] — alternative approach to 3D asset generation via multi-view diffusion
+- Related to [[llama-mesh]] — also uses LLM architecture for 3D mesh generation
+- Related to [[crm]] — alternative approach to 3D asset generation via multi-view diffusion
 
 ## Links
 

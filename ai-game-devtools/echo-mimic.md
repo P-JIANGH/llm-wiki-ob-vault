@@ -46,7 +46,7 @@ EchoMimic enables:
 
 ## Related Projects
 
-- [[ai-game-devtools/hallo]] — Fudan audio-driven portrait animation with SD 1.5 + AnimateDiff
-- [[ai-game-devtools/hunyuan-portrait]] — Tencent Hunyuan video-driven portrait animation
-- [[ai-game-devtools/sadtalker]] — CVPR 2023 audio-driven portrait animation, earlier approach
-- [[ai-game-devtools/liveportrait]] — Kuaishou efficient video-driven portrait animation
+- [[hallo]] — Fudan audio-driven portrait animation with SD 1.5 + AnimateDiff
+- [[hunyuan-portrait]] — Tencent Hunyuan video-driven portrait animation
+- [[sadtalker]] — CVPR 2023 audio-driven portrait animation, earlier approach
+- [[liveportrait]] — Kuaishou efficient video-driven portrait animation

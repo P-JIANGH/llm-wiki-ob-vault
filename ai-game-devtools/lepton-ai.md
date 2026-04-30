@@ -51,7 +51,7 @@ Can be used to quickly deploy game AI services — NPC dialogue models, image ge
 
 ## Compared to Similar Tools
 
-| | Lepton AI | [[ai-game-devtools/jan]] | [[ai-game-devtools/gpt4all]] |
+| | Lepton AI | [[jan]] | [[gpt4all]] |
 |---|---|---|---|
 | Type | Framework + Cloud | Local app | Local runtime |
 | Language | Python | Rust+React | C++/Python |

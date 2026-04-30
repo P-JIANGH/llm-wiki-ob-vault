@@ -84,6 +84,6 @@ controlnet/
 - [HuggingFace 模型权重](https://huggingface.co/lllyasviel/ControlNet)
 - [sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet) — A1111 WebUI 插件
 
-## 与 [[ai-game-devtools/comfyui]] 的关系
+## 与 [[comfyui]] 的关系
 
-[[ai-game-devtools/comfyui]] 内置 ControlNode 节点支持 ControlNet，提供图形化的 ControlNet 管线构建能力。[[ai-game-devtools/blender-controlnet]] 则通过 A1111 WebUI API 将 ControlNet 集成到 Blender 渲染流程中。
+[[comfyui]] 内置 ControlNode 节点支持 ControlNet，提供图形化的 ControlNet 管线构建能力。[[blender-controlnet]] 则通过 A1111 WebUI API 将 ControlNet 集成到 Blender 渲染流程中。

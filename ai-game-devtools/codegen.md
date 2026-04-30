@@ -84,10 +84,10 @@ CodeGen can be used for AI-assisted game development:
 
 ## Related Pages
 
-- [[ai-game-devtools/codegen2]] — CodeGen 第二代详细页面：1B/3.7B/7B/16B，原生 infilling，19 种语言
-- [[ai-game-devtools/codegeex]] — THUDM 13B multilingual code generation model, similar scope
-- [[ai-game-devtools/codegeex2]] — CodeGeeX 2nd generation, improved performance
-- [[ai-game-devtools/codegeex4]] — CodeGeeX 4th generation with full-stack capabilities
+- [[codegen2]] — CodeGen 第二代详细页面：1B/3.7B/7B/16B，原生 infilling，19 种语言
+- [[codegeex]] — THUDM 13B multilingual code generation model, similar scope
+- [[codegeex2]] — CodeGeeX 2nd generation, improved performance
+- [[codegeex4]] — CodeGeeX 4th generation with full-stack capabilities
 
 ## Links
 

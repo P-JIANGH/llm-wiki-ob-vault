@@ -53,7 +53,7 @@ Lumina-T2X 是 [[OpenGVLab]]（上海人工智能研究院）开发的基于 **F
 ## Relationship to Other Tools
 
 - 与 [[DeepSeek-V3]] 同为多模态生成模型，但 Lumina-T2X 专注于 DiT 架构
-- 与 [[Stable Diffusion]] 同为图像生成模型，但 Lumina-T2X 使用 Flow Matching 而非 DDPM
+- 与 [[stable-diffusion]] 同为图像生成模型，但 Lumina-T2X 使用 Flow Matching 而非 DDPM
 - 与 `Large World Model (LWM)` 同为长上下文多模态模型（128K token）
 - Lumina-mGPT 版本与 [[llama-3]] 类似，都支持文本和图像处理
 

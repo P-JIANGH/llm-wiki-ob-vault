@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/fooocus.md]
 
 **Fooocus** is an open-source, free, offline image generation tool by **lllyasviel** (the creator of ControlNet), built on the **Stable Diffusion XL** architecture with a Gradio-based UI. It is designed to be as simple as online image generators like Midjourney — users only need to focus on prompts, with minimal manual parameter tuning required.
 
-The project is currently in **Limited Long-Term Support (LTS)** mode with bug fixes only, as SDXL-based functionality is considered stable. Users interested in newer architectures like Flux are directed to `ai-game-devtools/webui-forge` or [[ai-game-devtools/comfyui]].
+The project is currently in **Limited Long-Term Support (LTS)** mode with bug fixes only, as SDXL-based functionality is considered stable. Users interested in newer architectures like Flux are directed to `ai-game-devtools/webui-forge` or [[comfyui]].
 
 ## Key Features
 
@@ -28,7 +28,7 @@ The project is currently in **Limited Long-Term Support (LTS)** mode with bug fi
 
 ### Core Pipeline
 
-Built on a mixture of [[ai-game-devtools/stable-diffusion-webui]] (A1111) and [[ai-game-devtools/comfyui]] codebases. Key modules:
+Built on a mixture of [[stable-diffusion-webui]] (A1111) and [[comfyui]] codebases. Key modules:
 
 | Module | Purpose |
 |---|---|
@@ -78,8 +78,8 @@ Gradio 3.41.2, transformers, safetensors, accelerate, pytorch_lightning, opencv,
 
 ## Relationships
 
-- Created by **lllyasviel**, also the creator of [[ai-game-devtools/controlnet]]
-- Codebase mixes A1111 and [[ai-game-devtools/comfyui]] concepts
-- Shares image generation domain with [[ai-game-devtools/flux]] (newer architecture) and [[ai-game-devtools/disco-diffusion]]
+- Created by **lllyasviel**, also the creator of [[controlnet]]
+- Codebase mixes A1111 and [[comfyui]] concepts
+- Shares image generation domain with [[flux]] (newer architecture) and [[disco-diffusion]]
 - Forks available: RuinedFooocus, Fooocus-Control, Fooocus-MRE, mashb1t/Fooocus
 - Game dev use: asset generation, inpainting/outpainting, FaceSwap for character consistency

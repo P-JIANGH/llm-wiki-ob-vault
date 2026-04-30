@@ -53,11 +53,11 @@ Gemini is a **closed API service** — there is no open-weight model to run loca
 - **Web**: Browser-side via `@google/generative-ai-js` SDK
 - **Server**: Python/Node.js backend calling the Gemini API
 
-Unlike [[ai-game-devtools/gemma]] (Google's open-weight model family), Gemini requires API credentials and has usage costs.
+Unlike [[gemma]] (Google's open-weight model family), Gemini requires API credentials and has usage costs.
 
 ## Related
 
-- [[ai-game-devtools/gemma]] — Google's open-weight model series, research lineage from Gemini
-- [[ai-game-devtools/gemma-cpp]] — C++ inference engine for Gemma
-- [[ai-game-devtools/mini-gemini]] — Open-source VLM inspired by Gemini architecture
-- [[ai-game-devtools/perplexica]] — Search AI tool supporting Gemini as a backend provider
+- [[gemma]] — Google's open-weight model series, research lineage from Gemini
+- [[gemma-cpp]] — C++ inference engine for Gemma
+- [[mini-gemini]] — Open-source VLM inspired by Gemini architecture
+- [[perplexica]] — Search AI tool supporting Gemini as a backend provider

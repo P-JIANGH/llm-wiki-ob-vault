@@ -26,7 +26,7 @@ sources: [raw/articles/ai-game-devtools/stabletts.md]
 - **Duration Predictor:** MAS（单调对齐搜索）提取音素-梅尔对齐，预测语音时长
 - **Reference Encoder:** MelStyleEncoder 从参考音频提取说话人嵌入（支持零样本声音克隆）
 - **ODE 求解器:** torchdiffeq 可逆扩散采样
-- **时间步调度:** 余弦调度（借鉴自 [[ai-game-devtools/cosyvoice]]）
+- **时间步调度:** 余弦调度（借鉴自 [[cosyvoice]]）
 - **CFG 支持:** Classifier-Free Guidance，使用 fake_speaker/fake_content 参数实现条件/无条件双路径
 
 ## 训练与推理
@@ -43,10 +43,10 @@ sources: [raw/articles/ai-game-devtools/stabletts.md]
 - 多语言数据需分别预处理
 
 ## 与同类工具差异
-- 对比 [[ai-game-devtools/matcha-tts]]：StableTTS 在其 flow-matching 代码基础上增加了 DiT 编码器和 MAS 对齐，实现端到端 TTS
-- 对比 [[ai-game-devtools/cosyvoice]]：更轻量（31M vs 更大模型），借鉴了余弦时间步调度
-- 对比 [[ai-game-devtools/gpt-sovits]]：更简单的训练流程（无需 VITS 的复杂条件），但音质可能稍逊
-- 对比 [[ai-game-devtools/overflow]]：StableTTS 使用 flow-matching 而非 HMM transducer+归一化流
+- 对比 [[matcha-tts]]：StableTTS 在其 flow-matching 代码基础上增加了 DiT 编码器和 MAS 对齐，实现端到端 TTS
+- 对比 [[cosyvoice]]：更轻量（31M vs 更大模型），借鉴了余弦时间步调度
+- 对比 [[gpt-sovits]]：更简单的训练流程（无需 VITS 的复杂条件），但音质可能稍逊
+- 对比 [[overflow]]：StableTTS 使用 flow-matching 而非 HMM transducer+归一化流
 
 ## 在游戏开发中的应用
 - NPC 多语言语音合成（中日英）

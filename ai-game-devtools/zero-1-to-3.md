@@ -38,7 +38,7 @@ Zero-1-to-3 是从**单张图像**生成**3D 物体新视角**的零样本模型
 ## 核心能力
 
 1. **新视角合成**: 单图 + 相机位姿 → 生成目标视角图像
-2. **3D 重建（SDS）**: 结合 Score Distillation Sampling，通过 [[ai-game-devtools/stable-dreamfusion]] 或 [[ai-game-devtools/threestudio]] 生成 3D mesh
+2. **3D 重建（SDS）**: 结合 Score Distillation Sampling，通过 [[stable-dreamfusion]] 或 [[threestudio]] 生成 3D mesh
 3. **3D 重建（SJC）**: 内置 Voxel NeRF + Score Jacobian Chaining 管线
 4. **Janus 问题解决**: 显式相机位姿建模 + 大规模多视角数据训练，避免多面脸问题
 
@@ -61,10 +61,10 @@ cd 3drec && python run_zero123.py --scene pikachu --index 0
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/wonder3d]]（跨域扩散联合法线+彩色生成），Zero-1-to-3 专注于相机条件化的逐视角生成
-- 相比 [[ai-game-devtools/mvdream]]（多视角一致扩散），Zero-1-to-3 是单图→单新视角，MVDream 是单图→4 视角同时生成
-- 相比 [[ai-game-devtools/triposr]]（前馈重建），Zero-1-to-3 是扩散生成式方法而非一次性前馈
-- 被 [[ai-game-devtools/threestudio]] 和 [[ai-game-devtools/stable-dreamfusion]] 集成为 3D 重建后端
+- 相比 [[wonder3d]]（跨域扩散联合法线+彩色生成），Zero-1-to-3 专注于相机条件化的逐视角生成
+- 相比 [[mvdream]]（多视角一致扩散），Zero-1-to-3 是单图→单新视角，MVDream 是单图→4 视角同时生成
+- 相比 [[triposr]]（前馈重建），Zero-1-to-3 是扩散生成式方法而非一次性前馈
+- 被 [[threestudio]] 和 [[stable-dreamfusion]] 集成为 3D 重建后端
 
 ## 相关链接
 

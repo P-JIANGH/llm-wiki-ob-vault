@@ -58,19 +58,19 @@ TorToiSe is one of the highest-quality open-source TTS systems available, making
 - **Dialogue prototyping**: Generate placeholder voice lines with realistic prosody during development
 - **Multi-language support**: The tokenizer supports multiple languages
 
-However, it requires significant GPU resources compared to lighter alternatives like [[ai-game-devtools/kitten-tts]] or [[ai-game-devtools/matcha-tts]].
+However, it requires significant GPU resources compared to lighter alternatives like [[kitten-tts]] or [[matcha-tts]].
 
 ## Comparison with Other TTS Systems
 
-- vs [[ai-game-devtools/style-tts-2]]: Both use diffusion. StyleTTS 2 is faster and focuses on style transfer; TorToiSe prioritizes multi-voice cloning quality.
-- vs [[ai-game-devtools/glow-tts]]: TorToiSe is autoregressive+diffusion (higher quality, slower); Glow-TTS uses flow-based parallel generation (faster, simpler alignment via MAS).
-- vs [[ai-game-devtools/chat-tts]]: ChatTTS is optimized for conversational speech with prosody control; TorToiSe is a general-purpose high-fidelity TTS.
-- A C++ port exists: [[ai-game-devtools/tortoise-cpp]] for deployment without Python dependency.
+- vs [[style-tts-2]]: Both use diffusion. StyleTTS 2 is faster and focuses on style transfer; TorToiSe prioritizes multi-voice cloning quality.
+- vs [[glow-tts]]: TorToiSe is autoregressive+diffusion (higher quality, slower); Glow-TTS uses flow-based parallel generation (faster, simpler alignment via MAS).
+- vs [[chat-tts]]: ChatTTS is optimized for conversational speech with prosody control; TorToiSe is a general-purpose high-fidelity TTS.
+- A C++ port exists: [[tortoise-cpp]] for deployment without Python dependency.
 
 ## Related Projects
 
-- [[ai-game-devtools/tortoise-cpp]] — C++ inference port of TorToiSe
-- [[ai-game-devtools/style-tts-2]] — Diffusion-based TTS with style transfer
-- [[ai-game-devtools/chat-tts]] — Conversational TTS with fine-grained control
-- [[ai-game-devtools/cosyvoice]] — Industrial-grade TTS with streaming support
-- [[ai-game-devtools/kitten-tts]] — Lightweight on-device TTS
+- [[tortoise-cpp]] — C++ inference port of TorToiSe
+- [[style-tts-2]] — Diffusion-based TTS with style transfer
+- [[chat-tts]] — Conversational TTS with fine-grained control
+- [[cosyvoice]] — Industrial-grade TTS with streaming support
+- [[kitten-tts]] — Lightweight on-device TTS

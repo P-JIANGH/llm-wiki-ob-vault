@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/tortoise-cpp.md]
 
 ## Overview
 
-**tortoise.cpp** is a C++/GGML implementation of [tortoise-tts](https://github.com/neonbjb/tortoise-tts), bringing high-quality text-to-speech to CPU and GPU without Python runtime dependencies. Developed by **John Balis**, it leverages the same GGML tensor library used by [[ai-game-devtools/llama-cpp]], enabling efficient on-device inference across platforms.
+**tortoise.cpp** is a C++/GGML implementation of [tortoise-tts](https://github.com/neonbjb/tortoise-tts), bringing high-quality text-to-speech to CPU and GPU without Python runtime dependencies. Developed by **John Balis**, it leverages the same GGML tensor library used by [[llama-cpp]], enabling efficient on-device inference across platforms.
 
 ## Key Facts
 
@@ -72,9 +72,9 @@ This means any voice cloned with tortoise-tts is compatible.
 | Tool | Backend | Architecture | On-device | Voice Cloning |
 |------|---------|-------------|-----------|--------------|
 | **tortoise.cpp** | GGML (C++) | AR + Diffusion + Vocoder | ✅ CPU/GPU | ✅ (tortoise-tts compatible) |
-| [[ai-game-devtools/bark]] | Python/PyTorch | AR Transformer | Partial | ✅ (speaker IDs) |
-| [[ai-game-devtools/chat-tts]] | Python/PyTorch | AR GPT + DVAE | ❌ | ✅ (audio-based) |
-| [[ai-game-devtools/glow-tts]] | Python/PyTorch | Flow-based (MAS) | ❌ | ❌ |
+| [[bark]] | Python/PyTorch | AR Transformer | Partial | ✅ (speaker IDs) |
+| [[chat-tts]] | Python/PyTorch | AR GPT + DVAE | ❌ | ✅ (audio-based) |
+| [[glow-tts]] | Python/PyTorch | Flow-based (MAS) | ❌ | ❌ |
 
 Key advantage: **No Python runtime required** — runs standalone as a C++ binary, making it suitable for embedding in game engines or deploying on resource-constrained hardware.
 
@@ -83,7 +83,7 @@ Key advantage: **No Python runtime required** — runs standalone as a C++ binar
 - **On-device TTS** — Generate NPC dialogue without cloud API or Python dependency
 - **Voice cloning** — Create custom NPC voices from reference audio
 - **Cross-platform** — CPU mode works everywhere; CUDA/Metal for GPU acceleration
-- **GGML ecosystem** — Same backend as [[ai-game-devtools/llama-cpp]], enabling unified deployment pipeline
+- **GGML ecosystem** — Same backend as [[llama-cpp]], enabling unified deployment pipeline
 - **Lightweight** — Suitable for embedding in game builds or companion apps
 
 ## Links

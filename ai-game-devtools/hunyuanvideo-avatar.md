@@ -63,5 +63,5 @@ Tencent Hunyuan Community License（不适用于欧盟、英国、韩国）
 
 ## 与同类工具的关系
 
-- 属于腾讯混元多媒体生成家族，与 [[ai-game-devtools/hunyuan3d-2-1]]（3D 资产）、[[ai-game-devtools/hunyuanimage-3-0]]（图像）、[[ai-game-devtools/hunyuan-gamecraft]]（游戏视频）、[[ai-game-devtools/hunyuan-portrait]]（肖像动画）共享技术栈
-- 与 [[ai-game-devtools/hallo]]、[[ai-game-devtools/echomimic]]、[[ai-game-devtools/aniportrait]] 同属音频驱动角色动画赛道，但支持多人物和情感控制为独特优势
+- 属于腾讯混元多媒体生成家族，与 [[hunyuan3d-2-1]]（3D 资产）、[[hunyuanimage-3-0]]（图像）、[[hunyuan-gamecraft]]（游戏视频）、[[hunyuan-portrait]]（肖像动画）共享技术栈
+- 与 [[hallo]]、[[echomimic]]、[[aniportrait]] 同属音频驱动角色动画赛道，但支持多人物和情感控制为独特优势

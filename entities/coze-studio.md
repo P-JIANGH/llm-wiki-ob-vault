@@ -78,7 +78,7 @@ eino-ext/components/model/minimax  // MiniMax
 - 建立企业级 AI Agent 标准
 
 ## Relationships
-- [[DeerFlow]] — 字节跳动另一个 Agent 框架（LangGraph + Sandbox）
+- [[deer-flow]] — 字节跳动另一个 Agent 框架（LangGraph + Sandbox）
 - [[ai-agent-development-platform]] — AI Agent 开发平台通用概念
 - [[Eino]] — Coze Studio 的核心 LLM 运行时框架
 - [[FlowGram]] — Coze Studio 的可视化工作流编辑器

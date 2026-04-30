@@ -60,9 +60,9 @@ infinigen/
 
 ## 与同类工具的差异
 
-- 与 [[ai-game-devtools/dreamgaussian4d]]、[[ai-game-devtools/hunyuan3d-2-1]] 等 AI 生成工具不同，Infinigen 不使用扩散模型或神经网络，而是纯程序化生成（procedural generation），通过随机种子保证无限多样性
-- 与 [[ai-game-devtools/dust3r]] 等 3D 重建工具互补：Infinigen 生成数据，DUSt3R 消费数据做重建
-- 深度集成 Blender 生态系统，支持 [[ai-game-devtools/blender-mcp]] 等 AI-Blender 桥接工具进行二次开发
+- 与 [[dreamgaussian4d]]、[[hunyuan3d-2-1]] 等 AI 生成工具不同，Infinigen 不使用扩散模型或神经网络，而是纯程序化生成（procedural generation），通过随机种子保证无限多样性
+- 与 [[dust3r]] 等 3D 重建工具互补：Infinigen 生成数据，DUSt3R 消费数据做重建
+- 深度集成 Blender 生态系统，支持 [[blender-mcp]] 等 AI-Blender 桥接工具进行二次开发
 - 提供完整的 Ground Truth 标注管线（分割掩码、深度、法线），这是大多数 3D 生成工具缺少的
 - 支持 SLURM 集群级并行生成，适合大规模合成数据生产
 

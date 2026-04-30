@@ -94,7 +94,7 @@ VideoLlavaForConditionalGeneration
 
 ## 相关项目
 
-- [[ai-game-devtools/moe-llava]] — MoE-LLaVA: 3B 稀疏模型超越 7B 密集模型
+- [[moe-llava]] — MoE-LLaVA: 3B 稀疏模型超越 7B 密集模型
 - `ai-game-devtools/languagebind` — LanguageBind: N 模态语言语义对齐（ICLR 2024）
 - `ai-game-devtools/chat-univi` — Chat-UniVi: 高效视觉 token 利用
 - `ai-game-devtools/minicpm-v` — MiniCPM-V: 高效多模态模型（OpenBMB）

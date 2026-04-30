@@ -57,6 +57,6 @@ NeuralSound enables game developers to:
 
 ## Related Projects
 
-- [[ai-game-devtools/amphion]] — OpenMMLab audio/music/speech toolkit covering TTS/VC/SVC
-- [[ai-game-devtools/audioldm-2]] — AudioLDM 2 general audio generation via latent diffusion
-- [[ai-game-devtools/mmaudio]] — Video-to-audio synchronized generation (ECCV 2025)
+- [[amphion]] — OpenMMLab audio/music/speech toolkit covering TTS/VC/SVC
+- [[audioldm-2]] — AudioLDM 2 general audio generation via latent diffusion
+- [[mmaudio]] — Video-to-audio synchronized generation (ECCV 2025)

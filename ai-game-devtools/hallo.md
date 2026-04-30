@@ -41,7 +41,7 @@ Hallo 是复旦大学 Generative Vision Lab 开发的**音频驱动肖像动画*
 
 ## 社区生态
 
-- [[ai-game-devtools/comfyui]] — ComfyUI-Hallo 节点集成
+- [[comfyui]] — ComfyUI-Hallo 节点集成
 - hallo-webui（Gradio Web 界面）
 - hallo-docker / RunPod 部署模板
 - JoyHallo — 中文语音扩展版本
@@ -49,8 +49,8 @@ Hallo 是复旦大学 Generative Vision Lab 开发的**音频驱动肖像动画*
 
 ## 与同类工具差异
 
-- 对比 [[ai-game-devtools/echomimic]]：Hallo 使用 SD 1.5 + AnimateDiff 基础架构，EchoMimic 同样基于 SD v1.5 但采用 Whisper-Tiny 音频编码 + 轻量地标 CNN，在 HDTF 基准上 FID/FVD 优于 Hallo
-- 对比 [[ai-game-devtools/aniportrait]]：Hallo 引入层级式音频-视觉合成架构（face locator + image/audio proj 分离），AniPortrait 采用 wav2vec2 → audio2mesh/audio2pose → 3DMM + AnimateDiff Motion Module 路线
+- 对比 [[echomimic]]：Hallo 使用 SD 1.5 + AnimateDiff 基础架构，EchoMimic 同样基于 SD v1.5 但采用 Whisper-Tiny 音频编码 + 轻量地标 CNN，在 HDTF 基准上 FID/FVD 优于 Hallo
+- 对比 [[aniportrait]]：Hallo 引入层级式音频-视觉合成架构（face locator + image/audio proj 分离），AniPortrait 采用 wav2vec2 → audio2mesh/audio2pose → 3DMM + AnimateDiff Motion Module 路线
 - 仅支持英语输入是主要局限；社区 JoyHallo 项目尝试解决中文支持
 
 ## 相关链接

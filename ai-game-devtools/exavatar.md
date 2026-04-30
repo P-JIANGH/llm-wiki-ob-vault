@@ -61,9 +61,9 @@ ${ROOT}
 未在仓库中明确指定（研究用途代码）
 
 ## 与同类工具的差异
-- 与 [[ai-game-devtools/gaussiandreamer]] 不同：GaussianDreamer 是**文本到 3D 高斯生成**，ExAvatar 是**从视频创建可驱动 Avatar**
-- 与 [[ai-game-devtools/echomimic]] 不同：EchoMimic 是**音频驱动肖像动画**（2D 扩散），ExAvatar 是**全身 3D 高斯 Avatar**
-- 与 [[ai-game-devtools/unity-gaussian-splatting]] 互补：Unity 3DGS 负责在 Unity 引擎中渲染 3DGS，ExAvatar 负责从视频创建 3DGS Avatar
+- 与 [[gaussiandreamer]] 不同：GaussianDreamer 是**文本到 3D 高斯生成**，ExAvatar 是**从视频创建可驱动 Avatar**
+- 与 [[echomimic]] 不同：EchoMimic 是**音频驱动肖像动画**（2D 扩散），ExAvatar 是**全身 3D 高斯 Avatar**
+- 与 [[unity-gaussian-splatting]] 互补：Unity 3DGS 负责在 Unity 引擎中渲染 3DGS，ExAvatar 负责从视频创建 3DGS Avatar
 
 ## 相关链接
 - **Project Page:** https://mks0601.github.io/ExAvatar

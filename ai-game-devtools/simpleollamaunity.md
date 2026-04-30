@@ -71,10 +71,10 @@ Debug.Log(response);
 - NPC 对话生成（本地推理，无云成本）
 - 动态任务描述/剧情文本生成
 - AI 驱动的游戏助手（GM bot）
-- 运行时代码生成（参考 [[ai-game-devtools/unity-chatgpt]]）
+- 运行时代码生成（参考 [[unity-chatgpt]]）
 
 ## 相关项目
 
-- [[ai-game-devtools/chatgpt-api-unity]] — Unity + OpenAI ChatGPT API 集成
-- [[ai-game-devtools/chatgptforunity]] — Unity C# 调用 OpenAI GPT-3.5/4
+- [[chatgpt-api-unity]] — Unity + OpenAI ChatGPT API 集成
+- [[chatgptforunity]] — Unity C# 调用 OpenAI GPT-3.5/4
 - `llm` — LLM 通识页面

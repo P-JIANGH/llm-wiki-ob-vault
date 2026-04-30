@@ -63,7 +63,7 @@ Error recovery uses specialized prompts: `InvalidLLMOutputType` vs generic `Code
 
 ## Related Tools
 
-Differs from [[ai-game-devtools/datarus-jupyter-agent]] (Datarus focuses on automated Jupyter notebook generation for data science, PandasAI focuses on conversational data exploration) and [[ai-game-devtools/langchain]] (LangChain is a general LLM app framework, PandasAI is specialized for DataFrame interaction).
+Differs from [[datarus-jupyter-agent]] (Datarus focuses on automated Jupyter notebook generation for data science, PandasAI focuses on conversational data exploration) and [[langchain]] (LangChain is a general LLM app framework, PandasAI is specialized for DataFrame interaction).
 
 ## Source
 

@@ -11,7 +11,7 @@ sources: [raw/articles/ai-game-devtools/01-project.md]
 
 ## Overview
 
-**01** (OpenInterpreter/01) is an open-source platform for building intelligent voice-controlled devices, inspired by the Rabbit R1 and Star Trek computer. Powered by [[Open Interpreter]], it provides a natural language voice interface that executes code, browses the web, manages files, and controls software on the host machine.
+**01** (OpenInterpreter/01) is an open-source platform for building intelligent voice-controlled devices, inspired by the Rabbit R1 and Star Trek computer. Powered by [[open-interpreter]], it provides a natural language voice interface that executes code, browses the web, manages files, and controls software on the host machine.
 
 Website: https://01.openinterpreter.com/
 Documentation: https://01.openinterpreter.com/
@@ -56,7 +56,7 @@ software/
 
 ## Technology Stack
 
-- **Core agent:** [[Open Interpreter]] — executes Python, shell commands, browsers
+- **Core agent:** [[open-interpreter]] — executes Python, shell commands, browsers
 - **Voice stack:** LiveKit (real-time communication) + Deepgram (STT) + ElevenLabs/Silero (TTS)
 - **Desktop GUI:** pywebview
 - **Tunneling:** ngrok (for `--expose` public URL mode)
@@ -92,7 +92,7 @@ From `CONTEXT.md`:
 
 ## Related Projects
 
-- [[Open Interpreter]] — the core LLM agent powering 01
+- [[open-interpreter]] — the core LLM agent powering 01
 - [[Auto-GPT]] — autonomous agent framework (code execution)
 - [[AgentGPT]] — browser-based agent deployment platform
 - [[LivePortrait]] — voice-driven avatar (related TTS/avatar tech)

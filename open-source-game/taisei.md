@@ -37,7 +37,7 @@ sources: [raw/articles/open-source-games-list-2026.md]
 - `particle/` — 粒子效果系统（弹幕视觉核心）
 - `boss.c` (~46K LOC) — Boss 行为和弹幕编排
 - 大量 `*.glsl` shader 文件用于弹幕视觉效果
-- 弹幕系统是整个项目最核心的技术挑战，与 [[open-source-game/openra]] 等 RTS 的 ECS 架构相比，是完全不同的自研渲染+物理混合设计
+- 弹幕系统是整个项目最核心的技术挑战，与 [[openra]] 等 RTS 的 ECS 架构相比，是完全不同的自研渲染+物理混合设计
 
 ### Entity-Component 架构
 - `entity/` — 实体系统
@@ -88,7 +88,7 @@ sources: [raw/articles/open-source-games-list-2026.md]
 | 方向 | 启示 |
 |------|------|
 | **弹幕 Pattern 生成** | 82K GLSL 代码 + 46K boss.c 是弹幕视觉编排的技术核心；AI 可用于程序化生成弹幕 Pattern |
-| **确定性网络同步** | rng/ + replay/ 系统暗示了帧级确定性；[[open-source-game/openttd]] 也用确定性锁步网络，可对比学习 |
+| **确定性网络同步** | rng/ + replay/ 系统暗示了帧级确定性；[[openttd]] 也用确定性锁步网络，可对比学习 |
 | **轻量渲染管线** | 自研 SDL3+OpenGL 而不用游戏引擎，证明了 2D STG 场景下手写渲染的可行性 |
 | **多平台抽象层** | backend/ 子系统跨 Win/Linux/macOS/Switch/Web 的设计模式值得借鉴 |
-| **数据驱动游戏逻辑** | scm/ 脚本系统 + mod/ 提供内容扩展性；类似 [[open-source-game/opennox]] 的兼容层思路 |
+| **数据驱动游戏逻辑** | scm/ 脚本系统 + mod/ 提供内容扩展性；类似 [[opennox]] 的兼容层思路 |

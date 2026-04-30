@@ -53,6 +53,6 @@ Paper: [Autoregressive Model Beats Diffusion: Llama for Scalable Image Generatio
 - **Requirements:** A100 GPUs, Linux, Python ≥3.7
 
 ## Related
-- Contrasts with diffusion-based approaches like [[ai-game-devtools/flux]] and [[ai-game-devtools/stable-diffusion]]
-- Uses VQ-VAE tokenization similar to [[ai-game-devtools/disco-diffusion]] ecosystem
+- Contrasts with diffusion-based approaches like [[flux]] and [[stable-diffusion]]
+- Uses VQ-VAE tokenization similar to [[disco-diffusion]] ecosystem
 - vLLM serving enables production deployment

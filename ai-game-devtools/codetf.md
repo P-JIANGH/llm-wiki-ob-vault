@@ -41,7 +41,7 @@ Salesforce 开源的 Python Transformer 库，专注于代码大语言模型（C
 
 ## 与同类工具差异
 
-相比 [[ai-game-devtools/codegen]]（仅模型本身），CodeTF 提供完整工具链（推理+微调+评估+数据集+代码工具），将 HuggingFace 230 行 HumanEval 评估代码缩减到 14 行。相比 [[ai-game-devtools/codegeex]] 的专用代码生成定位，CodeTF 是多模型聚合平台，定位为 HuggingFace Transformers 的代码智能增强层而非替代品。与 [[ai-game-devtools/bloop]] 的代码搜索场景不同，CodeTF 专注代码理解和生成。
+相比 [[codegen]]（仅模型本身），CodeTF 提供完整工具链（推理+微调+评估+数据集+代码工具），将 HuggingFace 230 行 HumanEval 评估代码缩减到 14 行。相比 [[codegeex]] 的专用代码生成定位，CodeTF 是多模型聚合平台，定位为 HuggingFace Transformers 的代码智能增强层而非替代品。与 [[bloop]] 的代码搜索场景不同，CodeTF 专注代码理解和生成。
 
 ## 关键信息
 

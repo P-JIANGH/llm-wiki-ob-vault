@@ -67,6 +67,6 @@ sources: [raw/articles/ai-game-devtools/poster-craft.md]
 
 ## 与同类工具差异
 
-- 相比 [[ai-game-devtools/flux]] 和 [[ai-game-devtools/omnigen]] 等通用图像生成模型，PosterCraft 专注**海报场景**的文字渲染美学
+- 相比 [[flux]] 和 [[omnigen]] 等通用图像生成模型，PosterCraft 专注**海报场景**的文字渲染美学
 - 四阶段训练从文字渲染 → 海报微调 → RL 美学优化 → 视觉语言反馈迭代，逐步提升质量
 - 开源模型中文字渲染 SOTA，接近闭源 Gemini 2.0 Flash Gen 水平

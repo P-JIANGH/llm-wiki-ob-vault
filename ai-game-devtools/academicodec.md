@@ -42,16 +42,16 @@ sources: [raw/articles/ai-game-devtools/academicodec.md]
 
 ## 游戏开发应用
 
-1. **音频 Token 提取**：将音频压缩为离散 token，作为 [[ai-game-devtools/musicgen]] 等音频生成模型的训练目标
+1. **音频 Token 提取**：将音频压缩为离散 token，作为 [[musicgen]] 等音频生成模型的训练目标
 2. **TTS 中间特征**：为 VALL-E、InstructTTS 等 TTS 系统提供中间表示
 3. **游戏 NPC 语音**：配合 TTS 模型生成高质量游戏角色语音
 4. **音频压缩**：低码率高保真音频编码，适合游戏资源优化
 
 ## 与其他工具的关系
 
-- HiFi-Codec 的 4-codebook 设计被研究者用于实现 [[ai-game-devtools/musicgen]] 的改进版 VALL-E，证明可以获得更好的音频质量
+- HiFi-Codec 的 4-codebook 设计被研究者用于实现 [[musicgen]] 的改进版 VALL-E，证明可以获得更好的音频质量
 - Encodec 是 `ai-game-devtools/audiocraft`（Meta AudioCraft）的核心组件
-- 与 [[ai-game-devtools/wav2lip]] 等音频驱动视觉模型配合，可构建完整的音视频生成管线
+- 与 [[wav2lip]] 等音频驱动视觉模型配合，可构建完整的音视频生成管线
 
 ## 许可证
 

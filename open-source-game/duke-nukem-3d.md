@@ -85,6 +85,7 @@ Duke Nukem 3D 构建于 Ken Silverman 的 Build Engine（KenBuild）之上，这
 
 ## 相关页面
 
-- [[open-source-game/duke-nukem-3d]]（本页）
-- [[open-source-game/ecwolf]] — 同为 Build Engine 驱动游戏（Wolfenstein 3D）
-- [[open-source-game/open-source-games-list]] — 开源游戏总览
+- [[duke-nukem-3d]]（本页）
+- [[ecwolf]] — 同为 Build Engine 驱动游戏（Wolfenstein 3D）
+- [[open-source-games-list]] — 开源游戏总览
+

@@ -68,7 +68,7 @@ sources: [https://github.com/OpenNefia/OpenNefia]
 
 ## 相关页面
 
-- [[open-source-game/dungeon-crawl-stone-soup]] — 经典 Roguelike 参考
-- [[open-source-game/cataclysm-dark-days-ahead]] — C++ Roguelike 参考
-- [[open-source-game/nethack]] — 经典 Roguelike 参考
-- [[open-source-game/brogue-ce]] — 极简主义 Roguelike 参考
+- [[dungeon-crawl-stone-soup]] — 经典 Roguelike 参考
+- [[cataclysm-dark-days-ahead]] — C++ Roguelike 参考
+- [[nethack]] — 经典 Roguelike 参考
+- [[brogue-ce]] — 极简主义 Roguelike 参考

@@ -63,4 +63,4 @@ NAVER 团队后续工作：
 DUSt3R 可用于游戏中的 3D 场景快速重建：
 - 从实拍照片自动生成游戏场景 3D 模型
 - 替代传统 Photogrammetry 管线（无需 COLMAP 预处理）
-- 与 [[ai-game-devtools/cf-3dgs]]（3D 高斯重建）和 [[ai-game-devtools/crm]]（单图→3D 纹理网格）互补，构成从 2D 到 3D 的完整工具链
+- 与 [[cf-3dgs]]（3D 高斯重建）和 [[crm]]（单图→3D 纹理网格）互补，构成从 2D 到 3D 的完整工具链

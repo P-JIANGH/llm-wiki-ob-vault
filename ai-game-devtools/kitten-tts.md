@@ -69,7 +69,7 @@ for chunk in model.generate_stream("Long text here..."):
 
 ## Comparison with Other TTS
 
-| Feature | Kitten TTS | [[ai-game-devtools/glow-tts]] | [[ai-game-devtools/gpt-sovits]] | [[ai-game-devtools/cosyvoice]] |
+| Feature | Kitten TTS | [[glow-tts]] | [[gpt-sovits]] | [[cosyvoice]] |
 |---|---|---|---|---|
 | Model size | 25-80 MB | ~100 MB | ~1-3 GB | ~3-14 GB |
 | GPU required | No | Training only | Training only | Yes (inference) |

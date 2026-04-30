@@ -50,6 +50,6 @@ DEX-TTS 是基于扩散模型（Diffusion Model）的富有表现力文本转语
 - ⏳ LibriTTS 预处理流程待完善
 
 ## 相关文件
-- [[ai-game-devtools/bert-vits2]] — 另一款开源 TTS 系统（VITS2 + 多语言 BERT）
-- [[ai-game-devtools/chat-tts]] — 对话式 TTS 工具
+- [[bert-vits2]] — 另一款开源 TTS 系统（VITS2 + 多语言 BERT）
+- [[chat-tts]] — 对话式 TTS 工具
 - [[ai-game-devtools/fish-speech]] — 语音合成工具，Bert-VITS2 的后继项目

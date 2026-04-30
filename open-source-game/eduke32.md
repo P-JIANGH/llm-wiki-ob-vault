@@ -41,7 +41,7 @@ sources: []
 - **imgui** — 调试/编辑器 UI
 
 ### 共享 FTEQW 基础设施
-- 与 `[[open-source-game/fteqw]]` 同仓库 (monorepo)
+- 与 `[[fteqw]]` 同仓库 (monorepo)
 - **engine/** 目录为 FTEQW 引擎代码
 - audiolib、glad、voidwrap 等共享库
 
@@ -65,3 +65,4 @@ sources: []
 
 - 清单 URL `github.com/voidpoint-io/eduke32` 不存在，实际为 `voidpoint.io/terminx/eduke32` (GitLab)
 - 此仓库为 FTEQW + EDuke32 monorepo，wiki note 仅覆盖 EDuke32 部分
+

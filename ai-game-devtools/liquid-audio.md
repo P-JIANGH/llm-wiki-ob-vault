@@ -70,7 +70,7 @@ liquid-audio-demo                  # 启动 http://localhost:7860
 
 ## 与其他工具的差异
 
-| 对比维度 | Liquid Audio | [[ai-game-devtools/musicgen]] | [[ai-game-devtools/chat-tts]] |
+| 对比维度 | Liquid Audio | [[musicgen]] | [[chat-tts]] |
 |----------|-------------|-------------------------------|------------------------------|
 | 任务类型 | 端到端语音→语音（含对话） | 文本→音乐生成 | 文本→语音合成 |
 | 生成模式 | 交错/顺序双模式 | 自回归单模式 | 自回归+流式 |

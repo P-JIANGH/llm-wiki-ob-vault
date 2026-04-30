@@ -14,7 +14,7 @@ sources: [raw/articles/ai-game-devtools/llasm.md]
 **LLaSM** (Large Language and Speech Model) 是首个**支持中英文语音-文本多模态对话的开源可商用**对话模型。由 LinkSoul-AI 开发，Apache-2.0 许可。
 
 两个模型变体：
-- **LLaSM-Chinese-Llama-2-7B**：基于 [[ai-game-devtools/chinese-llama-alpaca-3]] Chinese-Llama-2-7b
+- **LLaSM-Chinese-Llama-2-7B**：基于 [[chinese-llama-alpaca-3]] Chinese-Llama-2-7b
 - **LLaSM-Baichuan-7B**：基于 Baichuan-7B
 
 ## Architecture
@@ -56,7 +56,7 @@ python infer.py \
 
 ## Differences from Similar Tools
 
-相比其他语音-语言模型（如 [[ai-game-devtools/voxcpm]]），LLaSM 的特点：
+相比其他语音-语言模型（如 [[voxcpm]]），LLaSM 的特点：
 - **首个开源可商用**中英双语语音助手（Apache-2.0）
 - 基于 Whisper 音频编码器 + Chinese-Llama-2-7B 的组合架构
 - 提供配套 SFT 数据集 `LLaSM-Audio-Instructions`
@@ -64,9 +64,9 @@ python infer.py \
 
 ## Related
 
-- [[ai-game-devtools/chinese-llama-alpaca-3]] — LLaSM 使用的基座模型
-- [[ai-game-devtools/voxcpm]] — OpenBMB 开源语音合成系统（不同方向：TTS 而非 ASR）
-- [[ai-game-devtools/imagebind]] — Meta 多模态模型（音频+图像+文本统一嵌入）
+- [[chinese-llama-alpaca-3]] — LLaSM 使用的基座模型
+- [[voxcpm]] — OpenBMB 开源语音合成系统（不同方向：TTS 而非 ASR）
+- [[imagebind]] — Meta 多模态模型（音频+图像+文本统一嵌入）
 - [Whisper](https://github.com/openai/whisper) — LLaSM 使用的音频编码器
 - [HuggingFace Demo](https://huggingface.co/spaces/LinkSoul/LLaSM)
 - [arXiv Paper](https://arxiv.org/abs/2308.15930)

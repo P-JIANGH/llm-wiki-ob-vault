@@ -82,7 +82,7 @@ Zero-K 的核心特色之一是**真实的物理弹道**：
 
 ## 与 Beyond All Reason (BAR) 的关系
 
-Zero-K 和 [[open-source-game/beyond-all-reason]] 都基于 Spring Engine：
+Zero-K 和 [[beyond-all-reason]] 都基于 Spring Engine：
 - BAR 侧重 Lua三层架构（luarules/luaui/luaai）和 GL4 着色器
 - Zero-K 侧重物理弹道系统、PBR 着色器、和 Gadget 模块化设计
 - BAR 是大型社区 Mod 项目（4.3GB 含资源），Zero-K 是独立原创游戏

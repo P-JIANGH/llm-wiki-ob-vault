@@ -74,8 +74,8 @@ timm, ftfy, regex, einops, iopath, numpy
 
 ## 与同类工具的差异
 
-- 相比 [[ai-game-devtools/cosmos]]（专注视频世界模型），ImageBind 覆盖更广的六模态但不做视频生成
-- 相比 [[ai-game-devtools/corenet]]（通用视觉训练框架），ImageBind 专注于**跨模态对齐**而非单模态训练
+- 相比 [[cosmos]]（专注视频世界模型），ImageBind 覆盖更广的六模态但不做视频生成
+- 相比 [[corenet]]（通用视觉训练框架），ImageBind 专注于**跨模态对齐**而非单模态训练
 - ImageBind 的核心创新是**无需显式配对数据**即可通过图像桥接实现六模态联合嵌入
 
 ---

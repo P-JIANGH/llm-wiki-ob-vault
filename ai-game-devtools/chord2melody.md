@@ -46,7 +46,7 @@ Chord2Melody 是一个基于 GPT-2 的 AI 自动作曲工具，输出标准 MIDI
 
 ## 与同类工具差异
 
-| 维度 | Chord2Melody | [[ai-game-devtools/musicgen]] | [[ai-game-devtools/mug-diffusion]] |
+| 维度 | Chord2Melody | [[musicgen]] | [[mug-diffusion]] |
 |------|-------------|------------------------------|-----------------------------------|
 | 输出格式 | MIDI（可编辑） | 音频波形 | 音游谱面（MIDI-like） |
 | 输入条件 | 和弦进行/已有旋律 | 文本提示/音频/旋律 | 音频波形 |
@@ -67,7 +67,7 @@ Chord2Melody 是一个基于 GPT-2 的 AI 自动作曲工具，输出标准 MIDI
 - 和弦列表: chordlist.txt
 
 ## 与 Wiki 中其他工具的关系
-- 与 [[ai-game-devtools/musicgen]] 互补：Chord2Melody 输出 MIDI 可编辑，MusicGen 直接输出音频
-- 与 [[ai-game-devtools/wavjourney]] 对比：WavJourney 使用 LLM 编排多轨音频创作，Chord2Melody 用 GPT-2 直接生成 MIDI
-- 与 [[ai-game-devtools/mug-diffusion]] 结合：Chord2Melody 生成的 MIDI 可作为音游谱面生成的素材
-- 与 [[ai-game-devtools/any-accomp]] 形成音乐管线：Chord2Melody 生成主旋律 → AnyAccomp 生成伴奏
+- 与 [[musicgen]] 互补：Chord2Melody 输出 MIDI 可编辑，MusicGen 直接输出音频
+- 与 [[wavjourney]] 对比：WavJourney 使用 LLM 编排多轨音频创作，Chord2Melody 用 GPT-2 直接生成 MIDI
+- 与 [[mug-diffusion]] 结合：Chord2Melody 生成的 MIDI 可作为音游谱面生成的素材
+- 与 [[any-accomp]] 形成音乐管线：Chord2Melody 生成主旋律 → AnyAccomp 生成伴奏

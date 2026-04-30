@@ -24,7 +24,7 @@ Make-It-3D 从**单张输入图像**生成完整 360° 3D 模型（带纹理 mes
 
 ## 技术架构
 
-- **NeRF 骨干**：基于 [[ai-game-devtools/stable-dreamfusion]] 代码，支持 tcnn/grid/sdf/vanilla 多种 backbone
+- **NeRF 骨干**：基于 [[stable-dreamfusion]] 代码，支持 tcnn/grid/sdf/vanilla 多种 backbone
 - **扩散引导**：Stable Diffusion 2.0 SDS (Score Distillation Sampling) 损失，新视角渲染→SD 评分→反向传播优化 NeRF
 - **前置处理**：SAM 前景分割 + DPT 单目深度估计 + BLIP2 图像描述生成
 - **加速**：CUDA raymarching 内核（512 步/射线），Adan 优化器
@@ -32,10 +32,10 @@ Make-It-3D 从**单张输入图像**生成完整 360° 3D 模型（带纹理 mes
 
 ## 同类工具对比
 
-- 比 [[ai-game-devtools/dreamgaussian4d]] 更早，专注单图→3D（非动态 4D）
-- 与 [[ai-game-devtools/syncdreamer]] 不同：SyncDreamer 是多视角扩散同步生成，Make-It-3D 是 NeRF+SDS 优化
-- 与 [[ai-game-devtools/hunyuan3d-2-0]] 相比：Hunyuan3D 是两阶段 DiT 形状生成 + PBR 纹理，参数化模型更快；Make-It-3D 是逐场景优化，质量高但耗时长（分钟级）
-- 继承 [[ai-game-devtools/stable-dreamfusion]] 文本→3D 管线，扩展为图像→3D
+- 比 [[dreamgaussian4d]] 更早，专注单图→3D（非动态 4D）
+- 与 [[syncdreamer]] 不同：SyncDreamer 是多视角扩散同步生成，Make-It-3D 是 NeRF+SDS 优化
+- 与 [[hunyuan3d-2-0]] 相比：Hunyuan3D 是两阶段 DiT 形状生成 + PBR 纹理，参数化模型更快；Make-It-3D 是逐场景优化，质量高但耗时长（分钟级）
+- 继承 [[stable-dreamfusion]] 文本→3D 管线，扩展为图像→3D
 
 ## 关键事实
 

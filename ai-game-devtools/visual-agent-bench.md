@@ -46,7 +46,7 @@ VABench is relevant for:
 
 ## Related Projects
 
-- [[ai-game-devtools/agentbench]] — THUDM LLM agent benchmark covering 8 diverse environments
-- [[ai-game-devtools/cogvlm]] — THUDM VLM with GUI Agent capabilities, evaluated on similar benchmarks
-- [[ai-game-devtools/visualrwkv]] — RWKV-based VLM suitable for real-time game scenarios
-- [[ai-game-devtools/ragas]] — LLM evaluation framework, complementary benchmarking approach
+- [[agentbench]] — THUDM LLM agent benchmark covering 8 diverse environments
+- [[cogvlm]] — THUDM VLM with GUI Agent capabilities, evaluated on similar benchmarks
+- [[visualrwkv]] — RWKV-based VLM suitable for real-time game scenarios
+- [[ragas]] — LLM evaluation framework, complementary benchmarking approach

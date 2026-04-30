@@ -31,7 +31,7 @@ BloopAI 的 AI 代码搜索工具，"ChatGPT for your code"。支持自然语言
 
 **核心子系统**：
 - **Tantivy**：全文搜索索引
-- **Qdrant**：语义/向量搜索（[[ai-game-devtools/everything-ai]] 也使用 Qdrant 作为向量数据库）
+- **Qdrant**：语义/向量搜索（[[everything-ai]] 也使用 Qdrant 作为向量数据库）
 - **Tree-sitter**：多语言 AST 解析，支持精确代码导航
 - **ONNX**：端侧 embedding 模型，隐私优先
 
@@ -65,7 +65,7 @@ Apache 2.0
 
 ## 同类对比
 
-与 [[ai-game-devtools/jan]]（另一个基于 Tauri 的本地 LLM 桌面应用）相比：
+与 [[jan]]（另一个基于 Tauri 的本地 LLM 桌面应用）相比：
 - bloop 专注于代码搜索和理解，jan 专注于 LLM 对话和本地推理
 - 两者都使用 Tauri + Rust 后端 + 本地模型
 - bloop 的语义搜索依赖 Qdrant，jan 依赖 llama.cpp

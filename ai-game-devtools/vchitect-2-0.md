@@ -37,7 +37,7 @@ Vchitect-2.0 is an open-source Text-to-Video (T2V) diffusion model by the Vchite
 
 ## Comparison with Related Models
 
-Part of the broader T2V diffusion ecosystem alongside [[ai-game-devtools/hunyuan-video]], [[ai-game-devtools/cogvideox]], and [[ai-game-devtools/open-sora]]. The Parallel Transformer approach differs from the DiT (Diffusion Transformer) architecture used by most competitors, focusing on efficient scaling.
+Part of the broader T2V diffusion ecosystem alongside [[hunyuan-video]], [[cogvideox]], and [[open-sora]]. The Parallel Transformer approach differs from the DiT (Diffusion Transformer) architecture used by most competitors, focusing on efficient scaling.
 
 ## Resources
 

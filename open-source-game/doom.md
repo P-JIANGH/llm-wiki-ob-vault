@@ -92,3 +92,4 @@ John Carmack 在源码注释中坦承设计缺陷：
 > "The movement and line of sight checking against the lines is one of the bigger misses... Replacing the line of sight test with a bsp line clip would be pretty easy."
 
 这种坦诚的自我批评成为开源文化的标杆。源码揭示了 90 年代游戏引擎的设计决策，对理解现代游戏引擎演进有重要教育价值。
+

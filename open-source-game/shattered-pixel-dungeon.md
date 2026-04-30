@@ -114,4 +114,4 @@ shattered-pixel-dungeon/
 ## 相关项目
 
 - `open-source-game/pixel-dungeon` — 原始项目
-- [[open-source-game/cataclysm-dark-days-ahead]] — 另一款知名 Roguelike
+- [[cataclysm-dark-days-ahead]] — 另一款知名 Roguelike

@@ -72,6 +72,6 @@ sources: [raw/articles/open-source-games-list-2026.md]
 
 ## 相关页面
 
-- [[open-source-game/openmw]] — Morrowind 引擎重实现（对比参考）
-- [[open-source-game/daggerfall-unity]] — Daggerfall Unity 重实现
+- [[openmw]] — Morrowind 引擎重实现（对比参考）
+- [[daggerfall-unity]] — Daggerfall Unity 重实现
 - [[open-source-game-engines-comparison]] — 开源游戏引擎对比

@@ -47,7 +47,7 @@ Stability AI 官方生成式模型代码仓库（`sgm` 包），包含 **Stable 
 YAML 配置定义模型/训练/数据设置，通过 `instantiate_from_config()` 构建和组合子模块。`configs/inference/` 包含 SVD/SV3D/SV4D 推理配置，`configs/example_training/` 提供 MNIST、ImageNet、text2img 等训练示例。
 
 ## SVD 架构特点
-- 使用 [[ai-game-devtools/stable-diffusion]] SD 2.1 图像编码器
+- 使用 [[stable-diffusion]] SD 2.1 图像编码器
 - 替换为时间感知的**去闪烁解码器**（deflickering decoder）
 - 支持 Streamlit 和 Gradio 推理界面
 - 内置不可见水印检测脚本
@@ -64,7 +64,7 @@ YAML 配置定义模型/训练/数据设置，通过 `instantiate_from_config()`
 - 大规模训练使用 Stability-AI/datapipelines（webdataset 格式）
 
 ## 与游戏开发的关联
-SVD/SV4D 可用于游戏资产生成（角色动画预览、场景漫游视频、道具多视角展示），SV4D 2.0 支持从简短输入视频生成完整的 4D 资产（多视角+时间），是 AI 辅助游戏内容创作的重要工具。[[ai-game-devtools/comfyui]] 和 `ai-game-devtools/stable-diffusion-web-ui` 等工具链已集成 SVD 推理支持。
+SVD/SV4D 可用于游戏资产生成（角色动画预览、场景漫游视频、道具多视角展示），SV4D 2.0 支持从简短输入视频生成完整的 4D 资产（多视角+时间），是 AI 辅助游戏内容创作的重要工具。[[comfyui]] 和 `ai-game-devtools/stable-diffusion-web-ui` 等工具链已集成 SVD 推理支持。
 
 ## 相关链接
 - GitHub: https://github.com/Stability-AI/generative-models

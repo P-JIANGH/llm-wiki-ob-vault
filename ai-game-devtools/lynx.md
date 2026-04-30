@@ -56,6 +56,6 @@ sources: [raw/articles/ai-game-devtools/lynx.md]
 
 ## 与同类工具对比
 
-- 与 [[ai-game-devtools/hunyuan-video]]（腾讯混元视频）相比：Lynx 侧重**单图个性化**（输入图像保持身份），HunyuanVideo 侧重**通用文生视频**质量（13B 参数、运动质量排名 #1）；两者基础架构不同（Wan2.1 vs 自研 DiT）。
-- 与 [[ai-game-devtools/cogvideox]]（智谱 CogVideoX）相比：Lynx 是图像条件生成（image-to-video），CogVideoX 主要是文本条件生成（text-to-video），且提供更完整的微调工具链。
-- 与 [[ai-game-devtools/hunyuanvideo-avatar]]（混元音频驱动角色）相比：Lynx 通过文本 prompt 驱动动作，HunyuanVideo-Avatar 通过音频驱动口型同步。
+- 与 [[hunyuan-video]]（腾讯混元视频）相比：Lynx 侧重**单图个性化**（输入图像保持身份），HunyuanVideo 侧重**通用文生视频**质量（13B 参数、运动质量排名 #1）；两者基础架构不同（Wan2.1 vs 自研 DiT）。
+- 与 [[cogvideox]]（智谱 CogVideoX）相比：Lynx 是图像条件生成（image-to-video），CogVideoX 主要是文本条件生成（text-to-video），且提供更完整的微调工具链。
+- 与 [[hunyuanvideo-avatar]]（混元音频驱动角色）相比：Lynx 通过文本 prompt 驱动动作，HunyuanVideo-Avatar 通过音频驱动口型同步。

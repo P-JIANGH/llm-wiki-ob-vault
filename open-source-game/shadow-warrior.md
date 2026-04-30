@@ -28,7 +28,7 @@ sources: []
 ## 核心技术点
 
 ### Build Engine 架构
-Shadow Warrior 与 [[open-source-game/duke-nukem-3d]] 共用 Ken Silverman 的 Build Engine，采用 **Sector/Portal 渲染** 架构：
+Shadow Warrior 与 [[duke-nukem-3d]] 共用 Ken Silverman 的 Build Engine，采用 **Sector/Portal 渲染** 架构：
 - 地图由 `SECTOR`（扇区）和 `WALL`（墙体）构成，支持复杂室内外混合空间
 - `MAXSECTORS`、`MAXWALLS`、`MAXSPRITES` 定义资源上限
 - BSP 树用于渲染排序（先墙后地后 sprite）
@@ -80,7 +80,7 @@ Shadow Warrior 与 [[open-source-game/duke-nukem-3d]] 共用 Ken Silverman 的 B
 
 | 方向 | 启示 |
 |------|------|
-| 引擎/游戏代码分离 | [[open-source-game/duke-nukem-3d]] 的 Build 引擎预编译 + 游戏源码分离模式，可实现引擎跨游戏复用 |
+| 引擎/游戏代码分离 | [[duke-nukem-3d]] 的 Build 引擎预编译 + 游戏源码分离模式，可实现引擎跨游戏复用 |
 | 模块化敌人 AI | `ai.c` + `actor.c` 分层设计（状态机 + 执行器），适合 [[multi-agent-ai-game-impl]] 中的 AI 决策链路 |
 | 资源缓存架构 | `cache.c` 的 LRU 缓存模式可用于游戏资产（纹理/声音）的按需加载 |
 | 数据驱动设计 | `.def` 文件定义 Actor/Weapon 参数，无需改代码即可调整游戏平衡 |
@@ -88,6 +88,6 @@ Shadow Warrior 与 [[open-source-game/duke-nukem-3d]] 共用 Ken Silverman 的 B
 
 ## 关联页面
 
-- [[open-source-game/duke-nukem-3d]] — 同引擎 FPS，对比研究 Build 引擎差异
-- [[open-source-game/ecwolf]] — Wolfenstein 3D 端口，与 Shadow Warrior 同期 3D Realms 产品
-- [[open-source-game/uzdoom]] — DOOM 系端口，参考现代源码端口的维护模式
+- [[duke-nukem-3d]] — 同引擎 FPS，对比研究 Build 引擎差异
+- [[ecwolf]] — Wolfenstein 3D 端口，与 Shadow Warrior 同期 3D Realms 产品
+- [[uzdoom]] — DOOM 系端口，参考现代源码端口的维护模式

@@ -47,10 +47,10 @@ sources: []
 
 ## Related Karpathy Projects
 
-- [[ai-game-devtools/nanogpt]] — Minimal GPT training code (~300 lines), distilled from this course
-- [[ai-game-devtools/nanochat]] — Minimal chatbot training pipeline, even simpler than nanoGPT
-- [[ai-game-devtools/llama2-c]] — Karpathy's pure C Llama 2 inference, extending the educational approach
-- [[ai-game-devtools/autoresearch]] — Autonomous LLM research framework
+- [[nanogpt]] — Minimal GPT training code (~300 lines), distilled from this course
+- [[nanochat]] — Minimal chatbot training pipeline, even simpler than nanoGPT
+- [[llama2-c]] — Karpathy's pure C Llama 2 inference, extending the educational approach
+- [[autoresearch]] — Autonomous LLM research framework
 
 ## Game Development Relevance
 
@@ -61,7 +61,7 @@ sources: []
 
 ## Why It Matters
 
-Karpathy's course is widely regarded as the best free resource for understanding LLM internals. For game developers looking to integrate LLMs (via [[ai-game-devtools/llama-cpp]], [[ai-game-devtools/vllm]], or other engines), this course provides the foundational knowledge to make informed decisions about model selection, fine-tuning, and deployment.
+Karpathy's course is widely regarded as the best free resource for understanding LLM internals. For game developers looking to integrate LLMs (via [[llama-cpp]], [[vllm]], or other engines), this course provides the foundational knowledge to make informed decisions about model selection, fine-tuning, and deployment.
 
 ## References
 

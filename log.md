@@ -1,3 +1,15 @@
+## [2026-04-30] ingest | Wiki sync from /home/jianghao/wiki
+- Action: Synced all new content from /home/jianghao/wiki to /home/jianghao/llm-wiki-ob-vault
+- Copied raw/articles: open-design-2026.md, open-codesign-2026.md, oh-my-opencode-2026.md, opencode-ai-2026.md, learn-claude-code-2026.md, huashu-design-2026.md, multica-2026.md, officecli-2026.md, guizang-ppt-skill-2026.md, nanobot-readme-2026.md (+ 22 other raw articles already synced)
+- Created entities: open-design.md, open-codesign.md, oh-my-opencode.md, opencode.md, learn-claude-code.md, huashu-design.md, multica.md, officecli.md, guizang-ppt-skill.md
+- Copied 51 missing entities from wiki: claude-code, cursor, ollama, deepseek, qwen, llama, chatgpt, mistral, stable-diffusion, unity, godot, gemini, musicgen, whisper, cogvideo, phi, baichuan, chatglm, llama-2, llama-cpp, llava-next, localai, lora, minicpm-v, mlc-llm, musicgen, nanochat, nerf, nyan, trial, wesnoth, etc.
+- Copied 56 missing concepts from wiki: llm, diffusion-models, multimodal-models, vllm, sglang, llamaindex, rag-systems, mcp, autogen, game-designer, creative-director, claude-code-game-studio-directory-structure, etc.
+- Copied comparisons: nanobot-vs-opencode.md
+- Copied ai-game-devtools: visualagentbench.md
+- Fixed index.md corruption (removed duplicate line number columns)
+- Updated: index.md header (610 → 819 pages, 2026-04-26 → 2026-04-30)
+- Note: 728 pages missing from index.md navigation — needs bulk index regeneration
+
 ## [2026-04-26] ingest | Mistral 7B
 - Source: https://mistral.ai/news/announcing-mistral-7b/ (web extract; non-GitHub)
 - Created: raw/articles/ai-game-devtools/mistral-7b.md

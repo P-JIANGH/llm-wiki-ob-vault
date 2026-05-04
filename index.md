@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-04-30 | 819 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-05-04 | 822 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -39,12 +39,13 @@
 | [[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval 工作流、文件写入协议、决策 UI 模式 |
 || [[hermes-agent]] — 生产级 AI Agent 框架：工具注册中心 / 持久 Async Loop / 并行执行 / Context Compression / 13+ 消息平台网关 |
 || [[gstack]] — Garry Tan 的 AI 软件工厂：23 个 Skills 把 Claude Code 变虚拟工程团队（CEO/设计师/QA/发布工程师），60天 600K+ LOC，71.3K stars |
-|| [[qwen-agent]] — 阿里 Qwen 团队 LLM Agent 框架：Qwen Chat 后端、工具调用/RAG/代码解释器/MCP/多智能体群聊、Docker 沙箱、1M+ token 超长文档 QA，Apache 2.0 |
-|| [[swe-agent]] — Princeton+Stanford 开源 Agent Computer Interface：LLM 自主修复 GitHub issue、EnIGMA 网络安全模式、YAML 配置驱动、SWE-bench SoTA，NeurIPS 2024，MIT |
-||| [[taskgen]] — 基于任务的 Agent 框架：StrictJSON 结构化输出、自动任务分解、分层 Agent、函数 RAG、Shared Variables 多模态共享，MIT |
-||| [[pi-mono]] — badlogic AI agent 工具链 monorepo：coding agent CLI + 统一 LLM API（TUI/web UI/Slack bot/vLLM pods），MIT |
-||| [[pi-coding-agent]] — pi 交互式终端 coding agent：append-only JSONL session 树 / 60+ 扩展事件 / Skills 系统 / 4 种运行模式，TypeScript，MIT |
-|
+||| [[ai-game-devtools/qwen-agent]] — 阿里 Qwen 团队 LLM Agent 框架：Qwen Chat 后端、工具调用/RAG/代码解释器/MCP/多智能体群聊、Docker 沙箱、1M+ token 超长文档 QA，Apache 2.0 |
+||| [[ai-game-devtools/swe-agent]] — Princeton+Stanford 开源 Agent Computer Interface：LLM 自主修复 GitHub issue、EnIGMA 网络安全模式、YAML 配置驱动、SWE-bench SoTA，NeurIPS 2024，MIT |
+|||| [[ai-game-devtools/taskgen]] — 基于任务的 Agent 框架：StrictJSON 结构化输出、自动任务分解、分层 Agent、函数 RAG、Shared Variables 多模态共享，MIT |
+|||| [[ai-game-devtools/pi-mono]] — badlogic AI agent 工具链 monorepo：coding agent CLI + 统一 LLM API（TUI/web UI/Slack bot/vLLM pods），MIT |
+|||| [[ai-game-devtools/pi-coding-agent]] — pi 交互式终端 coding agent：append-only JSONL session 树 / 60+ 扩展事件 / Skills 系统 / 4 种运行模式，TypeScript，MIT |
+| [[deepseek-tui]] — DeepSeek-TUI v0.8.9：Rust TUI Coding Agent，1M-token 上下文 / RLM Python REPL / Subagent 调度 / MCP Client / 7 种交互模式，vs OpenCode/Codex CLI |
+
 ## Concepts
 
 ||| [[registry-pattern-tool-discovery]] — 中心注册表模式：ToolRegistry 单例集中注册 + check_fn 环境检查，hermes-agent 核心架构 |
@@ -62,8 +63,11 @@
 | [[concepts/deer-flow-memory]] — DeerFlow 的长期记忆系统，通过 LLM 从对话中提取结构化事实并持久化，在后续交互中自动注入上下文。 |
 | [[concepts/deer-flow-runtime]] — DeerFlow 中 LangGraph agent 的执行环境，包括：RunManager（生命周期）、StreamBridge（流式解耦）、Checkpointer（状态持久化）、Store（KV存储）。 |
 | [[concepts/deer-flow-sandbox]] — DeerFlow 的隔离执行环境，通过虚拟路径映射让 Agent 操作文件/命令而不暴露 host 系统结构。 |
-| [[concepts/deer-flow-subagent]] — DeerFlow 中将复杂任务委托给后台子 Agent 执行的机制，核心是 SubagentExecutor + 三线程池架构。 |
-| [[concepts/eino-framework]] — Eino Framework |
+|| [[concepts/deer-flow-subagent]] — DeerFlow 中将复杂任务委托给后台子 Agent 执行的机制，核心是 SubagentExecutor + 三线程池架构。 |
+|| [[deepseek-tui-memory]] — DeepSeek-TUI 用户记忆系统：跨会话持久化 Markdown 笔记，注入 system prompt，remember 工具自动批准 |
+|| [[deepseek-tui-runbook]] — DeepSeek-TUI 运维手册：incident 响应、崩溃恢复、状态文件路径、键盘快捷键 |
+|| [[deepseek-tui-coordinator]] — DeepSeek-TUI 多 Agent Sprint 协调模式：git worktree 隔离、并行子 Agent、合并顺序、冲突矩阵 |
+|| [[concepts/eino-framework]] — Eino Framework |
 | [[concepts/fincept-terminal-architecture]] — Fincept Terminal v4 是纯原生 C++20 桌面应用，使用 Qt6 做 UI 和渲染，嵌入 Python 3.11+ 做分析引擎，在单一原生二进制中提供 Bloomberg Terminal 级别的性能。跨 Windows/macOS/Linux 三平台。 |
 | [[concepts/fincept-ai-agents]] — Fincept 内置 37 个 AI Agent，Trader/Investor 人格（Buffett/Graham/Lynch/Munger/Klarman/Marks...）、经济分析、地缘政治，Agno 框架驱动，支持多模型/工具调用/团队协作 |
 | [[concepts/fincept-auth-system]] — JWT 登录 + OTP/MFA 验证 + PIN 锁屏 + 会话恢复 + 设备 ID 生成，多层安全认证体系 |

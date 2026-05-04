@@ -1,6 +1,18 @@
 ## [2026-04-30] ingest | Wiki sync from /home/jianghao/wiki
+- Source: ~/DeepSeek-TUI/ (full project read: README.md, README.zh-CN.md, Cargo.toml, AGENTS.md, PROMPT_ANALYSIS.md, V086_BRIEF.md, DEPENDENCY_GRAPH.md, config.example.toml, docs/ARCHITECTURE.md, docs/MODES.md, docs/MCP.md, docs/SUBAGENTS.md, docs/TOOL_SURFACE.md)
+- Updated: entities/deepseek-tui.md (major update)
+  - Version: v0.8.9 (workspace, was v0.8.8 in wiki)
+  - Added full workspace crates map + dependency graph layers
+  - Added RLM Tool Patterns (CHUNK/BATCH/RECURSE)
+  - Added Session Longevity critical warning (6 survival rules for multi-hour sprints)
+  - Added Provider Support table (deepseekCN China, NVIDIA NIM, Fireworks, SGLang)
+  - Added sub-agent role taxonomy table (7 roles: general/explore/plan/review/implementer/verifier/custom)
+  - Added System Prompt "Mismanaged Genius" hypothesis (7 gaps in current prompt design)
+  - Updated tool system with full sub-agent tools
+- Updated sources in frontmatter to include AGENTS.md, PROMPT_ANALYSIS.md, SUBAGENTS.md, Cargo.toml
+- Note: Wiki entity page existed but was incomplete; this was a deep re-read with major updates
 - Action: Synced all new content from /home/jianghao/wiki to /home/jianghao/llm-wiki-ob-vault
-- Copied raw/articles: open-design-2026.md, open-codesign-2026.md, oh-my-opencode-2026.md, opencode-ai-2026.md, learn-claude-code-2026.md, huashu-design-2026.md, multica-2026.md, officecli-2026.md, guizang-ppt-skill-2026.md, nanobot-readme-2026.md (+ 22 other raw articles already synced)
+- 重新完整学习 DeepSeek-TUI 项目源码及全部文档，新增 3 个概念页面：[[deepseek-tui-runbook]]（运维手册）、[[deepseek-tui-coordinator]]（Sprint 协调模式）、[[deepseek-tui-memory]]（用户记忆系统）；更新 [[deepseek-tui]] entity 页 sources 包含全部 15 个文档，补充 accessibility、user memory、operations runbook、runtime API、multi-agent coordinator pattern 等章节 |
 - Created entities: open-design.md, open-codesign.md, oh-my-opencode.md, opencode.md, learn-claude-code.md, huashu-design.md, multica.md, officecli.md, guizang-ppt-skill.md
 - Copied 51 missing entities from wiki: claude-code, cursor, ollama, deepseek, qwen, llama, chatgpt, mistral, stable-diffusion, unity, godot, gemini, musicgen, whisper, cogvideo, phi, baichuan, chatglm, llama-2, llama-cpp, llava-next, localai, lora, minicpm-v, mlc-llm, musicgen, nanochat, nerf, nyan, trial, wesnoth, etc.
 - Copied 56 missing concepts from wiki: llm, diffusion-models, multimodal-models, vllm, sglang, llamaindex, rag-systems, mcp, autogen, game-designer, creative-director, claude-code-game-studio-directory-structure, etc.

@@ -1,3 +1,17 @@
+## [2026-05-06] ingest | vue-termui 项目源码分析
+- Source: ~/vue-termui/ 完整源码分析
+- Files created: entities/vue-termui.md（13KB 完整分析）
+- 覆盖: 架构概览 / 核心模块 / Agent-TUI 可行性分析 / 技术对比
+- 结论: vue-termui 可作为 Agent-TUI 的 UI 渲染层，但 Agent Loop / 流式输出 / 多区域布局需自行补充
+
+## [2026-05-06] create | Agent-CLI/TUI 学习路径
+- Created: concepts/agent-cli-tui-learning-path.md
+- Topic: 构建 Agent-CLI/TUI 所需的核心知识体系与入手路径
+- Content synthesized from wiki knowledge: agent-loop, pi-coding-agent, aworld, deepseek-tui, nanobot, hermes-agent, agent-laboratory
+- Sections: 核心概念、6个参考实现（pi-coding-agent/aworld/deepseek-tui/nanobot/hermes-agent/agent-laboratory）、架构组件分解、学习顺序建议（4周）、技术选型、刻意不做清单
+- Related pages: concepts/agent-loop, entities/pi-coding-agent, entities/aworld, entities/deepseek-tui, entities/pi-mono, entities/agent-laboratory, concepts/registry-pattern-tool-discovery, comparisons/nanobot-vs-opencode
+- Updated: index.md (added entry, bumped count 822→823)
+
 ## [2026-04-30] ingest | Wiki sync from /home/jianghao/wiki
 - Source: ~/DeepSeek-TUI/ (full project read: README.md, README.zh-CN.md, Cargo.toml, AGENTS.md, PROMPT_ANALYSIS.md, V086_BRIEF.md, DEPENDENCY_GRAPH.md, config.example.toml, docs/ARCHITECTURE.md, docs/MODES.md, docs/MCP.md, docs/SUBAGENTS.md, docs/TOOL_SURFACE.md)
 - Updated: entities/deepseek-tui.md (major update)

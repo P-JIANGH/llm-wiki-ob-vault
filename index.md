@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-04 | 822 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-05-06 | 824 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -44,6 +44,7 @@
 |||| [[ai-game-devtools/taskgen]] — 基于任务的 Agent 框架：StrictJSON 结构化输出、自动任务分解、分层 Agent、函数 RAG、Shared Variables 多模态共享，MIT |
 |||| [[ai-game-devtools/pi-mono]] — badlogic AI agent 工具链 monorepo：coding agent CLI + 统一 LLM API（TUI/web UI/Slack bot/vLLM pods），MIT |
 |||| [[ai-game-devtools/pi-coding-agent]] — pi 交互式终端 coding agent：append-only JSONL session 树 / 60+ 扩展事件 / Skills 系统 / 4 种运行模式，TypeScript，MIT |
+| [[entities/vue-termui]] — Vue 3 + Yoga Layout 的 TUI 框架：Flexbox 布局 / ANSI 渲染 / HMR / 焦点管理，可作为 Agent-TUI 的 UI 渲染层（逻辑需自建） |
 | [[deepseek-tui]] — DeepSeek-TUI v0.8.9：Rust TUI Coding Agent，1M-token 上下文 / RLM Python REPL / Subagent 调度 / MCP Client / 7 种交互模式，vs OpenCode/Codex CLI |
 
 ## Concepts
@@ -54,6 +55,7 @@
 | [[agent-loop-architecture]] — AI Agent 循环架构：持久 Async Loop、并行工具执行、迭代预算控制 |
 | [[openai-tool-calling]] — OpenAI Tool Calling 协议解析：参数类型强制、工具对完整性、多 Provider 格式适配 |
 | [[concepts/agent-loop]] — AI Agent 的核心执行循环模式：LLM 与工具之间反复交互，直到任务完成或达到迭代上限。 |
+| [[concepts/agent-cli-tui-learning-path]] — 构建 Agent-CLI/TUI 的系统入手路径：核心概念 + 6个参考实现 + 架构组件分解 + 学习顺序 + 技术选型建议 |
 | [[concepts/agent-swarm]] — 一种多 Agent 协作架构模式：多个专用 Agent 在一个 Leader 协调下组成团队，共享任务、消息和工作空间，自主完成复杂目标。 |
 | [[concepts/ai-agent-development-platform]] — AI Agent Development Platform |
 | [[concepts/autonomous-llm-research]] — Human 提供： 1. 可修改的代码（train.py） 2. 固定评估标准（prepare.py/valbpb） 3. Agent 指令（program.md） |

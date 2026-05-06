@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-06 | 824 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-05-06 | 826 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -20,6 +20,7 @@
 || [[01-project]] — OpenInterpreter 开源语音接口设备：Open Interpreter 驱动自然语言控制电脑，LiveKit 实时语音 + Deepgram STT + ElevenLabs TTS，支持 ESP32/桌面/移动端，AGPL |
 | [[open-deep-research]] — dzhng/Duet 深度研究 Agent：Firecrawl 搜索爬取 + o3-mini/R1 模型，递归深度搜索 + 并发处理，<500 LoC 极简实现，MIT |
 | [[open-interpreter]] — KillianLucas 本地代码执行 LLM 助手：自然语言→终端/浏览器/文件操作，OpenAI 兼容 API，MIT，让 AI 直接操控你的电脑 |
+| [[openharness]] — HKUDS Claude Code 开源 Python 实现：43+工具/Agent Loop/Skills/Plugins/MCP/Memory/Multi-Agent/React TUI，oh+ohmo 双CLI，MIT |
 | [[llocal-search]] — nilsherzig 本地 AI 搜索 Agent：Ollama + langchaingo + SearXNG + ChromaDB，完全本地运行无需 API Key，MIT |
 || [[logic-games-solver]] — fabridigua AI 解数独/Stars/Skyscrapers 逻辑游戏：OpenCV 透视变换 + Keras CNN（MNIST）识别 + CSP 回溯求解，Python/TensorFlow |
 | [[aios]] — agiresearch AI Agent 操作系统：LLM 内核抽象层（调度/记忆/存储/工具），COLM 2025 论文，支持 OpenAGI/AutoGen/MetaGPT，Remote Kernel 模式支持边缘设备 |
@@ -45,6 +46,7 @@
 |||| [[ai-game-devtools/pi-mono]] — badlogic AI agent 工具链 monorepo：coding agent CLI + 统一 LLM API（TUI/web UI/Slack bot/vLLM pods），MIT |
 |||| [[ai-game-devtools/pi-coding-agent]] — pi 交互式终端 coding agent：append-only JSONL session 树 / 60+ 扩展事件 / Skills 系统 / 4 种运行模式，TypeScript，MIT |
 | [[entities/vue-termui]] — Vue 3 + Yoga Layout 的 TUI 框架：Flexbox 布局 / ANSI 渲染 / HMR / 焦点管理，可作为 Agent-TUI 的 UI 渲染层（逻辑需自建） |
+| [[entities/ruflo]] — Claude Flow / RuFlo 多 Agent 编排框架：100+ agents / MCP 300+ tools / HNSW 记忆 / 自学习 / 联邦安全通信，面向 Claude Code 的企业级 Agent 协作层 |
 | [[deepseek-tui]] — DeepSeek-TUI v0.8.9：Rust TUI Coding Agent，1M-token 上下文 / RLM Python REPL / Subagent 调度 / MCP Client / 7 种交互模式，vs OpenCode/Codex CLI |
 
 ## Concepts

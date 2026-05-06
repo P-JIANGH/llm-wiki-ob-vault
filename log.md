@@ -1,3 +1,14 @@
+## [2026-05-06] ingest | OpenHarness 项目源码分析
+- Source: ~/OpenHarness 完整源码分析（README.md / CHANGELOG.md / 核心模块源码）
+- Files created: raw/articles/openharness-2026.md, entities/openharness.md
+- 覆盖: 10子系统架构（Engine/Tools/Skills/Plugins/Permissions/Hooks/Commands/MCP/Memory/Swarm）、ohmo personal agent、Provider 体系、React TUI
+- 结论: Claude Code 的开源 Python 实现，Harness = Tools + Knowledge + Observation + Action + Permissions，oh+ohmo 双CLI，MIT
+## [2026-05-06] ingest | ruflo 项目源码分析
+- Source: ~/ruflo/ 完整源码分析
+- Files created: entities/ruflo.md（12KB 完整分析）
+- 覆盖: 架构总览 / V3 模块结构 / SwarmCoordinator / MCPServer / CLI / Hooks / 自学习 / 安全特性 / Web UI / 插件生态
+- 结论: Ruflo 是面向 Claude Code 的 Agent 编排层，非 LLM 非 Agent，包含 MCP Server + CLI + 100+ Agent 定义 + HNSW 记忆
+
 ## [2026-05-06] ingest | vue-termui 项目源码分析
 - Source: ~/vue-termui/ 完整源码分析
 - Files created: entities/vue-termui.md（13KB 完整分析）

@@ -1,3 +1,9 @@
+## [2026-05-06] ingest | OpenWolf 项目源码分析
+- Source: ~/openwolf 完整源码分析
+- Files created: raw/articles/openwolf-2026.md, entities/openwolf.md
+- 覆盖: 6 Hook 机制（session-start/pre-read/post-read/pre-write/post-write/stop）、.wolf/ 目录结构、extractDescription 智能描述提取、bug 自动检测、Cerebrum 黑名单、Daemon/Cron 系统、Design QC、init 初始化流程
+- 结论: Claude Code 第二大脑，AGPL-3.0，~80% token 节省，6 个纯 Node.js Hook 无感知注入
+
 ## [2026-05-06] ingest | OpenHarness 项目源码分析
 - Source: ~/OpenHarness 完整源码分析（README.md / CHANGELOG.md / 核心模块源码）
 - Files created: raw/articles/openharness-2026.md, entities/openharness.md

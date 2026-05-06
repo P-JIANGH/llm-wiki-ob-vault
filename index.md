@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-06 | 826 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-05-06 | 827 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -21,6 +21,7 @@
 | [[open-deep-research]] — dzhng/Duet 深度研究 Agent：Firecrawl 搜索爬取 + o3-mini/R1 模型，递归深度搜索 + 并发处理，<500 LoC 极简实现，MIT |
 | [[open-interpreter]] — KillianLucas 本地代码执行 LLM 助手：自然语言→终端/浏览器/文件操作，OpenAI 兼容 API，MIT，让 AI 直接操控你的电脑 |
 | [[openharness]] — HKUDS Claude Code 开源 Python 实现：43+工具/Agent Loop/Skills/Plugins/MCP/Memory/Multi-Agent/React TUI，oh+ohmo 双CLI，MIT |
+| [[openwolf]] — Claude Code 第二大脑：6 Hook 脚本实现项目索引+记忆累积+Token 追踪，节省 ~80% tokens，AGPL-3.0 |
 | [[llocal-search]] — nilsherzig 本地 AI 搜索 Agent：Ollama + langchaingo + SearXNG + ChromaDB，完全本地运行无需 API Key，MIT |
 || [[logic-games-solver]] — fabridigua AI 解数独/Stars/Skyscrapers 逻辑游戏：OpenCV 透视变换 + Keras CNN（MNIST）识别 + CSP 回溯求解，Python/TensorFlow |
 | [[aios]] — agiresearch AI Agent 操作系统：LLM 内核抽象层（调度/记忆/存储/工具），COLM 2025 论文，支持 OpenAGI/AutoGen/MetaGPT，Remote Kernel 模式支持边缘设备 |

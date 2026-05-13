@@ -399,3 +399,10 @@
 - Created: ai-game-devtools/pi-coding-agent.md
 - Updated: index.md (added pi-mono and pi-coding-agent entries)
 - Note: badlogic monorepo, 3,805+ commits, 203 releases, MIT. Coding agent CLI + unified LLM API (20+ providers) + TUI/web UI + Slack bot + vLLM pods. pi-coding-agent: append-only JSONL session trees, 60+ extension event types, Skills system, 4 run modes.
+
+## [2026-05-13] create | Agentic System Designer 职业路径
+- Created: concepts/agentic-system-designer-career-path.md
+- Topic: AI Agent 系统设计师的完整职业路径文档
+- 覆盖: 定义 / 市场供需 / 薪资 / 与传统角色对比 / Tier 1-3 技能树 / 3月入门→6月实战学习路径 / 招聘公司 / 常见误区 / 10 年经验全栈开发者转型建议
+- Sources: web search (BOSS直聘/Liepin/Gartner/Precedence Research/BCG)
+- Related pages: hermes-agent, agent-loop-architecture, multi-agent-ai-simulation, concepts/agent-swarm, gstack

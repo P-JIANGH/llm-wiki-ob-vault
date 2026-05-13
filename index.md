@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with one-line summary.
 > Read this first to find relevant pages for any query.
-> Last updated: 2026-05-06 | 827 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
+> Last updated: 2026-05-13 | 828 | Note: Open Source Games section is partial (65/153 games indexed; all 153 games exist in open-source-game/ directory)
 
 ## AI / LLM / Agent
 
@@ -91,6 +91,7 @@
 | [[concepts/pubsub-pattern]] — 发布/订阅模式是一种消息传递范式， publishers（发布者）和 subscribers（订阅者）通过 topic（主题）解耦。发布者不知道谁在订阅，订阅者不知道谁在发布。 |
 | [[concepts/quantlib-integration]] — QuantLib 封装层，18 个量化分析模块：期权定价/风险管理/随机过程/波动率建模/固定收益 |
 | [[concepts/python-integration]] — C++ 通过 PythonRunner (QProcess 子进程) 调用 scripts/ 下 100+ Python 脚本。脚本输出 JSON 到 stdout，C++ 解析后通过 DataHub 分发。 |
+| [[concepts/agentic-system-designer-career-path]] — AI Agent 系统设计师职业路径：核心技能树 / 市场供需 / 学习路径（3月→6月）/ 与传统角色的对比 / 适合 10 年经验全栈开发者的转型建议 |
 
 ## Game Projects & Studios
 

@@ -19,6 +19,6 @@ sources: []
 
 ## 相关
 
-- [[Unity]] — 游戏引擎
+- Unity — 游戏引擎
 - [[nanobot]] — AI Agent 框架
 - [[llm-inference]] — 推理技术

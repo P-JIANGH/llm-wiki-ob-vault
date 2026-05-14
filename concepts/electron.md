@@ -23,7 +23,7 @@ Electron is a framework for building desktop applications with web technologies 
 
 ## Relationship to Other Projects
 
-- Used by [[Unity]] for the Unity web player (legacy)
+- Used by Unity for the Unity web player (legacy)
 - Alternative to [[Tauri]] (Rust-based) for lightweight desktop apps
 - Related to [[desktop-app]] tool category
 

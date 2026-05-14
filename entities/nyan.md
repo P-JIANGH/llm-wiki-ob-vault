@@ -13,4 +13,4 @@ sources: []
 
 ## 相关
 
-- [[open-source-game]] — 开源游戏总览
+- open-source-game — 开源游戏总览

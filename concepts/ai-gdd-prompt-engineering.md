@@ -154,6 +154,6 @@ This makes the tool **self-contained** — it works even without the docs direct
 ## Related Pages
 
 - [[opengame]] — OpenGame AI game generation framework
-- [[game-design-document]] — General GDD templates
+- game-design-document — General GDD templates
 - [[agent-loop-architecture]] — AI Agent execution loop patterns
 - [[claude-code-game-studio-architecture]] — 49-Agent game studio architecture

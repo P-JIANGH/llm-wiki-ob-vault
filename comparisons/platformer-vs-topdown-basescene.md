@@ -155,6 +155,6 @@ Both use the same **Template Method Pattern** (`createBaseElements()` + `baseUpd
 ## Related Pages
 
 - [[opengame]] — OpenGame AI game generation framework
-- [[phaser-vue-integration]] — Phaser 3 + Vue 3 integration
-- [[game-design-document]] — GDD templates and guidelines
+- phaser-vue-integration — Phaser 3 + Vue 3 integration
+- game-design-document — GDD templates and guidelines
 - [[godot-vs-unity-unreal]] — Engine comparison for context

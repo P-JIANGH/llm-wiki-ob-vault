@@ -108,10 +108,10 @@
 
 ## Game Dev
 
-| [[godot-4]] — Godot 4 引擎：GDScript、Jolt Physics、XR、版本历史 |
-| [[gdscript-patterns]] — GDScript 10 种设计模式（单例/Signal/Lambda/寻路/物理检测） |
-|| [[phaser-4-migration]] — Phaser 3 → Phaser 4 迁移指南：渲染器重写、Filter 统一、API 变更、移除功能 |
-|| [[phaser-vue-integration]] — Phaser 3 + Vue 3 + TypeScript 官方模板与实战：Registry/Pinia 状态桥梁、生命周期管理 |
+| godot-4 — Godot 4 引擎：GDScript、Jolt Physics、XR、版本历史 |
+| gdscript-patterns — GDScript 10 种设计模式（单例/Signal/Lambda/寻路/物理检测） |
+|| phaser-4-migration — Phaser 3 → Phaser 4 迁移指南：渲染器重写、Filter 统一、API 变更、移除功能 |
+|| phaser-vue-integration — Phaser 3 + Vue 3 + TypeScript 官方模板与实战：Registry/Pinia 状态桥梁、生命周期管理 |
 || [[godot-animation-system]] — AnimatedSprite2D 帧动画 + CharacterController 状态机 |
 || [[godot-networking]] — 高级多人游戏 API：Scene Replication / RPC / MultiplayerPeer / 权威模式 |
 || [[godot-rendering-system]] — 三大渲染器（Forward+/Mobile/Compatibility）、7种 Shader Processor、Visual Shader |
@@ -122,9 +122,9 @@
 || [[opengame]] — OpenGame AI游戏生成框架：自然语言描述→Phaser 3游戏，5种游戏原型模板，三层Prompt工程约束 |
 || [[platformer-vs-topdown-basescene]] — OpenGame BaseScene架构对比：Platformer vs Top-Down，1D/2D击退、Y-Sort、Arena系统差异 |
 || [[ai-gdd-prompt-engineering]] — OpenGame GDD生成Prompt工程：Hook Integrity、Zero Custom Code、模板强制约束 |
-|| [[game-design-document]] — 游戏设计文档 GDD 模板与指南：One Pager、核心循环、范围控制 |
+|| game-design-document — 游戏设计文档 GDD 模板与指南：One Pager、核心循环、范围控制 |
 || [[gdd-reincarnator-v2]] — 转生者模拟器 v2 One Pager GDD：核心循环、USP、系统概览、技术架构、开发进度 |
-|| [[indie-game-marketing]] — 独立游戏 Steam 营销研究：发布时机、像素艺术品类选择、Reddit 社区营销、收入参考 |
+|| indie-game-marketing — 独立游戏 Steam 营销研究：发布时机、像素艺术品类选择、Reddit 社区营销、收入参考 |
 ## AI Game DevTools
 
 | [[animate-diff]] — 开源文本到视频动画扩散模型：时序注意力模块插入冻结 SD UNet，支持 SD1.5/SDXL 后端，ComfyUI 集成，AnimateDiff v1/v2/v3 全系列，Apache 2.0 |

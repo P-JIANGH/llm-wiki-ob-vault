@@ -117,4 +117,4 @@ if "Jack" in CharacterPersonality.PERSONALITY_CONFIG:
 ## 相关
 [[microverse-dialog-system]] — 角色人设决定对话风格
 [[multi-agent-ai-game-impl]] — AIAgent 使用人格配置做决策
-[[gdscript-patterns]] — CharacterController 包含状态机/寻路/物理检测
+gdscript-patterns — CharacterController 包含状态机/寻路/物理检测

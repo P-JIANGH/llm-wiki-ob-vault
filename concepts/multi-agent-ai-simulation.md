@@ -26,6 +26,6 @@ sources: [raw/articles/microverse-ksanadock-2026.md]
 
 ## Related
 [[microverse-project]] — 典型实现案例
-[[godot-4]] — 使用的游戏引擎
+godot-4 — 使用的游戏引擎
 [[llm-integration]] — 对话能力来源
 [[persistent-memory-system]] — 记忆持久化

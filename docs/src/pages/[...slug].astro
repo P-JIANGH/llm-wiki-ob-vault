@@ -1,17 +1,27 @@
 ---
 // Catch-all route for vault pages: /entities/claude-code, /concepts/godot-4, etc.
-// Reads markdown from vault via getStaticPaths, renders with Astro.glob markdown.
 import type { GetStaticPaths } from 'astro';
 import WikiLayout from '../layouts/WikiLayout.astro';
-import { parseFrontmatter, getPageSlugMap } from '../lib/vault';
-import { marked } from 'marked';
+import { parseFrontmatter, VAULT_ROOT } from '../lib/vault';
+import { remarkWikilinks } from '../lib/wikilinks';
+import { createMarkdownProcessor } from '@astrojs/markdown-remark';
 import fs from 'fs';
 import path from 'path';
 
-// VAULT resolved inline below
+// Shared markdown processor (global singleton — Astro re-evaluates module per page during build)
+const PROC_KEY = '__LLM_WIKI_MD_PROC__';
+let processor = (globalThis as any)[PROC_KEY];
+if (!processor) {
+  processor = await createMarkdownProcessor({
+    syntaxHighlight: 'shiki',
+    shikiConfig: { theme: 'github-dark', wrap: true },
+    remarkPlugins: [remarkWikilinks],
+  });
+  (globalThis as any)[PROC_KEY] = processor;
+}
 
 export const getStaticPaths: GetStaticPaths = () => {
-  const VAULT = path.resolve(import.meta.dirname, '../../../');
+  const VAULT = VAULT_ROOT;
   const paths: { params: { slug: string }; props: { title: string; frontmatter: Record<string,any> } }[] = [];
 
   // Root level special pages
@@ -19,7 +29,7 @@ export const getStaticPaths: GetStaticPaths = () => {
     { file: 'SCHEMA.md', slug: 'SCHEMA' },
     { file: 'index.md',  slug: 'index' },
     { file: 'log.md',    slug: 'log' },
-    { file: 'open-source-games-learning-checklist.md', slug: 'open-source-games-learning-checklist' },
+
   ];
 
   for (const { file, slug } of specialFiles) {
@@ -35,7 +45,6 @@ export const getStaticPaths: GetStaticPaths = () => {
     { dir: 'comparisons', base: 'comparisons/' },
     { dir: 'queries',     base: 'queries/' },
     { dir: 'raw',         base: 'raw/' },
-    { dir: 'open-source-game', base: 'open-source-game/' },
     { dir: 'memory-systems',   base: 'memory-systems/' },
   ];
 
@@ -62,16 +71,8 @@ interface Props {
 const { slug } = Astro.params;
 const { title, frontmatter } = Astro.props;
 
-// Build the absolute path to the vault file
-const VAULT = path.resolve(import.meta.dirname, '../../../');
-
-// Determine file path
-let filePath: string;
-if (['SCHEMA', 'index', 'log', 'open-source-games-learning-checklist'].includes(slug || '')) {
-  filePath = path.join(VAULT, `${slug}.md`);
-} else {
-  filePath = path.join(VAULT, `${slug}.md`);
-}
+// Determine file path from slug (e.g. "entities/clawteam" -> "entities/clawteam.md")
+const filePath = path.join(VAULT_ROOT, `${slug}.md`);
 
 // Read raw content
 let raw = '';
@@ -84,18 +85,8 @@ try {
 // Strip frontmatter and get content for markdown rendering
 const { content } = parseFrontmatter(raw);
 
-// Also render wikilinks in content (resolve via title-to-slug lookup)
-const slugMap = getPageSlugMap();
-const contentWithLinks = content.replace(
-  /\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g,
-  (_, page, label) => {
-    const displayLabel = label || page;
-    // First try exact title match, then filename match
-    const key = page.trim().toLowerCase();
-    const linkSlug = slugMap[key] || key.replace(/\s+/g, '-');
-    return `[${displayLabel}](/${linkSlug})`;
-  }
-);
+// Render markdown through Astro's processor (applies remark wikilinks + Shiki highlighting)
+const { code: html } = await processor.render(content);
 
 // Build breadcrumb
 const slugParts = (slug || '').split('/');
@@ -113,7 +104,7 @@ const breadcrumb = slugParts.map((part: string, i: number) => {
       <a href="/">首页</a>
       {breadcrumb.map((crumb: { url: string; label: string }, i: number) => (
         <>
-          <span>›</span>
+          <span class="sep">›</span>
           <a href={crumb.url}>{crumb.label}</a>
         </>
       ))}
@@ -132,15 +123,11 @@ const breadcrumb = slugParts.map((part: string, i: number) => {
     </div>
   )}
 
-  <!-- Markdown content — render with marked (supports wikilinks as plain markdown) -->
-  <article set:html={marked.parse(contentWithLinks)} />
+  <!-- Markdown content — rendered via Astro's markdown processor (Shiki + wikilinks) -->
+  <article set:html={html} />
 </WikiLayout>
 
-<style is:global>
-  /* Make markdown render nicely inside set:html */
-  .main-content article h1:first-child { display: none; } /* hide title h1 from md, we show in layout */
-</style>
 <style>
-  /* show first h1 that comes from markdown */
-  article :global(h1:first-child) { display: block !important; }
+  /* Title h1 from markdown content — no !important needed */
+  article h1:first-child { margin-top: 0; }
 </style>

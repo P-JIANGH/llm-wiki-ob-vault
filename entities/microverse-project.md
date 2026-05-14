@@ -30,7 +30,7 @@ sources: [raw/articles/microverse-ksanadock-2026.md]
 - 存档/读档系统
 
 ## Core Systems
-- [[godot-4]] 游戏引擎
+- godot-4 游戏引擎
 - [[multi-agent-ai-simulation]] 多智能体
 - [[llm-integration]] LLM 集成
 - [[persistent-memory-system]] 持久化记忆

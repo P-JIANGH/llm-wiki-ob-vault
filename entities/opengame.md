@@ -84,5 +84,5 @@ User Description
 
 - [[platformer-vs-topdown-basescene]] — Deep dive into BaseScene architecture differences
 - [[ai-gdd-prompt-engineering]] — GDD generation prompt engineering patterns
-- [[game-design-document]] — General GDD templates and guidelines
-- [[phaser-vue-integration]] — Phaser 3 + Vue 3 integration patterns
+- game-design-document — General GDD templates and guidelines
+- phaser-vue-integration — Phaser 3 + Vue 3 integration patterns

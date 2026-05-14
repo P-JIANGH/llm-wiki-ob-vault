@@ -5,6 +5,7 @@
 import fs from 'fs';
 import path from 'path';
 
+// Single source of truth for vault root path
 export const VAULT_ROOT = path.resolve(import.meta.dirname, '../../..');
 
 // ─── frontmatter parser (used by both lib and Astro pages) ─────────────────
@@ -27,7 +28,7 @@ export function parseFrontmatter(raw: string): { data: Record<string, any>; cont
   return { data, content: match[2] || '' };
 }
 
-export type PageSection = 'entities' | 'concepts' | 'comparisons' | 'queries' | 'open-source-game' | 'raw' | 'memory-systems';
+export type PageSection = 'entities' | 'concepts' | 'comparisons' | 'queries' | 'raw' | 'memory-systems';
 
 export interface VaultEntry {
   slug: string;        // e.g. "entities/claude-code"
@@ -106,13 +107,15 @@ export const SECTION_ORDER: Section[] = [
   { id: 'comparisons',  label: 'Comparisons',    entries: [] },
   { id: 'queries',      label: 'Queries',        entries: [] },
   { id: 'raw',          label: 'Raw Sources',    entries: [] },
-  { id: 'open-source-game', label: 'Open Source Games', entries: [] },
   { id: 'memory-systems', label: 'Memory Systems', entries: [] },
 ];
 
 // ─── load all vault pages ───────────────────────────────────────────────────
 
+let _allPagesCache: VaultEntry[] | null = null;
+
 export function loadAllPages(): VaultEntry[] {
+  if (_allPagesCache) return _allPagesCache;
   const pages: VaultEntry[] = [];
   const sectionDirs: Array<{ rel: string; section: PageSection }> = [
     { rel: 'entities',         section: 'entities' },
@@ -120,7 +123,6 @@ export function loadAllPages(): VaultEntry[] {
     { rel: 'comparisons',      section: 'comparisons' },
     { rel: 'queries',          section: 'queries' },
     { rel: 'raw',              section: 'raw' },
-    { rel: 'open-source-game', section: 'open-source-game' },
     { rel: 'memory-systems',   section: 'memory-systems' },
     // top-level markdown files
     { rel: 'index.md',         section: 'entities' },
@@ -161,7 +163,13 @@ export function loadAllPages(): VaultEntry[] {
     }
   }
 
+  _allPagesCache = pages;
   return pages;
+}
+
+export function invalidatePageCache(): void {
+  _allPagesCache = null;
+  _slugMap = null;
 }
 
 // ─── build sidebar sections from loaded pages ─────────────────────────────
@@ -178,13 +186,6 @@ export function buildSidebar(pages: VaultEntry[]): Section[] {
     }
     const sec = sectionMap.get(page.section);
     if (sec) sec.entries.push(page);
-  }
-
-  // open-source-game: add all sub-entries
-  const osg = sectionMap.get('open-source-game');
-  if (osg) {
-    // flatten subdir entries into a flat list sorted by name
-    osg.entries.sort((a, b) => a.title.localeCompare(b.title));
   }
 
   return sections;

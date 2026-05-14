@@ -140,4 +140,4 @@ Use agent teams when: work spans multiple subsystems that won't touch the same f
 - [[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval pattern, file writing protocol
 - [[claude-code-game-studio-directory-structure]] — Full directory structure reference
 - [[multi-agent-ai-simulation]] — General multi-agent AI concepts (relevant to agent coordination)
-- [[godot-4]] — Godot 4 engine (target engine in this workflow)
+- godot-4 — Godot 4 engine (target engine in this workflow)

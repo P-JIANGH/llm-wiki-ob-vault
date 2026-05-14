@@ -9,20 +9,34 @@ const bySection = allPages.reduce((acc, p) => {
   return acc;
 }, {} as Record<string, typeof allPages>);
 
-const sectionMeta: Record<string, { icon: string; label: string }> = {
-  entities:          { icon: '🏢', label: '实体' },
-  concepts:          { icon: '💡', label: '概念' },
-  comparisons:       { icon: '⚖️', label: '对比' },
-  queries:           { icon: '🔍', label: '查询' },
-  'open-source-game':{ icon: '🎮', label: '开源游戏' },
-  raw:               { icon: '📄', label: '原始资料' },
+const sectionMeta: Record<string, { icon: string; label: string; desc: string }> = {
+  entities:          { icon: '🏢', label: '实体', desc: 'AI 工具、框架与项目' },
+  concepts:          { icon: '💡', label: '概念', desc: '架构模式与技术概念' },
+  comparisons:       { icon: '⚖️', label: '对比', desc: '工具与方案对比分析' },
+  queries:           { icon: '🔍', label: '查询', desc: '问题解答与查询记录' },
+  raw:               { icon: '📄', label: '原始资料', desc: '原始文章与参考资料' },
 };
+
+// Serialize pages for client-side search
+const searchData = allPages.map(p => ({
+  title: p.title,
+  slug: p.slug,
+  section: p.section,
+  sectionLabel: sectionMeta[p.section]?.label || p.section,
+}));
 ---
 
 <WikiLayout title="首页">
   <div class="home-hero">
-    <h1>📚 LLM Wiki</h1>
-    <p>基于 Karpathy LLM Wiki 模式构建的持久化知识库</p>
+    <h1>LLM Wiki</h1>
+    <p>Agentic System Designer 知识库 — {allPages.length} 篇文档</p>
+  </div>
+
+  <!-- Search -->
+  <div class="home-search">
+    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    <input type="text" id="homeSearch" placeholder="搜索知识库..." autocomplete="off" />
+    <div class="search-results" id="searchResults"></div>
   </div>
 
   <div class="home-stats">
@@ -32,8 +46,10 @@ const sectionMeta: Record<string, { icon: string; label: string }> = {
       return (
         <div class="stat-card">
           <span class="stat-icon">{meta.icon}</span>
-          <span class="stat-count">{pages.length}</span>
-          <span class="stat-label">{meta.label}</span>
+          <div>
+            <span class="stat-count">{pages.length}</span>
+            <span class="stat-label">{meta.label}</span>
+          </div>
         </div>
       );
     })}
@@ -45,14 +61,15 @@ const sectionMeta: Record<string, { icon: string; label: string }> = {
       if (pages.length === 0) return null;
       return (
         <section class="home-section">
-          <h2>{meta.icon} {meta.label}</h2>
+          <h2>{meta.icon} {meta.label} <span class="section-count">{pages.length}</span></h2>
+          <p class="section-desc">{meta.desc}</p>
           <ul class="page-list">
-            {pages.slice(0, 20).map(p => (
+            {pages.slice(0, 12).map(p => (
               <li>
                 <a href={`/${p.slug}`}>{p.title}</a>
               </li>
             ))}
-            {pages.length > 20 && <li class="more"><a href={`/${sec}`}>+ 还有 {pages.length - 20} 篇…</a></li>}
+            {pages.length > 12 && <li class="more"><a href={`/${sec}`}>+ 还有 {pages.length - 12} 篇…</a></li>}
           </ul>
         </section>
       );
@@ -60,37 +77,72 @@ const sectionMeta: Record<string, { icon: string; label: string }> = {
   </div>
 </WikiLayout>
 
+<script>
+  import Fuse from 'fuse.js';
+
+  const searchData = JSON.parse(document.getElementById('search-data')?.textContent || '[]');
+  const fuse = new Fuse(searchData, {
+    keys: ['title', 'slug'],
+    threshold: 0.3,
+    includeScore: true,
+  });
+
+  const input = document.getElementById('homeSearch') as HTMLInputElement;
+  const resultsEl = document.getElementById('searchResults');
+
+  if (input && resultsEl) {
+    input.addEventListener('input', (e) => {
+      const query = (e.target as HTMLInputElement).value.trim();
+      if (!query) {
+        resultsEl.classList.remove('active');
+        resultsEl.innerHTML = '';
+        return;
+      }
+
+      const results = fuse.search(query).slice(0, 10);
+      if (results.length === 0) {
+        resultsEl.innerHTML = '<div class="search-result-item"><span class="result-title">未找到相关结果</span></div>';
+      } else {
+        resultsEl.innerHTML = results.map(r => `
+          <a href="/${r.item.slug}" class="search-result-item">
+            <div class="result-title">${r.item.title}</div>
+            <div class="result-section">${r.item.sectionLabel}</div>
+          </a>
+        `).join('');
+      }
+      resultsEl.classList.add('active');
+    });
+
+    document.addEventListener('click', (e) => {
+      if (!input.contains(e.target as Node) && !resultsEl.contains(e.target as Node)) {
+        resultsEl.classList.remove('active');
+      }
+    });
+
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        resultsEl.classList.remove('active');
+        input.blur();
+      }
+    });
+  }
+</script>
+
+<script type="application/json" id="search-data">{JSON.stringify(searchData)}</script>
+
 <style>
-  .home-stats {
-    display: flex; flex-wrap: wrap; gap: 1rem;
-    margin-bottom: 2rem;
-  }
-  .stat-card {
-    display: flex; align-items: center; gap: 0.5rem;
-    background: var(--color-code-bg);
-    border: 1px solid var(--color-border);
-    border-radius: var(--radius);
-    padding: 0.6rem 1rem;
-    min-width: 100px;
-  }
-  .stat-icon { font-size: 1.2rem; }
-  .stat-count { font-size: 1.4rem; font-weight: 700; color: var(--color-link); }
-  .stat-label { font-size: 0.8rem; color: var(--color-text-muted); }
-  .home-section { margin-bottom: 2rem; }
-  .home-section h2 { font-size: 1rem; margin-bottom: 0.8rem; }
-  .page-list {
-    list-style: none; padding: 0; margin: 0;
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 0.3rem;
-  }
-  .page-list li a {
+  .section-count {
     font-size: 0.85rem;
-    color: var(--color-text);
-    text-decoration: none;
-    display: block;
-    padding: 0.25rem 0.5rem;
-    border-radius: 4px;
-    transition: background 0.1s;
+    font-weight: 500;
+    color: var(--text-muted);
+    margin-left: 0.5rem;
+    background: var(--surface);
+    padding: 0.1rem 0.5rem;
+    border-radius: 12px;
   }
-  .page-list li a:hover { background: var(--color-sidebar-active); color: var(--color-link); }
-  .more a { color: var(--color-text-muted) !important; font-style: italic; }
+  .section-desc {
+    font-size: 0.9rem;
+    color: var(--text-muted);
+    margin: -0.5rem 0 1rem;
+  }
 </style>

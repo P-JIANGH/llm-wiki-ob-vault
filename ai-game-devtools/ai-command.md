@@ -72,7 +72,7 @@ Assets/Editor/
 
 ## Related
 
-- [[godot-4]] — alternative open-source game engine with native scripting
+- godot-4 — alternative open-source game engine with native scripting
 - [[ai-shader]] — keijiro's GLSL AI generation tool (related series)
 - [[agent-loop]] — core AI agent loop architecture pattern
 - [[llm-integration]] — common LLM integration patterns

@@ -195,6 +195,6 @@ var relations = {
 [[multi-agent-ai-simulation]] — 通用概念
 [[llm-integration]] — LLM 是决策核心
 [[persistent-memory-system]] — 记忆子系统
-[[gdscript-patterns]] — 实现语言
+gdscript-patterns — 实现语言
 [[microverse-dialog-system]] — 对话系统子模块详解
 [[stanford-generative-agents]] — 斯坦福 AI Town 原型

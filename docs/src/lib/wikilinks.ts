@@ -1,12 +1,16 @@
 /**
  * Remark plugin: convert [[Page]] or [[Page|Label]] to markdown links.
- * Converts to relative Astro routes like [Label](./path) based on slug.
+ * Resolves titles against the vault's page slug map for correct routing.
  */
 import type { Root } from 'mdast';
 import { visit } from 'unist-util-visit';
+import { getPageSlugMap } from './vault';
 
 export function remarkWikilinks() {
   return function (tree: Root) {
+    // Resolve slug map lazily (memoized inside getPageSlugMap)
+    const slugMap = getPageSlugMap();
+
     visit(tree, 'text', (node: any, index, parent: any) => {
       if (!parent || index === undefined || index === null) return;
       const pattern = /\[\[([^\]|]+?)(?:\|([^\]]+))?\]\]/g;
@@ -22,11 +26,12 @@ export function remarkWikilinks() {
         }
         const page = match[1].trim();
         const label = (match[2] || match[1]).trim();
-        // Convert page name to a slug-like path segment
-        const slug = page.toLowerCase().replace(/\s+/g, '-');
+        // Resolve via slug map, fallback to simple slug
+        const key = page.toLowerCase();
+        const linkSlug = slugMap[key] || key.replace(/\s+/g, '-');
         parts.push({
           type: 'link',
-          url: `./${slug}`,
+          url: `/${linkSlug}`,
           children: [{ type: 'text', value: label }],
         });
         lastIndex = match.index + match[0].length;

@@ -157,7 +157,7 @@ For the company's AI game development:
 
 ## Related
 
-- [[godot-4]] — Godot 4 引擎详情
+- godot-4 — Godot 4 引擎详情
 - [[godot-vs-unity-unreal]] — Godot vs Unity vs Unreal 选型指南
 - [[claude-code-game-studios]] — 49 Agent 游戏开发工作流（可直接指定 Godot 4）
-- [[open-source-games-list]] — 开源游戏列表实体页（参考现有开源游戏使用的引擎）
+- open-source-games-list — 开源游戏列表实体页（参考现有开源游戏使用的引擎）

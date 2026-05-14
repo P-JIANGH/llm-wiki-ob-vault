@@ -195,10 +195,10 @@ src/
 
 ## 相关页面
 
-- [[phaser-vue-integration]] — Phaser 3 + Vue 3 技术桥接
-- [[phaser-4-migration]] — 长期技术债务评估
-- [[indie-game-marketing]] — Steam 发布营销策略
-- [[game-design-document]] — GDD 模板与写作指南
+- phaser-vue-integration — Phaser 3 + Vue 3 技术桥接
+- phaser-4-migration — 长期技术债务评估
+- indie-game-marketing — Steam 发布营销策略
+- game-design-document — GDD 模板与写作指南
 
 ---
 

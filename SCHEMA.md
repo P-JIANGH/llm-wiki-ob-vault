@@ -1,16 +1,17 @@
 # Wiki Schema
 
 ## Domain
-Project engineering notes and general learning — technical topics, tool workflows, architecture decisions, lessons learned, and knowledge accumulated across projects.
+AI Agent 系统架构 / Agentic System Design — agent 框架、多智能体协作、MCP/A2A 协议、工具调用、记忆系统、推理模式、LLM 基础设施、生产部署。核心关注：Agentic System Designer 职业路径所需的知识体系。
 
 ## Conventions
-- File names: lowercase, hyphens, no spaces (e.g., `nextjs-api-design.md`)
+- File names: lowercase, hyphens, no spaces (e.g., `langgraph-architecture.md`)
 - Every wiki page starts with YAML frontmatter (see below)
 - Use `[[wikilinks]]` to link between pages (minimum 2 outbound links per page)
 - When updating a page, always bump the `updated` date
 - Every new page must be added to `index.md` under the correct section
 - Every action must be appended to `log.md`
 - raw/ directory is immutable — corrections go in wiki pages, never modify raw sources
+- Archived content goes to `_archive/` — preserves original directory structure under it
 
 ## Frontmatter
   ```yaml
@@ -27,52 +28,52 @@ Project engineering notes and general learning — technical topics, tool workfl
 ## Tag Taxonomy
 Add new tags here BEFORE using them.
 
-**Topics:**
-- project, architecture, backend, frontend, database, devops, infra, api, framework
-- ai, llm, ml, agent, workflow, multimodal, vision, vlm, game-engine
-- game, game-dev, game-genre, simulation, multiplayer, retro, modding
-- multi-agent, reasoning, rag, evaluation, benchmark, fine-tuning, rlhf, distillation, quantization, moe, world-model, inference, on-device, edge, long-context
-- vision-language, speech, computer-vision, semantic-search, vector-database, autonomous
-- tts, asr, audio, music, voice-cloning, speech-synthesis
-- image-generation, image-model, video-generation, video-model, 3d-generation, texture-generation
-- coding, tool-calling, code-generation, code-completion, agentic-llm
-- memory, context-compression, persistent-memory, long-context
-- research, benchmark, evaluation, benchmark-construction
-- design, ui, ux, tool, platform
+**Topic Areas:**
+- agent, multi-agent, agent-framework, agent-swarm, agent-orchestration
+- llm, foundation-model, reasoning, planning, inference
+- tool-calling, function-calling, mcp, a2a, protocol
+- memory, rag, context, vector-database, embedding
+- workflow, pipeline, state-machine, event-driven
+- coding, code-generation, code-completion, developer-tools
+- evaluation, benchmark, testing, observability
+- deployment, production, scaling, monitoring
+- fine-tuning, rlhf, distillation, quantization
 
-**Tools & Tech:**
-- tool, cli, script, automation
-- netsuite, oracle, flowable, prisma, nextjs, python, typescript, docker
-- rust, tauri, desktop-app, semantic-search, code, code-generation, code-completion
-- image-generation, diffusion, autoregressive, flow-matching, 3d, video, audio, music, avatar, animation
-- unity, godot, sdl2, bevy, panda3d, phaser, idtech, stratagus, ogre-next
-- cpp, java, csharp, lua, javascript, kotlin, go, c, rust, objective-c, cython, lisp, webassembly
-- electron, mobile, android, wasm, qt, qt6, blender, reverse-engineering, source-port, clean-room
+**Architecture & Design:**
+- architecture, design-pattern, state-management, middleware
+- authentication, security, privacy, hitl (human-in-the-loop)
+- streaming, realtime, async, concurrency
 
-**Game Genres:**
-- fps, rts, rpg, platformer, roguelike, city-building, racing, simulation, strategy, adventure, puzzle, sandbox, mmo
+**Tech Stack:**
+- python, typescript, rust, dotnet, go
+- open-source, framework, library, sdk, cli, tui
+- docker, kubernetes, cloud, azure, aws
 
 **Organizations:**
 - organization, company, research-lab, university
-- chinese-llm, open-source-game, chinese
-
-**Open Source & Licensing:**
-- open-source, community-edition
+- microsoft, google, meta, openai, anthropic, alibaba
 
 **Meta:**
 - notes, learning, how-to, reference, decision, retrospective, tip, pitfall
+- career, learning-path, skill-tree
 
 ## Page Thresholds
 - **Create a page** when an entity/concept appears in 2+ sources OR is central to one source
 - **Add to existing page** when a source mentions something already covered
 - **DON'T create a page** for passing mentions, minor details, or things outside the domain
 - **Split a page** when it exceeds ~200 lines — break into sub-topics with cross-links
-- **Archive a page** when its content is fully superseded — move to `_archive/`, remove from index
+- Archive a page** when its content is fully superseded or no longer in scope — move to `_archive/`, remove from index, update cross-references
+
+## Navigation
+- **`_meta/topic-map.md`** — Primary entry point. Organized by Agentic System Designer skill areas.
+- **`index.md`** — Complete flat catalog of all wiki pages by type.
+- **`log.md`** — Chronological record of all wiki actions.
 
 ## Entity Pages
-One page per notable entity. Include:
+One page per notable entity (framework, tool, organization). Include:
 - Overview / what it is
 - Key facts and dates
+- Architecture summary (if a framework)
 - Relationships to other entities ([[wikilinks]])
 - Source references
 

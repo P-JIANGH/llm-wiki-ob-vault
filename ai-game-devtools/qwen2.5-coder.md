@@ -55,8 +55,8 @@ Qwen3-Coder 是目前 Qwen 代码模型家族的最新代，专注于 **Coding A
 
 - **游戏 AI NPC 对话**：结合 Agent 框架驱动 NPC 行为
 - **游戏逻辑生成**：给定游戏机制描述生成完整代码
-- **游戏素材生成管线**：配合 [[LLMUnity]] / [[UnityGen-AI]] 用于 Unity 集成
-- **实时代码补全**：IDE 插件形式的代码补全（类 [[AICommand]]）
+- **游戏素材生成管线**：配合 LLMUnity（已归档） / UnityGen-AI（已归档） 用于 Unity 集成
+- **实时代码补全**：IDE 插件形式的代码补全（类 AICommand（已归档））
 - **示例项目**：Zombies vs. Plants 塔防游戏、Parkour 粒子系统游戏等 HTML5 游戏
 
 ## Finetuning

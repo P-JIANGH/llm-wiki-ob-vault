@@ -406,3 +406,93 @@
 - 覆盖: 定义 / 市场供需 / 薪资 / 与传统角色对比 / Tier 1-3 技能树 / 3月入门→6月实战学习路径 / 招聘公司 / 常见误区 / 10 年经验全栈开发者转型建议
 - Sources: web search (BOSS直聘/Liepin/Gartner/Precedence Research/BCG)
 - Related pages: hermes-agent, agent-loop-architecture, multi-agent-ai-simulation, concepts/agent-swarm, gstack
+|
+|## [2026-05-15] ingest | AutoGen 完整学习
+|- Source: web research (GitHub / Microsoft Research / AG2 docs / migration guides / 竞品对比)
+|- Files updated: ai-game-devtools/autogen.md（从 118 行扩展至 163 行，覆盖 v0.4 架构/Core API/AgentChat/设计模式/Magentic-One/AG2分支/竞品对比）
+|- Files created: concepts/magentic-one.md（架构/Orchestrator双循环/4 Specialist/评测/安全风险）
+|- Index updated: autogen 条目扩写 + magentic-one 新增到 Concepts 区
+|- Tags added: magentic-one (concept), framework (entity autogen)
+|- 关键技术洞察: AutoGen v0.4 从底层重写为 Actor 模型（异步事件驱动），后续分裂为三叉路（原项目维护模式 / AG2 社区分支 / Microsoft Agent Framework），Magentic-One 的 Orchestrator+Specialist 架构是当前最完整的参考实现|
+|
+|## [2026-05-15] ingest | 多 Agent 框架全系竞品深度研究
+|- Source: 源码克隆分析（~/tmp/langgraph/ / ~/tmp/crewAI/ / ~/tmp/agentscope/）+ web research（官方文档/GitHub/社区）
+|- Files created:
+|  - ai-game-devtools/langgraph.md（新建，~140 行，覆盖 Pregel BSP 引擎/StateGraph/FuncAPI/Checkpoint/通道系统/生态体系）
+|  - comparisons/agent-framework-comparison.md（新建，~120 行，四框架全方位对比 + 决策树 + 设计哲学差异）
+|- Files updated:
+|  - ai-game-devtools/crewai.md（从 135 行扩展至 135 行，重写为结构化的核心抽象/流程/生态/技术细节）
+|  - ai-game-devtools/agentscope.md（从 70 行扩展至 150 行，重写为 AOP 哲学/元类体系/MsgHub/Trinity-RFT/独特特性）
+|- Index updated: langgraph 新增 + crewai/agentscope 扩写 + Comparisons 新区新增 + 总页数 830→835
+|- 关键技术洞察:
+|  - LangGraph = Pregel BSP 引擎，精确控制图拓扑，生产级持久化/人机交互最成熟
+|  - CrewAI = 上手最快的角色团队模式，~47K stars 社区最大，独立架构零 LangChain 包袱
+|  - AgentScope = 唯一带 RL 微调（Trinity-RFT）的框架，MCP/A2A/实时语音原生支持，阿里云生态
+|  - 设计哲学根本差异：LangGraph（状态转换）vs CrewAI（角色分工）vs AgentScope（Agent 进化）vs AutoGen（对话交流）|
+|
+|## [2026-05-15] ingest | Microsoft Agent Framework 完整学习
+|- Source: 源码克隆（~/tmp/agent-framework/）+ web research（MS Learn / .NET Blog / GitHub discussions）
+|- Files created:
+|  - concepts/microsoft-agent-framework.md（新建，~120 行，覆盖架构/Agent/Workflow/Functional+Graph API/DurableTask/生态/迁移关系）
+|- Files updated:
+|  - comparisons/agent-framework-comparison.md（添加 MAF 到总结表 + 设计哲学 -> 五框架对比）
+|  - ai-game-devtools/autogen.md（[[concepts/microsoft-agent-framework]] 链接修复）
+|- Index updated: MAF 新增到 Concepts 区 + 总页数 835→836
+|- SKILL updated: codebase-deep-dive 新增 wiki-oriented entity expansion workflow variant
+|- 关键技术洞察:
+|  - MAF 是 AutoGen + Semantic Kernel 的官方融合产物，1.0 GA 于 2026.04，MIT 开源
+|  - 双 API 设计：Functional (@workflow, Python 原生) vs Graph (WorkflowBuilder, .NET 强类型)
+|  - Durable Task 引擎是最大差异化——不改 workflow 定义即可获得持久化/分布式执行
+|  - .NET 和 Python 双一等公民（区别于所有竞品仅限 Python）
+|  - 拥有最完整的 Provider 矩阵（6+ LLM + MCP + A2A），企业级中间件/Session/可观测内置|
+|
+|## [2026-05-15] update | Wiki 重构阶段一——聚焦 Agent 系统架构
+|- Action: Schema 更新 + 游戏内容归档 + 目录结构调整
+|- SCHEMA.md 全面重写:
+|  - Domain: → "AI Agent 系统架构 / Agentic System Design"
+|  - Tag Taxonomy 精简聚焦（移除 game/game-dev 标签，新增 agent-framework/protocol/hitl/career 等）
+|  - 新增职业路径相关标签（career, learning-path, skill-tree）
+|- 已归档 33 个游戏相关文件到 _archive/:
+|  - concepts/（5个）：microverse-*, gdd-reincarnator-v2, ai-gdd-prompt-engineering, indie-game-marketing
+|  - entities/（5个）：microverse-project/code-structure, opengame, claude-code-game-studios, ksanadock
+|  - comparisons/（2个）：open-source-game-engines-comparison, platformer-vs-topdown-basescene
+|  - ai-game-devtools/（21个）：unity-*, unreal-*, godot-*, gamegen-o, matrix-game, gigax, behavia 等
+|- 目录结构调整:
+|  - 移除 "## Game Projects & Studios" 区
+|  - 移除 "## Game Dev" 区
+|  - 重命名 "## AI Game DevTools" → "## AI & ML Tools"
+|  - 更新 header 总页数 836→800
+|- 后续待办（阶段二）:
+|  - 257 个文件不在 index.md 中（主要来自 ai-game-devtools/）
+|  - 13 页超 200 行需拆分
+|  - 修复跨引用 wikilink 到已归档页面|
+|
+|## [2026-05-15] update | Wiki 重构阶段二——索引修复 + 跨引用清理
+|- Action: 重建 index.md + 修复断链
+|- Index 重建:
+|  - 重写 index.md（842 行，818 条目，5 个 Section）
+|  - 将所有遗留文件批量加入 index（之前 257 个缺失，现已全部收录）
+|  - Section: AI/LLM/Agent(81) + Concepts(101) + Comparisons(2) + AI & ML Tools(596) + Avatar(41)
+|  - 页面总数: 800→818（补全了缺失的索引条目）
+|- 跨引用修复:
+|  - 55 个文件中的断链 wikilink 替换为（已归档）标记
+|- 超大页提醒（未拆分）:
+|  - 仍有 10 页 >200 行，最严重: vue-termui(348), agent-cli-tui(315), deepseek-tui(304)
+|  - 这些页面的内容仍然有效，拆分不紧急，建议在下次 deep-dive 时自然拆分|
+|
+|## [2026-05-15] restructure | Wiki 重构阶段三——知识体系重塑
+|- Action: 创建 _meta/topic-map.md + 更新导航体系
+|- Created: _meta/topic-map.md（Agentic System Designer 知识体系导航，7 大技能领域）
+|  - 🧠 Agent Frameworks（精通）: 框架对比 + 架构原理 + 生态参考
+|  - 🔄 Multi-Agent Orchestration（编排）: 通信/协调/任务/模式
+|  - 🔌 MCP & Protocols（协议）: MCP/A2A/工具调用
+|  - 💾 Memory & Knowledge（记忆）: 长期记忆/RAG/上下文
+|  - ⚙️ LLM Infrastructure（基础设施）: 推理/部署/Provider
+|  - 🚀 Production Deployment（生产）: 可观测性/评估/安全
+|  - 📚 Career & Learning（职业）: 学习路径/技能树
+|- SCHEMA.md 更新: 新增 Navigation 节，指明 topic-map 为主要入口
+|- index.md 更新: header 增加 [[_meta/topic-map]] 引用
+|- 三条导航路径成型:
+|  ① _meta/topic-map.md（按技能领域）→ 新手友好入口
+|  ② index.md（按页面类型）→ 完整索引
+|  ③ log.md（按时间顺序）→ 变更记录|

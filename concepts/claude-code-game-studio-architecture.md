@@ -160,7 +160,7 @@ Calling skills read the first line for the verdict token.
 
 ## Related
 
-- [[claude-code-game-studios]] — Project overview entity page
+- claude-code-game-studios（已归档） — Project overview entity page
 - [[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval pattern
 - [[claude-code-game-studio-directory-structure]] — Project directory structure
 - [[multi-agent-ai-simulation]] — General multi-agent AI concepts

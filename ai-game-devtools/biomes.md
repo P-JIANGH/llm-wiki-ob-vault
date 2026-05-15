@@ -70,7 +70,7 @@ Players connect via WebSocket to `sync` server, which fans out to relevant ECS u
 
 Biomes is similar to [[ai-town|a16z AI Town]] in being a web-based social simulation, but Biomes is a full sandbox MMORPG with voxel building, physics, and a distributed microservices backend — whereas AI Town is a lightweight Convex/PixiJS virtual town demo.
 
-Compared to [[behaviac]] (Tencent game AI behavior framework), Biomes' server-side uses ECS + Bikkie rather than behavior trees/FSM for game logic, and is designed for horizontal scaling via microservices.
+Compared to behaviac（已归档） (Tencent game AI behavior framework), Biomes' server-side uses ECS + Bikkie rather than behavior trees/FSM for game logic, and is designed for horizontal scaling via microservices.
 
 The WASM voxel engine (`voxeloo`) + React Resource System pattern is architecturally distinct from Unity/Unreal-based web game approaches.
 
@@ -84,4 +84,4 @@ The WASM voxel engine (`voxeloo`) + React Resource System pattern is architectur
 ## Related Wiki Pages
 
 - [[ai-town]] — a16z virtual town simulation
-- [[behaviac]] — Tencent game AI behavior framework
+- behaviac（已归档） — Tencent game AI behavior framework

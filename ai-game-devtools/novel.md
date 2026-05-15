@@ -57,4 +57,4 @@ Similar to [[ai-writer]] (BlinkDL's AI writing tool) but with a block-based Noti
 - [[ai-writer]] — BlinkDL AI writing tool
 - [[notebook-ai]] — indentlabs Notion-like AI notebook
 - [[longwriter]] — THUDM LongWriter for long-form AI writing
-- [[chatgpt-api-unity]] — Unity integration with LLM APIs
+- chatgpt-api-unity（已归档） — Unity integration with LLM APIs

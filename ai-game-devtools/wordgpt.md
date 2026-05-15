@@ -47,7 +47,7 @@ Not listed on Microsoft Store — requires manual sideloading:
 
 ## Comparison to Related Tools
 
-| Feature | WordGPT | [[chatgpt-api-unity]] | [[babyagi]] |
+| Feature | WordGPT | chatgpt-api-unity（已归档） | [[babyagi]] |
 |---|---|---|---|
 | **Platform** | Microsoft Word | Unity Editor | Agent framework |
 | **LLM Model** | text-davinci-003 | Configurable (ChatGPT API) | Configurable |
@@ -55,7 +55,7 @@ Not listed on Microsoft Store — requires manual sideloading:
 | **Framework** | Office Add-in (React/TypeScript) | Unity UPM package | Python |
 | **License** | MIT | MIT | MIT |
 
-WordGPT is distinct as the only Office add-in in the AI game devtools catalog — it targets productivity workflows rather than game development directly. Unlike [[chatgpt-api-unity]] which brings ChatGPT into the Unity editor for code assistance, WordGPT focuses on document text generation.
+WordGPT is distinct as the only Office add-in in the AI game devtools catalog — it targets productivity workflows rather than game development directly. Unlike chatgpt-api-unity（已归档） which brings ChatGPT into the Unity editor for code assistance, WordGPT focuses on document text generation.
 
 ## Related Links
 

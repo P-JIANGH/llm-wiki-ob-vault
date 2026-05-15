@@ -50,7 +50,7 @@ BitCPM4: ternary (1/2-bit) quantization achieving 90% bit-width reduction. Forma
 
 ## Game Dev Relevance
 
-MiniCPM's small footprint and edge-friendly inference make it practical for **NPC dialogue**, **game scripting**, and **procedural content generation** running on-device. The 2026 MiniCPM-SALA model (9B, 1M context) could power games with full-codebase narrative memory or game-logic awareness. [[llmunity]] provides direct Unity integration.
+MiniCPM's small footprint and edge-friendly inference make it practical for **NPC dialogue**, **game scripting**, and **procedural content generation** running on-device. The 2026 MiniCPM-SALA model (9B, 1M context) could power games with full-codebase narrative memory or game-logic awareness. llmunity（已归档） provides direct Unity integration.
 
 ## License
 
@@ -65,6 +65,6 @@ Llama2 license terms for base; BMAB/Yorko licenses for derivatives.
 ## See Also
 
 - [[metagpt]] — same org (OpenBMB) multi-agent framework
-- [[llmunity]] — Unity integration for LLMs
+- llmunity（已归档） — Unity integration for LLMs
 - [[qwen2]] — comparable Chinese LLM family
 - [[internlm]] — another large Chinese LLM

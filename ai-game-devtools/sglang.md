@@ -57,5 +57,5 @@ SGLang (Structured Generation Language) is a framework for efficient LLM serving
 
 - [[vllm]] — High-throughput LLM engine; SGLang's SRT runtime builds on similar principles
 - [[autogen]] — Multi-agent framework that benefits from structured generation
-- [[gigax]] — Game NPC LLM framework using structured output generation (Outlines)
+- gigax（已归档） — Game NPC LLM framework using structured output generation (Outlines)
 - [[llava]] — Multimodal VLM that can be served via SGLang runtime

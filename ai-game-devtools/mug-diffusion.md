@@ -45,7 +45,7 @@ MuG Diffusion is an AI-powered charting tool for rhythm games, built by **Keytoy
 
 ## Related Projects
 
-- Similar to [[gamegen-o]] in spirit — both use generative AI for game content creation, but MuG targets rhythm game charts while GameGen-O targets open-world game video generation
+- Similar to gamegen-o（已归档） in spirit — both use generative AI for game content creation, but MuG targets rhythm game charts while GameGen-O targets open-world game video generation
 - Uses the latent diffusion model paradigm, adapted with audio conditioning for chart generation; related to [[omnilmm]] in extending base models for domain-specific multimodal tasks
 
 ## Community

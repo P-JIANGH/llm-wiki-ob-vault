@@ -80,5 +80,5 @@ WorldScore Benchmark（第1名）：
 - [[hunyuanworld-1.0]] — 混元 1.0：文本/图像 → 360°全景图 → 分层3D mesh
 - [[hunyuan-gamecraft]] — 混元游戏视频生成
 - `ai-game-devtools/hunyuanvideo` — 混元视频生成
-- [[gamegen-o]] — 腾讯 GameGen-O 开放世界游戏视频生成
+- gamegen-o（已归档） — 腾讯 GameGen-O 开放世界游戏视频生成
 - [[genesis]] — Genesis 通用物理引擎

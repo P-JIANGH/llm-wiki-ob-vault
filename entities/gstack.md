@@ -123,6 +123,6 @@ git clone --single-branch --depth 1 https://github.com/garrytan/gstack.git ~/.cl
 - **gstack**：把 AI coding agent 打造成虚拟工程团队，专注软件开发流程（CEO→设计→工程→QA→发布）
 - **hermes-agent**：通用 Agent 运行时框架，专注多消息平台网关、工具注册、持久化循环
 
-## 与 [[claude-code-game-studios]] 的关系
+## 与 claude-code-game-studios（已归档） 的关系
 
-[[claude-code-game-studios]] 是用 Claude Code 构建游戏开发的 49 Agent 层级结构。gstack 则是更通用的软件工程框架，不限于游戏开发但可应用于任何软件开发。两者都依赖 Claude Code，但 gstack 更偏向工程管理和流程自动化。
+claude-code-game-studios（已归档） 是用 Claude Code 构建游戏开发的 49 Agent 层级结构。gstack 则是更通用的软件工程框架，不限于游戏开发但可应用于任何软件开发。两者都依赖 Claude Code，但 gstack 更偏向工程管理和流程自动化。

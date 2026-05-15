@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/interactml-unity.md]
 
 **InteractML** (Interactml/iml-unity) is a Unity3D plugin that enables developers to configure, train, and deploy Interactive Machine Learning (IML) models directly within the Unity editor — no external ML infrastructure required. It targets game developers, designers, and artists who want to add adaptive, player-responsive behavior without writing traditional ML code.
 
-Unlike API-based LLM integrations (e.g., [[chatgpt-api-unity]]), InteractML runs lightweight ML models **on-device** at runtime, including during gameplay. Models can be trained and refined in realtime using visual node scripting.
+Unlike API-based LLM integrations (e.g., chatgpt-api-unity（已归档）), InteractML runs lightweight ML models **on-device** at runtime, including during gameplay. Models can be trained and refined in realtime using visual node scripting.
 
 ## Key Facts
 
@@ -61,7 +61,7 @@ Data flows: Game Input → Feature Extraction → Model Training/Prediction → 
 
 ## Comparison with Similar Tools
 
-| Feature | InteractML | [[chatgpt-api-unity]] | [[hugging-face-api-unity-integration]] |
+| Feature | InteractML | chatgpt-api-unity（已归档） | hugging-face-api-unity-integration（已归档） |
 |---------|-----------|------------------------|----------------------------------------|
 | ML Type | On-device, realtime | Cloud LLM API | Cloud transformer API |
 | Training | In-editor + in-game | No (pre-trained) | No (pre-trained) |

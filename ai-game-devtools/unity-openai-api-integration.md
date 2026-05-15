@@ -51,7 +51,7 @@ Direct API integration — no abstraction layer or SDK wrapper. Each script is a
 
 ## Comparison
 
-| Feature | This Project | [[llmunity]] | [[chatgpt-api-unity]] |
+| Feature | This Project | llmunity（已归档） | chatgpt-api-unity（已归档） |
 |---------|-------------|--------------|----------------------|
 | Abstraction | None (direct API) | High-level SDK | Middleware layer |
 | Models | GPT-3, GPT-4 Vision, TTS | Llama variants | ChatGPT only |

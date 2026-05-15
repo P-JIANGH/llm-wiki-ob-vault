@@ -29,7 +29,7 @@ Unity Game → UnityWebRequest → LLM API (OpenAI/Claude/etc.) → Responses
 - **Pros**: Full model capabilities, no local hardware requirements
 - **Cons**: Requires internet, per-token costs, latency, privacy concerns
 - **Best For**: Multiplayer games, complex reasoning, large context windows
-- **Tools**: [[chatgpt-api-unity]] for API client implementation
+- **Tools**: chatgpt-api-unity（已归档） for API client implementation
 
 ### Pattern 3: Hybrid (Local + Cloud)
 ```
@@ -82,9 +82,9 @@ public class LLMDrivenNPC : MonoBehaviour
 
 ## Unity Ecosystem Tools
 
-- [[chatgpt-api-unity]] — Full-featured Unity ChatGAPI client with streaming, function calling, memory management
-- [[chatgptforunity]] — UPM package for editor-time ChatGPT integration, code generation assistance
-- [[unity-chatgpt]] — Experimental project for runtime LLM code generation
+- chatgpt-api-unity（已归档） — Full-featured Unity ChatGAPI client with streaming, function calling, memory management
+- chatgptforunity（已归档） — UPM package for editor-time ChatGPT integration, code generation assistance
+- unity-chatgpt（已归档） — Experimental project for runtime LLM code generation
 
 ## Implementation Checklist
 
@@ -107,7 +107,7 @@ public class LLMDrivenNPC : MonoBehaviour
 ## Related Patterns
 
 - [[ai-shader]] — Natural language to GLSL shader generation in Unity
-- [[unreal-engine-5-llama-lora]] — Similar pattern for Unreal Engine with fine-tuned models
+- unreal-engine-5-llama-lora（已归档） — Similar pattern for Unreal Engine with fine-tuned models
 - [[multi-agent-ai-game-impl]] — Multi-agent AI implementation in game environments
 
 ## References

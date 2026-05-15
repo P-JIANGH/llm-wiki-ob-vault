@@ -57,7 +57,7 @@ The plugin executes AI-generated code via Python `exec()` with full Blender Pyth
 | [[ai-shader]] | GPT → Unity GLSL shaders | Targets Unity shaders, not Blender scripting |
 | [[dream-textures]] | Stable Diffusion in Blender | Generates textures via diffusion, not code |
 | [[blender-controlnet]] | ControlNet + Blender pipeline | Focuses on image generation pipeline control |
-| [[ai-command]] | GPT → Unity C# commands | Same author (keijiro), targets Unity C# |
+| ai-command（已归档） | GPT → Unity C# commands | Same author (keijiro), targets Unity C# |
 
 ## Use Cases in Game Development
 

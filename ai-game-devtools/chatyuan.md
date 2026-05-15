@@ -63,4 +63,4 @@ ChatYuan 属于轻量级中文对话 LLM，与同类工具的主要区别：
 
 - [[ChatRWKV]] — 另一个开源中文对话 LLM（RWKV 架构）
 - [[baichuan-13b]] — 百川 13B 对话模型
-- [[chatgpt-api-unity]] — Unity ChatGPT API 客户端
+- chatgpt-api-unity（已归档） — Unity ChatGPT API 客户端

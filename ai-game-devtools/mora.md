@@ -72,5 +72,5 @@ Mora matches Sora in video duration (80s) but has significant gaps in:
 
 - [[cogvideox]] — THUDM's open-source video generation model family (2B/5B), Apache 2.0
 - [[hunyuan-video]] — Tencent's 13B+ parameter video generation model with Full Attention
-- [[gamegen-o]] — Tencent's open-world game video generation Transformer
+- gamegen-o（已归档） — Tencent's open-world game video generation Transformer
 - [[ltx-video]] — Lightricks DiT video generation model, Apache 2.0

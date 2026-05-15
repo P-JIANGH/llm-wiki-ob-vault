@@ -69,7 +69,7 @@ sources: [raw/articles/ai-game-devtools/code-llama.md]
 - **NPC 对话生成**：Code Llama - Instruct 可用于游戏内 AI NPC 对话系统
 - **代码辅助工具**：Unity/Unreal 插件可集成 Code Llama 作为代码补全后端
 - **游戏脚本生成**：自动生成游戏逻辑脚本（Lua/Python/C#）
-- **与 [[llmunity]] 等 Unity 集成配合**：本地部署 GGUF 量化版本
+- **与 llmunity（已归档） 等 Unity 集成配合**：本地部署 GGUF 量化版本
 
 ## 与同类工具差异
 

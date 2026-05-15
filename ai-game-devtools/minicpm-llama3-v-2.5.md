@@ -57,7 +57,7 @@ Despite its compact size (3B total), MiniCPM-Llama3-V 2.5 matches or exceeds muc
 - **On-device NPC vision**: Small footprint enables local vision understanding in games without cloud API
 - **Bilingual game UIs**: Chinese + English image captioning/QA for game menus and tutorials
 - **Mobile game tools**: Run on-device image understanding for player assistance features
-- Integrates with [[LLMUnity]] for direct Unity integration
+- Integrates with LLMUnity（已归档） for direct Unity integration
 
 ## Related Links
 

@@ -77,7 +77,7 @@ The `execute_blender_code` tool runs **arbitrary Python** in Blender. Users shou
 |------|----------|------------|
 | [[blender-gpt]] | GPT-4 → Blender Python code (chat UI in Blender) | Direct GPT API in Blender sidebar; BlenderMCP uses MCP + Claude externally |
 | [[blender-controlnet]] | ControlNet + Blender image pipeline | Focuses on image generation control, not 3D scene manipulation |
-| [[ai-command]] | GPT → Unity C# commands | Same concept but for Unity C#, not Blender Python |
+| ai-command（已归档） | GPT → Unity C# commands | Same concept but for Unity C#, not Blender Python |
 
 ## Use Cases in Game Development
 

@@ -65,7 +65,7 @@ Dream Textures is a Blender add-on that brings **Stable Diffusion** image genera
 | [[stable-diffusion-webui]] | Standalone WebUI | Dream Textures integrates into Blender 3D workflow |
 | [[comfyui]] | Node-based SD UI | ComfyUI is standalone; Dream Textures is Blender-native |
 | [[stable-diffusion]] | Core model | Dream Textures builds on SD via diffusers |
-| [[unity-ml-stable-diffusion]] | Unity SD integration | Similar concept but for Unity instead of Blender |
+| unity-ml-stable-diffusion（已归档） | Unity SD integration | Similar concept but for Unity instead of Blender |
 
 ## Use Cases for Game Development
 

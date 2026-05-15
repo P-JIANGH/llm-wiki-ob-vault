@@ -52,7 +52,7 @@ Agent 运行在游戏循环中（`convex/agent/`）：
 
 ## 与同类工具的差异
 
-| 维度 | AI Town | [[ai-game-devtools/agentsims|AgentSims]] | [[ai-game-devtools/llmunity|LLMUnity]] |
+| 维度 | AI Town | [[ai-game-devtools/agentsims|AgentSims]] | ai-game-devtools/llmunity（已归档） |
 |------|---------|---------------------|----------------|
 | 语言 | TypeScript | Python | C# / Unity |
 | 后端 | Convex (云托管) | 自定义 | Unity Editor |

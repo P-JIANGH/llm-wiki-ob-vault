@@ -41,7 +41,7 @@ MLC LLM 基于 [[TVM]]（TensorIR/MetaSchedule）构建编译栈，通过 MLCEng
 
 ## 与同类工具的差异
 
-| 特性 | MLC LLM | [[llama.cpp]] | `gemma.cpp` | [[llmunity]] |
+| 特性 | MLC LLM | [[llama.cpp]] | `gemma.cpp` | llmunity（已归档） |
 |------|---------|--------------|--------------|--------------|
 | 编译优化 | TVM ML编译 | 手写 CUDA/Metal | Google Highway SIMD | Unity 插件封装 |
 | 平台覆盖 | 全平台（含 WASM） | CPU/GPU | CPU/GPU | Unity 专用 |
@@ -65,4 +65,4 @@ Apache 2.0
 - [[TVM]] — 深度学习编译器，MLC LLM 的底层编译基础设施
 - [[jan]] — Janhq 本地 ChatGPT 替代，同样提供跨平台 LLM 推理但无编译优化
 - [[gemma-cpp]] — Google 纯 C++ LLM 推理引擎，与 MLC LLM 的端侧部署定位相似
-- [[llmunity]] — Unity 游戏引擎 LLM 集成插件
+- llmunity（已归档） — Unity 游戏引擎 LLM 集成插件

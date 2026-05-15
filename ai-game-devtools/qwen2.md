@@ -33,7 +33,7 @@ Qwen2 是 Qwen 系列模型的第二代，发布于 2024 年。相比 Qwen2.5，
 - **工具调用**：支持 function calling 和 [[MCP]]（Model Context Protocol）
 - **Agent 集成**：通过 [[Qwen-Agent]] 实现复杂 Agent 工作流
 - **推理框架**：兼容 [[vLLM]]、[[SGLang]]、llama.cpp、Ollama、TensorRT-LLM、MNN、ExecuTorch、MLX LM、OpenVINO
-- **游戏开发集成**：已有 Unity 集成方案（[[ChatGPTForUnity]] 类工具可对标）
+- **游戏开发集成**：已有 Unity 集成方案（ChatGPTForUnity（已归档） 类工具可对标）
 
 ## 与同类工具差异
 

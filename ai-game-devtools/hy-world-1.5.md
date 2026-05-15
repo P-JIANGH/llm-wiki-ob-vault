@@ -54,7 +54,7 @@ Pose string 格式：`action-duration`，支持 WASD 移动 + 上下左右旋转
 
 ## 与同类对比
 
-HY-World 1.5 是 [[GameGen-O]] 的升级方向——从离线生成走向**实时交互**，同时解决了 [[Matrix-Game]] 和 `GameCraft` 无法保持长期几何一致性的问题。
+HY-World 1.5 是 GameGen-O（已归档） 的升级方向——从离线生成走向**实时交互**，同时解决了 Matrix-Game（已归档） 和 `GameCraft` 无法保持长期几何一致性的问题。
 
 ## 发布节点
 

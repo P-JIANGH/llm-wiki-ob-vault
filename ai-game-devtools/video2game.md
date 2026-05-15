@@ -49,4 +49,4 @@ sources: [raw/articles/ai-game-devtools/video2game.md]
 
 ## 相关项目
 
-[[gamegen-o]] · [[genesis]] · [[hunyuanworld-1.0]] · `gaussian-dreamer`
+gamegen-o（已归档） · [[genesis]] · [[hunyuanworld-1.0]] · `gaussian-dreamer`

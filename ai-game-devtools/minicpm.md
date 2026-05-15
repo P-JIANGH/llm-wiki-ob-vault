@@ -60,7 +60,7 @@ MiniCPM's compact size and edge-friendly inference make it well-suited for:
 - **Procedural content generation** — text generation for quests, items, lore
 - **On-device AI** — quantized variants run on laptops/edge devices without cloud dependency
 - **Visual understanding** — VLM variants for screenshot analysis or in-game visual QA
-- **[[llmunity]]** provides direct Unity integration for deploying these models in games
+- **llmunity（已归档）** provides direct Unity integration for deploying these models in games
 
 ## License
 

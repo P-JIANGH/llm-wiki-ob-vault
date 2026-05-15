@@ -13,7 +13,7 @@ sources: [raw/articles/ai-game-devtools/iml-ue4.md]
 
 **InteractML Unreal Engine** (`Interactml/iml-ue4`) is an Unreal Engine 4/5 C++ plugin that brings Interactive Machine Learning to UE via native Blueprint nodes. Developers create ML models by wiring Blueprint nodes together, feeding them from any in-engine parameters, and using outputs to drive gameplay, visuals, or control schemes — no code required.
 
-Unlike cloud-based LLM integrations (e.g., [[chatgpt-api-unity]]), InteractML runs lightweight ML models **on-device** at runtime. Models can be trained in-editor using visual node scripting, then deployed for realtime inference during gameplay.
+Unlike cloud-based LLM integrations (e.g., chatgpt-api-unity（已归档）), InteractML runs lightweight ML models **on-device** at runtime. Models can be trained in-editor using visual node scripting, then deployed for realtime inference during gameplay.
 
 ## Key Facts
 
@@ -73,7 +73,7 @@ InteractMLEditorModule (Editor, Win64)
 
 ## Comparison with Similar Tools
 
-| Feature | [[iml-ue4]] | [[interactml-unity]] | [[chatgpt-api-unity]] |
+| Feature | [[iml-ue4]] | [[interactml-unity]] | chatgpt-api-unity（已归档） |
 |---------|-------------|----------------------|-----------------------|
 | Engine | Unreal Engine 4/5 | Unity3D | Unity3D |
 | ML Type | On-device, realtime | On-device, realtime | Cloud LLM API |
@@ -115,4 +115,4 @@ InteractML-UE4 and [[interactml-unity]] share the same RapidLib ML backend and a
 - Docs/Wiki: https://github.com/Interactml/iml-ue4/wiki
 - RapidLib backend: https://github.com/mzed/RapidLib
 - [[interactml-unity]] — Unity counterpart
-- [[chatgpt-api-unity]] — Cloud LLM alternative for Unity
+- chatgpt-api-unity（已归档） — Cloud LLM alternative for Unity

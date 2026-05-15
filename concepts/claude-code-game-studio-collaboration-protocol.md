@@ -285,7 +285,7 @@ User: "Yes."
 
 ## Related
 
-- [[claude-code-game-studios]] — Project overview
+- claude-code-game-studios（已归档） — Project overview
 - [[claude-code-game-studio-architecture]] — Agent hierarchy, coordination rules, model tiers
 - [[claude-code-game-studio-directory-structure]] — Directory structure
 - `game-designer` — Game designer agent role (applies this protocol)

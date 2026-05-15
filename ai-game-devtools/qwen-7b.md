@@ -41,7 +41,7 @@ Qwen-7B 是阿里云通义千问团队发布的开源 LLM 系列基准模型，�
 - **NPC 对话生成**：强多语言聊天能力适合多语言游戏角色
 - **代码生成**：可通过 [[text-generation-webui]] 或 vLLM 部署为游戏开发提供 LLM 服务
 - **本地部署**：小型号（1.8B）可在消费级 GPU 上本地运行
-- **Unity 集成**：可通过 HTTP API 接入 [[ChatGPT-API-unity]] 或 [[SimpleOllamaUnity]] 类方案集成到 Unity
+- **Unity 集成**：可通过 HTTP API 接入 ChatGPT-API-unity（已归档） 或 SimpleOllamaUnity（已归档） 类方案集成到 Unity
 
 ## 与同类工具差异
 

@@ -50,18 +50,18 @@ The CLI leverages `Electron` for browser automation to authenticate with ChatGPT
 | Tool | Auth Method | Interface | Game Dev Relevance |
 |------|-------------|-----------|-------------------|
 | Assistant CLI | Browser automation (ChatGPT web) | Terminal | Terminal-based game dev tools |
-| [[AICommand]] | Unity Editor integration | Unity GUI | Direct game engine plugin |
+| AICommand（已归档） | Unity Editor integration | Unity GUI | Direct game engine plugin |
 | [[AgentGPT]] | OpenAI API | Web UI | Autonomous agent workflows |
-| [[ChatGPTForUnity]] | OpenAI API | Unity C# | Game scripting |
+| ChatGPTForUnity（已归档） | OpenAI API | Unity C# | Game scripting |
 
 Assistant CLI is unique in that it uses browser automation to access ChatGPT for free, at the cost of stability (ChatGPT web UI availability varies). For game developers who prefer terminal workflows, it provides a lightweight alternative to API-based solutions.
 
 ## Related Pages
 
-- [[AICommand]] — Unity integration for ChatGPT
+- AICommand（已归档） — Unity integration for ChatGPT
 - [[AgentGPT]] — Autonomous AI agent platform
-- [[LLMUnity]] — Unity-native LLM integration
-- [[ChatGPTForUnity]] — ChatGPT API integration for Unity
+- LLMUnity（已归档） — Unity-native LLM integration
+- ChatGPTForUnity（已归档） — ChatGPT API integration for Unity
 
 ## External Links
 

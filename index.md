@@ -85,8 +85,11 @@
 | [[entities/tinyllama]] — 1B 参数的开源 LLM 小模型，适合在资源受限环境运行。 |
 | [[entities/trial]] — Shirakumo TRIAL，开源 Common Lisp 游戏引擎。 |
 | [[entities/voxcpm]] — VoxCPM 是 OpenBMB 团队开源的**无离散音频分词器（Tokenizer-Free）语音合成系统**，通过端到端扩散自回归架构直接生成连续语音表征， |
-| [[entities/vue-termui]] — Terminal User Interfaces powered by Vue.js. 构建 TUI 的 Vue 3 框架，用 Flexbox 布局 + Yog |
-| [[entities/whisper]] — OpenAI 开源的语音识别模型，支持多语言转录和翻译。 |
+|| [[entities/vue-termui]] — Terminal User Interfaces powered by Vue.js. 构建 TUI 的 Vue 3 框架，用 Flexbox 布局 + Yog |
+|| [[entities/pi-ai]] — @earendil-works/pi-ai 统一多 Provider LLM API (30+ Provider, Agent-first, 跨 Provider handoff, ~40K LOC) |
+|| [[entities/pi-mono]] — Mario Zechner 的 AI agent monorepo。pi-ai + pi-agent-core + pi-coding-agent + pi-tui + pi-web-ui，~192K LOC。最小核心 + 强类型扩展系统 |
+|| [[entities/pi-coding-agent]] — @earendil-works/pi-coding-agent 终端编码 Agent CLI。7 默认工具 + 4 种模式 + 60+ 事件类型扩展系统 + JSONL 树会话管理 |
+|| [[entities/whisper]] — OpenAI 开源的语音识别模型，支持多语言转录和翻译。 |
 
 ## Concepts
 

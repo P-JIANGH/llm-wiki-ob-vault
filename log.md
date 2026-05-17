@@ -514,3 +514,9 @@
 - Files updated: index.md (新增 ## Queries 节)
 - 覆盖: Token消耗问题/架构过重(2K文件294K LOC)/行为矫正过度/运行时依赖/6项改进方向(提示词分层/微内核/提示词去重/Prompt Caching/提示词-代码分离/轻量Team Mode)
 - 结论: oh-my-openagent 展示所有Agent编排工程问题但设计过重；好的Agent架构应在强大和精简间平衡
+## [2026-05-17] ingest | pi-mono monorepo 完整源码分析
+- Source: ~/pi/ (本地完整源码)
+- Files created: raw/articles/pi-mono-2026.md, entities/pi-ai.md, entities/pi-mono.md
+- Files updated: entities/pi-coding-agent.md (大幅重写), index.md (新增3个实体条目)
+- 覆盖: pi-ai 统一多Provider LLM API(30+ Provider/stream&complete统一接口/Context序列化/惰性加载/TypeBox类型安全)、pi-agent-core Agent循环(两层循环/AgentMessage声明合并/跨Provider handoff)、pi-coding-agent(7工具/4模式/AgentSession~3100行/扩展系统60+事件/JSONL树会话/简洁system prompt)、pi-tui 终端UI组件(差分渲染)
+- 关键发现: pi与oh-my-openagent是Agent编排的两种极端哲学——最小核心+扩展 vs 最大功能集+Hook。pi的system prompt仅~0.5KB(对比omo的22KB)，通过AGENTS.md和skills提供上下文

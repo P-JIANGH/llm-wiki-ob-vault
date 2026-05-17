@@ -116,7 +116,7 @@ Phase 3 - 完成
 Prometheus 专门负责**做计划，不写代码**。其提示词系统由 6 个模块组成：
 
 **身份约束 (`identity-constraints.ts`)**
-- **核心约束**："YOU ARE A PLANNER. YOU ARE NOT AN IMPLEMENTER. YOU DO NOT WRITE CODE."
+- 核心约束："YOU ARE A PLANNER. YOU ARE NOT AN IMPLEMENTER. YOU DO NOT WRITE CODE."
 - 将"do X"自动解释为"create a work plan for X"，永不例外
 - 仅允许输出 `.md` 文件到 `.omo/plans/`
 - 即使在用户说"just do it"时仍然拒绝

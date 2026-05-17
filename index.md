@@ -62,7 +62,7 @@
 | [[entities/nerf]] — Neural Radiance Fields，神经辐射场。通过神经网络从多视角图像重建 3D 场景。 |
 | [[entities/nyan]] — 开源数据格式，用于游戏配置。openage 项目使用 nyan 格式替代传统文本/二进制配置。 |
 | [[entities/officecli]] — 第一个命令行工具，专为 AI agent 读写和自动化 Microsoft Office 文档（Word、Excel、PowerPoint）。 |
-| [[entities/oh-my-opencode]] — OpenCode 的增强包/插件系统。SUL-1.0 license，TypeScript + Bun，302+ stars。 |
+|| [[entities/oh-my-opencode]] — oh-my-opencode → [[entities/oh-my-openagent]]（已改名，57.1K stars，v4.1.2）。OpenCode 多 Agent 编排系统，11 Agent + Team Mode + Hashline + 3层 MCP。 |
 | [[entities/ollama]] — 本地运行大语言模型的工具，一条命令即可运行各种开源 LLM。 |
 | [[entities/open-codesign]] — 第一个开源的 Claude Design 替代品。MIT license，桌面 Electron 应用，把 AI agent 变成设计引擎。 |
 | [[entities/open-design]] — Open Design 是 Claude Design 的开源替代品。本地优先、可部署到 Vercel、每一层都 BYOK。 |

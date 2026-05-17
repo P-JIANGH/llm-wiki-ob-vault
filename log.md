@@ -21,6 +21,14 @@
 - 覆盖: 架构概览 / 核心模块 / Agent-TUI 可行性分析 / 技术对比
 - 结论: vue-termui 可作为 Agent-TUI 的 UI 渲染层，但 Agent Loop / 流式输出 / 多区域布局需自行补充
 
+## [2026-05-17] ingest | oh-my-openagent (formerly oh-my-opencode) 完整源码分析
+- Source: GitHub https://github.com/code-yeongyu/oh-my-openagent (git clone + AGENTS.md + README)
+- Files created: raw/articles/oh-my-openagent-2026.md, entities/oh-my-openagent.md
+- Files updated: entities/oh-my-opencode.md (archive pointer → oh-my-openagent), index.md (updated entry)
+- 覆盖: 11 Agent 系统（Sisyphus/Hephaestus/Atlas/Prometheus 等）、Team Mode v4.0 并行多 Agent 协作、Hashline LINE#ID 哈希编辑、IntentGate 意图分析、3 层 MCP 系统、5 层 Hook 系统（54-61 hooks）、工具分类（20+19 条件）、OpenClaw 双向集成、Boulder 工作跟踪、Ralph Loop 自循环
+- 关键变化: oh-my-opencode → oh-my-openagent 改名，stars 302→57.1k，v0.x→v4.1.2，LOC ~2K→~294K，Agent 10→11
+- 结论: 当前最热门的 OpenCode 插件生态，打破了 AI coding agent 的围墙花园。11 个跨模型 Agent 的编排系统，是了解多 Agent 协作架构的重要参考
+
 ## [2026-05-06] create | Agent-CLI/TUI 学习路径
 - Created: concepts/agent-cli-tui-learning-path.md
 - Topic: 构建 Agent-CLI/TUI 所需的核心知识体系与入手路径
@@ -496,3 +504,8 @@
 |  ① _meta/topic-map.md（按技能领域）→ 新手友好入口
 |  ② index.md（按页面类型）→ 完整索引
 |  ③ log.md（按时间顺序）→ 变更记录|
+## [2026-05-17] update | oh-my-openagent 深度源码分析——Agent 提示词与机制
+- Source: ~/oh-my-openagent/ (本地完整源码深度分析)
+- Files updated: entities/oh-my-openagent.md (8KB→16KB, 新增提示词系统深度分析和核心机制详解)
+- 覆盖: Sisyphus 提示词5变体(default/claude-opus-4-7/gemini/gpt-5-4/gpt-5-5) 与 Phase 0-3 工作流模型、Prometheus 提示词6模块(identity-constraints/interview-mode/plan-generation/high-accuracy-mode/plan-template/behavioral-summary) 与 3次 Oracle 阶段门检查、IntentGate 分层系统(Hook + 提示词层)、Hashline 双Hook配对(Read Enhancer + Edit Diff Enhancer)、5层54-61 Hook系统、Team Mode 文件管道架构、Background Agent 状态机、Ralph Loop、3层MCP隔离
+- 结论: 该库最值得学习的不是功能而是工程方法——动态提示词构建、Hook系统级的生命周期注入、提示词工程技巧(XML标签锚点/Phase模型/Turn-Local Intent Reset/Evidence Requirements)

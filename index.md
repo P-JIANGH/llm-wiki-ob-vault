@@ -616,8 +616,8 @@
 | [[ai-game-devtools/perplexica]] — **GitHub**: https://github.com/ItzCrazyKns/Perplexica |
 | [[ai-game-devtools/phys-rig]] — **PhysRig**（Differentiable Physics-Based Rigging for Realistic Articulated Objec |
 | [[ai-game-devtools/physrig]] — **PhysRig** is a differentiable, physics-based skinning and rigging framework fo |
-| [[ai-game-devtools/pi-coding-agent]] — Interactive terminal coding agent by [[badlogic]]. Minimal harness that adapts t |
-| [[ai-game-devtools/pi-mono]] — AI agent toolkit monorepo by [[badlogic]] (Mario Zechner). Provides a coding age |
+|| [[ai-game-devtools/pi-coding-agent]] → 已迁移至 [[entities/pi-coding-agent]] |
+|| [[ai-game-devtools/pi-mono]] → 已迁移至 [[entities/pi-mono]] |
 | [[ai-game-devtools/pipecat]] — **Pipecat** is an open-source Python framework for building real-time voice and  |
 | [[ai-game-devtools/pixtral-12b-2409]] — > **Note:** Pixtral-12B-2409 is the first released model from Mistral AI's Pixtr |
 | [[ai-game-devtools/pllava]] — **PLLaVA** (Pooling LLaVA) is a parameter-free LLaVA extension that adapts image |

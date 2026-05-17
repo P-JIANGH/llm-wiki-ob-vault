@@ -509,3 +509,8 @@
 - Files updated: entities/oh-my-openagent.md (8KB→16KB, 新增提示词系统深度分析和核心机制详解)
 - 覆盖: Sisyphus 提示词5变体(default/claude-opus-4-7/gemini/gpt-5-4/gpt-5-5) 与 Phase 0-3 工作流模型、Prometheus 提示词6模块(identity-constraints/interview-mode/plan-generation/high-accuracy-mode/plan-template/behavioral-summary) 与 3次 Oracle 阶段门检查、IntentGate 分层系统(Hook + 提示词层)、Hashline 双Hook配对(Read Enhancer + Edit Diff Enhancer)、5层54-61 Hook系统、Team Mode 文件管道架构、Background Agent 状态机、Ralph Loop、3层MCP隔离
 - 结论: 该库最值得学习的不是功能而是工程方法——动态提示词构建、Hook系统级的生命周期注入、提示词工程技巧(XML标签锚点/Phase模型/Turn-Local Intent Reset/Evidence Requirements)
+## [2026-05-17] query | oh-my-openagent 架构批评与改进方向
+- Created: queries/oh-my-openagent-critique.md (9KB)
+- Files updated: index.md (新增 ## Queries 节)
+- 覆盖: Token消耗问题/架构过重(2K文件294K LOC)/行为矫正过度/运行时依赖/6项改进方向(提示词分层/微内核/提示词去重/Prompt Caching/提示词-代码分离/轻量Team Mode)
+- 结论: oh-my-openagent 展示所有Agent编排工程问题但设计过重；好的Agent架构应在强大和精简间平衡

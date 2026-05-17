@@ -838,4 +838,8 @@
 |
 |## Comparisons
 |
-|| [[comparisons/agent-framework-comparison]] — 多 Agent 框架深度对比：LangGraph(v1.2) vs CrewAI(v1.14.5) vs AgentScope(v1.0.19) vs AutoGen(维护模式)，涵盖核心架构/生态/社区/技术选型决策树/设计哲学差异 |
+||| [[comparisons/agent-framework-comparison]] — 多 Agent 框架深度对比：LangGraph(v1.2) vs CrewAI(v1.14.5) vs AgentScope(v1.0.19) vs AutoGen(维护模式)，涵盖核心架构/生态/社区/技术选型决策树/设计哲学差异 |
+
+## Queries
+
+|| [[queries/oh-my-openagent-critique]] — oh-my-openagent 架构批评与改进方向：Token 消耗问题/过重架构/行为矫正过度/改进方案(提示词分层/微内核/提示词分离/轻量 Team Mode) |

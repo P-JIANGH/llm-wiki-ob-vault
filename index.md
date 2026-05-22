@@ -2,10 +2,11 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query. 按技能领域导航见 [[_meta/topic-map]]。
-> Last updated: 2026-05-15 | 818 | Domain: AI Agent 系统架构 / Agentic System Design
+> Last updated: 2026-05-22 | 821 | Domain: AI Agent 系统架构 / Agentic System Design
 
 ## AI / LLM / Agent
 
+| [[entities/12-factor-agents]] — 12 条可操作原则，用于构建生产级可靠的 LLM 应用。由 Dex / HumanLayer 创建，20,500+ stars。 |
 | [[entities/3d-gaussian-splatting]] — 用 3D 高斯点云表示场景并进行渲染的新方法，比 [[NeRF]] 速度更快。 |
 | [[entities/agent-code]] — 专注于代码任务的 LLM Agent 工具。 |
 | [[entities/agent-rl]] — 基于强化学习的大语言模型 Agent 训练框架。 |
@@ -94,6 +95,7 @@
 ## Concepts
 
 | [[concepts/agent-cli-tui-learning-path]] — 构建 Agent-CLI/TUI 所需的核心知识体系与入手路径。内容综合自 wiki 中已有实体页面，按优先级排序。 |
+| [[concepts/agent-design-principles]] — 构建生产级 LLM Agent 的核心工程原则。源自 [[entities/12-factor-agents]] 的 12 条原则体系。 |
 | [[concepts/agent-loop-architecture]] — AI Agent 的核心循环模式：多轮对话 + 工具调用，直到任务完成或达到迭代上限。 |
 | [[concepts/agent-loop]] — AI Agent 的核心执行循环模式：LLM 与工具之间反复交互，直到任务完成或达到迭代上限。 |
 | [[concepts/agent-swarm]] — 一种多 Agent 协作架构模式：多个专用 Agent 在一个 Leader 协调下组成团队，共享任务、消息和工作空间，自主完成复杂目标。 |
@@ -114,6 +116,7 @@
 | [[concepts/claude-code-game-studio-collaboration-protocol]] — <!-- TODO: This page has 291 lines and should be split into smaller, focused pag |
 | [[concepts/claude-code-game-studio-directory-structure]] — 用 [[claude-code]] 或类似 AI 编程工具开发游戏时的推荐项目目录结构模板。 |
 | [[concepts/context-compression]] — 在大规模多轮对话中管理 LLM 上下文窗口的技术。当对话长度接近模型的 context limit 时，需要压缩历史消息同时保留关键信息。 |
+| [[concepts/context-engineering]] — 优化 LLM 输入的设计与实践。核心思想：最大化信息密度、Token 效率和模型表现。源于 [[entities/12-factor-agents]] Factor 3。 |
 | [[concepts/datahub-architecture]] — 每个 screen/widget 独立轮询自己的数据: |
 | [[concepts/deepseek-tui-coordinator]] — A reusable **multi-agent git-worktree sprint pattern** for coordinating large De |
 | [[concepts/deepseek-tui-memory]] — A persistent cross-session note file injected into the system prompt every turn. |

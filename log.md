@@ -520,3 +520,17 @@
 - Files updated: entities/pi-coding-agent.md (大幅重写), index.md (新增3个实体条目)
 - 覆盖: pi-ai 统一多Provider LLM API(30+ Provider/stream&complete统一接口/Context序列化/惰性加载/TypeBox类型安全)、pi-agent-core Agent循环(两层循环/AgentMessage声明合并/跨Provider handoff)、pi-coding-agent(7工具/4模式/AgentSession~3100行/扩展系统60+事件/JSONL树会话/简洁system prompt)、pi-tui 终端UI组件(差分渲染)
 - 关键发现: pi与oh-my-openagent是Agent编排的两种极端哲学——最小核心+扩展 vs 最大功能集+Hook。pi的system prompt仅~0.5KB(对比omo的22KB)，通过AGENTS.md和skills提供上下文
+
+## [2026-05-22] deep-dive | 12-Factor Agents 完整源码+生态研究
+- Source: ~/12-factor-agents/ (本地源码: README + 12 factors + packages create-12-factor-agent + walkthroughgen + drafts/a2h-spec.md + workshops)
+- Research angles: GitHub README + repo structure, 12 factors content, packages implementation, ecosystem research (HumanLayer, AgentControlPlane, got-agents/agents, BAML), competitive landscape (Anthropic Building Effective Agents)
+- Files created: raw/articles/12-factor-agents-2026.md (12KB), entities/12-factor-agents.md (5.7KB), concepts/context-engineering.md (4.2KB), concepts/agent-design-principles.md (5.4KB)
+- Files updated: index.md (header: 818→821, +4 entries)
+- 核心发现:
+  - 12-Factor Agents 是设计哲学文档，不是框架——20,500+ stars
+  - 作者 Dex (HumanLayer YC F24) 推广了 "Context Engineering" 术语
+  - 核心公式: Agent = Prompt + Switch + Context + Loop
+  - 10个因子覆盖从基础(NL→工具)到高级(无状态Reducer)
+  - 生态: HumanLayer(HITL API) + AgentControlPlane(K8s CRD) + create-12-factor-agent(脚手架) + got-agents(参考实现)
+  - 与 Anthropic "Building Effective Agents" 互补：12-Factor 更工程化、更具体
+- 关联现有页面: [[concepts/agent-loop-architecture]], [[concepts/context-compression]], [[concepts/mcp]]

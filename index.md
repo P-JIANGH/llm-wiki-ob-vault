@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query. 按技能领域导航见 [[_meta/topic-map]]。
-> Last updated: 2026-05-22 | 821 | Domain: AI Agent 系统架构 / Agentic System Design
+> Last updated: 2026-05-25 | 824 | Domain: AI Agent 系统架构 / Agentic System Design
 
 ## AI / LLM / Agent
 
@@ -25,9 +25,10 @@
 | [[entities/cogvideo]] — 国内开源的视频生成大模型，基于 [[stable-diffusion]] 架构扩展。 |
 | [[entities/coze-studio]] — Coze Studio 是字节跳动 Coze（扣子）平台的本地私有化部署版本。开源核心功能包括完整的工作流引擎、插件核心框架、开箱即用的开发环境。上线两天 Gi |
 | [[entities/cursor]] — AI 驱动的代码编辑器，基于 VS Code。 |
-| [[entities/deepseek-tui]] — Terminal-native coding agent built around DeepSeek V4's 1M-token context and pre |
-| [[entities/deepseek]] — 国内 AI 公司，专注于开源大语言模型。 |
-| [[entities/deer-flow]] — <!-- TODO: This page has 269 lines and should be split into smaller, focused pag |
+|| [[entities/deepseek-tui]] — Terminal-native coding agent built around DeepSeek V4's 1M-token context and pre |
+|| [[entities/deepseek]] — 国内 AI 公司，专注于开源大语言模型。 |
+|| [[entities/deepseek-reasonix]] — DeepSeek-native terminal coding agent engineered around prefix-cache stability. MIT, ~5.2k stars, 99.82% cache hit rate. |
+|| [[entities/deer-flow]] — <!-- TODO: This page has 269 lines and should be split into smaller, focused pag |
 | [[entities/eino]] — Go 语言的多 Agent 编排框架，专注于构建 LLM 驱动的应用。 |
 | [[entities/fincept-terminal]] — **Fincept Terminal** is an open-source financial intelligence platform built by  |
 | [[entities/firered-openstoryline]] — FireRed-OpenStoryline 是 FireRedTeam（关联 [[openclaw]]）开源的 AI 视频创作工具，将复杂视频制作转化为自然直观 |
@@ -110,8 +111,9 @@
 | [[concepts/autonomous-llm-research]] — 一种 AI 研究范式：给 AI agent 一个可修改的 LLM 训练代码库，agent 自主提出假设、修改代码、运行实验、评估结果、迭代改进——无需人类干预即 |
 | [[concepts/blip-2]] — [[vision-language-models]] / [[multimodal-models]] |
 | [[concepts/broker-interface]] — 统一的 broker 抽象接口，`BrokerInterface` 是所有 broker 适配器的基类。支持 20+ broker，覆盖 Indian、US、I |
-| [[concepts/canva]] — [[design-automation]] / [[ai-design-tools]] |
-| [[concepts/channel-system]] — Channel System 是一种将多聊天平台接入与核心 Agent 逻辑解耦的架构模式。所有渠道通过统一 Message Bus 与核心通信，核心 Agen |
+|| [[concepts/cache-first-agent-loop]] — 为最大化 LLM prefix-cache 命中率而设计的 Agent 上下文分区策略：Immutable Prefix + Append-Only Log + Volatile Scratch。 |
+|| [[concepts/tool-call-repair]] — 多轮修复流水线，处理 LLM 工具调用中的 thought-leakage、参数丢失、重复调用风暴和 JSON 截断问题。 |
+|| [[concepts/channel-system]] — Channel System 是一种将多聊天平台接入与核心 Agent 逻辑解耦的架构模式。所有渠道通过统一 Message Bus 与核心通信，核心 Agen |
 | [[concepts/claude-code-game-studio-architecture]] — A tiered agent hierarchy that mirrors a real indie game studio's organizational  |
 | [[concepts/claude-code-game-studio-collaboration-protocol]] — <!-- TODO: This page has 291 lines and should be split into smaller, focused pag |
 | [[concepts/claude-code-game-studio-directory-structure]] — 用 [[claude-code]] 或类似 AI 编程工具开发游戏时的推荐项目目录结构模板。 |

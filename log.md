@@ -1,3 +1,28 @@
+## [2026-05-25] deep-dive | DeepSeek-Reasonix 完整源码学习
+- Source: ~/DeepSeek-Reasonix 本地源码 + docs/ARCHITECTURE.md + docs/CLI-REFERENCE.md + benchmarks/ + web research
+- Files created:
+  - `raw/articles/deepseek-reasonix-2026.md` — 13KB 源码综合素材
+  - `entities/deepseek-reasonix.md` — 实体页面（Three Pillars / Architecture / CLI / Comparison）
+  - `concepts/cache-first-agent-loop.md` — Cache-First Loop 概念页（ImmutablePrefix / AppendOnlyLog / VolatileScratch / Auto-compact）
+  - `concepts/tool-call-repair.md` — Tool-Call Repair Pipeline 概念页（Flatten / Scavenge / Truncation / Storm）
+- Files updated: `index.md`（4 条新索引 + 总页数 821→824）
+- 覆盖: 1,353 commits, v0.50.1, ~76K LOC TypeScript, 231 test files
+  - Pillar 1: CacheFirstLoop (src/loop.ts, src/memory/runtime.ts, src/context-manager.ts)
+  - Pillar 2: ToolCallRepair (src/repair/ — flatten/scavenge/truncation/storm)
+  - Pillar 3: CostControl (src/telemetry/stats.ts — flash-first / auto-compact / <<<NEEDS_PRO>>>)
+  - 工具系统: filesystem/shell/memory/skills/subagent/plan/todo/choice/web + MCP client (stdio/SSE/streamable-http)
+  - TUI: Ink 5 + React 19, App.tsx ~4.6K LOC, 13 slash handler modules
+  - Dashboard: embedded HTTP server + React SPA, Desktop Tauri bundle
+  - 记忆系统: ImmutablePrefix + AppendOnlyLog + VolatileScratch + UserMemory + ProjectMemory(REASONIX.md)
+  - Hooks: PreToolUse/PostToolUse/UserPromptSubmit/Stop
+- 关键发现:
+  1. DeepSeek-only by design — 耦合是特性不是限制，每一层都为 prefix-cache 优化
+  2. 99.82% cache hit 不是 DeepSeek 的功劳 alone，是客户端四大机制（ImmutablePrefix / AppendOnlyLog / VolatileScratch / Auto-compact）的结果
+  3. Tool-Call Repair 的四级流水线（flatten→scavenge→truncation→storm）是针对 DeepSeek 具体失效模式的工程化解决方案
+  4. Cost Control 的 flash-first 默认 + 自动压缩 + 模型自报告升级，实现 "$12/天 vs $61/天"
+  5. Skills 系统兼容 Claude-format（.claude/skills/），是 Agent 生态互操作的一个有趣案例
+- 竞品定位: 与 Claude Code / Cursor / Aider 同处 terminal coding agent 赛道，独特优势是 DeepSeek 专属优化 + 极致成本控制 + MIT 开源
+
 ## [2026-05-06] ingest | OpenWolf 项目源码分析
 - Source: ~/openwolf 完整源码分析
 - Files created: raw/articles/openwolf-2026.md, entities/openwolf.md

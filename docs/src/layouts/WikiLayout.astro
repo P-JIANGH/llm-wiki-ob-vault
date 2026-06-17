@@ -1,0 +1,163 @@
+---
+// WikiLayout.astro — wraps all wiki pages
+import type { VaultEntry } from '../lib/vault';
+import { buildSidebar, loadAllPages } from '../lib/vault';
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  currentSlug?: string;
+}
+
+const { title = 'LLM Wiki', currentSlug = '' } = Astro.props;
+const allPages = loadAllPages();
+const sidebar = buildSidebar(allPages);
+const fullTitle = title === 'LLM Wiki' ? 'LLM Wiki' : `${title} — LLM Wiki`;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{fullTitle}</title>
+  <meta name="description" content="LLM Wiki — Agentic System Designer 知识库" />
+  <meta property="og:title" content={fullTitle} />
+  <meta property="og:description" content="LLM Wiki — Agentic System Designer 知识库" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E📚%3C/text%3E%3C/svg%3E" />
+  <script is:inline></script>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">跳转到内容</a>
+
+  <!-- Header -->
+  <header class="site-header">
+    <button class="menu-btn" id="menuToggle" aria-label="切换菜单" aria-expanded="false">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <a href="/" class="site-title">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--link)"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+      <span>LLM</span> Wiki
+    </a>
+    <nav class="site-meta">
+      <span>{allPages.length} 页面</span>
+      <a href="https://gitcode.com/jingh_hnr/llm-wiki-ob-vault" target="_blank" rel="noopener">源码</a>
+    </nav>
+  </header>
+
+  <div class="layout">
+    <!-- Sidebar -->
+    <aside class="sidebar" id="sidebar" aria-label="侧边栏导航">
+      <div class="sidebar-search">
+        <input type="text" id="sidebarSearch" placeholder="搜索页面..." aria-label="搜索页面" />
+      </div>
+
+      <a href="/" class="sidebar-item" class:list={[{ active: currentSlug === '' || currentSlug === 'index' }]}>🏠 首页</a>
+
+      {sidebar.map(section => (
+        section.id === 'raw' ? null :
+        <div class="sidebar-section" data-section={section.id}>
+          <div class="sidebar-section-title">{section.label}</div>
+          <div class="sidebar-entries">
+            {section.entries.map(entry => (
+              <a
+                href={`/${entry.slug}`}
+                class="sidebar-item"
+                class:list={[{ active: currentSlug === entry.slug }]}
+                title={entry.title}
+              >
+                {entry.title}
+              </a>
+            ))}
+          </div>
+        </div>
+      ))}
+
+      <div class="sidebar-section" data-section="raw">
+        <div class="sidebar-section-title">原始资料 Raw</div>
+        <div class="sidebar-entries">
+          {sidebar.find(s => s.id === 'raw')?.entries.map(entry => (
+            <a
+              href={`/${entry.slug}`}
+              class="sidebar-item"
+              class:list={[{ active: currentSlug === entry.slug }]}
+              title={entry.title}
+            >
+              {entry.title}
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <div class="sidebar-section" data-section="meta">
+        <div class="sidebar-section-title" style="margin-top:1.5rem">其他</div>
+        <div class="sidebar-entries">
+          <a href="/SCHEMA" class="sidebar-item" class:list={[{ active: currentSlug === 'SCHEMA' }]}>Schema</a>
+          <a href="/log" class="sidebar-item" class:list={[{ active: currentSlug === 'log' }]}>Log</a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Main -->
+    <main class="main-content" id="main-content">
+      <slot />
+    </main>
+  </div>
+
+  <script>
+    // Mobile menu toggle
+    const btn = document.getElementById('menuToggle');
+    const sidebar = document.getElementById('sidebar');
+    if (btn && sidebar) {
+      btn.addEventListener('click', () => {
+        const isOpen = sidebar.classList.toggle('open');
+        btn.setAttribute('aria-expanded', String(isOpen));
+      });
+      document.addEventListener('click', (e) => {
+        if (!sidebar.contains(e.target) && !btn.contains(e.target)) {
+          sidebar.classList.remove('open');
+          btn.setAttribute('aria-expanded', 'false');
+        }
+      });
+    }
+
+    // Sidebar search
+    const searchInput = document.getElementById('sidebarSearch') as HTMLInputElement;
+    if (searchInput) {
+      searchInput.addEventListener('input', (e) => {
+        const query = (e.target as HTMLInputElement).value.toLowerCase();
+        document.querySelectorAll('.sidebar-item').forEach(item => {
+          const text = item.textContent?.toLowerCase() || '';
+          (item as HTMLElement).style.display = text.includes(query) ? '' : 'none';
+        });
+        // Hide empty sections
+        document.querySelectorAll('.sidebar-section').forEach(section => {
+          const visible = section.querySelectorAll('.sidebar-item[style="display: none;"]').length;
+          const total = section.querySelectorAll('.sidebar-item').length;
+          const title = section.querySelector('.sidebar-section-title') as HTMLElement;
+          if (title) title.style.display = (visible === total && query) ? 'none' : '';
+        });
+      });
+    }
+
+    // Highlight active sidebar item
+    document.querySelectorAll('.sidebar-item').forEach(link => {
+      if ((link as HTMLAnchorElement).getAttribute('href') === window.location.pathname) {
+        link.classList.add('active');
+      }
+    });
+
+    // Close sidebar on resize to desktop
+    window.matchMedia('(min-width: 769px)').addEventListener('change', (e) => {
+      if (e.matches) {
+        sidebar?.classList.remove('open');
+        btn?.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+</body>
+</html>

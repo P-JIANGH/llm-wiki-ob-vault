@@ -119,7 +119,7 @@ Observation: "Klaus used 5 papers in 2 hours"
 
 - [[multi-agent-ai-simulation]] — 多智能体 AI 通用概念
 - [[multi-agent-ai-game-impl]] — Microverse 的具体实现
-- [[microverse-dialog-system]] — Microverse 对话系统详解
+- microverse-dialog-system（已归档） — Microverse 对话系统详解
 - [[llm-integration]] — 多 Provider LLM 集成
 
 ## 参考文献

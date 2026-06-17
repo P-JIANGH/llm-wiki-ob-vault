@@ -1,0 +1,16 @@
+{
+  "name": "llm-wiki-site",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "build": "astro build",
+    "preview": "astro preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@astrojs/markdown-remark": "^6.3.11",
+    "astro": "^5.1.0",
+    "fuse.js": "^7.3.0",
+    "unist-util-visit": "^5.1.0"
+  }
+}

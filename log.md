@@ -1,239 +1,561 @@
-# Wiki Log
+## [2026-05-25] deep-dive | DeepSeek-Reasonix 完整源码学习
+- Source: ~/DeepSeek-Reasonix 本地源码 + docs/ARCHITECTURE.md + docs/CLI-REFERENCE.md + benchmarks/ + web research
+- Files created:
+  - `raw/articles/deepseek-reasonix-2026.md` — 13KB 源码综合素材
+  - `entities/deepseek-reasonix.md` — 实体页面（Three Pillars / Architecture / CLI / Comparison）
+  - `concepts/cache-first-agent-loop.md` — Cache-First Loop 概念页（ImmutablePrefix / AppendOnlyLog / VolatileScratch / Auto-compact）
+  - `concepts/tool-call-repair.md` — Tool-Call Repair Pipeline 概念页（Flatten / Scavenge / Truncation / Storm）
+- Files updated: `index.md`（4 条新索引 + 总页数 821→824）
+- 覆盖: 1,353 commits, v0.50.1, ~76K LOC TypeScript, 231 test files
+  - Pillar 1: CacheFirstLoop (src/loop.ts, src/memory/runtime.ts, src/context-manager.ts)
+  - Pillar 2: ToolCallRepair (src/repair/ — flatten/scavenge/truncation/storm)
+  - Pillar 3: CostControl (src/telemetry/stats.ts — flash-first / auto-compact / <<<NEEDS_PRO>>>)
+  - 工具系统: filesystem/shell/memory/skills/subagent/plan/todo/choice/web + MCP client (stdio/SSE/streamable-http)
+  - TUI: Ink 5 + React 19, App.tsx ~4.6K LOC, 13 slash handler modules
+  - Dashboard: embedded HTTP server + React SPA, Desktop Tauri bundle
+  - 记忆系统: ImmutablePrefix + AppendOnlyLog + VolatileScratch + UserMemory + ProjectMemory(REASONIX.md)
+  - Hooks: PreToolUse/PostToolUse/UserPromptSubmit/Stop
+- 关键发现:
+  1. DeepSeek-only by design — 耦合是特性不是限制，每一层都为 prefix-cache 优化
+  2. 99.82% cache hit 不是 DeepSeek 的功劳 alone，是客户端四大机制（ImmutablePrefix / AppendOnlyLog / VolatileScratch / Auto-compact）的结果
+  3. Tool-Call Repair 的四级流水线（flatten→scavenge→truncation→storm）是针对 DeepSeek 具体失效模式的工程化解决方案
+  4. Cost Control 的 flash-first 默认 + 自动压缩 + 模型自报告升级，实现 "$12/天 vs $61/天"
+  5. Skills 系统兼容 Claude-format（.claude/skills/），是 Agent 生态互操作的一个有趣案例
+- 竞品定位: 与 Claude Code / Cursor / Aider 同处 terminal coding agent 赛道，独特优势是 DeepSeek 专属优化 + 极致成本控制 + MIT 开源
 
-> Chronological record of all wiki actions. Append-only.
-> Format: `## [YYYY-MM-DD] action | subject`
-> Actions: ingest, update, query, lint, create, archive, delete
-> When this file exceeds 500 entries, rotate: rename to log-YYYY.md, start fresh.
+## [2026-05-06] ingest | OpenWolf 项目源码分析
+- Source: ~/openwolf 完整源码分析
+- Files created: raw/articles/openwolf-2026.md, entities/openwolf.md
+- 覆盖: 6 Hook 机制（session-start/pre-read/post-read/pre-write/post-write/stop）、.wolf/ 目录结构、extractDescription 智能描述提取、bug 自动检测、Cerebrum 黑名单、Daemon/Cron 系统、Design QC、init 初始化流程
+- 结论: Claude Code 第二大脑，AGPL-3.0，~80% token 节省，6 个纯 Node.js Hook 无感知注入
 
-## [2026-04-09] lint | 整理 index.md
-- 统一前缀格式：`| [[wikilink]] — 描述`（清除 `||||`、`||>`、`|>` 等混乱前缀）
-- 修复 `!![open-source-game/hurry-curry]` → `[[open-source-game/hurry-curry]]`
-- 重新分组为 5 个 section：AI/LLM/Agent、Game Projects & Studios、Game Dev、Open Source Games、Comparisons
-- 更新: index.md, log.md
+## [2026-05-06] ingest | OpenHarness 项目源码分析
+- Source: ~/OpenHarness 完整源码分析（README.md / CHANGELOG.md / 核心模块源码）
+- Files created: raw/articles/openharness-2026.md, entities/openharness.md
+- 覆盖: 10子系统架构（Engine/Tools/Skills/Plugins/Permissions/Hooks/Commands/MCP/Memory/Swarm）、ohmo personal agent、Provider 体系、React TUI
+- 结论: Claude Code 的开源 Python 实现，Harness = Tools + Knowledge + Observation + Action + Permissions，oh+ohmo 双CLI，MIT
+## [2026-05-06] ingest | ruflo 项目源码分析
+- Source: ~/ruflo/ 完整源码分析
+- Files created: entities/ruflo.md（12KB 完整分析）
+- 覆盖: 架构总览 / V3 模块结构 / SwarmCoordinator / MCPServer / CLI / Hooks / 自学习 / 安全特性 / Web UI / 插件生态
+- 结论: Ruflo 是面向 Claude Code 的 Agent 编排层，非 LLM 非 Agent，包含 MCP Server + CLI + 100+ Agent 定义 + HNSW 记忆
 
-## [2026-04-09] ingest | MemPalace AI 记忆系统
-- Created: entities/mempalace.md (AI 长期记忆系统，ChromaDB verbatim 存储 + 4 层记忆栈，LongMemEval 96.6% raw / 100% hybrid，$0 无 API，MCP Server 19 工具，Claude Code Hook 集成，AAAK lossy 压缩实验性)
-- Updated: index.md (total pages: 49), log.md
+## [2026-05-06] ingest | vue-termui 项目源码分析
+- Source: ~/vue-termui/ 完整源码分析
+- Files created: entities/vue-termui.md（13KB 完整分析）
+- 覆盖: 架构概览 / 核心模块 / Agent-TUI 可行性分析 / 技术对比
+- 结论: vue-termui 可作为 Agent-TUI 的 UI 渲染层，但 Agent Loop / 流式输出 / 多区域布局需自行补充
 
-## [2026-04-09] ingest | Descent 3 6DOF 太空射击 wiki note
-- Created: open-source-game/descent-3.md (经典 6DOF 太空射击引擎，SDL3+OpenGL 跨平台，CMake+vcpkg 构建，GPL-3.0，模块化子系统架构，需原版游戏数据，v1.6.0)
-- Updated: index.md (新增 descent-3 条目), open-source-games-learning-checklist.md (行99 checkbox, 行347 学习记录48), log.md
+## [2026-05-17] ingest | oh-my-openagent (formerly oh-my-opencode) 完整源码分析
+- Source: GitHub https://github.com/code-yeongyu/oh-my-openagent (git clone + AGENTS.md + README)
+- Files created: raw/articles/oh-my-openagent-2026.md, entities/oh-my-openagent.md
+- Files updated: entities/oh-my-opencode.md (archive pointer → oh-my-openagent), index.md (updated entry)
+- 覆盖: 11 Agent 系统（Sisyphus/Hephaestus/Atlas/Prometheus 等）、Team Mode v4.0 并行多 Agent 协作、Hashline LINE#ID 哈希编辑、IntentGate 意图分析、3 层 MCP 系统、5 层 Hook 系统（54-61 hooks）、工具分类（20+19 条件）、OpenClaw 双向集成、Boulder 工作跟踪、Ralph Loop 自循环
+- 关键变化: oh-my-opencode → oh-my-openagent 改名，stars 302→57.1k，v0.x→v4.1.2，LOC ~2K→~294K，Agent 10→11
+- 结论: 当前最热门的 OpenCode 插件生态，打破了 AI coding agent 的围墙花园。11 个跨模型 Agent 的编排系统，是了解多 Agent 协作架构的重要参考
 
-## [2026-04-09] ingest | Liblast Godot 4 多人 FPS wiki note
-- Created: open-source-game/liblast.md (Godot 4.3+Godot Jolt 物理，多人 FPS 框架，Freeman Character System 模块化角色系统，Git LFS 资产管理，多窗口调试架构，⚠️ 主仓库已弃用迁移至 liblast-framework)
-- Updated: index.md (total pages: 46), open-source-games-learning-checklist.md (行298+学习记录46, 行97 Liblast checkbox), log.md
+## [2026-05-06] create | Agent-CLI/TUI 学习路径
+- Created: concepts/agent-cli-tui-learning-path.md
+- Topic: 构建 Agent-CLI/TUI 所需的核心知识体系与入手路径
+- Content synthesized from wiki knowledge: agent-loop, pi-coding-agent, aworld, deepseek-tui, nanobot, hermes-agent, agent-laboratory
+- Sections: 核心概念、6个参考实现（pi-coding-agent/aworld/deepseek-tui/nanobot/hermes-agent/agent-laboratory）、架构组件分解、学习顺序建议（4周）、技术选型、刻意不做清单
+- Related pages: concepts/agent-loop, entities/pi-coding-agent, entities/aworld, entities/deepseek-tui, entities/pi-mono, entities/agent-laboratory, concepts/registry-pattern-tool-discovery, comparisons/nanobot-vs-opencode
+- Updated: index.md (added entry, bumped count 822→823)
 
-## [2026-04-09] ingest | Xonotic 竞技场射击 wiki note
-- Created: open-source-game/xonotic.md (Darkplaces 引擎 Quake 分支，精湛移动机械 Bunny Hop/Strafe Jump/Blaster Jump，.pk3dir 数据包格式，QuakeC 字节码，ENet UDP，GPLv3)
-- Updated: index.md (total pages: 46), open-source-game/xonotic.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-30] ingest | Wiki sync from /home/jianghao/wiki
+- Source: ~/DeepSeek-TUI/ (full project read: README.md, README.zh-CN.md, Cargo.toml, AGENTS.md, PROMPT_ANALYSIS.md, V086_BRIEF.md, DEPENDENCY_GRAPH.md, config.example.toml, docs/ARCHITECTURE.md, docs/MODES.md, docs/MCP.md, docs/SUBAGENTS.md, docs/TOOL_SURFACE.md)
+- Updated: entities/deepseek-tui.md (major update)
+  - Version: v0.8.9 (workspace, was v0.8.8 in wiki)
+  - Added full workspace crates map + dependency graph layers
+  - Added RLM Tool Patterns (CHUNK/BATCH/RECURSE)
+  - Added Session Longevity critical warning (6 survival rules for multi-hour sprints)
+  - Added Provider Support table (deepseekCN China, NVIDIA NIM, Fireworks, SGLang)
+  - Added sub-agent role taxonomy table (7 roles: general/explore/plan/review/implementer/verifier/custom)
+  - Added System Prompt "Mismanaged Genius" hypothesis (7 gaps in current prompt design)
+  - Updated tool system with full sub-agent tools
+- Updated sources in frontmatter to include AGENTS.md, PROMPT_ANALYSIS.md, SUBAGENTS.md, Cargo.toml
+- Note: Wiki entity page existed but was incomplete; this was a deep re-read with major updates
+- Action: Synced all new content from /home/jianghao/wiki to /home/jianghao/llm-wiki-ob-vault
+- 重新完整学习 DeepSeek-TUI 项目源码及全部文档，新增 3 个概念页面：[[deepseek-tui-runbook]]（运维手册）、[[deepseek-tui-coordinator]]（Sprint 协调模式）、[[deepseek-tui-memory]]（用户记忆系统）；更新 [[deepseek-tui]] entity 页 sources 包含全部 15 个文档，补充 accessibility、user memory、operations runbook、runtime API、multi-agent coordinator pattern 等章节 |
+- Created entities: open-design.md, open-codesign.md, oh-my-opencode.md, opencode.md, learn-claude-code.md, huashu-design.md, multica.md, officecli.md, guizang-ppt-skill.md
+- Copied 51 missing entities from wiki: claude-code, cursor, ollama, deepseek, qwen, llama, chatgpt, mistral, stable-diffusion, unity, godot, gemini, musicgen, whisper, cogvideo, phi, baichuan, chatglm, llama-2, llama-cpp, llava-next, localai, lora, minicpm-v, mlc-llm, musicgen, nanochat, nerf, nyan, trial, wesnoth, etc.
+- Copied 56 missing concepts from wiki: llm, diffusion-models, multimodal-models, vllm, sglang, llamaindex, rag-systems, mcp, autogen, game-designer, creative-director, claude-code-game-studio-directory-structure, etc.
+- Copied comparisons: nanobot-vs-opencode.md
+- Copied ai-game-devtools: visualagentbench.md
+- Fixed index.md corruption (removed duplicate line number columns)
+- Updated: index.md header (610 → 819 pages, 2026-04-26 → 2026-04-30)
+- Note: 728 pages missing from index.md navigation — needs bulk index regeneration
 
-## [2026-04-09] ingest | Red Eclipse 竞技场射击 wiki note
-- Created: open-source-game/red-eclipse.md (Tesseract引擎派生FPS，跑酷射击wall-run/boost/dash，~34K LOC game/，协作WYSIWYG地图编辑，ENet UDP网络，GPLv3)
-- Updated: index.md (total pages: 45), open-source-game/red-eclipse.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | Mistral 7B
+- Source: https://mistral.ai/news/announcing-mistral-7b/ (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/mistral-7b.md
+- Created: ai-game-devtools/mistral-7b.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added mistral-7b entry)
+- Note: Mistral AI 7.3B dense LLM; Sliding Window Attention + Rotating Buffer Cache; 3× compute efficiency; Apache 2.0
 
-## [2026-04-09] ingest | JFDuke3D Duke Nukem 3D 端口 wiki note
-- Created: open-source-game/jfduke3d.md (Jonathon Fowler 移植版，jfbuild Build引擎子模块，Polymost OpenGL渲染，SDL2跨平台，~45K LOC C，GPLv2)
-- Updated: index.md (total pages: 44), open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | Mixtral 8x7B
+- Source: https://mistral.ai/news/mixtral-of-experts/ (web extract)
+- Created: raw/articles/ai-game-devtools/mixtral-8x7b.md
+- Created: ai-game-devtools/mixtral-8x7b.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md
+## [2026-04-26] ingest | HuggingChat
+- Cloned: ~/tmp/ai-game-devtools/huggingchat/ (GitHub: huggingface/chat-ui)
+- Created: raw/articles/ai-game-devtools/huggingchat.md
+- Created: ai-game-devtools/huggingchat.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added huggingchat entry)
+- Note: Hugging Face 官方开源 LLM 聊天界面；SvelteKit 2 + OpenAI 兼容 API；Omni 智能路由器 + MCP Tools；MongoDB 持久化；Apache 2.0
 
-## [2026-04-09] ingest | EDuke32 Build Engine 端口 wiki note
-- Created: open-source-game/eduke32.md (多游戏 Build 端口(Duke3D/SW/Blood/Ion Fury)，~116K LOC C++，mimalloc/libxmp/PhysicsFS/imgui 嵌入式依赖，GPLv2)
-- Updated: index.md (total pages: 43), open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | Grok-1
+- Cloned: ~/tmp/ai-game-devtools/grok-1/ (GitHub: xai-org/grok-1)
+- Created: raw/articles/ai-game-devtools/grok-1.md
+- Created: ai-game-devtools/grok-1.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added grok-1 entry)
+- Note: xAI 314B MoE LLM, 8 experts/2 active, JAX+Haiku, Apache 2.0
 
-## [2026-04-09] ingest | ECWolf Wolfenstein 3D 增强源码端口 wiki note
-- Created: open-source-game/ecwolf.md (Wolf4SDL/ZDoom 混合体验，软件 Raycasting，多游戏IWAD支持，无限推墙/Things，~67K LOC C++，CMake+SDL2)
-- Updated: index.md (total pages: 42), open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | Pixtral-12B-2409
+- Source: https://huggingface.co/mistralai/Pixtral-12B-2409 (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/pixtral-12b-2409.md
+- Created: ai-game-devtools/pixtral-12b-2409.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added pixtral-12b-2409 entry)
+- Note: Mistral AI open-source VLM; 12B LM + 400M vision encoder; multi-image support; benchmarks SOTA for 12B class
 
-## [2026-04-09] ingest | Chocolate Doom 开源 Doom 源码端口 wiki note
-- Created: open-source-game/chocolate-doom.md (精准还原 DOS Doom 的源码端口，Bug-Compatible 设计哲学，SDL2 跨平台，支持 Doom/Heretic/Hexen/Strife 多游戏，GPL)
-- Updated: index.md (total pages: 41), open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | Gemini
+- Source: https://deepmind.google/technologies/gemini/ (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/gemini.md
+- Created: ai-game-devtools/gemini.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added gemini entry)
+- Note: First non-GitHub item from checklist — Gemini 3 API service by Google DeepMind
 
-## [2026-04-09] ingest | DOOM64-RE 开源游戏逆向工程 wiki note
-- Created: open-source-game/doom-64-re.md (Doom 64 N64 完全逆向工程、C+MIPS汇编、N64 SDK交叉编译、WESS音频库、三阶段软件渲染管线、恢复锁定功能)
-- Updated: index.md (total pages: 41), open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | Dora
+- Source: https://www.dora.run/ai (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/dora.md
+- Created: ai-game-devtools/dora.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added Dora entry)
+- Note: First item from README catchup — 12 new items added to checklist
 
-## [2026-04-09] ingest | Wolfenstein 3D 开源 FPS 源码 wiki note
-- Created: open-source-game/wolfenstein-3d.md (Raycasting渲染、Borland C++3.0+80x86汇编、DOS 16位定点数系统、John Carmack 2012代码点评)
-- Updated: index.md (total pages: 40), open-source-games-learning-checklist.md, log.md
+## [2026-04-25] ingest | GLM-4.5/4.6/4.7 (backfill)
+- Cloned: ~/tmp/ai-game-devtools/glm-4-5/ (existing from 2026-04-13)
+- Created: raw/articles/ai-game-devtools/glm-4-5.md
+- Created: ai-game-devtools/glm-4-5.md
+- Note: checklist already marked complete [2026-04-13]; wiki page and raw source were missing (backfill)
 
-## [2026-04-09] ingest | Quake 2 开源 FPS 源码 wiki note
-- Created: open-source-game/quake-2.md (双渲染器架构、143K LOC C、ref_gl+ref_soft并行、模块化client/server/game分离)
-- Updated: index.md (total pages: 38), log.md
-## [2026-04-09] ingest | Doom (id Software) 开源 FPS 源码 wiki note
-- Created: open-source-game/doom.md (BSP渲染架构、模块子系统分析、54K LOC C、info.c状态机数据驱动)
-- Updated: index.md (total pages: 37), log.md
-## [2026-04-08] create | Wiki initialized
-## [2026-04-08] update | Godot 4 concept page expanded
-- Expanded: concepts/godot-4.md (architecture, GDScript, physics, XR, version history)
-## [2026-04-08] update | GDScript patterns concept page created
-- Created: concepts/gdscript-patterns.md (10 patterns from Microverse source)
-## [2026-04-08] explore | Dialog system and Stanford AI Town
-- Created: concepts/microverse-dialog-system.md (DialogService/ConversationManager/BackgroundStoryManager)
-- Created: concepts/stanford-generative-agents.md (Memory/Reflection/Planning, comparison table)
-## [2026-04-08] explore | Save system, character system, animation
-- Created: concepts/microverse-save-system.md (GameSaveManager collect/apply, JSON structure)
-- Expanded: concepts/llm-integration.md (9 providers, request formats, response parsers)
-- Created: concepts/microverse-character-system.md (8 characters, PERSONITY_CONFIG, prompt injection)
-- Created: concepts/godot-animation-system.md (SpriteFrames, AnimatedSprite2D state machine)
-## [2026-04-08] ingest | VoxCPM / VoxCPM2 研究
-- Captured: raw/articles/voxcpm-openbmb-2025.md
-- Created: entities/voxcpm.md (VoxCPM2, 2B params, Tokenizer-Free TTS, 30 languages + 9 Chinese dialects)
-- Created: entities/openbmb.md (OpenBMB = BAAI + 面壁智能, MiniCPM/VoxCPM 背后的研究组织)
-- Created: concepts/voxcpm-local-deployment.md (本地部署配置：Python/CUDA/GPU 显存/安装步骤/运行示例)
-## [2026-04-08] ingest | Pioneer 太空模拟器 wiki note
-- Created: open-source-game/pioneer.md (银河程序化生成、经济/派系系统、OpenGL渲染、Lua脚本)
-- Updated: index.md, log.md
-## [2026-04-08] ingest | Claude Code Game Studios 研究
-- Captured: raw/articles/claude-code-game-studios-2026.md (克隆自 github.com/Donchitos/Claude-Code-Game-Studios)
-## [2026-04-08] ingest | ScummVM 经典冒险引擎 wiki note
-- Created: open-source-game/scummvm.md (141引擎插件架构、AdvancedDetector、跨平台后端抽象)
-- Updated: index.md, log.md
-- Created: entities/claude-code-game-studios.md (项目概览：49 agents, 72 skills, MIT license, 协作模式)
-- Created: concepts/claude-code-game-studio-architecture.md (Agent 层级结构、Model Tier、五大协调规则、Subagents vs Agent Teams)
-- Created: concepts/claude-code-game-studio-collaboration-protocol.md (Question→Options→Decision→Draft→Approval 协议、文件写入规则、决策 UI 模式)
-## [2026-04-08] ingest | Open Source Games List 研究
-- Captured: raw/articles/open-source-games-list-2026.md (克隆自 gitcode.com/GitHub_Trending/op/open-source-games)
-- Created: entities/open-source-games-list.md (18+ 品类开源游戏列表：FPS/RPG/RTS/Roguelike/城市建造/赛车等)
-- Created: comparisons/open-source-game-engines-comparison.md (开源游戏引擎对比：Godot/Bevy/CUBE/Spring/OpenMW，含公司技术栈推荐)
-## [2026-04-09] ingest | Zelda Twilight Princess 反向工程项目 wiki note
-- Created: open-source-game/the-legend-of-zelda-twilight-princess.md (多版本条件编译、objdiff对比工具、CC0无版权)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
-## [2026-04-09] ingest | Zelda3 开源游戏 wiki note
-- Created: open-source-game/zelda3.md (Zelda A Link to the Past 完全重实现，70-80kLOC C，SNES 仿真层+逐帧 RAM 验证)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
-## [2026-04-09] ingest | Dead Ascend 开源游戏 wiki note
-- Created: open-source-game/dead-ascend.md (Qt/QML 手绘点击冒险，僵尸塔楼密室解谜，Tiled TMX 地图格式)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
-## [2026-04-09] ingest | CorsixTH 开源游戏 wiki note
-- Created: open-source-game/corsixth.md (Theme Hospital 开源克隆，C++/Lua 混合架构，SDL 渲染，数据驱动游戏逻辑)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
-## [2026-04-09] ingest | OpenLoco 开源游戏 wiki note
-- Created: open-source-game/openloco.md (Chris Sawyer's Locomotion 清洁室逆向重实现，C++/SDL3，模块化架构，vcpkg 依赖管理，运输帝国经营模拟)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
-## [2026-04-09] ingest | OpenRCT2 开源游戏 wiki note
-- Created: open-source-game/openrct2.md (RollerCoaster Tycoon 2 开源重实现，游乐园建造管理，C++20/CMake/Duktape JS插件引擎，TCP/IP多人合作)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-24] ingest | Mixture of Agents (MoA) (backfill)
+- Cloned: ~/tmp/ai-game-devtools/mixture-of-agents/
+- Created: raw/articles/ai-game-devtools/mixture-of-agents.md
+- Created: ai-game-devtools/mixture-of-agents.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Note: checklist already marked complete [2026-04-16]; wiki page and raw source were missing (backfill)
 
-## [2026-04-09] ingest | OpenTTD 开源游戏 wiki note
-- Created: open-source-game/openttd.md (Transport Tycoon Deluxe 开源复刻，C++/CMake/vcpkg，SDL2+OpenGL，多人锁步网络，NewGRF 图形扩展，AI Script 双引擎)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-24] ingest | VideoLLaMA 3 (backfill)
+- Cloned: ~/tmp/ai-game-devtools/videollama3/ (existing from 2026-04-22)
+- Created: raw/articles/ai-game-devtools/videollama3.md
+- Created: ai-game-devtools/videollama3.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Updated: index.md (added videollama3 entry, total 607)
+- Note: checklist already marked complete [2026-04-15]; wiki page and raw source were missing (backfill)
 
-## [2026-04-09] ingest | Hurry Curry! 开源游戏 wiki note
-- Created: open-source-game/hurry-curry.md (合作式 3D 多人烹饪游戏，Godot 4.5 + Rust 混合架构，WebSocket JSON 协议三层移动实现（客户端预测+服务端校验），YAML ASCII-art 地图数据驱动)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-24] ingest | OpenGame
+- Cloned: ~/OpenGame (existing local repo)
+- Created: raw/articles/opengame-2026.md (synthesized source from codebase analysis)
+- Created: entities/opengame.md (project entity page)
+- Created: comparisons/platformer-vs-topdown-basescene.md (BaseScene architecture comparison)
+- Created: concepts/ai-gdd-prompt-engineering.md (GDD generation prompt engineering)
+- Updated: index.md (3 new entries, total 606)
+- Research focus: (1) Platformer vs Top-Down BaseScene implementation differences, (2) GDD generation tool prompt engineering details
 
-## [2026-04-09] ingest | Cytopia 开源游戏 wiki note
-- Created: open-source-game/cytopia.md (复古像素城市建造，自定义 SDL2 等距渲染引擎，JSON TileData 数据驱动模组系统，libnoise 程序化地形生成，Conan/CMake 依赖管理)
+## [2026-04-24] lint | fix remaining 3 checklist format issues
+- Fixed: LlamaGen, Stable Diffusion WebUI Chinese, VideoMamba (all had `|` prefix instead of `-`)
+- All 564 checklist items now correctly formatted
+- No new projects to ingest (all items have completion dates)
 
-## [2026-04-09] ingest | Egregoria 开源游戏 wiki note
-- Created: open-source-game/egregoria.md (Cities: Skylines 风格 Rust 城市建造，模拟/渲染分离架构，确定性锁步网络，PBR wgpu 渲染器，混合 Factorio+自由市场经济模型)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-24] lint | checklist format fix
+- Fixed 164 lines with `|` prefix in ai-game-devtools-learning-checklist.md
+- All checklist items now use standard `- [YYYY-MM-DD] Name | URL` format
+- No new projects to ingest (all 564 items have completion dates)
 
-## [2026-04-09] ingest | Julius 开源游戏 wiki note
-- Created: open-source-game/julius.md (Caesar III 清洁室重实现，SDL2 跨平台复刻，100% 存档兼容，约93K LOC C代码)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-24] ingest | Matrix-Game
+- Cloned: ~/tmp/ai-game-devtools/matrix-game/
+- Checked: raw/articles/ai-game-devtools/matrix-game.md (already existed)
+- Checked: ai-game-devtools/matrix-game.md (already existed, bumped updated date)
+- Fixed: checklist prefix `|||-` → `-` and updated date to [2026-04-24]
+- Status: format fix + date refresh
 
-## [2026-04-09] ingest | Unknown Horizons 开源游戏 wiki note（补全）
-- Indexed: open-source-game/unknown-horizons.md（由前次运行创建）
-- Updated: open-source-games-learning-checklist.md, index.md, log.md
+## [2026-04-24] ingest | LaVague
+- Checked: raw/articles/ai-game-devtools/lavague.md (already existed)
+- Wiki page already exists: ai-game-devtools/la-vague.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Note: checklist already marked complete [2026-04-14]; wiki page and raw source were already present (date refresh)
 
-## [2026-04-09] ingest | Citybound 开源游戏 wiki note
-- Created: open-source-game/citybound.md (微观模型城市建造，Rust Actor模型(kay)，协作规划理念，浏览器WebGL UI+双终端开发模式)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-23] ingest | Index-1.9B
+- Cloned: ~/tmp/ai-game-devtools/index-1.9b/
+- Created: raw/articles/ai-game-devtools/index-1.9b.md
+- Created: ai-game-devtools/index-1.9b.md
+- Updated: index.md (updated index-1.9b entry with description)
+- Note: checklist already marked complete [2026-04-13]; wiki page and raw source were missing (backfill)
 
-## [2026-04-09] ingest | Akhenaten 开源游戏 wiki note
-- Created: open-source-game/akhenaten.md (Pharaoh 法老城市建造游戏开源重实现，Julius/Augustus 分支，SDL2 跨平台，MUJS JS 脚本，约140K LOC C++，GNU AGPL)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-23] ingest | DrawingSpinUp
+- Cloned: ~/tmp/ai-game-devtools/drawingspinup/
+- Created: raw/articles/ai-game-devtools/drawingspinup.md
+- Created: ai-game-devtools/drawingspinup.md
+- Updated: index.md (added drawingspinup entry, total 602)
+- Note: checklist already marked complete [2026-04-19]; wiki page and raw source were missing (backfill)
 
-## [2026-04-09] ingest | micropolisJS 开源游戏 wiki note
-- Created: open-source-game/micropolisjs.md (SimCity 经典城市模拟 JavaScript 移植版，TypeScript+JS 混合，BlockMap 多维度数据追踪，jQuery 最小依赖，GPLv3)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-23] ingest | LLocalSearch
+- Cloned: ~/tmp/ai-game-devtools/llocalsearch/ (existing from earlier today)
+- Created: raw/articles/ai-game-devtools/llocalsearch.md
+- Created: ai-game-devtools/llocalsearch.md
+- Updated: index.md (added llocalsearch entry, total 602)
+- Note: checklist already marked complete [2026-04-14]; wiki page and raw source were missing
 
-## [2026-04-09] ingest | Doom 3 BFG Edition 开源游戏 wiki note
-- Created: open-source-game/doom-3-bfg.md (id Tech 4 引擎源码，Portal 渲染架构，Lua 脚本，doomclassic Doom 1 重制，BFG Edition 收录)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-23] ingest | BabyAGI UI
+- Cloned: ~/tmp/ai-game-devtools/babyagi-ui/ (gitcode.com mirror)
+- Created: raw/articles/ai-game-devtools/babyagi-ui.md
+- Created: ai-game-devtools/babyagi-ui.md
+- Updated: index.md (updated babyagi-ui entry)
+- Note: checklist already marked complete [2026-04-13]; wiki page was missing
 
-## [2026-04-09] ingest | Quake 开源游戏 wiki note
-- Created: open-source-game/quake.md (1996年3D FPS里程碑，WinQuake软件渲染+GLQuake OpenGL+QuakeWorld多人网络，BSP树+PVS，约87K LOC C，GPLv2)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-23] ingest | AICommand
+- Cloned: ~/tmp/ai-game-devtools/aicommand/
+- Created: raw/articles/ai-game-devtools/aicommand.md
+- Updated: ai-game-devtools/aicommand.md (corrected: Unity Editor plugin, not CLI tool)
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-23)
+- Updated: index.md (corrected aicommand description)
+- Note: Wiki page existed but had completely incorrect content (described as CLI tool instead of Unity Editor ChatGPT plugin); raw source was missing
 
-## [2026-04-09] ingest | Quake III Arena 开源游戏 wiki note
-- Created: open-source-game/quake-iii-arena.md (id Software 竞技场射击源码，QVM 虚拟机架构驱动游戏逻辑，BOT AI 路由编译，纯多人竞技，GPL)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-24] ingest | LayerDiffusion
+- Checked: ~/tmp/ai-game-devtools/layerdiffusion/ (cloned from GitHub)
+- Note: wiki page and raw source already exist (created 2026-04-17)
+- Fixed: checklist prefix `|-` → `-` and updated date to [2026-04-24]
+- Status: backfill/format fix only
 
+## [2026-04-23] ingest | LlamaIndex
+- Cloned: ~/tmp/ai-game-devtools/llamaindex (gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/llama-index.md
+- Updated: ai-game-devtools/llama-index.md (bumped updated date, already existed since 2026-04-16)
+- Updated: ai-game-devtools-learning-checklist.md (marked complete)
+- Note: Wiki page already existed; index entry already present; raw source was missing
 
-## [2026-04-09] ingest | UZDoom 开源游戏 wiki note
-- Created: open-source-game/uzdoom.md (GZDoom/ZDoom 延续，现代 DOOM 源码端口，双渲染器架构，ZScript VM，~592K LOC C++)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
-## [2026-04-09] ingest | Chocolate Quake 开源游戏 wiki note
-- Created: open-source-game/chocolate-quake.md (精准还原 Quake v1.09 DOS 体验的极简源码端口，Bug 兼容优先，纯软件渲染无硬件加速，C99+CMake)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-22] ingest | PhysRig
+- Cloned: ~/tmp/ai-game-devtools/physrig/
+- Created: raw/articles/ai-game-devtools/physrig.md
+- Created: ai-game-devtools/physrig.md
+- Updated: index.md (added physrig entry, total 599)
+- Note: checklist already marked complete [2026-04-18]; wiki page was missing
 
-## [2026-04-09] ingest | FTEQW 开源游戏 wiki note
-- Created: open-source-game/fteqw.md (先进可移植 Quake 引擎，多后端渲染、插件系统、自研 FTEQCC 编译器，GPL-2.0)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-22] ingest | PAniC-3D
+- Cloned: ~/tmp/ai-game-devtools/panic3d-anime-reconstruction/
+- Created: raw/articles/ai-game-devtools/panic3d-anime-reconstruction.md
+- Created: ai-game-devtools/panic3d-anime-reconstruction.md
+- Updated: index.md (added panic3d entry, total 598)
 
-## [2026-04-09] ingest | Wolf4SDL 开源游戏 wiki note
-- Created: open-source-game/wolf4sdl.md (Wolfenstein 3D SDL 移植版，id Software 原始代码复用，OPL2 双模拟器 GPL/MAME 切换，version.h 多版本条件编译)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-22] update | gemma.cpp raw source
+- Cloned: ~/tmp/ai-game-devtools/gemma.cpp (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/gemma.cpp.md
+- Note: checklist already marked complete [2026-04-13]; wiki page [[gemma-cpp]] exists; raw source was missing
 
-## [2026-04-09] ingest | Duke Nukem 3D 开源游戏 wiki note
-- Created: open-source-game/duke-nukem-3d.md (3D Realms 经典 FPS 源码，Build Engine 驱动，Ken Silverman Sector/Portal 渲染，GPLv2 开源)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-22] create | 转生者模拟器 v2 One Pager GDD
+- 位于：concepts/gdd-reincarnator-v2.md
+- 项目版本：~/yg/workspace/projects/reincarnator-simulator-v2/docs/GDD-OnePager.md
+- 内容：游戏概览、核心循环、USP（反龙傲天/大厂模拟器框架/5局外成长/6种结局）、核心系统概览、技术架构、开发进度(Phase 1-6)、风险假设、目标玩家
+- Updated: index.md (added gdd-reincarnator-v2 entry, total 598→599)
+- Note: checklist already marked complete [2026-04-18]; wiki page was missing
 
-## [2026-04-09] ingest | Shadow Warrior 开源游戏 wiki note
-- Created: open-source-game/shadow-warrior.md (3D Realms 经典 FPS，Build 引擎，118K LOC C，GPL+商业数据双许可，Lo Wang 中国忍者)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-22] update | Godot engine deep dive
+- Updated: concepts/godot-4.md (expanded with 4.6 features, rendering backends, editor improvements, three new cross-links)
+- Created: raw/articles/godot-official-docs-2026.md (raw source: official features list)
+- Created: raw/articles/godot-4-6-gdquest-2026.md (raw source: GDQuest 4.6 changes guide)
+- Created: concepts/godot-rendering-system.md (three renderers, shader system, 2D/3D features)
+- Created: concepts/godot-ui-system.md (Control nodes, Container layout, Theme system)
+- Created: concepts/godot-networking.md (MultiplayerAPI, RPC, Scene Replication)
+- Updated: index.md (added 4 entries, 591→595)
 
-## [2026-04-09] ingest | Raze Build engine 多游戏合一引擎 wiki note
-- Created: open-source-game/raze.md (Build engine 多游戏合一，GZDoom 技术栈，支持 Duke/Blood/Redneck/SW/Exhumed，三渲染器 GL/GLES/Vulkan，~578K LOC C++)
-- Updated: index.md (total pages: 44), open-source-games-learning-checklist.md, log.md
+## [2026-04-22] update | 螨光游戏工作室知识库补充
+- Created: raw/articles/phaser-4-migration-2026.md (raw source: Phaser official migration guide)
+- Created: raw/articles/phaser-vue3-ts-template-2024.md (raw source: Phaser official Vue 3 TS template)
+- Created: raw/articles/indie-game-marketing-2025.md (raw source: How To Market A Game research)
+- Created: raw/articles/gdd-template-guide-2025.md (raw source: Indie Game Academy GDD guide)
+- Created: concepts/phaser-4-migration.md (Phaser 4 迁移指南、对螨光项目的影响评估)
+- Created: concepts/phaser-vue-integration.md (Phaser 3 + Vue 3 + TypeScript 实战模式：Registry/Pinia 状态桥梁、生命周期管理)
+- Created: concepts/indie-game-marketing.md (Steam 营销研究：节日游戏不好卖、像素艺术品类选择、Reddit 营销、发布时机)
+- Created: concepts/game-design-document.md (GDD 模板与指南：One Pager、核心循环、范围控制)
+- Updated: index.md (added 6 entries, 595→597)
 
-## [2026-04-09] ingest | NBlood 开源游戏 wiki note
-- Created: open-source-game/nblood.md (Blood / Exhumed / Redneck Rampage 逆向工程端口，基于 EDuke32，多游戏合一，GNU Make 跨平台构建，GPL-2.0)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-21] ingest | VoxCPM
+- Cloned: ~/tmp/ai-game-devtools/voxcpm/ (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/voxcpm.md
+- Created: ai-game-devtools/voxcpm.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (updated voxcpm entry description)
+## [2026-04-21] ingest | Whisper
+- Cloned: ~/tmp/ai-game-devtools/whisper/ (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/whisper.md
+- Created: ai-game-devtools/whisper.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added whisper entry, total 582)
+## [2026-04-21] ingest | WhisperSpeech
+- Cloned: ~/tmp/ai-game-devtools/whisperspeech/
+- Created: raw/articles/ai-game-devtools/whisperspeech.md
+- Created: ai-game-devtools/whisperspeech.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added whisperspeech entry, total 583)
+## [2026-04-21] ingest | X-E-Speech
+- Cloned: ~/tmp/ai-game-devtools/x-e-speech/
+- Created: raw/articles/ai-game-devtools/x-e-speech.md
+- Created: ai-game-devtools/x-e-speech.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added x-e-speech entry, total 584)
+## [2026-04-21] ingest | XTTS
+- Cloned: ~/tmp/ai-game-devtools/tts/
+- Created: raw/articles/ai-game-devtools/xtts.md
+- Created: ai-game-devtools/xtts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added xtts entry, total 585)
+## [2026-04-21] ingest | YourTTS
+- Cloned: ~/tmp/ai-game-devtools/yourtts/
+- Created: raw/articles/ai-game-devtools/yourtts.md
+- Created: ai-game-devtools/yourtts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added yourtts entry, total 586)
+## [2026-04-22] ingest | ZMM-TTS
+- Cloned: ~/tmp/ai-game-devtools/zmm-tts/
+- Created: raw/articles/ai-game-devtools/zmm-tts.md
+- Created: ai-game-devtools/zmm-tts.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added zmm-tts entry, total 587)
+## [2026-04-22] ingest | UniAudio 2.0
+- Cloned: ~/tmp/ai-game-devtools/uniaudio2/
+- Created: raw/articles/ai-game-devtools/uniaudio2.md
+- Created: ai-game-devtools/uniaudio2.md
+- Updated: ai-game-devtools-learning-checklist.md (Speech section)
+- Updated: index.md (added uniaudio2 entry, total 588)
+## [2026-04-22] ingest | LaVague
+- Cloned: ~/tmp/ai-game-devtools/lavague/ (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/lavague.md
+- Created: ai-game-devtools/la-vague.md
+- Updated: index.md (updated la-vague entry)
 
+## [2026-04-22] ingest | UnityNeuroSpeech
+- Cloned: ~/tmp/ai-game-devtools/unityneurospeech/ (web extract; GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/unityneurospeech.md
+- Created: ai-game-devtools/unityneurospeech.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added unityneurospeech entry, total 589)
 
-## [2026-04-09] ingest | JFShadowWarrior 开源游戏 wiki note
-- Created: open-source-game/jfshadowwarrior.md (Jonathon Fowler 的 Shadow Warrior 现代端口，jfbuild submodule，Polymost OpenGL/GLES2，多平台，GTK+ UI 可选)
-- Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md
+## [2026-04-22] ingest | Ludo.ai
+- Source: web extract (ludo.ai; no GitHub repo)
+- Created: raw/articles/ai-game-devtools/ludo-ai.md
+- Created: ai-game-devtools/ludo-ai.md
+- Updated: ai-game-devtools-learning-checklist.md (Analytics section added)
+- Updated: index.md (added ludo-ai entry, total 590)
+## [2026-04-22] audit | AI Game DevTools checklist complete
+- Scanned: ai-game-devtools-learning-checklist.md
+- Result: All 567 projects across 16 categories have been ingested
+- Categories: LLM(123), VLM(27), Game(67), Code(21), Image(75), Texture(12), Shader(1), 3D Model(47), Avatar(29), Animation(17), Video(59), Audio(25), Music(11), Singing Voice(4), Speech(48), Analytics(1)
+- Wiki pages: 590 total entries in index.md
+- Next: No remaining projects; task complete
+## [2026-04-22] update | LaVague wiki page restored
+- Created: ai-game-devtools/la-vague.md (was missing despite checklist completion)
+- Source: raw/articles/ai-game-devtools/lavague.md
+- Note: 117 remaining wiki pages missing across checklist, will process in subsequent runs
+## [2026-04-22] ingest | Qwen-7B
+- Source: web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/qwen-7b.md
+- Created: ai-game-devtools/qwen-7b.md
+- Updated: index.md (added qwen-7b entry)
+- Note: checklist already marked complete [2026-04-14]; wiki page was missing
+## [2026-04-22] ingest | UnityAIWithChatGPT
+- Cloned: ~/tmp/ai-game-devtools/unityaiwithchatgpt/ (gitcode mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/unityaiwithchatgpt.md
+- Created: ai-game-devtools/unityaiwithchatgpt.md
+- Updated: index.md (added unityaiwithchatgpt entry)
+- Note: checklist already marked complete [2026-04-19]; wiki page was missing
+## [2026-04-23] ingest | LLaVA++
+- Cloned: ~/tmp/ai-game-devtools/llava-pp/
+- Created: raw/articles/ai-game-devtools/llava-pp.md
+- Created: ai-game-devtools/llava-pp.md
+- Updated: index.md (fixed llava-plus-plus → llava-pp link)
+- Note: checklist already marked complete [2026-04-15]; wiki page was missing
+## [2026-04-24] ingest | StyleTTS 2
+- Cloned: ~/tmp/ai-game-devtools/styletts2/ (gitcode.com mirror; GitHub timed out)
+- Created: raw/articles/ai-game-devtools/style-tts-2.md
+- Created: ai-game-devtools/style-tts-2.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Note: checklist already marked complete [2026-04-21]; wiki page and raw source were missing (backfill)
 
-## [2026-04-09] ingest | BuildGDX 开源游戏 wiki note
-- Created: open-source-game/buildgdx.md (Java/LibGDX 跨平台 Build Engine 移植，三渲染器(Polymost+软件+GL)架构，~74K LOC Java，LWJGL3+GLFW 桌面后端+Android 支持，支持 Duke3D/Shadow Warrior/Blood 等多游戏)
-- Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md
+## [2026-04-24] ingest | IndexTTS2
+- Source: web extract (GitHub/gitcode/gitee clone all failed)
+- Created: raw/articles/ai-game-devtools/index-tts2.md
+- Updated: ai-game-devtools/index-tts2.md (bumped updated date, already existed since 2026-04-21)
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-24)
+- Updated: index.md (added index-tts2 entry, total 603)
+- Note: Wiki page already existed; raw source was missing (backfill)
 
+## [2026-04-23] ingest | llm.c
+- Cloned: ~/tmp/ai-game-devtools/llm-c/
+- Created: raw/articles/ai-game-devtools/llm-c.md
+- Created: ai-game-devtools/llm-c.md
+- Updated: index.md (added llm-c entry, total 600)
+- Note: checklist already marked complete [2026-04-14]; wiki page was missing
 
-## [2026-04-09] ingest | NuBuildGDX 开源游戏 wiki note
-- Created: open-source-game/nubuildgdx.md (BuildGDX 稳定化分支，stability-first fork，atsb 维护，libGDX 1.9.10 旧依赖策略，375 Java 文件)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-23] ingest | Code World Model (CWM)
+- Cloned: ~/tmp/ai-game-devtools/code-world-model-cwm/
+- Created: raw/articles/ai-game-devtools/cwm.md
+- Created: ai-game-devtools/cwm.md
+- Updated: index.md (added cwm entry)
+- Note: checklist already marked complete [2026-04-17]; wiki page was missing (backfill)
 
-## [2026-04-09] ingest | AssaultCube CUBE Engine 派生 FPS wiki note
-- Created: open-source-game/assault-cube.md (CUBE Engine 派生 FPS，ZLIB 极宽松许可，ENet 低延迟网络，协作地图编辑)
-- Updated: index.md, open-source-games-learning-checklist.md, log.md
+## [2026-04-25] ingest | BabyAGI UI (backfill)
+- Source: existing clone ~/tmp/ai-game-devtools/babyagi-ui/
+- Created: raw/articles/ai-game-devtools/babyagi-ui.md
+- Updated: ai-game-devtools-learning-checklist.md (bumped date to 2026-04-25)
+- Note: checklist already marked complete [2026-04-13]; raw source was missing (backfill)
+- Note: wiki page already existed since 2026-04-23
+## [2026-04-26] ingest | GPT-4o
+- Source: https://openai.com/index/hello-gpt-4o/ (web extract; non-GitHub)
+- Created: raw/articles/ai-game-devtools/gpt-4o.md
+- Created: ai-game-devtools/gpt-4o.md
+- Updated: ai-game-devtools-learning-checklist.md
+- Updated: index.md (added gpt-4o entry)
+- Note: First unchecked item from LLM section; OpenAI flagship multimodal model, text/audio/image/video end-to-end, 232ms audio latency
 
-## [2026-04-09] ingest | Cube 2: Sauerbraten 开源游戏 wiki note
-- Created: open-source-game/cube-2-sauerbraten.md (CUBE Engine 2 代体素 FPS，~65K LOC C++，稀疏八叉树场景，实时游戏内地图编辑，ENet UDP 网络，ZLIB 许可)
-- Updated: index.md (total pages: 45), open-source-games-learning-checklist.md, log.md
+## [2026-04-26] ingest | pi-mono
+- Source: https://github.com/badlogic/pi-mono/ (web extract)
+- Created: raw/articles/ai-game-devtools/pi-mono.md
+- Created: ai-game-devtools/pi-mono.md
+- Created: ai-game-devtools/pi-coding-agent.md
+- Updated: index.md (added pi-mono and pi-coding-agent entries)
+- Note: badlogic monorepo, 3,805+ commits, 203 releases, MIT. Coding agent CLI + unified LLM API (20+ providers) + TUI/web UI + Slack bot + vLLM pods. pi-coding-agent: append-only JSONL session trees, 60+ extension event types, Skills system, 4 run modes.
 
-## [2026-04-09] ingest | .kkrieger 开源游戏 wiki note
-- Created: open-source-game/kkrieger.md (Farbrausch fr_public 仓库，Werkkzeug3 引擎分支源码，Portal 渲染 6-Pass 光照，操作符树动画系统，KKriegerGame FPS 游戏逻辑，V2 合成器，122K LOC C++，BSD 许可)
-- Updated: index.md (total pages: 47), open-source-games-learning-checklist.md (行98 checkbox, 学习记录47), log.md
+## [2026-05-13] create | Agentic System Designer 职业路径
+- Created: concepts/agentic-system-designer-career-path.md
+- Topic: AI Agent 系统设计师的完整职业路径文档
+- 覆盖: 定义 / 市场供需 / 薪资 / 与传统角色对比 / Tier 1-3 技能树 / 3月入门→6月实战学习路径 / 招聘公司 / 常见误区 / 10 年经验全栈开发者转型建议
+- Sources: web search (BOSS直聘/Liepin/Gartner/Precedence Research/BCG)
+- Related pages: hermes-agent, agent-loop-architecture, multi-agent-ai-simulation, concepts/agent-swarm, gstack
+|
+|## [2026-05-15] ingest | AutoGen 完整学习
+|- Source: web research (GitHub / Microsoft Research / AG2 docs / migration guides / 竞品对比)
+|- Files updated: ai-game-devtools/autogen.md（从 118 行扩展至 163 行，覆盖 v0.4 架构/Core API/AgentChat/设计模式/Magentic-One/AG2分支/竞品对比）
+|- Files created: concepts/magentic-one.md（架构/Orchestrator双循环/4 Specialist/评测/安全风险）
+|- Index updated: autogen 条目扩写 + magentic-one 新增到 Concepts 区
+|- Tags added: magentic-one (concept), framework (entity autogen)
+|- 关键技术洞察: AutoGen v0.4 从底层重写为 Actor 模型（异步事件驱动），后续分裂为三叉路（原项目维护模式 / AG2 社区分支 / Microsoft Agent Framework），Magentic-One 的 Orchestrator+Specialist 架构是当前最完整的参考实现|
+|
+|## [2026-05-15] ingest | 多 Agent 框架全系竞品深度研究
+|- Source: 源码克隆分析（~/tmp/langgraph/ / ~/tmp/crewAI/ / ~/tmp/agentscope/）+ web research（官方文档/GitHub/社区）
+|- Files created:
+|  - ai-game-devtools/langgraph.md（新建，~140 行，覆盖 Pregel BSP 引擎/StateGraph/FuncAPI/Checkpoint/通道系统/生态体系）
+|  - comparisons/agent-framework-comparison.md（新建，~120 行，四框架全方位对比 + 决策树 + 设计哲学差异）
+|- Files updated:
+|  - ai-game-devtools/crewai.md（从 135 行扩展至 135 行，重写为结构化的核心抽象/流程/生态/技术细节）
+|  - ai-game-devtools/agentscope.md（从 70 行扩展至 150 行，重写为 AOP 哲学/元类体系/MsgHub/Trinity-RFT/独特特性）
+|- Index updated: langgraph 新增 + crewai/agentscope 扩写 + Comparisons 新区新增 + 总页数 830→835
+|- 关键技术洞察:
+|  - LangGraph = Pregel BSP 引擎，精确控制图拓扑，生产级持久化/人机交互最成熟
+|  - CrewAI = 上手最快的角色团队模式，~47K stars 社区最大，独立架构零 LangChain 包袱
+|  - AgentScope = 唯一带 RL 微调（Trinity-RFT）的框架，MCP/A2A/实时语音原生支持，阿里云生态
+|  - 设计哲学根本差异：LangGraph（状态转换）vs CrewAI（角色分工）vs AgentScope（Agent 进化）vs AutoGen（对话交流）|
+|
+|## [2026-05-15] ingest | Microsoft Agent Framework 完整学习
+|- Source: 源码克隆（~/tmp/agent-framework/）+ web research（MS Learn / .NET Blog / GitHub discussions）
+|- Files created:
+|  - concepts/microsoft-agent-framework.md（新建，~120 行，覆盖架构/Agent/Workflow/Functional+Graph API/DurableTask/生态/迁移关系）
+|- Files updated:
+|  - comparisons/agent-framework-comparison.md（添加 MAF 到总结表 + 设计哲学 -> 五框架对比）
+|  - ai-game-devtools/autogen.md（[[concepts/microsoft-agent-framework]] 链接修复）
+|- Index updated: MAF 新增到 Concepts 区 + 总页数 835→836
+|- SKILL updated: codebase-deep-dive 新增 wiki-oriented entity expansion workflow variant
+|- 关键技术洞察:
+|  - MAF 是 AutoGen + Semantic Kernel 的官方融合产物，1.0 GA 于 2026.04，MIT 开源
+|  - 双 API 设计：Functional (@workflow, Python 原生) vs Graph (WorkflowBuilder, .NET 强类型)
+|  - Durable Task 引擎是最大差异化——不改 workflow 定义即可获得持久化/分布式执行
+|  - .NET 和 Python 双一等公民（区别于所有竞品仅限 Python）
+|  - 拥有最完整的 Provider 矩阵（6+ LLM + MCP + A2A），企业级中间件/Session/可观测内置|
+|
+|## [2026-05-15] update | Wiki 重构阶段一——聚焦 Agent 系统架构
+|- Action: Schema 更新 + 游戏内容归档 + 目录结构调整
+|- SCHEMA.md 全面重写:
+|  - Domain: → "AI Agent 系统架构 / Agentic System Design"
+|  - Tag Taxonomy 精简聚焦（移除 game/game-dev 标签，新增 agent-framework/protocol/hitl/career 等）
+|  - 新增职业路径相关标签（career, learning-path, skill-tree）
+|- 已归档 33 个游戏相关文件到 _archive/:
+|  - concepts/（5个）：microverse-*, gdd-reincarnator-v2, ai-gdd-prompt-engineering, indie-game-marketing
+|  - entities/（5个）：microverse-project/code-structure, opengame, claude-code-game-studios, ksanadock
+|  - comparisons/（2个）：open-source-game-engines-comparison, platformer-vs-topdown-basescene
+|  - ai-game-devtools/（21个）：unity-*, unreal-*, godot-*, gamegen-o, matrix-game, gigax, behavia 等
+|- 目录结构调整:
+|  - 移除 "## Game Projects & Studios" 区
+|  - 移除 "## Game Dev" 区
+|  - 重命名 "## AI Game DevTools" → "## AI & ML Tools"
+|  - 更新 header 总页数 836→800
+|- 后续待办（阶段二）:
+|  - 257 个文件不在 index.md 中（主要来自 ai-game-devtools/）
+|  - 13 页超 200 行需拆分
+|  - 修复跨引用 wikilink 到已归档页面|
+|
+|## [2026-05-15] update | Wiki 重构阶段二——索引修复 + 跨引用清理
+|- Action: 重建 index.md + 修复断链
+|- Index 重建:
+|  - 重写 index.md（842 行，818 条目，5 个 Section）
+|  - 将所有遗留文件批量加入 index（之前 257 个缺失，现已全部收录）
+|  - Section: AI/LLM/Agent(81) + Concepts(101) + Comparisons(2) + AI & ML Tools(596) + Avatar(41)
+|  - 页面总数: 800→818（补全了缺失的索引条目）
+|- 跨引用修复:
+|  - 55 个文件中的断链 wikilink 替换为（已归档）标记
+|- 超大页提醒（未拆分）:
+|  - 仍有 10 页 >200 行，最严重: vue-termui(348), agent-cli-tui(315), deepseek-tui(304)
+|  - 这些页面的内容仍然有效，拆分不紧急，建议在下次 deep-dive 时自然拆分|
+|
+|## [2026-05-15] restructure | Wiki 重构阶段三——知识体系重塑
+|- Action: 创建 _meta/topic-map.md + 更新导航体系
+|- Created: _meta/topic-map.md（Agentic System Designer 知识体系导航，7 大技能领域）
+|  - 🧠 Agent Frameworks（精通）: 框架对比 + 架构原理 + 生态参考
+|  - 🔄 Multi-Agent Orchestration（编排）: 通信/协调/任务/模式
+|  - 🔌 MCP & Protocols（协议）: MCP/A2A/工具调用
+|  - 💾 Memory & Knowledge（记忆）: 长期记忆/RAG/上下文
+|  - ⚙️ LLM Infrastructure（基础设施）: 推理/部署/Provider
+|  - 🚀 Production Deployment（生产）: 可观测性/评估/安全
+|  - 📚 Career & Learning（职业）: 学习路径/技能树
+|- SCHEMA.md 更新: 新增 Navigation 节，指明 topic-map 为主要入口
+|- index.md 更新: header 增加 [[_meta/topic-map]] 引用
+|- 三条导航路径成型:
+|  ① _meta/topic-map.md（按技能领域）→ 新手友好入口
+|  ② index.md（按页面类型）→ 完整索引
+|  ③ log.md（按时间顺序）→ 变更记录|
+## [2026-05-17] update | oh-my-openagent 深度源码分析——Agent 提示词与机制
+- Source: ~/oh-my-openagent/ (本地完整源码深度分析)
+- Files updated: entities/oh-my-openagent.md (8KB→16KB, 新增提示词系统深度分析和核心机制详解)
+- 覆盖: Sisyphus 提示词5变体(default/claude-opus-4-7/gemini/gpt-5-4/gpt-5-5) 与 Phase 0-3 工作流模型、Prometheus 提示词6模块(identity-constraints/interview-mode/plan-generation/high-accuracy-mode/plan-template/behavioral-summary) 与 3次 Oracle 阶段门检查、IntentGate 分层系统(Hook + 提示词层)、Hashline 双Hook配对(Read Enhancer + Edit Diff Enhancer)、5层54-61 Hook系统、Team Mode 文件管道架构、Background Agent 状态机、Ralph Loop、3层MCP隔离
+- 结论: 该库最值得学习的不是功能而是工程方法——动态提示词构建、Hook系统级的生命周期注入、提示词工程技巧(XML标签锚点/Phase模型/Turn-Local Intent Reset/Evidence Requirements)
+## [2026-05-17] query | oh-my-openagent 架构批评与改进方向
+- Created: queries/oh-my-openagent-critique.md (9KB)
+- Files updated: index.md (新增 ## Queries 节)
+- 覆盖: Token消耗问题/架构过重(2K文件294K LOC)/行为矫正过度/运行时依赖/6项改进方向(提示词分层/微内核/提示词去重/Prompt Caching/提示词-代码分离/轻量Team Mode)
+- 结论: oh-my-openagent 展示所有Agent编排工程问题但设计过重；好的Agent架构应在强大和精简间平衡
+## [2026-05-17] ingest | pi-mono monorepo 完整源码分析
+- Source: ~/pi/ (本地完整源码)
+- Files created: raw/articles/pi-mono-2026.md, entities/pi-ai.md, entities/pi-mono.md
+- Files updated: entities/pi-coding-agent.md (大幅重写), index.md (新增3个实体条目)
+- 覆盖: pi-ai 统一多Provider LLM API(30+ Provider/stream&complete统一接口/Context序列化/惰性加载/TypeBox类型安全)、pi-agent-core Agent循环(两层循环/AgentMessage声明合并/跨Provider handoff)、pi-coding-agent(7工具/4模式/AgentSession~3100行/扩展系统60+事件/JSONL树会话/简洁system prompt)、pi-tui 终端UI组件(差分渲染)
+- 关键发现: pi与oh-my-openagent是Agent编排的两种极端哲学——最小核心+扩展 vs 最大功能集+Hook。pi的system prompt仅~0.5KB(对比omo的22KB)，通过AGENTS.md和skills提供上下文
 
-## [2026-04-09] ingest | AvP Forever 开源游戏 wiki note
-- Created: open-source-game/avp-forever.md (Aliens versus Predator 1999 源码维护项目，多分支 rebasing 策略叠加 icculus/neuromancer/scraft 等源码，Direct3D/SDL 多平台层，三族独立行为系统，嵌入式 Bink/Smacker/Miles 二进制库，需原版游戏数据)
-- Updated: index.md (total pages: 48), open-source-games-learning-checklist.md (行103 checkbox, 学习记录49), log.md
-
-## [2026-04-09] ingest | The Dark Mod 开源游戏 wiki note
-- Created: open-source-game/the-dark-mod.md (Doom 3/id Tech 4 引擎潜行 FPS，AAS 区域感知+AI 通信子系统+Memory 系统，170+ 社区任务，源码 GPL+资产 CC BY-NC-SA 3.0 双许可，C++17/CMake 跨平台)
-- Updated: index.md (total pages: 48), open-source-games-learning-checklist.md (行100 checkbox, 学习记录50), log.md
-
-## [2026-04-09] ingest | NakedAVP 开源游戏 wiki note
-- Created: open-source-game/nakedavp.md (Aliens vs Predator Classic 2000 SDL3 端口，双渲染器自动降级（OpenGL/GLES2），Win API 抽象层，三族独立 AI/武器/HUD，约 45K LOC C/C++)
-- Updated: index.md (total pages: 49), open-source-games-learning-checklist.md (行104 checkbox, 学习记录51), log.md
-
-## [2026-04-09] ingest | Surreal Engine 开源游戏 wiki note
-- Created: open-source-game/surreal-engine.md (Unreal Engine 1 清洁室重实现，D3D11+Vulkan 双渲染器，~99K LOC C++，SHA1DB 多游戏识别，Engine/Editor/Debugger 三应用入口，Unrealscript VM 部分实现（缺网络），仅 UT436/UnrealGold 可玩)
-- Updated: index.md (total pages: 49), open-source-games-learning-checklist.md (行107 checkbox, 学习记录52), log.md
-
-## [2026-04-09] ingest | Super Mario 64 开源游戏 wiki note
-- Created: open-source-game/super-mario-64.md (N64 经典 3D 平台跳跃完整反编译源码，2746 C 文件，src/engine/ 图节点渲染+src/game/ 游戏逻辑，支持 jp/us/eu/sh/cn 多版本构建，GPLv2，binutils-mips 交叉编译，baserom 资产提取)
-- Updated: index.md (total pages: 50), open-source-games-learning-checklist.md (行113 checkbox, 学习记录53), log.md
+## [2026-05-22] deep-dive | 12-Factor Agents 完整源码+生态研究
+- Source: ~/12-factor-agents/ (本地源码: README + 12 factors + packages create-12-factor-agent + walkthroughgen + drafts/a2h-spec.md + workshops)
+- Research angles: GitHub README + repo structure, 12 factors content, packages implementation, ecosystem research (HumanLayer, AgentControlPlane, got-agents/agents, BAML), competitive landscape (Anthropic Building Effective Agents)
+- Files created: raw/articles/12-factor-agents-2026.md (12KB), entities/12-factor-agents.md (5.7KB), concepts/context-engineering.md (4.2KB), concepts/agent-design-principles.md (5.4KB)
+- Files updated: index.md (header: 818→821, +4 entries)
+- 核心发现:
+  - 12-Factor Agents 是设计哲学文档，不是框架——20,500+ stars
+  - 作者 Dex (HumanLayer YC F24) 推广了 "Context Engineering" 术语
+  - 核心公式: Agent = Prompt + Switch + Context + Loop
+  - 10个因子覆盖从基础(NL→工具)到高级(无状态Reducer)
+  - 生态: HumanLayer(HITL API) + AgentControlPlane(K8s CRD) + create-12-factor-agent(脚手架) + got-agents(参考实现)
+  - 与 Anthropic "Building Effective Agents" 互补：12-Factor 更工程化、更具体
+- 关联现有页面: [[concepts/agent-loop-architecture]], [[concepts/context-compression]], [[concepts/mcp]]

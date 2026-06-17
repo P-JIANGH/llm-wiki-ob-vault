@@ -156,4 +156,4 @@ character_ai_config["TestBot"] = {
 [[multi-agent-ai-simulation]] — LLM 是对话能力的核心
 [[persistent-memory-system]] — 记忆为 LLM 提供上下文
 [[multi-agent-ai-game-impl]] — AIAgent 调用 APIManager 的完整流程
-[[microverse-dialog-system]] — ConversationManager 如何构造 Prompt
+microverse-dialog-system（已归档） — ConversationManager 如何构造 Prompt

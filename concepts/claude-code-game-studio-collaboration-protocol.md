@@ -3,9 +3,11 @@ title: Claude Code Game Studio Collaboration Protocol
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [workflow, collaboration, decision-making, design, protocol]
+tags: [workflow, collaboration, decision-making, protocol]
 sources: [raw/articles/claude-code-game-studios-2026.md]
 ---
+<!-- TODO: This page has 291 lines and should be split into smaller, focused pages per SCHEMA.md guidelines -->
+
 
 # Claude Code Game Studio Collaboration Protocol
 
@@ -283,9 +285,9 @@ User: "Yes."
 
 ## Related
 
-- [[claude-code-game-studios]] — Project overview
+- claude-code-game-studios（已归档） — Project overview
 - [[claude-code-game-studio-architecture]] — Agent hierarchy, coordination rules, model tiers
 - [[claude-code-game-studio-directory-structure]] — Directory structure
-- [[game-designer]] — Game designer agent role (applies this protocol)
-- [[creative-director]] — Creative director agent role (applies this protocol)
-- [[producer]] — Producer agent role (applies this protocol)
+- `game-designer` — Game designer agent role (applies this protocol)
+- `creative-director` — Creative director agent role (applies this protocol)
+- `producer` — Producer agent role (applies this protocol)

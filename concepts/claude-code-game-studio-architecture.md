@@ -3,7 +3,7 @@ title: Claude Code Game Studio Architecture
 created: 2026-04-08
 updated: 2026-04-08
 type: concept
-tags: [agent, architecture, workflow, coordination, multi-agent]
+tags: [agent, architecture, workflow, multi-agent]
 sources: [raw/articles/claude-code-game-studios-2026.md]
 ---
 
@@ -160,7 +160,7 @@ Calling skills read the first line for the verdict token.
 
 ## Related
 
-- [[claude-code-game-studios]] — Project overview entity page
+- claude-code-game-studios（已归档） — Project overview entity page
 - [[claude-code-game-studio-collaboration-protocol]] — Question → Options → Decision → Draft → Approval pattern
 - [[claude-code-game-studio-directory-structure]] — Project directory structure
 - [[multi-agent-ai-simulation]] — General multi-agent AI concepts

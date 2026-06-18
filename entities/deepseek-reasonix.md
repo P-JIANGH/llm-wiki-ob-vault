@@ -5,6 +5,7 @@ updated: 2026-05-25
 type: entity
 tags: [agent, agent-framework, cli, tui, typescript, deepseek, tool-calling, mcp, memory, coding, open-source]
 sources: [raw/articles/deepseek-reasonix-2026.md]
+_width: wide
 ---
 
 # DeepSeek-Reasonix (Reasonix)

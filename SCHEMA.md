@@ -30,6 +30,7 @@ Add new tags here BEFORE using them.
 
 **Topic Areas:**
 - agent, multi-agent, agent-framework, agent-swarm, agent-orchestration
+- harness, plugin, capability-seam, event-sourcing
 - llm, foundation-model, reasoning, planning, inference
 - tool-calling, function-calling, mcp, a2a, protocol
 - memory, rag, context, vector-database, embedding

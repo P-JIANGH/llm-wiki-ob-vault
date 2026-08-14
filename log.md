@@ -559,3 +559,88 @@
   - 生态: HumanLayer(HITL API) + AgentControlPlane(K8s CRD) + create-12-factor-agent(脚手架) + got-agents(参考实现)
   - 与 Anthropic "Building Effective Agents" 互补：12-Factor 更工程化、更具体
 - 关联现有页面: [[concepts/agent-loop-architecture]], [[concepts/context-compression]], [[concepts/mcp]]
+
+## [2026-06-18] ingest | Zerolang (vercel-labs/zerolang v0.3.4) — graph-native language for agents
+- Source: D:\zerolang\ (本地仓库 clone, v0.3.4, Apache-2.0, 214 MB)
+- Source-of-truth docs consulted: README.md, AGENTS.md, docs/articles/concepts/{graph-architecture, projections, semantic-vs-text, compile-path}.md, cli-reference.md, language-reference.md, getting-started.md, install.md, skills/zero/SKILL.md
+- Files created (7):
+  - raw/articles/zerolang-2026.md (14 KB, sha256 6ba3822de7d519da52942a52dc8abb181a1a7f93dd63f9986140a10761563dd1)
+  - entities/zerolang.md (12 KB) — 主条目：架构、CLI、目标、stdlib 概览、运行时目标
+  - entities/vercel-labs.md (2 KB) — 组织
+  - concepts/graph-native-programming.md (5 KB) — 核心论点
+  - concepts/semantic-patch-editing.md (4 KB) — graph patch vs text diff
+  - concepts/program-graph-store.md (5 KB) — zero.graph 二进制存储 + content-hash drift
+  - concepts/projection-source-view.md (5 KB) — .0 文件 + export/import/verify-projection
+- Files updated (2):
+  - index.md (header: 2026-05-25|824 → 2026-06-18|830, +6 entries: 2 entities + 4 concepts, 全部按字母序插入)
+  - log.md (本条)
+- 核心发现:
+  - Zerolang 是 vercel-labs 实验项目，v0.3.4 Apache-2.0 pre-1.0, C-implemented compiler
+  - 论点: `zero.graph` (二进制 content-hashed store) 是程序数据库，`.0` 文件是 projections
+  - Agent 的 normal edit surface 是 checked `zero patch` 操作（typed op + precondition）而不是文本 diff
+  - 5 种 status: clean / missing / stale / conflicting / unavailable, content-hash 决定（不是 file timestamp）
+  - 8 个 native targets (darwin-arm64/x64, linux-arm64/x64/musl-arm64/musl-x64, win32-arm64/x64.exe)
+  - 33 stdlib 模块, ~39 KB bundled stdlib skill
+  - version-matched skills: agent/language/graph/diagnostics/packages/builds/testing/stdlib (不能复用跨 session)
+  - 7 层 implicit safety: graph hash / node hash / field expect / typed op name / dry-run / check-only / explicit status
+- Cross-references 创建/更新:
+  - 链接到: [[concepts/agent-loop-architecture]], [[concepts/context-engineering]], [[concepts/agent-design-principles]], [[entities/12-factor-agents]], [[entities/pi-coding-agent]], [[entities/oh-my-openagent]], [[entities/langgraph]], [[entities/claude-code]]
+  - 关系图: pi-coding-agent (7 tools / 4 modes) ≈ oh-my-openagent (max features + Hook) vs Zerolang (min core + typed ops) — 同问题不同解
+  - LangGraph graphs the agent's state machine; Zerolang graphs the program being authored — 同词不同层
+  - 显式不做: 不抓 33 stdlib 模块细节;不抓 165 examples;不抓 tests/benchmarks 源码 (量太大, 不是 agent-first 核心论点)
+  - 关联现有页面: [[concepts/agent-loop-architecture]], [[concepts/context-engineering]], [[entities/12-factor-agents]], [[entities/pi-coding-agent]], [[entities/oh-my-openagent]], [[entities/langgraph]], [[concepts/agent-design-principles]]
+
+## [2026-06-18] ingest | Ling 灵 (jiangh_hnr/ling-lang v0.0.6) — AI-first bilingual PL, codemap-as-IR
+- Source: F:\ling-lang\ (本地仓库 clone, v0.0.6, MIT, Rust 2021, 目标 LLVM 20)
+- Source-of-truth docs consulted: README.md, AGENTS.md, Cargo.toml, examples/*.ling (10), 6 pivotal ADRs (0002 L1 战略、0006 codemap-as-design-surface、0007 LCN 格式、0013 效应 组合 1、0016 κᵧ 编译管道、0022 性能预算、0024 daemon 模型、0027 MCP 访问), .harness/ 6-rein 配置
+- Files created (6):
+  - raw/articles/ling-lang-2026.md (18 KB, sha256 9b8a0e6bcda566eb407bd6ebc22ea17f441e78a33646b6cff93f3c763751dbe2)
+  - entities/ling-lang.md (12 KB) — 主条目：L1-L4 架构、κᵧ 管道、LCN、效应、harness、roadmap
+  - concepts/codemap-as-design-surface.md (7 KB) — 核心论点 + 范式转换表 + 与 graph-native 对比
+  - concepts/effect-system-pure-first.md (8 KB) — 组合 1 + reverse-check 算法 + 与 Koka/Rust/Zig 对比
+  - concepts/lcn-s-expression-format.md (6 KB) — LCN 序列化 + 与 EDN/WAT/Lisp S-exp 对比
+  - comparisons/ai-first-programming-languages.md (15 KB) — Ling vs Zerolang vs Mojo/Carbon/APL 系/MPS 横向对比
+- Files updated (1):
+  - index.md (header: 830→835, +5 entries: 1 entity + 3 concepts + 1 comparison, 全部按字母序插入)
+- 核心发现:
+  - 论点: codemap (LCN S-exp) 是 canonical IR, source code 是 projection, AI 通过 MCP/LSP tools 访问 (ADR 0027)
+  - 27 个 immutable ADR, 9 个 L1-L4 层, 6-rein AI 团队 harness
+  - 效应系统 组合 1: default=pure, IO must tag (!FS/!Net/!Clock/!Rand/!Panic), reverse-check 证明纯度
+  - κᵧ 编译管道: codemap 是 canonical, AST 是 parse-time view, MIR 是 backend-adapter view
+  - Daemon 模型 hybrid: DaemonBackend (Unix socket) + FileBackend (读 .lcn), 同一 trait
+  - Performance budget 详细: 增量编译 200ms→100ms floor, codemap 查询 20ms→10ms, LSP/MCP round-trip 40ms→20ms
+  - 中英双语关键字: `让`/`let` 同 `TokenKind`, 一套 tokenizer
+  - Roadmap: 设计锁 (27 ADR), v0.0.6 完成效应系统 baseline, v0.1+ 才是 production-grade 起点
+- Cross-references 创建/更新:
+  - 链接到: [[entities/zerolang]] / [[concepts/graph-native-programming]] / [[concepts/semantic-patch-editing]] / [[concepts/program-graph-store]] / [[concepts/projection-source-view]] / [[entities/mcp]] / [[entities/12-factor-agents]]
+  - 关系图: Ling (document-shaped IR + MCP tools + daemon) vs Zerolang (graph-shaped IR + zero patch + no daemon) — 同问题两种解
+  - 关键对比维度: IR 形态 (graph vs document), edit surface (patch vs MCP tools), bidirectional sync (单 vs 双向), narrative fields (无 vs 一等)
+  - 安全模型对比: Ling effect tags (signature 层可见, reverse-check 证明) vs Zerolang capabilities (参数传递, 无 ambient)
+- 显式不做: 不抓 27 ADR 全部 (只抓核心 8 个);不抓 13 个 src/ 模块实现细节;不抓 10 个 examples 全部;不抓 .harness/ reins 内部 agent.md
+- 关联现有页面: [[entities/zerolang]], [[concepts/codemap-as-design-surface]], [[concepts/effect-system-pure-first]], [[concepts/lcn-s-expression-format]], [[comparisons/ai-first-programming-languages]], [[entities/mcp]], [[concepts/agent-loop-architecture]], [[concepts/agent-design-principles]]
+
+## [2026-08-14] ingest | DeepSeek Harness (dsh) — DeepSeek AI 官方开源 agent harness
+- Source: F:\deepseek-harness\ (本地仓库完整源码研究, master 47f943859b, v0.1.0-rc.5, MIT)
+- Source-of-truth docs consulted: README/README.zh, AGENTS.md, docs/architecture.md, docs/cordis-primer.md, docs/development.md, docs/capability-seams.md, docs/subsystems/ (core/session/tools/llm-streaming/subagent/compaction/web/shell/typert), packages/core/agent-loop/src/agent.ts + tool-calls.ts, packages/core/session/src/types.ts, vendor/README.md (17项本地修改日志), .agents/notes (1372条, 抽样 capability-seams Agent Note)
+- Files created (8):
+  - raw/articles/deepseek-harness-2026.md (19 KB, sha256 7f168f9a4795c5532049c8c8bbb522eb283a4aad6842608a8c521e02ee0d40a8)
+  - entities/deepseek-harness.md (5 KB) — 主条目: 一切皆插件/事件溯源会话/capability seam/turn-step 循环/1372 Agent Notes
+  - entities/cordis.md (4 KB) — vendored 插件框架: 5要素/4种派发/17+本地修改
+  - concepts/capability-seam.md (4 KB) — Service Definition/Provider/Consumer 三角色模式 + 完整接缝清单
+  - concepts/event-sourced-session-log.md (4.5 KB) — SessionEventMap + surface replace + deriveMessages
+  - concepts/agent-turn-step-loop.md (5 KB) — turn/step 流水线 + pre-step 拦截 + 工具调度
+  - concepts/plugin-everything-architecture.md (4.7 KB) — 声明合并扩展 + profile/bundle/patch 组合
+  - comparisons/agent-harness-frameworks.md (4 KB) — dsh vs LangGraph vs OpenHarness vs nanobot/OpenClaw vs learn-claude-code
+- Files updated (2):
+  - SCHEMA.md (新增 tags: harness, plugin, capability-seam, event-sourcing)
+  - index.md (header: 835→842, +7 entries: 2 entity + 4 concept + 1 comparison, 全部按字母序插入)
+- 核心发现:
+  - dsh 是"agent 即操作系统"范式: 无特权核心, 模型适配器/工具注册表/会话日志/agent loop 本身都是 Cordis 插件
+  - capability seam 三角色 (Definition/Provider/Consumer) 让换后端 (本地bash→沙箱→pwsh→E2B) 不碰模型契约
+  - 事件溯源会话: SessionEvent append-only log 是单一事实来源, LLM 历史从日志派生, surface replace 支持无模型上下文压缩
+  - 1372 条 Agent Notes = 用 agent 开发 agent 的工程文化, 每个架构决策可检索
+  - 双面 (Host/Client) TS 工程 + Typert 生成式 Remote 解决跨进程类型共享
+  - 桥接层: hooks-claude-code/hooks-codex 可把 Claude Code/Codex 作为执行后端接入
+- Cross-references 创建/更新:
+  - 链接到: [[entities/openharness]], [[entities/langgraph]], [[entities/nanobot]], [[entities/openclaw]], [[entities/learn-claude-code]], [[concepts/agent-loop-architecture]], [[concepts/agent-design-principles]]
+- 显式不做: 不抓 1372 条 Agent Notes 全部 (只抽样 capability-seams); 不抓 vendor/cordis 内部实现细节 (只提炼概念); 不抓 web UI 前端组件细节; 不抓 python/sdk 全部 API

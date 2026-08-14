@@ -2,7 +2,7 @@
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
 > Read this first to find relevant pages for any query. 按技能领域导航见 [[_meta/topic-map]]。
-> Last updated: 2026-05-25 | 824 | Domain: AI Agent 系统架构 / Agentic System Design
+> Last updated: 2026-08-14 | 842 | Domain: AI Agent 系统架构 / Agentic System Design
 
 ## AI / LLM / Agent
 
@@ -23,10 +23,12 @@
 | [[entities/claude-code]] — Anthropic 官方 CLI 工具，让 Claude 模型在终端中执行编码任务。支持项目级代码编辑、Git 操作、bash 命令执行等。 |
 | [[entities/clawteam]] — Agent Swarm Intelligence 框架，由 [[hkuds]] 开发。GitHub: https://github.com/HKUDS/Claw |
 | [[entities/cogvideo]] — 国内开源的视频生成大模型，基于 [[stable-diffusion]] 架构扩展。 |
+| [[entities/cordis]] — 插件框架（vendored 进 dsh）。Context 服务仓库 + inject 依赖 + 可逆副作用 + 4 种事件派发。 |
 | [[entities/coze-studio]] — Coze Studio 是字节跳动 Coze（扣子）平台的本地私有化部署版本。开源核心功能包括完整的工作流引擎、插件核心框架、开箱即用的开发环境。上线两天 Gi |
 | [[entities/cursor]] — AI 驱动的代码编辑器，基于 VS Code。 |
 || [[entities/deepseek-tui]] — Terminal-native coding agent built around DeepSeek V4's 1M-token context and pre |
 || [[entities/deepseek]] — 国内 AI 公司，专注于开源大语言模型。 |
+| [[entities/deepseek-harness]] — DeepSeek AI 官方开源 agent harness（dsh）。一切皆插件（Cordis）+ 事件溯源会话 + capability seam，生产级框架。 |
 || [[entities/deepseek-reasonix]] — DeepSeek-native terminal coding agent engineered around prefix-cache stability. MIT, ~5.2k stars, 99.82% cache hit rate. |
 || [[entities/deer-flow]] — <!-- TODO: This page has 269 lines and should be split into smaller, focused pag |
 | [[entities/eino]] — Go 语言的多 Agent 编排框架，专注于构建 LLM 驱动的应用。 |
@@ -46,6 +48,7 @@
 | [[entities/langchain]] — LLM 应用开发框架，提供：Chain（链式调用）/ Agent（工具 + 推理）/ Memory（上下文持久化）/ Tool（工具集成）/ Prompt（模板 |
 | [[entities/langgraph]] — 由 [[langchain]] 开发的 **multi-agent 编排框架**，以 **graph** 结构建模 agent 工作流：节点 = 工具/LLM/ |
 | [[entities/learn-claude-code]] — 12 节渐进式课程，从零构建类 Claude Code 的 agent harness。GitHub 54.7k stars，MIT license。 |
+| [[entities/ling-lang]] — 灵 (Ling)：AI-first 中英双语编程语言（v0.0.6, jiangh_hnr）。27 个 immutable ADR，codemap-as-IR，pure-first 效应系统，Rust+LLVM 20，自研 MIR + 多后端。 |
 | [[entities/llama-2]] — Meta 推出的 LLaMA 2 系列，首个开放商用许可的开源 LLM。 |
 | [[entities/llama-cpp]] — 用 C/C++ 实现的高效 LLM 推理工具，支持 GGUF 量化格式。 |
 | [[entities/llama]] — Meta 推出的开源大语言模型系列。从 LLaMA 1 到 LLaMA 3，经历了从封闭研究到部分开源再到全面开放的演进。 |
@@ -93,6 +96,8 @@
 || [[entities/pi-coding-agent]] — @earendil-works/pi-coding-agent 终端编码 Agent CLI。7 默认工具 + 4 种模式 + 60+ 事件类型扩展系统 + JSONL 树会话管理 |
 || [[entities/whisper]] — OpenAI 开源的语音识别模型，支持多语言转录和翻译。 |
 
+|| [[entities/vercel-labs]] — Vercel 实验性开源组织（vercel-labs），发布 [[entities/zerolang]] 等 agent 方向项目。 |
+|| [[entities/zerolang]] — vercel-labs 的图原生编程语言（v0.3.4）：`zero.graph` 是程序数据库，`.0` 文件是投影，agent 通过 `zero patch` 提交 checked 语义编辑。 |
 ## Concepts
 
 | [[concepts/agent-cli-tui-learning-path]] — 构建 Agent-CLI/TUI 所需的核心知识体系与入手路径。内容综合自 wiki 中已有实体页面，按优先级排序。 |
@@ -101,6 +106,7 @@
 | [[concepts/agent-loop]] — AI Agent 的核心执行循环模式：LLM 与工具之间反复交互，直到任务完成或达到迭代上限。 |
 | [[concepts/agent-swarm]] — 一种多 Agent 协作架构模式：多个专用 Agent 在一个 Leader 协调下组成团队，共享任务、消息和工作空间，自主完成复杂目标。 |
 | [[concepts/agent]] — [[autonomous-agents]] / [[agent-loop]] |
+| [[concepts/agent-turn-step-loop]] — turn/step 生命周期：step = 一次模型请求+工具，turn = 0+ step；agent/pre-step 拦截、工具调度、max-tokens sticky。 |
 | [[concepts/agentic-system-designer-career-path]] — > 从"写代码的人"到"设计智能体系统的人"——AI 时代最稀缺的新一代工程师角色。 |
 | [[concepts/ai-agent-development-platform]] — AI Agent 开发平台是提供可视化工具用于创建、调试和部署 AI Agent 的集成开发环境。核心能力通常包括：提示词编排、检索增强生成（RAG）、插件系统 |
 | [[concepts/ai-game-devtools-catalog]] — > AI 游戏开发工具全栈追踪知识库，约 840+ 项目覆盖 16 个大类，由独立开发者 Yuan-ManX 维护。 |
@@ -112,6 +118,7 @@
 | [[concepts/blip-2]] — [[vision-language-models]] / [[multimodal-models]] |
 | [[concepts/broker-interface]] — 统一的 broker 抽象接口，`BrokerInterface` 是所有 broker 适配器的基类。支持 20+ broker，覆盖 Indian、US、I |
 || [[concepts/cache-first-agent-loop]] — 为最大化 LLM prefix-cache 命中率而设计的 Agent 上下文分区策略：Immutable Prefix + Append-Only Log + Volatile Scratch。 |
+| [[concepts/capability-seam]] — 可替换能力三角色：Service Definition / Provider / Consumer 分包，换后端不动模型契约。 |
 || [[concepts/tool-call-repair]] — 多轮修复流水线，处理 LLM 工具调用中的 thought-leakage、参数丢失、重复调用风暴和 JSON 截断问题。 |
 || [[concepts/channel-system]] — Channel System 是一种将多聊天平台接入与核心 Agent 逻辑解耦的架构模式。所有渠道通过统一 Message Bus 与核心通信，核心 Agen |
 | [[concepts/claude-code-game-studio-architecture]] — A tiered agent hierarchy that mirrors a real indie game studio's organizational  |
@@ -119,6 +126,7 @@
 | [[concepts/claude-code-game-studio-directory-structure]] — 用 [[claude-code]] 或类似 AI 编程工具开发游戏时的推荐项目目录结构模板。 |
 | [[concepts/context-compression]] — 在大规模多轮对话中管理 LLM 上下文窗口的技术。当对话长度接近模型的 context limit 时，需要压缩历史消息同时保留关键信息。 |
 | [[concepts/context-engineering]] — 优化 LLM 输入的设计与实践。核心思想：最大化信息密度、Token 效率和模型表现。源于 [[entities/12-factor-agents]] Factor 3。 |
+| [[concepts/codemap-as-design-surface]] — Codemap as design surface（ADR 0006 范式转换）：codemap 是 canonical IR，source 是 projection，structured + narrative 双字段，AI 通过 MCP/LSP tools 访问。 |
 | [[concepts/datahub-architecture]] — 每个 screen/widget 独立轮询自己的数据: |
 | [[concepts/deepseek-tui-coordinator]] — A reusable **multi-agent git-worktree sprint pattern** for coordinating large De |
 | [[concepts/deepseek-tui-memory]] — A persistent cross-session note file injected into the system prompt every turn. |
@@ -130,7 +138,9 @@
 | [[concepts/diffusion-models]] — 扩散模型，生成式 AI 的核心技术之一。广泛应用于图像、音频、视频生成。 |
 | [[concepts/eino-framework]] — Eino 是字节跳动自研的 LLM 应用开发框架，属于 CloudWeGo 生态的一部分（与 Hertz HTTP 框架并列）。为 LLM 应用提供 Agent |
 | [[concepts/electron]] — [[desktop-applications]] / [[javascript]] |
+| [[concepts/effect-system-pure-first]] — Pure-first effect system（组合 1）：默认 pure，IO 函数必须标 `!FS`/`!Net`/`!Clock`/`!Rand`/`!Panic`，reverse-check 证明纯度。finite + decidable，~1 周实现。 |
 | [[concepts/fincept-ai-agents]] — Fincept Terminal 内置 37 个 AI Agent，覆盖 Trader/Investor 人格、经济分析、地缘政治等。通过 Agno 框架驱动， |
+| [[concepts/event-sourced-session-log]] — 事件溯源会话：append-only SessionEvent log，消息历史从日志派生，surface replace 支持无模型压缩。 |
 | [[concepts/fincept-auth-system]] — Fincept Terminal 的认证系统包含多层安全: JWT 登录、OTP/MFA 验证、PIN 锁屏、会话恢复、设备 ID 生成。13 个源文件，模块清 |
 | [[concepts/fincept-data-connectors]] — Fincept Terminal 集成 100+ 数据连接器，覆盖市场数据、经济数据、另类数据等多维度金融信息源。通过 Python 脚本和 C++ HTTP  |
 | [[concepts/fincept-storage-system]] — Fincept Terminal 使用 SQLite 作为本地持久化存储，采用 Repository 模式 + Migration 系统 + Cache 层 + |
@@ -140,11 +150,13 @@
 | [[concepts/flowgram]] — FlowGram 是字节跳动自研的**基于节点的可视化工作流构建引擎**，通过前端拖拽式编辑器帮助开发者快速创建固定布局或自由连线的复杂工作流。已在飞书低代码平 |
 | [[concepts/foundation-models]] — 基础模型，由斯坦福 HAI 提出，指在大规模数据上预训练、能适配多种下游任务的模型。 |
 | [[concepts/generative-agents]] — 斯坦福大学 2023 年发表的论文 *"Generative Agents: Interactive Simulacra of Human Behavior"* |
+| [[concepts/graph-native-programming]] — 图原生编程：把语义图作为程序数据库（而非文本）。[[entities/zerolang]] 是最知名的实现（v0.3.4, vercel-labs）。 |
 | [[concepts/haystack]] — [[rag-systems]] / [[llm-integration]] |
 | [[concepts/hugging-face-transformers]] — [[llm-integration]] / [[model-hub]] |
 | [[concepts/image-generation]] — AI 图像生成技术，是 AIGC（AI Generated Content）的重要组成部分。 |
 | [[concepts/linear-attention]] — 线性注意力，将 O(N²) 的注意力复杂度降为 O(N) 的技术。 |
 | [[concepts/litgpt]] — [[llm-training]] / [[llm-from-scratch]] |
+| [[concepts/lcn-s-expression-format]] — LCN (Ling Config Notation)：codemap 的 S-expression 序列化格式。`.ling` 源码也是 S-exp，一套解析器两个视图；bilingual Chinese-English keywords；narrative fields（`意图` / `示例`）是一等公民。 |
 | [[concepts/llama.cpp]] — [[llm-inference]] / [[quantization]] |
 | [[concepts/llamaindex]] — [[rag-systems]] / [[llm-integration]] |
 | [[concepts/llava]] — [[multimodal-models]] / [[vision-language-models]] |
@@ -179,9 +191,12 @@
 | [[concepts/opencode-improvements]] — 基于 OpenCode 现状和竞品（nanobot、Claude Code）分析，整理出以下改造方向。 |
 | [[concepts/opengvlab]] — [[vision-language-models]] / [[multimodal-evaluation]] |
 | [[concepts/persistent-memory-system]] — AI 角色的长期记忆存储系统，角色能记住历史对话和事件，形成连续的生活体验。 |
+| [[concepts/plugin-everything-architecture]] — 一切皆插件：无特权核心，注册皆可逆副作用，声明合并扩展 map，profile/bundle/patch 组合。 |
 | [[concepts/provider-registry]] — 一种插拔式（pluggable）LLM Provider 架构模式，通过单一数据结构（`ProviderSpec` 元组）集中定义所有 Provider 元数据 |
 | [[concepts/pubsub-pattern]] — 发布/订阅模式是一种消息传递范式， publishers（发布者）和 subscribers（订阅者）通过 topic（主题）解耦。发布者不知道谁在订阅，订阅者 |
 | [[concepts/python-integration]] — C++ 通过 `PythonRunner` (QProcess 子进程) 调用 `scripts/` 下 100+ Python 脚本。脚本输出 JSON 到  |
+| [[concepts/program-graph-store]] — 程序图存储：二进制、内容寻址、shape-validated 的程序状态库。[[entities/zerolang]] 的 `zero.graph` 是典型代表。 |
+| [[concepts/projection-source-view]] — 源代码视图的投影：图原生语言中，文本文件（`.0`）是从图 store 投影出的可读视图，供人 review/逃生口使用，通过 export/import/verify-projection 显式同步。 |
 | [[concepts/qloRA]] — Quantized LoRA，结合量化与 LoRA 的高效微调方法。 |
 | [[concepts/quantlib-integration]] — Fincept Terminal 通过 `QuantLibClient` 封装 QuantLib 库，提供 18 个量化分析模块，覆盖衍生品定价、风险管理、随机 |
 | [[concepts/qwen2.5]] — [[open-source-llm-projects]] / [[foundation-models]] |
@@ -190,6 +205,7 @@
 | [[concepts/rotary-embedding]] — 大语言模型中常用的位置编码方法，由 LLaMA 采用。 |
 | [[concepts/rwkv-lm]] — [[llm-architectures]] / [[linear-attention]] |
 | [[concepts/sglang]] — [[llm-inference]] / [[vllm]] |
+| [[concepts/semantic-patch-editing]] — 语义补丁编辑：agent 用 checked 类型化操作（`--expect-graph-hash`、field-expect、`replaceFunctionBody`、`replaceBlockBody`）编辑程序图，而非文本 diff。 |
 | [[concepts/stanford-generative-agents]] — 斯坦福 2023 年 4 月发表的论文 *"Generative Agents: Interactive Simulacra of Human Behavior |
 | [[concepts/tool-registry-pattern]] — hermes-agent 的工具系统使用**中心注册表**设计模式：所有工具模块在 import 时自注册，而不是在注册中心硬编码。 |
 | [[concepts/transformers]] — Attention Is All You Need 论文提出的架构，是现代 LLM 的基础。 |
@@ -203,6 +219,8 @@
 ## Comparisons
 
 | [[comparisons/agent-framework-comparison]] — > 2026年5月更新。基于源码深度分析 + 官方文档 + 社区动态。 |
+| [[comparisons/agent-harness-frameworks]] — agent harness 横向对比：dsh vs LangGraph vs OpenHarness vs nanobot/OpenClaw vs learn-claude-code。 |
+| [[comparisons/ai-first-programming-languages]] — AI-first 编程语言横向对比：[[entities/ling-lang]] vs [[entities/zerolang]] + Mojo / Carbon / APL 系 / JetBrains MPS 等参照。聚焦 canonical IR、edit 路径、效应/能力模型、AI 工具集成。 |
 | [[comparisons/nanobot-vs-opencode]] — / 维度 / [[nanobot]] / [[OpenCode]] / |
 
 ## AI & ML Tools
